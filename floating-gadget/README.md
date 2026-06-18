@@ -1,6 +1,6 @@
 # World Cup Floating Gadget
 
-这是 `worldcup-gadget` 的 macOS Electron 世界杯桌面足球悬浮球，不会替换或影响原有 Dashboard。
+这是 `worldcup-gadget` 的 Electron 世界杯桌面足球悬浮球，支持 macOS 和 Windows，不会替换或影响原有 Dashboard。
 
 应用启动后会在屏幕右侧偏上显示一个约 56px 的足球样式悬浮球。点击球体后展开深色半透明战报面板，默认展示最新结束的一场比赛；点击“查看更多”可查看 `latest.json` 中的全部比赛。
 
@@ -25,8 +25,30 @@ npm run electron:install
 
 ## 启动
 
+开发方式启动：
+
 ```bash
 npm start
+```
+
+如果你希望启动后不依赖 Terminal / PowerShell 窗口，请从项目根目录使用 detached 启动脚本。
+
+macOS：
+
+```bash
+./scripts/start-floating-gadget.sh
+```
+
+macOS 如需从脚本停止：
+
+```bash
+./scripts/stop-floating-gadget.sh
+```
+
+Windows：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\start-floating-gadget.ps1
 ```
 
 如果启动时提示 `Electron 没有安装完整`，说明 npm 包已经在 `node_modules` 里，但 Electron 桌面运行时 binary 没有下载成功。请先重新运行：
@@ -40,6 +62,7 @@ npm install
 启动后：
 
 - 点击足球悬浮球展开战报；
+- 按 `Control + Alt + W` 可以显示 / 唤醒已经运行的 collapsed 小足球悬浮球；macOS 键盘上是 `Control + Option + W`；
 - 长按足球悬浮球约 0.4 秒后拖动，可移动悬浮球；
 - 右键足球悬浮球会弹出操作对话框，可选择“退出悬浮球”或“查看网页（预留）”；
 - 拖动面板标题区域可移动面板；
@@ -47,7 +70,43 @@ npm install
 - 点击“只看最新”回到最新一场比赛；
 - 点击“刷新”重新读取 `latest.json`，成功后会短暂显示提示；
 - 点击“收起”回到悬浮球；
-- 按 `Command + Q` 可退出应用。
+- 点击“退出”或右键选择“退出悬浮球”可真正退出应用。
+
+## 快捷键与单实例
+
+应用内部注册了 Electron `globalShortcut`：
+
+```text
+Control + Alt + W
+```
+
+当 gadget 已经运行时：
+
+- 如果窗口隐藏或最小化，会显示并聚焦；
+- 如果当前是 expanded 面板，会收起成 collapsed 小足球；
+- 如果当前已经是 collapsed 小足球，会保持 collapsed 状态；
+- 不会直接展开战报内容，用户需要手动点击小足球才会展开。
+
+应用也启用了 Electron single instance lock。再次执行启动脚本时，不会创建多个悬浮球，而是唤醒已有实例。
+
+系统级快捷键和 Electron 内部快捷键是两层：
+
+- 系统级快捷键负责“启动未运行的 gadget”。
+- Electron `globalShortcut` 负责“显示已经运行的 collapsed 小足球悬浮球”。
+
+macOS 系统级快捷键请参考：
+
+```text
+../docs/macos-keyboard-shortcut.md
+```
+
+Windows 可以从项目根目录运行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\install-windows-hotkey.ps1
+```
+
+它会在 Desktop 创建 `WorldCup Gadget.lnk`，并设置 `Ctrl + Alt + W`。Windows 的 `.lnk` 热键通常要求快捷方式位于 Desktop 或 Start Menu 中。
 
 ## 数据来源
 
@@ -73,6 +132,8 @@ npm install
 - 不读取私人文件；
 - 不安装 LaunchAgent；
 - 不修改 macOS 系统设置；
+- 不修改 Windows 注册表；
+- 不要求管理员权限；
 - 不包含开机自启；
 - “查看网页”按钮当前只是预留接口，不会打开外部网页，也不会联网。
 

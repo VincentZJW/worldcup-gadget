@@ -17,7 +17,18 @@ worldcup-gadget/
 │   ├── update_data.sh
 │   ├── open_dashboard.sh
 │   ├── install_launchagent.sh
-│   └── uninstall_launchagent.sh
+│   ├── uninstall_launchagent.sh
+│   ├── start-floating-gadget.sh
+│   ├── stop-floating-gadget.sh
+│   ├── start-floating-gadget.ps1
+│   ├── start-floating-gadget.bat
+│   └── install-windows-hotkey.ps1
+├── docs/
+│   └── macos-keyboard-shortcut.md
+├── floating-gadget/
+│   ├── main.js
+│   ├── preload.js
+│   └── src/
 └── launchd/
     └── com.vincent.worldcupdashboard.plist.template
 ```
@@ -34,6 +45,77 @@ chmod +x scripts/*.sh
 `open_dashboard.sh` 会先检查 `data/latest.json`。文件存在时绝不会覆盖；文件缺失时才创建 demo JSON。随后在 `127.0.0.1:8787` 启动仅本机可访问的 Python HTTP server，优先用 Google Chrome app mode 打开，未安装 Chrome 时回退到 Safari，并尝试将窗口放在屏幕右上角。
 
 首次调整窗口时，macOS 可能询问是否允许终端或脚本控制 Finder、Chrome / Safari。拒绝只会跳过自动调整窗口，不影响页面打开。
+
+## 跨平台启动足球悬浮球
+
+`floating-gadget` 是 Electron 桌面悬浮球版本。它读取同一个 `data/latest.json`，启动后不需要 Terminal / PowerShell 持续打开。
+
+首次使用前需要安装 Electron 依赖：
+
+```bash
+cd floating-gadget
+npm install
+```
+
+### macOS 启动
+
+```bash
+./scripts/start-floating-gadget.sh
+```
+
+如果需要从脚本停止 macOS 悬浮球：
+
+```bash
+./scripts/stop-floating-gadget.sh
+```
+
+如需系统级快捷键启动未运行的 gadget，请使用 macOS Shortcuts / 快捷指令绑定 `Control + Option + W`。详细步骤见：
+
+```text
+docs/macos-keyboard-shortcut.md
+```
+
+### Windows 启动
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\start-floating-gadget.ps1
+```
+
+也可以双击：
+
+```text
+scripts\start-floating-gadget.bat
+```
+
+### Windows 创建桌面快捷键
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\install-windows-hotkey.ps1
+```
+
+脚本会在用户 Desktop 创建 `WorldCup Gadget.lnk`，并设置快捷键：
+
+```text
+Ctrl + Alt + W
+```
+
+Windows 的 `.lnk` 热键通常要求快捷方式位于 Desktop 或 Start Menu 中。
+
+### 已运行时的 Electron 内部快捷键
+
+当 `floating-gadget` 已经运行时，Electron 内部注册了：
+
+```text
+Control + Alt + W
+```
+
+它只会显示 / 唤醒 collapsed 小足球悬浮球；如果当前是展开面板，也会先收回成小足球。它不会直接打开战报内容。注意：
+
+- 系统级快捷键负责“启动未运行的 gadget”。
+- Electron `globalShortcut` 负责“显示已经运行的 collapsed 小足球悬浮球”。
+- 两者不是同一个层级。
+
+如果 gadget 已经运行，再次执行启动脚本不会产生多个悬浮球；Electron 的 single instance lock 会唤醒已有窗口，并显示 collapsed 小足球。
 
 ## 安装每天早上 10 点自动打开
 

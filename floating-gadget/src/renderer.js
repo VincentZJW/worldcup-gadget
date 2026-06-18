@@ -6,6 +6,7 @@
   const ballButton = document.getElementById("ball-button");
   const collapseButton = document.getElementById("collapse-button");
   const refreshButton = document.getElementById("refresh-button");
+  const quitButton = document.getElementById("quit-button");
   const moreButton = document.getElementById("more-button");
   const latestContainer = document.getElementById("latest-match");
   const allMatchesContainer = document.getElementById("all-matches");
@@ -331,12 +332,28 @@
     await window.gadgetAPI.collapseWindow();
   }
 
+  function showBallOnly() {
+    showingAll = false;
+    moreButton.setAttribute("aria-expanded", "false");
+    moreButton.querySelector("span").textContent = "查看更多";
+    moreButton.querySelector(".more-button__arrow").textContent = "↓";
+    allMatchesSection.hidden = true;
+    panelView.hidden = true;
+    ballView.hidden = false;
+    document.body.dataset.mode = "ball";
+    resetBallPointerState();
+  }
+
   function toggleAllMatches() {
     showingAll = !showingAll;
     allMatchesSection.hidden = !showingAll;
     moreButton.setAttribute("aria-expanded", String(showingAll));
     moreButton.querySelector("span").textContent = showingAll ? "只看最新" : "查看更多";
     moreButton.querySelector(".more-button__arrow").textContent = showingAll ? "↑" : "↓";
+  }
+
+  async function quitApp() {
+    await window.gadgetAPI.quitApp();
   }
 
   ballButton.addEventListener("pointerdown", onBallPointerDown);
@@ -358,7 +375,9 @@
   });
   collapseButton.addEventListener("click", collapsePanel);
   refreshButton.addEventListener("click", () => readReport("refreshReport"));
+  quitButton.addEventListener("click", quitApp);
   moreButton.addEventListener("click", toggleAllMatches);
+  window.gadgetAPI.onShortcutShowBall(showBallOnly);
 
   window.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && document.body.dataset.mode === "panel") collapsePanel();

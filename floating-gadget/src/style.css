@@ -469,6 +469,17 @@ h1 {
   background: rgba(255, 79, 154, 0.1);
 }
 
+.icon-button--danger {
+  border-color: rgba(255, 113, 139, 0.24);
+  color: #ffc6d1;
+  background: rgba(92, 16, 35, 0.24);
+}
+
+.icon-button--danger:hover {
+  border-color: rgba(255, 113, 139, 0.48);
+  background: rgba(255, 79, 103, 0.16);
+}
+
 .icon-button:disabled {
   cursor: wait;
   opacity: 0.55;

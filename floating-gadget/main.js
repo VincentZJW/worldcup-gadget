@@ -1,18 +1,24 @@
 "use strict";
 
-const { app, BrowserWindow, dialog, ipcMain, screen } = require("electron");
+const { app, BrowserWindow, dialog, globalShortcut, ipcMain, screen } = require("electron");
 const fs = require("node:fs/promises");
+const fsSync = require("node:fs");
+const os = require("node:os");
 const path = require("node:path");
 
 const BALL_SIZE = 64;
 const PANEL_WIDTH = 420;
 const PANEL_HEIGHT = 620;
 const SCREEN_MARGIN = 20;
+const GLOBAL_SHOW_BALL_SHORTCUT = "Control+Alt+W";
 const REPORT_PATH = path.resolve(__dirname, "..", "data", "latest.json");
+const PID_FILE = path.join(os.tmpdir(), "worldcup-floating-gadget.pid");
 
 let gadgetWindow = null;
 let windowShown = false;
 let dragState = null;
+let isPanelExpanded = false;
+let ownsPidFile = false;
 
 function clamp(value, min, max) {
   return Math.min(Math.max(value, min), max);
@@ -53,6 +59,35 @@ function applyWindowSize(width, height) {
   gadgetWindow.setBounds(resizedBounds(width, height), true);
   gadgetWindow.setAlwaysOnTop(true, "floating");
   return true;
+}
+
+function expandWindow() {
+  isPanelExpanded = true;
+  return applyWindowSize(PANEL_WIDTH, PANEL_HEIGHT);
+}
+
+function collapseWindow() {
+  isPanelExpanded = false;
+  return applyWindowSize(BALL_SIZE, BALL_SIZE);
+}
+
+function writePidFile() {
+  try {
+    fsSync.writeFileSync(PID_FILE, `${process.pid}\n`, "utf8");
+    ownsPidFile = true;
+  } catch (error) {
+    console.warn(`Unable to write PID file at ${PID_FILE}:`, error);
+  }
+}
+
+function cleanupPidFile() {
+  try {
+    if (!ownsPidFile) return;
+    if (!fsSync.existsSync(PID_FILE)) return;
+    fsSync.unlinkSync(PID_FILE);
+  } catch (error) {
+    console.warn(`Unable to remove PID file at ${PID_FILE}:`, error);
+  }
 }
 
 function pointFromPayload(payload) {
@@ -108,6 +143,60 @@ function showGadgetWindow() {
   windowShown = true;
   gadgetWindow.showInactive();
   gadgetWindow.setAlwaysOnTop(true, "floating");
+}
+
+function showAndFocusWindow() {
+  if (!gadgetWindow) {
+    createWindow();
+    return false;
+  }
+
+  if (gadgetWindow.isMinimized()) {
+    gadgetWindow.restore();
+  }
+
+  gadgetWindow.show();
+  gadgetWindow.setAlwaysOnTop(true, "floating");
+  gadgetWindow.focus();
+  return true;
+}
+
+function showFloatingBall() {
+  if (!gadgetWindow) {
+    createWindow();
+    return false;
+  }
+
+  if (gadgetWindow.isMinimized()) {
+    gadgetWindow.restore();
+  }
+
+  collapseWindow();
+  gadgetWindow.webContents.send("shortcut:show-ball");
+  gadgetWindow.show();
+  gadgetWindow.setAlwaysOnTop(true, "floating");
+  if (typeof gadgetWindow.moveTop === "function") {
+    gadgetWindow.moveTop();
+  }
+  gadgetWindow.focus();
+  return true;
+}
+
+function handleSecondInstance() {
+  showFloatingBall();
+}
+
+function handleGlobalShowBallShortcut() {
+  showFloatingBall();
+}
+
+function registerGlobalShortcut() {
+  const registered = globalShortcut.register(GLOBAL_SHOW_BALL_SHORTCUT, handleGlobalShowBallShortcut);
+  if (!registered) {
+    console.warn(
+      `WorldCup Floating Gadget warning: failed to register global shortcut ${GLOBAL_SHOW_BALL_SHORTCUT}.`
+    );
+  }
 }
 
 async function readLatestReport() {
@@ -171,11 +260,16 @@ async function showBallActionsDialog() {
   }
 
   if (result.response === 1) {
-    app.quit();
+    quitGadget();
     return { ok: true, action: "quit" };
   }
 
   return { ok: true, action: "cancel" };
+}
+
+function quitGadget() {
+  app.quit();
+  return { ok: true };
 }
 
 function registerIpcHandlers() {
@@ -191,12 +285,12 @@ function registerIpcHandlers() {
 
   ipcMain.handle("window:expand", (event) => {
     assertTrustedSender(event);
-    return applyWindowSize(PANEL_WIDTH, PANEL_HEIGHT);
+    return expandWindow();
   });
 
   ipcMain.handle("window:collapse", (event) => {
     assertTrustedSender(event);
-    return applyWindowSize(BALL_SIZE, BALL_SIZE);
+    return collapseWindow();
   });
 
   ipcMain.handle("window:drag-start", (event, payload) => {
@@ -223,10 +317,16 @@ function registerIpcHandlers() {
     assertTrustedSender(event);
     return showFullDashboardPlaceholder();
   });
+
+  ipcMain.handle("app:quit", (event) => {
+    assertTrustedSender(event);
+    return quitGadget();
+  });
 }
 
 function createWindow() {
   windowShown = false;
+  isPanelExpanded = false;
   gadgetWindow = new BrowserWindow({
     ...defaultBallBounds(),
     frame: false,
@@ -260,23 +360,39 @@ function createWindow() {
   setTimeout(showGadgetWindow, 1200);
   gadgetWindow.on("closed", () => {
     gadgetWindow = null;
+    isPanelExpanded = false;
   });
 
   gadgetWindow.loadFile(path.join(__dirname, "src", "index.html"));
 }
 
-app.whenReady().then(() => {
-  if (process.platform === "darwin") {
-    app.dock?.hide();
-    app.setActivationPolicy("accessory");
-  }
+const gotSingleInstanceLock = app.requestSingleInstanceLock();
 
-  registerIpcHandlers();
-  createWindow();
+if (!gotSingleInstanceLock) {
+  app.quit();
+} else {
+  app.on("second-instance", handleSecondInstance);
 
-  app.on("activate", () => {
-    if (BrowserWindow.getAllWindows().length === 0) createWindow();
+  app.whenReady().then(() => {
+    if (process.platform === "darwin") {
+      app.dock?.hide();
+      app.setActivationPolicy("accessory");
+    }
+
+    writePidFile();
+    registerIpcHandlers();
+    createWindow();
+    registerGlobalShortcut();
+
+    app.on("activate", () => {
+      if (BrowserWindow.getAllWindows().length === 0) createWindow();
+    });
   });
-});
 
-app.on("window-all-closed", () => app.quit());
+  app.on("window-all-closed", () => app.quit());
+}
+
+app.on("will-quit", () => {
+  globalShortcut.unregisterAll();
+  cleanupPidFile();
+});

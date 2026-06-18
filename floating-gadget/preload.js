@@ -11,7 +11,9 @@ const CHANNELS = Object.freeze({
   dragMove: "window:drag-move",
   dragEnd: "window:drag-end",
   showBallActionsDialog: "ball:actions-dialog",
-  openFullDashboard: "dashboard:open"
+  openFullDashboard: "dashboard:open",
+  quitApp: "app:quit",
+  shortcutShowBall: "shortcut:show-ball"
 });
 
 const gadgetAPI = Object.freeze({
@@ -23,7 +25,14 @@ const gadgetAPI = Object.freeze({
   moveWindowDrag: (point) => ipcRenderer.send(CHANNELS.dragMove, point),
   endWindowDrag: () => ipcRenderer.invoke(CHANNELS.dragEnd),
   showBallActionsDialog: () => ipcRenderer.invoke(CHANNELS.showBallActionsDialog),
-  openFullDashboard: () => ipcRenderer.invoke(CHANNELS.openFullDashboard)
+  openFullDashboard: () => ipcRenderer.invoke(CHANNELS.openFullDashboard),
+  quitApp: () => ipcRenderer.invoke(CHANNELS.quitApp),
+  onShortcutShowBall: (handler) => {
+    if (typeof handler !== "function") return () => {};
+    const listener = () => handler();
+    ipcRenderer.on(CHANNELS.shortcutShowBall, listener);
+    return () => ipcRenderer.removeListener(CHANNELS.shortcutShowBall, listener);
+  }
 });
 
 contextBridge.exposeInMainWorld("gadgetAPI", gadgetAPI);
