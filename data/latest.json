@@ -1,0 +1,173 @@
+{
+  "updated_at": "北京时间 2026-06-17 16:30",
+  "date_range": "2026-06-17",
+  "summary": "今日世界杯已结束 4 场焦点战：法国、挪威、阿根廷、奥地利均取得开门红。梅西上演帽子戏法，哈兰德和姆巴佩分别梅开二度，Group I 与 Group J 的出线形势初步拉开。",
+  "matches": [
+    {
+      "group": "Group I",
+      "status": "FT",
+      "venue": "New York/New Jersey Stadium",
+      "team_a": {
+        "name": "France",
+        "flag": "🇫🇷",
+        "score": 3,
+        "scorers": [
+          { "player": "Kylian Mbappé", "minute": "66'", "type": "goal" },
+          { "player": "Bradley Barcola", "minute": "82'", "type": "goal" },
+          { "player": "Kylian Mbappé", "minute": "90+6'", "type": "goal" }
+        ]
+      },
+      "team_b": {
+        "name": "Senegal",
+        "flag": "🇸🇳",
+        "score": 1,
+        "scorers": [
+          { "player": "Ibrahim Mbaye", "minute": "90+5'", "type": "goal" }
+        ]
+      },
+      "highlights": [
+        "姆巴佩梅开二度，帮助法国取得小组赛开门红",
+        "Barcola 替补登场后破门扩大优势",
+        "Senegal 在补时阶段由 Ibrahim Mbaye 扳回一球"
+      ]
+    },
+    {
+      "group": "Group I",
+      "status": "FT",
+      "venue": "Boston Stadium",
+      "team_a": {
+        "name": "Iraq",
+        "flag": "🇮🇶",
+        "score": 1,
+        "scorers": [
+          { "player": "Aymen Hussein", "minute": "39'", "type": "goal" }
+        ]
+      },
+      "team_b": {
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "score": 4,
+        "scorers": [
+          { "player": "Erling Haaland", "minute": "29'", "type": "goal" },
+          { "player": "Erling Haaland", "minute": "43'", "type": "goal" },
+          { "player": "Leo Østigård", "minute": "76'", "type": "goal" },
+          { "player": "Aymen Hussein", "minute": "90+6'", "type": "own_goal" }
+        ]
+      },
+      "highlights": [
+        "哈兰德世界杯首秀梅开二度",
+        "伊拉克由 Aymen Hussein 在 39 分钟扳平比分",
+        "Østigård 下半场头球破门，补时阶段伊拉克再送乌龙"
+      ]
+    },
+    {
+      "group": "Group J",
+      "status": "FT",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "team_a": {
+        "name": "Argentina",
+        "flag": "🇦🇷",
+        "score": 3,
+        "scorers": [
+          { "player": "Lionel Messi", "minute": "17'", "type": "goal" },
+          { "player": "Lionel Messi", "minute": "60'", "type": "goal" },
+          { "player": "Lionel Messi", "minute": "76'", "type": "goal" }
+        ]
+      },
+      "team_b": {
+        "name": "Algeria",
+        "flag": "🇩🇿",
+        "score": 0,
+        "scorers": []
+      },
+      "highlights": [
+        "梅西上演帽子戏法，帮助卫冕冠军阿根廷 3-0 取胜",
+        "阿根廷凭借净胜球优势暂列 Group J 第一",
+        "阿尔及利亚进攻端未能有效突破阿根廷防线"
+      ]
+    },
+    {
+      "group": "Group J",
+      "status": "FT",
+      "venue": "San Francisco Bay Area Stadium",
+      "team_a": {
+        "name": "Austria",
+        "flag": "🇦🇹",
+        "score": 3,
+        "scorers": [
+          { "player": "Romano Schmid", "minute": "20'", "type": "goal" },
+          { "player": "Yazan Al Arab", "minute": "76'", "type": "own_goal" },
+          { "player": "Marko Arnautović", "minute": "90+12'", "type": "penalty" }
+        ]
+      },
+      "team_b": {
+        "name": "Jordan",
+        "flag": "🇯🇴",
+        "score": 1,
+        "scorers": [
+          { "player": "Ali Olwan", "minute": "50'", "type": "goal" }
+        ]
+      },
+      "highlights": [
+        "奥地利重返世界杯并取得胜利",
+        "约旦由 Ali Olwan 打入队史世界杯首球",
+        "Arnautović 补时阶段点球锁定胜局"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group I：挪威 4-1 击败伊拉克，凭借净胜球暂列小组第一",
+    "Group I：法国 3-1 击败塞内加尔，积 3 分紧随其后",
+    "Group J：阿根廷 3-0 击败阿尔及利亚，凭借净胜球暂列小组第一",
+    "Group J：奥地利 3-1 击败约旦，积 3 分排名小组第二",
+    "梅西、姆巴佩、哈兰德同日爆发，射手榜竞争开局即进入高热度"
+  ],
+  "today_fixtures": [
+    {
+      "time_bj": "北京时间 2026-06-18 01:00",
+      "team_a": { "name": "Portugal", "flag": "🇵🇹" },
+      "team_b": { "name": "DR Congo", "flag": "🇨🇩" },
+      "group": "Group K"
+    },
+    {
+      "time_bj": "北京时间 2026-06-18 04:00",
+      "team_a": { "name": "England", "flag": "🏴" },
+      "team_b": { "name": "Croatia", "flag": "🇭🇷" },
+      "group": "Group L"
+    },
+    {
+      "time_bj": "北京时间 2026-06-18 07:00",
+      "team_a": { "name": "Ghana", "flag": "🇬🇭" },
+      "team_b": { "name": "Panama", "flag": "🇵🇦" },
+      "group": "Group L"
+    },
+    {
+      "time_bj": "北京时间 2026-06-18 10:00",
+      "team_a": { "name": "Uzbekistan", "flag": "🇺🇿" },
+      "team_b": { "name": "Colombia", "flag": "🇨🇴" },
+      "group": "Group K"
+    }
+  ],
+  "news": [
+    {
+      "title": "姆巴佩梅开二度，法国 3-1 击败塞内加尔",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/sports/soccer/france-win-mbappe-ignites-world-cup-opener-2026-06-16/"
+    },
+    {
+      "title": "哈兰德世界杯首秀梅开二度，挪威 4-1 击败伊拉克",
+      "source": "ESPN",
+      "url": "https://www.espn.com.au/football/report/_/gameId/760430"
+    },
+    {
+      "title": "梅西帽子戏法，阿根廷 3-0 阿尔及利亚",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/sports/soccer/messi-reaffirms-enduring-importance-with-world-cup-hat-trick-2026-06-17/"
+    },
+    {
+      "title": "奥地利 3-1 约旦，Arnautović 补时点球锁定胜局",
+      "source": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/austria-jordan-highlights-match-report"
+    }
+  ]
+}

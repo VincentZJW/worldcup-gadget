@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>World Cup Floating Gadget</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-mode="ball">
+    <section class="ball-view" id="ball-view" aria-label="世界杯悬浮球">
+      <div class="ball-wrap">
+        <button
+          class="ball-button"
+          id="ball-button"
+          type="button"
+          aria-label="展开世界杯战报"
+          title="点击展开 · 长按拖拽 · 右键更多操作"
+        >
+          <svg class="soccer-ball-svg" viewBox="0 0 64 64" role="img" aria-label="足球">
+            <defs>
+              <radialGradient id="soccer-surface" cx="31%" cy="24%" r="78%">
+                <stop offset="0%" stop-color="#ffffff" />
+                <stop offset="55%" stop-color="#f1f3f5" />
+                <stop offset="84%" stop-color="#d9dde1" />
+                <stop offset="100%" stop-color="#b9bec5" />
+              </radialGradient>
+              <linearGradient id="soccer-patch" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#343941" />
+                <stop offset="100%" stop-color="#111419" />
+              </linearGradient>
+              <clipPath id="soccer-clip">
+                <circle cx="32" cy="32" r="28" />
+              </clipPath>
+            </defs>
+
+            <circle class="soccer-surface" cx="32" cy="32" r="28" fill="url(#soccer-surface)" />
+            <g clip-path="url(#soccer-clip)">
+              <g class="soccer-seams" fill="none">
+                <path d="M32 18 L32 9" />
+                <path d="M23 25 L13 20" />
+                <path d="M41 25 L51 20" />
+                <path d="M26 36 L18 46" />
+                <path d="M38 36 L46 46" />
+                <path d="M13 20 L8 35 L18 46" />
+                <path d="M51 20 L56 35 L46 46" />
+                <path d="M18 46 L27 57" />
+                <path d="M46 46 L37 57" />
+              </g>
+
+              <path class="soccer-patch" d="M32 17 L41.2 23.8 L37.7 35 L26.3 35 L22.8 23.8 Z" />
+              <path class="soccer-patch soccer-patch--edge" d="M21 3 L43 3 L47 11 L38 18 L26 18 L17 11 Z" />
+              <path class="soccer-patch soccer-patch--edge" d="M1 22 L12 18 L21 25 L18 36 L6 40 L0 34 Z" />
+              <path class="soccer-patch soccer-patch--edge" d="M63 22 L52 18 L43 25 L46 36 L58 40 L64 34 Z" />
+              <path class="soccer-patch soccer-patch--edge" d="M8 48 L18 40 L28 46 L26 60 L17 65 L7 58 Z" />
+              <path class="soccer-patch soccer-patch--edge" d="M56 48 L46 40 L36 46 L38 60 L47 65 L57 58 Z" />
+              <ellipse class="soccer-highlight" cx="22" cy="17" rx="10" ry="7" />
+            </g>
+            <circle class="soccer-outline" cx="32" cy="32" r="27.5" />
+          </svg>
+          <span class="ball-badge" title="有新战报" aria-label="有新战报"></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="panel-view" id="panel-view" aria-label="2026 世界杯战报" hidden>
+      <div class="panel-shell">
+        <div class="stadium-bg" aria-hidden="true">
+          <span class="stadium-bg__grass"></span>
+          <span class="stadium-bg__pitch">
+            <i class="pitch-box pitch-box--top"></i>
+            <i class="pitch-box pitch-box--bottom"></i>
+          </span>
+          <span class="stadium-bg__glow"></span>
+          <span class="stadium-bg__sweep"></span>
+          <span class="stadium-bg__vignette"></span>
+        </div>
+
+        <header class="panel-header">
+          <div class="panel-title-block">
+            <span class="panel-kicker"><i></i> LIVE LOCAL BRIEF</span>
+            <h1>2026 世界杯战报</h1>
+            <span class="panel-subtitle">最新战况 · 北京时间</span>
+            <p id="updated-at">正在读取本地战报…</p>
+          </div>
+          <div class="panel-actions">
+            <button id="refresh-button" class="icon-button" type="button" title="重新读取 latest.json">刷新</button>
+            <button id="collapse-button" class="icon-button" type="button" title="收回悬浮球">收起</button>
+          </div>
+        </header>
+
+        <main class="panel-content">
+          <div class="status-message" id="status-message" role="status" hidden></div>
+
+          <section class="latest-section" aria-labelledby="latest-heading">
+            <div class="section-title-row">
+              <div>
+                <span class="section-number">01</span>
+                <h2 id="latest-heading">最新结束比赛</h2>
+              </div>
+              <span class="local-chip">LOCAL JSON</span>
+            </div>
+            <div id="latest-match"></div>
+          </section>
+
+          <button class="more-button" id="more-button" type="button" aria-expanded="false">
+            <span>查看更多</span>
+            <span class="more-button__arrow" aria-hidden="true">↓</span>
+          </button>
+
+          <section class="all-matches-section" id="all-matches-section" aria-labelledby="all-heading" hidden>
+            <div class="section-title-row section-title-row--all">
+              <div>
+                <span class="section-number">02</span>
+                <h2 id="all-heading">前一日全部战况</h2>
+              </div>
+              <span class="match-count" id="match-count">0 MATCHES</span>
+            </div>
+            <div class="all-matches" id="all-matches"></div>
+          </section>
+        </main>
+
+        <footer class="panel-footer">
+          <span>DATA · ../data/latest.json</span>
+          <span class="footer-brand">OPENCLAW READY</span>
+        </footer>
+      </div>
+    </section>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
