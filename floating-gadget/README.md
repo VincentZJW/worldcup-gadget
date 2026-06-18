@@ -39,6 +39,20 @@ macOS：
 ./scripts/start-floating-gadget.sh
 ```
 
+macOS Shortcuts / 快捷指令中已验证可用的命令：
+
+```bash
+/bin/zsh /Users/vincentz/Documents/worldcup-gadget/scripts/start-floating-gadget.sh
+```
+
+建议绑定快捷键：
+
+```text
+Control + Option + W
+```
+
+这个快捷键只负责启动 / 唤醒 collapsed 小足球悬浮球，不会直接展开战报面板。要查看战报，请手动点击小足球。
+
 macOS 如需从脚本停止：
 
 ```bash
@@ -46,6 +60,8 @@ macOS 如需从脚本停止：
 ```
 
 Windows：
+
+Windows 方案目前还没有实机验证，下面命令保留为待测试方案：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\start-floating-gadget.ps1
@@ -100,7 +116,7 @@ macOS 系统级快捷键请参考：
 ../docs/macos-keyboard-shortcut.md
 ```
 
-Windows 可以从项目根目录运行：
+Windows 可以从项目根目录运行下面命令创建桌面快捷方式；目前未实机验证，待 Windows 环境测试后再确认：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\install-windows-hotkey.ps1

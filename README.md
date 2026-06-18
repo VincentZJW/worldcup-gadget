@@ -59,9 +59,30 @@ npm install
 
 ### macOS 启动
 
+手动启动：
+
 ```bash
 ./scripts/start-floating-gadget.sh
 ```
+
+macOS Shortcuts / 快捷指令中已验证可用的命令：
+
+```bash
+/bin/zsh /Users/vincentz/Documents/worldcup-gadget/scripts/start-floating-gadget.sh
+```
+
+建议把这条命令绑定为：
+
+```text
+Control + Option + W
+```
+
+按下快捷键后：
+
+- 如果悬浮球未运行，会启动并显示小足球；
+- 如果悬浮球已运行，会唤醒并显示 collapsed 小足球；
+- 如果战报面板已展开，会先收回成小足球；
+- 不会直接展开战报内容，点击小足球才会展开。
 
 如果需要从脚本停止 macOS 悬浮球：
 
@@ -77,6 +98,8 @@ docs/macos-keyboard-shortcut.md
 
 ### Windows 启动
 
+Windows 方案目前还没有实机验证，下面命令保留为待测试方案。
+
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\start-floating-gadget.ps1
 ```
@@ -88,6 +111,8 @@ scripts\start-floating-gadget.bat
 ```
 
 ### Windows 创建桌面快捷键
+
+未实机验证；待 Windows 环境测试后再确认。
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\install-windows-hotkey.ps1
