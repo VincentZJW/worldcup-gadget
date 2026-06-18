@@ -1,173 +1,255 @@
 {
-  "updated_at": "北京时间 2026-06-17 16:30",
-  "date_range": "2026-06-17",
-  "summary": "今日世界杯已结束 4 场焦点战：法国、挪威、阿根廷、奥地利均取得开门红。梅西上演帽子戏法，哈兰德和姆巴佩分别梅开二度，Group I 与 Group J 的出线形势初步拉开。",
+  "updated_at": "北京时间 2026-06-18 23:12",
+  "date_range": "2026-06-18",
+  "summary": "Group K 与 Group L 首轮战罢：Colombia 和 England 取胜领跑，Portugal 被 DR Congo 逼平，Ghana 补时绝杀 Panama。",
   "matches": [
     {
-      "group": "Group I",
+      "group": "Group K",
       "status": "FT",
-      "venue": "New York/New Jersey Stadium",
+      "venue": "Houston Stadium",
+      "finished_at_bj": "北京时间 2026-06-18 03:30",
       "team_a": {
-        "name": "France",
-        "flag": "🇫🇷",
-        "score": 3,
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "score": 1,
         "scorers": [
-          { "player": "Kylian Mbappé", "minute": "66'", "type": "goal" },
-          { "player": "Bradley Barcola", "minute": "82'", "type": "goal" },
-          { "player": "Kylian Mbappé", "minute": "90+6'", "type": "goal" }
+          {
+            "player": "João Neves",
+            "minute": "6'",
+            "type": "goal"
+          }
         ]
       },
       "team_b": {
-        "name": "Senegal",
-        "flag": "🇸🇳",
+        "name": "DR Congo",
+        "flag": "🇨🇩",
         "score": 1,
         "scorers": [
-          { "player": "Ibrahim Mbaye", "minute": "90+5'", "type": "goal" }
+          {
+            "player": "Yoane Wissa",
+            "minute": "45+5'",
+            "type": "goal"
+          }
         ]
       },
       "highlights": [
-        "姆巴佩梅开二度，帮助法国取得小组赛开门红",
-        "Barcola 替补登场后破门扩大优势",
-        "Senegal 在补时阶段由 Ibrahim Mbaye 扳回一球"
+        "João Neves 第 6 分钟头球破门，Portugal 早早取得领先",
+        "Yoane Wissa 上半场补时头球扳平，DR Congo 收获队史世界杯首分",
+        "Portugal 未能把控领先优势，Group K 首轮出现平局"
       ]
     },
     {
-      "group": "Group I",
+      "group": "Group L",
       "status": "FT",
-      "venue": "Boston Stadium",
+      "venue": "Dallas Stadium",
+      "finished_at_bj": "北京时间 2026-06-18 06:05",
       "team_a": {
-        "name": "Iraq",
-        "flag": "🇮🇶",
-        "score": 1,
-        "scorers": [
-          { "player": "Aymen Hussein", "minute": "39'", "type": "goal" }
-        ]
-      },
-      "team_b": {
-        "name": "Norway",
-        "flag": "🇳🇴",
+        "name": "England",
+        "flag": "🏴",
         "score": 4,
         "scorers": [
-          { "player": "Erling Haaland", "minute": "29'", "type": "goal" },
-          { "player": "Erling Haaland", "minute": "43'", "type": "goal" },
-          { "player": "Leo Østigård", "minute": "76'", "type": "goal" },
-          { "player": "Aymen Hussein", "minute": "90+6'", "type": "own_goal" }
-        ]
-      },
-      "highlights": [
-        "哈兰德世界杯首秀梅开二度",
-        "伊拉克由 Aymen Hussein 在 39 分钟扳平比分",
-        "Østigård 下半场头球破门，补时阶段伊拉克再送乌龙"
-      ]
-    },
-    {
-      "group": "Group J",
-      "status": "FT",
-      "venue": "Arrowhead Stadium, Kansas City",
-      "team_a": {
-        "name": "Argentina",
-        "flag": "🇦🇷",
-        "score": 3,
-        "scorers": [
-          { "player": "Lionel Messi", "minute": "17'", "type": "goal" },
-          { "player": "Lionel Messi", "minute": "60'", "type": "goal" },
-          { "player": "Lionel Messi", "minute": "76'", "type": "goal" }
+          {
+            "player": "Harry Kane",
+            "minute": "12'",
+            "type": "penalty"
+          },
+          {
+            "player": "Harry Kane",
+            "minute": "42'",
+            "type": "goal"
+          },
+          {
+            "player": "Jude Bellingham",
+            "minute": "47'",
+            "type": "goal"
+          },
+          {
+            "player": "Marcus Rashford",
+            "minute": "85'",
+            "type": "goal"
+          }
         ]
       },
       "team_b": {
-        "name": "Algeria",
-        "flag": "🇩🇿",
+        "name": "Croatia",
+        "flag": "🇭🇷",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Martin Baturina",
+            "minute": "36'",
+            "type": "goal"
+          },
+          {
+            "player": "Petar Musa",
+            "minute": "45+5'",
+            "type": "goal"
+          }
+        ]
+      },
+      "highlights": [
+        "Harry Kane 上半场梅开二度，England 两次取得领先",
+        "Croatia 先后由 Martin Baturina 和 Petar Musa 扳平比分",
+        "Jude Bellingham 下半场开场破门，Marcus Rashford 替补登场后锁定 4-2"
+      ]
+    },
+    {
+      "group": "Group L",
+      "status": "FT",
+      "venue": "Toronto Stadium",
+      "finished_at_bj": "北京时间 2026-06-18 09:15",
+      "team_a": {
+        "name": "Ghana",
+        "flag": "🇬🇭",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Caleb Yirenkyi",
+            "minute": "90+5'",
+            "type": "goal"
+          }
+        ]
+      },
+      "team_b": {
+        "name": "Panama",
+        "flag": "🇵🇦",
         "score": 0,
         "scorers": []
       },
       "highlights": [
-        "梅西上演帽子戏法，帮助卫冕冠军阿根廷 3-0 取胜",
-        "阿根廷凭借净胜球优势暂列 Group J 第一",
-        "阿尔及利亚进攻端未能有效突破阿根廷防线"
+        "比赛长时间保持 0-0，Ghana 在补时阶段完成绝杀",
+        "Caleb Yirenkyi 第 90+5 分钟破门，帮助 Ghana 拿到 3 分",
+        "Panama 首轮失利，Group L 出线压力增大"
       ]
     },
     {
-      "group": "Group J",
+      "group": "Group K",
       "status": "FT",
-      "venue": "San Francisco Bay Area Stadium",
+      "venue": "Mexico City Stadium",
+      "finished_at_bj": "北京时间 2026-06-18 12:30",
       "team_a": {
-        "name": "Austria",
-        "flag": "🇦🇹",
-        "score": 3,
+        "name": "Uzbekistan",
+        "flag": "🇺🇿",
+        "score": 1,
         "scorers": [
-          { "player": "Romano Schmid", "minute": "20'", "type": "goal" },
-          { "player": "Yazan Al Arab", "minute": "76'", "type": "own_goal" },
-          { "player": "Marko Arnautović", "minute": "90+12'", "type": "penalty" }
+          {
+            "player": "Abbosbek Fayzullaev",
+            "minute": "60'",
+            "type": "goal"
+          }
         ]
       },
       "team_b": {
-        "name": "Jordan",
-        "flag": "🇯🇴",
-        "score": 1,
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "score": 3,
         "scorers": [
-          { "player": "Ali Olwan", "minute": "50'", "type": "goal" }
+          {
+            "player": "Daniel Muñoz",
+            "minute": "41'",
+            "type": "goal"
+          },
+          {
+            "player": "Luis Díaz",
+            "minute": "65'",
+            "type": "goal"
+          },
+          {
+            "player": "Jaminton Campaz",
+            "minute": "90+9'",
+            "type": "goal"
+          }
         ]
       },
       "highlights": [
-        "奥地利重返世界杯并取得胜利",
-        "约旦由 Ali Olwan 打入队史世界杯首球",
-        "Arnautović 补时阶段点球锁定胜局"
+        "Daniel Muñoz 第 41 分钟为 Colombia 首开纪录",
+        "Abbosbek Fayzullaev 第 60 分钟打入 Uzbekistan 队史世界杯首球",
+        "Luis Díaz 传射建功，Jaminton Campaz 补时头球锁定胜局"
       ]
     }
   ],
   "standings_changes": [
-    "Group I：挪威 4-1 击败伊拉克，凭借净胜球暂列小组第一",
-    "Group I：法国 3-1 击败塞内加尔，积 3 分紧随其后",
-    "Group J：阿根廷 3-0 击败阿尔及利亚，凭借净胜球暂列小组第一",
-    "Group J：奥地利 3-1 击败约旦，积 3 分排名小组第二",
-    "梅西、姆巴佩、哈兰德同日爆发，射手榜竞争开局即进入高热度"
+    "Group K：Colombia 3-1 击败 Uzbekistan，积 3 分并以 +2 净胜球暂列第一",
+    "Group K：Portugal 与 DR Congo 1-1 战平同积 1 分，Uzbekistan 首轮失利暂居第四",
+    "Group L：England 4-2 击败 Croatia，积 3 分并以 +2 净胜球领跑",
+    "Group L：Ghana 1-0 击败 Panama 后积 3 分暂列第二，Croatia 与 Panama 首轮仍为 0 分",
+    "今日北美赛程将进入 Group A 与 Group B 第二轮，Mexico、Canada 等东道主继续出战"
   ],
   "today_fixtures": [
     {
-      "time_bj": "北京时间 2026-06-18 01:00",
-      "team_a": { "name": "Portugal", "flag": "🇵🇹" },
-      "team_b": { "name": "DR Congo", "flag": "🇨🇩" },
-      "group": "Group K"
+      "time_bj": "北京时间 2026-06-19 00:00",
+      "team_a": {
+        "name": "Czechia",
+        "flag": "🇨🇿"
+      },
+      "team_b": {
+        "name": "South Africa",
+        "flag": "🇿🇦"
+      },
+      "group": "Group A"
     },
     {
-      "time_bj": "北京时间 2026-06-18 04:00",
-      "team_a": { "name": "England", "flag": "🏴" },
-      "team_b": { "name": "Croatia", "flag": "🇭🇷" },
-      "group": "Group L"
+      "time_bj": "北京时间 2026-06-19 03:00",
+      "team_a": {
+        "name": "Switzerland",
+        "flag": "🇨🇭"
+      },
+      "team_b": {
+        "name": "Bosnia and Herzegovina",
+        "flag": "🇧🇦"
+      },
+      "group": "Group B"
     },
     {
-      "time_bj": "北京时间 2026-06-18 07:00",
-      "team_a": { "name": "Ghana", "flag": "🇬🇭" },
-      "team_b": { "name": "Panama", "flag": "🇵🇦" },
-      "group": "Group L"
+      "time_bj": "北京时间 2026-06-19 06:00",
+      "team_a": {
+        "name": "Canada",
+        "flag": "🇨🇦"
+      },
+      "team_b": {
+        "name": "Qatar",
+        "flag": "🇶🇦"
+      },
+      "group": "Group B"
     },
     {
-      "time_bj": "北京时间 2026-06-18 10:00",
-      "team_a": { "name": "Uzbekistan", "flag": "🇺🇿" },
-      "team_b": { "name": "Colombia", "flag": "🇨🇴" },
-      "group": "Group K"
+      "time_bj": "北京时间 2026-06-19 09:00",
+      "team_a": {
+        "name": "Mexico",
+        "flag": "🇲🇽"
+      },
+      "team_b": {
+        "name": "South Korea",
+        "flag": "🇰🇷"
+      },
+      "group": "Group A"
     }
   ],
   "news": [
     {
-      "title": "姆巴佩梅开二度，法国 3-1 击败塞内加尔",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/sports/soccer/france-win-mbappe-ignites-world-cup-opener-2026-06-16/"
+      "title": "DR Congo 凭 Yoane Wissa 进球 1-1 逼平 Portugal",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report"
     },
     {
-      "title": "哈兰德世界杯首秀梅开二度，挪威 4-1 击败伊拉克",
-      "source": "ESPN",
-      "url": "https://www.espn.com.au/football/report/_/gameId/760430"
+      "title": "England 4-2 击败 Croatia，Harry Kane 梅开二度",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/football/2026/jun/17/england-croatia-world-cup-2026-group-l-match-report"
     },
     {
-      "title": "梅西帽子戏法，阿根廷 3-0 阿尔及利亚",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/sports/soccer/messi-reaffirms-enduring-importance-with-world-cup-hat-trick-2026-06-17/"
+      "title": "Ghana 凭 Caleb Yirenkyi 补时进球 1-0 击败 Panama",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/football/live/2026/jun/17/ghana-v-panama-world-cup-2026-live"
     },
     {
-      "title": "奥地利 3-1 约旦，Arnautović 补时点球锁定胜局",
-      "source": "FIFA",
-      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/austria-jordan-highlights-match-report"
+      "title": "Colombia 3-1 击败 Uzbekistan，Luis Díaz 传射建功",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/football/2026/jun/18/uzbekistan-colombia-world-cup-2026-group-k-match-report"
+    },
+    {
+      "title": "6 月 18 日北美赛程进入 Group A/B：Czechia-South Africa 与 Mexico-South Korea 等比赛待赛",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/football/2026/jun/18/how-to-watch-world-cup-mexico-south-korea"
     }
   ]
 }
