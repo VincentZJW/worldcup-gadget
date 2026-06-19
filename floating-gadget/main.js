@@ -9,6 +9,8 @@ const path = require("node:path");
 const BALL_SIZE = 64;
 const PANEL_WIDTH = 420;
 const PANEL_HEIGHT = 620;
+const ACTION_DIALOG_WIDTH = 360;
+const ACTION_DIALOG_HEIGHT = 326;
 const SCREEN_MARGIN = 20;
 const GLOBAL_SHOW_BALL_SHORTCUT = "Control+Alt+W";
 const REPORT_PATH = path.resolve(__dirname, "..", "data", "latest.json");
@@ -69,6 +71,11 @@ function expandWindow() {
 function collapseWindow() {
   isPanelExpanded = false;
   return applyWindowSize(BALL_SIZE, BALL_SIZE);
+}
+
+function showActionsWindow() {
+  isPanelExpanded = false;
+  return applyWindowSize(ACTION_DIALOG_WIDTH, ACTION_DIALOG_HEIGHT);
 }
 
 function writePidFile() {
@@ -291,6 +298,11 @@ function registerIpcHandlers() {
   ipcMain.handle("window:collapse", (event) => {
     assertTrustedSender(event);
     return collapseWindow();
+  });
+
+  ipcMain.handle("window:actions", (event) => {
+    assertTrustedSender(event);
+    return showActionsWindow();
   });
 
   ipcMain.handle("window:drag-start", (event, payload) => {

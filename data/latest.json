@@ -1,15 +1,25 @@
 {
   "updated_at": "北京时间 2026-06-19 11:00",
+  "updated_at_zh": "北京时间 2026-06-19 11:00",
+  "updated_at_en": "Beijing Time 2026-06-19 11:00",
   "date_range": "2026-06-19",
   "summary": "Mexico 1-0 击败 South Korea 后两战全胜锁定出线主动权，Group B 则由 Canada 和 Switzerland 同积 4 分领跑。",
+  "summary_zh": "墨西哥 1-0 击败韩国后两战全胜，掌握 A 组出线主动权；B 组则由加拿大和瑞士同积 4 分领跑。",
+  "summary_en": "Mexico beat South Korea 1-0 to take control of Group A, while Canada and Switzerland lead Group B with four points each.",
   "matches": [
     {
       "group": "Group A",
       "status": "FT",
       "venue": "Atlanta Stadium",
+      "venue_zh": "亚特兰大体育场",
+      "venue_en": "Atlanta Stadium",
       "finished_at_bj": "北京时间 2026-06-19 01:55",
+      "finished_at_bj_zh": "北京时间 2026-06-19 01:55",
+      "finished_at_bj_en": "Beijing Time 2026-06-19 01:55",
       "team_a": {
         "name": "Czechia",
+        "name_zh": "捷克",
+        "name_en": "Czechia",
         "flag": "🇨🇿",
         "score": 1,
         "scorers": [
@@ -22,6 +32,8 @@
       },
       "team_b": {
         "name": "South Africa",
+        "name_zh": "南非",
+        "name_en": "South Africa",
         "flag": "🇿🇦",
         "score": 1,
         "scorers": [
@@ -36,15 +48,31 @@
         "Michal Sadílek 第 5 分钟为 Czechia 取得梦幻开局",
         "South Africa 后程压上，并由 Teboho Mokoena 第 83 分钟点球扳平",
         "两队均只积 1 分，末轮分别对阵 Mexico 与 South Korea 时仍需取分争夺出线"
+      ],
+      "highlights_zh": [
+        "Michal Sadílek 第 5 分钟为捷克取得梦幻开局",
+        "南非后程压上，并由 Teboho Mokoena 第 83 分钟点球扳平",
+        "两队均只积 1 分，末轮仍需取分争夺出线机会"
+      ],
+      "highlights_en": [
+        "Michal Sadílek gave Czechia a dream start in the 5th minute",
+        "South Africa pushed forward late and Teboho Mokoena equalized from the penalty spot in the 83rd minute",
+        "Both teams remain on one point and still need a result in the final round"
       ]
     },
     {
       "group": "Group A",
       "status": "FT",
       "venue": "Mexico City Stadium",
+      "venue_zh": "墨西哥城体育场",
+      "venue_en": "Mexico City Stadium",
       "finished_at_bj": "北京时间 2026-06-19 10:55",
+      "finished_at_bj_zh": "北京时间 2026-06-19 10:55",
+      "finished_at_bj_en": "Beijing Time 2026-06-19 10:55",
       "team_a": {
         "name": "Mexico",
+        "name_zh": "墨西哥",
+        "name_en": "Mexico",
         "flag": "🇲🇽",
         "score": 1,
         "scorers": [
@@ -57,6 +85,8 @@
       },
       "team_b": {
         "name": "South Korea",
+        "name_zh": "韩国",
+        "name_en": "South Korea",
         "flag": "🇰🇷",
         "score": 0,
         "scorers": []
@@ -65,15 +95,31 @@
         "Luis Romo 第 50 分钟破门，帮助 Mexico 打破僵局",
         "South Korea 末段持续施压，但未能扳平比分",
         "Raúl Rangel 终场前作出关键扑救，Mexico 保住 1-0 胜局"
+      ],
+      "highlights_zh": [
+        "Luis Romo 第 50 分钟破门，帮助墨西哥打破僵局",
+        "韩国队下半场持续施压，但未能扳平比分",
+        "Raúl Rangel 终场前作出关键扑救，墨西哥保住 1-0 胜局"
+      ],
+      "highlights_en": [
+        "Luis Romo broke the deadlock in the 50th minute for Mexico",
+        "South Korea pushed hard in the second half but could not find an equalizer",
+        "Raúl Rangel made a key late save as Mexico protected the 1-0 win"
       ]
     },
     {
       "group": "Group B",
       "status": "FT",
       "venue": "Los Angeles Stadium",
+      "venue_zh": "洛杉矶体育场",
+      "venue_en": "Los Angeles Stadium",
       "finished_at_bj": "北京时间 2026-06-19 05:00",
+      "finished_at_bj_zh": "北京时间 2026-06-19 05:00",
+      "finished_at_bj_en": "Beijing Time 2026-06-19 05:00",
       "team_a": {
         "name": "Switzerland",
+        "name_zh": "瑞士",
+        "name_en": "Switzerland",
         "flag": "🇨🇭",
         "score": 4,
         "scorers": [
@@ -101,6 +147,8 @@
       },
       "team_b": {
         "name": "Bosnia and Herzegovina",
+        "name_zh": "波黑",
+        "name_en": "Bosnia and Herzegovina",
         "flag": "🇧🇦",
         "score": 1,
         "scorers": [
@@ -115,15 +163,31 @@
         "Johan Manzambi 替补登场后梅开二度，带动 Switzerland 下半场后段爆发",
         "Tarik Muharemović 被罚下后，Bosnia and Herzegovina 末段防线崩盘",
         "Granit Xhaka 补时点球锁定 4-1，Switzerland 积 4 分保有强劲出线主动权"
+      ],
+      "highlights_zh": [
+        "Johan Manzambi 替补登场后梅开二度，带动瑞士下半场后段爆发",
+        "Tarik Muharemović 被罚下后，波黑末段防线崩盘",
+        "Granit Xhaka 补时点球锁定 4-1，瑞士积 4 分保有强劲出线主动权"
+      ],
+      "highlights_en": [
+        "Substitute Johan Manzambi scored twice to spark Switzerland's late surge",
+        "Bosnia and Herzegovina collapsed late after Tarik Muharemović was sent off",
+        "Granit Xhaka sealed the 4-1 win from the penalty spot in stoppage time"
       ]
     },
     {
       "group": "Group B",
       "status": "FT",
       "venue": "BC Place Vancouver",
+      "venue_zh": "温哥华 BC Place",
+      "venue_en": "BC Place Vancouver",
       "finished_at_bj": "北京时间 2026-06-19 08:05",
+      "finished_at_bj_zh": "北京时间 2026-06-19 08:05",
+      "finished_at_bj_en": "Beijing Time 2026-06-19 08:05",
       "team_a": {
         "name": "Canada",
+        "name_zh": "加拿大",
+        "name_en": "Canada",
         "flag": "🇨🇦",
         "score": 6,
         "scorers": [
@@ -161,6 +225,8 @@
       },
       "team_b": {
         "name": "Qatar",
+        "name_zh": "卡塔尔",
+        "name_en": "Qatar",
         "flag": "🇶🇦",
         "score": 0,
         "scorers": []
@@ -169,6 +235,16 @@
         "Jonathan David 上演帽子戏法，Canada 收获男足世界杯队史首胜",
         "Qatar 先后有 Homam Ahmed 与 Assim Madibo 被红牌罚下，最终九人完赛",
         "Ismaël Koné 遭遇严重腿伤被担架抬离，Canada 的大胜也因此蒙上阴影"
+      ],
+      "highlights_zh": [
+        "Jonathan David 上演帽子戏法，加拿大收获男足世界杯队史首胜",
+        "卡塔尔先后有 Homam Ahmed 与 Assim Madibo 被红牌罚下，最终九人完赛",
+        "Ismaël Koné 遭遇严重腿伤被担架抬离，加拿大的大胜也因此蒙上阴影"
+      ],
+      "highlights_en": [
+        "Jonathan David scored a hat trick as Canada earned their first men's World Cup win",
+        "Qatar finished with nine men after Homam Ahmed and Assim Madibo were sent off",
+        "Canada's big win was overshadowed by Ismaël Koné being stretchered off with a serious leg injury"
       ]
     }
   ],
@@ -180,51 +256,91 @@
     "Group B：Bosnia and Herzegovina 与 Qatar 均积 1 分，末轮直接对话将决定是否仍有出线希望",
     "Group A：Czechia 与 South Africa 1-1 战平后均积 1 分，末轮仍需赢球并关注 South Korea 赛果"
   ],
+  "standings_changes_zh": [
+    "Group A：墨西哥两战全胜积 6 分，出线形势占优",
+    "Group A：韩国仍积 3 分排名第二，捷克与南非均积 1 分，末轮仍有追赶机会",
+    "Group B：加拿大 6-0 大胜卡塔尔后积 4 分，凭 +6 净胜球升至小组第一",
+    "Group B：瑞士 4-1 击败波黑，同积 4 分并以 +3 净胜球排名第二",
+    "Group B：波黑与卡塔尔均积 1 分，末轮直接对话将决定是否仍有出线希望",
+    "Group A：捷克与南非 1-1 战平后均积 1 分，末轮仍需赢球并关注韩国赛果"
+  ],
+  "standings_changes_en": [
+    "Group A: Mexico now have two wins from two and are in a strong position to qualify",
+    "Group A: South Korea remain second on three points, while Czechia and South Africa are both still alive on one point",
+    "Group B: Canada moved top with four points and a +6 goal difference after beating Qatar 6-0",
+    "Group B: Switzerland also reached four points after a 4-1 win over Bosnia and Herzegovina",
+    "Group B: Bosnia and Herzegovina and Qatar both have one point, making their final-round meeting decisive",
+    "Group A: Czechia and South Africa both need a win in the final round after their 1-1 draw"
+  ],
   "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-20 00:00",
+      "time_bj_zh": "北京时间 2026-06-20 00:00",
+      "time_bj_en": "Beijing Time 2026-06-20 00:00",
       "team_a": {
         "name": "Brazil",
+        "name_zh": "巴西",
+        "name_en": "Brazil",
         "flag": "🇧🇷"
       },
       "team_b": {
         "name": "Haiti",
+        "name_zh": "海地",
+        "name_en": "Haiti",
         "flag": "🇭🇹"
       },
       "group": "Group C"
     },
     {
       "time_bj": "北京时间 2026-06-20 03:00",
+      "time_bj_zh": "北京时间 2026-06-20 03:00",
+      "time_bj_en": "Beijing Time 2026-06-20 03:00",
       "team_a": {
         "name": "Scotland",
+        "name_zh": "苏格兰",
+        "name_en": "Scotland",
         "flag": "🏴"
       },
       "team_b": {
         "name": "Morocco",
+        "name_zh": "摩洛哥",
+        "name_en": "Morocco",
         "flag": "🇲🇦"
       },
       "group": "Group C"
     },
     {
       "time_bj": "北京时间 2026-06-20 06:00",
+      "time_bj_zh": "北京时间 2026-06-20 06:00",
+      "time_bj_en": "Beijing Time 2026-06-20 06:00",
       "team_a": {
         "name": "Türkiye",
+        "name_zh": "土耳其",
+        "name_en": "Türkiye",
         "flag": "🇹🇷"
       },
       "team_b": {
         "name": "Paraguay",
+        "name_zh": "巴拉圭",
+        "name_en": "Paraguay",
         "flag": "🇵🇾"
       },
       "group": "Group D"
     },
     {
       "time_bj": "北京时间 2026-06-20 09:00",
+      "time_bj_zh": "北京时间 2026-06-20 09:00",
+      "time_bj_en": "Beijing Time 2026-06-20 09:00",
       "team_a": {
         "name": "USA",
+        "name_zh": "美国",
+        "name_en": "USA",
         "flag": "🇺🇸"
       },
       "team_b": {
         "name": "Australia",
+        "name_zh": "澳大利亚",
+        "name_en": "Australia",
         "flag": "🇦🇺"
       },
       "group": "Group D"
@@ -233,26 +349,36 @@
   "news": [
     {
       "title": "Canada 6-0 Qatar：Jonathan David 帽子戏法带来加拿大男足世界杯首胜",
+      "title_zh": "加拿大 6-0 卡塔尔：Jonathan David 帽子戏法带来队史首胜",
+      "title_en": "Canada 6-0 Qatar: Jonathan David hat trick delivers Canada's first men's World Cup win",
       "source": "Associated Press",
       "url": "https://apnews.com/article/canada-qatar-score-world-cup-ac2e21764948dba88373e5e287f3d0c1"
     },
     {
       "title": "Switzerland 4-1 Bosnia and Herzegovina：Manzambi 替补双响改写 Group B 形势",
+      "title_zh": "瑞士 4-1 波黑：Manzambi 替补双响改写 B 组形势",
+      "title_en": "Switzerland 4-1 Bosnia and Herzegovina: Manzambi brace reshapes Group B",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/football/live/2026/jun/18/switzerland-v-bosnia-and-herzegovina-world-cup-2026-live"
     },
     {
       "title": "Czechia 1-1 South Africa：Mokoena 点球救回一分，两队末轮仍需抢分",
+      "title_zh": "捷克 1-1 南非：Mokoena 点球救回一分，两队末轮仍需抢分",
+      "title_en": "Czechia 1-1 South Africa: Mokoena penalty keeps both teams alive",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/football/2026/jun/18/czechia-south-africa-world-cup-group-a-match-report"
     },
     {
       "title": "Mexico 1-0 South Korea：Luis Romo 破门，东道主两连胜",
+      "title_zh": "墨西哥 1-0 韩国：Luis Romo 破门，东道主两连胜",
+      "title_en": "Mexico 1-0 South Korea: Luis Romo goal gives the hosts back-to-back wins",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/football/live/2026/jun/19/fifa-world-cup-2026-live-mexico-v-south-korea-updates-mex-vs-kor-group-a-match-score-latest"
     },
     {
       "title": "Scotland 备战 Morocco，Steve Clarke 称对手是 Group C 的真正强队考验",
+      "title_zh": "苏格兰备战摩洛哥，Steve Clarke 称对手是 C 组真正考验",
+      "title_en": "Scotland prepare for Morocco as Steve Clarke calls them Group C's real test",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/football/2026/jun/18/clarke-warns-scotland-morocco-real-deal-world-cup"
     }

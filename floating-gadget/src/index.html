@@ -81,12 +81,13 @@
 
         <header class="panel-header">
           <div class="panel-title-block">
-            <span class="panel-kicker"><i></i> LIVE LOCAL BRIEF</span>
-            <h1>2026 世界杯战报</h1>
-            <span class="panel-subtitle">最新战况 · 北京时间</span>
-            <p id="updated-at">正在读取本地战报…</p>
+            <span class="panel-kicker"><i></i> <span id="panel-kicker-text">LIVE LOCAL BRIEF</span></span>
+            <h1 id="panel-title">2026 世界杯战报</h1>
+            <span class="panel-subtitle" id="panel-subtitle">最新战况 · 北京时间</span>
+            <p class="updated-line" id="updated-at">正在读取本地战报…</p>
           </div>
           <div class="panel-actions">
+            <div class="language-switcher language-switcher--panel" id="panel-language-switcher" role="group" aria-label="语言切换"></div>
             <button id="refresh-button" class="icon-button" type="button" title="重新读取 latest.json">刷新</button>
             <button id="collapse-button" class="icon-button" type="button" title="收回悬浮球">收起</button>
             <button id="quit-button" class="icon-button icon-button--danger" type="button" title="退出悬浮球">退出</button>
@@ -95,6 +96,7 @@
 
         <main class="panel-content">
           <div class="status-message" id="status-message" role="status" hidden></div>
+          <div class="summary-card" id="summary-card" hidden></div>
 
           <section class="latest-section" aria-labelledby="latest-heading">
             <div class="section-title-row">
@@ -102,13 +104,13 @@
                 <span class="section-number">01</span>
                 <h2 id="latest-heading">最新结束比赛</h2>
               </div>
-              <span class="local-chip">LOCAL JSON</span>
+              <span class="local-chip" id="local-json-chip">LOCAL JSON</span>
             </div>
             <div id="latest-match"></div>
           </section>
 
           <button class="more-button" id="more-button" type="button" aria-expanded="false">
-            <span>查看更多</span>
+            <span id="more-button-label">查看更多</span>
             <span class="more-button__arrow" aria-hidden="true">↓</span>
           </button>
 
@@ -121,13 +123,46 @@
               <span class="match-count" id="match-count">0 MATCHES</span>
             </div>
             <div class="all-matches" id="all-matches"></div>
+            <div class="report-extras" id="report-extras" hidden>
+              <article class="extra-card" id="standings-card" hidden>
+                <h3 id="standings-heading">小组形势</h3>
+                <ul id="standings-list"></ul>
+              </article>
+              <article class="extra-card" id="fixtures-card" hidden>
+                <h3 id="fixtures-heading">今日赛程</h3>
+                <ul id="fixtures-list"></ul>
+              </article>
+              <article class="extra-card" id="news-card" hidden>
+                <h3 id="news-heading">重点新闻</h3>
+                <ul id="news-list"></ul>
+              </article>
+            </div>
           </section>
         </main>
 
         <footer class="panel-footer">
-          <span>DATA · ../data/latest.json</span>
-          <span class="footer-brand">OPENCLAW READY</span>
+          <span><span id="data-label">DATA</span> · ../data/latest.json</span>
+          <span class="footer-brand" id="footer-brand">OPENCLAW READY</span>
         </footer>
+      </div>
+    </section>
+
+    <section class="dialog-view" id="dialog-view" aria-label="悬浮球操作" hidden>
+      <div class="action-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title">
+        <div class="action-dialog__header">
+          <div>
+            <span class="dialog-kicker" id="dialog-kicker">WORLD CUP GADGET</span>
+            <h2 id="dialog-title">悬浮球操作</h2>
+          </div>
+          <div class="language-switcher language-switcher--dialog" id="dialog-language-switcher" role="group" aria-label="语言切换"></div>
+        </div>
+        <p id="dialog-description">你可以退出悬浮球，或预留跳转到完整 dashboard 网页的接口。</p>
+        <p class="dialog-hint" id="dialog-hint" hidden></p>
+        <div class="action-dialog__buttons">
+          <button id="dialog-dashboard-button" class="dialog-button dialog-button--primary" type="button">查看网页（预留）</button>
+          <button id="dialog-quit-button" class="dialog-button dialog-button--danger" type="button">退出悬浮球</button>
+          <button id="dialog-cancel-button" class="dialog-button" type="button">取消</button>
+        </div>
       </div>
     </section>
 

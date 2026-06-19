@@ -88,6 +88,22 @@ npm install
 - 点击“收起”回到悬浮球；
 - 点击“退出”或右键选择“退出悬浮球”可真正退出应用。
 
+## Language Switch
+
+English:
+The floating gadget supports English and Chinese UI. Use the language switcher in the top-right corner or in the right-click action dialog. The selected language is saved locally.
+
+The gadget supports bilingual report data. If `latest.json` contains fields such as `summary_en`, `summary_zh`, `highlights_en`, `highlights_zh`, `name_en`, and `name_zh`, the report content will switch together with the UI language. If bilingual fields are missing, the app falls back to the original fields.
+
+中文：
+悬浮球支持中英文界面。可以通过右上角语言切换按钮或右键操作对话框切换语言。语言选择会保存在本地。
+
+悬浮球支持双语战报数据。如果 `latest.json` 中包含 `summary_en`、`summary_zh`、`highlights_en`、`highlights_zh`、`name_en`、`name_zh` 等字段，战报正文会跟随 UI 语言一起切换。如果缺少双语字段，则自动回退到原始字段。
+
+- 当前版本会切换固定 UI 文案，例如标题、按钮、状态提示、右键操作对话框等。
+- 如果 `latest.json` 提供 `summary_en`、`summary_zh`、`highlights_en`、`highlights_zh`、`standings_changes_en`、`standings_changes_zh`、`title_en`、`title_zh`、`name_en`、`name_zh`、`venue_en`、`venue_zh` 等字段，战报正文也会跟随语言切换。
+- 如果没有对应语言字段，界面会 fallback 到原始字段，例如 `summary`、`highlights`、`standings_changes`、`title`、`name`、`venue`。
+
 ## 快捷键与单实例
 
 应用内部注册了 Electron `globalShortcut`：
