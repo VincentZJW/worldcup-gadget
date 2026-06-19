@@ -1,255 +1,260 @@
 {
-  "updated_at": "北京时间 2026-06-18 23:12",
-  "date_range": "2026-06-18",
-  "summary": "Group K 与 Group L 首轮战罢：Colombia 和 England 取胜领跑，Portugal 被 DR Congo 逼平，Ghana 补时绝杀 Panama。",
+  "updated_at": "北京时间 2026-06-19 11:00",
+  "date_range": "2026-06-19",
+  "summary": "Mexico 1-0 击败 South Korea 后两战全胜锁定出线主动权，Group B 则由 Canada 和 Switzerland 同积 4 分领跑。",
   "matches": [
     {
-      "group": "Group K",
+      "group": "Group A",
       "status": "FT",
-      "venue": "Houston Stadium",
-      "finished_at_bj": "北京时间 2026-06-18 03:30",
+      "venue": "Atlanta Stadium",
+      "finished_at_bj": "北京时间 2026-06-19 01:55",
       "team_a": {
-        "name": "Portugal",
-        "flag": "🇵🇹",
+        "name": "Czechia",
+        "flag": "🇨🇿",
         "score": 1,
         "scorers": [
           {
-            "player": "João Neves",
-            "minute": "6'",
+            "player": "Michal Sadílek",
+            "minute": "5'",
             "type": "goal"
           }
         ]
       },
       "team_b": {
-        "name": "DR Congo",
-        "flag": "🇨🇩",
+        "name": "South Africa",
+        "flag": "🇿🇦",
         "score": 1,
         "scorers": [
           {
-            "player": "Yoane Wissa",
-            "minute": "45+5'",
-            "type": "goal"
-          }
-        ]
-      },
-      "highlights": [
-        "João Neves 第 6 分钟头球破门，Portugal 早早取得领先",
-        "Yoane Wissa 上半场补时头球扳平，DR Congo 收获队史世界杯首分",
-        "Portugal 未能把控领先优势，Group K 首轮出现平局"
-      ]
-    },
-    {
-      "group": "Group L",
-      "status": "FT",
-      "venue": "Dallas Stadium",
-      "finished_at_bj": "北京时间 2026-06-18 06:05",
-      "team_a": {
-        "name": "England",
-        "flag": "🏴",
-        "score": 4,
-        "scorers": [
-          {
-            "player": "Harry Kane",
-            "minute": "12'",
+            "player": "Teboho Mokoena",
+            "minute": "83'",
             "type": "penalty"
-          },
-          {
-            "player": "Harry Kane",
-            "minute": "42'",
-            "type": "goal"
-          },
-          {
-            "player": "Jude Bellingham",
-            "minute": "47'",
-            "type": "goal"
-          },
-          {
-            "player": "Marcus Rashford",
-            "minute": "85'",
-            "type": "goal"
-          }
-        ]
-      },
-      "team_b": {
-        "name": "Croatia",
-        "flag": "🇭🇷",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Martin Baturina",
-            "minute": "36'",
-            "type": "goal"
-          },
-          {
-            "player": "Petar Musa",
-            "minute": "45+5'",
-            "type": "goal"
           }
         ]
       },
       "highlights": [
-        "Harry Kane 上半场梅开二度，England 两次取得领先",
-        "Croatia 先后由 Martin Baturina 和 Petar Musa 扳平比分",
-        "Jude Bellingham 下半场开场破门，Marcus Rashford 替补登场后锁定 4-2"
+        "Michal Sadílek 第 5 分钟为 Czechia 取得梦幻开局",
+        "South Africa 后程压上，并由 Teboho Mokoena 第 83 分钟点球扳平",
+        "两队均只积 1 分，末轮分别对阵 Mexico 与 South Korea 时仍需取分争夺出线"
       ]
     },
     {
-      "group": "Group L",
+      "group": "Group A",
       "status": "FT",
-      "venue": "Toronto Stadium",
-      "finished_at_bj": "北京时间 2026-06-18 09:15",
+      "venue": "Mexico City Stadium",
+      "finished_at_bj": "北京时间 2026-06-19 10:55",
       "team_a": {
-        "name": "Ghana",
-        "flag": "🇬🇭",
+        "name": "Mexico",
+        "flag": "🇲🇽",
         "score": 1,
         "scorers": [
           {
-            "player": "Caleb Yirenkyi",
-            "minute": "90+5'",
+            "player": "Luis Romo",
+            "minute": "50'",
             "type": "goal"
           }
         ]
       },
       "team_b": {
-        "name": "Panama",
-        "flag": "🇵🇦",
+        "name": "South Korea",
+        "flag": "🇰🇷",
         "score": 0,
         "scorers": []
       },
       "highlights": [
-        "比赛长时间保持 0-0，Ghana 在补时阶段完成绝杀",
-        "Caleb Yirenkyi 第 90+5 分钟破门，帮助 Ghana 拿到 3 分",
-        "Panama 首轮失利，Group L 出线压力增大"
+        "Luis Romo 第 50 分钟破门，帮助 Mexico 打破僵局",
+        "South Korea 末段持续施压，但未能扳平比分",
+        "Raúl Rangel 终场前作出关键扑救，Mexico 保住 1-0 胜局"
       ]
     },
     {
-      "group": "Group K",
+      "group": "Group B",
       "status": "FT",
-      "venue": "Mexico City Stadium",
-      "finished_at_bj": "北京时间 2026-06-18 12:30",
+      "venue": "Los Angeles Stadium",
+      "finished_at_bj": "北京时间 2026-06-19 05:00",
       "team_a": {
-        "name": "Uzbekistan",
-        "flag": "🇺🇿",
-        "score": 1,
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "score": 4,
         "scorers": [
           {
-            "player": "Abbosbek Fayzullaev",
-            "minute": "60'",
+            "player": "Johan Manzambi",
+            "minute": "75'",
             "type": "goal"
+          },
+          {
+            "player": "Rubén Vargas",
+            "minute": "85'",
+            "type": "goal"
+          },
+          {
+            "player": "Johan Manzambi",
+            "minute": "90'",
+            "type": "goal"
+          },
+          {
+            "player": "Granit Xhaka",
+            "minute": "90+6'",
+            "type": "penalty"
           }
         ]
       },
       "team_b": {
-        "name": "Colombia",
-        "flag": "🇨🇴",
-        "score": 3,
+        "name": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "score": 1,
         "scorers": [
           {
-            "player": "Daniel Muñoz",
-            "minute": "41'",
-            "type": "goal"
-          },
-          {
-            "player": "Luis Díaz",
-            "minute": "65'",
-            "type": "goal"
-          },
-          {
-            "player": "Jaminton Campaz",
-            "minute": "90+9'",
+            "player": "Ermin Mahmić",
+            "minute": "90+3'",
             "type": "goal"
           }
         ]
       },
       "highlights": [
-        "Daniel Muñoz 第 41 分钟为 Colombia 首开纪录",
-        "Abbosbek Fayzullaev 第 60 分钟打入 Uzbekistan 队史世界杯首球",
-        "Luis Díaz 传射建功，Jaminton Campaz 补时头球锁定胜局"
+        "Johan Manzambi 替补登场后梅开二度，带动 Switzerland 下半场后段爆发",
+        "Tarik Muharemović 被罚下后，Bosnia and Herzegovina 末段防线崩盘",
+        "Granit Xhaka 补时点球锁定 4-1，Switzerland 积 4 分保有强劲出线主动权"
+      ]
+    },
+    {
+      "group": "Group B",
+      "status": "FT",
+      "venue": "BC Place Vancouver",
+      "finished_at_bj": "北京时间 2026-06-19 08:05",
+      "team_a": {
+        "name": "Canada",
+        "flag": "🇨🇦",
+        "score": 6,
+        "scorers": [
+          {
+            "player": "Cyle Larin",
+            "minute": "16'",
+            "type": "goal"
+          },
+          {
+            "player": "Jonathan David",
+            "minute": "29'",
+            "type": "goal"
+          },
+          {
+            "player": "Jonathan David",
+            "minute": "45+3'",
+            "type": "goal"
+          },
+          {
+            "player": "Nathan Saliba",
+            "minute": "64'",
+            "type": "goal"
+          },
+          {
+            "player": "Mohamed Al Mannai",
+            "minute": "75'",
+            "type": "own_goal"
+          },
+          {
+            "player": "Jonathan David",
+            "minute": "90+2'",
+            "type": "goal"
+          }
+        ]
+      },
+      "team_b": {
+        "name": "Qatar",
+        "flag": "🇶🇦",
+        "score": 0,
+        "scorers": []
+      },
+      "highlights": [
+        "Jonathan David 上演帽子戏法，Canada 收获男足世界杯队史首胜",
+        "Qatar 先后有 Homam Ahmed 与 Assim Madibo 被红牌罚下，最终九人完赛",
+        "Ismaël Koné 遭遇严重腿伤被担架抬离，Canada 的大胜也因此蒙上阴影"
       ]
     }
   ],
   "standings_changes": [
-    "Group K：Colombia 3-1 击败 Uzbekistan，积 3 分并以 +2 净胜球暂列第一",
-    "Group K：Portugal 与 DR Congo 1-1 战平同积 1 分，Uzbekistan 首轮失利暂居第四",
-    "Group L：England 4-2 击败 Croatia，积 3 分并以 +2 净胜球领跑",
-    "Group L：Ghana 1-0 击败 Panama 后积 3 分暂列第二，Croatia 与 Panama 首轮仍为 0 分",
-    "今日北美赛程将进入 Group A 与 Group B 第二轮，Mexico、Canada 等东道主继续出战"
+    "Group A：Mexico 1-0 击败 South Korea 后两战全胜积 6 分，提前掌握出线主动权",
+    "Group A：South Korea 仍积 3 分排名第二，Czechia 与 South Africa 均积 1 分，末轮仍有追赶机会",
+    "Group B：Canada 6-0 大胜 Qatar 后积 4 分，凭 +6 净胜球升至小组第一",
+    "Group B：Switzerland 4-1 击败 Bosnia and Herzegovina，同积 4 分并以 +3 净胜球排名第二",
+    "Group B：Bosnia and Herzegovina 与 Qatar 均积 1 分，末轮直接对话将决定是否仍有出线希望",
+    "Group A：Czechia 与 South Africa 1-1 战平后均积 1 分，末轮仍需赢球并关注 South Korea 赛果"
   ],
   "today_fixtures": [
     {
-      "time_bj": "北京时间 2026-06-19 00:00",
+      "time_bj": "北京时间 2026-06-20 00:00",
       "team_a": {
-        "name": "Czechia",
-        "flag": "🇨🇿"
+        "name": "Brazil",
+        "flag": "🇧🇷"
       },
       "team_b": {
-        "name": "South Africa",
-        "flag": "🇿🇦"
+        "name": "Haiti",
+        "flag": "🇭🇹"
       },
-      "group": "Group A"
+      "group": "Group C"
     },
     {
-      "time_bj": "北京时间 2026-06-19 03:00",
+      "time_bj": "北京时间 2026-06-20 03:00",
       "team_a": {
-        "name": "Switzerland",
-        "flag": "🇨🇭"
+        "name": "Scotland",
+        "flag": "🏴"
       },
       "team_b": {
-        "name": "Bosnia and Herzegovina",
-        "flag": "🇧🇦"
+        "name": "Morocco",
+        "flag": "🇲🇦"
       },
-      "group": "Group B"
+      "group": "Group C"
     },
     {
-      "time_bj": "北京时间 2026-06-19 06:00",
+      "time_bj": "北京时间 2026-06-20 06:00",
       "team_a": {
-        "name": "Canada",
-        "flag": "🇨🇦"
+        "name": "Türkiye",
+        "flag": "🇹🇷"
       },
       "team_b": {
-        "name": "Qatar",
-        "flag": "🇶🇦"
+        "name": "Paraguay",
+        "flag": "🇵🇾"
       },
-      "group": "Group B"
+      "group": "Group D"
     },
     {
-      "time_bj": "北京时间 2026-06-19 09:00",
+      "time_bj": "北京时间 2026-06-20 09:00",
       "team_a": {
-        "name": "Mexico",
-        "flag": "🇲🇽"
+        "name": "USA",
+        "flag": "🇺🇸"
       },
       "team_b": {
-        "name": "South Korea",
-        "flag": "🇰🇷"
+        "name": "Australia",
+        "flag": "🇦🇺"
       },
-      "group": "Group A"
+      "group": "Group D"
     }
   ],
   "news": [
     {
-      "title": "DR Congo 凭 Yoane Wissa 进球 1-1 逼平 Portugal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report"
+      "title": "Canada 6-0 Qatar：Jonathan David 帽子戏法带来加拿大男足世界杯首胜",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/canada-qatar-score-world-cup-ac2e21764948dba88373e5e287f3d0c1"
     },
     {
-      "title": "England 4-2 击败 Croatia，Harry Kane 梅开二度",
+      "title": "Switzerland 4-1 Bosnia and Herzegovina：Manzambi 替补双响改写 Group B 形势",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/2026/jun/17/england-croatia-world-cup-2026-group-l-match-report"
+      "url": "https://www.theguardian.com/football/live/2026/jun/18/switzerland-v-bosnia-and-herzegovina-world-cup-2026-live"
     },
     {
-      "title": "Ghana 凭 Caleb Yirenkyi 补时进球 1-0 击败 Panama",
+      "title": "Czechia 1-1 South Africa：Mokoena 点球救回一分，两队末轮仍需抢分",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/live/2026/jun/17/ghana-v-panama-world-cup-2026-live"
+      "url": "https://www.theguardian.com/football/2026/jun/18/czechia-south-africa-world-cup-group-a-match-report"
     },
     {
-      "title": "Colombia 3-1 击败 Uzbekistan，Luis Díaz 传射建功",
+      "title": "Mexico 1-0 South Korea：Luis Romo 破门，东道主两连胜",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/2026/jun/18/uzbekistan-colombia-world-cup-2026-group-k-match-report"
+      "url": "https://www.theguardian.com/football/live/2026/jun/19/fifa-world-cup-2026-live-mexico-v-south-korea-updates-mex-vs-kor-group-a-match-score-latest"
     },
     {
-      "title": "6 月 18 日北美赛程进入 Group A/B：Czechia-South Africa 与 Mexico-South Korea 等比赛待赛",
+      "title": "Scotland 备战 Morocco，Steve Clarke 称对手是 Group C 的真正强队考验",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/2026/jun/18/how-to-watch-world-cup-mexico-south-korea"
+      "url": "https://www.theguardian.com/football/2026/jun/18/clarke-warns-scotland-morocco-real-deal-world-cup"
     }
   ]
 }
