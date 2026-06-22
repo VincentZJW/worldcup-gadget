@@ -23,6 +23,31 @@ npm install
 npm run electron:install
 ```
 
+## macOS 打包
+
+生成本地 `.app`：
+
+```bash
+npm run package:mac
+```
+
+生成可分发的 DMG：
+
+```bash
+npm run dist:mac
+```
+
+产物会写入：
+
+```text
+release/mac-arm64/WorldCup Gadget.app
+release/WorldCup Gadget-1.0.0-arm64.dmg
+```
+
+当前 DMG 是本地未签名构建：它会包含 `WorldCup Gadget.app` 和 `/Applications` 快捷方式，适合内部测试。下一步产品化需要接入 Apple Developer ID 签名和 notarization，才能降低 Gatekeeper 安装拦截。
+
+打包版会把项目根目录的 `data/latest.json` 复制进 app resources，运行时从打包资源中读取本地数据，不会联网请求比赛数据。
+
 ## 启动
 
 开发方式启动：

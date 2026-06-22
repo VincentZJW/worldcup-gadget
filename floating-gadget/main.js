@@ -11,7 +11,6 @@ const PANEL_WIDTH = 420;
 const PANEL_HEIGHT = 620;
 const SCREEN_MARGIN = 20;
 const GLOBAL_SHOW_BALL_SHORTCUT = "Control+Alt+W";
-const REPORT_PATH = path.resolve(__dirname, "..", "data", "latest.json");
 const PID_FILE = path.join(os.tmpdir(), "worldcup-floating-gadget.pid");
 
 let gadgetWindow = null;
@@ -19,6 +18,14 @@ let windowShown = false;
 let dragState = null;
 let isPanelExpanded = false;
 let ownsPidFile = false;
+
+function latestReportPath() {
+  if (app.isPackaged) {
+    return path.join(process.resourcesPath, "data", "latest.json");
+  }
+
+  return path.resolve(__dirname, "..", "data", "latest.json");
+}
 
 function clamp(value, min, max) {
   return Math.min(Math.max(value, min), max);
@@ -202,7 +209,7 @@ function registerGlobalShortcut() {
 async function readLatestReport() {
   let raw;
   try {
-    raw = await fs.readFile(REPORT_PATH, "utf8");
+    raw = await fs.readFile(latestReportPath(), "utf8");
   } catch (error) {
     if (error && error.code === "ENOENT") {
       return { ok: false, error: "NOT_FOUND" };

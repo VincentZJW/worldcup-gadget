@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A local macOS floating World Cup results gadget.",
+  "author": "VincentZJW",
   "main": "main.js",
   "scripts": {
     "postinstall": "node scripts/install-electron-binary.js",
@@ -10,9 +11,39 @@
     "prestart": "node scripts/check-electron.js",
     "start": "electron .",
     "predev": "node scripts/check-electron.js",
-    "dev": "electron ."
+    "dev": "electron .",
+    "package:mac": "electron-builder --mac dir",
+    "dist:mac": "npm run package:mac && node scripts/create-mac-dmg.js"
+  },
+  "build": {
+    "appId": "com.vincent.worldcup.gadget",
+    "productName": "WorldCup Gadget",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "../data/latest.json",
+        "to": "data/latest.json"
+      }
+    ],
+    "mac": {
+      "category": "public.app-category.sports",
+      "identity": null,
+      "target": [
+        "dir"
+      ]
+    }
   },
   "devDependencies": {
-    "electron": "^42.4.1"
+    "electron": "^42.4.1",
+    "electron-builder": "^26.0.12"
   }
 }

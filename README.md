@@ -79,6 +79,17 @@ cd /Users/vincentz/Documents/worldcup-gadget
 
 The script launches Electron in detached mode, so the gadget can keep running after Terminal closes. It does not use `npm start`.
 
+## Build a macOS Installer
+
+From the Electron app directory:
+
+```bash
+cd /Users/vincentz/Documents/worldcup-gadget/floating-gadget
+npm run dist:mac
+```
+
+This creates a local unsigned DMG in `floating-gadget/release/`. The DMG includes `WorldCup Gadget.app` and an `/Applications` shortcut. Signing and notarization are the next productization step before public distribution.
+
 ## Stop the Gadget
 
 From the project root:
@@ -361,6 +372,17 @@ cd /Users/vincentz/Documents/worldcup-gadget
 ```
 
 这个脚本会以 detached 方式启动 Electron，因此 Terminal 关闭后悬浮球仍可继续运行。它不会使用 `npm start`。
+
+## 构建 macOS 安装包
+
+进入 Electron 应用目录运行：
+
+```bash
+cd /Users/vincentz/Documents/worldcup-gadget/floating-gadget
+npm run dist:mac
+```
+
+这会在 `floating-gadget/release/` 下生成本地未签名 DMG。DMG 内包含 `WorldCup Gadget.app` 和 `/Applications` 快捷方式。正式公开分发前，下一步还需要接入 Apple Developer ID 签名和 notarization。
 
 ## 停止悬浮球
 
