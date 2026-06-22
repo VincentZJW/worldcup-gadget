@@ -7,21 +7,16 @@
   const i18n = Object.freeze({
     zh: {
       allMatchesHeading: "前一日全部战况",
-      ballTitle: "点击展开 · 长按拖拽 · 右键更多操作",
+      ballTitle: "点击展开 · 长按拖拽",
       ballViewLabel: "世界杯悬浮球",
-      cancel: "取消",
       collapse: "收起",
       collapseTitle: "收回悬浮球",
-      dashboardReservedHint: "完整 Dashboard 网页接口已预留，当前版本不会打开外部网页，也不会联网。",
       data: "DATA",
-      dialogDescription: "你可以退出悬浮球，或预留跳转到完整 dashboard 网页的接口。",
-      dialogKicker: "WORLD CUP GADGET",
       draggingBallLabel: "正在拖动世界杯悬浮球",
       exit: "退出",
       exitFloatingBall: "退出悬浮球",
       expandBallLabel: "展开世界杯战报",
       fixturesHeading: "今日赛程",
-      floatingBallActions: "悬浮球操作",
       groupFallback: "Group --",
       invalidJson: "战报数据格式错误，请检查 latest.json。",
       languageEn: "EN",
@@ -38,7 +33,6 @@
       noGoals: "无进球",
       notFound: "未找到战报数据，请先生成 data/latest.json。",
       openclawReady: "OPENCLAW READY",
-      openDashboardReserved: "查看网页（预留）",
       panelSubtitle: "最新战况 · 北京时间",
       panelTitle: "2026 世界杯战报",
       readingReport: "正在读取本地战报…",
@@ -56,21 +50,16 @@
     },
     en: {
       allMatchesHeading: "All Matches From Previous Day",
-      ballTitle: "Click to expand · long press to drag · right click for actions",
+      ballTitle: "Click to expand · long press to drag",
       ballViewLabel: "World Cup floating ball",
-      cancel: "Cancel",
       collapse: "Collapse",
       collapseTitle: "Collapse to floating ball",
-      dashboardReservedHint: "The full dashboard entry is reserved. This version will not open external pages or make network requests.",
       data: "DATA",
-      dialogDescription: "You can exit the floating ball or use the reserved entry to open the full dashboard page.",
-      dialogKicker: "WORLD CUP GADGET",
       draggingBallLabel: "Dragging World Cup floating ball",
       exit: "Exit",
       exitFloatingBall: "Exit Floating Ball",
       expandBallLabel: "Expand World Cup brief",
       fixturesHeading: "Today's Fixtures",
-      floatingBallActions: "Floating Ball Actions",
       groupFallback: "Group --",
       invalidJson: "Report data format error. Please check latest.json.",
       languageEn: "EN",
@@ -87,7 +76,6 @@
       noGoals: "No goals",
       notFound: "Report data not found. Please generate data/latest.json first.",
       openclawReady: "OPENCLAW READY",
-      openDashboardReserved: "Open Dashboard (Reserved)",
       panelSubtitle: "Latest Status · Beijing Time",
       panelTitle: "2026 World Cup Brief",
       readingReport: "Reading local report…",
@@ -107,7 +95,6 @@
 
   const ballView = document.getElementById("ball-view");
   const panelView = document.getElementById("panel-view");
-  const dialogView = document.getElementById("dialog-view");
   const ballButton = document.getElementById("ball-button");
   const ballBadge = document.querySelector(".ball-badge");
   const collapseButton = document.getElementById("collapse-button");
@@ -123,7 +110,6 @@
   const updatedAt = document.getElementById("updated-at");
   const matchCount = document.getElementById("match-count");
   const panelLanguageSwitcher = document.getElementById("panel-language-switcher");
-  const dialogLanguageSwitcher = document.getElementById("dialog-language-switcher");
   const panelKickerText = document.getElementById("panel-kicker-text");
   const panelTitle = document.getElementById("panel-title");
   const panelSubtitle = document.getElementById("panel-subtitle");
@@ -142,13 +128,6 @@
   const newsCard = document.getElementById("news-card");
   const newsHeading = document.getElementById("news-heading");
   const newsList = document.getElementById("news-list");
-  const dialogKicker = document.getElementById("dialog-kicker");
-  const dialogTitle = document.getElementById("dialog-title");
-  const dialogDescription = document.getElementById("dialog-description");
-  const dialogHint = document.getElementById("dialog-hint");
-  const dialogDashboardButton = document.getElementById("dialog-dashboard-button");
-  const dialogQuitButton = document.getElementById("dialog-quit-button");
-  const dialogCancelButton = document.getElementById("dialog-cancel-button");
 
   let currentLanguage = getCurrentLanguage();
   let currentReportData = null;
@@ -313,17 +292,7 @@
     quitButton.title = t("exitFloatingBall");
     resetMoreButton();
 
-    dialogView.setAttribute("aria-label", t("floatingBallActions"));
-    dialogKicker.textContent = t("dialogKicker");
-    dialogTitle.textContent = t("floatingBallActions");
-    dialogDescription.textContent = t("dialogDescription");
-    dialogDashboardButton.textContent = t("openDashboardReserved");
-    dialogQuitButton.textContent = t("exitFloatingBall");
-    dialogCancelButton.textContent = t("cancel");
-    if (!dialogHint.hidden) dialogHint.textContent = t("dashboardReservedHint");
-
     renderLanguageSwitcher(panelLanguageSwitcher);
-    renderLanguageSwitcher(dialogLanguageSwitcher);
 
     if (!rerenderDynamic) return;
     if (currentReportData) {
@@ -447,7 +416,7 @@
     }
   }
 
-  async function showBallActions(event) {
+  async function suppressBallContextMenu(event) {
     event.preventDefault();
     clearLongPressTimer();
     if (draggingBall) {
@@ -455,29 +424,6 @@
     }
     resetBallPointerState();
     suppressNextBallClick = false;
-    dialogHint.hidden = true;
-
-    if (typeof window.gadgetAPI.showActionsWindow === "function") {
-      await window.gadgetAPI.showActionsWindow();
-    } else {
-      await window.gadgetAPI.expandWindow();
-    }
-
-    document.body.dataset.mode = "dialog";
-    ballView.hidden = true;
-    panelView.hidden = true;
-    dialogView.hidden = false;
-    applyLanguage({ rerenderDynamic: false });
-  }
-
-  async function closeBallActionsDialog() {
-    dialogView.hidden = true;
-    panelView.hidden = true;
-    ballView.hidden = false;
-    document.body.dataset.mode = "ball";
-    dialogHint.hidden = true;
-    resetBallPointerState();
-    await window.gadgetAPI.collapseWindow();
   }
 
   function normalizeTeam(team) {
@@ -711,7 +657,6 @@
     await window.gadgetAPI.expandWindow();
     document.body.dataset.mode = "panel";
     ballView.hidden = true;
-    dialogView.hidden = true;
     panelView.hidden = false;
     await readReport("readLatestReport");
   }
@@ -720,7 +665,6 @@
     showingAll = false;
     resetMoreButton();
     allMatchesSection.hidden = true;
-    dialogView.hidden = true;
     panelView.hidden = true;
     ballView.hidden = false;
     document.body.dataset.mode = "ball";
@@ -731,7 +675,6 @@
     showingAll = false;
     resetMoreButton();
     allMatchesSection.hidden = true;
-    dialogView.hidden = true;
     panelView.hidden = true;
     ballView.hidden = false;
     document.body.dataset.mode = "ball";
@@ -755,7 +698,7 @@
   ballButton.addEventListener("lostpointercapture", () => {
     if (!draggingBall) resetBallPointerState();
   });
-  ballView.addEventListener("contextmenu", showBallActions);
+  ballView.addEventListener("contextmenu", suppressBallContextMenu);
   ballButton.addEventListener("click", (event) => {
     if (suppressNextBallClick) {
       event.preventDefault();
@@ -769,20 +712,10 @@
   refreshButton.addEventListener("click", () => readReport("refreshReport"));
   quitButton.addEventListener("click", quitApp);
   moreButton.addEventListener("click", toggleAllMatches);
-  dialogDashboardButton.addEventListener("click", () => {
-    dialogHint.textContent = t("dashboardReservedHint");
-    dialogHint.hidden = false;
-  });
-  dialogQuitButton.addEventListener("click", quitApp);
-  dialogCancelButton.addEventListener("click", closeBallActionsDialog);
   window.gadgetAPI.onShortcutShowBall(showBallOnly);
 
   window.addEventListener("keydown", (event) => {
     if (event.key !== "Escape") return;
-    if (document.body.dataset.mode === "dialog") {
-      closeBallActionsDialog();
-      return;
-    }
     if (document.body.dataset.mode === "panel") collapsePanel();
   });
 

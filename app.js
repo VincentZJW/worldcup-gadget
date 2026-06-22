@@ -207,24 +207,13 @@
     $("updated-at").textContent = "本地数据读取失败";
   }
 
-  async function loadData() {
-    try {
-      const response = await fetch("./data/latest.json", { cache: "no-store" });
-      if (!response.ok) throw new DataReadError();
-      try {
-        return await response.json();
-      } catch (_error) {
-        throw new DataFormatError();
-      }
-    } catch (error) {
-      if (error instanceof DataFormatError) throw error;
-      // Chromium 对 file:// fetch 有额外限制；open_dashboard.sh 会生成这份本地缓存。
-      if (window.WORLDCUP_DATA) return window.WORLDCUP_DATA;
-      throw new DataReadError();
-    }
+  function loadData() {
+    if (!window.WORLDCUP_DATA) throw new DataReadError();
+    return window.WORLDCUP_DATA;
   }
 
-  loadData()
+  Promise.resolve()
+    .then(loadData)
     .then(render)
     .catch((error) => {
       if (error instanceof DataFormatError) {

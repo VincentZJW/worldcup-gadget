@@ -80,27 +80,26 @@ npm install
 - 点击足球悬浮球展开战报；
 - 按 `Control + Alt + W` 可以显示 / 唤醒已经运行的 collapsed 小足球悬浮球；macOS 键盘上是 `Control + Option + W`；
 - 长按足球悬浮球约 0.4 秒后拖动，可移动悬浮球；
-- 右键足球悬浮球会弹出操作对话框，可选择“退出悬浮球”或“查看网页（预留）”；
 - 拖动面板标题区域可移动面板；
 - 点击“查看更多”展开全部比赛；
 - 点击“只看最新”回到最新一场比赛；
 - 点击“刷新”重新读取 `latest.json`，成功后会短暂显示提示；
 - 点击“收起”回到悬浮球；
-- 点击“退出”或右键选择“退出悬浮球”可真正退出应用。
+- 点击“退出”可真正退出应用。
 
 ## Language Switch
 
 English:
-The floating gadget supports English and Chinese UI. Use the language switcher in the top-right corner or in the right-click action dialog. The selected language is saved locally.
+The floating gadget supports English and Chinese UI. Use the language switcher in the top-right corner. The selected language is saved locally.
 
 The gadget supports bilingual report data. If `latest.json` contains fields such as `summary_en`, `summary_zh`, `highlights_en`, `highlights_zh`, `name_en`, and `name_zh`, the report content will switch together with the UI language without reloading the JSON file. If bilingual fields are missing, the app falls back to the original fields.
 
 中文：
-悬浮球支持中英文界面。可以通过右上角语言切换按钮或右键操作对话框切换语言。语言选择会保存在本地。
+悬浮球支持中英文界面。可以通过右上角语言切换按钮切换语言。语言选择会保存在本地。
 
 悬浮球支持双语战报数据。如果 `latest.json` 中包含 `summary_en`、`summary_zh`、`highlights_en`、`highlights_zh`、`name_en`、`name_zh` 等字段，战报正文会跟随 UI 语言一起切换，不需要重新读取 JSON 文件。如果缺少双语字段，则自动回退到原始字段。
 
-- 当前版本会切换固定 UI 文案，例如标题、按钮、状态提示、右键操作对话框等，并重新渲染已读取的战报正文。
+- 当前版本会切换固定 UI 文案，例如标题、按钮、状态提示等，并重新渲染已读取的战报正文。
 - 如果 `latest.json` 提供 `summary_en`、`summary_zh`、`highlights_en`、`highlights_zh`、`standings_changes_en`、`standings_changes_zh`、`title_en`、`title_zh`、`name_en`、`name_zh`、`venue_en`、`venue_zh` 等字段，战报正文也会跟随语言切换。
 - 如果没有对应语言字段，界面会 fallback 到原始字段，例如 `summary`、`highlights`、`standings_changes`、`title`、`name`、`venue`。
 
@@ -148,7 +147,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install-windows-hotkey.ps1
 ../data/latest.json
 ```
 
-主进程使用固定绝对路径读取该文件，不接受 renderer 提供的任意文件路径。renderer 不启用 Node integration，并通过安全的 preload API 请求数据。
+主进程使用固定绝对路径读取该文件，不接受 renderer 提供的任意文件路径。renderer 不启用 Node integration，并通过安全的 preload IPC 读取数据。
 
 如果比赛包含 `finished_at_bj`，应用会按该字段排序并展示最新结束的一场；如果没有该字段，则展示 `matches` 数组中的最后一场。
 
@@ -167,7 +166,6 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install-windows-hotkey.ps1
 - 不修改 Windows 注册表；
 - 不要求管理员权限；
 - 不包含开机自启；
-- “查看网页”按钮当前只是预留接口，不会打开外部网页，也不会联网。
 
 后续可以继续增加：
 

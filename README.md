@@ -11,7 +11,7 @@ This project contains two local views:
 - An Electron floating soccer-ball gadget in `floating-gadget/`.
 - A classic local HTML dashboard at the project root.
 
-Both views read local match data from `data/latest.json`.
+The Electron gadget reads `data/latest.json` directly. The classic dashboard reads the generated `data/latest.js` static cache, which is created from `data/latest.json` by `scripts/update_data.sh`.
 
 ## Features
 
@@ -28,7 +28,10 @@ Both views read local match data from `data/latest.json`.
 ## Project Structure
 
 - `data/latest.json`  
-  Local match report data used by both the floating gadget and the classic dashboard.
+  Local match report data used directly by the floating gadget.
+
+- `data/latest.js`
+  Ignored generated static cache used by the classic dashboard. Regenerate it with `scripts/update_data.sh`.
 
 - `floating-gadget/`  
   Electron app for the desktop floating soccer-ball gadget. It contains `main.js`, `preload.js`, UI files under `src/`, and its own `package.json`.
@@ -85,7 +88,7 @@ cd /Users/vincentz/Documents/worldcup-gadget
 ./scripts/stop-floating-gadget.sh
 ```
 
-You can also quit from the floating panel by clicking “Quit”, or by right-clicking the soccer ball and choosing “Quit Floating Gadget”.
+You can also quit from the floating panel by clicking “Quit”.
 
 ## macOS Keyboard Shortcut
 
@@ -157,7 +160,7 @@ chmod +x scripts/*.sh
 ./scripts/open_dashboard.sh
 ```
 
-`open_dashboard.sh` checks `data/latest.json`, starts a local-only server at `127.0.0.1:8787`, then opens the dashboard in Chrome app mode when available, or Safari as a fallback.
+`open_dashboard.sh` checks `data/latest.json`, generates the local `data/latest.js` cache, then opens the dashboard HTML file in Chrome app mode when available, or Safari as a fallback. It does not start a local HTTP server.
 
 To install the optional macOS `launchd` task that opens the classic dashboard every day at 10:00 local system time:
 
@@ -281,10 +284,16 @@ tail -n 50 /tmp/worldcupdashboard.err.log
 - `floating-gadget/` 中的 Electron 足球悬浮球。
 - 项目根目录下的经典 HTML Dashboard。
 
-两者都读取本地数据文件：
+Electron 悬浮球直接读取本地数据文件：
 
 ```text
 data/latest.json
+```
+
+经典 HTML Dashboard 读取由 `scripts/update_data.sh` 从 `data/latest.json` 生成的本地静态缓存：
+
+```text
+data/latest.js
 ```
 
 ## 功能特点
@@ -302,7 +311,10 @@ data/latest.json
 ## 项目结构
 
 - `data/latest.json`  
-  本地战报数据，悬浮球和经典 Dashboard 都读取这个文件。
+  本地战报数据，Electron 悬浮球直接读取这个文件。
+
+- `data/latest.js`
+  经典 Dashboard 使用的本地静态缓存文件，由 `scripts/update_data.sh` 从 `data/latest.json` 生成，并且不会提交到 Git。
 
 - `floating-gadget/`  
   Electron 桌面悬浮球应用，包含 `main.js`、`preload.js`、`src/` UI 文件和独立的 `package.json`。
@@ -359,7 +371,7 @@ cd /Users/vincentz/Documents/worldcup-gadget
 ./scripts/stop-floating-gadget.sh
 ```
 
-也可以在展开面板里点击“退出”，或者右键小足球后选择“退出悬浮球”。
+也可以在展开面板里点击“退出”。
 
 ## macOS 快捷键设置
 
@@ -431,7 +443,7 @@ chmod +x scripts/*.sh
 ./scripts/open_dashboard.sh
 ```
 
-`open_dashboard.sh` 会检查 `data/latest.json`，在 `127.0.0.1:8787` 启动仅本机可访问的服务，然后优先用 Chrome app mode 打开，未安装 Chrome 时回退到 Safari。
+`open_dashboard.sh` 会检查 `data/latest.json`，生成本地 `data/latest.js` 缓存，然后优先用 Chrome app mode 打开 Dashboard HTML 文件，未安装 Chrome 时回退到 Safari。它不会启动本机 HTTP 服务。
 
 如果需要安装可选的 macOS `launchd` 定时任务，让经典 Dashboard 每天系统本地时间 10:00 自动打开：
 

@@ -1,6 +1,6 @@
 "use strict";
 
-const { app, BrowserWindow, dialog, globalShortcut, ipcMain, screen } = require("electron");
+const { app, BrowserWindow, globalShortcut, ipcMain, screen } = require("electron");
 const fs = require("node:fs/promises");
 const fsSync = require("node:fs");
 const os = require("node:os");
@@ -9,8 +9,6 @@ const path = require("node:path");
 const BALL_SIZE = 64;
 const PANEL_WIDTH = 420;
 const PANEL_HEIGHT = 620;
-const ACTION_DIALOG_WIDTH = 360;
-const ACTION_DIALOG_HEIGHT = 326;
 const SCREEN_MARGIN = 20;
 const GLOBAL_SHOW_BALL_SHORTCUT = "Control+Alt+W";
 const REPORT_PATH = path.resolve(__dirname, "..", "data", "latest.json");
@@ -71,11 +69,6 @@ function expandWindow() {
 function collapseWindow() {
   isPanelExpanded = false;
   return applyWindowSize(BALL_SIZE, BALL_SIZE);
-}
-
-function showActionsWindow() {
-  isPanelExpanded = false;
-  return applyWindowSize(ACTION_DIALOG_WIDTH, ACTION_DIALOG_HEIGHT);
 }
 
 function writePidFile() {
@@ -234,46 +227,6 @@ function assertTrustedSender(event) {
   }
 }
 
-async function showFullDashboardPlaceholder() {
-  if (!gadgetWindow) return { ok: false, action: "missing-window" };
-  await dialog.showMessageBox(gadgetWindow, {
-    type: "info",
-    title: "查看 Dashboard 网页",
-    message: "完整 Dashboard 网页接口已预留",
-    detail: "后续可以在这里接入项目根目录的完整 dashboard 页面或本地服务。当前版本不会打开外部网页，也不会联网。",
-    buttons: ["知道了"],
-    defaultId: 0,
-    cancelId: 0,
-    noLink: true
-  });
-  return { ok: true, action: "dashboard-placeholder" };
-}
-
-async function showBallActionsDialog() {
-  if (!gadgetWindow) return { ok: false, action: "missing-window" };
-  const result = await dialog.showMessageBox(gadgetWindow, {
-    type: "question",
-    title: "世界杯悬浮球",
-    message: "悬浮球操作",
-    detail: "你可以退出悬浮球，或预留跳转到完整 dashboard 网页的接口。",
-    buttons: ["查看网页（预留）", "退出悬浮球", "取消"],
-    defaultId: 0,
-    cancelId: 2,
-    noLink: true
-  });
-
-  if (result.response === 0) {
-    return showFullDashboardPlaceholder();
-  }
-
-  if (result.response === 1) {
-    quitGadget();
-    return { ok: true, action: "quit" };
-  }
-
-  return { ok: true, action: "cancel" };
-}
-
 function quitGadget() {
   app.quit();
   return { ok: true };
@@ -300,11 +253,6 @@ function registerIpcHandlers() {
     return collapseWindow();
   });
 
-  ipcMain.handle("window:actions", (event) => {
-    assertTrustedSender(event);
-    return showActionsWindow();
-  });
-
   ipcMain.handle("window:drag-start", (event, payload) => {
     assertTrustedSender(event);
     return beginCustomDrag(payload);
@@ -318,16 +266,6 @@ function registerIpcHandlers() {
   ipcMain.handle("window:drag-end", (event) => {
     assertTrustedSender(event);
     return endCustomDrag();
-  });
-
-  ipcMain.handle("ball:actions-dialog", async (event) => {
-    assertTrustedSender(event);
-    return showBallActionsDialog();
-  });
-
-  ipcMain.handle("dashboard:open", async (event) => {
-    assertTrustedSender(event);
-    return showFullDashboardPlaceholder();
   });
 
   ipcMain.handle("app:quit", (event) => {
