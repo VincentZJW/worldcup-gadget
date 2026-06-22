@@ -213,10 +213,10 @@
     if (!source || typeof source !== "object") return [];
 
     const preferred = source[`${baseKey}_${lang}`];
-    if (Array.isArray(preferred) && preferred.length) return preferred;
+    if (Array.isArray(preferred)) return preferred;
 
     const base = source[baseKey];
-    if (Array.isArray(base) && base.length) return base;
+    if (Array.isArray(base)) return base;
 
     return [];
   }
@@ -341,7 +341,7 @@
 
     currentLanguage = lang;
     persistLanguage(lang);
-    applyLanguage();
+    applyLanguage({ rerenderDynamic: true });
   }
 
   function pointerPoint(event) {

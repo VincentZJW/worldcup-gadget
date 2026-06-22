@@ -710,9 +710,9 @@ h1 {
 
 .score-row {
   display: grid;
-  grid-template-columns: minmax(92px, 1fr) auto minmax(92px, 1fr);
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
-  gap: 7px;
+  gap: 10px;
 }
 
 .team {
@@ -734,18 +734,18 @@ h1 {
 }
 
 .team__name {
-  display: -webkit-box;
-  overflow: hidden;
+  display: block;
+  min-width: 0;
+  overflow: visible;
   color: #f6fbff;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.08;
   letter-spacing: -0.012em;
   text-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
   white-space: normal;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
 }
 
 .team--right .team__name {
@@ -753,9 +753,17 @@ h1 {
 }
 
 .lang-en .team__name {
-  font-size: 12.5px;
-  line-height: 1.12;
-  letter-spacing: -0.018em;
+  font-size: 12px;
+  line-height: 1.14;
+  letter-spacing: -0.012em;
+}
+
+.lang-en .score-row {
+  gap: 8px;
+}
+
+.lang-en .team {
+  gap: 5px;
 }
 
 .lang-zh .team__name {

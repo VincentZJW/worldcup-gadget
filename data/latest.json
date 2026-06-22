@@ -1,386 +1,232 @@
 {
-  "updated_at": "北京时间 2026-06-19 11:00",
-  "updated_at_zh": "北京时间 2026-06-19 11:00",
-  "updated_at_en": "Beijing Time 2026-06-19 11:00",
-  "date_range": "2026-06-19",
-  "summary": "Mexico 1-0 击败 South Korea 后两战全胜锁定出线主动权，Group B 则由 Canada 和 Switzerland 同积 4 分领跑。",
-  "summary_zh": "墨西哥 1-0 击败韩国后两战全胜，掌握 A 组出线主动权；B 组则由加拿大和瑞士同积 4 分领跑。",
-  "summary_en": "Mexico beat South Korea 1-0 to take control of Group A, while Canada and Switzerland lead Group B with four points each.",
+  "updated_at": "北京时间 2026-06-22 09:58",
+  "date_range": "2026-06-21",
+  "summary": "Spain 四球大胜 Saudi Arabia 提前出线，Belgium 与 Iran 互交白卷后 Group G 继续胶着，Uruguay 伤停补时逃过点球判罚后 2-2 战平 Cape Verde。",
   "matches": [
     {
-      "group": "Group A",
+      "group": "Group H",
       "status": "FT",
       "venue": "Atlanta Stadium",
-      "venue_zh": "亚特兰大体育场",
-      "venue_en": "Atlanta Stadium",
-      "finished_at_bj": "北京时间 2026-06-19 01:55",
-      "finished_at_bj_zh": "北京时间 2026-06-19 01:55",
-      "finished_at_bj_en": "Beijing Time 2026-06-19 01:55",
+      "finished_at_bj": "北京时间 2026-06-22 02:02",
       "team_a": {
-        "name": "Czechia",
-        "name_zh": "捷克",
-        "name_en": "Czechia",
-        "flag": "🇨🇿",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Michal Sadílek",
-            "minute": "5'",
-            "type": "goal"
-          }
-        ]
-      },
-      "team_b": {
-        "name": "South Africa",
-        "name_zh": "南非",
-        "name_en": "South Africa",
-        "flag": "🇿🇦",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Teboho Mokoena",
-            "minute": "83'",
-            "type": "penalty"
-          }
-        ]
-      },
-      "highlights": [
-        "Michal Sadílek 第 5 分钟为 Czechia 取得梦幻开局",
-        "South Africa 后程压上，并由 Teboho Mokoena 第 83 分钟点球扳平",
-        "两队均只积 1 分，末轮分别对阵 Mexico 与 South Korea 时仍需取分争夺出线"
-      ],
-      "highlights_zh": [
-        "Michal Sadílek 第 5 分钟为捷克取得梦幻开局",
-        "南非后程压上，并由 Teboho Mokoena 第 83 分钟点球扳平",
-        "两队均只积 1 分，末轮仍需取分争夺出线机会"
-      ],
-      "highlights_en": [
-        "Michal Sadílek gave Czechia a dream start in the 5th minute",
-        "South Africa pushed forward late and Teboho Mokoena equalized from the penalty spot in the 83rd minute",
-        "Both teams remain on one point and still need a result in the final round"
-      ]
-    },
-    {
-      "group": "Group A",
-      "status": "FT",
-      "venue": "Mexico City Stadium",
-      "venue_zh": "墨西哥城体育场",
-      "venue_en": "Mexico City Stadium",
-      "finished_at_bj": "北京时间 2026-06-19 10:55",
-      "finished_at_bj_zh": "北京时间 2026-06-19 10:55",
-      "finished_at_bj_en": "Beijing Time 2026-06-19 10:55",
-      "team_a": {
-        "name": "Mexico",
-        "name_zh": "墨西哥",
-        "name_en": "Mexico",
-        "flag": "🇲🇽",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Luis Romo",
-            "minute": "50'",
-            "type": "goal"
-          }
-        ]
-      },
-      "team_b": {
-        "name": "South Korea",
-        "name_zh": "韩国",
-        "name_en": "South Korea",
-        "flag": "🇰🇷",
-        "score": 0,
-        "scorers": []
-      },
-      "highlights": [
-        "Luis Romo 第 50 分钟破门，帮助 Mexico 打破僵局",
-        "South Korea 末段持续施压，但未能扳平比分",
-        "Raúl Rangel 终场前作出关键扑救，Mexico 保住 1-0 胜局"
-      ],
-      "highlights_zh": [
-        "Luis Romo 第 50 分钟破门，帮助墨西哥打破僵局",
-        "韩国队下半场持续施压，但未能扳平比分",
-        "Raúl Rangel 终场前作出关键扑救，墨西哥保住 1-0 胜局"
-      ],
-      "highlights_en": [
-        "Luis Romo broke the deadlock in the 50th minute for Mexico",
-        "South Korea pushed hard in the second half but could not find an equalizer",
-        "Raúl Rangel made a key late save as Mexico protected the 1-0 win"
-      ]
-    },
-    {
-      "group": "Group B",
-      "status": "FT",
-      "venue": "Los Angeles Stadium",
-      "venue_zh": "洛杉矶体育场",
-      "venue_en": "Los Angeles Stadium",
-      "finished_at_bj": "北京时间 2026-06-19 05:00",
-      "finished_at_bj_zh": "北京时间 2026-06-19 05:00",
-      "finished_at_bj_en": "Beijing Time 2026-06-19 05:00",
-      "team_a": {
-        "name": "Switzerland",
-        "name_zh": "瑞士",
-        "name_en": "Switzerland",
-        "flag": "🇨🇭",
+        "name": "Spain",
+        "flag": "🇪🇸",
         "score": 4,
         "scorers": [
           {
-            "player": "Johan Manzambi",
-            "minute": "75'",
+            "player": "Dani Olmo",
+            "minute": "15'",
             "type": "goal"
           },
           {
-            "player": "Rubén Vargas",
-            "minute": "85'",
+            "player": "Robin Le Normand",
+            "minute": "25'",
             "type": "goal"
           },
           {
-            "player": "Johan Manzambi",
-            "minute": "90'",
+            "player": "Nico Williams",
+            "minute": "57'",
             "type": "goal"
           },
           {
-            "player": "Granit Xhaka",
-            "minute": "90+6'",
-            "type": "penalty"
+            "player": "Oihan Sancet",
+            "minute": "88'",
+            "type": "goal"
           }
-        ]
+        ],
+        "name_zh": "西班牙",
+        "name_en": "Spain"
       },
       "team_b": {
-        "name": "Bosnia and Herzegovina",
-        "name_zh": "波黑",
-        "name_en": "Bosnia and Herzegovina",
-        "flag": "🇧🇦",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Ermin Mahmić",
-            "minute": "90+3'",
-            "type": "goal"
-          }
-        ]
+        "name": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "沙特阿拉伯",
+        "name_en": "Saudi Arabia"
       },
       "highlights": [
-        "Johan Manzambi 替补登场后梅开二度，带动 Switzerland 下半场后段爆发",
-        "Tarik Muharemović 被罚下后，Bosnia and Herzegovina 末段防线崩盘",
-        "Granit Xhaka 补时点球锁定 4-1，Switzerland 积 4 分保有强劲出线主动权"
+        "Dani Olmo 第 15 分钟首开纪录，Spain 上半场两球领先并牢牢控制比赛",
+        "Nico Williams 第 57 分钟扩大优势，Oihan Sancet 第 88 分钟把比分定格为 4-0",
+        "Spain 两战全胜提前锁定淘汰赛席位，Saudi Arabia 两连败后提前出局"
       ],
+      "venue_zh": "亚特兰大体育场",
+      "venue_en": "Atlanta Stadium",
       "highlights_zh": [
-        "Johan Manzambi 替补登场后梅开二度，带动瑞士下半场后段爆发",
-        "Tarik Muharemović 被罚下后，波黑末段防线崩盘",
-        "Granit Xhaka 补时点球锁定 4-1，瑞士积 4 分保有强劲出线主动权"
+        "Dani Olmo 第 15 分钟首开纪录，西班牙上半场两球领先并牢牢控制比赛",
+        "Nico Williams 第 57 分钟扩大优势，Oihan Sancet 第 88 分钟把比分定格为 4-0",
+        "西班牙两战全胜提前锁定淘汰赛席位，沙特阿拉伯两连败后提前出局"
       ],
       "highlights_en": [
-        "Substitute Johan Manzambi scored twice to spark Switzerland's late surge",
-        "Bosnia and Herzegovina collapsed late after Tarik Muharemović was sent off",
-        "Granit Xhaka sealed the 4-1 win from the penalty spot in stoppage time"
+        "Dani Olmo opened the scoring in the 15th minute as Spain controlled the first half and led by two at the break",
+        "Nico Williams extended the lead in the 57th minute before Oihan Sancet sealed the 4-0 win in the 88th",
+        "Spain qualified for the knockout stage with two wins from two, while Saudi Arabia were eliminated after back-to-back defeats"
       ]
     },
     {
-      "group": "Group B",
+      "group": "Group G",
       "status": "FT",
-      "venue": "BC Place Vancouver",
-      "venue_zh": "温哥华 BC Place",
-      "venue_en": "BC Place Vancouver",
-      "finished_at_bj": "北京时间 2026-06-19 08:05",
-      "finished_at_bj_zh": "北京时间 2026-06-19 08:05",
-      "finished_at_bj_en": "Beijing Time 2026-06-19 08:05",
+      "venue": "Los Angeles Stadium",
+      "finished_at_bj": "北京时间 2026-06-22 05:02",
       "team_a": {
-        "name": "Canada",
-        "name_zh": "加拿大",
-        "name_en": "Canada",
-        "flag": "🇨🇦",
-        "score": 6,
-        "scorers": [
-          {
-            "player": "Cyle Larin",
-            "minute": "16'",
-            "type": "goal"
-          },
-          {
-            "player": "Jonathan David",
-            "minute": "29'",
-            "type": "goal"
-          },
-          {
-            "player": "Jonathan David",
-            "minute": "45+3'",
-            "type": "goal"
-          },
-          {
-            "player": "Nathan Saliba",
-            "minute": "64'",
-            "type": "goal"
-          },
-          {
-            "player": "Mohamed Al Mannai",
-            "minute": "75'",
-            "type": "own_goal"
-          },
-          {
-            "player": "Jonathan David",
-            "minute": "90+2'",
-            "type": "goal"
-          }
-        ]
+        "name": "Belgium",
+        "flag": "🇧🇪",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "比利时",
+        "name_en": "Belgium"
       },
       "team_b": {
-        "name": "Qatar",
-        "name_zh": "卡塔尔",
-        "name_en": "Qatar",
-        "flag": "🇶🇦",
+        "name": "Iran",
+        "flag": "🇮🇷",
         "score": 0,
-        "scorers": []
+        "scorers": [],
+        "name_zh": "伊朗",
+        "name_en": "Iran"
       },
       "highlights": [
-        "Jonathan David 上演帽子戏法，Canada 收获男足世界杯队史首胜",
-        "Qatar 先后有 Homam Ahmed 与 Assim Madibo 被红牌罚下，最终九人完赛",
-        "Ismaël Koné 遭遇严重腿伤被担架抬离，Canada 的大胜也因此蒙上阴影"
+        "Belgium 与 Iran 全场未能破门，Group G 前三场全部以平局收场",
+        "Nathan Ngoy 第 84 分钟被红牌罚下，Belgium 最后阶段少打一人仍守住 0-0",
+        "Iran 连续两场战平后积 2 分，末轮仍保有主动冲击淘汰赛的机会"
       ],
+      "venue_zh": "洛杉矶体育场",
+      "venue_en": "Los Angeles Stadium",
       "highlights_zh": [
-        "Jonathan David 上演帽子戏法，加拿大收获男足世界杯队史首胜",
-        "卡塔尔先后有 Homam Ahmed 与 Assim Madibo 被红牌罚下，最终九人完赛",
-        "Ismaël Koné 遭遇严重腿伤被担架抬离，加拿大的大胜也因此蒙上阴影"
+        "比利时与伊朗全场未能破门，G 组前三场全部以平局收场",
+        "Nathan Ngoy 第 84 分钟被红牌罚下，比利时最后阶段少打一人仍守住 0-0",
+        "伊朗连续两场战平后积 2 分，末轮仍保有主动冲击淘汰赛的机会"
       ],
       "highlights_en": [
-        "Jonathan David scored a hat trick as Canada earned their first men's World Cup win",
-        "Qatar finished with nine men after Homam Ahmed and Assim Madibo were sent off",
-        "Canada's big win was overshadowed by Ismaël Koné being stretchered off with a serious leg injury"
+        "Belgium and Iran failed to score, leaving the first three Group G matches all drawn",
+        "Nathan Ngoy was sent off in the 84th minute, but Belgium held on for a 0-0 draw with ten men",
+        "Iran moved to two points after a second straight draw and still control a path toward the knockout stage"
+      ]
+    },
+    {
+      "group": "Group H",
+      "status": "FT",
+      "venue": "Miami Stadium",
+      "finished_at_bj": "北京时间 2026-06-22 08:05",
+      "team_a": {
+        "name": "Uruguay",
+        "flag": "🇺🇾",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Ronald Araújo",
+            "minute": "44'",
+            "type": "goal"
+          },
+          {
+            "player": "Guillermo Varela",
+            "minute": "61'",
+            "type": "goal"
+          }
+        ],
+        "name_zh": "乌拉圭",
+        "name_en": "Uruguay"
+      },
+      "team_b": {
+        "name": "Cape Verde",
+        "flag": "🇨🇻",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Kevin Pina",
+            "minute": "21'",
+            "type": "goal"
+          },
+          {
+            "player": "Duk",
+            "minute": "45+6'",
+            "type": "goal"
+          }
+        ],
+        "name_zh": "佛得角",
+        "name_en": "Cape Verde"
+      },
+      "highlights": [
+        "Kevin Pina 第 21 分钟远射破门，Cape Verde 取得队史世界杯首球",
+        "Ronald Araújo 与 Guillermo Varela 两度为 Uruguay 扳平比分，Duk 在上半场补时也有进球",
+        "补时阶段 Cape Verde 获得点球后又被 VAR 取消，双方最终 2-2 战平"
+      ],
+      "venue_zh": "迈阿密体育场",
+      "venue_en": "Miami Stadium",
+      "highlights_zh": [
+        "Kevin Pina 第 21 分钟远射破门，佛得角取得队史世界杯首球",
+        "Ronald Araújo 与 Guillermo Varela 两度为乌拉圭扳平比分，Duk 在上半场补时也有进球",
+        "补时阶段佛得角获得点球后又被 VAR 取消，双方最终 2-2 战平"
+      ],
+      "highlights_en": [
+        "Kevin Pina scored from distance in the 21st minute to give Cape Verde their first World Cup goal",
+        "Ronald Araujo and Guillermo Varela twice equalized for Uruguay, while Duk also scored in first-half stoppage time",
+        "Cape Verde had a stoppage-time penalty overturned by VAR as the match finished 2-2"
       ]
     }
   ],
   "standings_changes": [
-    "Group A：Mexico 1-0 击败 South Korea 后两战全胜积 6 分，提前掌握出线主动权",
-    "Group A：South Korea 仍积 3 分排名第二，Czechia 与 South Africa 均积 1 分，末轮仍有追赶机会",
-    "Group B：Canada 6-0 大胜 Qatar 后积 4 分，凭 +6 净胜球升至小组第一",
-    "Group B：Switzerland 4-1 击败 Bosnia and Herzegovina，同积 4 分并以 +3 净胜球排名第二",
-    "Group B：Bosnia and Herzegovina 与 Qatar 均积 1 分，末轮直接对话将决定是否仍有出线希望",
-    "Group A：Czechia 与 South Africa 1-1 战平后均积 1 分，末轮仍需赢球并关注 South Korea 赛果"
-  ],
-  "standings_changes_zh": [
-    "Group A：墨西哥两战全胜积 6 分，出线形势占优",
-    "Group A：韩国仍积 3 分排名第二，捷克与南非均积 1 分，末轮仍有追赶机会",
-    "Group B：加拿大 6-0 大胜卡塔尔后积 4 分，凭 +6 净胜球升至小组第一",
-    "Group B：瑞士 4-1 击败波黑，同积 4 分并以 +3 净胜球排名第二",
-    "Group B：波黑与卡塔尔均积 1 分，末轮直接对话将决定是否仍有出线希望",
-    "Group A：捷克与南非 1-1 战平后均积 1 分，末轮仍需赢球并关注韩国赛果"
-  ],
-  "standings_changes_en": [
-    "Group A: Mexico now have two wins from two and are in a strong position to qualify",
-    "Group A: South Korea remain second on three points, while Czechia and South Africa are both still alive on one point",
-    "Group B: Canada moved top with four points and a +6 goal difference after beating Qatar 6-0",
-    "Group B: Switzerland also reached four points after a 4-1 win over Bosnia and Herzegovina",
-    "Group B: Bosnia and Herzegovina and Qatar both have one point, making their final-round meeting decisive",
-    "Group A: Czechia and South Africa both need a win in the final round after their 1-1 draw"
+    "Group H：Spain 两战 6 分提前晋级；Uruguay 积 2 分暂列第二，Cape Verde 积 1 分保留出线希望，Saudi Arabia 两连败后提前出局。",
+    "Group G：Belgium 与 Iran 各积 2 分，New Zealand 与 Egypt 在本轮交手前各积 1 分，小组前三场全部战平。",
+    "Cape Verde 2-2 战平 Uruguay 后拿到队史世界杯首个积分，末轮仍有机会竞争小组第二或成绩较好的第三名。"
   ],
   "today_fixtures": [
     {
-      "time_bj": "北京时间 2026-06-20 00:00",
-      "time_bj_zh": "北京时间 2026-06-20 00:00",
-      "time_bj_en": "Beijing Time 2026-06-20 00:00",
+      "time_bj": "北京时间 2026-06-22 09:00",
       "team_a": {
-        "name": "Brazil",
-        "name_zh": "巴西",
-        "name_en": "Brazil",
-        "flag": "🇧🇷"
+        "name": "New Zealand",
+        "flag": "🇳🇿",
+        "name_zh": "新西兰",
+        "name_en": "New Zealand"
       },
       "team_b": {
-        "name": "Haiti",
-        "name_zh": "海地",
-        "name_en": "Haiti",
-        "flag": "🇭🇹"
+        "name": "Egypt",
+        "flag": "🇪🇬",
+        "name_zh": "埃及",
+        "name_en": "Egypt"
       },
-      "group": "Group C"
-    },
-    {
-      "time_bj": "北京时间 2026-06-20 03:00",
-      "time_bj_zh": "北京时间 2026-06-20 03:00",
-      "time_bj_en": "Beijing Time 2026-06-20 03:00",
-      "team_a": {
-        "name": "Scotland",
-        "name_zh": "苏格兰",
-        "name_en": "Scotland",
-        "flag": "🏴"
-      },
-      "team_b": {
-        "name": "Morocco",
-        "name_zh": "摩洛哥",
-        "name_en": "Morocco",
-        "flag": "🇲🇦"
-      },
-      "group": "Group C"
-    },
-    {
-      "time_bj": "北京时间 2026-06-20 06:00",
-      "time_bj_zh": "北京时间 2026-06-20 06:00",
-      "time_bj_en": "Beijing Time 2026-06-20 06:00",
-      "team_a": {
-        "name": "Türkiye",
-        "name_zh": "土耳其",
-        "name_en": "Türkiye",
-        "flag": "🇹🇷"
-      },
-      "team_b": {
-        "name": "Paraguay",
-        "name_zh": "巴拉圭",
-        "name_en": "Paraguay",
-        "flag": "🇵🇾"
-      },
-      "group": "Group D"
-    },
-    {
-      "time_bj": "北京时间 2026-06-20 09:00",
-      "time_bj_zh": "北京时间 2026-06-20 09:00",
-      "time_bj_en": "Beijing Time 2026-06-20 09:00",
-      "team_a": {
-        "name": "USA",
-        "name_zh": "美国",
-        "name_en": "USA",
-        "flag": "🇺🇸"
-      },
-      "team_b": {
-        "name": "Australia",
-        "name_zh": "澳大利亚",
-        "name_en": "Australia",
-        "flag": "🇦🇺"
-      },
-      "group": "Group D"
+      "group": "Group G"
     }
   ],
   "news": [
     {
-      "title": "Canada 6-0 Qatar：Jonathan David 帽子戏法带来加拿大男足世界杯首胜",
-      "title_zh": "加拿大 6-0 卡塔尔：Jonathan David 帽子戏法带来队史首胜",
-      "title_en": "Canada 6-0 Qatar: Jonathan David hat trick delivers Canada's first men's World Cup win",
-      "source": "Associated Press",
-      "url": "https://apnews.com/article/canada-qatar-score-world-cup-ac2e21764948dba88373e5e287f3d0c1"
+      "title": "Spain 4-0 Saudi Arabia: la Roja romp into knockout rounds",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/football/2026/jun/21/spain-saudi-arabia-world-cup-group-h-match-report",
+      "title_zh": "西班牙 4-0 沙特阿拉伯：斗牛士军团大胜晋级淘汰赛",
+      "title_en": "Spain 4-0 Saudi Arabia: La Roja romp into knockout rounds"
     },
     {
-      "title": "Switzerland 4-1 Bosnia and Herzegovina：Manzambi 替补双响改写 Group B 形势",
-      "title_zh": "瑞士 4-1 波黑：Manzambi 替补双响改写 B 组形势",
-      "title_en": "Switzerland 4-1 Bosnia and Herzegovina: Manzambi brace reshapes Group B",
+      "title": "Belgium 0-0 Iran: Red Devils held in third straight Group G draw",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/live/2026/jun/18/switzerland-v-bosnia-and-herzegovina-world-cup-2026-live"
+      "url": "https://www.theguardian.com/football/live/2026/jun/21/belgium-v-iran-world-cup-2026-live",
+      "title_zh": "比利时 0-0 伊朗：欧洲红魔在 G 组第三场平局中被逼平",
+      "title_en": "Belgium 0-0 Iran: Red Devils held in third straight Group G draw"
     },
     {
-      "title": "Czechia 1-1 South Africa：Mokoena 点球救回一分，两队末轮仍需抢分",
-      "title_zh": "捷克 1-1 南非：Mokoena 点球救回一分，两队末轮仍需抢分",
-      "title_en": "Czechia 1-1 South Africa: Mokoena penalty keeps both teams alive",
+      "title": "Uruguay 2-2 Cape Verde: VAR reprieve denies late islanders chance",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/2026/jun/18/czechia-south-africa-world-cup-group-a-match-report"
+      "url": "https://www.theguardian.com/football/live/2026/jun/21/uruguay-v-cape-verde-world-cup-2026-live",
+      "title_zh": "乌拉圭 2-2 佛得角：VAR 取消补时点球，双方握手言和",
+      "title_en": "Uruguay 2-2 Cape Verde: VAR reprieve denies late islanders chance"
     },
     {
-      "title": "Mexico 1-0 South Korea：Luis Romo 破门，东道主两连胜",
-      "title_zh": "墨西哥 1-0 韩国：Luis Romo 破门，东道主两连胜",
-      "title_en": "Mexico 1-0 South Korea: Luis Romo goal gives the hosts back-to-back wins",
+      "title": "New Zealand v Egypt live: Group G remains unresolved as final fixture kicks off",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/live/2026/jun/19/fifa-world-cup-2026-live-mexico-v-south-korea-updates-mex-vs-kor-group-a-match-score-latest"
-    },
-    {
-      "title": "Scotland 备战 Morocco，Steve Clarke 称对手是 Group C 的真正强队考验",
-      "title_zh": "苏格兰备战摩洛哥，Steve Clarke 称对手是 C 组真正考验",
-      "title_en": "Scotland prepare for Morocco as Steve Clarke calls them Group C's real test",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/2026/jun/18/clarke-warns-scotland-morocco-real-deal-world-cup"
+      "url": "https://www.theguardian.com/football/live/2026/jun/22/fifa-world-cup-2026-live-new-zealand-v-egypt-updates-nzl-vs-egy-group-g-match-score-latest",
+      "title_zh": "新西兰对埃及直播：G 组悬念随着最后一场开球继续保留",
+      "title_en": "New Zealand v Egypt live: Group G remains unresolved as final fixture kicks off"
     }
+  ],
+  "summary_zh": "西班牙 4-0 大胜沙特阿拉伯提前出线，比利时与伊朗互交白卷后 G 组继续胶着，乌拉圭 2-2 战平佛得角。",
+  "summary_en": "Spain beat Saudi Arabia 4-0 to qualify early, Belgium and Iran drew 0-0 to keep Group G tight, and Uruguay drew 2-2 with Cape Verde.",
+  "standings_changes_zh": [
+    "H 组：西班牙两战 6 分提前晋级；乌拉圭积 2 分暂列第二，佛得角积 1 分保留出线希望，沙特阿拉伯两连败后提前出局。",
+    "G 组：比利时与伊朗各积 2 分，新西兰与埃及在本轮交手前各积 1 分，小组前三场全部战平。",
+    "佛得角 2-2 战平乌拉圭后拿到队史世界杯首个积分，末轮仍有机会竞争小组第二或成绩较好的第三名。"
+  ],
+  "standings_changes_en": [
+    "Group H: Spain advanced early with six points from two matches; Uruguay sit second on two points, Cape Verde have one point, and Saudi Arabia are out after two defeats.",
+    "Group G: Belgium and Iran have two points each, while New Zealand and Egypt had one point each before their meeting; the first three group matches all ended level.",
+    "Cape Verde earned their first World Cup point with the 2-2 draw against Uruguay and still have a path to second place or a best-third-place spot."
   ]
 }
