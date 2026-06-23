@@ -66,6 +66,58 @@
       </div>
     </section>
 
+    <section class="onboarding-view" id="onboarding-view" aria-label="首次使用引导" hidden>
+      <div class="onboarding-shell">
+        <header class="onboarding-header">
+          <div>
+            <span class="onboarding-kicker" id="onboarding-kicker">WORLD CUP GADGET</span>
+            <h1 id="onboarding-title">你的世界杯悬浮球已准备好</h1>
+          </div>
+          <div class="language-switcher language-switcher--onboarding" id="onboarding-language-switcher" role="group" aria-label="语言切换"></div>
+        </header>
+
+        <p class="onboarding-subtitle" id="onboarding-subtitle">
+          第一次使用只需要记住这几件事，之后它会安静地停在桌面边缘。
+        </p>
+
+        <div class="onboarding-steps" id="onboarding-steps" aria-label="使用方式">
+          <article class="onboarding-step">
+            <span class="onboarding-step__number">01</span>
+            <div>
+              <h2 id="onboarding-open-title">点击小足球打开战报</h2>
+              <p id="onboarding-open-text">展开后可以查看比分、旗帜、进球球员、进球时间和全部比赛。</p>
+            </div>
+          </article>
+          <article class="onboarding-step">
+            <span class="onboarding-step__number">02</span>
+            <div>
+              <h2 id="onboarding-drag-title">长按拖动位置</h2>
+              <p id="onboarding-drag-text">按住小足球约 0.4 秒后拖动，可以把它放到更顺手的位置。</p>
+            </div>
+          </article>
+          <article class="onboarding-step">
+            <span class="onboarding-step__number">03</span>
+            <div>
+              <h2 id="onboarding-morning-title">早上 10 点展示</h2>
+              <p id="onboarding-morning-text">每日自动展示会在后续设置页里开启和调整，默认不打扰你。</p>
+            </div>
+          </article>
+          <article class="onboarding-step">
+            <span class="onboarding-step__number">04</span>
+            <div>
+              <h2 id="onboarding-local-title">本地数据，不走网络接口</h2>
+              <p id="onboarding-local-text">战报从本地 latest.json 读取，前端不会请求远程比赛 API。</p>
+            </div>
+          </article>
+        </div>
+
+        <footer class="onboarding-footer">
+          <span id="onboarding-footer-note">之后可在面板里切换语言、刷新数据或退出应用。</span>
+          <button id="onboarding-dismiss-button" class="onboarding-primary-button" type="button">知道了</button>
+        </footer>
+      </div>
+    </section>
+
     <section class="panel-view" id="panel-view" aria-label="2026 世界杯战报" hidden>
       <div class="panel-shell">
         <div class="stadium-bg" aria-hidden="true">

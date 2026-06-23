@@ -2,6 +2,7 @@
   "use strict";
 
   const LANGUAGE_STORAGE_KEY = "worldcup-gadget-language";
+  const ONBOARDING_STORAGE_KEY = "worldcup-gadget-onboarding-dismissed";
   const LONG_PRESS_MS = 360;
 
   const i18n = Object.freeze({
@@ -32,6 +33,21 @@
       noFinishedMatch: "暂无已结束比赛数据",
       noGoals: "无进球",
       notFound: "未找到战报数据，请先生成 data/latest.json。",
+      onboardingDismiss: "知道了",
+      onboardingDragText: "按住小足球约 0.4 秒后拖动，可以把它放到更顺手的位置。",
+      onboardingDragTitle: "长按拖动位置",
+      onboardingFooterNote: "之后可在面板里切换语言、刷新数据或退出应用。",
+      onboardingKicker: "WORLD CUP GADGET",
+      onboardingLocalText: "战报从本地 latest.json 读取，前端不会请求远程比赛 API。",
+      onboardingLocalTitle: "本地数据，不走网络接口",
+      onboardingMorningText: "每日自动展示会在后续设置页里开启和调整，默认不打扰你。",
+      onboardingMorningTitle: "早上 10 点展示",
+      onboardingOpenText: "展开后可以查看比分、旗帜、进球球员、进球时间和全部比赛。",
+      onboardingOpenTitle: "点击小足球打开战报",
+      onboardingStepsLabel: "使用方式",
+      onboardingSubtitle: "第一次使用只需要记住这几件事，之后它会安静地停在桌面边缘。",
+      onboardingTitle: "你的世界杯悬浮球已准备好",
+      onboardingViewLabel: "首次使用引导",
       openclawReady: "OPENCLAW READY",
       panelSubtitle: "最新战况 · 北京时间",
       panelTitle: "2026 世界杯战报",
@@ -75,6 +91,21 @@
       noFinishedMatch: "No finished match data yet",
       noGoals: "No goals",
       notFound: "Report data not found. Please generate data/latest.json first.",
+      onboardingDismiss: "Got it",
+      onboardingDragText: "Hold the ball for about 0.4 seconds, then drag it to a comfortable spot.",
+      onboardingDragTitle: "Long-press to move it",
+      onboardingFooterNote: "Later, use the panel to switch language, reload data, or quit the app.",
+      onboardingKicker: "WORLD CUP GADGET",
+      onboardingLocalText: "Reports are read from local latest.json. The frontend does not call remote match APIs.",
+      onboardingLocalTitle: "Local data, no network API",
+      onboardingMorningText: "Daily auto-show will be enabled and adjusted from Settings later. It stays quiet by default.",
+      onboardingMorningTitle: "Morning 10:00 brief",
+      onboardingOpenText: "Open the panel to see scores, flags, scorers, goal times, and all matches.",
+      onboardingOpenTitle: "Click the ball to open the brief",
+      onboardingStepsLabel: "How it works",
+      onboardingSubtitle: "A few things to know the first time. After this, it will wait quietly at the screen edge.",
+      onboardingTitle: "Your World Cup gadget is ready",
+      onboardingViewLabel: "First-run onboarding",
       openclawReady: "OPENCLAW READY",
       panelSubtitle: "Latest Status · Beijing Time",
       panelTitle: "2026 World Cup Brief",
@@ -94,6 +125,7 @@
   });
 
   const ballView = document.getElementById("ball-view");
+  const onboardingView = document.getElementById("onboarding-view");
   const panelView = document.getElementById("panel-view");
   const ballButton = document.getElementById("ball-button");
   const ballBadge = document.querySelector(".ball-badge");
@@ -110,6 +142,7 @@
   const updatedAt = document.getElementById("updated-at");
   const matchCount = document.getElementById("match-count");
   const panelLanguageSwitcher = document.getElementById("panel-language-switcher");
+  const onboardingLanguageSwitcher = document.getElementById("onboarding-language-switcher");
   const panelKickerText = document.getElementById("panel-kicker-text");
   const panelTitle = document.getElementById("panel-title");
   const panelSubtitle = document.getElementById("panel-subtitle");
@@ -128,6 +161,20 @@
   const newsCard = document.getElementById("news-card");
   const newsHeading = document.getElementById("news-heading");
   const newsList = document.getElementById("news-list");
+  const onboardingKicker = document.getElementById("onboarding-kicker");
+  const onboardingTitle = document.getElementById("onboarding-title");
+  const onboardingSubtitle = document.getElementById("onboarding-subtitle");
+  const onboardingSteps = document.getElementById("onboarding-steps");
+  const onboardingOpenTitle = document.getElementById("onboarding-open-title");
+  const onboardingOpenText = document.getElementById("onboarding-open-text");
+  const onboardingDragTitle = document.getElementById("onboarding-drag-title");
+  const onboardingDragText = document.getElementById("onboarding-drag-text");
+  const onboardingMorningTitle = document.getElementById("onboarding-morning-title");
+  const onboardingMorningText = document.getElementById("onboarding-morning-text");
+  const onboardingLocalTitle = document.getElementById("onboarding-local-title");
+  const onboardingLocalText = document.getElementById("onboarding-local-text");
+  const onboardingFooterNote = document.getElementById("onboarding-footer-note");
+  const onboardingDismissButton = document.getElementById("onboarding-dismiss-button");
 
   let currentLanguage = getCurrentLanguage();
   let currentReportData = null;
@@ -169,6 +216,22 @@
       window.localStorage.setItem(LANGUAGE_STORAGE_KEY, lang);
     } catch (_error) {
       // The UI still works if localStorage is unavailable.
+    }
+  }
+
+  function hasCompletedOnboarding() {
+    try {
+      return window.localStorage.getItem(ONBOARDING_STORAGE_KEY) === "true";
+    } catch (_error) {
+      return false;
+    }
+  }
+
+  function markOnboardingCompleted() {
+    try {
+      window.localStorage.setItem(ONBOARDING_STORAGE_KEY, "true");
+    } catch (_error) {
+      // The app remains usable if localStorage is blocked.
     }
   }
 
@@ -270,6 +333,7 @@
     ballButton.title = t("ballTitle");
     ballBadge?.setAttribute("aria-label", t("newReport"));
     ballBadge?.setAttribute("title", t("newReport"));
+    onboardingView.setAttribute("aria-label", t("onboardingViewLabel"));
     panelView.setAttribute("aria-label", t("panelTitle"));
 
     panelKickerText.textContent = t("liveLocalBrief");
@@ -283,6 +347,20 @@
     standingsHeading.textContent = t("standingsHeading");
     fixturesHeading.textContent = t("fixturesHeading");
     newsHeading.textContent = t("newsHeading");
+    onboardingKicker.textContent = t("onboardingKicker");
+    onboardingTitle.textContent = t("onboardingTitle");
+    onboardingSubtitle.textContent = t("onboardingSubtitle");
+    onboardingSteps.setAttribute("aria-label", t("onboardingStepsLabel"));
+    onboardingOpenTitle.textContent = t("onboardingOpenTitle");
+    onboardingOpenText.textContent = t("onboardingOpenText");
+    onboardingDragTitle.textContent = t("onboardingDragTitle");
+    onboardingDragText.textContent = t("onboardingDragText");
+    onboardingMorningTitle.textContent = t("onboardingMorningTitle");
+    onboardingMorningText.textContent = t("onboardingMorningText");
+    onboardingLocalTitle.textContent = t("onboardingLocalTitle");
+    onboardingLocalText.textContent = t("onboardingLocalText");
+    onboardingFooterNote.textContent = t("onboardingFooterNote");
+    onboardingDismissButton.textContent = t("onboardingDismiss");
 
     refreshButton.textContent = refreshButton.disabled ? t("loading") : t("refresh");
     refreshButton.title = t("refreshTitle");
@@ -293,6 +371,7 @@
     resetMoreButton();
 
     renderLanguageSwitcher(panelLanguageSwitcher);
+    renderLanguageSwitcher(onboardingLanguageSwitcher);
 
     if (!rerenderDynamic) return;
     if (currentReportData) {
@@ -657,14 +736,37 @@
     await window.gadgetAPI.expandWindow();
     document.body.dataset.mode = "panel";
     ballView.hidden = true;
+    onboardingView.hidden = true;
     panelView.hidden = false;
     await readReport("readLatestReport");
+  }
+
+  async function showOnboardingIfNeeded() {
+    if (hasCompletedOnboarding()) return;
+
+    await window.gadgetAPI.expandWindow();
+    document.body.dataset.mode = "onboarding";
+    ballView.hidden = true;
+    panelView.hidden = true;
+    onboardingView.hidden = false;
+    applyLanguage({ rerenderDynamic: false });
+  }
+
+  async function dismissOnboarding() {
+    markOnboardingCompleted();
+    onboardingView.hidden = true;
+    panelView.hidden = true;
+    ballView.hidden = false;
+    document.body.dataset.mode = "ball";
+    resetBallPointerState();
+    await window.gadgetAPI.collapseWindow();
   }
 
   async function collapsePanel() {
     showingAll = false;
     resetMoreButton();
     allMatchesSection.hidden = true;
+    onboardingView.hidden = true;
     panelView.hidden = true;
     ballView.hidden = false;
     document.body.dataset.mode = "ball";
@@ -675,6 +777,7 @@
     showingAll = false;
     resetMoreButton();
     allMatchesSection.hidden = true;
+    onboardingView.hidden = true;
     panelView.hidden = true;
     ballView.hidden = false;
     document.body.dataset.mode = "ball";
@@ -712,12 +815,20 @@
   refreshButton.addEventListener("click", () => readReport("refreshReport"));
   quitButton.addEventListener("click", quitApp);
   moreButton.addEventListener("click", toggleAllMatches);
+  onboardingDismissButton.addEventListener("click", () => {
+    dismissOnboarding().catch(() => {});
+  });
   window.gadgetAPI.onShortcutShowBall(showBallOnly);
 
   window.addEventListener("keydown", (event) => {
     if (event.key !== "Escape") return;
+    if (document.body.dataset.mode === "onboarding") {
+      dismissOnboarding().catch(() => {});
+      return;
+    }
     if (document.body.dataset.mode === "panel") collapsePanel();
   });
 
   applyLanguage({ rerenderDynamic: false });
+  showOnboardingIfNeeded().catch(() => {});
 })();

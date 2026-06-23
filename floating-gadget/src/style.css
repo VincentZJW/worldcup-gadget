@@ -196,6 +196,192 @@ button {
   padding: 7px;
 }
 
+.onboarding-view {
+  width: 420px;
+  height: 620px;
+  padding: 7px;
+}
+
+.onboarding-shell {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 22px;
+  border: 1px solid rgba(189, 255, 231, 0.16);
+  border-radius: 22px;
+  background-color: rgba(4, 12, 18, 0.96);
+  background-image:
+    linear-gradient(180deg, rgba(4, 11, 18, 0.22), rgba(4, 11, 18, 0.74)),
+    url("./assets/stadium-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow:
+    0 22px 52px rgba(0, 0, 0, 0.4),
+    0 0 22px rgba(102, 234, 215, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.055);
+  animation: panel-arrive 180ms ease-out;
+  backdrop-filter: blur(24px) saturate(1.2);
+  -webkit-backdrop-filter: blur(24px) saturate(1.2);
+}
+
+.onboarding-shell::before {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.012) 1px, transparent 1px),
+    linear-gradient(135deg, rgba(255, 79, 154, 0.13), transparent 38%),
+    linear-gradient(315deg, rgba(102, 234, 215, 0.12), transparent 44%);
+  background-size: 25px 25px, 25px 25px, auto, auto;
+  content: "";
+}
+
+.onboarding-header,
+.onboarding-subtitle,
+.onboarding-steps,
+.onboarding-footer {
+  position: relative;
+  z-index: 1;
+}
+
+.onboarding-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 10px;
+  cursor: grab;
+  -webkit-app-region: drag;
+}
+
+.onboarding-kicker {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--pink-light);
+  font: 800 9px/1 ui-monospace, "SFMono-Regular", Menlo, monospace;
+  letter-spacing: 0.12em;
+}
+
+.onboarding-header h1 {
+  max-width: 280px;
+  margin: 0;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 860;
+  line-height: 1.12;
+  letter-spacing: 0;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.48);
+}
+
+.onboarding-subtitle {
+  margin: 0 0 18px;
+  color: #c8d3e2;
+  font-size: 12px;
+  font-weight: 620;
+  line-height: 1.55;
+}
+
+.onboarding-steps {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+.onboarding-step {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 12px;
+  padding: 13px;
+  border: 1px solid rgba(214, 255, 241, 0.15);
+  border-radius: 15px;
+  background: rgba(5, 12, 20, 0.78);
+  box-shadow:
+    0 12px 26px rgba(0, 0, 0, 0.22),
+    inset 0 1px rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(14px) saturate(1.08);
+  -webkit-backdrop-filter: blur(14px) saturate(1.08);
+}
+
+.onboarding-step__number {
+  display: grid;
+  width: 31px;
+  height: 31px;
+  place-items: center;
+  border: 1px solid rgba(102, 234, 215, 0.26);
+  border-radius: 50%;
+  color: var(--cyan);
+  background: rgba(8, 26, 32, 0.48);
+  font: 850 9px/1 ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+.onboarding-step h2 {
+  margin: 0 0 5px;
+  color: #f7fbff;
+  font-size: 13px;
+  font-weight: 820;
+  line-height: 1.24;
+  letter-spacing: 0;
+}
+
+.onboarding-step p {
+  margin: 0;
+  color: #aebdd0;
+  font-size: 10.5px;
+  line-height: 1.5;
+}
+
+.onboarding-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(221, 240, 255, 0.12);
+}
+
+.onboarding-footer span {
+  min-width: 0;
+  color: #9aabc0;
+  font-size: 9px;
+  font-weight: 720;
+  line-height: 1.4;
+}
+
+.onboarding-primary-button {
+  flex: 0 0 auto;
+  min-width: 92px;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 132, 188, 0.4);
+  border-radius: 12px;
+  color: #fff;
+  background: linear-gradient(115deg, rgba(255, 79, 154, 0.34), rgba(102, 234, 215, 0.14));
+  font-size: 11px;
+  font-weight: 820;
+  cursor: pointer;
+  transition: border-color 140ms ease, background 140ms ease, transform 140ms ease;
+  -webkit-app-region: no-drag;
+}
+
+.onboarding-primary-button:hover {
+  border-color: rgba(255, 132, 188, 0.58);
+  background: linear-gradient(115deg, rgba(255, 79, 154, 0.4), rgba(102, 234, 215, 0.16));
+  transform: translateY(-1px);
+}
+
+.language-switcher--onboarding {
+  -webkit-app-region: no-drag;
+}
+
 .panel-shell {
   position: relative;
   display: grid;
@@ -981,6 +1167,7 @@ h1 {
 
 @media (prefers-reduced-motion: reduce) {
   .ball-wrap::before,
+  .onboarding-shell,
   .panel-shell,
   .stadium-bg__grass,
   .stadium-bg__glow,
@@ -989,6 +1176,7 @@ h1 {
   }
 
   .ball-button,
+  .onboarding-primary-button,
   .soccer-ball-svg {
     transition: none;
   }
