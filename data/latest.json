@@ -1,113 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-24 12:14",
-  "date_range": "2026-06-23 to 2026-06-24",
-  "summary": "葡萄牙 5-0 击败乌兹别克斯坦，英格兰 0-0 战平加纳，克罗地亚 1-0 击败巴拿马，哥伦比亚 1-0 击败刚果民主共和国。",
+  "updated_at": "北京时间 2026-06-25 04:18",
+  "date_range": "2026-06-23 to 2026-06-25",
+  "summary": "克罗地亚 1-0 击败巴拿马，哥伦比亚 1-0 击败刚果民主共和国，波黑 2-1 击败卡塔尔，瑞士 2-0 击败加拿大。",
   "matches": [
-    {
-      "group": "Group J",
-      "status": "FT",
-      "venue": "Dallas Stadium",
-      "finished_at_bj": "北京时间 2026-06-23 02:53",
-      "team_a": {
-        "name": "Argentina",
-        "flag": "🇦🇷",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Lionel Messi",
-            "minute": "38'",
-            "type": "goal"
-          },
-          {
-            "player": "Lionel Messi",
-            "minute": "90'+5'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "阿根廷",
-        "name_en": "Argentina"
-      },
-      "team_b": {
-        "name": "Austria",
-        "flag": "🇦🇹",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "奥地利",
-        "name_en": "Austria"
-      },
-      "venue_en": "Dallas Stadium",
-      "venue_zh": "Dallas Stadium",
-      "highlights_en": [
-        "Argentina beat Austria 2-0 in Group J.",
-        "Lionel Messi 38', Lionel Messi 90'+5'",
-        "The match was played at Dallas Stadium."
-      ],
-      "highlights_zh": [
-        "阿根廷 2-0 击败奥地利，比赛属于 Group J。",
-        "Lionel Messi 38', Lionel Messi 90'+5'",
-        "比赛场地：Dallas Stadium。"
-      ],
-      "highlights": [
-        "阿根廷 2-0 击败奥地利，比赛属于 Group J。",
-        "Lionel Messi 38', Lionel Messi 90'+5'",
-        "比赛场地：Dallas Stadium。"
-      ]
-    },
-    {
-      "group": "Group I",
-      "status": "FT",
-      "venue": "Philadelphia Stadium",
-      "finished_at_bj": "北京时间 2026-06-23 06:48",
-      "team_a": {
-        "name": "France",
-        "flag": "🇫🇷",
-        "score": 3,
-        "scorers": [
-          {
-            "player": "Kylian Mbappe",
-            "minute": "14'",
-            "type": "goal"
-          },
-          {
-            "player": "Kylian Mbappe",
-            "minute": "54'",
-            "type": "goal"
-          },
-          {
-            "player": "Ousmane Dembele",
-            "minute": "66'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "法国",
-        "name_en": "France"
-      },
-      "team_b": {
-        "name": "Iraq",
-        "flag": "🇮🇶",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "伊拉克",
-        "name_en": "Iraq"
-      },
-      "venue_en": "Philadelphia Stadium",
-      "venue_zh": "Philadelphia Stadium",
-      "highlights_en": [
-        "France beat Iraq 3-0 in Group I.",
-        "Kylian Mbappe 14', Kylian Mbappe 54', Ousmane Dembele 66'",
-        "The match was played at Philadelphia Stadium."
-      ],
-      "highlights_zh": [
-        "法国 3-0 击败伊拉克，比赛属于 Group I。",
-        "Kylian Mbappe 14', Kylian Mbappe 54', Ousmane Dembele 66'",
-        "比赛场地：Philadelphia Stadium。"
-      ],
-      "highlights": [
-        "法国 3-0 击败伊拉克，比赛属于 Group I。",
-        "Kylian Mbappe 14', Kylian Mbappe 54', Ousmane Dembele 66'",
-        "比赛场地：Philadelphia Stadium。"
-      ]
-    },
     {
       "group": "Group I",
       "status": "FT",
@@ -423,47 +318,122 @@
         "Daniel Munoz 76'",
         "比赛场地：Guadalajara Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group J：阿根廷 以 6 分领跑，奥地利 3 分紧随其后。",
-    "Group I：法国 以 6 分领跑，挪威 6 分紧随其后。",
-    "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
-    "Group L：英格兰 以 4 分领跑，加纳 4 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-25 03:00",
+      "group": "Group B",
+      "status": "FT",
+      "venue": "Seattle Stadium",
+      "finished_at_bj": "北京时间 2026-06-25 04:45",
       "team_a": {
         "name": "Bosnia and Herzegovina",
         "flag": "🇧🇦",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Kerim Alajbegovic",
+            "minute": "29'",
+            "type": "goal"
+          },
+          {
+            "player": "Sultan Albrake",
+            "minute": "34'",
+            "type": "own_goal"
+          }
+        ],
         "name_zh": "波黑",
         "name_en": "Bosnia and Herzegovina"
       },
       "team_b": {
         "name": "Qatar",
         "flag": "🇶🇦",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Hassan Alhaydos",
+            "minute": "42'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "卡塔尔",
         "name_en": "Qatar"
       },
-      "group": "Group B"
+      "venue_en": "Seattle Stadium",
+      "venue_zh": "Seattle Stadium",
+      "highlights_en": [
+        "Bosnia and Herzegovina beat Qatar 2-1 in Group B.",
+        "Kerim Alajbegovic 29', Sultan Albrake 34' OG, Hassan Alhaydos 42'",
+        "The match was played at Seattle Stadium."
+      ],
+      "highlights_zh": [
+        "波黑 2-1 击败卡塔尔，比赛属于 Group B。",
+        "Kerim Alajbegovic 29', Sultan Albrake 34' OG, Hassan Alhaydos 42'",
+        "比赛场地：Seattle Stadium。"
+      ],
+      "highlights": [
+        "波黑 2-1 击败卡塔尔，比赛属于 Group B。",
+        "Kerim Alajbegovic 29', Sultan Albrake 34' OG, Hassan Alhaydos 42'",
+        "比赛场地：Seattle Stadium。"
+      ]
     },
     {
-      "time_bj": "北京时间 2026-06-25 03:00",
+      "group": "Group B",
+      "status": "FT",
+      "venue": "BC Place Vancouver",
+      "finished_at_bj": "北京时间 2026-06-25 04:45",
       "team_a": {
         "name": "Switzerland",
         "flag": "🇨🇭",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Ruben Vargas",
+            "minute": "46'",
+            "type": "goal"
+          },
+          {
+            "player": "Johan Manzambi",
+            "minute": "57'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "瑞士",
         "name_en": "Switzerland"
       },
       "team_b": {
         "name": "Canada",
         "flag": "🇨🇦",
+        "score": 0,
+        "scorers": [],
         "name_zh": "加拿大",
         "name_en": "Canada"
       },
-      "group": "Group B"
-    },
+      "venue_en": "BC Place Vancouver",
+      "venue_zh": "BC Place Vancouver",
+      "highlights_en": [
+        "Switzerland beat Canada 2-0 in Group B.",
+        "Ruben Vargas 46', Johan Manzambi 57'",
+        "The match was played at BC Place Vancouver."
+      ],
+      "highlights_zh": [
+        "瑞士 2-0 击败加拿大，比赛属于 Group B。",
+        "Ruben Vargas 46', Johan Manzambi 57'",
+        "比赛场地：BC Place Vancouver。"
+      ],
+      "highlights": [
+        "瑞士 2-0 击败加拿大，比赛属于 Group B。",
+        "Ruben Vargas 46', Johan Manzambi 57'",
+        "比赛场地：BC Place Vancouver。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group I：法国 以 6 分领跑，挪威 6 分紧随其后。",
+    "Group J：阿根廷 以 6 分领跑，奥地利 3 分紧随其后。",
+    "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
+    "Group L：英格兰 以 4 分领跑，加纳 4 分紧随其后。",
+    "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-25 06:00",
       "team_a": {
@@ -559,22 +529,56 @@
         "name_en": "Germany"
       },
       "group": "Group E"
+    },
+    {
+      "time_bj": "北京时间 2026-06-26 07:00",
+      "team_a": {
+        "name": "Tunisia",
+        "flag": "🇹🇳",
+        "name_zh": "突尼斯",
+        "name_en": "Tunisia"
+      },
+      "team_b": {
+        "name": "Netherlands",
+        "flag": "🇳🇱",
+        "name_zh": "荷兰",
+        "name_en": "Netherlands"
+      },
+      "group": "Group F"
+    },
+    {
+      "time_bj": "北京时间 2026-06-26 07:00",
+      "team_a": {
+        "name": "Japan",
+        "flag": "🇯🇵",
+        "name_zh": "日本",
+        "name_en": "Japan"
+      },
+      "team_b": {
+        "name": "Sweden",
+        "flag": "🇸🇪",
+        "name_zh": "瑞典",
+        "name_en": "Sweden"
+      },
+      "group": "Group F"
     }
   ],
   "news": [],
-  "summary_zh": "葡萄牙 5-0 击败乌兹别克斯坦，英格兰 0-0 战平加纳，克罗地亚 1-0 击败巴拿马，哥伦比亚 1-0 击败刚果民主共和国。",
-  "summary_en": "Portugal beat Uzbekistan 5-0; England drew 0-0 with Ghana; Croatia beat Panama 1-0; Colombia beat Congo DR 1-0.",
+  "summary_zh": "克罗地亚 1-0 击败巴拿马，哥伦比亚 1-0 击败刚果民主共和国，波黑 2-1 击败卡塔尔，瑞士 2-0 击败加拿大。",
+  "summary_en": "Croatia beat Panama 1-0; Colombia beat Congo DR 1-0; Bosnia and Herzegovina beat Qatar 2-1; Switzerland beat Canada 2-0.",
   "standings_changes_zh": [
-    "Group J：阿根廷 以 6 分领跑，奥地利 3 分紧随其后。",
     "Group I：法国 以 6 分领跑，挪威 6 分紧随其后。",
+    "Group J：阿根廷 以 6 分领跑，奥地利 3 分紧随其后。",
     "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
-    "Group L：英格兰 以 4 分领跑，加纳 4 分紧随其后。"
+    "Group L：英格兰 以 4 分领跑，加纳 4 分紧随其后。",
+    "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group J: Argentina lead with 6 points, followed by Austria on 3.",
     "Group I: France lead with 6 points, followed by Norway on 6.",
+    "Group J: Argentina lead with 6 points, followed by Austria on 3.",
     "Group K: Colombia lead with 6 points, followed by Portugal on 4.",
-    "Group L: England lead with 4 points, followed by Ghana on 4."
+    "Group L: England lead with 4 points, followed by Ghana on 4.",
+    "Group B: Switzerland lead with 7 points, followed by Canada on 4."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -582,6 +586,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-24T04:14:02.257Z"
+    "fetched_at": "2026-06-24T20:18:33.470Z"
   }
 }
