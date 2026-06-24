@@ -18,10 +18,15 @@ const REPORT_WATCH_DEBOUNCE_MS = 500;
 const REPORT_WATCH_POLL_MS = 5000;
 const LEGACY_WORLD_CUP_FEED_URLS = new Set([
   "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget@master/data/latest.json",
+  "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json",
   "https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.json"
 ]);
 const DEFAULT_WORLD_CUP_FEED_URL =
-  "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json";
+  "https://fastly.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json";
+const DEFAULT_WORLD_CUP_FEED_FALLBACK_URLS = [
+  "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json",
+  "https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.json"
+];
 const DATA_UPDATE_INTERVAL_MS = 30 * 60 * 1000;
 const DATA_UPDATE_TIMEOUT_MS = 15 * 1000;
 const DATA_UPDATE_MAX_BYTES = 1024 * 1024;
@@ -412,19 +417,34 @@ function requestText(urlString, redirectCount = 0) {
 }
 
 async function fetchRemoteReport(feedUrl) {
-  const raw = await requestText(feedUrl);
-  let parsed;
-  try {
-    parsed = JSON.parse(raw);
-  } catch (_error) {
-    throw new Error("INVALID_REMOTE_JSON");
+  const feedUrls = [feedUrl];
+  if (feedUrl === DEFAULT_WORLD_CUP_FEED_URL) {
+    feedUrls.push(...DEFAULT_WORLD_CUP_FEED_FALLBACK_URLS);
   }
 
-  if (!reportDataLooksValid(parsed)) {
-    throw new Error("INVALID_REMOTE_SCHEMA");
+  let lastError = null;
+  for (const currentFeedUrl of [...new Set(feedUrls)]) {
+    try {
+      const raw = await requestText(currentFeedUrl);
+      let parsed;
+      try {
+        parsed = JSON.parse(raw);
+      } catch (_error) {
+        throw new Error("INVALID_REMOTE_JSON");
+      }
+
+      if (!reportDataLooksValid(parsed)) {
+        throw new Error("INVALID_REMOTE_SCHEMA");
+      }
+
+      return parsed;
+    } catch (error) {
+      lastError = error;
+      console.warn(`WorldCup feed fetch failed for ${currentFeedUrl}:`, error);
+    }
   }
 
-  return parsed;
+  throw lastError || new Error("UPDATE_FAILED");
 }
 
 async function writeReportCache(data) {
