@@ -1,6 +1,6 @@
 "use strict";
 
-const { app, BrowserWindow, globalShortcut, ipcMain, screen } = require("electron");
+const { app, BrowserWindow, clipboard, globalShortcut, ipcMain, screen } = require("electron");
 const fs = require("node:fs/promises");
 const fsSync = require("node:fs");
 const os = require("node:os");
@@ -12,12 +12,17 @@ const PANEL_HEIGHT = 620;
 const SCREEN_MARGIN = 20;
 const GLOBAL_SHOW_BALL_SHORTCUT = "Control+Alt+W";
 const PID_FILE = path.join(os.tmpdir(), "worldcup-floating-gadget.pid");
+const REPORT_WATCH_DEBOUNCE_MS = 500;
+const REPORT_WATCH_POLL_MS = 5000;
 
 let gadgetWindow = null;
 let windowShown = false;
 let dragState = null;
 let isPanelExpanded = false;
 let ownsPidFile = false;
+let reportDirectoryWatcher = null;
+let reportWatchDebounceTimer = null;
+let lastReportSignature = "";
 
 function latestReportPath() {
   if (app.isPackaged) {
@@ -64,6 +69,29 @@ function resizedBounds(width, height) {
 function applyWindowSize(width, height) {
   if (!gadgetWindow) return false;
   gadgetWindow.setBounds(resizedBounds(width, height), true);
+  gadgetWindow.setAlwaysOnTop(true, "floating");
+  return true;
+}
+
+function resetWindowPosition() {
+  if (!gadgetWindow) return false;
+  const current = gadgetWindow.getBounds();
+  const { workArea } = screen.getPrimaryDisplay();
+  const nextBounds = {
+    width: current.width,
+    height: current.height,
+    x: clamp(
+      workArea.x + workArea.width - current.width - SCREEN_MARGIN,
+      workArea.x + 8,
+      workArea.x + workArea.width - current.width - 8
+    ),
+    y: clamp(
+      workArea.y + Math.round(workArea.height * 0.18),
+      workArea.y + 8,
+      workArea.y + workArea.height - current.height - 8
+    )
+  };
+  gadgetWindow.setBounds(nextBounds, true);
   gadgetWindow.setAlwaysOnTop(true, "floating");
   return true;
 }
@@ -206,25 +234,140 @@ function registerGlobalShortcut() {
   }
 }
 
-async function readLatestReport() {
-  let raw;
+function reportMetaFromStats(reportPath, stats) {
+  return {
+    path: reportPath,
+    mtimeIso: stats.mtime.toISOString(),
+    mtimeMs: stats.mtimeMs,
+    size: stats.size
+  };
+}
+
+function reportSnapshot() {
+  const reportPath = latestReportPath();
   try {
-    raw = await fs.readFile(latestReportPath(), "utf8");
+    const stats = fsSync.statSync(reportPath);
+    return {
+      exists: true,
+      signature: `${stats.mtimeMs}:${stats.size}`,
+      meta: reportMetaFromStats(reportPath, stats)
+    };
+  } catch (error) {
+    if (error && error.code !== "ENOENT") {
+      console.warn(`Unable to stat report file at ${reportPath}:`, error);
+    }
+    return {
+      exists: false,
+      signature: "missing",
+      meta: { path: reportPath }
+    };
+  }
+}
+
+function notifyReportChanged(source, snapshot) {
+  if (!gadgetWindow || gadgetWindow.isDestroyed()) return;
+  gadgetWindow.webContents.send("report:changed", {
+    source,
+    ok: snapshot.exists,
+    error: snapshot.exists ? null : "NOT_FOUND",
+    meta: snapshot.meta,
+    changedAt: new Date().toISOString()
+  });
+}
+
+function checkForReportChange(source) {
+  reportWatchDebounceTimer = null;
+  const snapshot = reportSnapshot();
+  if (snapshot.signature === lastReportSignature) return;
+  lastReportSignature = snapshot.signature;
+  notifyReportChanged(source, snapshot);
+}
+
+function scheduleReportChangeCheck(source) {
+  if (reportWatchDebounceTimer) {
+    clearTimeout(reportWatchDebounceTimer);
+  }
+  reportWatchDebounceTimer = setTimeout(
+    () => checkForReportChange(source),
+    REPORT_WATCH_DEBOUNCE_MS
+  );
+}
+
+function startReportWatcher() {
+  const reportPath = latestReportPath();
+  const reportDirectory = path.dirname(reportPath);
+  const reportFileName = path.basename(reportPath);
+
+  stopReportWatcher();
+  lastReportSignature = reportSnapshot().signature;
+
+  try {
+    if (fsSync.existsSync(reportDirectory)) {
+      reportDirectoryWatcher = fsSync.watch(
+        reportDirectory,
+        { persistent: false },
+        (eventType, filename) => {
+          const changedName = filename ? filename.toString() : "";
+          if (changedName && changedName !== reportFileName) return;
+          scheduleReportChangeCheck(`fs.watch:${eventType || "change"}`);
+        }
+      );
+      reportDirectoryWatcher.on("error", (error) => {
+        console.warn(`Unable to watch report directory at ${reportDirectory}:`, error);
+      });
+    }
+  } catch (error) {
+    console.warn(`Unable to watch report directory at ${reportDirectory}:`, error);
+  }
+
+  fsSync.watchFile(
+    reportPath,
+    { interval: REPORT_WATCH_POLL_MS, persistent: false },
+    (current, previous) => {
+      if (current.mtimeMs === previous.mtimeMs && current.size === previous.size) return;
+      scheduleReportChangeCheck("fs.watchFile");
+    }
+  );
+}
+
+function stopReportWatcher() {
+  if (reportWatchDebounceTimer) {
+    clearTimeout(reportWatchDebounceTimer);
+    reportWatchDebounceTimer = null;
+  }
+
+  if (reportDirectoryWatcher) {
+    reportDirectoryWatcher.close();
+    reportDirectoryWatcher = null;
+  }
+
+  fsSync.unwatchFile(latestReportPath());
+}
+
+async function readLatestReport() {
+  const reportPath = latestReportPath();
+  let raw;
+  let stats = null;
+  try {
+    raw = await fs.readFile(reportPath, "utf8");
+    stats = await fs.stat(reportPath);
   } catch (error) {
     if (error && error.code === "ENOENT") {
-      return { ok: false, error: "NOT_FOUND" };
+      return { ok: false, error: "NOT_FOUND", meta: { path: reportPath } };
     }
-    return { ok: false, error: "READ_FAILED" };
+    return { ok: false, error: "READ_FAILED", meta: { path: reportPath } };
   }
+
+  const meta = reportMetaFromStats(reportPath, stats);
 
   try {
     const data = JSON.parse(raw);
     if (!data || typeof data !== "object" || Array.isArray(data)) {
-      return { ok: false, error: "INVALID_JSON" };
+      return { ok: false, error: "INVALID_JSON", meta };
     }
-    return { ok: true, data };
+    return { ok: true, data, meta };
   } catch (_error) {
-    return { ok: false, error: "INVALID_JSON" };
+    return { ok: false, error: "INVALID_JSON", meta };
   }
 }
 
@@ -236,6 +379,46 @@ function assertTrustedSender(event) {
 
 function quitGadget() {
   app.quit();
+  return { ok: true };
+}
+
+function readAppDiagnostics() {
+  const snapshot = reportSnapshot();
+  return {
+    ok: true,
+    app: {
+      name: app.getName(),
+      version: app.getVersion(),
+      packaged: app.isPackaged,
+      locale: app.getLocale()
+    },
+    runtime: {
+      platform: process.platform,
+      arch: process.arch,
+      electron: process.versions.electron,
+      chrome: process.versions.chrome,
+      node: process.versions.node
+    },
+    data: {
+      exists: snapshot.exists,
+      meta: snapshot.meta
+    },
+    window: gadgetWindow && !gadgetWindow.isDestroyed()
+      ? {
+          bounds: gadgetWindow.getBounds(),
+          visible: gadgetWindow.isVisible(),
+          expanded: isPanelExpanded
+        }
+      : null
+  };
+}
+
+function writeClipboardText(text) {
+  if (typeof text !== "string" || !text.trim()) {
+    return { ok: false, error: "INVALID_TEXT" };
+  }
+
+  clipboard.writeText(text);
   return { ok: true };
 }
 
@@ -260,6 +443,11 @@ function registerIpcHandlers() {
     return collapseWindow();
   });
 
+  ipcMain.handle("window:reset-position", (event) => {
+    assertTrustedSender(event);
+    return resetWindowPosition();
+  });
+
   ipcMain.handle("window:drag-start", (event, payload) => {
     assertTrustedSender(event);
     return beginCustomDrag(payload);
@@ -278,6 +466,16 @@ function registerIpcHandlers() {
   ipcMain.handle("app:quit", (event) => {
     assertTrustedSender(event);
     return quitGadget();
+  });
+
+  ipcMain.handle("diagnostics:read", (event) => {
+    assertTrustedSender(event);
+    return readAppDiagnostics();
+  });
+
+  ipcMain.handle("clipboard:write-text", (event, text) => {
+    assertTrustedSender(event);
+    return writeClipboardText(text);
   });
 }
 
@@ -339,6 +537,7 @@ if (!gotSingleInstanceLock) {
     writePidFile();
     registerIpcHandlers();
     createWindow();
+    startReportWatcher();
     registerGlobalShortcut();
 
     app.on("activate", () => {
@@ -351,5 +550,6 @@ if (!gotSingleInstanceLock) {
 
 app.on("will-quit", () => {
   globalShortcut.unregisterAll();
+  stopReportWatcher();
   cleanupPidFile();
 });

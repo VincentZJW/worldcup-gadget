@@ -141,6 +141,7 @@
           <div class="panel-actions">
             <div class="language-switcher language-switcher--panel" id="panel-language-switcher" role="group" aria-label="语言切换"></div>
             <button id="refresh-button" class="icon-button" type="button" title="重新读取 latest.json">刷新</button>
+            <button id="settings-button" class="icon-button" type="button" title="打开设置">设置</button>
             <button id="collapse-button" class="icon-button" type="button" title="收回悬浮球">收起</button>
             <button id="quit-button" class="icon-button icon-button--danger" type="button" title="退出悬浮球">退出</button>
           </div>
@@ -148,6 +149,13 @@
 
         <main class="panel-content">
           <div class="status-message" id="status-message" role="status" hidden></div>
+          <div class="data-health-card" id="data-health-card" hidden>
+            <div class="data-health-card__top">
+              <span id="data-health-title">本地数据状态</span>
+              <span class="data-health-card__status" id="data-health-status">等待读取</span>
+            </div>
+            <p id="data-health-detail">正在读取 latest.json。</p>
+          </div>
           <div class="summary-card" id="summary-card" hidden></div>
 
           <section class="latest-section" aria-labelledby="latest-heading">
@@ -196,6 +204,94 @@
           <span><span id="data-label">DATA</span> · ../data/latest.json</span>
           <span class="footer-brand" id="footer-brand">OPENCLAW READY</span>
         </footer>
+      </div>
+    </section>
+
+    <section class="settings-view" id="settings-view" aria-label="设置" hidden>
+      <div class="settings-shell">
+        <header class="settings-header">
+          <div>
+            <span class="settings-kicker" id="settings-kicker">WORLD CUP GADGET</span>
+            <h1 id="settings-title">设置</h1>
+            <p id="settings-subtitle">管理悬浮球、语言和本地数据。</p>
+          </div>
+          <button id="settings-back-button" class="icon-button" type="button" title="返回战报">返回</button>
+        </header>
+
+        <main class="settings-content">
+          <section class="settings-section" aria-labelledby="settings-language-heading">
+            <div class="settings-section__copy">
+              <h2 id="settings-language-heading">语言</h2>
+              <p id="settings-language-description">切换悬浮球界面语言。</p>
+            </div>
+            <div class="language-switcher language-switcher--settings" id="settings-language-switcher" role="group" aria-label="语言切换"></div>
+          </section>
+
+          <section class="settings-section settings-section--daily" aria-labelledby="settings-daily-heading">
+            <div class="settings-section__copy">
+              <h2 id="settings-daily-heading">每日自动展示</h2>
+              <p id="settings-daily-description">每天在指定时间自动展开战报面板，默认关闭。</p>
+              <p class="settings-inline-status settings-inline-status--disabled" id="settings-daily-status">已关闭</p>
+            </div>
+            <div class="settings-control-stack">
+              <label class="settings-switch">
+                <input id="settings-daily-toggle" type="checkbox" />
+                <span class="settings-switch__track" aria-hidden="true"></span>
+                <span id="settings-daily-toggle-label">开启</span>
+              </label>
+              <input
+                class="settings-time-input"
+                id="settings-daily-time-input"
+                type="time"
+                value="10:00"
+                aria-label="展示时间"
+              />
+            </div>
+          </section>
+
+          <section class="settings-section" aria-labelledby="settings-guide-heading">
+            <div class="settings-section__copy">
+              <h2 id="settings-guide-heading">首次使用引导</h2>
+              <p id="settings-guide-description">重新查看小足球的基本用法。</p>
+            </div>
+            <button id="settings-guide-button" class="settings-action-button" type="button">重新显示</button>
+          </section>
+
+          <section class="settings-section" aria-labelledby="settings-position-heading">
+            <div class="settings-section__copy">
+              <h2 id="settings-position-heading">窗口位置</h2>
+              <p id="settings-position-description">把当前窗口移回屏幕右侧默认位置。</p>
+            </div>
+            <button id="settings-position-button" class="settings-action-button" type="button">重置位置</button>
+          </section>
+
+          <section class="settings-section" aria-labelledby="settings-data-heading">
+            <div class="settings-section__copy">
+              <h2 id="settings-data-heading">本地数据</h2>
+              <p id="settings-data-description">重新读取 latest.json，不请求网络接口。</p>
+              <p class="settings-inline-status settings-inline-status--unknown" id="settings-data-health-status">等待读取本地数据</p>
+            </div>
+            <button id="settings-data-button" class="settings-action-button" type="button">重新读取</button>
+          </section>
+
+          <section class="settings-section" aria-labelledby="settings-diagnostics-heading">
+            <div class="settings-section__copy">
+              <h2 id="settings-diagnostics-heading">诊断信息</h2>
+              <p id="settings-diagnostics-description">复制版本、平台、数据路径和当前状态。</p>
+            </div>
+            <button id="settings-diagnostics-button" class="settings-action-button" type="button">复制诊断</button>
+          </section>
+
+          <section class="settings-section settings-section--danger" aria-labelledby="settings-quit-heading">
+            <div class="settings-section__copy">
+              <h2 id="settings-quit-heading">退出应用</h2>
+              <p id="settings-quit-description">关闭悬浮球和后台进程。</p>
+            </div>
+            <button id="settings-quit-button" class="settings-action-button settings-action-button--danger" type="button">退出</button>
+          </section>
+
+          <p class="settings-status" id="settings-status" role="status" hidden></p>
+        </main>
       </div>
     </section>
 
