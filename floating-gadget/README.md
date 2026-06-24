@@ -180,7 +180,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install-windows-hotkey.ps1
 首次启动如果缓存不存在，会从打包资源或开发目录中的 `../data/latest.json` 复制一份 seed data。随后主进程会按设置从远程 JSON feed 自动更新缓存。当前默认 feed 是：
 
 ```text
-https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget@master/data/latest.json
+https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.json
 ```
 
 主进程使用固定路径读取和写入缓存，不接受 renderer 提供的任意文件路径。renderer 不启用 Node integration，不直接联网，并通过安全的 preload IPC 读取本地缓存。
