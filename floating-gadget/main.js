@@ -3,6 +3,8 @@
 const { app, BrowserWindow, clipboard, globalShortcut, ipcMain, screen } = require("electron");
 const fs = require("node:fs/promises");
 const fsSync = require("node:fs");
+const http = require("node:http");
+const https = require("node:https");
 const os = require("node:os");
 const path = require("node:path");
 
@@ -14,6 +16,12 @@ const GLOBAL_SHOW_BALL_SHORTCUT = "Control+Alt+W";
 const PID_FILE = path.join(os.tmpdir(), "worldcup-floating-gadget.pid");
 const REPORT_WATCH_DEBOUNCE_MS = 500;
 const REPORT_WATCH_POLL_MS = 5000;
+const DEFAULT_WORLD_CUP_FEED_URL =
+  "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget@master/data/latest.json";
+const DATA_UPDATE_INTERVAL_MS = 30 * 60 * 1000;
+const DATA_UPDATE_TIMEOUT_MS = 15 * 1000;
+const DATA_UPDATE_MAX_BYTES = 1024 * 1024;
+const SETTINGS_FILE_NAME = "settings.json";
 
 let gadgetWindow = null;
 let windowShown = false;
@@ -23,13 +31,40 @@ let ownsPidFile = false;
 let reportDirectoryWatcher = null;
 let reportWatchDebounceTimer = null;
 let lastReportSignature = "";
+let dataUpdateTimer = null;
+let dataUpdateInFlight = null;
+let dataUpdateStatus = {
+  enabled: true,
+  feedUrl: DEFAULT_WORLD_CUP_FEED_URL,
+  updating: false,
+  lastAttemptIso: null,
+  lastSuccessIso: null,
+  lastError: null,
+  nextRunIso: null
+};
 
-function latestReportPath() {
+function bundledReportPath() {
   if (app.isPackaged) {
     return path.join(process.resourcesPath, "data", "latest.json");
   }
 
   return path.resolve(__dirname, "..", "data", "latest.json");
+}
+
+function userDataDirectory() {
+  return app.getPath("userData");
+}
+
+function settingsPath() {
+  return path.join(userDataDirectory(), SETTINGS_FILE_NAME);
+}
+
+function latestReportPath() {
+  return path.join(userDataDirectory(), "data", "latest.json");
+}
+
+function latestReportDirectory() {
+  return path.dirname(latestReportPath());
 }
 
 function clamp(value, min, max) {
@@ -234,6 +269,270 @@ function registerGlobalShortcut() {
   }
 }
 
+function defaultPersistentSettings() {
+  return {
+    dataAutoUpdateEnabled: true,
+    dataFeedUrl: DEFAULT_WORLD_CUP_FEED_URL
+  };
+}
+
+function readPersistentSettings() {
+  try {
+    const raw = fsSync.readFileSync(settingsPath(), "utf8");
+    const parsed = JSON.parse(raw);
+    return {
+      ...defaultPersistentSettings(),
+      ...(parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {})
+    };
+  } catch (error) {
+    if (error && error.code !== "ENOENT") {
+      console.warn(`Unable to read settings at ${settingsPath()}:`, error);
+    }
+    return defaultPersistentSettings();
+  }
+}
+
+function writePersistentSettings(nextSettings) {
+  const merged = {
+    ...defaultPersistentSettings(),
+    ...nextSettings
+  };
+
+  fsSync.mkdirSync(path.dirname(settingsPath()), { recursive: true });
+  fsSync.writeFileSync(settingsPath(), `${JSON.stringify(merged, null, 2)}\n`, "utf8");
+  return merged;
+}
+
+function loadDataUpdateSettings() {
+  const settings = readPersistentSettings();
+  dataUpdateStatus.enabled = settings.dataAutoUpdateEnabled !== false;
+  dataUpdateStatus.feedUrl = typeof settings.dataFeedUrl === "string" && settings.dataFeedUrl.trim()
+    ? settings.dataFeedUrl.trim()
+    : DEFAULT_WORLD_CUP_FEED_URL;
+  return settings;
+}
+
+function reportDataLooksValid(data) {
+  return Boolean(
+    data
+      && typeof data === "object"
+      && !Array.isArray(data)
+      && Array.isArray(data.matches)
+  );
+}
+
+async function ensureWritableReportSeed() {
+  const targetPath = latestReportPath();
+  try {
+    await fs.access(targetPath);
+    return { ok: true, path: targetPath, seeded: false };
+  } catch (_error) {
+    // Continue with seed copy.
+  }
+
+  await fs.mkdir(latestReportDirectory(), { recursive: true });
+  try {
+    await fs.copyFile(bundledReportPath(), targetPath);
+    return { ok: true, path: targetPath, seeded: true };
+  } catch (error) {
+    console.warn(`Unable to seed report cache from ${bundledReportPath()}:`, error);
+    return { ok: false, path: targetPath, error: "SEED_FAILED" };
+  }
+}
+
+function requestText(urlString, redirectCount = 0) {
+  return new Promise((resolve, reject) => {
+    let url;
+    try {
+      url = new URL(urlString);
+    } catch (_error) {
+      reject(new Error("INVALID_FEED_URL"));
+      return;
+    }
+
+    if (url.protocol !== "https:" && url.protocol !== "http:") {
+      reject(new Error("UNSUPPORTED_FEED_PROTOCOL"));
+      return;
+    }
+
+    const transport = url.protocol === "https:" ? https : http;
+    const request = transport.get(
+      url,
+      {
+        headers: {
+          "accept": "application/json,text/plain;q=0.9,*/*;q=0.8",
+          "user-agent": `WorldCupGadget/${app.getVersion()}`
+        },
+        timeout: DATA_UPDATE_TIMEOUT_MS
+      },
+      (response) => {
+        const statusCode = response.statusCode || 0;
+        const location = response.headers.location;
+
+        if (statusCode >= 300 && statusCode < 400 && location) {
+          response.resume();
+          if (redirectCount >= 3) {
+            reject(new Error("TOO_MANY_REDIRECTS"));
+            return;
+          }
+          const nextUrl = new URL(location, url).toString();
+          requestText(nextUrl, redirectCount + 1).then(resolve, reject);
+          return;
+        }
+
+        if (statusCode < 200 || statusCode >= 300) {
+          response.resume();
+          reject(new Error(`HTTP_${statusCode || "UNKNOWN"}`));
+          return;
+        }
+
+        const chunks = [];
+        let totalBytes = 0;
+        response.setEncoding("utf8");
+        response.on("data", (chunk) => {
+          totalBytes += Buffer.byteLength(chunk, "utf8");
+          if (totalBytes > DATA_UPDATE_MAX_BYTES) {
+            request.destroy(new Error("FEED_TOO_LARGE"));
+            return;
+          }
+          chunks.push(chunk);
+        });
+        response.on("end", () => resolve(chunks.join("")));
+      }
+    );
+
+    request.on("timeout", () => request.destroy(new Error("FEED_TIMEOUT")));
+    request.on("error", reject);
+  });
+}
+
+async function fetchRemoteReport(feedUrl) {
+  const raw = await requestText(feedUrl);
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch (_error) {
+    throw new Error("INVALID_REMOTE_JSON");
+  }
+
+  if (!reportDataLooksValid(parsed)) {
+    throw new Error("INVALID_REMOTE_SCHEMA");
+  }
+
+  return parsed;
+}
+
+async function writeReportCache(data) {
+  const targetPath = latestReportPath();
+  const tempPath = `${targetPath}.tmp`;
+  await fs.mkdir(latestReportDirectory(), { recursive: true });
+  await fs.writeFile(tempPath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
+  await fs.rename(tempPath, targetPath);
+  return targetPath;
+}
+
+function notifyDataUpdateStatus() {
+  if (!gadgetWindow || gadgetWindow.isDestroyed()) return;
+  gadgetWindow.webContents.send("data-update:status", getDataUpdateStatus());
+}
+
+function getDataUpdateStatus() {
+  return {
+    ok: true,
+    ...dataUpdateStatus
+  };
+}
+
+function scheduleNextDataUpdate(delayMs = DATA_UPDATE_INTERVAL_MS) {
+  if (dataUpdateTimer) {
+    clearTimeout(dataUpdateTimer);
+    dataUpdateTimer = null;
+  }
+
+  if (!dataUpdateStatus.enabled) {
+    dataUpdateStatus.nextRunIso = null;
+    notifyDataUpdateStatus();
+    return;
+  }
+
+  const delay = Math.max(1000, delayMs);
+  dataUpdateStatus.nextRunIso = new Date(Date.now() + delay).toISOString();
+  dataUpdateTimer = setTimeout(() => {
+    runDataUpdate("schedule").catch(() => {});
+  }, delay);
+  notifyDataUpdateStatus();
+}
+
+async function runDataUpdate(reason = "manual") {
+  loadDataUpdateSettings();
+
+  if (!dataUpdateStatus.enabled && reason !== "manual") {
+    return getDataUpdateStatus();
+  }
+
+  if (dataUpdateInFlight) {
+    return dataUpdateInFlight;
+  }
+
+  dataUpdateStatus.updating = true;
+  dataUpdateStatus.lastAttemptIso = new Date().toISOString();
+  dataUpdateStatus.lastError = null;
+  notifyDataUpdateStatus();
+
+  dataUpdateInFlight = (async () => {
+    try {
+      const data = await fetchRemoteReport(dataUpdateStatus.feedUrl);
+      await writeReportCache(data);
+      dataUpdateStatus.lastSuccessIso = new Date().toISOString();
+      dataUpdateStatus.lastError = null;
+      return getDataUpdateStatus();
+    } catch (error) {
+      dataUpdateStatus.lastError = error && error.message ? error.message : "UPDATE_FAILED";
+      console.warn(`WorldCup data update failed (${reason}):`, error);
+      return getDataUpdateStatus();
+    } finally {
+      dataUpdateStatus.updating = false;
+      dataUpdateInFlight = null;
+      scheduleNextDataUpdate();
+      notifyDataUpdateStatus();
+    }
+  })();
+
+  return dataUpdateInFlight;
+}
+
+function setDataAutoUpdateEnabled(enabled) {
+  const current = readPersistentSettings();
+  const nextSettings = writePersistentSettings({
+    ...current,
+    dataAutoUpdateEnabled: Boolean(enabled)
+  });
+  dataUpdateStatus.enabled = nextSettings.dataAutoUpdateEnabled !== false;
+  dataUpdateStatus.feedUrl = nextSettings.dataFeedUrl || DEFAULT_WORLD_CUP_FEED_URL;
+  if (dataUpdateStatus.enabled) {
+    scheduleNextDataUpdate(1000);
+  } else {
+    scheduleNextDataUpdate();
+  }
+  return getDataUpdateStatus();
+}
+
+async function startDataUpdater() {
+  loadDataUpdateSettings();
+  if (!dataUpdateStatus.enabled) {
+    scheduleNextDataUpdate();
+    return;
+  }
+  scheduleNextDataUpdate(1000);
+}
+
+function stopDataUpdater() {
+  if (!dataUpdateTimer) return;
+  clearTimeout(dataUpdateTimer);
+  dataUpdateTimer = null;
+  dataUpdateStatus.nextRunIso = null;
+}
+
 function reportMetaFromStats(reportPath, stats) {
   return {
     path: reportPath,
@@ -345,6 +644,7 @@ function stopReportWatcher() {
 }
 
 async function readLatestReport() {
+  await ensureWritableReportSeed();
   const reportPath = latestReportPath();
   let raw;
   let stats = null;
@@ -382,6 +682,71 @@ function quitGadget() {
   return { ok: true };
 }
 
+function readLoginItemSettings() {
+  const supported = process.platform === "darwin" || process.platform === "win32";
+  if (!supported) {
+    return {
+      ok: true,
+      supported: false,
+      openAtLogin: false,
+      error: "UNSUPPORTED_PLATFORM"
+    };
+  }
+
+  try {
+    const settings = app.getLoginItemSettings();
+    return {
+      ok: true,
+      supported: true,
+      openAtLogin: Boolean(settings.openAtLogin),
+      wasOpenedAtLogin: Boolean(settings.wasOpenedAtLogin),
+      wasOpenedAsHidden: Boolean(settings.wasOpenedAsHidden)
+    };
+  } catch (error) {
+    console.warn("Unable to read login item settings:", error);
+    return {
+      ok: false,
+      supported: true,
+      openAtLogin: false,
+      error: "READ_FAILED"
+    };
+  }
+}
+
+function setLoginItemEnabled(enabled) {
+  const supported = process.platform === "darwin" || process.platform === "win32";
+  if (!supported) {
+    return {
+      ok: false,
+      supported: false,
+      openAtLogin: false,
+      error: "UNSUPPORTED_PLATFORM"
+    };
+  }
+
+  try {
+    const settings = {
+      openAtLogin: Boolean(enabled)
+    };
+
+    if (process.platform === "darwin") {
+      settings.openAsHidden = true;
+    }
+
+    app.setLoginItemSettings(settings);
+  } catch (error) {
+    console.warn("Unable to update login item settings:", error);
+    return {
+      ok: false,
+      supported: true,
+      openAtLogin: false,
+      error: "SET_FAILED"
+    };
+  }
+
+  return readLoginItemSettings();
+}
+
 function readAppDiagnostics() {
   const snapshot = reportSnapshot();
   return {
@@ -401,8 +766,11 @@ function readAppDiagnostics() {
     },
     data: {
       exists: snapshot.exists,
-      meta: snapshot.meta
+      meta: snapshot.meta,
+      seedPath: bundledReportPath()
     },
+    dataUpdate: getDataUpdateStatus(),
+    loginItem: readLoginItemSettings(),
     window: gadgetWindow && !gadgetWindow.isDestroyed()
       ? {
           bounds: gadgetWindow.getBounds(),
@@ -431,6 +799,21 @@ function registerIpcHandlers() {
   ipcMain.handle("report:refresh", async (event) => {
     assertTrustedSender(event);
     return readLatestReport();
+  });
+
+  ipcMain.handle("data-update:get", (event) => {
+    assertTrustedSender(event);
+    return getDataUpdateStatus();
+  });
+
+  ipcMain.handle("data-update:set-enabled", (event, enabled) => {
+    assertTrustedSender(event);
+    return setDataAutoUpdateEnabled(enabled);
+  });
+
+  ipcMain.handle("data-update:run", async (event) => {
+    assertTrustedSender(event);
+    return runDataUpdate("manual");
   });
 
   ipcMain.handle("window:expand", (event) => {
@@ -476,6 +859,16 @@ function registerIpcHandlers() {
   ipcMain.handle("clipboard:write-text", (event, text) => {
     assertTrustedSender(event);
     return writeClipboardText(text);
+  });
+
+  ipcMain.handle("login-item:get", (event) => {
+    assertTrustedSender(event);
+    return readLoginItemSettings();
+  });
+
+  ipcMain.handle("login-item:set", (event, enabled) => {
+    assertTrustedSender(event);
+    return setLoginItemEnabled(enabled);
   });
 }
 
@@ -528,16 +921,19 @@ if (!gotSingleInstanceLock) {
 } else {
   app.on("second-instance", handleSecondInstance);
 
-  app.whenReady().then(() => {
+  app.whenReady().then(async () => {
     if (process.platform === "darwin") {
       app.dock?.hide();
       app.setActivationPolicy("accessory");
     }
 
     writePidFile();
+    await ensureWritableReportSeed();
+    loadDataUpdateSettings();
     registerIpcHandlers();
     createWindow();
     startReportWatcher();
+    await startDataUpdater();
     registerGlobalShortcut();
 
     app.on("activate", () => {
@@ -550,6 +946,7 @@ if (!gotSingleInstanceLock) {
 
 app.on("will-quit", () => {
   globalShortcut.unregisterAll();
+  stopDataUpdater();
   stopReportWatcher();
   cleanupPidFile();
 });

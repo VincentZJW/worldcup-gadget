@@ -66,8 +66,8 @@
       onboardingDragTitle: "长按拖动位置",
       onboardingFooterNote: "之后可在面板里切换语言、刷新数据或退出应用。",
       onboardingKicker: "WORLD CUP GADGET",
-      onboardingLocalText: "战报从本地 latest.json 读取，前端不会请求远程比赛 API。",
-      onboardingLocalTitle: "本地数据，不走网络接口",
+      onboardingLocalText: "应用会自动更新本地缓存，界面始终从 latest.json 读取战报。",
+      onboardingLocalTitle: "自动更新，本地缓存",
       onboardingMorningText: "每日自动展示可在设置里开启和调整，默认关闭，不会主动打扰你。",
       onboardingMorningTitle: "早上 10 点展示",
       onboardingOpenText: "展开后可以查看比分、旗帜、进球球员、进球时间和全部比赛。",
@@ -76,15 +76,29 @@
       onboardingSubtitle: "第一次使用只需要记住这几件事，之后它会安静地停在桌面边缘。",
       onboardingTitle: "你的世界杯悬浮球已准备好",
       onboardingViewLabel: "首次使用引导",
-      openclawReady: "OPENCLAW READY",
+      openclawReady: "AUTO UPDATE READY",
       panelSubtitle: "最新战况 · 北京时间",
       panelTitle: "2026 世界杯战报",
       readingReport: "正在读取本地战报…",
       refresh: "刷新",
-      refreshSuccess: "已刷新 · latest.json 数据已重新载入",
-      refreshTitle: "重新读取 latest.json",
+      refreshFallback: "远程数据更新失败，已重新读取本地缓存。",
+      refreshSuccess: "已从远程数据源更新并重新载入战报",
+      refreshTitle: "更新远程数据并刷新战报",
       reportUnavailable: "本地战报不可用",
       settings: "设置",
+      settingsAutoUpdateButton: "立即更新",
+      settingsAutoUpdateDescription: "自动从远程数据源更新战报，失败时使用本地缓存。",
+      settingsAutoUpdateHeading: "数据自动更新",
+      settingsAutoUpdateStatusDisabled: "已关闭",
+      settingsAutoUpdateStatusEnabled: "已开启 · 等待首次更新",
+      settingsAutoUpdateStatusFailed: "上次失败：{error}",
+      settingsAutoUpdateStatusNextRun: "下次更新：{time}",
+      settingsAutoUpdateStatusSuccess: "最近更新：{time}",
+      settingsAutoUpdateStatusUpdating: "正在更新…",
+      settingsAutoUpdateToggleLabel: "开启",
+      settingsAutoUpdateUpdated: "数据自动更新设置已更新。",
+      settingsAutoUpdateRunSuccess: "远程数据已更新并写入本地缓存。",
+      settingsAutoUpdateRunError: "远程数据更新失败，继续使用本地缓存。",
       settingsBack: "返回",
       settingsBackTitle: "返回战报",
       settingsDataButton: "重新读取",
@@ -109,6 +123,14 @@
       settingsKicker: "WORLD CUP GADGET",
       settingsLanguageDescription: "切换悬浮球界面语言。",
       settingsLanguageHeading: "语言",
+      settingsLoginDescription: "开机登录后自动启动悬浮球，默认关闭。",
+      settingsLoginHeading: "登录后自动启动",
+      settingsLoginStatusDisabled: "已关闭",
+      settingsLoginStatusEnabled: "已开启",
+      settingsLoginStatusFailed: "设置失败",
+      settingsLoginStatusUnsupported: "当前平台不支持",
+      settingsLoginToggleLabel: "开启",
+      settingsLoginUpdated: "登录后自动启动设置已更新。",
       settingsOpenTitle: "打开设置",
       settingsPositionButton: "重置位置",
       settingsPositionDescription: "把当前窗口移回屏幕右侧默认位置。",
@@ -119,7 +141,7 @@
       settingsStatusDataError: "数据读取失败，请检查 latest.json。",
       settingsStatusDataSuccess: "本地数据已重新读取。",
       settingsStatusPosition: "窗口位置已重置。",
-      settingsSubtitle: "管理悬浮球、自动展示、语言和本地数据。",
+      settingsSubtitle: "管理悬浮球、自动展示、登录启动、语言和本地数据。",
       settingsTitle: "设置",
       settingsViewLabel: "设置",
       standingsHeading: "小组形势",
@@ -184,8 +206,8 @@
       onboardingDragTitle: "Long-press to move it",
       onboardingFooterNote: "Later, use the panel to switch language, reload data, or quit the app.",
       onboardingKicker: "WORLD CUP GADGET",
-      onboardingLocalText: "Reports are read from local latest.json. The frontend does not call remote match APIs.",
-      onboardingLocalTitle: "Local data, no network API",
+      onboardingLocalText: "The app updates its local cache automatically, and the UI always reads latest.json.",
+      onboardingLocalTitle: "Auto-update, local cache",
       onboardingMorningText: "Enable and adjust daily auto-show from Settings. It is off by default.",
       onboardingMorningTitle: "Morning 10:00 brief",
       onboardingOpenText: "Open the panel to see scores, flags, scorers, goal times, and all matches.",
@@ -194,15 +216,29 @@
       onboardingSubtitle: "A few things to know the first time. After this, it will wait quietly at the screen edge.",
       onboardingTitle: "Your World Cup gadget is ready",
       onboardingViewLabel: "First-run onboarding",
-      openclawReady: "OPENCLAW READY",
+      openclawReady: "AUTO UPDATE READY",
       panelSubtitle: "Latest Status · Beijing Time",
       panelTitle: "2026 World Cup Brief",
       readingReport: "Reading local report…",
       refresh: "Refresh",
-      refreshSuccess: "Refreshed · latest.json has been reloaded",
-      refreshTitle: "Reload latest.json",
+      refreshFallback: "Remote data update failed. Reloaded the local cache instead.",
+      refreshSuccess: "Remote data updated and the brief has been reloaded",
+      refreshTitle: "Update remote data and refresh the brief",
       reportUnavailable: "Local report unavailable",
       settings: "Settings",
+      settingsAutoUpdateButton: "Update Now",
+      settingsAutoUpdateDescription: "Automatically update reports from the remote feed. Uses local cache if it fails.",
+      settingsAutoUpdateHeading: "Data Auto-Update",
+      settingsAutoUpdateStatusDisabled: "Disabled",
+      settingsAutoUpdateStatusEnabled: "Enabled · waiting for first update",
+      settingsAutoUpdateStatusFailed: "Last failed: {error}",
+      settingsAutoUpdateStatusNextRun: "Next update: {time}",
+      settingsAutoUpdateStatusSuccess: "Last updated: {time}",
+      settingsAutoUpdateStatusUpdating: "Updating…",
+      settingsAutoUpdateToggleLabel: "Enable",
+      settingsAutoUpdateUpdated: "Data auto-update setting updated.",
+      settingsAutoUpdateRunSuccess: "Remote data updated and saved to local cache.",
+      settingsAutoUpdateRunError: "Remote data update failed. Continuing with local cache.",
       settingsBack: "Back",
       settingsBackTitle: "Back to brief",
       settingsDataButton: "Reload",
@@ -227,6 +263,14 @@
       settingsKicker: "WORLD CUP GADGET",
       settingsLanguageDescription: "Switch the floating gadget interface language.",
       settingsLanguageHeading: "Language",
+      settingsLoginDescription: "Start the floating ball after login. Off by default.",
+      settingsLoginHeading: "Launch at Login",
+      settingsLoginStatusDisabled: "Disabled",
+      settingsLoginStatusEnabled: "Enabled",
+      settingsLoginStatusFailed: "Setup failed",
+      settingsLoginStatusUnsupported: "Unsupported on this platform",
+      settingsLoginToggleLabel: "Enable",
+      settingsLoginUpdated: "Launch at login setting updated.",
       settingsOpenTitle: "Open settings",
       settingsPositionButton: "Reset Position",
       settingsPositionDescription: "Move the current window back to the default right-side position.",
@@ -237,7 +281,7 @@
       settingsStatusDataError: "Data reload failed. Please check latest.json.",
       settingsStatusDataSuccess: "Local data has been reloaded.",
       settingsStatusPosition: "Window position reset.",
-      settingsSubtitle: "Manage the floating ball, auto-show, language, and local data.",
+      settingsSubtitle: "Manage the floating ball, auto-show, launch at login, language, and local data.",
       settingsTitle: "Settings",
       settingsViewLabel: "Settings",
       standingsHeading: "Standings Notes",
@@ -320,12 +364,23 @@
   const settingsDailyToggleLabel = document.getElementById("settings-daily-toggle-label");
   const settingsDailyTimeInput = document.getElementById("settings-daily-time-input");
   const settingsDailyStatus = document.getElementById("settings-daily-status");
+  const settingsLoginHeading = document.getElementById("settings-login-heading");
+  const settingsLoginDescription = document.getElementById("settings-login-description");
+  const settingsLoginToggle = document.getElementById("settings-login-toggle");
+  const settingsLoginToggleLabel = document.getElementById("settings-login-toggle-label");
+  const settingsLoginStatus = document.getElementById("settings-login-status");
   const settingsGuideHeading = document.getElementById("settings-guide-heading");
   const settingsGuideDescription = document.getElementById("settings-guide-description");
   const settingsGuideButton = document.getElementById("settings-guide-button");
   const settingsPositionHeading = document.getElementById("settings-position-heading");
   const settingsPositionDescription = document.getElementById("settings-position-description");
   const settingsPositionButton = document.getElementById("settings-position-button");
+  const settingsAutoUpdateHeading = document.getElementById("settings-auto-update-heading");
+  const settingsAutoUpdateDescription = document.getElementById("settings-auto-update-description");
+  const settingsAutoUpdateToggle = document.getElementById("settings-auto-update-toggle");
+  const settingsAutoUpdateToggleLabel = document.getElementById("settings-auto-update-toggle-label");
+  const settingsAutoUpdateStatus = document.getElementById("settings-auto-update-status");
+  const settingsAutoUpdateButton = document.getElementById("settings-auto-update-button");
   const settingsDataHeading = document.getElementById("settings-data-heading");
   const settingsDataDescription = document.getElementById("settings-data-description");
   const settingsDataHealthStatus = document.getElementById("settings-data-health-status");
@@ -356,6 +411,20 @@
   let dailyAutoShowTimer = null;
   let dailyAutoShowSetupFailed = false;
   let dailyAutoShowSettings = readDailyAutoShowSettings();
+  let launchAtLoginState = {
+    supported: true,
+    enabled: false,
+    failed: false
+  };
+  let dataUpdateState = {
+    enabled: true,
+    updating: false,
+    feedUrl: "",
+    lastAttemptIso: null,
+    lastSuccessIso: null,
+    lastError: null,
+    nextRunIso: null
+  };
 
   function element(tag, className, text) {
     const node = document.createElement(tag);
@@ -548,6 +617,189 @@
       saved ? t("settingsDailyUpdated") : t("settingsDailyStatusFailed"),
       saved ? "success" : "error"
     );
+  }
+
+  function launchAtLoginStatusKind() {
+    if (!launchAtLoginState.supported) return "unsupported";
+    if (launchAtLoginState.failed) return "failed";
+    return launchAtLoginState.enabled ? "enabled" : "disabled";
+  }
+
+  function launchAtLoginStatusText() {
+    if (!launchAtLoginState.supported) return t("settingsLoginStatusUnsupported");
+    if (launchAtLoginState.failed) return t("settingsLoginStatusFailed");
+    return launchAtLoginState.enabled
+      ? t("settingsLoginStatusEnabled")
+      : t("settingsLoginStatusDisabled");
+  }
+
+  function applyLaunchAtLoginResult(result) {
+    launchAtLoginState = {
+      supported: result ? result.supported !== false : true,
+      enabled: Boolean(result && result.openAtLogin),
+      failed: !result || result.ok === false
+    };
+    updateLaunchAtLoginUI();
+  }
+
+  function updateLaunchAtLoginUI() {
+    settingsLoginHeading.textContent = t("settingsLoginHeading");
+    settingsLoginDescription.textContent = t("settingsLoginDescription");
+    settingsLoginToggleLabel.textContent = t("settingsLoginToggleLabel");
+    settingsLoginToggle.checked = launchAtLoginState.enabled
+      && launchAtLoginState.supported
+      && !launchAtLoginState.failed;
+    settingsLoginToggle.disabled = !launchAtLoginState.supported;
+    settingsLoginStatus.textContent = launchAtLoginStatusText();
+    settingsLoginStatus.className = `settings-inline-status settings-inline-status--${launchAtLoginStatusKind()}`;
+  }
+
+  async function refreshLaunchAtLoginState() {
+    try {
+      const result = await window.gadgetAPI.getLaunchAtLoginSettings();
+      applyLaunchAtLoginResult(result);
+    } catch (_error) {
+      applyLaunchAtLoginResult({ ok: false, supported: true, openAtLogin: false });
+    }
+  }
+
+  async function updateLaunchAtLoginFromSettings(enabled) {
+    settingsLoginToggle.disabled = true;
+    try {
+      const result = await window.gadgetAPI.setLaunchAtLoginEnabled(enabled);
+      applyLaunchAtLoginResult(result);
+      showSettingsStatus(
+        result && result.ok ? t("settingsLoginUpdated") : t("settingsLoginStatusFailed"),
+        result && result.ok ? "success" : "error"
+      );
+    } catch (_error) {
+      applyLaunchAtLoginResult({ ok: false, supported: true, openAtLogin: false });
+      showSettingsStatus(t("settingsLoginStatusFailed"), "error");
+    } finally {
+      settingsLoginToggle.disabled = !launchAtLoginState.supported;
+      updateLaunchAtLoginUI();
+    }
+  }
+
+  function formatIsoDateTime(value) {
+    if (!hasText(value)) return t("unknown");
+    const parsed = new Date(value);
+    return Number.isNaN(parsed.getTime()) ? t("unknown") : formatDateTime(parsed);
+  }
+
+  function dataUpdateStatusKind() {
+    if (dataUpdateState.updating) return "pending";
+    if (!dataUpdateState.enabled) return "disabled";
+    if (dataUpdateState.lastError) return "failed";
+    if (dataUpdateState.lastSuccessIso) return "current";
+    return "pending";
+  }
+
+  function dataUpdateStatusText() {
+    if (dataUpdateState.updating) return t("settingsAutoUpdateStatusUpdating");
+    if (!dataUpdateState.enabled) return t("settingsAutoUpdateStatusDisabled");
+    if (dataUpdateState.lastError) {
+      return formatMessage("settingsAutoUpdateStatusFailed", {
+        error: dataUpdateState.lastError
+      });
+    }
+    if (dataUpdateState.lastSuccessIso) {
+      const success = formatMessage("settingsAutoUpdateStatusSuccess", {
+        time: formatIsoDateTime(dataUpdateState.lastSuccessIso)
+      });
+      if (!dataUpdateState.nextRunIso) return success;
+      return `${success} · ${formatMessage("settingsAutoUpdateStatusNextRun", {
+        time: formatIsoDateTime(dataUpdateState.nextRunIso)
+      })}`;
+    }
+    if (dataUpdateState.nextRunIso) {
+      return formatMessage("settingsAutoUpdateStatusNextRun", {
+        time: formatIsoDateTime(dataUpdateState.nextRunIso)
+      });
+    }
+    return t("settingsAutoUpdateStatusEnabled");
+  }
+
+  function applyDataUpdateStatus(result) {
+    if (!result || result.ok === false) {
+      dataUpdateState = {
+        ...dataUpdateState,
+        updating: false,
+        lastError: result && result.error ? result.error : "UPDATE_STATUS_FAILED"
+      };
+    } else {
+      dataUpdateState = {
+        enabled: result.enabled !== false,
+        updating: Boolean(result.updating),
+        feedUrl: hasText(result.feedUrl) ? result.feedUrl : dataUpdateState.feedUrl,
+        lastAttemptIso: result.lastAttemptIso || null,
+        lastSuccessIso: result.lastSuccessIso || null,
+        lastError: result.lastError || null,
+        nextRunIso: result.nextRunIso || null
+      };
+    }
+    updateDataUpdateUI();
+  }
+
+  function updateDataUpdateUI() {
+    settingsAutoUpdateHeading.textContent = t("settingsAutoUpdateHeading");
+    settingsAutoUpdateDescription.textContent = t("settingsAutoUpdateDescription");
+    settingsAutoUpdateToggleLabel.textContent = t("settingsAutoUpdateToggleLabel");
+    settingsAutoUpdateToggle.checked = dataUpdateState.enabled;
+    settingsAutoUpdateToggle.disabled = dataUpdateState.updating;
+    settingsAutoUpdateButton.disabled = dataUpdateState.updating;
+    settingsAutoUpdateButton.textContent = dataUpdateState.updating
+      ? t("loading")
+      : t("settingsAutoUpdateButton");
+    settingsAutoUpdateStatus.textContent = dataUpdateStatusText();
+    settingsAutoUpdateStatus.className = `settings-inline-status settings-inline-status--${dataUpdateStatusKind()}`;
+  }
+
+  async function refreshDataUpdateState() {
+    try {
+      const result = await window.gadgetAPI.getDataUpdateStatus();
+      applyDataUpdateStatus(result);
+    } catch (_error) {
+      applyDataUpdateStatus({ ok: false, error: "UPDATE_STATUS_FAILED" });
+    }
+  }
+
+  async function setDataAutoUpdateFromSettings(enabled) {
+    settingsAutoUpdateToggle.disabled = true;
+    try {
+      const result = await window.gadgetAPI.setDataAutoUpdateEnabled(enabled);
+      applyDataUpdateStatus(result);
+      showSettingsStatus(
+        result && result.ok ? t("settingsAutoUpdateUpdated") : t("settingsStatusDataError"),
+        result && result.ok ? "success" : "error"
+      );
+    } catch (_error) {
+      applyDataUpdateStatus({ ok: false, error: "SET_AUTO_UPDATE_FAILED" });
+      showSettingsStatus(t("settingsStatusDataError"), "error");
+    } finally {
+      settingsAutoUpdateToggle.disabled = dataUpdateState.updating;
+      updateDataUpdateUI();
+    }
+  }
+
+  async function runDataUpdateFromSettings() {
+    settingsAutoUpdateButton.disabled = true;
+    settingsAutoUpdateButton.textContent = t("loading");
+    try {
+      const result = await window.gadgetAPI.runDataUpdate();
+      applyDataUpdateStatus(result);
+      const hasError = Boolean(result && result.lastError);
+      showSettingsStatus(
+        hasError ? t("settingsAutoUpdateRunError") : t("settingsAutoUpdateRunSuccess"),
+        hasError ? "error" : "success"
+      );
+    } catch (_error) {
+      applyDataUpdateStatus({ ok: false, error: "MANUAL_UPDATE_FAILED" });
+      showSettingsStatus(t("settingsStatusDataError"), "error");
+    } finally {
+      settingsAutoUpdateButton.disabled = dataUpdateState.updating;
+      settingsAutoUpdateButton.textContent = t("settingsAutoUpdateButton");
+    }
   }
 
   function t(key) {
@@ -886,12 +1138,14 @@
     settingsLanguageHeading.textContent = t("settingsLanguageHeading");
     settingsLanguageDescription.textContent = t("settingsLanguageDescription");
     updateDailyAutoShowUI();
+    updateLaunchAtLoginUI();
     settingsGuideHeading.textContent = t("settingsGuideHeading");
     settingsGuideDescription.textContent = t("settingsGuideDescription");
     settingsGuideButton.textContent = t("settingsGuideButton");
     settingsPositionHeading.textContent = t("settingsPositionHeading");
     settingsPositionDescription.textContent = t("settingsPositionDescription");
     settingsPositionButton.textContent = t("settingsPositionButton");
+    updateDataUpdateUI();
     settingsDataHeading.textContent = t("settingsDataHeading");
     settingsDataDescription.textContent = t("settingsDataDescription");
     dataHealthTitle.textContent = t("dataHealthTitle");
@@ -1294,6 +1548,42 @@
     }
   }
 
+  async function refreshReportFromRemote() {
+    refreshButton.disabled = true;
+    refreshButton.textContent = t("loading");
+
+    let remoteUpdateFailed = false;
+
+    try {
+      const updateResult = await window.gadgetAPI.runDataUpdate();
+      applyDataUpdateStatus(updateResult);
+      remoteUpdateFailed = !updateResult || updateResult.ok === false || Boolean(updateResult.lastError);
+    } catch (_error) {
+      remoteUpdateFailed = true;
+      applyDataUpdateStatus({ ok: false, error: "MANUAL_UPDATE_FAILED" });
+    }
+
+    try {
+      const result = await window.gadgetAPI.refreshReport();
+      if (!result || !result.ok) {
+        setError(result && result.error, result && result.meta);
+        return;
+      }
+
+      renderReport(result.data, result.meta);
+      showPanelStatus(
+        remoteUpdateFailed ? t("refreshFallback") : t("refreshSuccess"),
+        remoteUpdateFailed ? "warning" : "success",
+        remoteUpdateFailed ? 3200 : 1800
+      );
+    } catch (_error) {
+      setError("READ_FAILED");
+    } finally {
+      refreshButton.disabled = false;
+      refreshButton.textContent = t("refresh");
+    }
+  }
+
   function showAutoRefreshResult(success) {
     const message = success ? t("autoRefreshSuccess") : t("autoRefreshError");
     const kind = success ? "success" : "error";
@@ -1355,6 +1645,8 @@
       scheduleDailyAutoShowRetry();
       return;
     }
+
+    await window.gadgetAPI.runDataUpdate().catch(() => {});
 
     try {
       await expandPanel();
@@ -1424,6 +1716,8 @@
     panelView.hidden = true;
     settingsView.hidden = false;
     applyLanguage({ rerenderDynamic: false });
+    await refreshDataUpdateState();
+    await refreshLaunchAtLoginState();
   }
 
   function closeSettings() {
@@ -1479,6 +1773,11 @@
       : dailyAutoShowSettings.enabled
         ? "enabled"
         : "disabled";
+    const launchAtLoginStatus = launchAtLoginState.failed
+      ? "failed"
+      : launchAtLoginState.supported
+        ? launchAtLoginState.enabled ? "enabled" : "disabled"
+        : "unsupported";
 
     return [
       "WorldCup Gadget Diagnostics",
@@ -1496,6 +1795,16 @@
       `ui.mode=${diagnosticsValue(document.body.dataset.mode)}`,
       `dailyAutoShow.status=${dailyStatus}`,
       `dailyAutoShow.time=${diagnosticsValue(dailyAutoShowSettings.time)}`,
+      `dataAutoUpdate.enabled=${diagnosticsValue(dataUpdateState.enabled)}`,
+      `dataAutoUpdate.updating=${diagnosticsValue(dataUpdateState.updating)}`,
+      `dataAutoUpdate.feedUrl=${diagnosticsValue(dataUpdateState.feedUrl || baseDiagnostics?.dataUpdate?.feedUrl)}`,
+      `dataAutoUpdate.lastAttemptIso=${diagnosticsValue(dataUpdateState.lastAttemptIso || baseDiagnostics?.dataUpdate?.lastAttemptIso)}`,
+      `dataAutoUpdate.lastSuccessIso=${diagnosticsValue(dataUpdateState.lastSuccessIso || baseDiagnostics?.dataUpdate?.lastSuccessIso)}`,
+      `dataAutoUpdate.lastError=${diagnosticsValue(dataUpdateState.lastError || baseDiagnostics?.dataUpdate?.lastError)}`,
+      `dataAutoUpdate.nextRunIso=${diagnosticsValue(dataUpdateState.nextRunIso || baseDiagnostics?.dataUpdate?.nextRunIso)}`,
+      `launchAtLogin.status=${launchAtLoginStatus}`,
+      `launchAtLogin.systemOpenAtLogin=${diagnosticsValue(baseDiagnostics?.loginItem?.openAtLogin)}`,
+      `launchAtLogin.supported=${diagnosticsValue(baseDiagnostics?.loginItem?.supported)}`,
       `data.exists=${diagnosticsValue(baseDiagnostics?.data?.exists)}`,
       `data.path=${diagnosticsValue(dataMeta.path)}`,
       `data.mtimeIso=${diagnosticsValue(dataMeta.mtimeIso)}`,
@@ -1585,7 +1894,9 @@
     expandPanel();
   });
   collapseButton.addEventListener("click", collapsePanel);
-  refreshButton.addEventListener("click", () => readReport("refreshReport"));
+  refreshButton.addEventListener("click", () => {
+    refreshReportFromRemote().catch(() => {});
+  });
   settingsButton.addEventListener("click", () => {
     openSettings().catch(() => {});
   });
@@ -1604,11 +1915,20 @@
       time: settingsDailyTimeInput.value
     });
   });
+  settingsLoginToggle.addEventListener("change", () => {
+    updateLaunchAtLoginFromSettings(settingsLoginToggle.checked).catch(() => {});
+  });
   settingsGuideButton.addEventListener("click", () => {
     showOnboardingFromSettings().catch(() => {});
   });
   settingsPositionButton.addEventListener("click", () => {
     resetPositionFromSettings().catch(() => {});
+  });
+  settingsAutoUpdateToggle.addEventListener("change", () => {
+    setDataAutoUpdateFromSettings(settingsAutoUpdateToggle.checked).catch(() => {});
+  });
+  settingsAutoUpdateButton.addEventListener("click", () => {
+    runDataUpdateFromSettings().catch(() => {});
   });
   settingsDataButton.addEventListener("click", () => {
     reloadDataFromSettings().catch(() => {});
@@ -1622,6 +1942,9 @@
   });
   window.gadgetAPI.onReportChanged(() => {
     refreshReportFromFileChange().catch(() => {});
+  });
+  window.gadgetAPI.onDataUpdateStatus((status) => {
+    applyDataUpdateStatus(status);
   });
   window.gadgetAPI.onShortcutShowBall(showBallOnly);
 
@@ -1639,6 +1962,8 @@
   });
 
   applyLanguage({ rerenderDynamic: false });
+  refreshDataUpdateState().catch(() => {});
+  refreshLaunchAtLoginState().catch(() => {});
   scheduleDailyAutoShow();
   showOnboardingIfNeeded().catch(() => {});
 })();

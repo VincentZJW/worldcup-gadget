@@ -105,8 +105,8 @@
           <article class="onboarding-step">
             <span class="onboarding-step__number">04</span>
             <div>
-              <h2 id="onboarding-local-title">本地数据，不走网络接口</h2>
-              <p id="onboarding-local-text">战报从本地 latest.json 读取，前端不会请求远程比赛 API。</p>
+              <h2 id="onboarding-local-title">自动更新，本地缓存</h2>
+              <p id="onboarding-local-text">应用会自动更新本地缓存，界面始终从 latest.json 读取战报。</p>
             </div>
           </article>
         </div>
@@ -140,7 +140,7 @@
           </div>
           <div class="panel-actions">
             <div class="language-switcher language-switcher--panel" id="panel-language-switcher" role="group" aria-label="语言切换"></div>
-            <button id="refresh-button" class="icon-button" type="button" title="重新读取 latest.json">刷新</button>
+            <button id="refresh-button" class="icon-button" type="button" title="更新远程数据并刷新战报">刷新</button>
             <button id="settings-button" class="icon-button" type="button" title="打开设置">设置</button>
             <button id="collapse-button" class="icon-button" type="button" title="收回悬浮球">收起</button>
             <button id="quit-button" class="icon-button icon-button--danger" type="button" title="退出悬浮球">退出</button>
@@ -201,8 +201,8 @@
         </main>
 
         <footer class="panel-footer">
-          <span><span id="data-label">DATA</span> · ../data/latest.json</span>
-          <span class="footer-brand" id="footer-brand">OPENCLAW READY</span>
+          <span><span id="data-label">DATA</span> · local cache/latest.json</span>
+          <span class="footer-brand" id="footer-brand">AUTO UPDATE READY</span>
         </footer>
       </div>
     </section>
@@ -213,7 +213,7 @@
           <div>
             <span class="settings-kicker" id="settings-kicker">WORLD CUP GADGET</span>
             <h1 id="settings-title">设置</h1>
-            <p id="settings-subtitle">管理悬浮球、语言和本地数据。</p>
+            <p id="settings-subtitle">管理悬浮球、自动展示、登录启动、语言和本地数据。</p>
           </div>
           <button id="settings-back-button" class="icon-button" type="button" title="返回战报">返回</button>
         </header>
@@ -249,6 +249,19 @@
             </div>
           </section>
 
+          <section class="settings-section" aria-labelledby="settings-login-heading">
+            <div class="settings-section__copy">
+              <h2 id="settings-login-heading">登录后自动启动</h2>
+              <p id="settings-login-description">开机登录后自动启动悬浮球，默认关闭。</p>
+              <p class="settings-inline-status settings-inline-status--disabled" id="settings-login-status">已关闭</p>
+            </div>
+            <label class="settings-switch settings-switch--single">
+              <input id="settings-login-toggle" type="checkbox" />
+              <span class="settings-switch__track" aria-hidden="true"></span>
+              <span id="settings-login-toggle-label">开启</span>
+            </label>
+          </section>
+
           <section class="settings-section" aria-labelledby="settings-guide-heading">
             <div class="settings-section__copy">
               <h2 id="settings-guide-heading">首次使用引导</h2>
@@ -263,6 +276,22 @@
               <p id="settings-position-description">把当前窗口移回屏幕右侧默认位置。</p>
             </div>
             <button id="settings-position-button" class="settings-action-button" type="button">重置位置</button>
+          </section>
+
+          <section class="settings-section" aria-labelledby="settings-auto-update-heading">
+            <div class="settings-section__copy">
+              <h2 id="settings-auto-update-heading">数据自动更新</h2>
+              <p id="settings-auto-update-description">自动从远程数据源更新战报，失败时使用本地缓存。</p>
+              <p class="settings-inline-status settings-inline-status--pending" id="settings-auto-update-status">准备更新</p>
+            </div>
+            <div class="settings-control-stack">
+              <label class="settings-switch">
+                <input id="settings-auto-update-toggle" type="checkbox" />
+                <span class="settings-switch__track" aria-hidden="true"></span>
+                <span id="settings-auto-update-toggle-label">开启</span>
+              </label>
+              <button id="settings-auto-update-button" class="settings-action-button" type="button">立即更新</button>
+            </div>
           </section>
 
           <section class="settings-section" aria-labelledby="settings-data-heading">

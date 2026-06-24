@@ -15,7 +15,7 @@ cd floating-gadget
 npm install
 ```
 
-`npm install` 会从 npm 下载 Electron 包，并通过项目内 `.npmrc` 使用 `https://npmmirror.com/mirrors/electron/` 补下载 Electron binary。项目本身运行时不会联网。
+`npm install` 会从 npm 下载 Electron 包，并通过项目内 `.npmrc` 使用 `https://npmmirror.com/mirrors/electron/` 补下载 Electron binary。应用运行时只有 Electron 主进程会按设置访问远程 JSON feed 更新比赛数据；renderer 前端不直接联网。
 
 如果你之前已经装过 npm 包，但缺少 `node_modules/electron/path.txt`，可以单独补装 binary：
 
@@ -46,7 +46,7 @@ release/WorldCup Gadget-1.0.0-arm64.dmg
 
 当前 DMG 是本地未签名构建：它会包含 `WorldCup Gadget.app` 和 `/Applications` 快捷方式，适合内部测试。下一步产品化需要接入 Apple Developer ID 签名和 notarization，才能降低 Gatekeeper 安装拦截。
 
-打包版会把项目根目录的 `data/latest.json` 复制进 app resources，运行时从打包资源中读取本地数据，不会联网请求比赛数据。
+打包版会把项目根目录的 `data/latest.json` 复制进 app resources 作为首次启动 seed data。运行时会优先读取用户数据目录中的缓存，并由主进程后台自动更新该缓存。
 
 ## 启动
 
@@ -109,10 +109,11 @@ npm install
 - 拖动面板标题区域可移动面板；
 - 点击“查看更多”展开全部比赛；
 - 点击“只看最新”回到最新一场比赛；
-- 点击“刷新”重新读取 `latest.json`，成功后会短暂显示提示；
-- 外部脚本更新 `latest.json` 后，应用会自动重新读取本地文件并刷新战报；
+- 点击“刷新”会先尝试从远程 JSON feed 更新数据，再重新读取本地缓存，成功或回退都会短暂显示提示；
+- app 会自动从远程 JSON feed 更新战报；也可以在设置页点击“立即更新”手动触发远程更新；
+- 本地缓存 `latest.json` 变化后，应用会自动重新读取并刷新战报；
 - 面板会显示本地数据状态，包括更新时间、是否可能过期、文件缺失或 JSON 格式异常；
-- 点击“设置”可切换语言、开启或关闭每日自动展示、调整展示时间、重新显示首次使用引导、重置窗口位置、重新读取数据、复制诊断信息或退出应用；
+- 点击“设置”可切换语言、开启或关闭数据自动更新、立即更新数据、开启或关闭每日自动展示、调整展示时间、开启或关闭登录后自动启动、重新显示首次使用引导、重置窗口位置、重新读取数据、复制诊断信息或退出应用；
 - 点击“收起”回到悬浮球；
 - 点击“退出”可真正退出应用。
 
@@ -170,36 +171,52 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install-windows-hotkey.ps1
 
 ## 数据来源
 
-应用只读取当前项目中的：
+应用运行时读取用户数据目录中的缓存：
 
 ```text
-../data/latest.json
+<userData>/data/latest.json
 ```
 
-主进程使用固定绝对路径读取该文件，不接受 renderer 提供的任意文件路径。renderer 不启用 Node integration，并通过安全的 preload IPC 读取数据。
+首次启动如果缓存不存在，会从打包资源或开发目录中的 `../data/latest.json` 复制一份 seed data。随后主进程会按设置从远程 JSON feed 自动更新缓存。当前默认 feed 是：
+
+```text
+https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget@master/data/latest.json
+```
+
+主进程使用固定路径读取和写入缓存，不接受 renderer 提供的任意文件路径。renderer 不启用 Node integration，不直接联网，并通过安全的 preload IPC 读取本地缓存。
 
 如果比赛包含 `finished_at_bj`，应用会按该字段排序并展示最新结束的一场；如果没有该字段，则展示 `matches` 数组中的最后一场。
 
 ## 刷新数据
 
-修改项目根目录的 `data/latest.json` 后，展开悬浮球并点击“刷新”，界面会重新读取并渲染最新数据，不需要重启应用。
+正常使用时不需要手动修改数据文件。应用启动后会自动更新一次，并按约 30 分钟间隔继续更新；每日自动展示前也会先尝试更新一次。更新失败时会继续使用上一次本地缓存。
+
+顶部“刷新”按钮适合普通用户：它会先触发远程更新，再读取本地缓存并刷新 UI。设置页里有两个更细的数据动作：
+
+- “立即更新”：主进程立刻访问远程 JSON feed，校验成功后写入本地缓存。
+- “重新读取”：不联网，只重新读取当前本地缓存并刷新 UI。
+
+远程 JSON feed 由项目根目录的 GitHub Action 自动生成：
+
+- `.github/workflows/update-worldcup-feed.yml` 每 30 分钟运行一次，也支持手动触发；
+- `scripts/generate_worldcup_feed.mjs` 请求 FIFA 官方 FDH API，读取比赛 timeline，抽取进球球员和进球时间；
+- workflow 只提交 `data/latest.json`，不会提交本地 roadmap 或其他开发笔记；
+- 生成失败时不会覆盖旧 feed，gadget 会继续使用上一次缓存。
 
 ## 当前版本边界
 
-- 不联网请求任何比赛或新闻数据；
-- 不自动更新比赛数据；
-- 不调用 API；
+- renderer 前端不直接请求任何比赛或新闻数据；
+- 主进程会按设置请求远程 JSON feed；
 - 不读取私人文件；
 - 不安装 LaunchAgent；
-- 不修改 macOS 系统设置；
+- 默认不修改 macOS 系统设置，只有用户开启“登录后自动启动”时才写入系统登录项；
 - 不修改 Windows 注册表；
 - 不要求管理员权限；
-- 不包含开机自启；
 
 后续可以继续增加：
 
-- macOS 开机自启；
-- 每天 10 点自动弹出；
-- 由 OpenClaw 自动更新 `data/latest.json`。
+- 替换为正式后端或 Worker feed；
+- 签名和 notarization；
+- 发布前 QA 矩阵。
 
 如果 Electron 依赖尚未安装，需先完成 `npm install`。若遇到 Electron binary download 失败，请先解决本机网络或 npm 下载环境；本项目只配置项目级镜像，不会修改系统代理或全局 npm 配置。

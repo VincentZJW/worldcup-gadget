@@ -541,6 +541,11 @@ button {
   user-select: none;
 }
 
+.settings-switch--single {
+  justify-self: end;
+  -webkit-app-region: no-drag;
+}
+
 .settings-switch input {
   position: absolute;
   opacity: 0;
@@ -629,12 +634,14 @@ button {
 
 .settings-inline-status--stale,
 .settings-inline-status--unknown,
-.settings-inline-status--pending {
+.settings-inline-status--pending,
+.settings-inline-status--unsupported {
   color: #ffd99a;
 }
 
 .settings-inline-status--missing,
-.settings-inline-status--invalid {
+.settings-inline-status--invalid,
+.settings-inline-status--failed {
   color: #ffc5d5;
 }
 
@@ -1523,6 +1530,12 @@ h1 {
   border: 1px solid rgba(102, 234, 215, 0.22);
   color: #aff7ec;
   background: rgba(30, 112, 102, 0.18);
+}
+
+.status-message--warning {
+  border: 1px solid rgba(255, 202, 111, 0.25);
+  color: #ffe1a6;
+  background: rgba(118, 74, 16, 0.22);
 }
 
 .panel-footer {
