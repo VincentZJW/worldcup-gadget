@@ -43,3 +43,6 @@ jobs:
           git add data/latest.json
           git commit -m "update worldcup feed"
           git push
+
+      - name: Purge feed CDN cache
+        run: curl -fsSL "https://purge.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json"

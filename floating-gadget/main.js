@@ -16,10 +16,12 @@ const GLOBAL_SHOW_BALL_SHORTCUT = "Control+Alt+W";
 const PID_FILE = path.join(os.tmpdir(), "worldcup-floating-gadget.pid");
 const REPORT_WATCH_DEBOUNCE_MS = 500;
 const REPORT_WATCH_POLL_MS = 5000;
-const LEGACY_WORLD_CUP_FEED_URL =
-  "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget@master/data/latest.json";
+const LEGACY_WORLD_CUP_FEED_URLS = new Set([
+  "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget@master/data/latest.json",
+  "https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.json"
+]);
 const DEFAULT_WORLD_CUP_FEED_URL =
-  "https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.json";
+  "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json";
 const DATA_UPDATE_INTERVAL_MS = 30 * 60 * 1000;
 const DATA_UPDATE_TIMEOUT_MS = 15 * 1000;
 const DATA_UPDATE_MAX_BYTES = 1024 * 1024;
@@ -309,7 +311,7 @@ function loadDataUpdateSettings() {
   const settings = readPersistentSettings();
   dataUpdateStatus.enabled = settings.dataAutoUpdateEnabled !== false;
   const savedFeedUrl = typeof settings.dataFeedUrl === "string" ? settings.dataFeedUrl.trim() : "";
-  dataUpdateStatus.feedUrl = savedFeedUrl && savedFeedUrl !== LEGACY_WORLD_CUP_FEED_URL
+  dataUpdateStatus.feedUrl = savedFeedUrl && !LEGACY_WORLD_CUP_FEED_URLS.has(savedFeedUrl)
     ? savedFeedUrl
     : DEFAULT_WORLD_CUP_FEED_URL;
   return settings;

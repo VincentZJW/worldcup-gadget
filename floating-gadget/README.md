@@ -180,7 +180,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install-windows-hotkey.ps1
 首次启动如果缓存不存在，会从打包资源或开发目录中的 `../data/latest.json` 复制一份 seed data。随后主进程会按设置从远程 JSON feed 自动更新缓存。当前默认 feed 是：
 
 ```text
-https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.json
+https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json
 ```
 
 主进程使用固定路径读取和写入缓存，不接受 renderer 提供的任意文件路径。renderer 不启用 Node integration，不直接联网，并通过安全的 preload IPC 读取本地缓存。
@@ -201,6 +201,7 @@ https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.
 - `.github/workflows/update-worldcup-feed.yml` 每 30 分钟运行一次，也支持手动触发；
 - `scripts/generate_worldcup_feed.mjs` 请求 FIFA 官方 FDH API，读取比赛 timeline，抽取进球球员和进球时间；
 - workflow 只提交 `data/latest.json`，不会提交本地 roadmap 或其他开发笔记；
+- workflow 提交 feed 变化后会清理默认 jsDelivr feed URL 的缓存；
 - 生成失败时不会覆盖旧 feed，gadget 会继续使用上一次缓存。
 
 ## 当前版本边界
