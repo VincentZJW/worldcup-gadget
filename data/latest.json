@@ -1,232 +1,587 @@
 {
-  "updated_at": "北京时间 2026-06-22 09:58",
-  "date_range": "2026-06-21",
-  "summary": "Spain 四球大胜 Saudi Arabia 提前出线，Belgium 与 Iran 互交白卷后 Group G 继续胶着，Uruguay 伤停补时逃过点球判罚后 2-2 战平 Cape Verde。",
+  "updated_at": "北京时间 2026-06-24 12:14",
+  "date_range": "2026-06-23 to 2026-06-24",
+  "summary": "葡萄牙 5-0 击败乌兹别克斯坦，英格兰 0-0 战平加纳，克罗地亚 1-0 击败巴拿马，哥伦比亚 1-0 击败刚果民主共和国。",
   "matches": [
     {
-      "group": "Group H",
+      "group": "Group J",
       "status": "FT",
-      "venue": "Atlanta Stadium",
-      "finished_at_bj": "北京时间 2026-06-22 02:02",
+      "venue": "Dallas Stadium",
+      "finished_at_bj": "北京时间 2026-06-23 02:53",
       "team_a": {
-        "name": "Spain",
-        "flag": "🇪🇸",
-        "score": 4,
-        "scorers": [
-          {
-            "player": "Dani Olmo",
-            "minute": "15'",
-            "type": "goal"
-          },
-          {
-            "player": "Robin Le Normand",
-            "minute": "25'",
-            "type": "goal"
-          },
-          {
-            "player": "Nico Williams",
-            "minute": "57'",
-            "type": "goal"
-          },
-          {
-            "player": "Oihan Sancet",
-            "minute": "88'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "西班牙",
-        "name_en": "Spain"
-      },
-      "team_b": {
-        "name": "Saudi Arabia",
-        "flag": "🇸🇦",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "沙特阿拉伯",
-        "name_en": "Saudi Arabia"
-      },
-      "highlights": [
-        "Dani Olmo 第 15 分钟首开纪录，Spain 上半场两球领先并牢牢控制比赛",
-        "Nico Williams 第 57 分钟扩大优势，Oihan Sancet 第 88 分钟把比分定格为 4-0",
-        "Spain 两战全胜提前锁定淘汰赛席位，Saudi Arabia 两连败后提前出局"
-      ],
-      "venue_zh": "亚特兰大体育场",
-      "venue_en": "Atlanta Stadium",
-      "highlights_zh": [
-        "Dani Olmo 第 15 分钟首开纪录，西班牙上半场两球领先并牢牢控制比赛",
-        "Nico Williams 第 57 分钟扩大优势，Oihan Sancet 第 88 分钟把比分定格为 4-0",
-        "西班牙两战全胜提前锁定淘汰赛席位，沙特阿拉伯两连败后提前出局"
-      ],
-      "highlights_en": [
-        "Dani Olmo opened the scoring in the 15th minute as Spain controlled the first half and led by two at the break",
-        "Nico Williams extended the lead in the 57th minute before Oihan Sancet sealed the 4-0 win in the 88th",
-        "Spain qualified for the knockout stage with two wins from two, while Saudi Arabia were eliminated after back-to-back defeats"
-      ]
-    },
-    {
-      "group": "Group G",
-      "status": "FT",
-      "venue": "Los Angeles Stadium",
-      "finished_at_bj": "北京时间 2026-06-22 05:02",
-      "team_a": {
-        "name": "Belgium",
-        "flag": "🇧🇪",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "比利时",
-        "name_en": "Belgium"
-      },
-      "team_b": {
-        "name": "Iran",
-        "flag": "🇮🇷",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "伊朗",
-        "name_en": "Iran"
-      },
-      "highlights": [
-        "Belgium 与 Iran 全场未能破门，Group G 前三场全部以平局收场",
-        "Nathan Ngoy 第 84 分钟被红牌罚下，Belgium 最后阶段少打一人仍守住 0-0",
-        "Iran 连续两场战平后积 2 分，末轮仍保有主动冲击淘汰赛的机会"
-      ],
-      "venue_zh": "洛杉矶体育场",
-      "venue_en": "Los Angeles Stadium",
-      "highlights_zh": [
-        "比利时与伊朗全场未能破门，G 组前三场全部以平局收场",
-        "Nathan Ngoy 第 84 分钟被红牌罚下，比利时最后阶段少打一人仍守住 0-0",
-        "伊朗连续两场战平后积 2 分，末轮仍保有主动冲击淘汰赛的机会"
-      ],
-      "highlights_en": [
-        "Belgium and Iran failed to score, leaving the first three Group G matches all drawn",
-        "Nathan Ngoy was sent off in the 84th minute, but Belgium held on for a 0-0 draw with ten men",
-        "Iran moved to two points after a second straight draw and still control a path toward the knockout stage"
-      ]
-    },
-    {
-      "group": "Group H",
-      "status": "FT",
-      "venue": "Miami Stadium",
-      "finished_at_bj": "北京时间 2026-06-22 08:05",
-      "team_a": {
-        "name": "Uruguay",
-        "flag": "🇺🇾",
+        "name": "Argentina",
+        "flag": "🇦🇷",
         "score": 2,
         "scorers": [
           {
-            "player": "Ronald Araújo",
-            "minute": "44'",
+            "player": "Lionel Messi",
+            "minute": "38'",
             "type": "goal"
           },
           {
-            "player": "Guillermo Varela",
-            "minute": "61'",
+            "player": "Lionel Messi",
+            "minute": "90'+5'",
             "type": "goal"
           }
         ],
-        "name_zh": "乌拉圭",
-        "name_en": "Uruguay"
+        "name_zh": "阿根廷",
+        "name_en": "Argentina"
       },
       "team_b": {
-        "name": "Cape Verde",
-        "flag": "🇨🇻",
+        "name": "Austria",
+        "flag": "🇦🇹",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "奥地利",
+        "name_en": "Austria"
+      },
+      "venue_en": "Dallas Stadium",
+      "venue_zh": "Dallas Stadium",
+      "highlights_en": [
+        "Argentina beat Austria 2-0 in Group J.",
+        "Lionel Messi 38', Lionel Messi 90'+5'",
+        "The match was played at Dallas Stadium."
+      ],
+      "highlights_zh": [
+        "阿根廷 2-0 击败奥地利，比赛属于 Group J。",
+        "Lionel Messi 38', Lionel Messi 90'+5'",
+        "比赛场地：Dallas Stadium。"
+      ],
+      "highlights": [
+        "阿根廷 2-0 击败奥地利，比赛属于 Group J。",
+        "Lionel Messi 38', Lionel Messi 90'+5'",
+        "比赛场地：Dallas Stadium。"
+      ]
+    },
+    {
+      "group": "Group I",
+      "status": "FT",
+      "venue": "Philadelphia Stadium",
+      "finished_at_bj": "北京时间 2026-06-23 06:48",
+      "team_a": {
+        "name": "France",
+        "flag": "🇫🇷",
+        "score": 3,
+        "scorers": [
+          {
+            "player": "Kylian Mbappe",
+            "minute": "14'",
+            "type": "goal"
+          },
+          {
+            "player": "Kylian Mbappe",
+            "minute": "54'",
+            "type": "goal"
+          },
+          {
+            "player": "Ousmane Dembele",
+            "minute": "66'",
+            "type": "goal"
+          }
+        ],
+        "name_zh": "法国",
+        "name_en": "France"
+      },
+      "team_b": {
+        "name": "Iraq",
+        "flag": "🇮🇶",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "伊拉克",
+        "name_en": "Iraq"
+      },
+      "venue_en": "Philadelphia Stadium",
+      "venue_zh": "Philadelphia Stadium",
+      "highlights_en": [
+        "France beat Iraq 3-0 in Group I.",
+        "Kylian Mbappe 14', Kylian Mbappe 54', Ousmane Dembele 66'",
+        "The match was played at Philadelphia Stadium."
+      ],
+      "highlights_zh": [
+        "法国 3-0 击败伊拉克，比赛属于 Group I。",
+        "Kylian Mbappe 14', Kylian Mbappe 54', Ousmane Dembele 66'",
+        "比赛场地：Philadelphia Stadium。"
+      ],
+      "highlights": [
+        "法国 3-0 击败伊拉克，比赛属于 Group I。",
+        "Kylian Mbappe 14', Kylian Mbappe 54', Ousmane Dembele 66'",
+        "比赛场地：Philadelphia Stadium。"
+      ]
+    },
+    {
+      "group": "Group I",
+      "status": "FT",
+      "venue": "New York/New Jersey Stadium",
+      "finished_at_bj": "北京时间 2026-06-23 09:56",
+      "team_a": {
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "score": 3,
+        "scorers": [
+          {
+            "player": "Marcus Holmgren Pedersen",
+            "minute": "43'",
+            "type": "goal"
+          },
+          {
+            "player": "Erling Haaland",
+            "minute": "48'",
+            "type": "goal"
+          },
+          {
+            "player": "Erling Haaland",
+            "minute": "58'",
+            "type": "goal"
+          }
+        ],
+        "name_zh": "挪威",
+        "name_en": "Norway"
+      },
+      "team_b": {
+        "name": "Senegal",
+        "flag": "🇸🇳",
         "score": 2,
         "scorers": [
           {
-            "player": "Kevin Pina",
-            "minute": "21'",
+            "player": "Ismaila Sarr",
+            "minute": "53'",
             "type": "goal"
           },
           {
-            "player": "Duk",
-            "minute": "45+6'",
+            "player": "Ismaila Sarr",
+            "minute": "90'+3'",
             "type": "goal"
           }
         ],
-        "name_zh": "佛得角",
-        "name_en": "Cape Verde"
+        "name_zh": "塞内加尔",
+        "name_en": "Senegal"
       },
-      "highlights": [
-        "Kevin Pina 第 21 分钟远射破门，Cape Verde 取得队史世界杯首球",
-        "Ronald Araújo 与 Guillermo Varela 两度为 Uruguay 扳平比分，Duk 在上半场补时也有进球",
-        "补时阶段 Cape Verde 获得点球后又被 VAR 取消，双方最终 2-2 战平"
-      ],
-      "venue_zh": "迈阿密体育场",
-      "venue_en": "Miami Stadium",
-      "highlights_zh": [
-        "Kevin Pina 第 21 分钟远射破门，佛得角取得队史世界杯首球",
-        "Ronald Araújo 与 Guillermo Varela 两度为乌拉圭扳平比分，Duk 在上半场补时也有进球",
-        "补时阶段佛得角获得点球后又被 VAR 取消，双方最终 2-2 战平"
-      ],
+      "venue_en": "New York/New Jersey Stadium",
+      "venue_zh": "New York/New Jersey Stadium",
       "highlights_en": [
-        "Kevin Pina scored from distance in the 21st minute to give Cape Verde their first World Cup goal",
-        "Ronald Araujo and Guillermo Varela twice equalized for Uruguay, while Duk also scored in first-half stoppage time",
-        "Cape Verde had a stoppage-time penalty overturned by VAR as the match finished 2-2"
+        "Norway beat Senegal 3-2 in Group I.",
+        "Marcus Holmgren Pedersen 43', Erling Haaland 48', Erling Haaland 58', Ismaila Sarr 53'",
+        "The match was played at New York/New Jersey Stadium."
+      ],
+      "highlights_zh": [
+        "挪威 3-2 击败塞内加尔，比赛属于 Group I。",
+        "Marcus Holmgren Pedersen 43', Erling Haaland 48', Erling Haaland 58', Ismaila Sarr 53'",
+        "比赛场地：New York/New Jersey Stadium。"
+      ],
+      "highlights": [
+        "挪威 3-2 击败塞内加尔，比赛属于 Group I。",
+        "Marcus Holmgren Pedersen 43', Erling Haaland 48', Erling Haaland 58', Ismaila Sarr 53'",
+        "比赛场地：New York/New Jersey Stadium。"
+      ]
+    },
+    {
+      "group": "Group J",
+      "status": "FT",
+      "venue": "San Francisco Bay Area Stadium",
+      "finished_at_bj": "北京时间 2026-06-23 12:53",
+      "team_a": {
+        "name": "Jordan",
+        "flag": "🇯🇴",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Nizar Alrashdan",
+            "minute": "36'",
+            "type": "goal"
+          }
+        ],
+        "name_zh": "约旦",
+        "name_en": "Jordan"
+      },
+      "team_b": {
+        "name": "Algeria",
+        "flag": "🇩🇿",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Nadhir Benbouali",
+            "minute": "69'",
+            "type": "goal"
+          },
+          {
+            "player": "Amine Gouiri",
+            "minute": "82'",
+            "type": "goal"
+          }
+        ],
+        "name_zh": "阿尔及利亚",
+        "name_en": "Algeria"
+      },
+      "venue_en": "San Francisco Bay Area Stadium",
+      "venue_zh": "San Francisco Bay Area Stadium",
+      "highlights_en": [
+        "Algeria beat Jordan 2-1 in Group J.",
+        "Nizar Alrashdan 36', Nadhir Benbouali 69', Amine Gouiri 82'",
+        "The match was played at San Francisco Bay Area Stadium."
+      ],
+      "highlights_zh": [
+        "阿尔及利亚 2-1 击败约旦，比赛属于 Group J。",
+        "Nizar Alrashdan 36', Nadhir Benbouali 69', Amine Gouiri 82'",
+        "比赛场地：San Francisco Bay Area Stadium。"
+      ],
+      "highlights": [
+        "阿尔及利亚 2-1 击败约旦，比赛属于 Group J。",
+        "Nizar Alrashdan 36', Nadhir Benbouali 69', Amine Gouiri 82'",
+        "比赛场地：San Francisco Bay Area Stadium。"
+      ]
+    },
+    {
+      "group": "Group K",
+      "status": "FT",
+      "venue": "Houston Stadium",
+      "finished_at_bj": "北京时间 2026-06-24 02:51",
+      "team_a": {
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "score": 5,
+        "scorers": [
+          {
+            "player": "Cristiano Ronaldo",
+            "minute": "6'",
+            "type": "goal"
+          },
+          {
+            "player": "Nuno Mendes",
+            "minute": "17'",
+            "type": "goal"
+          },
+          {
+            "player": "Cristiano Ronaldo",
+            "minute": "39'",
+            "type": "goal"
+          },
+          {
+            "player": "Abduvohid Nematov",
+            "minute": "60'",
+            "type": "own_goal"
+          },
+          {
+            "player": "Rafael Leao",
+            "minute": "87'",
+            "type": "goal"
+          }
+        ],
+        "name_zh": "葡萄牙",
+        "name_en": "Portugal"
+      },
+      "team_b": {
+        "name": "Uzbekistan",
+        "flag": "🇺🇿",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "乌兹别克斯坦",
+        "name_en": "Uzbekistan"
+      },
+      "venue_en": "Houston Stadium",
+      "venue_zh": "Houston Stadium",
+      "highlights_en": [
+        "Portugal beat Uzbekistan 5-0 in Group K.",
+        "Cristiano Ronaldo 6', Nuno Mendes 17', Cristiano Ronaldo 39', Abduvohid Nematov 60' OG",
+        "The match was played at Houston Stadium."
+      ],
+      "highlights_zh": [
+        "葡萄牙 5-0 击败乌兹别克斯坦，比赛属于 Group K。",
+        "Cristiano Ronaldo 6', Nuno Mendes 17', Cristiano Ronaldo 39', Abduvohid Nematov 60' OG",
+        "比赛场地：Houston Stadium。"
+      ],
+      "highlights": [
+        "葡萄牙 5-0 击败乌兹别克斯坦，比赛属于 Group K。",
+        "Cristiano Ronaldo 6', Nuno Mendes 17', Cristiano Ronaldo 39', Abduvohid Nematov 60' OG",
+        "比赛场地：Houston Stadium。"
+      ]
+    },
+    {
+      "group": "Group L",
+      "status": "FT",
+      "venue": "Boston Stadium",
+      "finished_at_bj": "北京时间 2026-06-24 05:52",
+      "team_a": {
+        "name": "England",
+        "flag": "🏴",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "英格兰",
+        "name_en": "England"
+      },
+      "team_b": {
+        "name": "Ghana",
+        "flag": "🇬🇭",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "加纳",
+        "name_en": "Ghana"
+      },
+      "venue_en": "Boston Stadium",
+      "venue_zh": "Boston Stadium",
+      "highlights_en": [
+        "England drew 0-0 with Ghana in Group L.",
+        "Neither side scored.",
+        "The match was played at Boston Stadium."
+      ],
+      "highlights_zh": [
+        "英格兰 0-0 战平加纳，比赛属于 Group L。",
+        "双方均未取得进球。",
+        "比赛场地：Boston Stadium。"
+      ],
+      "highlights": [
+        "英格兰 0-0 战平加纳，比赛属于 Group L。",
+        "双方均未取得进球。",
+        "比赛场地：Boston Stadium。"
+      ]
+    },
+    {
+      "group": "Group L",
+      "status": "FT",
+      "venue": "Toronto Stadium",
+      "finished_at_bj": "北京时间 2026-06-24 08:51",
+      "team_a": {
+        "name": "Panama",
+        "flag": "🇵🇦",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "巴拿马",
+        "name_en": "Panama"
+      },
+      "team_b": {
+        "name": "Croatia",
+        "flag": "🇭🇷",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Ante Budimir",
+            "minute": "54'",
+            "type": "goal"
+          }
+        ],
+        "name_zh": "克罗地亚",
+        "name_en": "Croatia"
+      },
+      "venue_en": "Toronto Stadium",
+      "venue_zh": "Toronto Stadium",
+      "highlights_en": [
+        "Croatia beat Panama 1-0 in Group L.",
+        "Ante Budimir 54'",
+        "The match was played at Toronto Stadium."
+      ],
+      "highlights_zh": [
+        "克罗地亚 1-0 击败巴拿马，比赛属于 Group L。",
+        "Ante Budimir 54'",
+        "比赛场地：Toronto Stadium。"
+      ],
+      "highlights": [
+        "克罗地亚 1-0 击败巴拿马，比赛属于 Group L。",
+        "Ante Budimir 54'",
+        "比赛场地：Toronto Stadium。"
+      ]
+    },
+    {
+      "group": "Group K",
+      "status": "FT",
+      "venue": "Guadalajara Stadium",
+      "finished_at_bj": "北京时间 2026-06-24 11:52",
+      "team_a": {
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Daniel Munoz",
+            "minute": "76'",
+            "type": "goal"
+          }
+        ],
+        "name_zh": "哥伦比亚",
+        "name_en": "Colombia"
+      },
+      "team_b": {
+        "name": "Congo DR",
+        "flag": "🇨🇩",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "刚果民主共和国",
+        "name_en": "Congo DR"
+      },
+      "venue_en": "Guadalajara Stadium",
+      "venue_zh": "Guadalajara Stadium",
+      "highlights_en": [
+        "Colombia beat Congo DR 1-0 in Group K.",
+        "Daniel Munoz 76'",
+        "The match was played at Guadalajara Stadium."
+      ],
+      "highlights_zh": [
+        "哥伦比亚 1-0 击败刚果民主共和国，比赛属于 Group K。",
+        "Daniel Munoz 76'",
+        "比赛场地：Guadalajara Stadium。"
+      ],
+      "highlights": [
+        "哥伦比亚 1-0 击败刚果民主共和国，比赛属于 Group K。",
+        "Daniel Munoz 76'",
+        "比赛场地：Guadalajara Stadium。"
       ]
     }
   ],
   "standings_changes": [
-    "Group H：Spain 两战 6 分提前晋级；Uruguay 积 2 分暂列第二，Cape Verde 积 1 分保留出线希望，Saudi Arabia 两连败后提前出局。",
-    "Group G：Belgium 与 Iran 各积 2 分，New Zealand 与 Egypt 在本轮交手前各积 1 分，小组前三场全部战平。",
-    "Cape Verde 2-2 战平 Uruguay 后拿到队史世界杯首个积分，末轮仍有机会竞争小组第二或成绩较好的第三名。"
+    "Group J：阿根廷 以 6 分领跑，奥地利 3 分紧随其后。",
+    "Group I：法国 以 6 分领跑，挪威 6 分紧随其后。",
+    "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
+    "Group L：英格兰 以 4 分领跑，加纳 4 分紧随其后。"
   ],
   "today_fixtures": [
     {
-      "time_bj": "北京时间 2026-06-22 09:00",
+      "time_bj": "北京时间 2026-06-25 03:00",
       "team_a": {
-        "name": "New Zealand",
-        "flag": "🇳🇿",
-        "name_zh": "新西兰",
-        "name_en": "New Zealand"
+        "name": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "name_zh": "波黑",
+        "name_en": "Bosnia and Herzegovina"
       },
       "team_b": {
-        "name": "Egypt",
-        "flag": "🇪🇬",
-        "name_zh": "埃及",
-        "name_en": "Egypt"
+        "name": "Qatar",
+        "flag": "🇶🇦",
+        "name_zh": "卡塔尔",
+        "name_en": "Qatar"
       },
-      "group": "Group G"
+      "group": "Group B"
+    },
+    {
+      "time_bj": "北京时间 2026-06-25 03:00",
+      "team_a": {
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "name_zh": "瑞士",
+        "name_en": "Switzerland"
+      },
+      "team_b": {
+        "name": "Canada",
+        "flag": "🇨🇦",
+        "name_zh": "加拿大",
+        "name_en": "Canada"
+      },
+      "group": "Group B"
+    },
+    {
+      "time_bj": "北京时间 2026-06-25 06:00",
+      "team_a": {
+        "name": "Morocco",
+        "flag": "🇲🇦",
+        "name_zh": "摩洛哥",
+        "name_en": "Morocco"
+      },
+      "team_b": {
+        "name": "Haiti",
+        "flag": "🇭🇹",
+        "name_zh": "海地",
+        "name_en": "Haiti"
+      },
+      "group": "Group C"
+    },
+    {
+      "time_bj": "北京时间 2026-06-25 06:00",
+      "team_a": {
+        "name": "Scotland",
+        "flag": "🏴",
+        "name_zh": "苏格兰",
+        "name_en": "Scotland"
+      },
+      "team_b": {
+        "name": "Brazil",
+        "flag": "🇧🇷",
+        "name_zh": "巴西",
+        "name_en": "Brazil"
+      },
+      "group": "Group C"
+    },
+    {
+      "time_bj": "北京时间 2026-06-25 09:00",
+      "team_a": {
+        "name": "South Africa",
+        "flag": "🇿🇦",
+        "name_zh": "南非",
+        "name_en": "South Africa"
+      },
+      "team_b": {
+        "name": "Korea Republic",
+        "flag": "🇰🇷",
+        "name_zh": "Korea Republic",
+        "name_en": "Korea Republic"
+      },
+      "group": "Group A"
+    },
+    {
+      "time_bj": "北京时间 2026-06-25 09:00",
+      "team_a": {
+        "name": "Czechia",
+        "flag": "🇨🇿",
+        "name_zh": "Czechia",
+        "name_en": "Czechia"
+      },
+      "team_b": {
+        "name": "Mexico",
+        "flag": "🇲🇽",
+        "name_zh": "墨西哥",
+        "name_en": "Mexico"
+      },
+      "group": "Group A"
+    },
+    {
+      "time_bj": "北京时间 2026-06-26 04:00",
+      "team_a": {
+        "name": "Curaçao",
+        "flag": "🇨🇼",
+        "name_zh": "库拉索",
+        "name_en": "Curaçao"
+      },
+      "team_b": {
+        "name": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "name_zh": "科特迪瓦",
+        "name_en": "Côte d'Ivoire"
+      },
+      "group": "Group E"
+    },
+    {
+      "time_bj": "北京时间 2026-06-26 04:00",
+      "team_a": {
+        "name": "Ecuador",
+        "flag": "🇪🇨",
+        "name_zh": "厄瓜多尔",
+        "name_en": "Ecuador"
+      },
+      "team_b": {
+        "name": "Germany",
+        "flag": "🇩🇪",
+        "name_zh": "德国",
+        "name_en": "Germany"
+      },
+      "group": "Group E"
     }
   ],
-  "news": [
-    {
-      "title": "Spain 4-0 Saudi Arabia: la Roja romp into knockout rounds",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/2026/jun/21/spain-saudi-arabia-world-cup-group-h-match-report",
-      "title_zh": "西班牙 4-0 沙特阿拉伯：斗牛士军团大胜晋级淘汰赛",
-      "title_en": "Spain 4-0 Saudi Arabia: La Roja romp into knockout rounds"
-    },
-    {
-      "title": "Belgium 0-0 Iran: Red Devils held in third straight Group G draw",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/live/2026/jun/21/belgium-v-iran-world-cup-2026-live",
-      "title_zh": "比利时 0-0 伊朗：欧洲红魔在 G 组第三场平局中被逼平",
-      "title_en": "Belgium 0-0 Iran: Red Devils held in third straight Group G draw"
-    },
-    {
-      "title": "Uruguay 2-2 Cape Verde: VAR reprieve denies late islanders chance",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/live/2026/jun/21/uruguay-v-cape-verde-world-cup-2026-live",
-      "title_zh": "乌拉圭 2-2 佛得角：VAR 取消补时点球，双方握手言和",
-      "title_en": "Uruguay 2-2 Cape Verde: VAR reprieve denies late islanders chance"
-    },
-    {
-      "title": "New Zealand v Egypt live: Group G remains unresolved as final fixture kicks off",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/football/live/2026/jun/22/fifa-world-cup-2026-live-new-zealand-v-egypt-updates-nzl-vs-egy-group-g-match-score-latest",
-      "title_zh": "新西兰对埃及直播：G 组悬念随着最后一场开球继续保留",
-      "title_en": "New Zealand v Egypt live: Group G remains unresolved as final fixture kicks off"
-    }
-  ],
-  "summary_zh": "西班牙 4-0 大胜沙特阿拉伯提前出线，比利时与伊朗互交白卷后 G 组继续胶着，乌拉圭 2-2 战平佛得角。",
-  "summary_en": "Spain beat Saudi Arabia 4-0 to qualify early, Belgium and Iran drew 0-0 to keep Group G tight, and Uruguay drew 2-2 with Cape Verde.",
+  "news": [],
+  "summary_zh": "葡萄牙 5-0 击败乌兹别克斯坦，英格兰 0-0 战平加纳，克罗地亚 1-0 击败巴拿马，哥伦比亚 1-0 击败刚果民主共和国。",
+  "summary_en": "Portugal beat Uzbekistan 5-0; England drew 0-0 with Ghana; Croatia beat Panama 1-0; Colombia beat Congo DR 1-0.",
   "standings_changes_zh": [
-    "H 组：西班牙两战 6 分提前晋级；乌拉圭积 2 分暂列第二，佛得角积 1 分保留出线希望，沙特阿拉伯两连败后提前出局。",
-    "G 组：比利时与伊朗各积 2 分，新西兰与埃及在本轮交手前各积 1 分，小组前三场全部战平。",
-    "佛得角 2-2 战平乌拉圭后拿到队史世界杯首个积分，末轮仍有机会竞争小组第二或成绩较好的第三名。"
+    "Group J：阿根廷 以 6 分领跑，奥地利 3 分紧随其后。",
+    "Group I：法国 以 6 分领跑，挪威 6 分紧随其后。",
+    "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
+    "Group L：英格兰 以 4 分领跑，加纳 4 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group H: Spain advanced early with six points from two matches; Uruguay sit second on two points, Cape Verde have one point, and Saudi Arabia are out after two defeats.",
-    "Group G: Belgium and Iran have two points each, while New Zealand and Egypt had one point each before their meeting; the first three group matches all ended level.",
-    "Cape Verde earned their first World Cup point with the 2-2 draw against Uruguay and still have a path to second place or a best-third-place spot."
-  ]
+    "Group J: Argentina lead with 6 points, followed by Austria on 3.",
+    "Group I: France lead with 6 points, followed by Norway on 6.",
+    "Group K: Colombia lead with 6 points, followed by Portugal on 4.",
+    "Group L: England lead with 4 points, followed by Ghana on 4."
+  ],
+  "source": {
+    "provider": "FIFA FDH API",
+    "api_base_url": "https://api.fifa.com/api/v3",
+    "idCompetition": "17",
+    "idSeason": "285023",
+    "idStage": "289273",
+    "fetched_at": "2026-06-24T04:14:02.257Z"
+  }
 }
