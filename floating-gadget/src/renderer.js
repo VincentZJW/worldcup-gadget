@@ -1381,8 +1381,11 @@
       metaLeft.append(element("span", "finished-label", finishedTime));
     }
     const status = String(match.status || t("tbd"));
+    const statusText = status.toLowerCase() === "live" && match.minute
+      ? `${status} ${match.minute}`
+      : status;
     const statusKey = status.toLowerCase() === "live" ? "live" : "default";
-    meta.append(metaLeft, element("span", `status-badge status-badge--${statusKey}`, status));
+    meta.append(metaLeft, element("span", `status-badge status-badge--${statusKey}`, statusText));
 
     const scoreRow = element("div", "score-row");
     scoreRow.append(

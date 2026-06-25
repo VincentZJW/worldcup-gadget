@@ -10,6 +10,7 @@ const DEFAULT_STAGE_ID = "289273";
 const DEFAULT_LOCALE = "en";
 const DEFAULT_LOOKBACK_DAYS = 3;
 const DEFAULT_LOOKAHEAD_DAYS = 2;
+const RECENT_MATCH_LIMIT = 8;
 const TOURNAMENT_START_ISO = "2026-06-11T00:00:00Z";
 const TOURNAMENT_END_ISO = "2026-07-20T23:59:59Z";
 const USER_AGENT = "worldcup-gadget-feed/1.0 (+https://github.com/VincentZJW/worldcup-gadget)";
@@ -252,18 +253,84 @@ function scoreOf(match, side) {
   return Number.isFinite(Number(value)) ? Number(value) : null;
 }
 
-function isFinishedMatch(match, now) {
-  const kickoff = new Date(match.Date);
-  return kickoff <= now && scoreOf(match, "home") !== null && scoreOf(match, "away") !== null;
-}
-
 function isFutureMatch(match, now) {
   return new Date(match.Date) > now;
 }
 
+function statusText(match) {
+  const textFromValue = (value) => {
+    if (typeof value === "string") return value;
+    if (Array.isArray(value)) return localized(value, "");
+    if (value && typeof value === "object") {
+      return [
+        textFromValue(value.Name),
+        textFromValue(value.Description),
+        textFromValue(value.ShortName),
+        textFromValue(value.Type),
+        textFromValue(value.Value),
+        textFromValue(value.Code)
+      ].filter(Boolean).join(" ");
+    }
+    return value === null || value === undefined ? "" : String(value);
+  };
+  const values = [
+    match.Status,
+    match.MatchStatus,
+    match.MatchStatusName,
+    match.MatchStatusLocalized,
+    match.MatchStatusText,
+    match.Period,
+    match.MatchPeriod,
+    match.Phase
+  ];
+  return values
+    .map(textFromValue)
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
+function hasMatchScores(match) {
+  return scoreOf(match, "home") !== null && scoreOf(match, "away") !== null;
+}
+
+function matchMinute(match) {
+  const raw = match.MatchTime || match.MatchMinute || match.Minute || match.CurrentMinute || "";
+  const text = String(raw).trim();
+  if (!text) return "";
+  if (/^\d+$/.test(text)) return `${text}'`;
+  return text;
+}
+
+function hasFinishedStatus(match) {
+  const text = statusText(match);
+  return /\b(ft|full[-\s]?time|finished|final|completed|ended|played|post[-\s]?match)\b/i.test(text);
+}
+
+function hasLiveStatus(match) {
+  const text = statusText(match);
+  return /\b(live|in[-\s]?progress|first half|second half|half[-\s]?time|extra time|penalties)\b/i.test(text)
+    || Boolean(matchMinute(match));
+}
+
+function estimatedFinished(match, now) {
+  return now >= matchEndEstimate(match);
+}
+
 function statusOf(match, now) {
-  if (isFinishedMatch(match, now)) return "FT";
-  return isFutureMatch(match, now) ? "SCHEDULED" : "LIVE";
+  if (hasFinishedStatus(match)) return "FT";
+  if (isFutureMatch(match, now)) return "SCHEDULED";
+  if (hasMatchScores(match)) return estimatedFinished(match, now) ? "FT" : "LIVE";
+  if (hasLiveStatus(match)) return "LIVE";
+  return "LIVE";
+}
+
+function isFinishedMatch(match, now) {
+  return statusOf(match, now) === "FT";
+}
+
+function isLiveMatch(match, now) {
+  return statusOf(match, now) === "LIVE";
 }
 
 function matchEndEstimate(match) {
@@ -442,6 +509,14 @@ function finalLineEn(match) {
   const away = match.team_b.name_en;
   const homeScore = match.team_a.score;
   const awayScore = match.team_b.score;
+  if (match.status === "LIVE") {
+    if (homeScore === awayScore) return `${home} and ${away} are level ${homeScore}-${awayScore}`;
+    const leader = homeScore > awayScore ? home : away;
+    const trailer = homeScore > awayScore ? away : home;
+    const leaderScore = Math.max(homeScore, awayScore);
+    const trailerScore = Math.min(homeScore, awayScore);
+    return `${leader} lead ${trailer} ${leaderScore}-${trailerScore}`;
+  }
   if (homeScore === awayScore) return `${home} drew ${homeScore}-${awayScore} with ${away}`;
   const winner = homeScore > awayScore ? home : away;
   const loser = homeScore > awayScore ? away : home;
@@ -455,6 +530,14 @@ function finalLineZh(match) {
   const away = match.team_b.name_zh;
   const homeScore = match.team_a.score;
   const awayScore = match.team_b.score;
+  if (match.status === "LIVE") {
+    if (homeScore === awayScore) return `${home} ${homeScore}-${awayScore} 暂平${away}`;
+    const leader = homeScore > awayScore ? home : away;
+    const trailer = homeScore > awayScore ? away : home;
+    const leaderScore = Math.max(homeScore, awayScore);
+    const trailerScore = Math.min(homeScore, awayScore);
+    return `${leader} ${leaderScore}-${trailerScore} 暂时领先${trailer}`;
+  }
   if (homeScore === awayScore) return `${home} ${homeScore}-${awayScore} 战平${away}`;
   const winner = homeScore > awayScore ? home : away;
   const loser = homeScore > awayScore ? away : home;
@@ -492,18 +575,23 @@ function addHighlights(match) {
 }
 
 async function toReportMatch(apiBaseUrl, config, match) {
+  const status = statusOf(match, config.now);
   const reportMatch = {
     group: localized(match.GroupName, "Group"),
-    status: statusOf(match, config.now),
+    status,
+    minute: status === "LIVE" ? matchMinute(match) : "",
     venue: localized(match.Stadium && match.Stadium.Name, "TBD"),
-    finished_at_bj: formatBeijingTime(matchEndEstimate(match)),
+    kickoff_at_bj: formatBeijingTime(new Date(match.Date)),
+    finished_at_bj: status === "FT"
+      ? formatBeijingTime(matchEndEstimate(match))
+      : formatBeijingTime(new Date(match.Date)),
     team_a: teamPayload(match.Home),
     team_b: teamPayload(match.Away)
   };
   reportMatch.venue_en = reportMatch.venue;
   reportMatch.venue_zh = reportMatch.venue;
 
-  if (reportMatch.status === "FT") {
+  if (reportMatch.status === "FT" || reportMatch.status === "LIVE") {
     const events = await fetchTimeline(apiBaseUrl, match.IdMatch, config.locale);
     applyGoalEvents(match, reportMatch, events);
   }
@@ -642,6 +730,10 @@ async function buildReport(config) {
     .filter((match) => isFinishedMatch(match, config.now))
     .sort((left, right) => new Date(left.Date) - new Date(right.Date));
 
+  const live = matches
+    .filter((match) => isLiveMatch(match, config.now))
+    .sort((left, right) => new Date(left.Date) - new Date(right.Date));
+
   if (!finished.length) {
     const fallbackMatches = await fetchMatches(config.apiBaseUrl, config, addDays(config.now, -10), config.now);
     finished = fallbackMatches
@@ -655,15 +747,22 @@ async function buildReport(config) {
     .sort((left, right) => new Date(left.Date) - new Date(right.Date))
     .slice(0, 8);
 
+  const selectedMatches = [
+    ...finished.slice(-RECENT_MATCH_LIMIT),
+    ...live
+  ]
+    .sort((left, right) => new Date(left.Date) - new Date(right.Date))
+    .slice(-RECENT_MATCH_LIMIT);
+
   const reportMatches = await Promise.all(
-    finished.slice(-8).map((match) => toReportMatch(config.apiBaseUrl, config, match))
+    selectedMatches.map((match) => toReportMatch(config.apiBaseUrl, config, match))
   );
 
   const standings = await fetchStandings(config.apiBaseUrl, config).catch((error) => {
     console.warn(`Standings unavailable: ${error.message}`);
     return [];
   });
-  const relevantGroupIds = new Set(finished.slice(-8).map((match) => match.IdGroup).filter(Boolean));
+  const relevantGroupIds = new Set(selectedMatches.map((match) => match.IdGroup).filter(Boolean));
   const standingsLines = groupStandingsLines(standings, relevantGroupIds);
   const summary = summaryFromMatches(reportMatches);
 

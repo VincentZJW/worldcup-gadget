@@ -17,17 +17,17 @@ const PID_FILE = path.join(os.tmpdir(), "worldcup-floating-gadget.pid");
 const REPORT_WATCH_DEBOUNCE_MS = 500;
 const REPORT_WATCH_POLL_MS = 5000;
 const LEGACY_WORLD_CUP_FEED_URLS = new Set([
-  "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget@master/data/latest.json",
   "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json",
-  "https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.json"
+  "https://fastly.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json"
 ]);
 const DEFAULT_WORLD_CUP_FEED_URL =
-  "https://fastly.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json";
+  "https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.json";
 const DEFAULT_WORLD_CUP_FEED_FALLBACK_URLS = [
+  "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget@master/data/latest.json",
   "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json",
-  "https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.json"
+  "https://fastly.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json"
 ];
-const DATA_UPDATE_INTERVAL_MS = 30 * 60 * 1000;
+const DATA_UPDATE_INTERVAL_MS = 5 * 60 * 1000;
 const DATA_UPDATE_TIMEOUT_MS = 15 * 1000;
 const DATA_UPDATE_MAX_BYTES = 1024 * 1024;
 const SETTINGS_FILE_NAME = "settings.json";
@@ -312,13 +312,17 @@ function writePersistentSettings(nextSettings) {
   return merged;
 }
 
+function normalizedDataFeedUrl(feedUrl) {
+  const savedFeedUrl = typeof feedUrl === "string" ? feedUrl.trim() : "";
+  return savedFeedUrl && !LEGACY_WORLD_CUP_FEED_URLS.has(savedFeedUrl)
+    ? savedFeedUrl
+    : DEFAULT_WORLD_CUP_FEED_URL;
+}
+
 function loadDataUpdateSettings() {
   const settings = readPersistentSettings();
   dataUpdateStatus.enabled = settings.dataAutoUpdateEnabled !== false;
-  const savedFeedUrl = typeof settings.dataFeedUrl === "string" ? settings.dataFeedUrl.trim() : "";
-  dataUpdateStatus.feedUrl = savedFeedUrl && !LEGACY_WORLD_CUP_FEED_URLS.has(savedFeedUrl)
-    ? savedFeedUrl
-    : DEFAULT_WORLD_CUP_FEED_URL;
+  dataUpdateStatus.feedUrl = normalizedDataFeedUrl(settings.dataFeedUrl);
   return settings;
 }
 
@@ -416,6 +420,12 @@ function requestText(urlString, redirectCount = 0) {
   });
 }
 
+function cacheBustedFeedUrl(feedUrl) {
+  const url = new URL(feedUrl);
+  url.searchParams.set("_", Date.now().toString());
+  return url.toString();
+}
+
 async function fetchRemoteReport(feedUrl) {
   const feedUrls = [feedUrl];
   if (feedUrl === DEFAULT_WORLD_CUP_FEED_URL) {
@@ -425,7 +435,7 @@ async function fetchRemoteReport(feedUrl) {
   let lastError = null;
   for (const currentFeedUrl of [...new Set(feedUrls)]) {
     try {
-      const raw = await requestText(currentFeedUrl);
+      const raw = await requestText(cacheBustedFeedUrl(currentFeedUrl));
       let parsed;
       try {
         parsed = JSON.parse(raw);
@@ -533,7 +543,7 @@ function setDataAutoUpdateEnabled(enabled) {
     dataAutoUpdateEnabled: Boolean(enabled)
   });
   dataUpdateStatus.enabled = nextSettings.dataAutoUpdateEnabled !== false;
-  dataUpdateStatus.feedUrl = nextSettings.dataFeedUrl || DEFAULT_WORLD_CUP_FEED_URL;
+  dataUpdateStatus.feedUrl = normalizedDataFeedUrl(nextSettings.dataFeedUrl);
   if (dataUpdateStatus.enabled) {
     scheduleNextDataUpdate(1000);
   } else {
