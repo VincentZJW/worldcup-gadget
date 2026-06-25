@@ -8,10 +8,10 @@ on:
         required: true
         default: "v1.0.0-beta.1"
       prerelease:
-        description: "Mark this release as a prerelease"
+        description: "Mark this release as a prerelease. Keep false when the download page uses /releases/latest."
         required: true
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: write
