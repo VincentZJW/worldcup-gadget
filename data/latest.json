@@ -1,12 +1,14 @@
 {
-  "updated_at": "北京时间 2026-06-25 14:12",
+  "updated_at": "北京时间 2026-06-25 16:13",
   "date_range": "2026-06-24 to 2026-06-25",
   "summary": "摩洛哥 4-2 击败海地，巴西 3-0 击败苏格兰，南非 1-0 击败Korea Republic，墨西哥 3-0 击败Czechia。",
   "matches": [
     {
       "group": "Group L",
       "status": "FT",
+      "minute": "",
       "venue": "Toronto Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-24 07:00",
       "finished_at_bj": "北京时间 2026-06-24 08:51",
       "team_a": {
         "name": "Panama",
@@ -51,7 +53,9 @@
     {
       "group": "Group K",
       "status": "FT",
+      "minute": "",
       "venue": "Guadalajara Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-24 10:00",
       "finished_at_bj": "北京时间 2026-06-24 11:52",
       "team_a": {
         "name": "Colombia",
@@ -96,7 +100,9 @@
     {
       "group": "Group B",
       "status": "FT",
+      "minute": "",
       "venue": "Seattle Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-25 03:00",
       "finished_at_bj": "北京时间 2026-06-25 04:52",
       "team_a": {
         "name": "Bosnia and Herzegovina",
@@ -157,7 +163,9 @@
     {
       "group": "Group B",
       "status": "FT",
+      "minute": "",
       "venue": "BC Place Vancouver",
+      "kickoff_at_bj": "北京时间 2026-06-25 03:00",
       "finished_at_bj": "北京时间 2026-06-25 04:52",
       "team_a": {
         "name": "Switzerland",
@@ -213,7 +221,9 @@
     {
       "group": "Group C",
       "status": "FT",
+      "minute": "",
       "venue": "Atlanta Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-25 06:00",
       "finished_at_bj": "北京时间 2026-06-25 07:54",
       "team_a": {
         "name": "Morocco",
@@ -284,7 +294,9 @@
     {
       "group": "Group C",
       "status": "FT",
+      "minute": "",
       "venue": "Miami Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-25 06:00",
       "finished_at_bj": "北京时间 2026-06-25 07:52",
       "team_a": {
         "name": "Scotland",
@@ -339,7 +351,9 @@
     {
       "group": "Group A",
       "status": "FT",
+      "minute": "",
       "venue": "Monterrey Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-25 09:00",
       "finished_at_bj": "北京时间 2026-06-25 10:52",
       "team_a": {
         "name": "South Africa",
@@ -384,7 +398,9 @@
     {
       "group": "Group A",
       "status": "FT",
+      "minute": "",
       "venue": "Mexico City Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-25 09:00",
       "finished_at_bj": "北京时间 2026-06-25 10:52",
       "team_a": {
         "name": "Czechia",
@@ -597,6 +613,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-25T06:12:32.872Z"
+    "fetched_at": "2026-06-25T08:13:31.460Z"
   }
 }
