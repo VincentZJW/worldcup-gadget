@@ -1,16 +1,15 @@
 {
-  "updatedAt": "北京时间 2026-06-26 04:30",
+  "updatedAt": "2026-06-25T23:52:51.223Z",
   "timezone": "Asia/Shanghai",
-  "source": "local-fallback",
-  "isFallback": true,
-  "notice": "数据暂未更新，当前显示示例数据",
+  "source": "fifa-fdh",
+  "isFallback": false,
   "players": [
     {
       "rank": 1,
       "player": {
-        "id": "Lionel Messi-ARG",
+        "id": "lionel messi-ARG",
         "name": "Lionel Messi",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/e0i2051750317027.png"
       },
       "team": {
         "name": "Argentina",
@@ -18,17 +17,35 @@
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg"
       },
-      "goals": 2,
-      "assists": 2,
-      "penalties": 1,
-      "minutes": 270
+      "goals": 5,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
     },
     {
       "rank": 2,
       "player": {
-        "id": "Kylian Mbappé-FRA",
-        "name": "Kylian Mbappé",
-        "photo": ""
+        "id": "erling haaland-NOR",
+        "name": "Erling Haaland",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/un3jr11769182465.png"
+      },
+      "team": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg"
+      },
+      "goals": 4,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 3,
+      "player": {
+        "id": "kylian mbappe-FRA",
+        "name": "Kylian Mbappe",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/h9u9vz1733653583.png"
       },
       "team": {
         "name": "France",
@@ -36,35 +53,17 @@
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg"
       },
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "minutes": 260
-    },
-    {
-      "rank": 3,
-      "player": {
-        "id": "Vinícius Júnior-BRA",
-        "name": "Vinícius Júnior",
-        "photo": ""
-      },
-      "team": {
-        "name": "Brazil",
-        "code": "BRA",
-        "flag": "🇧🇷",
-        "flagUrl": "assets/flags/bra.svg"
-      },
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "minutes": 245
+      "goals": 4,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
     },
     {
       "rank": 4,
       "player": {
-        "id": "Vinicius Junior-BRA",
+        "id": "vinicius junior-BRA",
         "name": "Vinicius Junior",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ejuxsh1750271859.png"
       },
       "team": {
         "name": "Brazil",
@@ -72,17 +71,107 @@
         "flag": "🇧🇷",
         "flagUrl": "assets/flags/bra.svg"
       },
-      "goals": 2,
-      "assists": 0,
+      "goals": 4,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
       "rank": 5,
       "player": {
-        "id": "Raphinha-BRA",
-        "name": "Raphinha",
-        "photo": ""
+        "id": "brian brobbey-NED",
+        "name": "Brian Brobbey",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/q3qz441762198721.png"
+      },
+      "team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg"
+      },
+      "goals": 3,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 6,
+      "player": {
+        "id": "deniz undav-GER",
+        "name": "Deniz Undav",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/hcxx8s1763586492.png"
+      },
+      "team": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
+      },
+      "goals": 3,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 7,
+      "player": {
+        "id": "ismael saibari-MAR",
+        "name": "Ismael Saibari",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3y277g1764595447.png"
+      },
+      "team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg"
+      },
+      "goals": 3,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 8,
+      "player": {
+        "id": "johan manzambi-SUI",
+        "name": "Johan Manzambi",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/pg2bjt1763328991.png"
+      },
+      "team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "flagUrl": "assets/flags/sui.svg"
+      },
+      "goals": 3,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 9,
+      "player": {
+        "id": "jonathan david-CAN",
+        "name": "Jonathan David",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/nyd9d91759225738.png"
+      },
+      "team": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg"
+      },
+      "goals": 3,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 10,
+      "player": {
+        "id": "matheus cunha-BRA",
+        "name": "Matheus Cunha",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/29x61e1762020281.png"
       },
       "team": {
         "name": "Brazil",
@@ -90,17 +179,179 @@
         "flag": "🇧🇷",
         "flagUrl": "assets/flags/bra.svg"
       },
-      "goals": 1,
-      "assists": 2,
-      "penalties": 0,
-      "minutes": 230
+      "goals": 3,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
     },
     {
-      "rank": 6,
+      "rank": 11,
       "player": {
-        "id": "Christian Pulisic-USA",
-        "name": "Christian Pulisic",
-        "photo": ""
+        "id": "ayase ueda-JPN",
+        "name": "Ayase Ueda",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/5ezc8v1758188908.png"
+      },
+      "team": {
+        "name": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵",
+        "flagUrl": "assets/flags/jpn.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 12,
+      "player": {
+        "id": "cody gakpo-NED",
+        "name": "Cody Gakpo",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/lwkl5n1757088091.png"
+      },
+      "team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 13,
+      "player": {
+        "id": "cristiano ronaldo-POR",
+        "name": "Cristiano Ronaldo",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/a19jje1761592498.png"
+      },
+      "team": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 14,
+      "player": {
+        "id": "crysencio summerville-NED",
+        "name": "Crysencio Summerville",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/b51rjk1756984653.png"
+      },
+      "team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 15,
+      "player": {
+        "id": "cyle larin-CAN",
+        "name": "Cyle Larin",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/bgse2n1777485421.png"
+      },
+      "team": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 16,
+      "player": {
+        "id": "daichi kamada-JPN",
+        "name": "Daichi Kamada",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/xajscx1761492482.png"
+      },
+      "team": {
+        "name": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵",
+        "flagUrl": "assets/flags/jpn.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 17,
+      "player": {
+        "id": "daniel munoz-COL",
+        "name": "Daniel Munoz",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/qoxqre1761492462.png"
+      },
+      "team": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 18,
+      "player": {
+        "id": "elijah just-NZL",
+        "name": "Elijah Just",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/gb5m291779220774.png"
+      },
+      "team": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "flag": "🇳🇿",
+        "flagUrl": "assets/flags/nzl.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 19,
+      "player": {
+        "id": "ermin mahmic-BIH",
+        "name": "Ermin Mahmic",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/tgoi7x1779017253.png"
+      },
+      "team": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 20,
+      "player": {
+        "id": "folarin balogun-USA",
+        "name": "Folarin Balogun",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ic7kq51781348516.png"
       },
       "team": {
         "name": "USA",
@@ -108,35 +359,179 @@
         "flag": "🇺🇸",
         "flagUrl": "assets/flags/usa.svg"
       },
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "minutes": 240
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
     },
     {
-      "rank": 7,
+      "rank": 21,
       "player": {
-        "id": "Harry Kane-ENG",
-        "name": "Harry Kane",
+        "id": "ismaila sarr-SEN",
+        "name": "Ismaila Sarr",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/1abo611761492444.png"
+      },
+      "team": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 22,
+      "player": {
+        "id": "julian quinones-MEX",
+        "name": "Julian Quinones",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/kwg6ps1781248412.png"
+      },
+      "team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 23,
+      "player": {
+        "id": "maxi araujo-URU",
+        "name": "Maxi Araujo",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3u12tv1762290711.png"
+      },
+      "team": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "flagUrl": "assets/flags/uru.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 24,
+      "player": {
+        "id": "mikel oyarzabal-ESP",
+        "name": "Mikel Oyarzabal",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9apeaz1762709253.png"
+      },
+      "team": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 25,
+      "player": {
+        "id": "nicolas pepe-CIV",
+        "name": "Nicolas Pepe",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/xeui221762889301.png"
+      },
+      "team": {
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "flag": "🇨🇮",
+        "flagUrl": "assets/flags/civ.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 26,
+      "player": {
+        "id": "ruben vargas-SUI",
+        "name": "Ruben Vargas",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9jkl9w1762860549.png"
+      },
+      "team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "flagUrl": "assets/flags/sui.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 27,
+      "player": {
+        "id": "yasin ayari-SWE",
+        "name": "Yasin Ayari",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/xah7d91756994132.png"
+      },
+      "team": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 28,
+      "player": {
+        "id": "abbosbek fayzullaev-UZB",
+        "name": "Abbosbek Fayzullaev",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/0zoijs1781036889.png"
+      },
+      "team": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "flag": "🇺🇿",
+        "flagUrl": "assets/flags/uzb.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 29,
+      "player": {
+        "id": "abdulelah alamri-KSA",
+        "name": "Abdulelah Alamri",
         "photo": ""
       },
       "team": {
-        "name": "England",
-        "code": "ENG",
-        "flag": "🏴",
-        "flagUrl": "assets/flags/eng.svg"
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "flagUrl": "assets/flags/ksa.svg"
       },
       "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "minutes": 250
+      "assists": null,
+      "penalties": null,
+      "minutes": null
     },
     {
-      "rank": 8,
+      "rank": 30,
       "player": {
-        "id": "Achraf Hakimi-MAR",
+        "id": "achraf hakimi-MAR",
         "name": "Achraf Hakimi",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/oqu69c1766335243.png"
       },
       "team": {
         "name": "Morocco",
@@ -145,16 +540,88 @@
         "flagUrl": "assets/flags/mar.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 9,
+      "rank": 31,
       "player": {
-        "id": "Alvaro Fidalgo-MEX",
+        "id": "agustin canobbio-URU",
+        "name": "Agustin Canobbio",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/qgh8yj1767539679.png"
+      },
+      "team": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "flagUrl": "assets/flags/uru.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 32,
+      "player": {
+        "id": "alex freeman-USA",
+        "name": "Alex Freeman",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9ik1yx1766511635.png"
+      },
+      "team": {
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 33,
+      "player": {
+        "id": "alexander isak-SWE",
+        "name": "Alexander Isak",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3qj7z41757088281.png"
+      },
+      "team": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 34,
+      "player": {
+        "id": "ali olwan-JOR",
+        "name": "Ali Olwan",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ifvtit1781097232.png"
+      },
+      "team": {
+        "name": "Jordan",
+        "code": "JOR",
+        "flag": "🇯🇴",
+        "flagUrl": "assets/flags/jor.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 35,
+      "player": {
+        "id": "alvaro fidalgo-MEX",
         "name": "Alvaro Fidalgo",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/hcx8an1750328188.png"
       },
       "team": {
         "name": "Mexico",
@@ -163,86 +630,230 @@
         "flagUrl": "assets/flags/mex.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 10,
+      "rank": 36,
       "player": {
-        "id": "Cristiano Ronaldo-POR",
-        "name": "Cristiano Ronaldo",
-        "photo": ""
+        "id": "amad diallo-CIV",
+        "name": "Amad Diallo",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/8p6wbg1766826668.png"
       },
       "team": {
-        "name": "Portugal",
-        "code": "POR",
-        "flag": "🇵🇹",
-        "flagUrl": "assets/flags/por.svg"
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "flag": "🇨🇮",
+        "flagUrl": "assets/flags/civ.svg"
       },
       "goals": 1,
-      "assists": 0,
-      "penalties": 1,
-      "minutes": 210
-    },
-    {
-      "rank": 11,
-      "player": {
-        "id": "Daniel Muñoz-COL",
-        "name": "Daniel Muñoz",
-        "photo": ""
-      },
-      "team": {
-        "name": "Colombia",
-        "code": "COL",
-        "flag": "🇨🇴",
-        "flagUrl": "assets/flags/col.svg"
-      },
-      "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "minutes": 180
-    },
-    {
-      "rank": 12,
-      "player": {
-        "id": "Ermin Mahmic-BIH",
-        "name": "Ermin Mahmic",
-        "photo": ""
-      },
-      "team": {
-        "name": "Bosnia and Herzegovina",
-        "code": "BIH",
-        "flag": "🇧🇦",
-        "flagUrl": "assets/flags/bih.svg"
-      },
-      "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 13,
+      "rank": 37,
       "player": {
-        "id": "Ermin Mahmić-BIH",
-        "name": "Ermin Mahmić",
-        "photo": ""
+        "id": "amine gouiri-ALG",
+        "name": "Amine Gouiri",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/74eam91766152411.png"
       },
       "team": {
-        "name": "Bosnia and Herzegovina",
-        "code": "BIH",
-        "flag": "🇧🇦",
-        "flagUrl": "assets/flags/bih.svg"
+        "name": "Algeria",
+        "code": "ALG",
+        "flag": "🇩🇿",
+        "flagUrl": "assets/flags/alg.svg"
       },
       "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "minutes": 112
+      "assists": null,
+      "penalties": null,
+      "minutes": null
     },
     {
-      "rank": 14,
+      "rank": 38,
       "player": {
-        "id": "Gessime Yassine-MAR",
+        "id": "ante budimir-CRO",
+        "name": "Ante Budimir",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/8v3s2w1762531932.png"
+      },
+      "team": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 39,
+      "player": {
+        "id": "anthony elanga-SWE",
+        "name": "Anthony Elanga",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/zptapf1770796138.png"
+      },
+      "team": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 40,
+      "player": {
+        "id": "aymen hussein-IRQ",
+        "name": "Aymen Hussein",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/n741p41780581152.png"
+      },
+      "team": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "flag": "🇮🇶",
+        "flagUrl": "assets/flags/irq.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 41,
+      "player": {
+        "id": "bradley barcola-FRA",
+        "name": "Bradley Barcola",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/l2v71f1766334537.png"
+      },
+      "team": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 42,
+      "player": {
+        "id": "caleb yirenkyi-GHA",
+        "name": "Caleb Yirenkyi",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/dqki3p1765402684.png"
+      },
+      "team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "flag": "🇬🇭",
+        "flagUrl": "assets/flags/gha.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 43,
+      "player": {
+        "id": "connor metcalfe-AUS",
+        "name": "Connor Metcalfe",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/8xb0sq1756311214.png"
+      },
+      "team": {
+        "name": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺",
+        "flagUrl": "assets/flags/aus.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 44,
+      "player": {
+        "id": "emam ashour-EGY",
+        "name": "Emam Ashour",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/jk038w1750398132.png"
+      },
+      "team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 45,
+      "player": {
+        "id": "felix nmecha-GER",
+        "name": "Felix Nmecha",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/g7bqrz1756326448.png"
+      },
+      "team": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 46,
+      "player": {
+        "id": "finn surman-NZL",
+        "name": "Finn Surman",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/qmadd81766760097.png"
+      },
+      "team": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "flag": "🇳🇿",
+        "flagUrl": "assets/flags/nzl.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 47,
+      "player": {
+        "id": "franck kessie-CIV",
+        "name": "Franck Kessie",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/wcmpma1771663848.png"
+      },
+      "team": {
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "flag": "🇨🇮",
+        "flagUrl": "assets/flags/civ.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 48,
+      "player": {
+        "id": "gessime yassine-MAR",
         "name": "Gessime Yassine",
         "photo": ""
       },
@@ -253,32 +864,68 @@
         "flagUrl": "assets/flags/mar.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 15,
+      "rank": 49,
       "player": {
-        "id": "Hassan Al-Haydos-QAT",
-        "name": "Hassan Al-Haydos",
+        "id": "giovanni reyna-USA",
+        "name": "Giovanni Reyna",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/cwatcj1781348049.png"
+      },
+      "team": {
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 50,
+      "player": {
+        "id": "gonzalo plata-ECU",
+        "name": "Gonzalo Plata",
         "photo": ""
       },
       "team": {
-        "name": "Qatar",
-        "code": "QAT",
-        "flag": "🇶🇦",
-        "flagUrl": "assets/flags/qat.svg"
+        "name": "Ecuador",
+        "code": "ECU",
+        "flag": "🇪🇨",
+        "flagUrl": "assets/flags/ecu.svg"
       },
       "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "minutes": 190
+      "assists": null,
+      "penalties": null,
+      "minutes": null
     },
     {
-      "rank": 16,
+      "rank": 51,
       "player": {
-        "id": "Hassan Alhaydos-QAT",
+        "id": "harry kane-ENG",
+        "name": "Harry Kane",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/j4ouvd1756408895.png"
+      },
+      "team": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 52,
+      "player": {
+        "id": "hassan alhaydos-QAT",
         "name": "Hassan Alhaydos",
         "photo": ""
       },
@@ -289,34 +936,70 @@
         "flagUrl": "assets/flags/qat.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 17,
+      "rank": 53,
       "player": {
-        "id": "Ismael Saibari-MAR",
-        "name": "Ismael Saibari",
+        "id": "helio varela-CAB",
+        "name": "Helio Varela",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/znj0qi1767870998.png"
+      },
+      "team": {
+        "name": "Cabo Verde",
+        "code": "CAB",
+        "flag": "🇨🇻",
+        "flagUrl": "assets/flags/cab.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 54,
+      "player": {
+        "id": "hwang inbeom-KOR",
+        "name": "Hwang Inbeom",
         "photo": ""
       },
       "team": {
-        "name": "Morocco",
-        "code": "MAR",
-        "flag": "🇲🇦",
-        "flagUrl": "assets/flags/mar.svg"
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "flagUrl": "assets/flags/kor.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 18,
+      "rank": 55,
       "player": {
-        "id": "Jamal Musiala-GER",
+        "id": "ibrahim mbaye-SEN",
+        "name": "Ibrahim Mbaye",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/aquiiw1766335383.png"
+      },
+      "team": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 56,
+      "player": {
+        "id": "jamal musiala-GER",
         "name": "Jamal Musiala",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/vbkv611756416067.png"
       },
       "team": {
         "name": "Germany",
@@ -325,34 +1008,88 @@
         "flagUrl": "assets/flags/ger.svg"
       },
       "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "minutes": 220
-    },
-    {
-      "rank": 19,
-      "player": {
-        "id": "Johan Manzambi-SUI",
-        "name": "Johan Manzambi",
-        "photo": ""
-      },
-      "team": {
-        "name": "Switzerland",
-        "code": "SUI",
-        "flag": "🇨🇭",
-        "flagUrl": "assets/flags/sui.svg"
-      },
-      "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 20,
+      "rank": 57,
       "player": {
-        "id": "Jude Bellingham-ENG",
-        "name": "Jude Bellingham",
+        "id": "jaminton campaz-COL",
+        "name": "Jaminton Campaz",
         "photo": ""
+      },
+      "team": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 58,
+      "player": {
+        "id": "joao neves-POR",
+        "name": "Joao Neves",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/2q9ahn1766335473.png"
+      },
+      "team": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 59,
+      "player": {
+        "id": "john mcginn-SCO",
+        "name": "John McGINN",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/keq4991756987159.png"
+      },
+      "team": {
+        "name": "Scotland",
+        "code": "SCO",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/sco.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 60,
+      "player": {
+        "id": "jovo lukic-BIH",
+        "name": "Jovo Lukic",
+        "photo": ""
+      },
+      "team": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 61,
+      "player": {
+        "id": "jude bellingham-ENG",
+        "name": "Jude Bellingham",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/trk5271750271712.png"
       },
       "team": {
         "name": "England",
@@ -361,34 +1098,70 @@
         "flagUrl": "assets/flags/eng.svg"
       },
       "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "minutes": 240
-    },
-    {
-      "rank": 21,
-      "player": {
-        "id": "Julian Quinones-MEX",
-        "name": "Julian Quinones",
-        "photo": ""
-      },
-      "team": {
-        "name": "Mexico",
-        "code": "MEX",
-        "flag": "🇲🇽",
-        "flagUrl": "assets/flags/mex.svg"
-      },
-      "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 22,
+      "rank": 62,
       "player": {
-        "id": "Kerim Alajbegovic-BIH",
+        "id": "junya ito-JPN",
+        "name": "Junya Ito",
+        "photo": ""
+      },
+      "team": {
+        "name": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵",
+        "flagUrl": "assets/flags/jpn.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 63,
+      "player": {
+        "id": "kai havertz-GER",
+        "name": "Kai Havertz",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/hem4r91694204364.png"
+      },
+      "team": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 64,
+      "player": {
+        "id": "keito nakamura-JPN",
+        "name": "Keito Nakamura",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/rvg6ub1678454947.png"
+      },
+      "team": {
+        "name": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵",
+        "flagUrl": "assets/flags/jpn.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 65,
+      "player": {
+        "id": "kerim alajbegovic-BIH",
         "name": "Kerim Alajbegovic",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/sfkv2p1769721901.png"
       },
       "team": {
         "name": "Bosnia and Herzegovina",
@@ -397,68 +1170,86 @@
         "flagUrl": "assets/flags/bih.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 23,
+      "rank": 66,
       "player": {
-        "id": "Kerim Alajbegović-BIH",
-        "name": "Kerim Alajbegović",
+        "id": "kevin pina-CAB",
+        "name": "Kevin Pina",
         "photo": ""
       },
       "team": {
-        "name": "Bosnia and Herzegovina",
-        "code": "BIH",
-        "flag": "🇧🇦",
-        "flagUrl": "assets/flags/bih.svg"
+        "name": "Cabo Verde",
+        "code": "CAB",
+        "flag": "🇨🇻",
+        "flagUrl": "assets/flags/cab.svg"
       },
       "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "minutes": 170
+      "assists": null,
+      "penalties": null,
+      "minutes": null
     },
     {
-      "rank": 24,
+      "rank": 67,
       "player": {
-        "id": "Lautaro Martínez-ARG",
-        "name": "Lautaro Martínez",
+        "id": "ladislav krejci-CZE",
+        "name": "Ladislav Krejci",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/koz6bp1772026272.png"
+      },
+      "team": {
+        "name": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿",
+        "flagUrl": "assets/flags/cze.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 68,
+      "player": {
+        "id": "lamine yamal-ESP",
+        "name": "Lamine Yamal",
         "photo": ""
       },
       "team": {
-        "name": "Argentina",
-        "code": "ARG",
-        "flag": "🇦🇷",
-        "flagUrl": "assets/flags/arg.svg"
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg"
       },
       "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "minutes": 160
+      "assists": null,
+      "penalties": null,
+      "minutes": null
     },
     {
-      "rank": 25,
+      "rank": 69,
       "player": {
-        "id": "Lenny Joseph-HAI",
-        "name": "Lenny Joseph",
+        "id": "leo ostigard-NOR",
+        "name": "Leo Ostigard",
         "photo": ""
       },
       "team": {
-        "name": "Haiti",
-        "code": "HAI",
-        "flag": "🇭🇹",
-        "flagUrl": "assets/flags/hai.svg"
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg"
       },
       "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "minutes": 210
+      "assists": null,
+      "penalties": null,
+      "minutes": null
     },
     {
-      "rank": 26,
+      "rank": 70,
       "player": {
-        "id": "Leroy Sane-GER",
+        "id": "leroy sane-GER",
         "name": "Leroy Sane",
         "photo": ""
       },
@@ -469,14 +1260,122 @@
         "flagUrl": "assets/flags/ger.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 27,
+      "rank": 71,
       "player": {
-        "id": "Mateo Chavez-MEX",
+        "id": "livano comenencia-CUW",
+        "name": "Livano Comenencia",
+        "photo": ""
+      },
+      "team": {
+        "name": "Curaçao",
+        "code": "CUW",
+        "flag": "🇨🇼",
+        "flagUrl": "assets/flags/cuw.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 72,
+      "player": {
+        "id": "luis diaz-COL",
+        "name": "Luis Diaz",
+        "photo": ""
+      },
+      "team": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 73,
+      "player": {
+        "id": "luis romo-MEX",
+        "name": "Luis Romo",
+        "photo": ""
+      },
+      "team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 74,
+      "player": {
+        "id": "marcus holmgren pedersen-NOR",
+        "name": "Marcus Holmgren Pedersen",
+        "photo": ""
+      },
+      "team": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 75,
+      "player": {
+        "id": "marcus rashford-ENG",
+        "name": "Marcus Rashford",
+        "photo": ""
+      },
+      "team": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 76,
+      "player": {
+        "id": "martin baturina-CRO",
+        "name": "Martin Baturina",
+        "photo": ""
+      },
+      "team": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 77,
+      "player": {
+        "id": "mateo chavez-MEX",
         "name": "Mateo Chavez",
         "photo": ""
       },
@@ -487,50 +1386,230 @@
         "flagUrl": "assets/flags/mex.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 28,
+      "rank": 78,
       "player": {
-        "id": "Matheus Cunha-BRA",
-        "name": "Matheus Cunha",
+        "id": "matias galarza-PAR",
+        "name": "Matias Galarza",
         "photo": ""
       },
       "team": {
-        "name": "Brazil",
-        "code": "BRA",
-        "flag": "🇧🇷",
-        "flagUrl": "assets/flags/bra.svg"
+        "name": "Paraguay",
+        "code": "PAR",
+        "flag": "🇵🇾",
+        "flagUrl": "assets/flags/par.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 29,
+      "rank": 79,
       "player": {
-        "id": "Nicolas Pepe-CIV",
-        "name": "Nicolas Pepe",
+        "id": "mattias svanberg-SWE",
+        "name": "Mattias Svanberg",
         "photo": ""
       },
       "team": {
-        "name": "Côte d'Ivoire",
-        "code": "CIV",
-        "flag": "🇨🇮",
-        "flagUrl": "assets/flags/civ.svg"
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 30,
+      "rank": 80,
       "player": {
-        "id": "Nilson Angulo-ECU",
+        "id": "mauricio-PAR",
+        "name": "Mauricio",
+        "photo": ""
+      },
+      "team": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "flag": "🇵🇾",
+        "flagUrl": "assets/flags/par.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 81,
+      "player": {
+        "id": "michal sadilek-CZE",
+        "name": "Michal Sadilek",
+        "photo": ""
+      },
+      "team": {
+        "name": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿",
+        "flagUrl": "assets/flags/cze.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 82,
+      "player": {
+        "id": "mohamed salah-EGY",
+        "name": "Mohamed Salah",
+        "photo": ""
+      },
+      "team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 83,
+      "player": {
+        "id": "mohammad mohebbi-IRI",
+        "name": "Mohammad Mohebbi",
+        "photo": ""
+      },
+      "team": {
+        "name": "IR Iran",
+        "code": "IRI",
+        "flag": "🇮🇷",
+        "flagUrl": "assets/flags/iri.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 84,
+      "player": {
+        "id": "mostafa zico-EGY",
+        "name": "Mostafa Zico",
+        "photo": ""
+      },
+      "team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 85,
+      "player": {
+        "id": "nadhir benbouali-ALG",
+        "name": "Nadhir Benbouali",
+        "photo": ""
+      },
+      "team": {
+        "name": "Algeria",
+        "code": "ALG",
+        "flag": "🇩🇿",
+        "flagUrl": "assets/flags/alg.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 86,
+      "player": {
+        "id": "nathan saliba-CAN",
+        "name": "Nathan Saliba",
+        "photo": ""
+      },
+      "team": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 87,
+      "player": {
+        "id": "nathaniel brown-GER",
+        "name": "Nathaniel Brown",
+        "photo": ""
+      },
+      "team": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 88,
+      "player": {
+        "id": "nestory irankunda-AUS",
+        "name": "Nestory Irankunda",
+        "photo": ""
+      },
+      "team": {
+        "name": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺",
+        "flagUrl": "assets/flags/aus.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 89,
+      "player": {
+        "id": "nico schlotterbeck-GER",
+        "name": "Nico Schlotterbeck",
+        "photo": ""
+      },
+      "team": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 90,
+      "player": {
+        "id": "nilson angulo-ECU",
         "name": "Nilson Angulo",
         "photo": ""
       },
@@ -541,14 +1620,122 @@
         "flagUrl": "assets/flags/ecu.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 31,
+      "rank": 91,
       "player": {
-        "id": "Promise David-CAN",
+        "id": "nizar alrashdan-JOR",
+        "name": "Nizar Alrashdan",
+        "photo": ""
+      },
+      "team": {
+        "name": "Jordan",
+        "code": "JOR",
+        "flag": "🇯🇴",
+        "flagUrl": "assets/flags/jor.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 92,
+      "player": {
+        "id": "nuno mendes-POR",
+        "name": "Nuno Mendes",
+        "photo": ""
+      },
+      "team": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 93,
+      "player": {
+        "id": "oh hyeongyu-KOR",
+        "name": "Oh Hyeongyu",
+        "photo": ""
+      },
+      "team": {
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "flagUrl": "assets/flags/kor.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 94,
+      "player": {
+        "id": "omar rekik-TUN",
+        "name": "Omar Rekik",
+        "photo": ""
+      },
+      "team": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "flag": "🇹🇳",
+        "flagUrl": "assets/flags/tun.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 95,
+      "player": {
+        "id": "ousmane dembele-FRA",
+        "name": "Ousmane Dembele",
+        "photo": ""
+      },
+      "team": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 96,
+      "player": {
+        "id": "petar musa-CRO",
+        "name": "Petar Musa",
+        "photo": ""
+      },
+      "team": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 97,
+      "player": {
+        "id": "promise david-CAN",
         "name": "Promise David",
         "photo": ""
       },
@@ -559,32 +1746,86 @@
         "flagUrl": "assets/flags/can.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 32,
+      "rank": 98,
       "player": {
-        "id": "Ruben Vargas-SUI",
-        "name": "Ruben Vargas",
+        "id": "rafael leao-POR",
+        "name": "Rafael Leao",
         "photo": ""
       },
       "team": {
-        "name": "Switzerland",
-        "code": "SUI",
-        "flag": "🇨🇭",
-        "flagUrl": "assets/flags/sui.svg"
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 33,
+      "rank": 99,
       "player": {
-        "id": "Soufiane Rahimi-MAR",
+        "id": "ramin rezaeian-IRI",
+        "name": "Ramin Rezaeian",
+        "photo": ""
+      },
+      "team": {
+        "name": "IR Iran",
+        "code": "IRI",
+        "flag": "🇮🇷",
+        "flagUrl": "assets/flags/iri.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 100,
+      "player": {
+        "id": "raul jimenez-MEX",
+        "name": "Raul Jimenez",
+        "photo": ""
+      },
+      "team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 101,
+      "player": {
+        "id": "romano schmid-AUT",
+        "name": "Romano Schmid",
+        "photo": ""
+      },
+      "team": {
+        "name": "Austria",
+        "code": "AUT",
+        "flag": "🇦🇹",
+        "flagUrl": "assets/flags/aut.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 102,
+      "player": {
+        "id": "soufiane rahimi-MAR",
         "name": "Soufiane Rahimi",
         "photo": ""
       },
@@ -595,14 +1836,14 @@
         "flagUrl": "assets/flags/mar.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 34,
+      "rank": 103,
       "player": {
-        "id": "Thapelo Maseko-RSA",
+        "id": "thapelo maseko-RSA",
         "name": "Thapelo Maseko",
         "photo": ""
       },
@@ -613,14 +1854,68 @@
         "flagUrl": "assets/flags/rsa.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 35,
+      "rank": 104,
       "player": {
-        "id": "Wilson Isidor-HAI",
+        "id": "trezeguet-EGY",
+        "name": "Trezeguet",
+        "photo": ""
+      },
+      "team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 105,
+      "player": {
+        "id": "viktor gyokeres-SWE",
+        "name": "Viktor Gyokeres",
+        "photo": ""
+      },
+      "team": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 106,
+      "player": {
+        "id": "virgil van dijk-NED",
+        "name": "Virgil Van Dijk",
+        "photo": ""
+      },
+      "team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 107,
+      "player": {
+        "id": "wilson isidor-HAI",
         "name": "Wilson Isidor",
         "photo": ""
       },
@@ -631,7 +1926,25 @@
         "flagUrl": "assets/flags/hai.svg"
       },
       "goals": 1,
-      "assists": 0,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 108,
+      "player": {
+        "id": "yoane wissa-COD",
+        "name": "Yoane Wissa",
+        "photo": ""
+      },
+      "team": {
+        "name": "DR Congo",
+        "code": "COD",
+        "flag": "🇨🇩",
+        "flagUrl": "assets/flags/cod.svg"
+      },
+      "goals": 1,
+      "assists": null,
       "penalties": null,
       "minutes": null
     }
