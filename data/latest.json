@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-06-25 09:32",
+  "updated_at": "北京时间 2026-06-25 14:12",
   "date_range": "2026-06-24 to 2026-06-25",
-  "summary": "摩洛哥 4-2 击败海地，巴西 3-0 击败苏格兰，南非 0-0 战平Korea Republic，Czechia 0-0 战平墨西哥。",
+  "summary": "摩洛哥 4-2 击败海地，巴西 3-0 击败苏格兰，南非 1-0 击败Korea Republic，墨西哥 3-0 击败Czechia。",
   "matches": [
     {
       "group": "Group L",
@@ -340,12 +340,18 @@
       "group": "Group A",
       "status": "FT",
       "venue": "Monterrey Stadium",
-      "finished_at_bj": "北京时间 2026-06-25 10:45",
+      "finished_at_bj": "北京时间 2026-06-25 10:52",
       "team_a": {
         "name": "South Africa",
         "flag": "🇿🇦",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Thapelo Maseko",
+            "minute": "63'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "南非",
         "name_en": "South Africa"
       },
@@ -360,18 +366,18 @@
       "venue_en": "Monterrey Stadium",
       "venue_zh": "Monterrey Stadium",
       "highlights_en": [
-        "South Africa drew 0-0 with Korea Republic in Group A.",
-        "Neither side scored.",
+        "South Africa beat Korea Republic 1-0 in Group A.",
+        "Thapelo Maseko 63'",
         "The match was played at Monterrey Stadium."
       ],
       "highlights_zh": [
-        "南非 0-0 战平Korea Republic，比赛属于 Group A。",
-        "双方均未取得进球。",
+        "南非 1-0 击败Korea Republic，比赛属于 Group A。",
+        "Thapelo Maseko 63'",
         "比赛场地：Monterrey Stadium。"
       ],
       "highlights": [
-        "南非 0-0 战平Korea Republic，比赛属于 Group A。",
-        "双方均未取得进球。",
+        "南非 1-0 击败Korea Republic，比赛属于 Group A。",
+        "Thapelo Maseko 63'",
         "比赛场地：Monterrey Stadium。"
       ]
     },
@@ -379,7 +385,7 @@
       "group": "Group A",
       "status": "FT",
       "venue": "Mexico City Stadium",
-      "finished_at_bj": "北京时间 2026-06-25 10:45",
+      "finished_at_bj": "北京时间 2026-06-25 10:52",
       "team_a": {
         "name": "Czechia",
         "flag": "🇨🇿",
@@ -391,26 +397,42 @@
       "team_b": {
         "name": "Mexico",
         "flag": "🇲🇽",
-        "score": 0,
-        "scorers": [],
+        "score": 3,
+        "scorers": [
+          {
+            "player": "Mateo Chavez",
+            "minute": "55'",
+            "type": "goal"
+          },
+          {
+            "player": "Julian Quinones",
+            "minute": "61'",
+            "type": "goal"
+          },
+          {
+            "player": "Alvaro Fidalgo",
+            "minute": "90'+4'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "墨西哥",
         "name_en": "Mexico"
       },
       "venue_en": "Mexico City Stadium",
       "venue_zh": "Mexico City Stadium",
       "highlights_en": [
-        "Czechia drew 0-0 with Mexico in Group A.",
-        "Neither side scored.",
+        "Mexico beat Czechia 3-0 in Group A.",
+        "Mateo Chavez 55', Julian Quinones 61', Alvaro Fidalgo 90'+4'",
         "The match was played at Mexico City Stadium."
       ],
       "highlights_zh": [
-        "Czechia 0-0 战平墨西哥，比赛属于 Group A。",
-        "双方均未取得进球。",
+        "墨西哥 3-0 击败Czechia，比赛属于 Group A。",
+        "Mateo Chavez 55', Julian Quinones 61', Alvaro Fidalgo 90'+4'",
         "比赛场地：Mexico City Stadium。"
       ],
       "highlights": [
-        "Czechia 0-0 战平墨西哥，比赛属于 Group A。",
-        "双方均未取得进球。",
+        "墨西哥 3-0 击败Czechia，比赛属于 Group A。",
+        "Mateo Chavez 55', Julian Quinones 61', Alvaro Fidalgo 90'+4'",
         "比赛场地：Mexico City Stadium。"
       ]
     }
@@ -420,7 +442,7 @@
     "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
     "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。",
     "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
-    "Group A：墨西哥 以 7 分领跑，Korea Republic 4 分紧随其后。"
+    "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。"
   ],
   "today_fixtures": [
     {
@@ -553,21 +575,21 @@
     }
   ],
   "news": [],
-  "summary_zh": "摩洛哥 4-2 击败海地，巴西 3-0 击败苏格兰，南非 0-0 战平Korea Republic，Czechia 0-0 战平墨西哥。",
-  "summary_en": "Morocco beat Haiti 4-2; Brazil beat Scotland 3-0; South Africa drew 0-0 with Korea Republic; Czechia drew 0-0 with Mexico.",
+  "summary_zh": "摩洛哥 4-2 击败海地，巴西 3-0 击败苏格兰，南非 1-0 击败Korea Republic，墨西哥 3-0 击败Czechia。",
+  "summary_en": "Morocco beat Haiti 4-2; Brazil beat Scotland 3-0; South Africa beat Korea Republic 1-0; Mexico beat Czechia 3-0.",
   "standings_changes_zh": [
     "Group L：英格兰 以 4 分领跑，加纳 4 分紧随其后。",
     "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
     "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。",
     "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
-    "Group A：墨西哥 以 7 分领跑，Korea Republic 4 分紧随其后。"
+    "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。"
   ],
   "standings_changes_en": [
     "Group L: England lead with 4 points, followed by Ghana on 4.",
     "Group K: Colombia lead with 6 points, followed by Portugal on 4.",
     "Group B: Switzerland lead with 7 points, followed by Canada on 4.",
     "Group C: Brazil lead with 7 points, followed by Morocco on 7.",
-    "Group A: Mexico lead with 7 points, followed by Korea Republic on 4."
+    "Group A: Mexico lead with 9 points, followed by South Africa on 4."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -575,6 +597,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-25T01:32:23.805Z"
+    "fetched_at": "2026-06-25T06:12:32.872Z"
   }
 }
