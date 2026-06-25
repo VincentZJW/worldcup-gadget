@@ -25,26 +25,37 @@ const countryMeta = new Map(
     ["Colombia", ["COL", "🇨🇴"]],
     ["Croatia", ["CRO", "🇭🇷"]],
     ["Curaçao", ["CUW", "🇨🇼"]],
+    ["Côte d'Ivoire", ["CIV", "🇨🇮"]],
     ["Czechia", ["CZE", "🇨🇿"]],
+    ["Chile", ["CHI", "🇨🇱"]],
+    ["Denmark", ["DEN", "🇩🇰"]],
     ["DR Congo", ["COD", "🇨🇩"]],
     ["Congo DR", ["COD", "🇨🇩"]],
+    ["Egypt", ["EGY", "🇪🇬"]],
     ["Ecuador", ["ECU", "🇪🇨"]],
     ["England", ["ENG", "🏴"]],
     ["France", ["FRA", "🇫🇷"]],
     ["Germany", ["GER", "🇩🇪"]],
+    ["Ghana", ["GHA", "🇬🇭"]],
     ["Haiti", ["HAI", "🇭🇹"]],
+    ["Iraq", ["IRQ", "🇮🇶"]],
     ["Japan", ["JPN", "🇯🇵"]],
     ["Korea Republic", ["KOR", "🇰🇷"]],
     ["Mexico", ["MEX", "🇲🇽"]],
     ["Morocco", ["MAR", "🇲🇦"]],
     ["Netherlands", ["NED", "🇳🇱"]],
+    ["New Zealand", ["NZL", "🇳🇿"]],
     ["Norway", ["NOR", "🇳🇴"]],
+    ["Saudi Arabia", ["KSA", "🇸🇦"]],
+    ["Senegal", ["SEN", "🇸🇳"]],
+    ["Serbia", ["SRB", "🇷🇸"]],
     ["Panama", ["PAN", "🇵🇦"]],
     ["Paraguay", ["PAR", "🇵🇾"]],
     ["Portugal", ["POR", "🇵🇹"]],
     ["Qatar", ["QAT", "🇶🇦"]],
     ["Scotland", ["SCO", "🏴"]],
     ["South Africa", ["RSA", "🇿🇦"]],
+    ["Spain", ["ESP", "🇪🇸"]],
     ["Sweden", ["SWE", "🇸🇪"]],
     ["Switzerland", ["SUI", "🇨🇭"]],
     ["Tunisia", ["TUN", "🇹🇳"]],
@@ -54,6 +65,31 @@ const countryMeta = new Map(
     ["USA", ["USA", "🇺🇸"]]
   ]
 );
+
+const groupLetters = Array.from({ length: 12 }, (_, index) => String.fromCharCode(65 + index));
+const groupNames = groupLetters.map((letter) => `Group ${letter}`);
+const bracketRoundSpecs = [
+  ["Round of 32", 16],
+  ["Round of 16", 8],
+  ["Quarter-finals", 4],
+  ["Semi-finals", 2],
+  ["Third-place match", 1],
+  ["Final", 1]
+];
+const fallbackGroupTeams = {
+  "Group A": ["Mexico", "Korea Republic", "South Africa", "Czechia"],
+  "Group B": ["Switzerland", "Canada", "Bosnia and Herzegovina", "Qatar"],
+  "Group C": ["Brazil", "Morocco", "Scotland", "Haiti"],
+  "Group D": ["USA", "Türkiye", "Australia", "Paraguay"],
+  "Group E": ["Germany", "Ecuador", "Côte d'Ivoire", "Curaçao"],
+  "Group F": ["Netherlands", "Japan", "Sweden", "Tunisia"],
+  "Group G": ["Spain", "Uruguay", "Cape Verde", "Saudi Arabia"],
+  "Group H": ["England", "Ghana", "Belgium", "Panama"],
+  "Group I": ["France", "Norway", "Senegal", "Iraq"],
+  "Group J": ["Argentina", "Croatia", "Egypt", "New Zealand"],
+  "Group K": ["Colombia", "Portugal", "DR Congo", "Saudi Arabia"],
+  "Group L": ["Uruguay", "Denmark", "Serbia", "Chile"]
+};
 
 function log(message) {
   console.log(`[worldcup-data] ${message}`);
@@ -86,6 +122,79 @@ function makeTeam(team = {}, score = null) {
     flag: meta.flag,
     score: Number.isFinite(Number(score ?? team.score)) ? Number(score ?? team.score) : null
   };
+}
+
+function emptyTeam(name = "TBD", score = null) {
+  const meta = teamMeta(name);
+  return {
+    name,
+    code: meta.code,
+    flag: meta.flag,
+    score
+  };
+}
+
+function emptyStandingRow(team, rank) {
+  const meta = teamMeta(team);
+  return {
+    rank,
+    team,
+    flag: meta.flag,
+    played: 0,
+    won: 0,
+    drawn: 0,
+    lost: 0,
+    goalsFor: 0,
+    goalsAgainst: 0,
+    goalDifference: 0,
+    points: 0
+  };
+}
+
+function normalizeStandingsGroups(groups = []) {
+  const byGroup = new Map(groups.map((group) => [group.group, group]));
+  return groupNames.map((groupName) => {
+    const existingRows = byGroup.get(groupName)?.rows || [];
+    const fallbackTeams = fallbackGroupTeams[groupName] || [];
+    const rows = Array.from({ length: 4 }, (_, index) => {
+      const existing = existingRows[index];
+      if (existing) return { rank: existing.rank || index + 1, ...existing };
+      return emptyStandingRow(fallbackTeams[index] || "TBD", index + 1);
+    });
+    return { group: groupName, rows };
+  });
+}
+
+function blankKnockoutMatch(roundName, index) {
+  return {
+    id: `${roundName.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-${index + 1}`,
+    date: "",
+    time: "",
+    stage: roundName,
+    status: "TBD",
+    home: emptyTeam("TBD"),
+    away: emptyTeam("TBD"),
+    winner: null
+  };
+}
+
+function scoreString(home, away) {
+  if (home.score === null || home.score === undefined || away.score === null || away.score === undefined) {
+    return "";
+  }
+  return `${home.score}-${away.score}`;
+}
+
+function normalizeBracketRounds(rounds = []) {
+  const byRound = new Map(rounds.map((round) => [round.name, round]));
+  return bracketRoundSpecs.map(([name, count]) => {
+    const existingMatches = byRound.get(name)?.matches || [];
+    const matches = Array.from({ length: count }, (_, index) => ({
+      ...blankKnockoutMatch(name, index),
+      ...(existingMatches[index] || {})
+    }));
+    return { name, matches };
+  });
 }
 
 function nowIso() {
@@ -167,53 +276,60 @@ function fallbackLive(seed) {
 }
 
 function fallbackStandings(seed) {
-  const groups = [
-    {
-      group: "Group B",
-      rows: [
-        ["Switzerland", "🇨🇭", 3, 2, 1, 0, 5, 2, 3, 7],
-        ["Canada", "🇨🇦", 3, 1, 1, 1, 4, 4, 0, 4],
-        ["Bosnia and Herzegovina", "🇧🇦", 3, 1, 1, 1, 5, 5, 0, 4],
-        ["Qatar", "🇶🇦", 3, 0, 0, 3, 2, 5, -3, 0]
+  const knownRows = new Map([
+    [
+      "Group B",
+      [
+        ["Switzerland", 3, 2, 1, 0, 5, 2, 3, 7],
+        ["Canada", 3, 1, 1, 1, 4, 4, 0, 4],
+        ["Bosnia and Herzegovina", 3, 1, 1, 1, 5, 5, 0, 4],
+        ["Qatar", 3, 0, 0, 3, 2, 5, -3, 0]
       ]
-    },
-    {
-      group: "Group C",
-      rows: [
-        ["Brazil", "🇧🇷", 3, 2, 1, 0, 6, 2, 4, 7],
-        ["Morocco", "🇲🇦", 3, 2, 1, 0, 7, 4, 3, 7],
-        ["Scotland", "🏴", 3, 1, 0, 2, 2, 5, -3, 3],
-        ["Haiti", "🇭🇹", 3, 0, 0, 3, 3, 7, -4, 0]
+    ],
+    [
+      "Group C",
+      [
+        ["Brazil", 3, 2, 1, 0, 6, 2, 4, 7],
+        ["Morocco", 3, 2, 1, 0, 7, 4, 3, 7],
+        ["Scotland", 3, 1, 0, 2, 2, 5, -3, 3],
+        ["Haiti", 3, 0, 0, 3, 3, 7, -4, 0]
       ]
-    },
-    {
-      group: "Group K",
-      rows: [
-        ["Colombia", "🇨🇴", 2, 2, 0, 0, 3, 0, 3, 6],
-        ["Portugal", "🇵🇹", 2, 1, 1, 0, 2, 1, 1, 4],
-        ["DR Congo", "🇨🇩", 2, 0, 1, 1, 1, 2, -1, 1],
-        ["Saudi Arabia", "🇸🇦", 2, 0, 0, 2, 0, 3, -3, 0]
+    ],
+    [
+      "Group K",
+      [
+        ["Colombia", 2, 2, 0, 0, 3, 0, 3, 6],
+        ["Portugal", 2, 1, 1, 0, 2, 1, 1, 4],
+        ["DR Congo", 2, 0, 1, 1, 1, 2, -1, 1],
+        ["Saudi Arabia", 2, 0, 0, 2, 0, 3, -3, 0]
       ]
-    }
-  ].map((group) => ({
-    group: group.group,
-    rows: group.rows.map((row, index) => {
-      const [team, flag, played, won, drawn, lost, goalsFor, goalsAgainst, goalDifference, points] = row;
-      return {
-        rank: index + 1,
-        team,
-        flag,
-        played,
-        won,
-        drawn,
-        lost,
-        goalsFor,
-        goalsAgainst,
-        goalDifference,
-        points
-      };
-    })
-  }));
+    ]
+  ]);
+
+  const groups = normalizeStandingsGroups(
+    groupNames.map((groupName) => ({
+      group: groupName,
+      rows: (knownRows.get(groupName) || fallbackGroupTeams[groupName].map((team) => [team, 0, 0, 0, 0, 0, 0, 0, 0])).map(
+        (row, index) => {
+          const [team, played, won, drawn, lost, goalsFor, goalsAgainst, goalDifference, points] = row;
+          const meta = teamMeta(team);
+          return {
+            rank: index + 1,
+            team,
+            flag: meta.flag,
+            played,
+            won,
+            drawn,
+            lost,
+            goalsFor,
+            goalsAgainst,
+            goalDifference,
+            points
+          };
+        }
+      )
+    }))
+  );
 
   return {
     updatedAt: seed?.updated_at || nowIso(),
@@ -226,44 +342,71 @@ function fallbackStandings(seed) {
 }
 
 function fallbackSchedule(seed) {
-  const seedFixtures = Array.isArray(seed?.today_fixtures) ? seed.today_fixtures : [];
-  const matches = seedFixtures.map((fixture, index) => ({
-    id: `seed-schedule-${index + 1}`,
-    date: dateKeyFromText(fixture.time_bj),
-    time: cleanText(fixture.time_bj, "TBD"),
-    stage: cleanText(fixture.group, "Group Stage"),
-    venue: cleanText(fixture.venue, "TBD"),
-    status: "Scheduled",
-    score: "",
-    home: makeTeam(fixture.team_a),
-    away: makeTeam(fixture.team_b)
-  }));
+  const matches = [];
+  const pairings = [
+    [0, 1],
+    [2, 3],
+    [0, 2],
+    [1, 3],
+    [0, 3],
+    [1, 2]
+  ];
+  const completedByKey = new Map();
 
-  if (!matches.length) {
-    matches.push(
-      {
-        id: "fallback-schedule-1",
-        date: "2026-06-26",
-        time: "北京时间 2026-06-26 04:00",
-        stage: "Group E",
-        venue: "Philadelphia Stadium",
-        status: "Scheduled",
-        score: "",
-        home: { name: "Ecuador", code: "ECU", flag: "🇪🇨", score: null },
-        away: { name: "Germany", code: "GER", flag: "🇩🇪", score: null }
-      },
-      {
-        id: "fallback-schedule-2",
-        date: "2026-06-26",
-        time: "北京时间 2026-06-26 10:00",
-        stage: "Group D",
-        venue: "Los Angeles Stadium",
-        status: "Scheduled",
-        score: "",
-        home: { name: "Türkiye", code: "TUR", flag: "🇹🇷", score: null },
-        away: { name: "USA", code: "USA", flag: "🇺🇸", score: null }
+  for (const [index, match] of (seed?.matches || []).entries()) {
+    const home = makeTeam(match.team_a);
+    const away = makeTeam(match.team_b);
+    completedByKey.set(`${home.name}-${away.name}`, {
+      id: `seed-completed-${index + 1}`,
+      date: dateKeyFromText(match.finished_at_bj),
+      time: cleanText(match.finished_at_bj, ""),
+      stage: cleanText(match.group, "Group Stage"),
+      venue: cleanText(match.venue_en || match.venue, "TBD"),
+      status: cleanText(match.status, "FT"),
+      score: scoreString(home, away),
+      home,
+      away
+    });
+  }
+
+  groupNames.forEach((groupName, groupIndex) => {
+    const teams = fallbackGroupTeams[groupName];
+    pairings.forEach(([homeIndex, awayIndex], pairingIndex) => {
+      const homeName = teams[homeIndex];
+      const awayName = teams[awayIndex];
+      const completed = completedByKey.get(`${homeName}-${awayName}`);
+      if (completed) {
+        matches.push(completed);
+        return;
       }
-    );
+
+      const date = new Date(Date.UTC(2026, 5, 11 + groupIndex + Math.floor(pairingIndex / 2), 12 + (pairingIndex % 3) * 3));
+      matches.push({
+        id: `group-${groupLetters[groupIndex].toLowerCase()}-${pairingIndex + 1}`,
+        date: date.toISOString().slice(0, 10),
+        time: date.toISOString(),
+        stage: groupName,
+        venue: "TBD",
+        status: "Scheduled",
+        score: "",
+        home: emptyTeam(homeName),
+        away: emptyTeam(awayName)
+      });
+    });
+  });
+
+  for (const round of normalizeBracketRounds().flatMap((round) => round.matches)) {
+    matches.push({
+      id: `schedule-${round.id}`,
+      date: round.stage === "Final" ? "2026-07-19" : "",
+      time: "",
+      stage: round.stage,
+      venue: "TBD",
+      status: "Scheduled",
+      score: "",
+      home: round.home,
+      away: round.away
+    });
   }
 
   return {
@@ -283,37 +426,7 @@ function fallbackBracket(seed) {
     source: "local-fallback",
     isFallback: true,
     notice: "数据暂未更新，当前显示示例数据",
-    rounds: [
-      {
-        name: "Round of 32",
-        matches: Array.from({ length: 4 }, (_, index) => ({
-          id: `r32-${index + 1}`,
-          status: "TBD",
-          home: { name: "TBD", code: "TBD", flag: "🏳️", score: null },
-          away: { name: "TBD", code: "TBD", flag: "🏳️", score: null }
-        }))
-      },
-      {
-        name: "Quarter-finals",
-        matches: Array.from({ length: 2 }, (_, index) => ({
-          id: `qf-${index + 1}`,
-          status: "TBD",
-          home: { name: "TBD", code: "TBD", flag: "🏳️", score: null },
-          away: { name: "TBD", code: "TBD", flag: "🏳️", score: null }
-        }))
-      },
-      {
-        name: "Final",
-        matches: [
-          {
-            id: "final-1",
-            status: "TBD",
-            home: { name: "TBD", code: "TBD", flag: "🏳️", score: null },
-            away: { name: "TBD", code: "TBD", flag: "🏳️", score: null }
-          }
-        ]
-      }
-    ]
+    rounds: normalizeBracketRounds()
   };
 }
 
@@ -326,12 +439,12 @@ function fallbackScorers(seed) {
         if (!scorer.player || scorer.type === "own_goal") continue;
         const key = `${scorer.player}-${team.code}`;
         const current = scorerMap.get(key) || {
-          player: scorer.player,
-          team: team.name,
-          flag: team.flag,
+          player: { id: key, name: scorer.player, photo: "" },
+          team: { name: team.name, code: team.code, flag: team.flag },
           goals: 0,
           assists: 0,
-          penalties: null
+          penalties: null,
+          minutes: null
         };
         current.goals += 1;
         scorerMap.set(key, current);
@@ -339,18 +452,51 @@ function fallbackScorers(seed) {
     }
   }
 
-  const players = [...scorerMap.values()]
-    .sort((a, b) => b.goals - a.goals || a.player.localeCompare(b.player))
-    .slice(0, 10)
-    .map((player, index) => ({ rank: index + 1, ...player }));
+  const samplePlayers = [
+    ["Vinícius Júnior", "Brazil", 2, 1, 0, 245],
+    ["Lionel Messi", "Argentina", 2, 2, 1, 270],
+    ["Kylian Mbappé", "France", 2, 1, 0, 260],
+    ["Soufiane Rahimi", "Morocco", 1, 1, 0, 221],
+    ["Daniel Muñoz", "Colombia", 1, 0, 0, 180],
+    ["Matheus Cunha", "Brazil", 1, 1, 0, 190],
+    ["Ruben Vargas", "Switzerland", 1, 0, 0, 210],
+    ["Johan Manzambi", "Switzerland", 1, 0, 0, 160],
+    ["Promise David", "Canada", 1, 0, 0, 175],
+    ["Achraf Hakimi", "Morocco", 1, 0, 0, 270],
+    ["Ismael Saibari", "Morocco", 1, 0, 0, 180],
+    ["Gessime Yassine", "Morocco", 1, 0, 0, 92],
+    ["Lenny Joseph", "Haiti", 1, 0, 0, 210],
+    ["Wilson Isidor", "Haiti", 1, 1, 0, 220],
+    ["Kerim Alajbegović", "Bosnia and Herzegovina", 1, 0, 0, 170],
+    ["Ermin Mahmić", "Bosnia and Herzegovina", 1, 0, 0, 112],
+    ["Hassan Al-Haydos", "Qatar", 1, 0, 0, 190],
+    ["Cristiano Ronaldo", "Portugal", 1, 0, 1, 210],
+    ["Harry Kane", "England", 1, 1, 0, 250],
+    ["Christian Pulisic", "USA", 1, 1, 0, 240],
+    ["Jamal Musiala", "Germany", 1, 0, 0, 220],
+    ["Raphinha", "Brazil", 1, 2, 0, 230],
+    ["Jude Bellingham", "England", 1, 0, 0, 240],
+    ["Lautaro Martínez", "Argentina", 1, 0, 0, 160]
+  ];
 
-  if (!players.length) {
-    players.push(
-      { rank: 1, player: "Vinícius Júnior", team: "Brazil", flag: "🇧🇷", goals: 2, assists: 0, penalties: null },
-      { rank: 2, player: "Soufiane Rahimi", team: "Morocco", flag: "🇲🇦", goals: 1, assists: 1, penalties: null },
-      { rank: 3, player: "Daniel Muñoz", team: "Colombia", flag: "🇨🇴", goals: 1, assists: 0, penalties: null }
-    );
+  for (const [name, teamName, goals, assists, penalties, minutes] of samplePlayers) {
+    const team = emptyTeam(teamName);
+    const key = `${name}-${team.code}`;
+    if (!scorerMap.has(key)) {
+      scorerMap.set(key, {
+        player: { id: key, name, photo: "" },
+        team: { name: team.name, code: team.code, flag: team.flag },
+        goals,
+        assists,
+        penalties,
+        minutes
+      });
+    }
   }
+
+  const players = [...scorerMap.values()]
+    .sort((a, b) => b.goals - a.goals || b.assists - a.assists || a.player.name.localeCompare(b.player.name))
+    .map((player, index) => ({ rank: index + 1, ...player }));
 
   return {
     updatedAt: seed?.updated_at || nowIso(),
@@ -461,7 +607,7 @@ function sortFeaturedFixtures(fixtures) {
 
 function apiStandings(payload) {
   const groups = payload[0]?.league?.standings || [];
-  return groups.map((rows, groupIndex) => ({
+  return normalizeStandingsGroups(groups.map((rows, groupIndex) => ({
     group: rows[0]?.group || `Group ${String.fromCharCode(65 + groupIndex)}`,
     rows: rows.map((row) => ({
       rank: row.rank,
@@ -476,7 +622,7 @@ function apiStandings(payload) {
       goalDifference: row.goalsDiff ?? 0,
       points: row.points ?? 0
     }))
-  }));
+  })));
 }
 
 function apiSchedule(fixtures) {
@@ -511,27 +657,45 @@ function apiBracket(fixtures) {
     return fallbackBracket(null).rounds;
   }
 
+  const normalizeRoundName = (roundName) => {
+    if (/round of 32|1\/16|32/i.test(roundName)) return "Round of 32";
+    if (/round of 16|1\/8|16/i.test(roundName)) return "Round of 16";
+    if (/quarter/i.test(roundName)) return "Quarter-finals";
+    if (/semi/i.test(roundName)) return "Semi-finals";
+    if (/third/i.test(roundName)) return "Third-place match";
+    if (/final/i.test(roundName)) return "Final";
+    return roundName;
+  };
   const rounds = new Map();
   for (const fixture of knockout) {
-    const roundName = fixture.league?.round || "Knockout";
+    const roundName = normalizeRoundName(fixture.league?.round || "Knockout");
     if (!rounds.has(roundName)) rounds.set(roundName, []);
-    rounds.get(roundName).push(fixtureToMatch(fixture));
+    const match = fixtureToMatch(fixture);
+    match.date = (fixture.fixture?.date || "").slice(0, 10);
+    match.time = fixture.fixture?.date || "";
+    match.winner = fixture.teams?.home?.winner ? match.home.code : fixture.teams?.away?.winner ? match.away.code : null;
+    rounds.get(roundName).push(match);
   }
 
-  return [...rounds.entries()].map(([name, matches]) => ({ name, matches }));
+  return normalizeBracketRounds([...rounds.entries()].map(([name, matches]) => ({ name, matches })));
 }
 
 function apiScorers(payload) {
-  return payload.slice(0, 20).map((entry, index) => {
+  return payload.map((entry, index) => {
     const stats = entry.statistics?.[0] || {};
+    const team = emptyTeam(stats.team?.name || "TBD");
     return {
       rank: index + 1,
-      player: entry.player?.name || "Unknown",
-      team: stats.team?.name || "TBD",
-      flag: teamMeta(stats.team?.name || "").flag,
+      player: {
+        id: String(entry.player?.id || entry.player?.name || index + 1),
+        name: entry.player?.name || "Unknown",
+        photo: entry.player?.photo || ""
+      },
+      team: { name: team.name, code: team.code, flag: team.flag },
       goals: stats.goals?.total ?? 0,
       assists: stats.goals?.assists ?? 0,
-      penalties: stats.penalty?.scored ?? null
+      penalties: stats.penalty?.scored ?? null,
+      minutes: stats.games?.minutes ?? null
     };
   });
 }
@@ -579,7 +743,7 @@ async function buildApiData() {
       timezone,
       source,
       isFallback: false,
-      matches: apiSchedule(fixtures).slice(0, 80)
+      matches: apiSchedule(fixtures)
     },
     bracket: {
       updatedAt,

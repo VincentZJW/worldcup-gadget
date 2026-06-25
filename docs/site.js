@@ -2,7 +2,7 @@ const translations = {
   zh: {
     documentTitle: "WorldCup Gadget - 世界杯桌面悬浮球",
     navDownload: "下载",
-    heroTitle: "世界杯战况，在你的桌面优雅展开。",
+    heroTitle: "世界杯战况，\n在你的桌面优雅展开。",
     heroSubtitle: "实时比分、小组积分、赛程与进球榜，一屏掌握。",
     downloadLatest: "下载最新版",
     releaseNote: "免费 beta 通过 GitHub Pages + GitHub Releases 分发。",
@@ -12,10 +12,10 @@ const translations = {
     standingsBody: "按小组切换查看排名、胜平负、净胜球和积分，晋级区高亮显示。",
     bracketTitle: "淘汰赛对阵",
     bracketBody: "如果淘汰赛尚未开始，会先显示 TBD 占位；数据更新后自动替换为真实对阵。",
-    scheduleTitle: "赛程安排",
-    scheduleBody: "按日期查看未来赛程和已结束比分，包含阶段、场馆和状态。",
+    scheduleTitle: "完整赛程 / Tournament Map",
+    scheduleBody: "查看小组赛和淘汰赛全部比赛，可按阶段与状态快速筛选。",
     scorersTitle: "进球榜",
-    scorersBody: "前三名以高亮卡片展示，后续球员以紧凑列表呈现。",
+    scorersBody: "前三名以高亮卡片展示，完整榜单支持排序、头像 fallback 和展开全部。",
     productTitle: "Mac 桌面悬浮球",
     productBody: "每天 10 点自动弹出战报，平时安静悬浮在桌面边缘。点击小足球即可展开 dashboard。",
     productAutoTitle: "每日自动展示",
@@ -42,12 +42,27 @@ const translations = {
     noGoals: "暂无进球信息",
     venue: "场馆",
     assists: "助攻",
-    penalties: "点球"
+    penalties: "点球",
+    allMatches: "全部",
+    allGroups: "全部小组",
+    groupStage: "小组赛",
+    knockoutStage: "淘汰赛",
+    today: "今日",
+    finished: "已结束",
+    upcoming: "未开始",
+    sortByLabel: "排序",
+    sortGoals: "进球数",
+    sortAssists: "助攻数",
+    sortPenalties: "点球数",
+    sortMinutes: "出场时间",
+    sortTeam: "球队",
+    expandAll: "展开全部",
+    collapse: "收起"
   },
   en: {
     documentTitle: "WorldCup Gadget - Desktop World Cup Floating Ball",
     navDownload: "Download",
-    heroTitle: "World Cup action, elegantly unfolding on your desktop.",
+    heroTitle: "World Cup action,\nelegantly unfolding on your desktop.",
     heroSubtitle: "Live scores, group tables, fixtures, and top scorers in one polished view.",
     downloadLatest: "Download Latest",
     releaseNote: "Free beta distribution through GitHub Pages + GitHub Releases.",
@@ -57,10 +72,10 @@ const translations = {
     standingsBody: "Switch groups to inspect ranking, form, goal difference, and points with qualification spots highlighted.",
     bracketTitle: "Knockout Bracket",
     bracketBody: "If knockout fixtures have not started, TBD placeholders stay in place until real data arrives.",
-    scheduleTitle: "Schedule",
-    scheduleBody: "Browse fixtures by date with time, stage, venue, status, and finished scores.",
+    scheduleTitle: "Full Schedule / Tournament Map",
+    scheduleBody: "Browse every group and knockout fixture with stage and status filters.",
     scorersTitle: "Top Scorers",
-    scorersBody: "The top three players get spotlight cards, followed by a compact scoring list.",
+    scorersBody: "The top three get spotlight cards, while the full ranking supports sorting, avatars, and expansion.",
     productTitle: "Mac Desktop Floating Ball",
     productBody: "The report can appear automatically at 10 AM, then stay quiet as a floating ball on your desktop edge.",
     productAutoTitle: "Daily Auto Show",
@@ -87,9 +102,48 @@ const translations = {
     noGoals: "No goal events yet",
     venue: "Venue",
     assists: "Assists",
-    penalties: "Penalties"
+    penalties: "Penalties",
+    allMatches: "All",
+    allGroups: "All Groups",
+    groupStage: "Group Stage",
+    knockoutStage: "Knockout",
+    today: "Today",
+    finished: "Finished",
+    upcoming: "Upcoming",
+    sortByLabel: "Sort",
+    sortGoals: "Goals",
+    sortAssists: "Assists",
+    sortPenalties: "Penalties",
+    sortMinutes: "Minutes",
+    sortTeam: "Team",
+    expandAll: "Expand All",
+    collapse: "Collapse"
   }
 };
+
+const groupNames = Array.from({ length: 12 }, (_, index) => `Group ${String.fromCharCode(65 + index)}`);
+const fallbackGroupTeams = {
+  "Group A": ["Mexico", "Korea Republic", "South Africa", "Czechia"],
+  "Group B": ["Switzerland", "Canada", "Bosnia and Herzegovina", "Qatar"],
+  "Group C": ["Brazil", "Morocco", "Scotland", "Haiti"],
+  "Group D": ["USA", "Türkiye", "Australia", "Paraguay"],
+  "Group E": ["Germany", "Ecuador", "Côte d'Ivoire", "Curaçao"],
+  "Group F": ["Netherlands", "Japan", "Sweden", "Tunisia"],
+  "Group G": ["Spain", "Uruguay", "Cape Verde", "Saudi Arabia"],
+  "Group H": ["England", "Belgium", "Ghana", "Panama"],
+  "Group I": ["France", "Norway", "Senegal", "Iraq"],
+  "Group J": ["Argentina", "Croatia", "Egypt", "New Zealand"],
+  "Group K": ["Colombia", "Portugal", "DR Congo", "Saudi Arabia"],
+  "Group L": ["Uruguay", "Denmark", "Serbia", "Chile"]
+};
+const bracketSpecs = [
+  ["Round of 32", 16],
+  ["Round of 16", 8],
+  ["Quarter-finals", 4],
+  ["Semi-finals", 2],
+  ["Third-place match", 1],
+  ["Final", 1]
+];
 
 const inlineFallbackData = {
   live: {
@@ -169,6 +223,9 @@ let currentLanguage = "zh";
 let pageData = inlineFallbackData;
 let activeMatchIndex = 0;
 let activeGroupIndex = 0;
+let scheduleFilter = "all";
+let scorerSort = "goals";
+let showAllScorers = false;
 let countUpStarted = false;
 let revealObserver = null;
 
@@ -206,6 +263,77 @@ function applyLanguage(language) {
 
 function dataUrl(fileName) {
   return new URL(`data/${fileName}`, window.location.href).href;
+}
+
+function fallbackStandingRow(team, rank) {
+  return {
+    rank,
+    team,
+    flag: "🏳️",
+    played: 0,
+    won: 0,
+    drawn: 0,
+    lost: 0,
+    goalsFor: 0,
+    goalsAgainst: 0,
+    goalDifference: 0,
+    points: 0
+  };
+}
+
+function normalizedGroups() {
+  const groups = pageData.standings?.groups || [];
+  const byGroup = new Map(groups.map((group) => [group.group, group]));
+  return groupNames.map((groupName) => {
+    const rows = byGroup.get(groupName)?.rows || [];
+    const fallbackTeams = fallbackGroupTeams[groupName] || [];
+    return {
+      group: groupName,
+      rows: Array.from({ length: 4 }, (_, index) => ({
+        ...fallbackStandingRow(fallbackTeams[index] || "TBD", index + 1),
+        ...(rows[index] || {}),
+        rank: rows[index]?.rank || index + 1
+      }))
+    };
+  });
+}
+
+function blankBracketMatch(roundName, index) {
+  return {
+    id: `${roundName}-${index + 1}`,
+    stage: roundName,
+    date: "",
+    time: "",
+    status: "TBD",
+    home: { name: "TBD", flag: "🏳️", code: "TBD", score: null },
+    away: { name: "TBD", flag: "🏳️", code: "TBD", score: null },
+    winner: null
+  };
+}
+
+function normalizedBracketRounds() {
+  const rounds = pageData.bracket?.rounds || [];
+  const byRound = new Map(rounds.map((round) => [round.name, round]));
+  return bracketSpecs.map(([name, count]) => ({
+    name,
+    matches: Array.from({ length: count }, (_, index) => ({
+      ...blankBracketMatch(name, index),
+      ...(byRound.get(name)?.matches?.[index] || {})
+    }))
+  }));
+}
+
+function playerName(player) {
+  return typeof player?.player === "object" ? player.player.name : player?.player || "Unknown";
+}
+
+function playerPhoto(player) {
+  return typeof player?.player === "object" ? player.player.photo : "";
+}
+
+function playerTeam(player) {
+  if (typeof player?.team === "object") return player.team;
+  return { name: player?.team || "TBD", flag: player?.flag || "🏳️", code: "" };
 }
 
 async function fetchJson(fileName) {
@@ -325,11 +453,32 @@ function renderLiveMatches() {
 }
 
 function renderStandings() {
-  const groups = pageData.standings?.groups || [];
+  const groups = normalizedGroups();
+  const overview = document.getElementById("groupOverview");
   const tabs = document.getElementById("groupTabs");
   const body = document.getElementById("standingsBody");
+  overview.innerHTML = "";
   tabs.innerHTML = "";
   body.innerHTML = "";
+
+  groups.forEach((group, index) => {
+    const card = document.createElement("button");
+    card.type = "button";
+    card.className = `group-card${index === activeGroupIndex ? " is-active" : ""}`;
+    card.style.setProperty("--delay", `${index * 35}ms`);
+    card.innerHTML = `
+      <strong>${group.group}</strong>
+      <span>${t("allGroups")}</span>
+      ${group.rows
+        .map((row) => `<em class="${row.rank <= 2 ? "qualifies" : row.rank === 3 ? "third-place" : ""}">${row.rank}. ${row.flag || "🏳️"} ${row.team} · ${row.points}</em>`)
+        .join("")}
+    `;
+    card.addEventListener("click", () => {
+      activeGroupIndex = index;
+      renderStandings();
+    });
+    overview.append(card);
+  });
 
   groups.forEach((group, index) => {
     const button = document.createElement("button");
@@ -347,7 +496,7 @@ function renderStandings() {
   const activeGroup = groups[activeGroupIndex] || groups[0];
   (activeGroup?.rows || []).forEach((row, index) => {
     const tr = document.createElement("tr");
-    tr.className = row.rank <= 2 ? "qualifies" : "";
+    tr.className = row.rank <= 2 ? "qualifies" : row.rank === 3 ? "third-place" : "";
     tr.style.setProperty("--delay", `${index * 45}ms`);
     tr.innerHTML = `
       <td>${row.rank}</td>
@@ -368,7 +517,7 @@ function renderStandings() {
 function renderBracket() {
   const flow = document.getElementById("bracketFlow");
   flow.innerHTML = "";
-  (pageData.bracket?.rounds || []).forEach((round, roundIndex) => {
+  normalizedBracketRounds().forEach((round, roundIndex) => {
     const column = document.createElement("div");
     column.className = "bracket-round";
     column.style.setProperty("--delay", `${roundIndex * 100}ms`);
@@ -376,10 +525,12 @@ function renderBracket() {
     (round.matches || []).forEach((match) => {
       const item = document.createElement("article");
       item.className = "bracket-card";
+      const homeWins = match.winner === match.home?.code || (match.status === "FT" && Number(match.home?.score) > Number(match.away?.score));
+      const awayWins = match.winner === match.away?.code || (match.status === "FT" && Number(match.away?.score) > Number(match.home?.score));
       item.innerHTML = `
-        <div><span>${match.home?.flag || "🏳️"} ${match.home?.name || "TBD"}</span><strong>${match.home?.score ?? ""}</strong></div>
-        <div><span>${match.away?.flag || "🏳️"} ${match.away?.name || "TBD"}</span><strong>${match.away?.score ?? ""}</strong></div>
-        <small>${statusLabel(match.status)}</small>
+        <small>${match.date || match.time || round.name} · ${statusLabel(match.status)}</small>
+        <div class="${homeWins ? "winner" : ""}"><span>${match.home?.flag || "🏳️"} ${match.home?.name || "TBD"}</span><strong>${match.home?.score ?? ""}</strong></div>
+        <div class="${awayWins ? "winner" : ""}"><span>${match.away?.flag || "🏳️"} ${match.away?.name || "TBD"}</span><strong>${match.away?.score ?? ""}</strong></div>
       `;
       column.append(item);
     });
@@ -389,20 +540,55 @@ function renderBracket() {
 
 function renderSchedule() {
   const list = document.getElementById("scheduleList");
+  const filters = document.getElementById("scheduleFilters");
   list.innerHTML = "";
+  filters.innerHTML = "";
+  const filterOptions = [
+    ["all", t("allMatches")],
+    ["group", t("groupStage")],
+    ["knockout", t("knockoutStage")],
+    ["today", t("today")],
+    ["finished", t("finished")],
+    ["upcoming", t("upcoming")]
+  ];
+  filterOptions.forEach(([value, label]) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = label;
+    button.setAttribute("aria-selected", String(scheduleFilter === value));
+    button.addEventListener("click", () => {
+      scheduleFilter = value;
+      renderSchedule();
+    });
+    filters.append(button);
+  });
+
+  const todayKey = new Date().toISOString().slice(0, 10);
+  const filteredMatches = (pageData.schedule?.matches || []).filter((match) => {
+    const isGroup = /^Group\s+[A-L]$/i.test(match.stage || "");
+    const isFinished = match.status === "FT";
+    const isUpcoming = match.status === "Scheduled" || match.status === "TBD";
+    if (scheduleFilter === "group") return isGroup;
+    if (scheduleFilter === "knockout") return !isGroup;
+    if (scheduleFilter === "today") return match.date === todayKey;
+    if (scheduleFilter === "finished") return isFinished;
+    if (scheduleFilter === "upcoming") return isUpcoming;
+    return true;
+  });
+
   const grouped = new Map();
-  (pageData.schedule?.matches || []).forEach((match) => {
-    const key = match.date || "TBD";
+  filteredMatches.forEach((match) => {
+    const key = match.date || match.stage || "TBD";
     if (!grouped.has(key)) grouped.set(key, []);
     grouped.get(key).push(match);
   });
 
-  [...grouped.entries()].slice(0, 6).forEach(([date, matches], dateIndex) => {
+  [...grouped.entries()].forEach(([date, matches], dateIndex) => {
     const group = document.createElement("div");
     group.className = "schedule-day";
     group.style.setProperty("--delay", `${dateIndex * 70}ms`);
     group.innerHTML = `<h3>${date}</h3>`;
-    matches.slice(0, 6).forEach((match) => {
+    matches.forEach((match) => {
       const item = document.createElement("article");
       item.className = "schedule-item";
       item.innerHTML = `
@@ -432,33 +618,57 @@ function initials(name) {
 }
 
 function renderScorers() {
-  const players = pageData.scorers?.players || [];
+  const players = [...(pageData.scorers?.players || [])].sort((a, b) => {
+    if (scorerSort === "team") return playerTeam(a).name.localeCompare(playerTeam(b).name);
+    return Number(b[scorerSort] || 0) - Number(a[scorerSort] || 0) || Number(b.goals || 0) - Number(a.goals || 0);
+  }).map((player, index) => ({ ...player, rank: index + 1 }));
   const podium = document.getElementById("podiumGrid");
   const list = document.getElementById("scorerList");
+  const sortSelect = document.getElementById("scorerSort");
+  const toggleButton = document.getElementById("toggleScorers");
   podium.innerHTML = "";
   list.innerHTML = "";
+  sortSelect.value = scorerSort;
+  toggleButton.textContent = showAllScorers ? t("collapse") : t("expandAll");
+  sortSelect.onchange = () => {
+    scorerSort = sortSelect.value;
+    renderScorers();
+  };
+  toggleButton.onclick = () => {
+    showAllScorers = !showAllScorers;
+    renderScorers();
+  };
 
   players.slice(0, 3).forEach((player, index) => {
+    const name = playerName(player);
+    const photo = playerPhoto(player);
+    const team = playerTeam(player);
     const card = document.createElement("article");
     card.className = "podium-card";
     card.style.setProperty("--delay", `${index * 80}ms`);
     card.innerHTML = `
-      <div class="avatar">${initials(player.player)}</div>
-      <span>#${player.rank} ${player.flag} ${player.team}</span>
-      <h3>${player.player}</h3>
+      <div class="avatar ${photo ? "has-photo" : ""}">${photo ? `<img src="${photo}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-photo'); this.remove()">` : ""}<span>${initials(name)}</span></div>
+      <span>#${player.rank} ${team.flag} ${team.name}</span>
+      <h3>${name}</h3>
       <strong data-count="${player.goals}">0</strong>
-      <p>${t("assists")}: ${player.assists ?? 0}${player.penalties !== null && player.penalties !== undefined ? ` · ${t("penalties")}: ${player.penalties}` : ""}</p>
+      <p>${t("assists")}: ${player.assists ?? 0}${player.penalties !== null && player.penalties !== undefined ? ` · ${t("penalties")}: ${player.penalties}` : ""}${player.minutes ? ` · ${player.minutes}′` : ""}</p>
     `;
     podium.append(card);
   });
 
-  players.slice(3, 12).forEach((player) => {
+  const visibleRows = showAllScorers ? players.slice(3) : players.slice(3, 20);
+  visibleRows.forEach((player) => {
+    const name = playerName(player);
+    const photo = playerPhoto(player);
+    const team = playerTeam(player);
     const row = document.createElement("article");
     row.className = "scorer-row";
     row.innerHTML = `
       <span>#${player.rank}</span>
-      <strong>${player.player}</strong>
-      <em>${player.flag} ${player.team}</em>
+      <div class="avatar small ${photo ? "has-photo" : ""}">${photo ? `<img src="${photo}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-photo'); this.remove()">` : ""}<span>${initials(name)}</span></div>
+      <strong>${name}</strong>
+      <em>${team.flag} ${team.name}</em>
+      <small>${t("assists")}: ${player.assists ?? 0}${player.penalties !== null && player.penalties !== undefined ? ` · ${t("penalties")}: ${player.penalties}` : ""}${player.minutes ? ` · ${player.minutes}′` : ""}</small>
       <b>${player.goals}</b>
     `;
     list.append(row);

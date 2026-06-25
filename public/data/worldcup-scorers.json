@@ -7,93 +7,411 @@
   "players": [
     {
       "rank": 1,
-      "player": "Vinícius Júnior",
-      "team": "Brazil",
-      "flag": "🇧🇷",
+      "player": {
+        "id": "Lionel Messi-ARG",
+        "name": "Lionel Messi",
+        "photo": ""
+      },
+      "team": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷"
+      },
       "goals": 2,
-      "assists": 0,
-      "penalties": null
+      "assists": 2,
+      "penalties": 1,
+      "minutes": 270
     },
     {
       "rank": 2,
-      "player": "Achraf Hakimi",
-      "team": "Morocco",
-      "flag": "🇲🇦",
-      "goals": 1,
-      "assists": 0,
-      "penalties": null
+      "player": {
+        "id": "Kylian Mbappé-FRA",
+        "name": "Kylian Mbappé",
+        "photo": ""
+      },
+      "team": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷"
+      },
+      "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "minutes": 260
     },
     {
       "rank": 3,
-      "player": "Daniel Muñoz",
-      "team": "Colombia",
-      "flag": "🇨🇴",
-      "goals": 1,
+      "player": {
+        "id": "Vinícius Júnior-BRA",
+        "name": "Vinícius Júnior",
+        "photo": ""
+      },
+      "team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷"
+      },
+      "goals": 2,
       "assists": 0,
-      "penalties": null
+      "penalties": null,
+      "minutes": null
     },
     {
       "rank": 4,
-      "player": "Ermin Mahmić",
-      "team": "Bosnia and Herzegovina",
-      "flag": "🇧🇦",
+      "player": {
+        "id": "Raphinha-BRA",
+        "name": "Raphinha",
+        "photo": ""
+      },
+      "team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷"
+      },
       "goals": 1,
-      "assists": 0,
-      "penalties": null
+      "assists": 2,
+      "penalties": 0,
+      "minutes": 230
     },
     {
       "rank": 5,
-      "player": "Gessime Yassine",
-      "team": "Morocco",
-      "flag": "🇲🇦",
+      "player": {
+        "id": "Christian Pulisic-USA",
+        "name": "Christian Pulisic",
+        "photo": ""
+      },
+      "team": {
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸"
+      },
       "goals": 1,
-      "assists": 0,
-      "penalties": null
+      "assists": 1,
+      "penalties": 0,
+      "minutes": 240
     },
     {
       "rank": 6,
-      "player": "Hassan Al-Haydos",
-      "team": "Qatar",
-      "flag": "🇶🇦",
+      "player": {
+        "id": "Harry Kane-ENG",
+        "name": "Harry Kane",
+        "photo": ""
+      },
+      "team": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴"
+      },
       "goals": 1,
-      "assists": 0,
-      "penalties": null
+      "assists": 1,
+      "penalties": 0,
+      "minutes": 250
     },
     {
       "rank": 7,
-      "player": "Ismael Saibari",
-      "team": "Morocco",
-      "flag": "🇲🇦",
+      "player": {
+        "id": "Achraf Hakimi-MAR",
+        "name": "Achraf Hakimi",
+        "photo": ""
+      },
+      "team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦"
+      },
       "goals": 1,
       "assists": 0,
-      "penalties": null
+      "penalties": null,
+      "minutes": null
     },
     {
       "rank": 8,
-      "player": "Johan Manzambi",
-      "team": "Switzerland",
-      "flag": "🇨🇭",
+      "player": {
+        "id": "Cristiano Ronaldo-POR",
+        "name": "Cristiano Ronaldo",
+        "photo": ""
+      },
+      "team": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹"
+      },
       "goals": 1,
       "assists": 0,
-      "penalties": null
+      "penalties": 1,
+      "minutes": 210
     },
     {
       "rank": 9,
-      "player": "Kerim Alajbegović",
-      "team": "Bosnia and Herzegovina",
-      "flag": "🇧🇦",
+      "player": {
+        "id": "Daniel Muñoz-COL",
+        "name": "Daniel Muñoz",
+        "photo": ""
+      },
+      "team": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴"
+      },
       "goals": 1,
       "assists": 0,
-      "penalties": null
+      "penalties": null,
+      "minutes": null
     },
     {
       "rank": 10,
-      "player": "Lenny Joseph",
-      "team": "Haiti",
-      "flag": "🇭🇹",
+      "player": {
+        "id": "Ermin Mahmić-BIH",
+        "name": "Ermin Mahmić",
+        "photo": ""
+      },
+      "team": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦"
+      },
       "goals": 1,
       "assists": 0,
-      "penalties": null
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 11,
+      "player": {
+        "id": "Gessime Yassine-MAR",
+        "name": "Gessime Yassine",
+        "photo": ""
+      },
+      "team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 12,
+      "player": {
+        "id": "Hassan Al-Haydos-QAT",
+        "name": "Hassan Al-Haydos",
+        "photo": ""
+      },
+      "team": {
+        "name": "Qatar",
+        "code": "QAT",
+        "flag": "🇶🇦"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 13,
+      "player": {
+        "id": "Ismael Saibari-MAR",
+        "name": "Ismael Saibari",
+        "photo": ""
+      },
+      "team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 14,
+      "player": {
+        "id": "Jamal Musiala-GER",
+        "name": "Jamal Musiala",
+        "photo": ""
+      },
+      "team": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": 0,
+      "minutes": 220
+    },
+    {
+      "rank": 15,
+      "player": {
+        "id": "Johan Manzambi-SUI",
+        "name": "Johan Manzambi",
+        "photo": ""
+      },
+      "team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 16,
+      "player": {
+        "id": "Jude Bellingham-ENG",
+        "name": "Jude Bellingham",
+        "photo": ""
+      },
+      "team": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": 0,
+      "minutes": 240
+    },
+    {
+      "rank": 17,
+      "player": {
+        "id": "Kerim Alajbegović-BIH",
+        "name": "Kerim Alajbegović",
+        "photo": ""
+      },
+      "team": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 18,
+      "player": {
+        "id": "Lautaro Martínez-ARG",
+        "name": "Lautaro Martínez",
+        "photo": ""
+      },
+      "team": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": 0,
+      "minutes": 160
+    },
+    {
+      "rank": 19,
+      "player": {
+        "id": "Lenny Joseph-HAI",
+        "name": "Lenny Joseph",
+        "photo": ""
+      },
+      "team": {
+        "name": "Haiti",
+        "code": "HAI",
+        "flag": "🇭🇹"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 20,
+      "player": {
+        "id": "Matheus Cunha-BRA",
+        "name": "Matheus Cunha",
+        "photo": ""
+      },
+      "team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 21,
+      "player": {
+        "id": "Promise David-CAN",
+        "name": "Promise David",
+        "photo": ""
+      },
+      "team": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 22,
+      "player": {
+        "id": "Ruben Vargas-SUI",
+        "name": "Ruben Vargas",
+        "photo": ""
+      },
+      "team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 23,
+      "player": {
+        "id": "Soufiane Rahimi-MAR",
+        "name": "Soufiane Rahimi",
+        "photo": ""
+      },
+      "team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 24,
+      "player": {
+        "id": "Wilson Isidor-HAI",
+        "name": "Wilson Isidor",
+        "photo": ""
+      },
+      "team": {
+        "name": "Haiti",
+        "code": "HAI",
+        "flag": "🇭🇹"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
     }
   ]
 }

@@ -6,6 +6,63 @@
   "notice": "数据暂未更新，当前显示示例数据",
   "groups": [
     {
+      "group": "Group A",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Mexico",
+          "flag": "🇲🇽",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 2,
+          "team": "Korea Republic",
+          "flag": "🇰🇷",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 3,
+          "team": "South Africa",
+          "flag": "🇿🇦",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "Czechia",
+          "flag": "🇨🇿",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
       "group": "Group B",
       "rows": [
         {
@@ -120,6 +177,405 @@
       ]
     },
     {
+      "group": "Group D",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "USA",
+          "flag": "🇺🇸",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 2,
+          "team": "Türkiye",
+          "flag": "🇹🇷",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 3,
+          "team": "Australia",
+          "flag": "🇦🇺",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "Paraguay",
+          "flag": "🇵🇾",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group E",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Germany",
+          "flag": "🇩🇪",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 2,
+          "team": "Ecuador",
+          "flag": "🇪🇨",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 3,
+          "team": "Côte d'Ivoire",
+          "flag": "🇨🇮",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "Curaçao",
+          "flag": "🇨🇼",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group F",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Netherlands",
+          "flag": "🇳🇱",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 2,
+          "team": "Japan",
+          "flag": "🇯🇵",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 3,
+          "team": "Sweden",
+          "flag": "🇸🇪",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "Tunisia",
+          "flag": "🇹🇳",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group G",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Spain",
+          "flag": "🇪🇸",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 2,
+          "team": "Uruguay",
+          "flag": "🇺🇾",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 3,
+          "team": "Cape Verde",
+          "flag": "🇨🇻",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "Saudi Arabia",
+          "flag": "🇸🇦",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group H",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "England",
+          "flag": "🏴",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 2,
+          "team": "Ghana",
+          "flag": "🇬🇭",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 3,
+          "team": "Belgium",
+          "flag": "🇧🇪",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "Panama",
+          "flag": "🇵🇦",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group I",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "France",
+          "flag": "🇫🇷",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 2,
+          "team": "Norway",
+          "flag": "🇳🇴",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 3,
+          "team": "Senegal",
+          "flag": "🇸🇳",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "Iraq",
+          "flag": "🇮🇶",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group J",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Argentina",
+          "flag": "🇦🇷",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 2,
+          "team": "Croatia",
+          "flag": "🇭🇷",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 3,
+          "team": "Egypt",
+          "flag": "🇪🇬",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "New Zealand",
+          "flag": "🇳🇿",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
       "group": "Group K",
       "rows": [
         {
@@ -172,6 +628,63 @@
           "goalsFor": 0,
           "goalsAgainst": 3,
           "goalDifference": -3,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group L",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Uruguay",
+          "flag": "🇺🇾",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 2,
+          "team": "Denmark",
+          "flag": "🇩🇰",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 3,
+          "team": "Serbia",
+          "flag": "🇷🇸",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "rank": 4,
+          "team": "Chile",
+          "flag": "🇨🇱",
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
           "points": 0
         }
       ]

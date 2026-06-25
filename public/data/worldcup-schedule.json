@@ -6,9 +6,30 @@
   "notice": "数据暂未更新，当前显示示例数据",
   "matches": [
     {
-      "id": "seed-schedule-1",
-      "date": "2026-06-25",
-      "time": "北京时间 2026-06-25 10:00",
+      "id": "group-a-1",
+      "date": "2026-06-11",
+      "time": "2026-06-11T12:00:00.000Z",
+      "stage": "Group A",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "score": null
+      },
+      "away": {
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "score": null
+      }
+    },
+    {
+      "id": "group-a-2",
+      "date": "2026-06-11",
+      "time": "2026-06-11T15:00:00.000Z",
       "stage": "Group A",
       "venue": "TBD",
       "status": "Scheduled",
@@ -20,58 +41,541 @@
         "score": null
       },
       "away": {
-        "name": "Korea Republic",
-        "code": "KOR",
-        "flag": "🇰🇷",
+        "name": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿",
         "score": null
       }
     },
     {
-      "id": "seed-schedule-2",
-      "date": "2026-06-25",
-      "time": "北京时间 2026-06-25 10:00",
+      "id": "group-a-3",
+      "date": "2026-06-12",
+      "time": "2026-06-12T18:00:00.000Z",
       "stage": "Group A",
       "venue": "TBD",
       "status": "Scheduled",
       "score": "",
       "home": {
-        "name": "Czechia",
-        "code": "CZE",
-        "flag": "🇨🇿",
-        "score": null
-      },
-      "away": {
         "name": "Mexico",
         "code": "MEX",
         "flag": "🇲🇽",
         "score": null
+      },
+      "away": {
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦",
+        "score": null
       }
     },
     {
-      "id": "seed-schedule-3",
-      "date": "2026-06-26",
-      "time": "北京时间 2026-06-26 04:00",
+      "id": "group-a-4",
+      "date": "2026-06-12",
+      "time": "2026-06-12T12:00:00.000Z",
+      "stage": "Group A",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿",
+        "score": null
+      }
+    },
+    {
+      "id": "group-a-5",
+      "date": "2026-06-13",
+      "time": "2026-06-13T15:00:00.000Z",
+      "stage": "Group A",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "score": null
+      },
+      "away": {
+        "name": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿",
+        "score": null
+      }
+    },
+    {
+      "id": "group-a-6",
+      "date": "2026-06-13",
+      "time": "2026-06-13T18:00:00.000Z",
+      "stage": "Group A",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "score": null
+      },
+      "away": {
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "seed-completed-3",
+      "date": "2026-06-25",
+      "time": "北京时间 2026-06-25 04:52",
+      "stage": "Group B",
+      "venue": "BC Place Vancouver",
+      "status": "FT",
+      "score": "2-1",
+      "home": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "score": 2
+      },
+      "away": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "score": 1
+      }
+    },
+    {
+      "id": "seed-completed-2",
+      "date": "2026-06-25",
+      "time": "北京时间 2026-06-25 04:52",
+      "stage": "Group B",
+      "venue": "Seattle Stadium",
+      "status": "FT",
+      "score": "3-1",
+      "home": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦",
+        "score": 3
+      },
+      "away": {
+        "name": "Qatar",
+        "code": "QAT",
+        "flag": "🇶🇦",
+        "score": 1
+      }
+    },
+    {
+      "id": "group-b-3",
+      "date": "2026-06-13",
+      "time": "2026-06-13T18:00:00.000Z",
+      "stage": "Group B",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "score": null
+      },
+      "away": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-b-4",
+      "date": "2026-06-13",
+      "time": "2026-06-13T12:00:00.000Z",
+      "stage": "Group B",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "score": null
+      },
+      "away": {
+        "name": "Qatar",
+        "code": "QAT",
+        "flag": "🇶🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-b-5",
+      "date": "2026-06-14",
+      "time": "2026-06-14T15:00:00.000Z",
+      "stage": "Group B",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "score": null
+      },
+      "away": {
+        "name": "Qatar",
+        "code": "QAT",
+        "flag": "🇶🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-b-6",
+      "date": "2026-06-14",
+      "time": "2026-06-14T18:00:00.000Z",
+      "stage": "Group B",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "score": null
+      },
+      "away": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-c-1",
+      "date": "2026-06-13",
+      "time": "2026-06-13T12:00:00.000Z",
+      "stage": "Group C",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-c-2",
+      "date": "2026-06-13",
+      "time": "2026-06-13T15:00:00.000Z",
+      "stage": "Group C",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Scotland",
+        "code": "SCO",
+        "flag": "🏴",
+        "score": null
+      },
+      "away": {
+        "name": "Haiti",
+        "code": "HAI",
+        "flag": "🇭🇹",
+        "score": null
+      }
+    },
+    {
+      "id": "group-c-3",
+      "date": "2026-06-14",
+      "time": "2026-06-14T18:00:00.000Z",
+      "stage": "Group C",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Scotland",
+        "code": "SCO",
+        "flag": "🏴",
+        "score": null
+      }
+    },
+    {
+      "id": "seed-completed-4",
+      "date": "2026-06-25",
+      "time": "北京时间 2026-06-25 07:54",
+      "stage": "Group C",
+      "venue": "Atlanta Stadium",
+      "status": "FT",
+      "score": "4-2",
+      "home": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "score": 4
+      },
+      "away": {
+        "name": "Haiti",
+        "code": "HAI",
+        "flag": "🇭🇹",
+        "score": 2
+      }
+    },
+    {
+      "id": "group-c-5",
+      "date": "2026-06-15",
+      "time": "2026-06-15T15:00:00.000Z",
+      "stage": "Group C",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Haiti",
+        "code": "HAI",
+        "flag": "🇭🇹",
+        "score": null
+      }
+    },
+    {
+      "id": "group-c-6",
+      "date": "2026-06-15",
+      "time": "2026-06-15T18:00:00.000Z",
+      "stage": "Group C",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "score": null
+      },
+      "away": {
+        "name": "Scotland",
+        "code": "SCO",
+        "flag": "🏴",
+        "score": null
+      }
+    },
+    {
+      "id": "group-d-1",
+      "date": "2026-06-14",
+      "time": "2026-06-14T12:00:00.000Z",
+      "stage": "Group D",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "score": null
+      },
+      "away": {
+        "name": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷",
+        "score": null
+      }
+    },
+    {
+      "id": "group-d-2",
+      "date": "2026-06-14",
+      "time": "2026-06-14T15:00:00.000Z",
+      "stage": "Group D",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺",
+        "score": null
+      },
+      "away": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "flag": "🇵🇾",
+        "score": null
+      }
+    },
+    {
+      "id": "group-d-3",
+      "date": "2026-06-15",
+      "time": "2026-06-15T18:00:00.000Z",
+      "stage": "Group D",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "score": null
+      },
+      "away": {
+        "name": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺",
+        "score": null
+      }
+    },
+    {
+      "id": "group-d-4",
+      "date": "2026-06-15",
+      "time": "2026-06-15T12:00:00.000Z",
+      "stage": "Group D",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "flag": "🇵🇾",
+        "score": null
+      }
+    },
+    {
+      "id": "group-d-5",
+      "date": "2026-06-16",
+      "time": "2026-06-16T15:00:00.000Z",
+      "stage": "Group D",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "score": null
+      },
+      "away": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "flag": "🇵🇾",
+        "score": null
+      }
+    },
+    {
+      "id": "group-d-6",
+      "date": "2026-06-16",
+      "time": "2026-06-16T18:00:00.000Z",
+      "stage": "Group D",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺",
+        "score": null
+      }
+    },
+    {
+      "id": "group-e-1",
+      "date": "2026-06-15",
+      "time": "2026-06-15T12:00:00.000Z",
       "stage": "Group E",
       "venue": "TBD",
       "status": "Scheduled",
       "score": "",
       "home": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "score": null
+      },
+      "away": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "flag": "🇪🇨",
+        "score": null
+      }
+    },
+    {
+      "id": "group-e-2",
+      "date": "2026-06-15",
+      "time": "2026-06-15T15:00:00.000Z",
+      "stage": "Group E",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "flag": "🇨🇮",
+        "score": null
+      },
+      "away": {
         "name": "Curaçao",
         "code": "CUW",
         "flag": "🇨🇼",
         "score": null
+      }
+    },
+    {
+      "id": "group-e-3",
+      "date": "2026-06-16",
+      "time": "2026-06-16T18:00:00.000Z",
+      "stage": "Group E",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "score": null
       },
       "away": {
         "name": "Côte d'Ivoire",
-        "code": "CTE",
+        "code": "CIV",
         "flag": "🇨🇮",
         "score": null
       }
     },
     {
-      "id": "seed-schedule-4",
-      "date": "2026-06-26",
-      "time": "北京时间 2026-06-26 04:00",
+      "id": "group-e-4",
+      "date": "2026-06-16",
+      "time": "2026-06-16T12:00:00.000Z",
       "stage": "Group E",
       "venue": "TBD",
       "status": "Scheduled",
@@ -83,37 +587,163 @@
         "score": null
       },
       "away": {
-        "name": "Germany",
-        "code": "GER",
-        "flag": "🇩🇪",
+        "name": "Curaçao",
+        "code": "CUW",
+        "flag": "🇨🇼",
         "score": null
       }
     },
     {
-      "id": "seed-schedule-5",
-      "date": "2026-06-26",
-      "time": "北京时间 2026-06-26 07:00",
+      "id": "group-e-5",
+      "date": "2026-06-17",
+      "time": "2026-06-17T15:00:00.000Z",
+      "stage": "Group E",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "score": null
+      },
+      "away": {
+        "name": "Curaçao",
+        "code": "CUW",
+        "flag": "🇨🇼",
+        "score": null
+      }
+    },
+    {
+      "id": "group-e-6",
+      "date": "2026-06-17",
+      "time": "2026-06-17T18:00:00.000Z",
+      "stage": "Group E",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "flag": "🇪🇨",
+        "score": null
+      },
+      "away": {
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "flag": "🇨🇮",
+        "score": null
+      }
+    },
+    {
+      "id": "group-f-1",
+      "date": "2026-06-16",
+      "time": "2026-06-16T12:00:00.000Z",
       "stage": "Group F",
       "venue": "TBD",
       "status": "Scheduled",
       "score": "",
       "home": {
-        "name": "Tunisia",
-        "code": "TUN",
-        "flag": "🇹🇳",
-        "score": null
-      },
-      "away": {
         "name": "Netherlands",
         "code": "NED",
         "flag": "🇳🇱",
         "score": null
+      },
+      "away": {
+        "name": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵",
+        "score": null
       }
     },
     {
-      "id": "seed-schedule-6",
-      "date": "2026-06-26",
-      "time": "北京时间 2026-06-26 07:00",
+      "id": "group-f-2",
+      "date": "2026-06-16",
+      "time": "2026-06-16T15:00:00.000Z",
+      "stage": "Group F",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "score": null
+      },
+      "away": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "flag": "🇹🇳",
+        "score": null
+      }
+    },
+    {
+      "id": "group-f-3",
+      "date": "2026-06-17",
+      "time": "2026-06-17T18:00:00.000Z",
+      "stage": "Group F",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "score": null
+      },
+      "away": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "score": null
+      }
+    },
+    {
+      "id": "group-f-4",
+      "date": "2026-06-17",
+      "time": "2026-06-17T12:00:00.000Z",
+      "stage": "Group F",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵",
+        "score": null
+      },
+      "away": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "flag": "🇹🇳",
+        "score": null
+      }
+    },
+    {
+      "id": "group-f-5",
+      "date": "2026-06-18",
+      "time": "2026-06-18T15:00:00.000Z",
+      "stage": "Group F",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "score": null
+      },
+      "away": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "flag": "🇹🇳",
+        "score": null
+      }
+    },
+    {
+      "id": "group-f-6",
+      "date": "2026-06-18",
+      "time": "2026-06-18T18:00:00.000Z",
       "stage": "Group F",
       "venue": "TBD",
       "status": "Scheduled",
@@ -132,44 +762,1430 @@
       }
     },
     {
-      "id": "seed-schedule-7",
-      "date": "2026-06-26",
-      "time": "北京时间 2026-06-26 10:00",
-      "stage": "Group D",
+      "id": "group-g-1",
+      "date": "2026-06-17",
+      "time": "2026-06-17T12:00:00.000Z",
+      "stage": "Group G",
       "venue": "TBD",
       "status": "Scheduled",
       "score": "",
       "home": {
-        "name": "Paraguay",
-        "code": "PAR",
-        "flag": "🇵🇾",
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
         "score": null
       },
       "away": {
-        "name": "Australia",
-        "code": "AUS",
-        "flag": "🇦🇺",
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
         "score": null
       }
     },
     {
-      "id": "seed-schedule-8",
-      "date": "2026-06-26",
-      "time": "北京时间 2026-06-26 10:00",
-      "stage": "Group D",
+      "id": "group-g-2",
+      "date": "2026-06-17",
+      "time": "2026-06-17T15:00:00.000Z",
+      "stage": "Group G",
       "venue": "TBD",
       "status": "Scheduled",
       "score": "",
       "home": {
-        "name": "Türkiye",
-        "code": "TUR",
-        "flag": "🇹🇷",
+        "name": "Cape Verde",
+        "code": "CPV",
+        "flag": "🇨🇻",
         "score": null
       },
       "away": {
-        "name": "USA",
-        "code": "USA",
-        "flag": "🇺🇸",
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-g-3",
+      "date": "2026-06-18",
+      "time": "2026-06-18T18:00:00.000Z",
+      "stage": "Group G",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "score": null
+      },
+      "away": {
+        "name": "Cape Verde",
+        "code": "CPV",
+        "flag": "🇨🇻",
+        "score": null
+      }
+    },
+    {
+      "id": "group-g-4",
+      "date": "2026-06-18",
+      "time": "2026-06-18T12:00:00.000Z",
+      "stage": "Group G",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "score": null
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-g-5",
+      "date": "2026-06-19",
+      "time": "2026-06-19T15:00:00.000Z",
+      "stage": "Group G",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "score": null
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-g-6",
+      "date": "2026-06-19",
+      "time": "2026-06-19T18:00:00.000Z",
+      "stage": "Group G",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "score": null
+      },
+      "away": {
+        "name": "Cape Verde",
+        "code": "CPV",
+        "flag": "🇨🇻",
+        "score": null
+      }
+    },
+    {
+      "id": "group-h-1",
+      "date": "2026-06-18",
+      "time": "2026-06-18T12:00:00.000Z",
+      "stage": "Group H",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "score": null
+      },
+      "away": {
+        "name": "Ghana",
+        "code": "GHA",
+        "flag": "🇬🇭",
+        "score": null
+      }
+    },
+    {
+      "id": "group-h-2",
+      "date": "2026-06-18",
+      "time": "2026-06-18T15:00:00.000Z",
+      "stage": "Group H",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "score": null
+      },
+      "away": {
+        "name": "Panama",
+        "code": "PAN",
+        "flag": "🇵🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-h-3",
+      "date": "2026-06-19",
+      "time": "2026-06-19T18:00:00.000Z",
+      "stage": "Group H",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "score": null
+      },
+      "away": {
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "score": null
+      }
+    },
+    {
+      "id": "group-h-4",
+      "date": "2026-06-19",
+      "time": "2026-06-19T12:00:00.000Z",
+      "stage": "Group H",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Ghana",
+        "code": "GHA",
+        "flag": "🇬🇭",
+        "score": null
+      },
+      "away": {
+        "name": "Panama",
+        "code": "PAN",
+        "flag": "🇵🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-h-5",
+      "date": "2026-06-20",
+      "time": "2026-06-20T15:00:00.000Z",
+      "stage": "Group H",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "score": null
+      },
+      "away": {
+        "name": "Panama",
+        "code": "PAN",
+        "flag": "🇵🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-h-6",
+      "date": "2026-06-20",
+      "time": "2026-06-20T18:00:00.000Z",
+      "stage": "Group H",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Ghana",
+        "code": "GHA",
+        "flag": "🇬🇭",
+        "score": null
+      },
+      "away": {
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "score": null
+      }
+    },
+    {
+      "id": "group-i-1",
+      "date": "2026-06-19",
+      "time": "2026-06-19T12:00:00.000Z",
+      "stage": "Group I",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "score": null
+      }
+    },
+    {
+      "id": "group-i-2",
+      "date": "2026-06-19",
+      "time": "2026-06-19T15:00:00.000Z",
+      "stage": "Group I",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "score": null
+      },
+      "away": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "flag": "🇮🇶",
+        "score": null
+      }
+    },
+    {
+      "id": "group-i-3",
+      "date": "2026-06-20",
+      "time": "2026-06-20T18:00:00.000Z",
+      "stage": "Group I",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "score": null
+      }
+    },
+    {
+      "id": "group-i-4",
+      "date": "2026-06-20",
+      "time": "2026-06-20T12:00:00.000Z",
+      "stage": "Group I",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "score": null
+      },
+      "away": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "flag": "🇮🇶",
+        "score": null
+      }
+    },
+    {
+      "id": "group-i-5",
+      "date": "2026-06-21",
+      "time": "2026-06-21T15:00:00.000Z",
+      "stage": "Group I",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "flag": "🇮🇶",
+        "score": null
+      }
+    },
+    {
+      "id": "group-i-6",
+      "date": "2026-06-21",
+      "time": "2026-06-21T18:00:00.000Z",
+      "stage": "Group I",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "score": null
+      },
+      "away": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "score": null
+      }
+    },
+    {
+      "id": "group-j-1",
+      "date": "2026-06-20",
+      "time": "2026-06-20T12:00:00.000Z",
+      "stage": "Group J",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "score": null
+      }
+    },
+    {
+      "id": "group-j-2",
+      "date": "2026-06-20",
+      "time": "2026-06-20T15:00:00.000Z",
+      "stage": "Group J",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "score": null
+      },
+      "away": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "flag": "🇳🇿",
+        "score": null
+      }
+    },
+    {
+      "id": "group-j-3",
+      "date": "2026-06-21",
+      "time": "2026-06-21T18:00:00.000Z",
+      "stage": "Group J",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "score": null
+      }
+    },
+    {
+      "id": "group-j-4",
+      "date": "2026-06-21",
+      "time": "2026-06-21T12:00:00.000Z",
+      "stage": "Group J",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "score": null
+      },
+      "away": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "flag": "🇳🇿",
+        "score": null
+      }
+    },
+    {
+      "id": "group-j-5",
+      "date": "2026-06-22",
+      "time": "2026-06-22T15:00:00.000Z",
+      "stage": "Group J",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "score": null
+      },
+      "away": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "flag": "🇳🇿",
+        "score": null
+      }
+    },
+    {
+      "id": "group-j-6",
+      "date": "2026-06-22",
+      "time": "2026-06-22T18:00:00.000Z",
+      "stage": "Group J",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "score": null
+      },
+      "away": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "score": null
+      }
+    },
+    {
+      "id": "group-k-1",
+      "date": "2026-06-21",
+      "time": "2026-06-21T12:00:00.000Z",
+      "stage": "Group K",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "score": null
+      },
+      "away": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "score": null
+      }
+    },
+    {
+      "id": "group-k-2",
+      "date": "2026-06-21",
+      "time": "2026-06-21T15:00:00.000Z",
+      "stage": "Group K",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "DR Congo",
+        "code": "COD",
+        "flag": "🇨🇩",
+        "score": null
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "seed-completed-1",
+      "date": "2026-06-24",
+      "time": "北京时间 2026-06-24 11:52",
+      "stage": "Group K",
+      "venue": "Guadalajara Stadium",
+      "status": "FT",
+      "score": "1-0",
+      "home": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "score": 1
+      },
+      "away": {
+        "name": "DR Congo",
+        "code": "COD",
+        "flag": "🇨🇩",
+        "score": 0
+      }
+    },
+    {
+      "id": "group-k-4",
+      "date": "2026-06-22",
+      "time": "2026-06-22T12:00:00.000Z",
+      "stage": "Group K",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "score": null
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-k-5",
+      "date": "2026-06-23",
+      "time": "2026-06-23T15:00:00.000Z",
+      "stage": "Group K",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "score": null
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "score": null
+      }
+    },
+    {
+      "id": "group-k-6",
+      "date": "2026-06-23",
+      "time": "2026-06-23T18:00:00.000Z",
+      "stage": "Group K",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "score": null
+      },
+      "away": {
+        "name": "DR Congo",
+        "code": "COD",
+        "flag": "🇨🇩",
+        "score": null
+      }
+    },
+    {
+      "id": "group-l-1",
+      "date": "2026-06-22",
+      "time": "2026-06-22T12:00:00.000Z",
+      "stage": "Group L",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "score": null
+      },
+      "away": {
+        "name": "Denmark",
+        "code": "DEN",
+        "flag": "🇩🇰",
+        "score": null
+      }
+    },
+    {
+      "id": "group-l-2",
+      "date": "2026-06-22",
+      "time": "2026-06-22T15:00:00.000Z",
+      "stage": "Group L",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Serbia",
+        "code": "SRB",
+        "flag": "🇷🇸",
+        "score": null
+      },
+      "away": {
+        "name": "Chile",
+        "code": "CHI",
+        "flag": "🇨🇱",
+        "score": null
+      }
+    },
+    {
+      "id": "group-l-3",
+      "date": "2026-06-23",
+      "time": "2026-06-23T18:00:00.000Z",
+      "stage": "Group L",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "score": null
+      },
+      "away": {
+        "name": "Serbia",
+        "code": "SRB",
+        "flag": "🇷🇸",
+        "score": null
+      }
+    },
+    {
+      "id": "group-l-4",
+      "date": "2026-06-23",
+      "time": "2026-06-23T12:00:00.000Z",
+      "stage": "Group L",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Denmark",
+        "code": "DEN",
+        "flag": "🇩🇰",
+        "score": null
+      },
+      "away": {
+        "name": "Chile",
+        "code": "CHI",
+        "flag": "🇨🇱",
+        "score": null
+      }
+    },
+    {
+      "id": "group-l-5",
+      "date": "2026-06-24",
+      "time": "2026-06-24T15:00:00.000Z",
+      "stage": "Group L",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "score": null
+      },
+      "away": {
+        "name": "Chile",
+        "code": "CHI",
+        "flag": "🇨🇱",
+        "score": null
+      }
+    },
+    {
+      "id": "group-l-6",
+      "date": "2026-06-24",
+      "time": "2026-06-24T18:00:00.000Z",
+      "stage": "Group L",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Denmark",
+        "code": "DEN",
+        "flag": "🇩🇰",
+        "score": null
+      },
+      "away": {
+        "name": "Serbia",
+        "code": "SRB",
+        "flag": "🇷🇸",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-1",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-2",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-3",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-4",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-5",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-6",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-7",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-8",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-9",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-10",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-11",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-12",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-13",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-14",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-15",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-32-16",
+      "date": "",
+      "time": "",
+      "stage": "Round of 32",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-16-1",
+      "date": "",
+      "time": "",
+      "stage": "Round of 16",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-16-2",
+      "date": "",
+      "time": "",
+      "stage": "Round of 16",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-16-3",
+      "date": "",
+      "time": "",
+      "stage": "Round of 16",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-16-4",
+      "date": "",
+      "time": "",
+      "stage": "Round of 16",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-16-5",
+      "date": "",
+      "time": "",
+      "stage": "Round of 16",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-16-6",
+      "date": "",
+      "time": "",
+      "stage": "Round of 16",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-16-7",
+      "date": "",
+      "time": "",
+      "stage": "Round of 16",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-round-of-16-8",
+      "date": "",
+      "time": "",
+      "stage": "Round of 16",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-quarter-finals-1",
+      "date": "",
+      "time": "",
+      "stage": "Quarter-finals",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-quarter-finals-2",
+      "date": "",
+      "time": "",
+      "stage": "Quarter-finals",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-quarter-finals-3",
+      "date": "",
+      "time": "",
+      "stage": "Quarter-finals",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-quarter-finals-4",
+      "date": "",
+      "time": "",
+      "stage": "Quarter-finals",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-semi-finals-1",
+      "date": "",
+      "time": "",
+      "stage": "Semi-finals",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-semi-finals-2",
+      "date": "",
+      "time": "",
+      "stage": "Semi-finals",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-third-place-match-1",
+      "date": "",
+      "time": "",
+      "stage": "Third-place match",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      }
+    },
+    {
+      "id": "schedule-final-1",
+      "date": "2026-07-19",
+      "time": "",
+      "stage": "Final",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": null
+      },
+      "away": {
+        "name": "TBD",
+        "code": "TBD",
+        "flag": "🏳️",
         "score": null
       }
     }

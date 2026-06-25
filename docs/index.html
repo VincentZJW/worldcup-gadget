@@ -99,6 +99,7 @@
           <p data-i18n="standingsBody">按小组切换查看排名、胜平负、净胜球和积分，晋级区高亮显示。</p>
         </div>
         <div class="standings-panel">
+          <div class="group-overview stagger" id="groupOverview"></div>
           <div class="group-tabs" id="groupTabs" role="tablist" aria-label="Group standings"></div>
           <div class="table-scroll">
             <table class="standings-table">
@@ -134,9 +135,10 @@
       <section class="content-section reveal" id="schedule">
         <div class="section-heading">
           <p class="section-index">04</p>
-          <h2 data-i18n="scheduleTitle">赛程安排</h2>
-          <p data-i18n="scheduleBody">按日期查看未来赛程和已结束比分，包含阶段、场馆和状态。</p>
+          <h2 data-i18n="scheduleTitle">完整赛程 / Tournament Map</h2>
+          <p data-i18n="scheduleBody">查看小组赛和淘汰赛全部比赛，可按阶段与状态快速筛选。</p>
         </div>
+        <div class="schedule-filters" id="scheduleFilters" aria-label="Schedule filters"></div>
         <div class="schedule-list stagger" id="scheduleList"></div>
       </section>
 
@@ -144,7 +146,18 @@
         <div class="section-heading">
           <p class="section-index">05</p>
           <h2 data-i18n="scorersTitle">进球榜</h2>
-          <p data-i18n="scorersBody">前三名以高亮卡片展示，后续球员以紧凑列表呈现。</p>
+          <p data-i18n="scorersBody">前三名以高亮卡片展示，完整榜单支持排序、头像 fallback 和展开全部。</p>
+        </div>
+        <div class="scorer-controls">
+          <label for="scorerSort" data-i18n="sortByLabel">排序</label>
+          <select id="scorerSort">
+            <option value="goals" data-i18n="sortGoals">进球数</option>
+            <option value="assists" data-i18n="sortAssists">助攻数</option>
+            <option value="penalties" data-i18n="sortPenalties">点球数</option>
+            <option value="minutes" data-i18n="sortMinutes">出场时间</option>
+            <option value="team" data-i18n="sortTeam">球队</option>
+          </select>
+          <button type="button" id="toggleScorers" class="small-action" data-i18n="expandAll">展开全部</button>
         </div>
         <div class="scorers-layout">
           <div class="podium-grid stagger" id="podiumGrid"></div>

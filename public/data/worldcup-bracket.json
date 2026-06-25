@@ -9,7 +9,10 @@
       "name": "Round of 32",
       "matches": [
         {
-          "id": "r32-1",
+          "id": "round-of-32-1",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
           "status": "TBD",
           "home": {
             "name": "TBD",
@@ -22,10 +25,14 @@
             "code": "TBD",
             "flag": "🏳️",
             "score": null
-          }
+          },
+          "winner": null
         },
         {
-          "id": "r32-2",
+          "id": "round-of-32-2",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
           "status": "TBD",
           "home": {
             "name": "TBD",
@@ -38,10 +45,14 @@
             "code": "TBD",
             "flag": "🏳️",
             "score": null
-          }
+          },
+          "winner": null
         },
         {
-          "id": "r32-3",
+          "id": "round-of-32-3",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
           "status": "TBD",
           "home": {
             "name": "TBD",
@@ -54,10 +65,14 @@
             "code": "TBD",
             "flag": "🏳️",
             "score": null
-          }
+          },
+          "winner": null
         },
         {
-          "id": "r32-4",
+          "id": "round-of-32-4",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
           "status": "TBD",
           "home": {
             "name": "TBD",
@@ -70,7 +85,413 @@
             "code": "TBD",
             "flag": "🏳️",
             "score": null
-          }
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-5",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-6",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-7",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-8",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-9",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-10",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-11",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-12",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-13",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-14",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-15",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-32-16",
+          "date": "",
+          "time": "",
+          "stage": "Round of 32",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        }
+      ]
+    },
+    {
+      "name": "Round of 16",
+      "matches": [
+        {
+          "id": "round-of-16-1",
+          "date": "",
+          "time": "",
+          "stage": "Round of 16",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-16-2",
+          "date": "",
+          "time": "",
+          "stage": "Round of 16",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-16-3",
+          "date": "",
+          "time": "",
+          "stage": "Round of 16",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-16-4",
+          "date": "",
+          "time": "",
+          "stage": "Round of 16",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-16-5",
+          "date": "",
+          "time": "",
+          "stage": "Round of 16",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-16-6",
+          "date": "",
+          "time": "",
+          "stage": "Round of 16",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-16-7",
+          "date": "",
+          "time": "",
+          "stage": "Round of 16",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "round-of-16-8",
+          "date": "",
+          "time": "",
+          "stage": "Round of 16",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
         }
       ]
     },
@@ -78,7 +499,10 @@
       "name": "Quarter-finals",
       "matches": [
         {
-          "id": "qf-1",
+          "id": "quarter-finals-1",
+          "date": "",
+          "time": "",
+          "stage": "Quarter-finals",
           "status": "TBD",
           "home": {
             "name": "TBD",
@@ -91,10 +515,14 @@
             "code": "TBD",
             "flag": "🏳️",
             "score": null
-          }
+          },
+          "winner": null
         },
         {
-          "id": "qf-2",
+          "id": "quarter-finals-2",
+          "date": "",
+          "time": "",
+          "stage": "Quarter-finals",
           "status": "TBD",
           "home": {
             "name": "TBD",
@@ -107,7 +535,118 @@
             "code": "TBD",
             "flag": "🏳️",
             "score": null
-          }
+          },
+          "winner": null
+        },
+        {
+          "id": "quarter-finals-3",
+          "date": "",
+          "time": "",
+          "stage": "Quarter-finals",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "quarter-finals-4",
+          "date": "",
+          "time": "",
+          "stage": "Quarter-finals",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        }
+      ]
+    },
+    {
+      "name": "Semi-finals",
+      "matches": [
+        {
+          "id": "semi-finals-1",
+          "date": "",
+          "time": "",
+          "stage": "Semi-finals",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        },
+        {
+          "id": "semi-finals-2",
+          "date": "",
+          "time": "",
+          "stage": "Semi-finals",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
+        }
+      ]
+    },
+    {
+      "name": "Third-place match",
+      "matches": [
+        {
+          "id": "third-place-match-1",
+          "date": "",
+          "time": "",
+          "stage": "Third-place match",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "winner": null
         }
       ]
     },
@@ -116,6 +655,9 @@
       "matches": [
         {
           "id": "final-1",
+          "date": "",
+          "time": "",
+          "stage": "Final",
           "status": "TBD",
           "home": {
             "name": "TBD",
@@ -128,7 +670,8 @@
             "code": "TBD",
             "flag": "🏳️",
             "score": null
-          }
+          },
+          "winner": null
         }
       ]
     }
