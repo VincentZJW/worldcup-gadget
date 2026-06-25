@@ -2,7 +2,10 @@ name: Update World Cup Page Data
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Beijing time 00:00-07:30. GitHub cron runs in UTC.
+    - cron: "*/30 16-23 * * *"
+    # Beijing time 08:00-12:30. Afternoon/evening stays quiet unless manually triggered.
+    - cron: "*/30 0-4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,7 +15,7 @@ permissions:
 
 concurrency:
   group: update-worldcup-page-data
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update-data:
@@ -43,6 +46,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add public/data/*.json
             git commit -m "update worldcup page data"
+            git pull --rebase origin master
             git push
           fi
 

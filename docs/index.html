@@ -95,11 +95,10 @@
       <section class="content-section reveal" id="standings">
         <div class="section-heading">
           <p class="section-index">02</p>
-          <h2 data-i18n="standingsTitle">小组积分</h2>
-          <p data-i18n="standingsBody">按小组切换查看排名、胜平负、净胜球和积分，晋级区高亮显示。</p>
+          <h2 data-i18n="standingsTitle">小组总积分</h2>
+          <p data-i18n="standingsBody">开赛以来累计排名、胜平负、净胜球和积分，晋级区高亮显示。</p>
         </div>
         <div class="standings-panel">
-          <div class="group-overview stagger" id="groupOverview"></div>
           <div class="group-tabs" id="groupTabs" role="tablist" aria-label="Group standings"></div>
           <div class="table-scroll">
             <table class="standings-table">
@@ -120,14 +119,19 @@
               <tbody id="standingsBody"></tbody>
             </table>
           </div>
+          <div class="group-overview stagger" id="groupOverview"></div>
         </div>
       </section>
 
       <section class="content-section reveal" id="bracket">
         <div class="section-heading">
           <p class="section-index">03</p>
-          <h2 data-i18n="bracketTitle">淘汰赛对阵</h2>
-          <p data-i18n="bracketBody">如果淘汰赛尚未开始，会先显示 TBD 占位；数据更新后自动替换为真实对阵。</p>
+          <h2 data-i18n="bracketTitle">全部对阵图</h2>
+          <p data-i18n="bracketBody">从小组赛到淘汰赛，展示世界杯开赛以来和后续赛程的全部对阵。</p>
+        </div>
+        <div class="map-controls">
+          <button type="button" id="mapPrev" aria-label="Previous match column">‹</button>
+          <button type="button" id="mapNext" aria-label="Next match column">›</button>
         </div>
         <div class="bracket-flow stagger" id="bracketFlow"></div>
       </section>
@@ -145,8 +149,8 @@
       <section class="content-section reveal" id="scorers">
         <div class="section-heading">
           <p class="section-index">05</p>
-          <h2 data-i18n="scorersTitle">进球榜</h2>
-          <p data-i18n="scorersBody">前三名以高亮卡片展示，完整榜单支持排序、头像 fallback 和展开全部。</p>
+          <h2 data-i18n="scorersTitle">球员数据榜</h2>
+          <p data-i18n="scorersBody">统计开赛以来所有球员的总进球数；助攻、点球和出场时间在数据源提供时同步展示。</p>
         </div>
         <div class="scorer-controls">
           <label for="scorerSort" data-i18n="sortByLabel">排序</label>

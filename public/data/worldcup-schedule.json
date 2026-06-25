@@ -1,164 +1,2023 @@
 {
-  "updatedAt": "北京时间 2026-06-25 14:12",
+  "updatedAt": "2026-06-25T09:01:51.551Z",
   "timezone": "Asia/Shanghai",
-  "source": "local-fallback",
-  "isFallback": true,
-  "notice": "数据暂未更新，当前显示示例数据",
+  "source": "fifa-fdh",
+  "isFallback": false,
   "matches": [
     {
-      "id": "group-a-1",
-      "date": "2026-06-11",
-      "time": "2026-06-11T12:00:00.000Z",
-      "stage": "Group A",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Mexico",
-        "code": "MEX",
-        "flag": "🇲🇽",
-        "score": null
-      },
-      "away": {
-        "name": "Korea Republic",
-        "code": "KOR",
-        "flag": "🇰🇷",
-        "score": null
-      }
-    },
-    {
-      "id": "group-a-2",
-      "date": "2026-06-11",
-      "time": "2026-06-11T15:00:00.000Z",
-      "stage": "Group A",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "South Africa",
-        "code": "RSA",
-        "flag": "🇿🇦",
-        "score": null
-      },
-      "away": {
-        "name": "Czechia",
-        "code": "CZE",
-        "flag": "🇨🇿",
-        "score": null
-      }
-    },
-    {
-      "id": "group-a-3",
+      "id": "400021443",
       "date": "2026-06-12",
-      "time": "2026-06-12T18:00:00.000Z",
+      "time": "北京时间 2026-06-12 03:00",
       "stage": "Group A",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Mexico",
-        "code": "MEX",
-        "flag": "🇲🇽",
-        "score": null
-      },
-      "away": {
-        "name": "South Africa",
-        "code": "RSA",
-        "flag": "🇿🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-a-4",
-      "date": "2026-06-12",
-      "time": "2026-06-12T12:00:00.000Z",
-      "stage": "Group A",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Korea Republic",
-        "code": "KOR",
-        "flag": "🇰🇷",
-        "score": null
-      },
-      "away": {
-        "name": "Czechia",
-        "code": "CZE",
-        "flag": "🇨🇿",
-        "score": null
-      }
-    },
-    {
-      "id": "group-a-5",
-      "date": "2026-06-13",
-      "time": "2026-06-13T15:00:00.000Z",
-      "stage": "Group A",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Mexico",
-        "code": "MEX",
-        "flag": "🇲🇽",
-        "score": null
-      },
-      "away": {
-        "name": "Czechia",
-        "code": "CZE",
-        "flag": "🇨🇿",
-        "score": null
-      }
-    },
-    {
-      "id": "group-a-6",
-      "date": "2026-06-13",
-      "time": "2026-06-13T18:00:00.000Z",
-      "stage": "Group A",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Korea Republic",
-        "code": "KOR",
-        "flag": "🇰🇷",
-        "score": null
-      },
-      "away": {
-        "name": "South Africa",
-        "code": "RSA",
-        "flag": "🇿🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "seed-completed-4",
-      "date": "2026-06-25",
-      "time": "北京时间 2026-06-25 04:52",
-      "stage": "Group B",
-      "venue": "BC Place Vancouver",
+      "venue": "Mexico City Stadium",
       "status": "FT",
-      "score": "2-1",
+      "minute": "",
+      "score": "2-0",
       "home": {
-        "name": "Switzerland",
-        "code": "SUI",
-        "flag": "🇨🇭",
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
         "score": 2
       },
       "away": {
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "MEX",
+          "player": "Julian Quinones",
+          "minute": "9'",
+          "type": "goal"
+        },
+        {
+          "team": "MEX",
+          "player": "Raul Jimenez",
+          "minute": "67'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43911"
+    },
+    {
+      "id": "400021441",
+      "date": "2026-06-12",
+      "time": "北京时间 2026-06-12 10:00",
+      "stage": "Group A",
+      "venue": "Guadalajara Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "2-1",
+      "home": {
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "score": 2
+      },
+      "away": {
+        "name": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "CZE",
+          "player": "Ladislav Krejci",
+          "minute": "59'",
+          "type": "goal"
+        },
+        {
+          "team": "KOR",
+          "player": "Hwang Inbeom",
+          "minute": "67'",
+          "type": "goal"
+        },
+        {
+          "team": "KOR",
+          "player": "Oh Hyeongyu",
+          "minute": "80'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43822"
+    },
+    {
+      "id": "400021449",
+      "date": "2026-06-13",
+      "time": "北京时间 2026-06-13 03:00",
+      "stage": "Group B",
+      "venue": "Toronto Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-1",
+      "home": {
         "name": "Canada",
         "code": "CAN",
         "flag": "🇨🇦",
         "score": 1
-      }
+      },
+      "away": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "BIH",
+          "player": "Jovo Lukic",
+          "minute": "21'",
+          "type": "goal"
+        },
+        {
+          "team": "CAN",
+          "player": "Cyle Larin",
+          "minute": "78'",
+          "type": "goal"
+        }
+      ],
+      "winner": null
     },
     {
-      "id": "seed-completed-3",
+      "id": "400021458",
+      "date": "2026-06-13",
+      "time": "北京时间 2026-06-13 09:00",
+      "stage": "Group D",
+      "venue": "Los Angeles Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "4-1",
+      "home": {
+        "name": "Usa",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "score": 4
+      },
+      "away": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "flag": "🇵🇾",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "USA",
+          "player": "Damian Bobadilla",
+          "minute": "7'",
+          "type": "own_goal"
+        },
+        {
+          "team": "USA",
+          "player": "Folarin Balogun",
+          "minute": "31'",
+          "type": "goal"
+        },
+        {
+          "team": "USA",
+          "player": "Folarin Balogun",
+          "minute": "45'+5'",
+          "type": "goal"
+        },
+        {
+          "team": "PAR",
+          "player": "Mauricio",
+          "minute": "73'",
+          "type": "goal"
+        },
+        {
+          "team": "USA",
+          "player": "Giovanni Reyna",
+          "minute": "90'+8'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43921"
+    },
+    {
+      "id": "400021447",
+      "date": "2026-06-14",
+      "time": "北京时间 2026-06-14 03:00",
+      "stage": "Group B",
+      "venue": "San Francisco Bay Area Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-1",
+      "home": {
+        "name": "Qatar",
+        "code": "QAT",
+        "flag": "🇶🇦",
+        "score": 1
+      },
+      "away": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "QAT",
+          "player": "Miro Muheim",
+          "minute": "90'+4'",
+          "type": "own_goal"
+        }
+      ],
+      "winner": null
+    },
+    {
+      "id": "400021456",
+      "date": "2026-06-14",
+      "time": "北京时间 2026-06-14 06:00",
+      "stage": "Group C",
+      "venue": "New York/New Jersey Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-1",
+      "home": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷",
+        "score": 1
+      },
+      "away": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "MAR",
+          "player": "Ismael Saibari",
+          "minute": "21'",
+          "type": "goal"
+        },
+        {
+          "team": "BRA",
+          "player": "Vinicius Junior",
+          "minute": "32'",
+          "type": "goal"
+        }
+      ],
+      "winner": null
+    },
+    {
+      "id": "400021453",
+      "date": "2026-06-14",
+      "time": "北京时间 2026-06-14 09:00",
+      "stage": "Group C",
+      "venue": "Boston Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-1",
+      "home": {
+        "name": "Haiti",
+        "code": "HAI",
+        "flag": "🇭🇹",
+        "score": 0
+      },
+      "away": {
+        "name": "Scotland",
+        "code": "SCO",
+        "flag": "🏴",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "SCO",
+          "player": "John McGINN",
+          "minute": "28'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43967"
+    },
+    {
+      "id": "400021463",
+      "date": "2026-06-14",
+      "time": "北京时间 2026-06-14 12:00",
+      "stage": "Group D",
+      "venue": "BC Place Vancouver",
+      "status": "FT",
+      "minute": "",
+      "score": "2-0",
+      "home": {
+        "name": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺",
+        "score": 2
+      },
+      "away": {
+        "name": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "AUS",
+          "player": "Nestory Irankunda",
+          "minute": "27'",
+          "type": "goal"
+        },
+        {
+          "team": "AUS",
+          "player": "Connor Metcalfe",
+          "minute": "75'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43976"
+    },
+    {
+      "id": "400021464",
+      "date": "2026-06-15",
+      "time": "北京时间 2026-06-15 01:00",
+      "stage": "Group E",
+      "venue": "Houston Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "7-1",
+      "home": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "score": 7
+      },
+      "away": {
+        "name": "Curaçao",
+        "code": "CUW",
+        "flag": "🇨🇼",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "GER",
+          "player": "Felix Nmecha",
+          "minute": "6'",
+          "type": "goal"
+        },
+        {
+          "team": "CUW",
+          "player": "Livano Comenencia",
+          "minute": "21'",
+          "type": "goal"
+        },
+        {
+          "team": "GER",
+          "player": "Nico Schlotterbeck",
+          "minute": "38'",
+          "type": "goal"
+        },
+        {
+          "team": "GER",
+          "player": "Jamal Musiala",
+          "minute": "47'",
+          "type": "goal"
+        },
+        {
+          "team": "GER",
+          "player": "Nathaniel Brown",
+          "minute": "68'",
+          "type": "goal"
+        },
+        {
+          "team": "GER",
+          "player": "Deniz Undav",
+          "minute": "78'",
+          "type": "goal"
+        },
+        {
+          "team": "GER",
+          "player": "Kai Havertz",
+          "minute": "88'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43948"
+    },
+    {
+      "id": "400021470",
+      "date": "2026-06-15",
+      "time": "北京时间 2026-06-15 04:00",
+      "stage": "Group F",
+      "venue": "Dallas Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "2-2",
+      "home": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "score": 2
+      },
+      "away": {
+        "name": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵",
+        "score": 2
+      },
+      "goals": [
+        {
+          "team": "NED",
+          "player": "Virgil Van Dijk",
+          "minute": "50'",
+          "type": "goal"
+        },
+        {
+          "team": "JPN",
+          "player": "Keito Nakamura",
+          "minute": "57'",
+          "type": "goal"
+        },
+        {
+          "team": "NED",
+          "player": "Crysencio Summerville",
+          "minute": "64'",
+          "type": "goal"
+        },
+        {
+          "team": "JPN",
+          "player": "Daichi Kamada",
+          "minute": "88'",
+          "type": "goal"
+        }
+      ],
+      "winner": null
+    },
+    {
+      "id": "400021467",
+      "date": "2026-06-15",
+      "time": "北京时间 2026-06-15 07:00",
+      "stage": "Group E",
+      "venue": "Philadelphia Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-0",
+      "home": {
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "flag": "🇨🇮",
+        "score": 1
+      },
+      "away": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "flag": "🇪🇨",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "CIV",
+          "player": "Amad Diallo",
+          "minute": "90'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43854"
+    },
+    {
+      "id": "400021474",
+      "date": "2026-06-15",
+      "time": "北京时间 2026-06-15 10:00",
+      "stage": "Group F",
+      "venue": "Monterrey Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "5-1",
+      "home": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "score": 5
+      },
+      "away": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "flag": "🇹🇳",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "SWE",
+          "player": "Yasin Ayari",
+          "minute": "7'",
+          "type": "goal"
+        },
+        {
+          "team": "SWE",
+          "player": "Alexander Isak",
+          "minute": "30'",
+          "type": "goal"
+        },
+        {
+          "team": "TUN",
+          "player": "Omar Rekik",
+          "minute": "43'",
+          "type": "goal"
+        },
+        {
+          "team": "SWE",
+          "player": "Viktor Gyokeres",
+          "minute": "59'",
+          "type": "goal"
+        },
+        {
+          "team": "SWE",
+          "player": "Mattias Svanberg",
+          "minute": "84'",
+          "type": "goal"
+        },
+        {
+          "team": "SWE",
+          "player": "Yasin Ayari",
+          "minute": "90'+6'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43970"
+    },
+    {
+      "id": "400021482",
+      "date": "2026-06-16",
+      "time": "北京时间 2026-06-16 00:00",
+      "stage": "Group H",
+      "venue": "Atlanta Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-0",
+      "home": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "score": 0
+      },
+      "away": {
+        "name": "Cabo Verde",
+        "code": "CAB",
+        "flag": "🇨🇻",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021478",
+      "date": "2026-06-16",
+      "time": "北京时间 2026-06-16 03:00",
+      "stage": "Group G",
+      "venue": "Seattle Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-1",
+      "home": {
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "score": 1
+      },
+      "away": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "EGY",
+          "player": "Emam Ashour",
+          "minute": "19'",
+          "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Mohamed Hany",
+          "minute": "66'",
+          "type": "own_goal"
+        }
+      ],
+      "winner": null
+    },
+    {
+      "id": "400021486",
+      "date": "2026-06-16",
+      "time": "北京时间 2026-06-16 06:00",
+      "stage": "Group H",
+      "venue": "Miami Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-1",
+      "home": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "score": 1
+      },
+      "away": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "KSA",
+          "player": "Abdulelah Alamri",
+          "minute": "41'",
+          "type": "goal"
+        },
+        {
+          "team": "URU",
+          "player": "Maxi Araujo",
+          "minute": "80'",
+          "type": "goal"
+        }
+      ],
+      "winner": null
+    },
+    {
+      "id": "400021476",
+      "date": "2026-06-16",
+      "time": "北京时间 2026-06-16 09:00",
+      "stage": "Group G",
+      "venue": "Los Angeles Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "2-2",
+      "home": {
+        "name": "Ir Iran",
+        "code": "IRI",
+        "flag": "🏳️",
+        "score": 2
+      },
+      "away": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "flag": "🇳🇿",
+        "score": 2
+      },
+      "goals": [
+        {
+          "team": "NZL",
+          "player": "Elijah Just",
+          "minute": "7'",
+          "type": "goal"
+        },
+        {
+          "team": "IRI",
+          "player": "Ramin Rezaeian",
+          "minute": "32'",
+          "type": "goal"
+        },
+        {
+          "team": "NZL",
+          "player": "Elijah Just",
+          "minute": "54'",
+          "type": "goal"
+        },
+        {
+          "team": "IRI",
+          "player": "Mohammad Mohebbi",
+          "minute": "64'",
+          "type": "goal"
+        }
+      ],
+      "winner": null
+    },
+    {
+      "id": "400021490",
+      "date": "2026-06-17",
+      "time": "北京时间 2026-06-17 03:00",
+      "stage": "Group I",
+      "venue": "New York/New Jersey Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "3-1",
+      "home": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "score": 3
+      },
+      "away": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "FRA",
+          "player": "Kylian Mbappe",
+          "minute": "66'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Bradley Barcola",
+          "minute": "82'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Ibrahim Mbaye",
+          "minute": "90'+5'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Kylian Mbappe",
+          "minute": "90'+6'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43946"
+    },
+    {
+      "id": "400021488",
+      "date": "2026-06-17",
+      "time": "北京时间 2026-06-17 06:00",
+      "stage": "Group I",
+      "venue": "Boston Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-4",
+      "home": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "flag": "🇮🇶",
+        "score": 1
+      },
+      "away": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "score": 4
+      },
+      "goals": [
+        {
+          "team": "NOR",
+          "player": "Erling Haaland",
+          "minute": "29'",
+          "type": "goal"
+        },
+        {
+          "team": "IRQ",
+          "player": "Aymen Hussein",
+          "minute": "39'",
+          "type": "goal"
+        },
+        {
+          "team": "NOR",
+          "player": "Erling Haaland",
+          "minute": "43'",
+          "type": "goal"
+        },
+        {
+          "team": "NOR",
+          "player": "Leo Ostigard",
+          "minute": "76'",
+          "type": "goal"
+        },
+        {
+          "team": "NOR",
+          "player": "Aymen Hussein",
+          "minute": "90'+6'",
+          "type": "own_goal"
+        }
+      ],
+      "winner": "43961"
+    },
+    {
+      "id": "400021496",
+      "date": "2026-06-17",
+      "time": "北京时间 2026-06-17 09:00",
+      "stage": "Group J",
+      "venue": "Kansas City Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "3-0",
+      "home": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "score": 3
+      },
+      "away": {
+        "name": "Algeria",
+        "code": "ALG",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "ARG",
+          "player": "Lionel Messi",
+          "minute": "17'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lionel Messi",
+          "minute": "60'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lionel Messi",
+          "minute": "76'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43922"
+    },
+    {
+      "id": "400021498",
+      "date": "2026-06-17",
+      "time": "北京时间 2026-06-17 12:00",
+      "stage": "Group J",
+      "venue": "San Francisco Bay Area Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "3-1",
+      "home": {
+        "name": "Austria",
+        "code": "AUS",
+        "flag": "🏳️",
+        "score": 3
+      },
+      "away": {
+        "name": "Jordan",
+        "code": "JOR",
+        "flag": "🏳️",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "AUS",
+          "player": "Romano Schmid",
+          "minute": "20'",
+          "type": "goal"
+        },
+        {
+          "team": "JOR",
+          "player": "Ali Olwan",
+          "minute": "50'",
+          "type": "goal"
+        },
+        {
+          "team": "AUS",
+          "player": "Yazan Alarab",
+          "minute": "76'",
+          "type": "own_goal"
+        }
+      ],
+      "winner": "43934"
+    },
+    {
+      "id": "400021502",
+      "date": "2026-06-18",
+      "time": "北京时间 2026-06-18 01:00",
+      "stage": "Group K",
+      "venue": "Houston Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-1",
+      "home": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "score": 1
+      },
+      "away": {
+        "name": "Congo Dr",
+        "code": "CON",
+        "flag": "🇨🇩",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "POR",
+          "player": "Joao Neves",
+          "minute": "6'",
+          "type": "goal"
+        },
+        {
+          "team": "CON",
+          "player": "Yoane Wissa",
+          "minute": "45'+5'",
+          "type": "goal"
+        }
+      ],
+      "winner": null
+    },
+    {
+      "id": "400021507",
+      "date": "2026-06-18",
+      "time": "北京时间 2026-06-18 04:00",
+      "stage": "Group L",
+      "venue": "Dallas Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "4-2",
+      "home": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "score": 4
+      },
+      "away": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "score": 2
+      },
+      "goals": [
+        {
+          "team": "CRO",
+          "player": "Martin Baturina",
+          "minute": "36'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Harry Kane",
+          "minute": "42'",
+          "type": "goal"
+        },
+        {
+          "team": "CRO",
+          "player": "Petar Musa",
+          "minute": "45'+5'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Jude Bellingham",
+          "minute": "47'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Marcus Rashford",
+          "minute": "85'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43942"
+    },
+    {
+      "id": "400021510",
+      "date": "2026-06-18",
+      "time": "北京时间 2026-06-18 07:00",
+      "stage": "Group L",
+      "venue": "Toronto Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-0",
+      "home": {
+        "name": "Ghana",
+        "code": "GHA",
+        "flag": "🇬🇭",
+        "score": 1
+      },
+      "away": {
+        "name": "Panama",
+        "code": "PAN",
+        "flag": "🇵🇦",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "GHA",
+          "player": "Caleb Yirenkyi",
+          "minute": "90'+5'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43860"
+    },
+    {
+      "id": "400021504",
+      "date": "2026-06-18",
+      "time": "北京时间 2026-06-18 10:00",
+      "stage": "Group K",
+      "venue": "Mexico City Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-3",
+      "home": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "flag": "🏳️",
+        "score": 1
+      },
+      "away": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "score": 3
+      },
+      "goals": [
+        {
+          "team": "COL",
+          "player": "Daniel Munoz",
+          "minute": "40'",
+          "type": "goal"
+        },
+        {
+          "team": "UZB",
+          "player": "Abbosbek Fayzullaev",
+          "minute": "60'",
+          "type": "goal"
+        },
+        {
+          "team": "COL",
+          "player": "Luis Diaz",
+          "minute": "65'",
+          "type": "goal"
+        },
+        {
+          "team": "COL",
+          "player": "Jaminton Campaz",
+          "minute": "90'+9'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43926"
+    },
+    {
+      "id": "400021440",
+      "date": "2026-06-19",
+      "time": "北京时间 2026-06-19 00:00",
+      "stage": "Group A",
+      "venue": "Atlanta Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-1",
+      "home": {
+        "name": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿",
+        "score": 1
+      },
+      "away": {
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "CZE",
+          "player": "Michal Sadilek",
+          "minute": "6'",
+          "type": "goal"
+        }
+      ],
+      "winner": null
+    },
+    {
+      "id": "400021446",
+      "date": "2026-06-19",
+      "time": "北京时间 2026-06-19 03:00",
+      "stage": "Group B",
+      "venue": "Los Angeles Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "4-1",
+      "home": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "score": 4
+      },
+      "away": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "SUI",
+          "player": "Johan Manzambi",
+          "minute": "74'",
+          "type": "goal"
+        },
+        {
+          "team": "SUI",
+          "player": "Ruben Vargas",
+          "minute": "84'",
+          "type": "goal"
+        },
+        {
+          "team": "SUI",
+          "player": "Johan Manzambi",
+          "minute": "90'",
+          "type": "goal"
+        },
+        {
+          "team": "BIH",
+          "player": "Ermin Mahmic",
+          "minute": "90'+3'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43971"
+    },
+    {
+      "id": "400021450",
+      "date": "2026-06-19",
+      "time": "北京时间 2026-06-19 06:00",
+      "stage": "Group B",
+      "venue": "BC Place Vancouver",
+      "status": "FT",
+      "minute": "",
+      "score": "6-0",
+      "home": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "score": 6
+      },
+      "away": {
+        "name": "Qatar",
+        "code": "QAT",
+        "flag": "🇶🇦",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "CAN",
+          "player": "Cyle Larin",
+          "minute": "16'",
+          "type": "goal"
+        },
+        {
+          "team": "CAN",
+          "player": "Jonathan David",
+          "minute": "29'",
+          "type": "goal"
+        },
+        {
+          "team": "CAN",
+          "player": "Jonathan David",
+          "minute": "45'+3'",
+          "type": "goal"
+        },
+        {
+          "team": "CAN",
+          "player": "Nathan Saliba",
+          "minute": "64'",
+          "type": "goal"
+        },
+        {
+          "team": "CAN",
+          "player": "Mohamed Manai",
+          "minute": "75'",
+          "type": "own_goal"
+        },
+        {
+          "team": "CAN",
+          "player": "Jonathan David",
+          "minute": "90'+2'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43899"
+    },
+    {
+      "id": "400021442",
+      "date": "2026-06-19",
+      "time": "北京时间 2026-06-19 09:00",
+      "stage": "Group A",
+      "venue": "Guadalajara Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-0",
+      "home": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "score": 1
+      },
+      "away": {
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "MEX",
+          "player": "Luis Romo",
+          "minute": "50'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43911"
+    },
+    {
+      "id": "400021462",
+      "date": "2026-06-20",
+      "time": "北京时间 2026-06-20 03:00",
+      "stage": "Group D",
+      "venue": "Seattle Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "2-0",
+      "home": {
+        "name": "Usa",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "score": 2
+      },
+      "away": {
+        "name": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "USA",
+          "player": "Cameron Burgess",
+          "minute": "11'",
+          "type": "own_goal"
+        },
+        {
+          "team": "USA",
+          "player": "Alex Freeman",
+          "minute": "43'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43921"
+    },
+    {
+      "id": "400021454",
+      "date": "2026-06-20",
+      "time": "北京时间 2026-06-20 06:00",
+      "stage": "Group C",
+      "venue": "Boston Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-1",
+      "home": {
+        "name": "Scotland",
+        "code": "SCO",
+        "flag": "🏴",
+        "score": 0
+      },
+      "away": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "MAR",
+          "player": "Ismael Saibari",
+          "minute": "2'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43872"
+    },
+    {
+      "id": "400021457",
+      "date": "2026-06-20",
+      "time": "北京时间 2026-06-20 08:30",
+      "stage": "Group C",
+      "venue": "Philadelphia Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "3-0",
+      "home": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷",
+        "score": 3
+      },
+      "away": {
+        "name": "Haiti",
+        "code": "HAI",
+        "flag": "🇭🇹",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "BRA",
+          "player": "Matheus Cunha",
+          "minute": "23'",
+          "type": "goal"
+        },
+        {
+          "team": "BRA",
+          "player": "Matheus Cunha",
+          "minute": "36'",
+          "type": "goal"
+        },
+        {
+          "team": "BRA",
+          "player": "Vinicius Junior",
+          "minute": "45'+3'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43924"
+    },
+    {
+      "id": "400021460",
+      "date": "2026-06-20",
+      "time": "北京时间 2026-06-20 11:00",
+      "stage": "Group D",
+      "venue": "San Francisco Bay Area Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-1",
+      "home": {
+        "name": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷",
+        "score": 0
+      },
+      "away": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "flag": "🇵🇾",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "PAR",
+          "player": "Matias Galarza",
+          "minute": "2'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43928"
+    },
+    {
+      "id": "400021472",
+      "date": "2026-06-21",
+      "time": "北京时间 2026-06-21 01:00",
+      "stage": "Group F",
+      "venue": "Houston Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "5-1",
+      "home": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "score": 5
+      },
+      "away": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "NED",
+          "player": "Brian Brobbey",
+          "minute": "5'",
+          "type": "goal"
+        },
+        {
+          "team": "NED",
+          "player": "Brian Brobbey",
+          "minute": "17'",
+          "type": "goal"
+        },
+        {
+          "team": "NED",
+          "player": "Cody Gakpo",
+          "minute": "47'",
+          "type": "goal"
+        },
+        {
+          "team": "NED",
+          "player": "Cody Gakpo",
+          "minute": "54'",
+          "type": "goal"
+        },
+        {
+          "team": "SWE",
+          "player": "Anthony Elanga",
+          "minute": "59'",
+          "type": "goal"
+        },
+        {
+          "team": "NED",
+          "player": "Crysencio Summerville",
+          "minute": "89'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43960"
+    },
+    {
+      "id": "400021469",
+      "date": "2026-06-21",
+      "time": "北京时间 2026-06-21 04:00",
+      "stage": "Group E",
+      "venue": "Toronto Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "2-1",
+      "home": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "score": 2
+      },
+      "away": {
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "flag": "🇨🇮",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "CIV",
+          "player": "Franck Kessie",
+          "minute": "30'",
+          "type": "goal"
+        },
+        {
+          "team": "GER",
+          "player": "Deniz Undav",
+          "minute": "68'",
+          "type": "goal"
+        },
+        {
+          "team": "GER",
+          "player": "Deniz Undav",
+          "minute": "90'+4'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43948"
+    },
+    {
+      "id": "400021465",
+      "date": "2026-06-21",
+      "time": "北京时间 2026-06-21 08:00",
+      "stage": "Group E",
+      "venue": "Kansas City Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-0",
+      "home": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "flag": "🇪🇨",
+        "score": 0
+      },
+      "away": {
+        "name": "Curaçao",
+        "code": "CUW",
+        "flag": "🇨🇼",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021475",
+      "date": "2026-06-21",
+      "time": "北京时间 2026-06-21 12:00",
+      "stage": "Group F",
+      "venue": "Monterrey Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-4",
+      "home": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "flag": "🇹🇳",
+        "score": 0
+      },
+      "away": {
+        "name": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵",
+        "score": 4
+      },
+      "goals": [
+        {
+          "team": "JPN",
+          "player": "Daichi Kamada",
+          "minute": "4'",
+          "type": "goal"
+        },
+        {
+          "team": "JPN",
+          "player": "Ayase Ueda",
+          "minute": "31'",
+          "type": "goal"
+        },
+        {
+          "team": "JPN",
+          "player": "Junya Ito",
+          "minute": "69'",
+          "type": "goal"
+        },
+        {
+          "team": "JPN",
+          "player": "Ayase Ueda",
+          "minute": "83'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43819"
+    },
+    {
+      "id": "400021483",
+      "date": "2026-06-22",
+      "time": "北京时间 2026-06-22 00:00",
+      "stage": "Group H",
+      "venue": "Atlanta Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "4-0",
+      "home": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "score": 4
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "ESP",
+          "player": "Lamine Yamal",
+          "minute": "10'",
+          "type": "goal"
+        },
+        {
+          "team": "ESP",
+          "player": "Mikel Oyarzabal",
+          "minute": "21'",
+          "type": "goal"
+        },
+        {
+          "team": "ESP",
+          "player": "Mikel Oyarzabal",
+          "minute": "24'",
+          "type": "goal"
+        },
+        {
+          "team": "ESP",
+          "player": "Hassan Altambakti",
+          "minute": "49'",
+          "type": "own_goal"
+        }
+      ],
+      "winner": "43969"
+    },
+    {
+      "id": "400021477",
+      "date": "2026-06-22",
+      "time": "北京时间 2026-06-22 03:00",
+      "stage": "Group G",
+      "venue": "Los Angeles Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-0",
+      "home": {
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "score": 0
+      },
+      "away": {
+        "name": "Ir Iran",
+        "code": "IRI",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021487",
+      "date": "2026-06-22",
+      "time": "北京时间 2026-06-22 06:00",
+      "stage": "Group H",
+      "venue": "Miami Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "2-2",
+      "home": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "score": 2
+      },
+      "away": {
+        "name": "Cabo Verde",
+        "code": "CAB",
+        "flag": "🇨🇻",
+        "score": 2
+      },
+      "goals": [
+        {
+          "team": "CAB",
+          "player": "Kevin Pina",
+          "minute": "21'",
+          "type": "goal"
+        },
+        {
+          "team": "URU",
+          "player": "Maxi Araujo",
+          "minute": "44'",
+          "type": "goal"
+        },
+        {
+          "team": "URU",
+          "player": "Agustin Canobbio",
+          "minute": "45'+6'",
+          "type": "goal"
+        },
+        {
+          "team": "CAB",
+          "player": "Helio Varela",
+          "minute": "61'",
+          "type": "goal"
+        }
+      ],
+      "winner": null
+    },
+    {
+      "id": "400021480",
+      "date": "2026-06-22",
+      "time": "北京时间 2026-06-22 09:00",
+      "stage": "Group G",
+      "venue": "BC Place Vancouver",
+      "status": "FT",
+      "minute": "",
+      "score": "1-3",
+      "home": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "flag": "🇳🇿",
+        "score": 1
+      },
+      "away": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "score": 3
+      },
+      "goals": [
+        {
+          "team": "NZL",
+          "player": "Finn Surman",
+          "minute": "15'",
+          "type": "goal"
+        },
+        {
+          "team": "EGY",
+          "player": "Mostafa Zico",
+          "minute": "58'",
+          "type": "goal"
+        },
+        {
+          "team": "EGY",
+          "player": "Mohamed Salah",
+          "minute": "67'",
+          "type": "goal"
+        },
+        {
+          "team": "EGY",
+          "player": "Trezeguet",
+          "minute": "82'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43855"
+    },
+    {
+      "id": "400021494",
+      "date": "2026-06-23",
+      "time": "北京时间 2026-06-23 01:00",
+      "stage": "Group J",
+      "venue": "Dallas Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "2-0",
+      "home": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "score": 2
+      },
+      "away": {
+        "name": "Austria",
+        "code": "AUS",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "ARG",
+          "player": "Lionel Messi",
+          "minute": "38'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lionel Messi",
+          "minute": "90'+5'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43922"
+    },
+    {
+      "id": "400021492",
+      "date": "2026-06-23",
+      "time": "北京时间 2026-06-23 05:00",
+      "stage": "Group I",
+      "venue": "Philadelphia Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "3-0",
+      "home": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "score": 3
+      },
+      "away": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "flag": "🇮🇶",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "FRA",
+          "player": "Kylian Mbappe",
+          "minute": "14'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Kylian Mbappe",
+          "minute": "54'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Ousmane Dembele",
+          "minute": "66'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43946"
+    },
+    {
+      "id": "400021491",
+      "date": "2026-06-23",
+      "time": "北京时间 2026-06-23 08:00",
+      "stage": "Group I",
+      "venue": "New York/New Jersey Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "3-2",
+      "home": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "score": 3
+      },
+      "away": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "score": 2
+      },
+      "goals": [
+        {
+          "team": "NOR",
+          "player": "Marcus Holmgren Pedersen",
+          "minute": "43'",
+          "type": "goal"
+        },
+        {
+          "team": "NOR",
+          "player": "Erling Haaland",
+          "minute": "48'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Ismaila Sarr",
+          "minute": "53'",
+          "type": "goal"
+        },
+        {
+          "team": "NOR",
+          "player": "Erling Haaland",
+          "minute": "58'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Ismaila Sarr",
+          "minute": "90'+3'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43961"
+    },
+    {
+      "id": "400021499",
+      "date": "2026-06-23",
+      "time": "北京时间 2026-06-23 11:00",
+      "stage": "Group J",
+      "venue": "San Francisco Bay Area Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-2",
+      "home": {
+        "name": "Jordan",
+        "code": "JOR",
+        "flag": "🏳️",
+        "score": 1
+      },
+      "away": {
+        "name": "Algeria",
+        "code": "ALG",
+        "flag": "🏳️",
+        "score": 2
+      },
+      "goals": [
+        {
+          "team": "JOR",
+          "player": "Nizar Alrashdan",
+          "minute": "36'",
+          "type": "goal"
+        },
+        {
+          "team": "ALG",
+          "player": "Nadhir Benbouali",
+          "minute": "69'",
+          "type": "goal"
+        },
+        {
+          "team": "ALG",
+          "player": "Amine Gouiri",
+          "minute": "82'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43843"
+    },
+    {
+      "id": "400021503",
+      "date": "2026-06-24",
+      "time": "北京时间 2026-06-24 01:00",
+      "stage": "Group K",
+      "venue": "Houston Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "5-0",
+      "home": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "score": 5
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "POR",
+          "player": "Cristiano Ronaldo",
+          "minute": "6'",
+          "type": "goal"
+        },
+        {
+          "team": "POR",
+          "player": "Nuno Mendes",
+          "minute": "17'",
+          "type": "goal"
+        },
+        {
+          "team": "POR",
+          "player": "Cristiano Ronaldo",
+          "minute": "39'",
+          "type": "goal"
+        },
+        {
+          "team": "POR",
+          "player": "Abduvohid Nematov",
+          "minute": "60'",
+          "type": "own_goal"
+        },
+        {
+          "team": "POR",
+          "player": "Rafael Leao",
+          "minute": "87'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43963"
+    },
+    {
+      "id": "400021506",
+      "date": "2026-06-24",
+      "time": "北京时间 2026-06-24 04:00",
+      "stage": "Group L",
+      "venue": "Boston Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-0",
+      "home": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "score": 0
+      },
+      "away": {
+        "name": "Ghana",
+        "code": "GHA",
+        "flag": "🇬🇭",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021511",
+      "date": "2026-06-24",
+      "time": "北京时间 2026-06-24 07:00",
+      "stage": "Group L",
+      "venue": "Toronto Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-1",
+      "home": {
+        "name": "Panama",
+        "code": "PAN",
+        "flag": "🇵🇦",
+        "score": 0
+      },
+      "away": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "CRO",
+          "player": "Ante Budimir",
+          "minute": "54'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43938"
+    },
+    {
+      "id": "400021501",
+      "date": "2026-06-24",
+      "time": "北京时间 2026-06-24 10:00",
+      "stage": "Group K",
+      "venue": "Guadalajara Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-0",
+      "home": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "score": 1
+      },
+      "away": {
+        "name": "Congo Dr",
+        "code": "CON",
+        "flag": "🇨🇩",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "COL",
+          "player": "Daniel Munoz",
+          "minute": "76'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43926"
+    },
+    {
+      "id": "400021448",
       "date": "2026-06-25",
-      "time": "北京时间 2026-06-25 04:52",
+      "time": "北京时间 2026-06-25 03:00",
       "stage": "Group B",
       "venue": "Seattle Stadium",
       "status": "FT",
+      "minute": "",
       "score": "3-1",
       "home": {
         "name": "Bosnia and Herzegovina",
@@ -171,162 +2030,86 @@
         "code": "QAT",
         "flag": "🇶🇦",
         "score": 1
-      }
-    },
-    {
-      "id": "group-b-3",
-      "date": "2026-06-13",
-      "time": "2026-06-13T18:00:00.000Z",
-      "stage": "Group B",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Switzerland",
-        "code": "SUI",
-        "flag": "🇨🇭",
-        "score": null
       },
-      "away": {
-        "name": "Bosnia and Herzegovina",
-        "code": "BIH",
-        "flag": "🇧🇦",
-        "score": null
-      }
+      "goals": [
+        {
+          "team": "BIH",
+          "player": "Kerim Alajbegovic",
+          "minute": "29'",
+          "type": "goal"
+        },
+        {
+          "team": "BIH",
+          "player": "Mahmoud Abunada",
+          "minute": "34'",
+          "type": "own_goal"
+        },
+        {
+          "team": "QAT",
+          "player": "Hassan Alhaydos",
+          "minute": "42'",
+          "type": "goal"
+        },
+        {
+          "team": "BIH",
+          "player": "Ermin Mahmic",
+          "minute": "80'",
+          "type": "goal"
+        }
+      ],
+      "winner": "44037"
     },
     {
-      "id": "group-b-4",
-      "date": "2026-06-13",
-      "time": "2026-06-13T12:00:00.000Z",
-      "stage": "Group B",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Canada",
-        "code": "CAN",
-        "flag": "🇨🇦",
-        "score": null
-      },
-      "away": {
-        "name": "Qatar",
-        "code": "QAT",
-        "flag": "🇶🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-b-5",
-      "date": "2026-06-14",
-      "time": "2026-06-14T15:00:00.000Z",
-      "stage": "Group B",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Switzerland",
-        "code": "SUI",
-        "flag": "🇨🇭",
-        "score": null
-      },
-      "away": {
-        "name": "Qatar",
-        "code": "QAT",
-        "flag": "🇶🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-b-6",
-      "date": "2026-06-14",
-      "time": "2026-06-14T18:00:00.000Z",
-      "stage": "Group B",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Canada",
-        "code": "CAN",
-        "flag": "🇨🇦",
-        "score": null
-      },
-      "away": {
-        "name": "Bosnia and Herzegovina",
-        "code": "BIH",
-        "flag": "🇧🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-c-1",
-      "date": "2026-06-13",
-      "time": "2026-06-13T12:00:00.000Z",
-      "stage": "Group C",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Brazil",
-        "code": "BRA",
-        "flag": "🇧🇷",
-        "score": null
-      },
-      "away": {
-        "name": "Morocco",
-        "code": "MAR",
-        "flag": "🇲🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-c-2",
-      "date": "2026-06-13",
-      "time": "2026-06-13T15:00:00.000Z",
-      "stage": "Group C",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Scotland",
-        "code": "SCO",
-        "flag": "🏴",
-        "score": null
-      },
-      "away": {
-        "name": "Haiti",
-        "code": "HAI",
-        "flag": "🇭🇹",
-        "score": null
-      }
-    },
-    {
-      "id": "group-c-3",
-      "date": "2026-06-14",
-      "time": "2026-06-14T18:00:00.000Z",
-      "stage": "Group C",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Brazil",
-        "code": "BRA",
-        "flag": "🇧🇷",
-        "score": null
-      },
-      "away": {
-        "name": "Scotland",
-        "code": "SCO",
-        "flag": "🏴",
-        "score": null
-      }
-    },
-    {
-      "id": "seed-completed-5",
+      "id": "400021451",
       "date": "2026-06-25",
-      "time": "北京时间 2026-06-25 07:54",
+      "time": "北京时间 2026-06-25 03:00",
+      "stage": "Group B",
+      "venue": "BC Place Vancouver",
+      "status": "FT",
+      "minute": "",
+      "score": "2-1",
+      "home": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "score": 2
+      },
+      "away": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "SUI",
+          "player": "Ruben Vargas",
+          "minute": "46'",
+          "type": "goal"
+        },
+        {
+          "team": "SUI",
+          "player": "Johan Manzambi",
+          "minute": "57'",
+          "type": "goal"
+        },
+        {
+          "team": "CAN",
+          "player": "Promise David",
+          "minute": "76'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43971"
+    },
+    {
+      "id": "400021452",
+      "date": "2026-06-25",
+      "time": "北京时间 2026-06-25 06:00",
       "stage": "Group C",
       "venue": "Atlanta Stadium",
       "status": "FT",
+      "minute": "",
       "score": "4-2",
       "home": {
         "name": "Morocco",
@@ -339,1855 +2122,1363 @@
         "code": "HAI",
         "flag": "🇭🇹",
         "score": 2
-      }
+      },
+      "goals": [
+        {
+          "team": "HAI",
+          "player": "Yassine Bounou",
+          "minute": "10'",
+          "type": "own_goal"
+        },
+        {
+          "team": "MAR",
+          "player": "Achraf Hakimi",
+          "minute": "39'",
+          "type": "goal"
+        },
+        {
+          "team": "HAI",
+          "player": "Wilson Isidor",
+          "minute": "43'",
+          "type": "goal"
+        },
+        {
+          "team": "MAR",
+          "player": "Ismael Saibari",
+          "minute": "45'+1'",
+          "type": "goal"
+        },
+        {
+          "team": "MAR",
+          "player": "Soufiane Rahimi",
+          "minute": "78'",
+          "type": "goal"
+        },
+        {
+          "team": "MAR",
+          "player": "Gessime Yassine",
+          "minute": "89'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43872"
     },
     {
-      "id": "group-c-5",
-      "date": "2026-06-15",
-      "time": "2026-06-15T15:00:00.000Z",
+      "id": "400021455",
+      "date": "2026-06-25",
+      "time": "北京时间 2026-06-25 06:00",
       "stage": "Group C",
-      "venue": "TBD",
+      "venue": "Miami Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-3",
+      "home": {
+        "name": "Scotland",
+        "code": "SCO",
+        "flag": "🏴",
+        "score": 0
+      },
+      "away": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷",
+        "score": 3
+      },
+      "goals": [
+        {
+          "team": "BRA",
+          "player": "Vinicius Junior",
+          "minute": "7'",
+          "type": "goal"
+        },
+        {
+          "team": "BRA",
+          "player": "Vinicius Junior",
+          "minute": "45'+3'",
+          "type": "goal"
+        },
+        {
+          "team": "BRA",
+          "player": "Matheus Cunha",
+          "minute": "60'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43924"
+    },
+    {
+      "id": "400021445",
+      "date": "2026-06-25",
+      "time": "北京时间 2026-06-25 09:00",
+      "stage": "Group A",
+      "venue": "Monterrey Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "1-0",
+      "home": {
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦",
+        "score": 1
+      },
+      "away": {
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "RSA",
+          "player": "Thapelo Maseko",
+          "minute": "63'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43883"
+    },
+    {
+      "id": "400021444",
+      "date": "2026-06-25",
+      "time": "北京时间 2026-06-25 09:00",
+      "stage": "Group A",
+      "venue": "Mexico City Stadium",
+      "status": "FT",
+      "minute": "",
+      "score": "0-3",
+      "home": {
+        "name": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿",
+        "score": 0
+      },
+      "away": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "score": 3
+      },
+      "goals": [
+        {
+          "team": "MEX",
+          "player": "Mateo Chavez",
+          "minute": "55'",
+          "type": "goal"
+        },
+        {
+          "team": "MEX",
+          "player": "Julian Quinones",
+          "minute": "61'",
+          "type": "goal"
+        },
+        {
+          "team": "MEX",
+          "player": "Alvaro Fidalgo",
+          "minute": "90'+4'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43911"
+    },
+    {
+      "id": "400021468",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 04:00",
+      "stage": "Group E",
+      "venue": "Philadelphia Stadium",
       "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Curaçao",
+        "code": "CUW",
+        "flag": "🇨🇼",
+        "score": 0
+      },
+      "away": {
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "flag": "🇨🇮",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021466",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 04:00",
+      "stage": "Group E",
+      "venue": "New York/New Jersey Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "flag": "🇪🇨",
+        "score": 0
+      },
+      "away": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021473",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 07:00",
+      "stage": "Group F",
+      "venue": "Kansas City Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "flag": "🇹🇳",
+        "score": 0
+      },
+      "away": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021471",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 07:00",
+      "stage": "Group F",
+      "venue": "Dallas Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵",
+        "score": 0
+      },
+      "away": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021461",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 10:00",
+      "stage": "Group D",
+      "venue": "San Francisco Bay Area Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "flag": "🇵🇾",
+        "score": 0
+      },
+      "away": {
+        "name": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021459",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 10:00",
+      "stage": "Group D",
+      "venue": "Los Angeles Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷",
+        "score": 0
+      },
+      "away": {
+        "name": "Usa",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021493",
+      "date": "2026-06-27",
+      "time": "北京时间 2026-06-27 03:00",
+      "stage": "Group I",
+      "venue": "Toronto Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "score": 0
+      },
+      "away": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "flag": "🇮🇶",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021489",
+      "date": "2026-06-27",
+      "time": "北京时间 2026-06-27 03:00",
+      "stage": "Group I",
+      "venue": "Boston Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "score": 0
+      },
+      "away": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021484",
+      "date": "2026-06-27",
+      "time": "北京时间 2026-06-27 08:00",
+      "stage": "Group H",
+      "venue": "Guadalajara Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "score": 0
+      },
+      "away": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021485",
+      "date": "2026-06-27",
+      "time": "北京时间 2026-06-27 08:00",
+      "stage": "Group H",
+      "venue": "Houston Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Cabo Verde",
+        "code": "CAB",
+        "flag": "🇨🇻",
+        "score": 0
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021481",
+      "date": "2026-06-27",
+      "time": "北京时间 2026-06-27 11:00",
+      "stage": "Group G",
+      "venue": "BC Place Vancouver",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "flag": "🇳🇿",
+        "score": 0
+      },
+      "away": {
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021479",
+      "date": "2026-06-27",
+      "time": "北京时间 2026-06-27 11:00",
+      "stage": "Group G",
+      "venue": "Seattle Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "score": 0
+      },
+      "away": {
+        "name": "Ir Iran",
+        "code": "IRI",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021508",
+      "date": "2026-06-28",
+      "time": "北京时间 2026-06-28 05:00",
+      "stage": "Group L",
+      "venue": "New York/New Jersey Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Panama",
+        "code": "PAN",
+        "flag": "🇵🇦",
+        "score": 0
+      },
+      "away": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021509",
+      "date": "2026-06-28",
+      "time": "北京时间 2026-06-28 05:00",
+      "stage": "Group L",
+      "venue": "Philadelphia Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "score": 0
+      },
+      "away": {
+        "name": "Ghana",
+        "code": "GHA",
+        "flag": "🇬🇭",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021500",
+      "date": "2026-06-28",
+      "time": "北京时间 2026-06-28 07:30",
+      "stage": "Group K",
+      "venue": "Atlanta Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Congo Dr",
+        "code": "CON",
+        "flag": "🇨🇩",
+        "score": 0
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021505",
+      "date": "2026-06-28",
+      "time": "北京时间 2026-06-28 07:30",
+      "stage": "Group K",
+      "venue": "Miami Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "score": 0
+      },
+      "away": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021497",
+      "date": "2026-06-28",
+      "time": "北京时间 2026-06-28 10:00",
+      "stage": "Group J",
+      "venue": "Kansas City Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Algeria",
+        "code": "ALG",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "away": {
+        "name": "Austria",
+        "code": "AUS",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021495",
+      "date": "2026-06-28",
+      "time": "北京时间 2026-06-28 10:00",
+      "stage": "Group J",
+      "venue": "Dallas Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Jordan",
+        "code": "JOR",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "away": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021518",
+      "date": "2026-06-29",
+      "time": "北京时间 2026-06-29 03:00",
+      "stage": "Round of 32",
+      "venue": "Los Angeles Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦",
+        "score": 0
+      },
+      "away": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021516",
+      "date": "2026-06-30",
+      "time": "北京时间 2026-06-30 01:00",
+      "stage": "Round of 32",
+      "venue": "Houston Stadium",
+      "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
         "name": "Brazil",
         "code": "BRA",
         "flag": "🇧🇷",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "Haiti",
-        "code": "HAI",
-        "flag": "🇭🇹",
-        "score": null
-      }
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "group-c-6",
-      "date": "2026-06-15",
-      "time": "2026-06-15T18:00:00.000Z",
-      "stage": "Group C",
-      "venue": "TBD",
+      "id": "400021513",
+      "date": "2026-06-30",
+      "time": "北京时间 2026-06-30 04:30",
+      "stage": "Round of 32",
+      "venue": "Boston Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "score": 0
+      },
+      "away": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021522",
+      "date": "2026-06-30",
+      "time": "北京时间 2026-06-30 09:00",
+      "stage": "Round of 32",
+      "venue": "Monterrey Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "away": {
         "name": "Morocco",
         "code": "MAR",
         "flag": "🇲🇦",
-        "score": null
+        "score": 0
       },
-      "away": {
-        "name": "Scotland",
-        "code": "SCO",
-        "flag": "🏴",
-        "score": null
-      }
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "group-d-1",
-      "date": "2026-06-14",
-      "time": "2026-06-14T12:00:00.000Z",
-      "stage": "Group D",
-      "venue": "TBD",
+      "id": "400021514",
+      "date": "2026-07-01",
+      "time": "北京时间 2026-07-01 01:00",
+      "stage": "Round of 32",
+      "venue": "Dallas Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "USA",
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "away": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021523",
+      "date": "2026-07-01",
+      "time": "北京时间 2026-07-01 05:00",
+      "stage": "Round of 32",
+      "venue": "New York/New Jersey Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "away": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021520",
+      "date": "2026-07-01",
+      "time": "北京时间 2026-07-01 09:00",
+      "stage": "Round of 32",
+      "venue": "Mexico City Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "score": 0
+      },
+      "away": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021512",
+      "date": "2026-07-02",
+      "time": "北京时间 2026-07-02 00:00",
+      "stage": "Round of 32",
+      "venue": "Atlanta Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "away": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021525",
+      "date": "2026-07-02",
+      "time": "北京时间 2026-07-02 04:00",
+      "stage": "Round of 32",
+      "venue": "Seattle Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "away": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021524",
+      "date": "2026-07-02",
+      "time": "北京时间 2026-07-02 08:00",
+      "stage": "Round of 32",
+      "venue": "San Francisco Bay Area Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Usa",
         "code": "USA",
         "flag": "🇺🇸",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "Türkiye",
-        "code": "TUR",
-        "flag": "🇹🇷",
-        "score": null
-      }
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "group-d-2",
-      "date": "2026-06-14",
-      "time": "2026-06-14T15:00:00.000Z",
-      "stage": "Group D",
-      "venue": "TBD",
+      "id": "400021519",
+      "date": "2026-07-03",
+      "time": "北京时间 2026-07-03 03:00",
+      "stage": "Round of 32",
+      "venue": "Los Angeles Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "Australia",
-        "code": "AUS",
-        "flag": "🇦🇺",
-        "score": null
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
       },
       "away": {
-        "name": "Paraguay",
-        "code": "PAR",
-        "flag": "🇵🇾",
-        "score": null
-      }
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "group-d-3",
-      "date": "2026-06-15",
-      "time": "2026-06-15T18:00:00.000Z",
-      "stage": "Group D",
-      "venue": "TBD",
+      "id": "400021526",
+      "date": "2026-07-03",
+      "time": "北京时间 2026-07-03 07:00",
+      "stage": "Round of 32",
+      "venue": "Toronto Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "USA",
-        "code": "USA",
-        "flag": "🇺🇸",
-        "score": null
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
       },
       "away": {
-        "name": "Australia",
-        "code": "AUS",
-        "flag": "🇦🇺",
-        "score": null
-      }
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "group-d-4",
-      "date": "2026-06-15",
-      "time": "2026-06-15T12:00:00.000Z",
-      "stage": "Group D",
-      "venue": "TBD",
+      "id": "400021527",
+      "date": "2026-07-03",
+      "time": "北京时间 2026-07-03 11:00",
+      "stage": "Round of 32",
+      "venue": "BC Place Vancouver",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "Türkiye",
-        "code": "TUR",
-        "flag": "🇹🇷",
-        "score": null
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "score": 0
       },
       "away": {
-        "name": "Paraguay",
-        "code": "PAR",
-        "flag": "🇵🇾",
-        "score": null
-      }
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "group-d-5",
-      "date": "2026-06-16",
-      "time": "2026-06-16T15:00:00.000Z",
-      "stage": "Group D",
-      "venue": "TBD",
+      "id": "400021515",
+      "date": "2026-07-04",
+      "time": "北京时间 2026-07-04 02:00",
+      "stage": "Round of 32",
+      "venue": "Dallas Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "USA",
-        "code": "USA",
-        "flag": "🇺🇸",
-        "score": null
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
       },
       "away": {
-        "name": "Paraguay",
-        "code": "PAR",
-        "flag": "🇵🇾",
-        "score": null
-      }
-    },
-    {
-      "id": "group-d-6",
-      "date": "2026-06-16",
-      "time": "2026-06-16T18:00:00.000Z",
-      "stage": "Group D",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Türkiye",
-        "code": "TUR",
-        "flag": "🇹🇷",
-        "score": null
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
       },
-      "away": {
-        "name": "Australia",
-        "code": "AUS",
-        "flag": "🇦🇺",
-        "score": null
-      }
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "group-e-1",
-      "date": "2026-06-15",
-      "time": "2026-06-15T12:00:00.000Z",
-      "stage": "Group E",
-      "venue": "TBD",
+      "id": "400021521",
+      "date": "2026-07-04",
+      "time": "北京时间 2026-07-04 06:00",
+      "stage": "Round of 32",
+      "venue": "Miami Stadium",
       "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Germany",
-        "code": "GER",
-        "flag": "🇩🇪",
-        "score": null
-      },
-      "away": {
-        "name": "Ecuador",
-        "code": "ECU",
-        "flag": "🇪🇨",
-        "score": null
-      }
-    },
-    {
-      "id": "group-e-2",
-      "date": "2026-06-15",
-      "time": "2026-06-15T15:00:00.000Z",
-      "stage": "Group E",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Côte d'Ivoire",
-        "code": "CIV",
-        "flag": "🇨🇮",
-        "score": null
-      },
-      "away": {
-        "name": "Curaçao",
-        "code": "CUW",
-        "flag": "🇨🇼",
-        "score": null
-      }
-    },
-    {
-      "id": "group-e-3",
-      "date": "2026-06-16",
-      "time": "2026-06-16T18:00:00.000Z",
-      "stage": "Group E",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Germany",
-        "code": "GER",
-        "flag": "🇩🇪",
-        "score": null
-      },
-      "away": {
-        "name": "Côte d'Ivoire",
-        "code": "CIV",
-        "flag": "🇨🇮",
-        "score": null
-      }
-    },
-    {
-      "id": "group-e-4",
-      "date": "2026-06-16",
-      "time": "2026-06-16T12:00:00.000Z",
-      "stage": "Group E",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Ecuador",
-        "code": "ECU",
-        "flag": "🇪🇨",
-        "score": null
-      },
-      "away": {
-        "name": "Curaçao",
-        "code": "CUW",
-        "flag": "🇨🇼",
-        "score": null
-      }
-    },
-    {
-      "id": "group-e-5",
-      "date": "2026-06-17",
-      "time": "2026-06-17T15:00:00.000Z",
-      "stage": "Group E",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Germany",
-        "code": "GER",
-        "flag": "🇩🇪",
-        "score": null
-      },
-      "away": {
-        "name": "Curaçao",
-        "code": "CUW",
-        "flag": "🇨🇼",
-        "score": null
-      }
-    },
-    {
-      "id": "group-e-6",
-      "date": "2026-06-17",
-      "time": "2026-06-17T18:00:00.000Z",
-      "stage": "Group E",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Ecuador",
-        "code": "ECU",
-        "flag": "🇪🇨",
-        "score": null
-      },
-      "away": {
-        "name": "Côte d'Ivoire",
-        "code": "CIV",
-        "flag": "🇨🇮",
-        "score": null
-      }
-    },
-    {
-      "id": "group-f-1",
-      "date": "2026-06-16",
-      "time": "2026-06-16T12:00:00.000Z",
-      "stage": "Group F",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Netherlands",
-        "code": "NED",
-        "flag": "🇳🇱",
-        "score": null
-      },
-      "away": {
-        "name": "Japan",
-        "code": "JPN",
-        "flag": "🇯🇵",
-        "score": null
-      }
-    },
-    {
-      "id": "group-f-2",
-      "date": "2026-06-16",
-      "time": "2026-06-16T15:00:00.000Z",
-      "stage": "Group F",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Sweden",
-        "code": "SWE",
-        "flag": "🇸🇪",
-        "score": null
-      },
-      "away": {
-        "name": "Tunisia",
-        "code": "TUN",
-        "flag": "🇹🇳",
-        "score": null
-      }
-    },
-    {
-      "id": "group-f-3",
-      "date": "2026-06-17",
-      "time": "2026-06-17T18:00:00.000Z",
-      "stage": "Group F",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Netherlands",
-        "code": "NED",
-        "flag": "🇳🇱",
-        "score": null
-      },
-      "away": {
-        "name": "Sweden",
-        "code": "SWE",
-        "flag": "🇸🇪",
-        "score": null
-      }
-    },
-    {
-      "id": "group-f-4",
-      "date": "2026-06-17",
-      "time": "2026-06-17T12:00:00.000Z",
-      "stage": "Group F",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Japan",
-        "code": "JPN",
-        "flag": "🇯🇵",
-        "score": null
-      },
-      "away": {
-        "name": "Tunisia",
-        "code": "TUN",
-        "flag": "🇹🇳",
-        "score": null
-      }
-    },
-    {
-      "id": "group-f-5",
-      "date": "2026-06-18",
-      "time": "2026-06-18T15:00:00.000Z",
-      "stage": "Group F",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Netherlands",
-        "code": "NED",
-        "flag": "🇳🇱",
-        "score": null
-      },
-      "away": {
-        "name": "Tunisia",
-        "code": "TUN",
-        "flag": "🇹🇳",
-        "score": null
-      }
-    },
-    {
-      "id": "group-f-6",
-      "date": "2026-06-18",
-      "time": "2026-06-18T18:00:00.000Z",
-      "stage": "Group F",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Japan",
-        "code": "JPN",
-        "flag": "🇯🇵",
-        "score": null
-      },
-      "away": {
-        "name": "Sweden",
-        "code": "SWE",
-        "flag": "🇸🇪",
-        "score": null
-      }
-    },
-    {
-      "id": "group-g-1",
-      "date": "2026-06-17",
-      "time": "2026-06-17T12:00:00.000Z",
-      "stage": "Group G",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Spain",
-        "code": "ESP",
-        "flag": "🇪🇸",
-        "score": null
-      },
-      "away": {
-        "name": "Uruguay",
-        "code": "URU",
-        "flag": "🇺🇾",
-        "score": null
-      }
-    },
-    {
-      "id": "group-g-2",
-      "date": "2026-06-17",
-      "time": "2026-06-17T15:00:00.000Z",
-      "stage": "Group G",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Cape Verde",
-        "code": "CPV",
-        "flag": "🇨🇻",
-        "score": null
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "code": "KSA",
-        "flag": "🇸🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-g-3",
-      "date": "2026-06-18",
-      "time": "2026-06-18T18:00:00.000Z",
-      "stage": "Group G",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Spain",
-        "code": "ESP",
-        "flag": "🇪🇸",
-        "score": null
-      },
-      "away": {
-        "name": "Cape Verde",
-        "code": "CPV",
-        "flag": "🇨🇻",
-        "score": null
-      }
-    },
-    {
-      "id": "group-g-4",
-      "date": "2026-06-18",
-      "time": "2026-06-18T12:00:00.000Z",
-      "stage": "Group G",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Uruguay",
-        "code": "URU",
-        "flag": "🇺🇾",
-        "score": null
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "code": "KSA",
-        "flag": "🇸🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-g-5",
-      "date": "2026-06-19",
-      "time": "2026-06-19T15:00:00.000Z",
-      "stage": "Group G",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Spain",
-        "code": "ESP",
-        "flag": "🇪🇸",
-        "score": null
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "code": "KSA",
-        "flag": "🇸🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-g-6",
-      "date": "2026-06-19",
-      "time": "2026-06-19T18:00:00.000Z",
-      "stage": "Group G",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Uruguay",
-        "code": "URU",
-        "flag": "🇺🇾",
-        "score": null
-      },
-      "away": {
-        "name": "Cape Verde",
-        "code": "CPV",
-        "flag": "🇨🇻",
-        "score": null
-      }
-    },
-    {
-      "id": "group-h-1",
-      "date": "2026-06-18",
-      "time": "2026-06-18T12:00:00.000Z",
-      "stage": "Group H",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "England",
-        "code": "ENG",
-        "flag": "🏴",
-        "score": null
-      },
-      "away": {
-        "name": "Ghana",
-        "code": "GHA",
-        "flag": "🇬🇭",
-        "score": null
-      }
-    },
-    {
-      "id": "group-h-2",
-      "date": "2026-06-18",
-      "time": "2026-06-18T15:00:00.000Z",
-      "stage": "Group H",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Belgium",
-        "code": "BEL",
-        "flag": "🇧🇪",
-        "score": null
-      },
-      "away": {
-        "name": "Panama",
-        "code": "PAN",
-        "flag": "🇵🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-h-3",
-      "date": "2026-06-19",
-      "time": "2026-06-19T18:00:00.000Z",
-      "stage": "Group H",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "England",
-        "code": "ENG",
-        "flag": "🏴",
-        "score": null
-      },
-      "away": {
-        "name": "Belgium",
-        "code": "BEL",
-        "flag": "🇧🇪",
-        "score": null
-      }
-    },
-    {
-      "id": "group-h-4",
-      "date": "2026-06-19",
-      "time": "2026-06-19T12:00:00.000Z",
-      "stage": "Group H",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Ghana",
-        "code": "GHA",
-        "flag": "🇬🇭",
-        "score": null
-      },
-      "away": {
-        "name": "Panama",
-        "code": "PAN",
-        "flag": "🇵🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-h-5",
-      "date": "2026-06-20",
-      "time": "2026-06-20T15:00:00.000Z",
-      "stage": "Group H",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "England",
-        "code": "ENG",
-        "flag": "🏴",
-        "score": null
-      },
-      "away": {
-        "name": "Panama",
-        "code": "PAN",
-        "flag": "🇵🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-h-6",
-      "date": "2026-06-20",
-      "time": "2026-06-20T18:00:00.000Z",
-      "stage": "Group H",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Ghana",
-        "code": "GHA",
-        "flag": "🇬🇭",
-        "score": null
-      },
-      "away": {
-        "name": "Belgium",
-        "code": "BEL",
-        "flag": "🇧🇪",
-        "score": null
-      }
-    },
-    {
-      "id": "group-i-1",
-      "date": "2026-06-19",
-      "time": "2026-06-19T12:00:00.000Z",
-      "stage": "Group I",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "France",
-        "code": "FRA",
-        "flag": "🇫🇷",
-        "score": null
-      },
-      "away": {
-        "name": "Norway",
-        "code": "NOR",
-        "flag": "🇳🇴",
-        "score": null
-      }
-    },
-    {
-      "id": "group-i-2",
-      "date": "2026-06-19",
-      "time": "2026-06-19T15:00:00.000Z",
-      "stage": "Group I",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Senegal",
-        "code": "SEN",
-        "flag": "🇸🇳",
-        "score": null
-      },
-      "away": {
-        "name": "Iraq",
-        "code": "IRQ",
-        "flag": "🇮🇶",
-        "score": null
-      }
-    },
-    {
-      "id": "group-i-3",
-      "date": "2026-06-20",
-      "time": "2026-06-20T18:00:00.000Z",
-      "stage": "Group I",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "France",
-        "code": "FRA",
-        "flag": "🇫🇷",
-        "score": null
-      },
-      "away": {
-        "name": "Senegal",
-        "code": "SEN",
-        "flag": "🇸🇳",
-        "score": null
-      }
-    },
-    {
-      "id": "group-i-4",
-      "date": "2026-06-20",
-      "time": "2026-06-20T12:00:00.000Z",
-      "stage": "Group I",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Norway",
-        "code": "NOR",
-        "flag": "🇳🇴",
-        "score": null
-      },
-      "away": {
-        "name": "Iraq",
-        "code": "IRQ",
-        "flag": "🇮🇶",
-        "score": null
-      }
-    },
-    {
-      "id": "group-i-5",
-      "date": "2026-06-21",
-      "time": "2026-06-21T15:00:00.000Z",
-      "stage": "Group I",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "France",
-        "code": "FRA",
-        "flag": "🇫🇷",
-        "score": null
-      },
-      "away": {
-        "name": "Iraq",
-        "code": "IRQ",
-        "flag": "🇮🇶",
-        "score": null
-      }
-    },
-    {
-      "id": "group-i-6",
-      "date": "2026-06-21",
-      "time": "2026-06-21T18:00:00.000Z",
-      "stage": "Group I",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Norway",
-        "code": "NOR",
-        "flag": "🇳🇴",
-        "score": null
-      },
-      "away": {
-        "name": "Senegal",
-        "code": "SEN",
-        "flag": "🇸🇳",
-        "score": null
-      }
-    },
-    {
-      "id": "group-j-1",
-      "date": "2026-06-20",
-      "time": "2026-06-20T12:00:00.000Z",
-      "stage": "Group J",
-      "venue": "TBD",
-      "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "Croatia",
-        "code": "CRO",
-        "flag": "🇭🇷",
-        "score": null
-      }
-    },
-    {
-      "id": "group-j-2",
-      "date": "2026-06-20",
-      "time": "2026-06-20T15:00:00.000Z",
-      "stage": "Group J",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Egypt",
-        "code": "EGY",
-        "flag": "🇪🇬",
-        "score": null
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
       },
-      "away": {
-        "name": "New Zealand",
-        "code": "NZL",
-        "flag": "🇳🇿",
-        "score": null
-      }
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "group-j-3",
-      "date": "2026-06-21",
-      "time": "2026-06-21T18:00:00.000Z",
-      "stage": "Group J",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Argentina",
-        "code": "ARG",
-        "flag": "🇦🇷",
-        "score": null
-      },
-      "away": {
-        "name": "Egypt",
-        "code": "EGY",
-        "flag": "🇪🇬",
-        "score": null
-      }
-    },
-    {
-      "id": "group-j-4",
-      "date": "2026-06-21",
-      "time": "2026-06-21T12:00:00.000Z",
-      "stage": "Group J",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Croatia",
-        "code": "CRO",
-        "flag": "🇭🇷",
-        "score": null
-      },
-      "away": {
-        "name": "New Zealand",
-        "code": "NZL",
-        "flag": "🇳🇿",
-        "score": null
-      }
-    },
-    {
-      "id": "group-j-5",
-      "date": "2026-06-22",
-      "time": "2026-06-22T15:00:00.000Z",
-      "stage": "Group J",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Argentina",
-        "code": "ARG",
-        "flag": "🇦🇷",
-        "score": null
-      },
-      "away": {
-        "name": "New Zealand",
-        "code": "NZL",
-        "flag": "🇳🇿",
-        "score": null
-      }
-    },
-    {
-      "id": "group-j-6",
-      "date": "2026-06-22",
-      "time": "2026-06-22T18:00:00.000Z",
-      "stage": "Group J",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Croatia",
-        "code": "CRO",
-        "flag": "🇭🇷",
-        "score": null
-      },
-      "away": {
-        "name": "Egypt",
-        "code": "EGY",
-        "flag": "🇪🇬",
-        "score": null
-      }
-    },
-    {
-      "id": "group-k-1",
-      "date": "2026-06-21",
-      "time": "2026-06-21T12:00:00.000Z",
-      "stage": "Group K",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Colombia",
-        "code": "COL",
-        "flag": "🇨🇴",
-        "score": null
-      },
-      "away": {
-        "name": "Portugal",
-        "code": "POR",
-        "flag": "🇵🇹",
-        "score": null
-      }
-    },
-    {
-      "id": "group-k-2",
-      "date": "2026-06-21",
-      "time": "2026-06-21T15:00:00.000Z",
-      "stage": "Group K",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "DR Congo",
-        "code": "COD",
-        "flag": "🇨🇩",
-        "score": null
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "code": "KSA",
-        "flag": "🇸🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-k-3",
-      "date": "2026-06-22",
-      "time": "2026-06-22T18:00:00.000Z",
-      "stage": "Group K",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Colombia",
-        "code": "COL",
-        "flag": "🇨🇴",
-        "score": null
-      },
-      "away": {
-        "name": "DR Congo",
-        "code": "COD",
-        "flag": "🇨🇩",
-        "score": null
-      }
-    },
-    {
-      "id": "group-k-4",
-      "date": "2026-06-22",
-      "time": "2026-06-22T12:00:00.000Z",
-      "stage": "Group K",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Portugal",
-        "code": "POR",
-        "flag": "🇵🇹",
-        "score": null
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "code": "KSA",
-        "flag": "🇸🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-k-5",
-      "date": "2026-06-23",
-      "time": "2026-06-23T15:00:00.000Z",
-      "stage": "Group K",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Colombia",
-        "code": "COL",
-        "flag": "🇨🇴",
-        "score": null
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "code": "KSA",
-        "flag": "🇸🇦",
-        "score": null
-      }
-    },
-    {
-      "id": "group-k-6",
-      "date": "2026-06-23",
-      "time": "2026-06-23T18:00:00.000Z",
-      "stage": "Group K",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Portugal",
-        "code": "POR",
-        "flag": "🇵🇹",
-        "score": null
-      },
-      "away": {
-        "name": "DR Congo",
-        "code": "COD",
-        "flag": "🇨🇩",
-        "score": null
-      }
-    },
-    {
-      "id": "group-l-1",
-      "date": "2026-06-22",
-      "time": "2026-06-22T12:00:00.000Z",
-      "stage": "Group L",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Uruguay",
-        "code": "URU",
-        "flag": "🇺🇾",
-        "score": null
-      },
-      "away": {
-        "name": "Denmark",
-        "code": "DEN",
-        "flag": "🇩🇰",
-        "score": null
-      }
-    },
-    {
-      "id": "group-l-2",
-      "date": "2026-06-22",
-      "time": "2026-06-22T15:00:00.000Z",
-      "stage": "Group L",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Serbia",
-        "code": "SRB",
-        "flag": "🇷🇸",
-        "score": null
-      },
-      "away": {
-        "name": "Chile",
-        "code": "CHI",
-        "flag": "🇨🇱",
-        "score": null
-      }
-    },
-    {
-      "id": "group-l-3",
-      "date": "2026-06-23",
-      "time": "2026-06-23T18:00:00.000Z",
-      "stage": "Group L",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Uruguay",
-        "code": "URU",
-        "flag": "🇺🇾",
-        "score": null
-      },
-      "away": {
-        "name": "Serbia",
-        "code": "SRB",
-        "flag": "🇷🇸",
-        "score": null
-      }
-    },
-    {
-      "id": "group-l-4",
-      "date": "2026-06-23",
-      "time": "2026-06-23T12:00:00.000Z",
-      "stage": "Group L",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Denmark",
-        "code": "DEN",
-        "flag": "🇩🇰",
-        "score": null
-      },
-      "away": {
-        "name": "Chile",
-        "code": "CHI",
-        "flag": "🇨🇱",
-        "score": null
-      }
-    },
-    {
-      "id": "group-l-5",
-      "date": "2026-06-24",
-      "time": "2026-06-24T15:00:00.000Z",
-      "stage": "Group L",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Uruguay",
-        "code": "URU",
-        "flag": "🇺🇾",
-        "score": null
-      },
-      "away": {
-        "name": "Chile",
-        "code": "CHI",
-        "flag": "🇨🇱",
-        "score": null
-      }
-    },
-    {
-      "id": "group-l-6",
-      "date": "2026-06-24",
-      "time": "2026-06-24T18:00:00.000Z",
-      "stage": "Group L",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "Denmark",
-        "code": "DEN",
-        "flag": "🇩🇰",
-        "score": null
-      },
-      "away": {
-        "name": "Serbia",
-        "code": "SRB",
-        "flag": "🇷🇸",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-1",
-      "date": "",
-      "time": "",
+      "id": "400021517",
+      "date": "2026-07-04",
+      "time": "北京时间 2026-07-04 09:30",
       "stage": "Round of 32",
-      "venue": "TBD",
+      "venue": "Kansas City Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-2",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
+        "score": 0
       },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-round-of-32-3",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-4",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-5",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-6",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-7",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-8",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-9",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-10",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-11",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-12",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-13",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-14",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-15",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-32-16",
-      "date": "",
-      "time": "",
-      "stage": "Round of 32",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-round-of-16-1",
-      "date": "",
-      "time": "",
+      "id": "400021530",
+      "date": "2026-07-05",
+      "time": "北京时间 2026-07-05 01:00",
       "stage": "Round of 16",
-      "venue": "TBD",
+      "venue": "Houston Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-round-of-16-2",
-      "date": "",
-      "time": "",
+      "id": "400021533",
+      "date": "2026-07-05",
+      "time": "北京时间 2026-07-05 05:00",
       "stage": "Round of 16",
-      "venue": "TBD",
+      "venue": "Philadelphia Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-round-of-16-3",
-      "date": "",
-      "time": "",
+      "id": "400021532",
+      "date": "2026-07-06",
+      "time": "北京时间 2026-07-06 04:00",
       "stage": "Round of 16",
-      "venue": "TBD",
+      "venue": "New York/New Jersey Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-round-of-16-4",
-      "date": "",
-      "time": "",
+      "id": "400021531",
+      "date": "2026-07-06",
+      "time": "北京时间 2026-07-06 08:00",
       "stage": "Round of 16",
-      "venue": "TBD",
+      "venue": "Mexico City Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-round-of-16-5",
-      "date": "",
-      "time": "",
+      "id": "400021529",
+      "date": "2026-07-07",
+      "time": "北京时间 2026-07-07 03:00",
       "stage": "Round of 16",
-      "venue": "TBD",
+      "venue": "Dallas Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-round-of-16-6",
-      "date": "",
-      "time": "",
+      "id": "400021534",
+      "date": "2026-07-07",
+      "time": "北京时间 2026-07-07 08:00",
       "stage": "Round of 16",
-      "venue": "TBD",
+      "venue": "Seattle Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-round-of-16-7",
-      "date": "",
-      "time": "",
+      "id": "400021528",
+      "date": "2026-07-08",
+      "time": "北京时间 2026-07-08 00:00",
       "stage": "Round of 16",
-      "venue": "TBD",
+      "venue": "Atlanta Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-round-of-16-8",
-      "date": "",
-      "time": "",
+      "id": "400021535",
+      "date": "2026-07-08",
+      "time": "北京时间 2026-07-08 04:00",
       "stage": "Round of 16",
-      "venue": "TBD",
+      "venue": "BC Place Vancouver",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-quarter-finals-1",
-      "date": "",
-      "time": "",
-      "stage": "Quarter-finals",
-      "venue": "TBD",
+      "id": "400021536",
+      "date": "2026-07-10",
+      "time": "北京时间 2026-07-10 04:00",
+      "stage": "Quarter-final",
+      "venue": "Boston Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-quarter-finals-2",
-      "date": "",
-      "time": "",
-      "stage": "Quarter-finals",
-      "venue": "TBD",
+      "id": "400021538",
+      "date": "2026-07-11",
+      "time": "北京时间 2026-07-11 03:00",
+      "stage": "Quarter-final",
+      "venue": "Los Angeles Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-quarter-finals-3",
-      "date": "",
-      "time": "",
-      "stage": "Quarter-finals",
-      "venue": "TBD",
+      "id": "400021539",
+      "date": "2026-07-12",
+      "time": "北京时间 2026-07-12 05:00",
+      "stage": "Quarter-final",
+      "venue": "Miami Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-quarter-finals-4",
-      "date": "",
-      "time": "",
-      "stage": "Quarter-finals",
-      "venue": "TBD",
+      "id": "400021537",
+      "date": "2026-07-12",
+      "time": "北京时间 2026-07-12 09:00",
+      "stage": "Quarter-final",
+      "venue": "Kansas City Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-semi-finals-1",
-      "date": "",
-      "time": "",
-      "stage": "Semi-finals",
-      "venue": "TBD",
+      "id": "400021541",
+      "date": "2026-07-15",
+      "time": "北京时间 2026-07-15 03:00",
+      "stage": "Semi-final",
+      "venue": "Dallas Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-semi-finals-2",
-      "date": "",
-      "time": "",
-      "stage": "Semi-finals",
-      "venue": "TBD",
+      "id": "400021540",
+      "date": "2026-07-16",
+      "time": "北京时间 2026-07-16 03:00",
+      "stage": "Semi-final",
+      "venue": "Atlanta Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
-    },
-    {
-      "id": "schedule-third-place-match-1",
-      "date": "",
-      "time": "",
-      "stage": "Third-place match",
-      "venue": "TBD",
-      "status": "Scheduled",
-      "score": "",
-      "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
+        "score": 0
       },
-      "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "score": null
-      }
+      "goals": [],
+      "winner": null
     },
     {
-      "id": "schedule-final-1",
+      "id": "400021542",
       "date": "2026-07-19",
-      "time": "",
-      "stage": "Final",
-      "venue": "TBD",
+      "time": "北京时间 2026-07-19 05:00",
+      "stage": "Play-off for third place",
+      "venue": "Miami Stadium",
       "status": "Scheduled",
+      "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
+        "score": 0
       },
       "away": {
-        "name": "TBD",
+        "name": "Tbd",
         "code": "TBD",
         "flag": "🏳️",
-        "score": null
-      }
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
+    },
+    {
+      "id": "400021543",
+      "date": "2026-07-20",
+      "time": "北京时间 2026-07-20 03:00",
+      "stage": "Final",
+      "venue": "New York/New Jersey Stadium",
+      "status": "Scheduled",
+      "minute": "",
+      "score": "",
+      "home": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "away": {
+        "name": "Tbd",
+        "code": "TBD",
+        "flag": "🏳️",
+        "score": 0
+      },
+      "goals": [],
+      "winner": null
     }
   ]
 }

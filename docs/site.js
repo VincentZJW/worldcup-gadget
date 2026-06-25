@@ -8,14 +8,14 @@ const translations = {
     releaseNote: "免费 beta 通过 GitHub Pages + GitHub Releases 分发。",
     liveTitle: "实时比分与最近赛果",
     liveBody: "正在进行的比赛会显示 LIVE 标记，最近结束的比赛会保留比分和进球信息。",
-    standingsTitle: "小组积分",
-    standingsBody: "按小组切换查看排名、胜平负、净胜球和积分，晋级区高亮显示。",
-    bracketTitle: "淘汰赛对阵",
-    bracketBody: "如果淘汰赛尚未开始，会先显示 TBD 占位；数据更新后自动替换为真实对阵。",
+    standingsTitle: "小组总积分",
+    standingsBody: "开赛以来累计排名、胜平负、净胜球和积分，晋级区高亮显示。",
+    bracketTitle: "全部对阵图",
+    bracketBody: "从小组赛到淘汰赛，展示世界杯开赛以来和后续赛程的全部对阵。",
     scheduleTitle: "完整赛程 / Tournament Map",
     scheduleBody: "查看小组赛和淘汰赛全部比赛，可按阶段与状态快速筛选。",
-    scorersTitle: "进球榜",
-    scorersBody: "前三名以高亮卡片展示，完整榜单支持排序、头像 fallback 和展开全部。",
+    scorersTitle: "球员数据榜",
+    scorersBody: "统计开赛以来所有球员的总进球数；助攻、点球和出场时间在数据源提供时同步展示。",
     productTitle: "Mac 桌面悬浮球",
     productBody: "每天 10 点自动弹出战报，平时安静悬浮在桌面边缘。点击小足球即可展开 dashboard。",
     productAutoTitle: "每日自动展示",
@@ -68,14 +68,14 @@ const translations = {
     releaseNote: "Free beta distribution through GitHub Pages + GitHub Releases.",
     liveTitle: "Live Scores and Recent Results",
     liveBody: "Live matches get a LIVE badge, while recent full-time results keep scores and goal events visible.",
-    standingsTitle: "Group Standings",
-    standingsBody: "Switch groups to inspect ranking, form, goal difference, and points with qualification spots highlighted.",
-    bracketTitle: "Knockout Bracket",
-    bracketBody: "If knockout fixtures have not started, TBD placeholders stay in place until real data arrives.",
+    standingsTitle: "Group Tables",
+    standingsBody: "Cumulative group ranking, form, goal difference, and points since the tournament opened.",
+    bracketTitle: "Full Match Map",
+    bracketBody: "Every matchup from group stage through the knockout rounds, including completed results and upcoming fixtures.",
     scheduleTitle: "Full Schedule / Tournament Map",
     scheduleBody: "Browse every group and knockout fixture with stage and status filters.",
-    scorersTitle: "Top Scorers",
-    scorersBody: "The top three get spotlight cards, while the full ranking supports sorting, avatars, and expansion.",
+    scorersTitle: "Stat Leaders",
+    scorersBody: "Cumulative player goals since kickoff, with assists, penalties, and minutes shown when the data source provides them.",
     productTitle: "Mac Desktop Floating Ball",
     productBody: "The report can appear automatically at 10 AM, then stay quiet as a floating ball on your desktop edge.",
     productAutoTitle: "Daily Auto Show",
@@ -336,6 +336,33 @@ function playerTeam(player) {
   return { name: player?.team || "TBD", flag: player?.flag || "🏳️", code: "" };
 }
 
+function markDynamicVisible(root) {
+  if (!root) return;
+  root.querySelectorAll(":scope > *").forEach((item) => item.classList.add("is-visible"));
+}
+
+function isGroupStage(stage) {
+  return /^Group\s+[A-L]$/i.test(stage || "");
+}
+
+function currentBeijingDateKey() {
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  });
+  return formatter.format(new Date());
+}
+
+function stageOrder(stage) {
+  const groupIndex = groupNames.indexOf(stage);
+  if (groupIndex >= 0) return groupIndex;
+  const roundIndex = bracketSpecs.findIndex(([name]) => name === stage);
+  if (roundIndex >= 0) return 100 + roundIndex;
+  return 200;
+}
+
 async function fetchJson(fileName) {
   const response = await fetch(dataUrl(fileName), { cache: "no-store" });
   if (!response.ok) throw new Error(`${fileName} returned ${response.status}`);
@@ -466,11 +493,13 @@ function renderStandings() {
     card.type = "button";
     card.className = `group-card${index === activeGroupIndex ? " is-active" : ""}`;
     card.style.setProperty("--delay", `${index * 35}ms`);
+    const leader = group.rows[0];
     card.innerHTML = `
       <strong>${group.group}</strong>
-      <span>${t("allGroups")}</span>
+      <span>${leader?.flag || "🏳️"} ${leader?.team || "TBD"} · ${leader?.points ?? 0} pts</span>
       ${group.rows
-        .map((row) => `<em class="${row.rank <= 2 ? "qualifies" : row.rank === 3 ? "third-place" : ""}">${row.rank}. ${row.flag || "🏳️"} ${row.team} · ${row.points}</em>`)
+        .slice(0, 4)
+        .map((row) => `<em class="${row.rank <= 2 ? "qualifies" : row.rank === 3 ? "third-place" : ""}">${row.rank}. ${row.flag || "🏳️"} ${row.team} · ${row.played}P · ${row.points}</em>`)
         .join("")}
     `;
     card.addEventListener("click", () => {
@@ -512,30 +541,46 @@ function renderStandings() {
     `;
     body.append(tr);
   });
+
+  markDynamicVisible(overview);
 }
 
 function renderBracket() {
   const flow = document.getElementById("bracketFlow");
   flow.innerHTML = "";
-  normalizedBracketRounds().forEach((round, roundIndex) => {
+  const matches = pageData.schedule?.matches || [];
+  const grouped = new Map();
+  matches.forEach((match) => {
+    const stage = match.stage || "World Cup";
+    if (!grouped.has(stage)) grouped.set(stage, []);
+    grouped.get(stage).push(match);
+  });
+
+  const stages = [...grouped.keys()].sort((left, right) => stageOrder(left) - stageOrder(right) || left.localeCompare(right));
+  stages.forEach((stage, roundIndex) => {
+    const stageMatches = [...(grouped.get(stage) || [])].sort((left, right) =>
+      String(left.time || left.date || "").localeCompare(String(right.time || right.date || ""))
+    );
     const column = document.createElement("div");
     column.className = "bracket-round";
     column.style.setProperty("--delay", `${roundIndex * 100}ms`);
-    column.innerHTML = `<h3>${round.name}</h3>`;
-    (round.matches || []).forEach((match) => {
+    column.innerHTML = `<h3>${stage}</h3>`;
+    stageMatches.forEach((match) => {
       const item = document.createElement("article");
       item.className = "bracket-card";
       const homeWins = match.winner === match.home?.code || (match.status === "FT" && Number(match.home?.score) > Number(match.away?.score));
       const awayWins = match.winner === match.away?.code || (match.status === "FT" && Number(match.away?.score) > Number(match.home?.score));
       item.innerHTML = `
-        <small>${match.date || match.time || round.name} · ${statusLabel(match.status)}</small>
+        <small>${match.time || match.date || stage} · ${statusLabel(match.status)}</small>
         <div class="${homeWins ? "winner" : ""}"><span>${match.home?.flag || "🏳️"} ${match.home?.name || "TBD"}</span><strong>${match.home?.score ?? ""}</strong></div>
+        <b>${match.score || "vs"}</b>
         <div class="${awayWins ? "winner" : ""}"><span>${match.away?.flag || "🏳️"} ${match.away?.name || "TBD"}</span><strong>${match.away?.score ?? ""}</strong></div>
       `;
       column.append(item);
     });
     flow.append(column);
   });
+  markDynamicVisible(flow);
 }
 
 function renderSchedule() {
@@ -563,9 +608,9 @@ function renderSchedule() {
     filters.append(button);
   });
 
-  const todayKey = new Date().toISOString().slice(0, 10);
+  const todayKey = currentBeijingDateKey();
   const filteredMatches = (pageData.schedule?.matches || []).filter((match) => {
-    const isGroup = /^Group\s+[A-L]$/i.test(match.stage || "");
+    const isGroup = isGroupStage(match.stage);
     const isFinished = match.status === "FT";
     const isUpcoming = match.status === "Scheduled" || match.status === "TBD";
     if (scheduleFilter === "group") return isGroup;
@@ -605,6 +650,7 @@ function renderSchedule() {
     });
     list.append(group);
   });
+  markDynamicVisible(list);
 }
 
 function initials(name) {
@@ -651,12 +697,12 @@ function renderScorers() {
       <span>#${player.rank} ${team.flag} ${team.name}</span>
       <h3>${name}</h3>
       <strong data-count="${player.goals}">0</strong>
-      <p>${t("assists")}: ${player.assists ?? 0}${player.penalties !== null && player.penalties !== undefined ? ` · ${t("penalties")}: ${player.penalties}` : ""}${player.minutes ? ` · ${player.minutes}′` : ""}</p>
+      <p>${t("assists")}: ${player.assists ?? "—"} · ${t("penalties")}: ${player.penalties ?? "—"}${player.minutes ? ` · ${player.minutes}′` : ""}</p>
     `;
     podium.append(card);
   });
 
-  const visibleRows = showAllScorers ? players.slice(3) : players.slice(3, 20);
+  const visibleRows = showAllScorers ? players : players.slice(0, 20);
   visibleRows.forEach((player) => {
     const name = playerName(player);
     const photo = playerPhoto(player);
@@ -668,12 +714,14 @@ function renderScorers() {
       <div class="avatar small ${photo ? "has-photo" : ""}">${photo ? `<img src="${photo}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-photo'); this.remove()">` : ""}<span>${initials(name)}</span></div>
       <strong>${name}</strong>
       <em>${team.flag} ${team.name}</em>
-      <small>${t("assists")}: ${player.assists ?? 0}${player.penalties !== null && player.penalties !== undefined ? ` · ${t("penalties")}: ${player.penalties}` : ""}${player.minutes ? ` · ${player.minutes}′` : ""}</small>
+      <small>${t("assists")}: ${player.assists ?? "—"} · ${t("penalties")}: ${player.penalties ?? "—"}${player.minutes ? ` · ${player.minutes}′` : ""}</small>
       <b>${player.goals}</b>
     `;
     list.append(row);
   });
 
+  markDynamicVisible(podium);
+  markDynamicVisible(list);
   countUpStarted = false;
   observeCountUp();
 }
@@ -760,6 +808,20 @@ function setupParallax() {
   );
 }
 
+function setupMapControls() {
+  const flow = document.getElementById("bracketFlow");
+  const prev = document.getElementById("mapPrev");
+  const next = document.getElementById("mapNext");
+  if (!flow || !prev || !next) return;
+  const scrollByColumn = (direction) => {
+    const firstColumn = flow.querySelector(".bracket-round");
+    const amount = firstColumn ? firstColumn.getBoundingClientRect().width + 18 : 360;
+    flow.scrollBy({ left: direction * amount, behavior: "smooth" });
+  };
+  prev.addEventListener("click", () => scrollByColumn(-1));
+  next.addEventListener("click", () => scrollByColumn(1));
+}
+
 document.querySelectorAll("[data-lang-toggle]").forEach((button) => {
   button.addEventListener("click", () => {
     applyLanguage(button.dataset.langToggle);
@@ -768,4 +830,5 @@ document.querySelectorAll("[data-lang-toggle]").forEach((button) => {
 
 applyLanguage(getInitialLanguage());
 setupParallax();
+setupMapControls();
 loadData();
