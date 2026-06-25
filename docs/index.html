@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./site.css">
   </head>
   <body data-lang="zh">
-    <header class="hero">
+    <header class="site-hero">
       <nav class="topbar" aria-label="Primary">
         <a class="brand" href="./">WorldCup Gadget</a>
         <div class="nav-actions">
@@ -26,12 +26,12 @@
         </div>
       </nav>
 
-      <section class="hero-inner" aria-labelledby="page-title">
-        <div class="hero-copy">
-          <p class="eyebrow">macOS Beta</p>
-          <h1 id="page-title">WorldCup Gadget</h1>
-          <p class="subtitle" data-i18n="heroSubtitle">
-            一个世界杯桌面悬浮球。下载 Mac 应用后，悬浮球会显示在桌面上，点击即可展开最新战报。
+      <section class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">macOS Live Gadget</p>
+          <h1 class="hero-title" data-i18n="heroTitle">世界杯战况，在你的桌面优雅展开。</h1>
+          <p class="hero-subtitle" data-i18n="heroSubtitle">
+            实时比分、小组积分、赛程与进球榜，一屏掌握。
           </p>
           <div class="hero-actions">
             <a
@@ -41,69 +41,158 @@
             >
               下载最新版
             </a>
-            <span class="release-note" data-i18n="releaseNote">通过 GitHub Releases 免费分发</span>
+            <a class="secondary-action" href="https://github.com/VincentZJW/worldcup-gadget">GitHub</a>
           </div>
+          <p class="release-note" data-i18n="releaseNote">
+            免费 beta 通过 GitHub Pages + GitHub Releases 分发。
+          </p>
         </div>
 
-        <div class="product-preview" data-i18n-aria-label="previewLabel" aria-label="应用界面预览">
-          <div class="preview-window">
-            <div class="preview-header">
-              <span data-i18n="previewSource">本地战报</span>
-              <span data-i18n="previewRefresh">刷新</span>
+        <div class="pitch-shell reveal" data-reveal-delay="120">
+          <div class="data-notice" id="dataNotice" hidden></div>
+          <section class="pitch-dashboard" aria-labelledby="pitchTitle">
+            <div class="scoreboard">
+              <p class="score-kicker" id="pitchStage">Group Stage · LIVE</p>
+              <h2 id="pitchTitle">
+                <span id="pitchHome">🇦🇷 Argentina</span>
+                <strong id="pitchScore">2 - 1</strong>
+                <span id="pitchAway">France 🇫🇷</span>
+              </h2>
+              <p class="goal-strip" id="pitchGoals">23' Messi · 51' Mbappé · 64' Alvarez</p>
             </div>
-            <div class="preview-title" data-i18n="previewTitle">2026 世界杯战报</div>
-            <div class="preview-status" data-i18n="previewStatus">数据自动更新 · 北京时间</div>
-            <div class="match-row">
-              <span data-i18n="previewTeamA">🇺🇾 乌拉圭</span>
-              <strong>2 - 2</strong>
-              <span data-i18n="previewTeamB">佛得角 🇨🇻</span>
+
+            <div class="football-pitch" aria-hidden="true">
+              <div class="pitch-line center-line"></div>
+              <div class="pitch-circle center-circle"></div>
+              <div class="pitch-spot center-spot"></div>
+              <div class="penalty-box left"></div>
+              <div class="penalty-box right"></div>
+              <div class="goal-box left"></div>
+              <div class="goal-box right"></div>
+              <div class="pitch-spot penalty left"></div>
+              <div class="pitch-spot penalty right"></div>
+              <div class="goal-mouth left"></div>
+              <div class="goal-mouth right"></div>
             </div>
-            <div class="preview-footer">LOCAL JSON · AUTO UPDATE READY</div>
-          </div>
-          <div class="floating-ball" aria-hidden="true">⚽</div>
+
+            <div class="match-ticker" id="matchTicker" aria-label="Match ticker"></div>
+            <div class="floating-ball" aria-hidden="true">⚽</div>
+          </section>
         </div>
       </section>
     </header>
 
     <main>
-      <section class="section">
-        <p class="section-index">01</p>
-        <h2 data-i18n="desktopTitle">下载后仍然是桌面悬浮球</h2>
-        <p data-i18n="desktopBody">
-          GitHub Pages 只是下载页，真正运行的是 GitHub Releases 里的 macOS App。
-          用户安装并打开后，悬浮球仍然显示在 Mac 桌面上，而不是只能在网页中查看。
-        </p>
+      <section class="content-section reveal" id="liveMatches">
+        <div class="section-heading">
+          <p class="section-index">01</p>
+          <h2 data-i18n="liveTitle">实时比分与最近赛果</h2>
+          <p data-i18n="liveBody">正在进行的比赛会显示 LIVE 标记，最近结束的比赛会保留比分和进球信息。</p>
+        </div>
+        <div class="match-card-grid stagger" id="liveMatchGrid"></div>
       </section>
 
-      <section class="feature-grid" data-i18n-aria-label="featureLabel" aria-label="核心能力">
-        <article>
-          <h3 data-i18n="featureFloatingTitle">悬浮显示</h3>
-          <p data-i18n="featureFloatingBody">小足球常驻桌面，点击展开或收起战报。</p>
-        </article>
-        <article>
-          <h3 data-i18n="featureDataTitle">自动数据</h3>
-          <p data-i18n="featureDataBody">应用会从远程 feed 更新，再读取本地缓存展示。</p>
-        </article>
-        <article>
-          <h3 data-i18n="featureDistributionTitle">免费分发</h3>
-          <p data-i18n="featureDistributionBody">当前 beta 通过 GitHub Pages 和 Releases 分发。</p>
-        </article>
+      <section class="content-section reveal" id="standings">
+        <div class="section-heading">
+          <p class="section-index">02</p>
+          <h2 data-i18n="standingsTitle">小组积分</h2>
+          <p data-i18n="standingsBody">按小组切换查看排名、胜平负、净胜球和积分，晋级区高亮显示。</p>
+        </div>
+        <div class="standings-panel">
+          <div class="group-tabs" id="groupTabs" role="tablist" aria-label="Group standings"></div>
+          <div class="table-scroll">
+            <table class="standings-table">
+              <thead>
+                <tr>
+                  <th data-i18n="rankLabel">排名</th>
+                  <th data-i18n="teamLabel">球队</th>
+                  <th data-i18n="playedLabel">场次</th>
+                  <th data-i18n="wonLabel">胜</th>
+                  <th data-i18n="drawnLabel">平</th>
+                  <th data-i18n="lostLabel">负</th>
+                  <th data-i18n="goalsForLabel">进球</th>
+                  <th data-i18n="goalsAgainstLabel">失球</th>
+                  <th data-i18n="goalDifferenceLabel">净胜球</th>
+                  <th data-i18n="pointsLabel">积分</th>
+                </tr>
+              </thead>
+              <tbody id="standingsBody"></tbody>
+            </table>
+          </div>
+        </div>
       </section>
 
-      <section class="section install-section">
-        <p class="section-index">02</p>
-        <h2 data-i18n="firstOpenTitle">首次打开</h2>
-        <p data-i18n="firstOpenBody">
-          当前版本暂未接入 Apple Developer ID 签名和公证。macOS 第一次打开时可能提示无法验证开发者，
-          这是 unsigned beta 的正常限制。下载来源请以本页面链接到的 GitHub Release 为准。
-        </p>
-        <a
-          class="secondary-action"
-          href="https://github.com/VincentZJW/worldcup-gadget/releases/latest"
-          data-i18n="releasePage"
-        >
-          前往 Release 页面
-        </a>
+      <section class="content-section reveal" id="bracket">
+        <div class="section-heading">
+          <p class="section-index">03</p>
+          <h2 data-i18n="bracketTitle">淘汰赛对阵</h2>
+          <p data-i18n="bracketBody">如果淘汰赛尚未开始，会先显示 TBD 占位；数据更新后自动替换为真实对阵。</p>
+        </div>
+        <div class="bracket-flow stagger" id="bracketFlow"></div>
+      </section>
+
+      <section class="content-section reveal" id="schedule">
+        <div class="section-heading">
+          <p class="section-index">04</p>
+          <h2 data-i18n="scheduleTitle">赛程安排</h2>
+          <p data-i18n="scheduleBody">按日期查看未来赛程和已结束比分，包含阶段、场馆和状态。</p>
+        </div>
+        <div class="schedule-list stagger" id="scheduleList"></div>
+      </section>
+
+      <section class="content-section reveal" id="scorers">
+        <div class="section-heading">
+          <p class="section-index">05</p>
+          <h2 data-i18n="scorersTitle">进球榜</h2>
+          <p data-i18n="scorersBody">前三名以高亮卡片展示，后续球员以紧凑列表呈现。</p>
+        </div>
+        <div class="scorers-layout">
+          <div class="podium-grid stagger" id="podiumGrid"></div>
+          <div class="scorer-list" id="scorerList"></div>
+        </div>
+      </section>
+
+      <section class="content-section product-section reveal" id="product">
+        <div class="section-heading">
+          <p class="section-index">06</p>
+          <h2 data-i18n="productTitle">Mac 桌面悬浮球</h2>
+          <p data-i18n="productBody">
+            每天 10 点自动弹出战报，平时安静悬浮在桌面边缘。点击小足球即可展开 dashboard。
+          </p>
+        </div>
+        <div class="product-grid stagger">
+          <article>
+            <span>10:00</span>
+            <h3 data-i18n="productAutoTitle">每日自动展示</h3>
+            <p data-i18n="productAutoBody">早上自动提醒最新战况，错过比赛也能快速补课。</p>
+          </article>
+          <article>
+            <span>Light</span>
+            <h3 data-i18n="productQuietTitle">轻量不打扰</h3>
+            <p data-i18n="productQuietBody">收起后只保留桌面小足球，不占用工作流注意力。</p>
+          </article>
+          <article>
+            <span>Click</span>
+            <h3 data-i18n="productClickTitle">一键展开</h3>
+            <p data-i18n="productClickBody">点击悬浮球展开战报、比分、赛程和设置。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="final-cta reveal">
+        <p class="eyebrow">WorldCup Gadget</p>
+        <h2 data-i18n="ctaTitle">把世界杯放回桌面。</h2>
+        <div class="hero-actions">
+          <a
+            class="primary-action"
+            href="https://github.com/VincentZJW/worldcup-gadget/releases/latest"
+            data-i18n="downloadLatest"
+          >
+            下载最新版
+          </a>
+          <a class="secondary-action" href="https://github.com/VincentZJW/worldcup-gadget">GitHub</a>
+          <a class="secondary-action" href="https://github.com/VincentZJW/worldcup-gadget#readme">README</a>
+        </div>
       </section>
     </main>
 

@@ -1,0 +1,177 @@
+{
+  "updatedAt": "北京时间 2026-06-25 10:00",
+  "timezone": "Asia/Shanghai",
+  "source": "local-fallback",
+  "isFallback": true,
+  "notice": "数据暂未更新，当前显示示例数据",
+  "matches": [
+    {
+      "id": "seed-schedule-1",
+      "date": "2026-06-25",
+      "time": "北京时间 2026-06-25 10:00",
+      "stage": "Group A",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦",
+        "score": null
+      },
+      "away": {
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "score": null
+      }
+    },
+    {
+      "id": "seed-schedule-2",
+      "date": "2026-06-25",
+      "time": "北京时间 2026-06-25 10:00",
+      "stage": "Group A",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿",
+        "score": null
+      },
+      "away": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "score": null
+      }
+    },
+    {
+      "id": "seed-schedule-3",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 04:00",
+      "stage": "Group E",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Curaçao",
+        "code": "CUW",
+        "flag": "🇨🇼",
+        "score": null
+      },
+      "away": {
+        "name": "Côte d'Ivoire",
+        "code": "CTE",
+        "flag": "🇨🇮",
+        "score": null
+      }
+    },
+    {
+      "id": "seed-schedule-4",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 04:00",
+      "stage": "Group E",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "flag": "🇪🇨",
+        "score": null
+      },
+      "away": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "score": null
+      }
+    },
+    {
+      "id": "seed-schedule-5",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 07:00",
+      "stage": "Group F",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "flag": "🇹🇳",
+        "score": null
+      },
+      "away": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "score": null
+      }
+    },
+    {
+      "id": "seed-schedule-6",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 07:00",
+      "stage": "Group F",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵",
+        "score": null
+      },
+      "away": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "score": null
+      }
+    },
+    {
+      "id": "seed-schedule-7",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 10:00",
+      "stage": "Group D",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "flag": "🇵🇾",
+        "score": null
+      },
+      "away": {
+        "name": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺",
+        "score": null
+      }
+    },
+    {
+      "id": "seed-schedule-8",
+      "date": "2026-06-26",
+      "time": "北京时间 2026-06-26 10:00",
+      "stage": "Group D",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
+      "home": {
+        "name": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷",
+        "score": null
+      },
+      "away": {
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "score": null
+      }
+    }
+  ]
+}

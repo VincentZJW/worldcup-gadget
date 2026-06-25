@@ -1,0 +1,194 @@
+{
+  "updatedAt": "2026-06-25T03:26:33.584Z",
+  "timezone": "Asia/Shanghai",
+  "source": "local-fallback",
+  "isFallback": true,
+  "notice": "数据暂未更新，当前显示示例数据",
+  "matches": [
+    {
+      "id": "seed-5",
+      "stage": "Group C",
+      "status": "FT",
+      "minute": "",
+      "venue": "Miami Stadium",
+      "home": {
+        "name": "Scotland",
+        "code": "SCO",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "score": 0
+      },
+      "away": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷",
+        "score": 3
+      },
+      "goals": [
+        {
+          "team": "BRA",
+          "player": "Vinícius Júnior",
+          "minute": "7'"
+        },
+        {
+          "team": "BRA",
+          "player": "Vinícius Júnior",
+          "minute": "45'+3'"
+        },
+        {
+          "team": "BRA",
+          "player": "Matheus Cunha",
+          "minute": "60'"
+        }
+      ]
+    },
+    {
+      "id": "seed-4",
+      "stage": "Group C",
+      "status": "FT",
+      "minute": "",
+      "venue": "Atlanta Stadium",
+      "home": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "score": 4
+      },
+      "away": {
+        "name": "Haiti",
+        "code": "HAI",
+        "flag": "🇭🇹",
+        "score": 2
+      },
+      "goals": [
+        {
+          "team": "MAR",
+          "player": "Achraf Hakimi",
+          "minute": "39'"
+        },
+        {
+          "team": "MAR",
+          "player": "Ismael Saibari",
+          "minute": "45'+1'"
+        },
+        {
+          "team": "MAR",
+          "player": "Soufiane Rahimi",
+          "minute": "78'"
+        },
+        {
+          "team": "MAR",
+          "player": "Gessime Yassine",
+          "minute": "89'"
+        },
+        {
+          "team": "HAI",
+          "player": "Lenny Joseph",
+          "minute": "10'"
+        },
+        {
+          "team": "HAI",
+          "player": "Wilson Isidor",
+          "minute": "43'"
+        }
+      ]
+    },
+    {
+      "id": "seed-3",
+      "stage": "Group B",
+      "status": "FT",
+      "minute": "",
+      "venue": "BC Place Vancouver",
+      "home": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "score": 2
+      },
+      "away": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "SUI",
+          "player": "Ruben Vargas",
+          "minute": "46'"
+        },
+        {
+          "team": "SUI",
+          "player": "Johan Manzambi",
+          "minute": "57'"
+        },
+        {
+          "team": "CAN",
+          "player": "Promise David",
+          "minute": "76'"
+        }
+      ]
+    },
+    {
+      "id": "seed-2",
+      "stage": "Group B",
+      "status": "FT",
+      "minute": "",
+      "venue": "Seattle Stadium",
+      "home": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦",
+        "score": 3
+      },
+      "away": {
+        "name": "Qatar",
+        "code": "QAT",
+        "flag": "🇶🇦",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "BIH",
+          "player": "Kerim Alajbegović",
+          "minute": "29'"
+        },
+        {
+          "team": "BIH",
+          "player": "Ermin Mahmić",
+          "minute": "80'"
+        },
+        {
+          "team": "QAT",
+          "player": "Hassan Al-Haydos",
+          "minute": "42'"
+        }
+      ]
+    },
+    {
+      "id": "seed-1",
+      "stage": "Group K",
+      "status": "FT",
+      "minute": "",
+      "venue": "Guadalajara Stadium",
+      "home": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "score": 1
+      },
+      "away": {
+        "name": "DR Congo",
+        "code": "COD",
+        "flag": "🇨🇩",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "COL",
+          "player": "Daniel Muñoz",
+          "minute": "76'"
+        }
+      ]
+    }
+  ]
+}

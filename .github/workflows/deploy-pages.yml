@@ -6,6 +6,9 @@ on:
       - master
     paths:
       - "docs/**"
+      - "public/**"
+      - "package.json"
+      - "scripts/build-pages-site.mjs"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -31,10 +34,13 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+      - name: Build static site
+        run: npm run build
+
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: .pages-dist
 
       - name: Deploy static site
         id: deployment

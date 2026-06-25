@@ -1,0 +1,99 @@
+{
+  "updatedAt": "北京时间 2026-06-25 10:00",
+  "timezone": "Asia/Shanghai",
+  "source": "local-fallback",
+  "isFallback": true,
+  "notice": "数据暂未更新，当前显示示例数据",
+  "players": [
+    {
+      "rank": 1,
+      "player": "Vinícius Júnior",
+      "team": "Brazil",
+      "flag": "🇧🇷",
+      "goals": 2,
+      "assists": 0,
+      "penalties": null
+    },
+    {
+      "rank": 2,
+      "player": "Achraf Hakimi",
+      "team": "Morocco",
+      "flag": "🇲🇦",
+      "goals": 1,
+      "assists": 0,
+      "penalties": null
+    },
+    {
+      "rank": 3,
+      "player": "Daniel Muñoz",
+      "team": "Colombia",
+      "flag": "🇨🇴",
+      "goals": 1,
+      "assists": 0,
+      "penalties": null
+    },
+    {
+      "rank": 4,
+      "player": "Ermin Mahmić",
+      "team": "Bosnia and Herzegovina",
+      "flag": "🇧🇦",
+      "goals": 1,
+      "assists": 0,
+      "penalties": null
+    },
+    {
+      "rank": 5,
+      "player": "Gessime Yassine",
+      "team": "Morocco",
+      "flag": "🇲🇦",
+      "goals": 1,
+      "assists": 0,
+      "penalties": null
+    },
+    {
+      "rank": 6,
+      "player": "Hassan Al-Haydos",
+      "team": "Qatar",
+      "flag": "🇶🇦",
+      "goals": 1,
+      "assists": 0,
+      "penalties": null
+    },
+    {
+      "rank": 7,
+      "player": "Ismael Saibari",
+      "team": "Morocco",
+      "flag": "🇲🇦",
+      "goals": 1,
+      "assists": 0,
+      "penalties": null
+    },
+    {
+      "rank": 8,
+      "player": "Johan Manzambi",
+      "team": "Switzerland",
+      "flag": "🇨🇭",
+      "goals": 1,
+      "assists": 0,
+      "penalties": null
+    },
+    {
+      "rank": 9,
+      "player": "Kerim Alajbegović",
+      "team": "Bosnia and Herzegovina",
+      "flag": "🇧🇦",
+      "goals": 1,
+      "assists": 0,
+      "penalties": null
+    },
+    {
+      "rank": 10,
+      "player": "Lenny Joseph",
+      "team": "Haiti",
+      "flag": "🇭🇹",
+      "goals": 1,
+      "assists": 0,
+      "penalties": null
+    }
+  ]
+}

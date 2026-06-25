@@ -16,6 +16,7 @@ dist/
 build/
 out/
 release/
+.pages-dist/
 
 *.dmg
 *.zip

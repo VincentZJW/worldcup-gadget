@@ -1,0 +1,10 @@
+{
+  "name": "worldcup-gadget-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static GitHub Pages site for WorldCup Gadget.",
+  "scripts": {
+    "build": "node scripts/build-pages-site.mjs",
+    "fetch:worldcup": "node scripts/fetch-worldcup-data.mjs"
+  }
+}

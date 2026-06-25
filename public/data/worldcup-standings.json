@@ -1,0 +1,180 @@
+{
+  "updatedAt": "北京时间 2026-06-25 10:00",
+  "timezone": "Asia/Shanghai",
+  "source": "local-fallback",
+  "isFallback": true,
+  "notice": "数据暂未更新，当前显示示例数据",
+  "groups": [
+    {
+      "group": "Group B",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Switzerland",
+          "flag": "🇨🇭",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 2,
+          "goalDifference": 3,
+          "points": 7
+        },
+        {
+          "rank": 2,
+          "team": "Canada",
+          "flag": "🇨🇦",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 4,
+          "goalsAgainst": 4,
+          "goalDifference": 0,
+          "points": 4
+        },
+        {
+          "rank": 3,
+          "team": "Bosnia and Herzegovina",
+          "flag": "🇧🇦",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 5,
+          "goalDifference": 0,
+          "points": 4
+        },
+        {
+          "rank": 4,
+          "team": "Qatar",
+          "flag": "🇶🇦",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group C",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Brazil",
+          "flag": "🇧🇷",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 2,
+          "goalDifference": 4,
+          "points": 7
+        },
+        {
+          "rank": 2,
+          "team": "Morocco",
+          "flag": "🇲🇦",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 4,
+          "goalDifference": 3,
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "team": "Scotland",
+          "flag": "🏴",
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3,
+          "points": 3
+        },
+        {
+          "rank": 4,
+          "team": "Haiti",
+          "flag": "🇭🇹",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 7,
+          "goalDifference": -4,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group K",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Colombia",
+          "flag": "🇨🇴",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "goalDifference": 3,
+          "points": 6
+        },
+        {
+          "rank": 2,
+          "team": "Portugal",
+          "flag": "🇵🇹",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1,
+          "points": 4
+        },
+        {
+          "rank": 3,
+          "team": "DR Congo",
+          "flag": "🇨🇩",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "points": 1
+        },
+        {
+          "rank": 4,
+          "team": "Saudi Arabia",
+          "flag": "🇸🇦",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 0,
+          "goalsAgainst": 3,
+          "goalDifference": -3,
+          "points": 0
+        }
+      ]
+    }
+  ]
+}

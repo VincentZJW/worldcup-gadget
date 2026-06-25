@@ -1,0 +1,136 @@
+{
+  "updatedAt": "北京时间 2026-06-25 10:00",
+  "timezone": "Asia/Shanghai",
+  "source": "local-fallback",
+  "isFallback": true,
+  "notice": "数据暂未更新，当前显示示例数据",
+  "rounds": [
+    {
+      "name": "Round of 32",
+      "matches": [
+        {
+          "id": "r32-1",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          }
+        },
+        {
+          "id": "r32-2",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          }
+        },
+        {
+          "id": "r32-3",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          }
+        },
+        {
+          "id": "r32-4",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Quarter-finals",
+      "matches": [
+        {
+          "id": "qf-1",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          }
+        },
+        {
+          "id": "qf-2",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Final",
+      "matches": [
+        {
+          "id": "final-1",
+          "status": "TBD",
+          "home": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "score": null
+          }
+        }
+      ]
+    }
+  ]
+}
