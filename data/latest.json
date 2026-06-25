@@ -1,112 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-25 07:08",
+  "updated_at": "北京时间 2026-06-25 09:32",
   "date_range": "2026-06-24 to 2026-06-25",
-  "summary": "波黑 3-1 击败卡塔尔，瑞士 2-1 击败加拿大，摩洛哥 2-2 战平海地，巴西 2-0 击败苏格兰。",
+  "summary": "摩洛哥 4-2 击败海地，巴西 3-0 击败苏格兰，南非 0-0 战平Korea Republic，Czechia 0-0 战平墨西哥。",
   "matches": [
-    {
-      "group": "Group K",
-      "status": "FT",
-      "venue": "Houston Stadium",
-      "finished_at_bj": "北京时间 2026-06-24 02:51",
-      "team_a": {
-        "name": "Portugal",
-        "flag": "🇵🇹",
-        "score": 5,
-        "scorers": [
-          {
-            "player": "Cristiano Ronaldo",
-            "minute": "6'",
-            "type": "goal"
-          },
-          {
-            "player": "Nuno Mendes",
-            "minute": "17'",
-            "type": "goal"
-          },
-          {
-            "player": "Cristiano Ronaldo",
-            "minute": "39'",
-            "type": "goal"
-          },
-          {
-            "player": "Abduvohid Nematov",
-            "minute": "60'",
-            "type": "own_goal"
-          },
-          {
-            "player": "Rafael Leao",
-            "minute": "87'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "葡萄牙",
-        "name_en": "Portugal"
-      },
-      "team_b": {
-        "name": "Uzbekistan",
-        "flag": "🇺🇿",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "乌兹别克斯坦",
-        "name_en": "Uzbekistan"
-      },
-      "venue_en": "Houston Stadium",
-      "venue_zh": "Houston Stadium",
-      "highlights_en": [
-        "Portugal beat Uzbekistan 5-0 in Group K.",
-        "Cristiano Ronaldo 6', Nuno Mendes 17', Cristiano Ronaldo 39', Abduvohid Nematov 60' OG",
-        "The match was played at Houston Stadium."
-      ],
-      "highlights_zh": [
-        "葡萄牙 5-0 击败乌兹别克斯坦，比赛属于 Group K。",
-        "Cristiano Ronaldo 6', Nuno Mendes 17', Cristiano Ronaldo 39', Abduvohid Nematov 60' OG",
-        "比赛场地：Houston Stadium。"
-      ],
-      "highlights": [
-        "葡萄牙 5-0 击败乌兹别克斯坦，比赛属于 Group K。",
-        "Cristiano Ronaldo 6', Nuno Mendes 17', Cristiano Ronaldo 39', Abduvohid Nematov 60' OG",
-        "比赛场地：Houston Stadium。"
-      ]
-    },
-    {
-      "group": "Group L",
-      "status": "FT",
-      "venue": "Boston Stadium",
-      "finished_at_bj": "北京时间 2026-06-24 05:52",
-      "team_a": {
-        "name": "England",
-        "flag": "🏴",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "英格兰",
-        "name_en": "England"
-      },
-      "team_b": {
-        "name": "Ghana",
-        "flag": "🇬🇭",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "加纳",
-        "name_en": "Ghana"
-      },
-      "venue_en": "Boston Stadium",
-      "venue_zh": "Boston Stadium",
-      "highlights_en": [
-        "England drew 0-0 with Ghana in Group L.",
-        "Neither side scored.",
-        "The match was played at Boston Stadium."
-      ],
-      "highlights_zh": [
-        "英格兰 0-0 战平加纳，比赛属于 Group L。",
-        "双方均未取得进球。",
-        "比赛场地：Boston Stadium。"
-      ],
-      "highlights": [
-        "英格兰 0-0 战平加纳，比赛属于 Group L。",
-        "双方均未取得进球。",
-        "比赛场地：Boston Stadium。"
-      ]
-    },
     {
       "group": "Group L",
       "status": "FT",
@@ -318,11 +214,11 @@
       "group": "Group C",
       "status": "FT",
       "venue": "Atlanta Stadium",
-      "finished_at_bj": "北京时间 2026-06-25 07:45",
+      "finished_at_bj": "北京时间 2026-06-25 07:54",
       "team_a": {
         "name": "Morocco",
         "flag": "🇲🇦",
-        "score": 2,
+        "score": 4,
         "scorers": [
           {
             "player": "Achraf Hakimi",
@@ -332,6 +228,16 @@
           {
             "player": "Ismael Saibari",
             "minute": "45'+1'",
+            "type": "goal"
+          },
+          {
+            "player": "Soufiane Rahimi",
+            "minute": "78'",
+            "type": "goal"
+          },
+          {
+            "player": "Gessime Yassine",
+            "minute": "89'",
             "type": "goal"
           }
         ],
@@ -360,18 +266,18 @@
       "venue_en": "Atlanta Stadium",
       "venue_zh": "Atlanta Stadium",
       "highlights_en": [
-        "Morocco drew 2-2 with Haiti in Group C.",
-        "Achraf Hakimi 39', Ismael Saibari 45'+1', Yassine Bounou 10' OG, Wilson Isidor 43'",
+        "Morocco beat Haiti 4-2 in Group C.",
+        "Achraf Hakimi 39', Ismael Saibari 45'+1', Soufiane Rahimi 78', Gessime Yassine 89'",
         "The match was played at Atlanta Stadium."
       ],
       "highlights_zh": [
-        "摩洛哥 2-2 战平海地，比赛属于 Group C。",
-        "Achraf Hakimi 39', Ismael Saibari 45'+1', Yassine Bounou 10' OG, Wilson Isidor 43'",
+        "摩洛哥 4-2 击败海地，比赛属于 Group C。",
+        "Achraf Hakimi 39', Ismael Saibari 45'+1', Soufiane Rahimi 78', Gessime Yassine 89'",
         "比赛场地：Atlanta Stadium。"
       ],
       "highlights": [
-        "摩洛哥 2-2 战平海地，比赛属于 Group C。",
-        "Achraf Hakimi 39', Ismael Saibari 45'+1', Yassine Bounou 10' OG, Wilson Isidor 43'",
+        "摩洛哥 4-2 击败海地，比赛属于 Group C。",
+        "Achraf Hakimi 39', Ismael Saibari 45'+1', Soufiane Rahimi 78', Gessime Yassine 89'",
         "比赛场地：Atlanta Stadium。"
       ]
     },
@@ -379,7 +285,7 @@
       "group": "Group C",
       "status": "FT",
       "venue": "Miami Stadium",
-      "finished_at_bj": "北京时间 2026-06-25 08:00",
+      "finished_at_bj": "北京时间 2026-06-25 07:52",
       "team_a": {
         "name": "Scotland",
         "flag": "🏴",
@@ -391,7 +297,7 @@
       "team_b": {
         "name": "Brazil",
         "flag": "🇧🇷",
-        "score": 2,
+        "score": 3,
         "scorers": [
           {
             "player": "Vinicius Junior",
@@ -402,6 +308,11 @@
             "player": "Vinicius Junior",
             "minute": "45'+3'",
             "type": "goal"
+          },
+          {
+            "player": "Matheus Cunha",
+            "minute": "60'",
+            "type": "goal"
           }
         ],
         "name_zh": "巴西",
@@ -410,61 +321,108 @@
       "venue_en": "Miami Stadium",
       "venue_zh": "Miami Stadium",
       "highlights_en": [
-        "Brazil beat Scotland 2-0 in Group C.",
-        "Vinicius Junior 7', Vinicius Junior 45'+3'",
+        "Brazil beat Scotland 3-0 in Group C.",
+        "Vinicius Junior 7', Vinicius Junior 45'+3', Matheus Cunha 60'",
         "The match was played at Miami Stadium."
       ],
       "highlights_zh": [
-        "巴西 2-0 击败苏格兰，比赛属于 Group C。",
-        "Vinicius Junior 7', Vinicius Junior 45'+3'",
+        "巴西 3-0 击败苏格兰，比赛属于 Group C。",
+        "Vinicius Junior 7', Vinicius Junior 45'+3', Matheus Cunha 60'",
         "比赛场地：Miami Stadium。"
       ],
       "highlights": [
-        "巴西 2-0 击败苏格兰，比赛属于 Group C。",
-        "Vinicius Junior 7', Vinicius Junior 45'+3'",
+        "巴西 3-0 击败苏格兰，比赛属于 Group C。",
+        "Vinicius Junior 7', Vinicius Junior 45'+3', Matheus Cunha 60'",
         "比赛场地：Miami Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
-    "Group L：英格兰 以 4 分领跑，加纳 4 分紧随其后。",
-    "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。",
-    "Group C：巴西 以 7 分领跑，摩洛哥 5 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-25 09:00",
+      "group": "Group A",
+      "status": "FT",
+      "venue": "Monterrey Stadium",
+      "finished_at_bj": "北京时间 2026-06-25 10:45",
       "team_a": {
         "name": "South Africa",
         "flag": "🇿🇦",
+        "score": 0,
+        "scorers": [],
         "name_zh": "南非",
         "name_en": "South Africa"
       },
       "team_b": {
         "name": "Korea Republic",
         "flag": "🇰🇷",
+        "score": 0,
+        "scorers": [],
         "name_zh": "Korea Republic",
         "name_en": "Korea Republic"
       },
-      "group": "Group A"
+      "venue_en": "Monterrey Stadium",
+      "venue_zh": "Monterrey Stadium",
+      "highlights_en": [
+        "South Africa drew 0-0 with Korea Republic in Group A.",
+        "Neither side scored.",
+        "The match was played at Monterrey Stadium."
+      ],
+      "highlights_zh": [
+        "南非 0-0 战平Korea Republic，比赛属于 Group A。",
+        "双方均未取得进球。",
+        "比赛场地：Monterrey Stadium。"
+      ],
+      "highlights": [
+        "南非 0-0 战平Korea Republic，比赛属于 Group A。",
+        "双方均未取得进球。",
+        "比赛场地：Monterrey Stadium。"
+      ]
     },
     {
-      "time_bj": "北京时间 2026-06-25 09:00",
+      "group": "Group A",
+      "status": "FT",
+      "venue": "Mexico City Stadium",
+      "finished_at_bj": "北京时间 2026-06-25 10:45",
       "team_a": {
         "name": "Czechia",
         "flag": "🇨🇿",
+        "score": 0,
+        "scorers": [],
         "name_zh": "Czechia",
         "name_en": "Czechia"
       },
       "team_b": {
         "name": "Mexico",
         "flag": "🇲🇽",
+        "score": 0,
+        "scorers": [],
         "name_zh": "墨西哥",
         "name_en": "Mexico"
       },
-      "group": "Group A"
-    },
+      "venue_en": "Mexico City Stadium",
+      "venue_zh": "Mexico City Stadium",
+      "highlights_en": [
+        "Czechia drew 0-0 with Mexico in Group A.",
+        "Neither side scored.",
+        "The match was played at Mexico City Stadium."
+      ],
+      "highlights_zh": [
+        "Czechia 0-0 战平墨西哥，比赛属于 Group A。",
+        "双方均未取得进球。",
+        "比赛场地：Mexico City Stadium。"
+      ],
+      "highlights": [
+        "Czechia 0-0 战平墨西哥，比赛属于 Group A。",
+        "双方均未取得进球。",
+        "比赛场地：Mexico City Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group L：英格兰 以 4 分领跑，加纳 4 分紧随其后。",
+    "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
+    "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。",
+    "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
+    "Group A：墨西哥 以 7 分领跑，Korea Republic 4 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-26 04:00",
       "team_a": {
@@ -560,22 +518,56 @@
         "name_en": "USA"
       },
       "group": "Group D"
+    },
+    {
+      "time_bj": "北京时间 2026-06-27 03:00",
+      "team_a": {
+        "name": "Senegal",
+        "flag": "🇸🇳",
+        "name_zh": "塞内加尔",
+        "name_en": "Senegal"
+      },
+      "team_b": {
+        "name": "Iraq",
+        "flag": "🇮🇶",
+        "name_zh": "伊拉克",
+        "name_en": "Iraq"
+      },
+      "group": "Group I"
+    },
+    {
+      "time_bj": "北京时间 2026-06-27 03:00",
+      "team_a": {
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "name_zh": "挪威",
+        "name_en": "Norway"
+      },
+      "team_b": {
+        "name": "France",
+        "flag": "🇫🇷",
+        "name_zh": "法国",
+        "name_en": "France"
+      },
+      "group": "Group I"
     }
   ],
   "news": [],
-  "summary_zh": "波黑 3-1 击败卡塔尔，瑞士 2-1 击败加拿大，摩洛哥 2-2 战平海地，巴西 2-0 击败苏格兰。",
-  "summary_en": "Bosnia and Herzegovina beat Qatar 3-1; Switzerland beat Canada 2-1; Morocco drew 2-2 with Haiti; Brazil beat Scotland 2-0.",
+  "summary_zh": "摩洛哥 4-2 击败海地，巴西 3-0 击败苏格兰，南非 0-0 战平Korea Republic，Czechia 0-0 战平墨西哥。",
+  "summary_en": "Morocco beat Haiti 4-2; Brazil beat Scotland 3-0; South Africa drew 0-0 with Korea Republic; Czechia drew 0-0 with Mexico.",
   "standings_changes_zh": [
-    "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
     "Group L：英格兰 以 4 分领跑，加纳 4 分紧随其后。",
+    "Group K：哥伦比亚 以 6 分领跑，葡萄牙 4 分紧随其后。",
     "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。",
-    "Group C：巴西 以 7 分领跑，摩洛哥 5 分紧随其后。"
+    "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
+    "Group A：墨西哥 以 7 分领跑，Korea Republic 4 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group K: Colombia lead with 6 points, followed by Portugal on 4.",
     "Group L: England lead with 4 points, followed by Ghana on 4.",
+    "Group K: Colombia lead with 6 points, followed by Portugal on 4.",
     "Group B: Switzerland lead with 7 points, followed by Canada on 4.",
-    "Group C: Brazil lead with 7 points, followed by Morocco on 5."
+    "Group C: Brazil lead with 7 points, followed by Morocco on 7.",
+    "Group A: Mexico lead with 7 points, followed by Korea Republic on 4."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -583,6 +575,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-24T23:08:25.183Z"
+    "fetched_at": "2026-06-25T01:32:23.805Z"
   }
 }
