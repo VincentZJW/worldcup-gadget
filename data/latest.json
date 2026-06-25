@@ -1,129 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-26 06:20",
+  "updated_at": "北京时间 2026-06-26 07:52",
   "date_range": "2026-06-25 to 2026-06-26",
-  "summary": "南非 1-0 击败Korea Republic，墨西哥 3-0 击败Czechia，科特迪瓦 2-0 击败库拉索，厄瓜多尔 2-1 击败德国。",
+  "summary": "科特迪瓦 2-0 击败库拉索，厄瓜多尔 2-1 击败德国，荷兰 2-0 暂时领先突尼斯，日本 0-0 暂平瑞典。",
   "matches": [
-    {
-      "group": "Group B",
-      "status": "FT",
-      "minute": "",
-      "venue": "Seattle Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-25 03:00",
-      "finished_at_bj": "北京时间 2026-06-25 04:52",
-      "team_a": {
-        "name": "Bosnia and Herzegovina",
-        "flag": "🇧🇦",
-        "score": 3,
-        "scorers": [
-          {
-            "player": "Kerim Alajbegovic",
-            "minute": "29'",
-            "type": "goal"
-          },
-          {
-            "player": "Mahmoud Abunada",
-            "minute": "34'",
-            "type": "own_goal"
-          },
-          {
-            "player": "Ermin Mahmic",
-            "minute": "80'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "波黑",
-        "name_en": "Bosnia and Herzegovina"
-      },
-      "team_b": {
-        "name": "Qatar",
-        "flag": "🇶🇦",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Hassan Alhaydos",
-            "minute": "42'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "卡塔尔",
-        "name_en": "Qatar"
-      },
-      "venue_en": "Seattle Stadium",
-      "venue_zh": "Seattle Stadium",
-      "highlights_en": [
-        "Bosnia and Herzegovina beat Qatar 3-1 in Group B.",
-        "Kerim Alajbegovic 29', Mahmoud Abunada 34' OG, Ermin Mahmic 80', Hassan Alhaydos 42'",
-        "The match was played at Seattle Stadium."
-      ],
-      "highlights_zh": [
-        "波黑 3-1 击败卡塔尔，比赛属于 Group B。",
-        "Kerim Alajbegovic 29', Mahmoud Abunada 34' OG, Ermin Mahmic 80', Hassan Alhaydos 42'",
-        "比赛场地：Seattle Stadium。"
-      ],
-      "highlights": [
-        "波黑 3-1 击败卡塔尔，比赛属于 Group B。",
-        "Kerim Alajbegovic 29', Mahmoud Abunada 34' OG, Ermin Mahmic 80', Hassan Alhaydos 42'",
-        "比赛场地：Seattle Stadium。"
-      ]
-    },
-    {
-      "group": "Group B",
-      "status": "FT",
-      "minute": "",
-      "venue": "BC Place Vancouver",
-      "kickoff_at_bj": "北京时间 2026-06-25 03:00",
-      "finished_at_bj": "北京时间 2026-06-25 04:52",
-      "team_a": {
-        "name": "Switzerland",
-        "flag": "🇨🇭",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Ruben Vargas",
-            "minute": "46'",
-            "type": "goal"
-          },
-          {
-            "player": "Johan Manzambi",
-            "minute": "57'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "瑞士",
-        "name_en": "Switzerland"
-      },
-      "team_b": {
-        "name": "Canada",
-        "flag": "🇨🇦",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Promise David",
-            "minute": "76'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "加拿大",
-        "name_en": "Canada"
-      },
-      "venue_en": "BC Place Vancouver",
-      "venue_zh": "BC Place Vancouver",
-      "highlights_en": [
-        "Switzerland beat Canada 2-1 in Group B.",
-        "Ruben Vargas 46', Johan Manzambi 57', Promise David 76'",
-        "The match was played at BC Place Vancouver."
-      ],
-      "highlights_zh": [
-        "瑞士 2-1 击败加拿大，比赛属于 Group B。",
-        "Ruben Vargas 46', Johan Manzambi 57', Promise David 76'",
-        "比赛场地：BC Place Vancouver。"
-      ],
-      "highlights": [
-        "瑞士 2-1 击败加拿大，比赛属于 Group B。",
-        "Ruben Vargas 46', Johan Manzambi 57', Promise David 76'",
-        "比赛场地：BC Place Vancouver。"
-      ]
-    },
     {
       "group": "Group C",
       "status": "FT",
@@ -467,47 +346,108 @@
         "Nilson Angulo 9', Gonzalo Plata 77', Leroy Sane 2'",
         "比赛场地：New York/New Jersey Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。",
-    "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
-    "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
-    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-26 07:00",
+      "group": "Group F",
+      "status": "LIVE",
+      "minute": "",
+      "venue": "Kansas City Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-26 07:00",
+      "finished_at_bj": "北京时间 2026-06-26 07:00",
       "team_a": {
         "name": "Tunisia",
         "flag": "🇹🇳",
+        "score": 0,
+        "scorers": [],
         "name_zh": "突尼斯",
         "name_en": "Tunisia"
       },
       "team_b": {
         "name": "Netherlands",
         "flag": "🇳🇱",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Ellyes Skhiri",
+            "minute": "3'",
+            "type": "own_goal"
+          },
+          {
+            "player": "Brian Brobbey",
+            "minute": "7'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "荷兰",
         "name_en": "Netherlands"
       },
-      "group": "Group F"
+      "venue_en": "Kansas City Stadium",
+      "venue_zh": "Kansas City Stadium",
+      "highlights_en": [
+        "Netherlands lead Tunisia 2-0 in Group F.",
+        "Ellyes Skhiri 3' OG, Brian Brobbey 7'",
+        "The match was played at Kansas City Stadium."
+      ],
+      "highlights_zh": [
+        "荷兰 2-0 暂时领先突尼斯，比赛属于 Group F。",
+        "Ellyes Skhiri 3' OG, Brian Brobbey 7'",
+        "比赛场地：Kansas City Stadium。"
+      ],
+      "highlights": [
+        "荷兰 2-0 暂时领先突尼斯，比赛属于 Group F。",
+        "Ellyes Skhiri 3' OG, Brian Brobbey 7'",
+        "比赛场地：Kansas City Stadium。"
+      ]
     },
     {
-      "time_bj": "北京时间 2026-06-26 07:00",
+      "group": "Group F",
+      "status": "LIVE",
+      "minute": "",
+      "venue": "Dallas Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-26 07:00",
+      "finished_at_bj": "北京时间 2026-06-26 07:00",
       "team_a": {
         "name": "Japan",
         "flag": "🇯🇵",
+        "score": 0,
+        "scorers": [],
         "name_zh": "日本",
         "name_en": "Japan"
       },
       "team_b": {
         "name": "Sweden",
         "flag": "🇸🇪",
+        "score": 0,
+        "scorers": [],
         "name_zh": "瑞典",
         "name_en": "Sweden"
       },
-      "group": "Group F"
-    },
+      "venue_en": "Dallas Stadium",
+      "venue_zh": "Dallas Stadium",
+      "highlights_en": [
+        "Japan and Sweden are level 0-0 in Group F.",
+        "Neither side scored.",
+        "The match was played at Dallas Stadium."
+      ],
+      "highlights_zh": [
+        "日本 0-0 暂平瑞典，比赛属于 Group F。",
+        "双方均未取得进球。",
+        "比赛场地：Dallas Stadium。"
+      ],
+      "highlights": [
+        "日本 0-0 暂平瑞典，比赛属于 Group F。",
+        "双方均未取得进球。",
+        "比赛场地：Dallas Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
+    "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
+    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
+    "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-26 10:00",
       "team_a": {
@@ -603,22 +543,54 @@
         "name_en": "Saudi Arabia"
       },
       "group": "Group H"
+    },
+    {
+      "time_bj": "北京时间 2026-06-27 11:00",
+      "team_a": {
+        "name": "New Zealand",
+        "flag": "🇳🇿",
+        "name_zh": "新西兰",
+        "name_en": "New Zealand"
+      },
+      "team_b": {
+        "name": "Belgium",
+        "flag": "🇧🇪",
+        "name_zh": "比利时",
+        "name_en": "Belgium"
+      },
+      "group": "Group G"
+    },
+    {
+      "time_bj": "北京时间 2026-06-27 11:00",
+      "team_a": {
+        "name": "Egypt",
+        "flag": "🇪🇬",
+        "name_zh": "埃及",
+        "name_en": "Egypt"
+      },
+      "team_b": {
+        "name": "IR Iran",
+        "flag": "🇮🇷",
+        "name_zh": "IR Iran",
+        "name_en": "IR Iran"
+      },
+      "group": "Group G"
     }
   ],
   "news": [],
-  "summary_zh": "南非 1-0 击败Korea Republic，墨西哥 3-0 击败Czechia，科特迪瓦 2-0 击败库拉索，厄瓜多尔 2-1 击败德国。",
-  "summary_en": "South Africa beat Korea Republic 1-0; Mexico beat Czechia 3-0; Côte d'Ivoire beat Curaçao 2-0; Ecuador beat Germany 2-1.",
+  "summary_zh": "科特迪瓦 2-0 击败库拉索，厄瓜多尔 2-1 击败德国，荷兰 2-0 暂时领先突尼斯，日本 0-0 暂平瑞典。",
+  "summary_en": "Côte d'Ivoire beat Curaçao 2-0; Ecuador beat Germany 2-1; Netherlands lead Tunisia 2-0; Japan and Sweden are level 0-0.",
   "standings_changes_zh": [
-    "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。",
     "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
     "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
-    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。"
+    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
+    "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group B: Switzerland lead with 7 points, followed by Canada on 4.",
     "Group C: Brazil lead with 7 points, followed by Morocco on 7.",
     "Group A: Mexico lead with 9 points, followed by South Africa on 4.",
-    "Group E: Germany lead with 6 points, followed by Côte d'Ivoire on 6."
+    "Group E: Germany lead with 6 points, followed by Côte d'Ivoire on 6.",
+    "Group F: Netherlands lead with 7 points, followed by Japan on 5."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -626,6 +598,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-25T22:20:02.508Z"
+    "fetched_at": "2026-06-25T23:52:07.632Z"
   }
 }
