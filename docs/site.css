@@ -680,21 +680,54 @@ main {
   font-weight: 900;
 }
 
+.team-label {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  min-width: 0;
+  vertical-align: middle;
+}
+
+.team-label span:last-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flag-wrap,
+.flag-emoji {
+  display: inline-grid;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 18px;
+  place-items: center;
+  line-height: 1;
+}
+
+.flag-icon {
+  display: block;
+  width: 24px;
+  height: 18px;
+  border-radius: 3px;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14);
+}
+
 .bracket-flow {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
-  overflow-x: auto;
-  padding: 4px 0 18px;
-  scroll-snap-type: x mandatory;
-  scrollbar-color: rgba(101, 244, 221, 0.42) rgba(255, 255, 255, 0.08);
+  padding: 4px 0 8px;
 }
 
 .bracket-round {
   position: relative;
-  flex: 0 0 330px;
   padding: 18px;
-  scroll-snap-align: start;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background:
+    linear-gradient(145deg, rgba(101, 244, 221, 0.07), rgba(255, 95, 184, 0.035)),
+    rgba(255, 255, 255, 0.045);
 }
 
 .bracket-round::after {
@@ -707,17 +740,29 @@ main {
 
 .bracket-card {
   display: grid;
-  gap: 7px;
+  gap: 8px;
   margin-bottom: 10px;
-  padding: 12px;
+  padding: 13px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.18);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.22);
 }
 
 .bracket-card small {
   color: var(--muted);
   font-size: 12px;
+}
+
+.bracket-card div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.bracket-card .team-label {
+  max-width: calc(100% - 42px);
+  font-weight: 850;
 }
 
 .bracket-card .winner {
@@ -734,25 +779,12 @@ main {
   font-size: 12px;
 }
 
-.map-controls {
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-  margin: -8px 0 12px;
-}
-
-.map-controls button {
-  display: grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
+.empty-state {
+  padding: 28px;
   border: 1px solid var(--line);
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.055);
-  color: var(--text);
-  cursor: pointer;
-  font-size: 26px;
-  line-height: 1;
+  border-radius: 16px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.045);
 }
 
 .schedule-filters {
@@ -921,7 +953,7 @@ main {
 
 .scorer-row {
   display: grid;
-  grid-template-columns: 52px 42px minmax(180px, 1.3fr) minmax(150px, 0.8fr) minmax(180px, 1fr) 64px;
+  grid-template-columns: 52px 42px minmax(180px, 1.3fr) minmax(150px, 0.8fr) 64px;
   gap: 12px;
   align-items: center;
   min-height: 64px;
@@ -939,10 +971,6 @@ main {
 .scorer-row em {
   color: var(--muted);
   font-style: normal;
-}
-
-.scorer-row small {
-  color: var(--muted);
 }
 
 .scorer-row b {
@@ -1062,8 +1090,8 @@ main {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .bracket-round {
-    flex-basis: min(330px, calc(100vw - 56px));
+  .bracket-flow {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1128,8 +1156,7 @@ main {
     grid-template-columns: 38px 34px 1fr 40px;
   }
 
-  .scorer-row em,
-  .scorer-row small {
+  .scorer-row em {
     grid-column: 3 / -1;
   }
 }

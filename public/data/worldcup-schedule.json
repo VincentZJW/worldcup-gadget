@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T09:01:51.551Z",
+  "updatedAt": "2026-06-25T10:00:27.934Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -17,12 +17,14 @@
         "name": "Mexico",
         "code": "MEX",
         "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg",
         "score": 2
       },
       "away": {
         "name": "South Africa",
         "code": "RSA",
         "flag": "🇿🇦",
+        "flagUrl": "assets/flags/rsa.svg",
         "score": 0
       },
       "goals": [
@@ -54,12 +56,14 @@
         "name": "Korea Republic",
         "code": "KOR",
         "flag": "🇰🇷",
+        "flagUrl": "assets/flags/kor.svg",
         "score": 2
       },
       "away": {
         "name": "Czechia",
         "code": "CZE",
         "flag": "🇨🇿",
+        "flagUrl": "assets/flags/cze.svg",
         "score": 1
       },
       "goals": [
@@ -97,12 +101,14 @@
         "name": "Canada",
         "code": "CAN",
         "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg",
         "score": 1
       },
       "away": {
         "name": "Bosnia and Herzegovina",
         "code": "BIH",
         "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg",
         "score": 1
       },
       "goals": [
@@ -131,15 +137,17 @@
       "minute": "",
       "score": "4-1",
       "home": {
-        "name": "Usa",
+        "name": "USA",
         "code": "USA",
         "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg",
         "score": 4
       },
       "away": {
         "name": "Paraguay",
         "code": "PAR",
         "flag": "🇵🇾",
+        "flagUrl": "assets/flags/par.svg",
         "score": 1
       },
       "goals": [
@@ -189,12 +197,14 @@
         "name": "Qatar",
         "code": "QAT",
         "flag": "🇶🇦",
+        "flagUrl": "assets/flags/qat.svg",
         "score": 1
       },
       "away": {
         "name": "Switzerland",
         "code": "SUI",
         "flag": "🇨🇭",
+        "flagUrl": "assets/flags/sui.svg",
         "score": 1
       },
       "goals": [
@@ -220,12 +230,14 @@
         "name": "Brazil",
         "code": "BRA",
         "flag": "🇧🇷",
+        "flagUrl": "assets/flags/bra.svg",
         "score": 1
       },
       "away": {
         "name": "Morocco",
         "code": "MAR",
         "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg",
         "score": 1
       },
       "goals": [
@@ -257,12 +269,14 @@
         "name": "Haiti",
         "code": "HAI",
         "flag": "🇭🇹",
+        "flagUrl": "assets/flags/hai.svg",
         "score": 0
       },
       "away": {
         "name": "Scotland",
         "code": "SCO",
         "flag": "🏴",
+        "flagUrl": "assets/flags/sco.svg",
         "score": 1
       },
       "goals": [
@@ -288,12 +302,14 @@
         "name": "Australia",
         "code": "AUS",
         "flag": "🇦🇺",
+        "flagUrl": "assets/flags/aus.svg",
         "score": 2
       },
       "away": {
         "name": "Türkiye",
         "code": "TUR",
         "flag": "🇹🇷",
+        "flagUrl": "assets/flags/tur.svg",
         "score": 0
       },
       "goals": [
@@ -325,12 +341,14 @@
         "name": "Germany",
         "code": "GER",
         "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg",
         "score": 7
       },
       "away": {
         "name": "Curaçao",
         "code": "CUW",
         "flag": "🇨🇼",
+        "flagUrl": "assets/flags/cuw.svg",
         "score": 1
       },
       "goals": [
@@ -392,12 +410,14 @@
         "name": "Netherlands",
         "code": "NED",
         "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg",
         "score": 2
       },
       "away": {
         "name": "Japan",
         "code": "JPN",
         "flag": "🇯🇵",
+        "flagUrl": "assets/flags/jpn.svg",
         "score": 2
       },
       "goals": [
@@ -441,12 +461,14 @@
         "name": "Côte d'Ivoire",
         "code": "CIV",
         "flag": "🇨🇮",
+        "flagUrl": "assets/flags/civ.svg",
         "score": 1
       },
       "away": {
         "name": "Ecuador",
         "code": "ECU",
         "flag": "🇪🇨",
+        "flagUrl": "assets/flags/ecu.svg",
         "score": 0
       },
       "goals": [
@@ -472,12 +494,14 @@
         "name": "Sweden",
         "code": "SWE",
         "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg",
         "score": 5
       },
       "away": {
         "name": "Tunisia",
         "code": "TUN",
         "flag": "🇹🇳",
+        "flagUrl": "assets/flags/tun.svg",
         "score": 1
       },
       "goals": [
@@ -533,12 +557,14 @@
         "name": "Spain",
         "code": "ESP",
         "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg",
         "score": 0
       },
       "away": {
         "name": "Cabo Verde",
         "code": "CAB",
         "flag": "🇨🇻",
+        "flagUrl": "assets/flags/cab.svg",
         "score": 0
       },
       "goals": [],
@@ -557,12 +583,14 @@
         "name": "Belgium",
         "code": "BEL",
         "flag": "🇧🇪",
+        "flagUrl": "assets/flags/bel.svg",
         "score": 1
       },
       "away": {
         "name": "Egypt",
         "code": "EGY",
         "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg",
         "score": 1
       },
       "goals": [
@@ -594,12 +622,14 @@
         "name": "Saudi Arabia",
         "code": "KSA",
         "flag": "🇸🇦",
+        "flagUrl": "assets/flags/ksa.svg",
         "score": 1
       },
       "away": {
         "name": "Uruguay",
         "code": "URU",
         "flag": "🇺🇾",
+        "flagUrl": "assets/flags/uru.svg",
         "score": 1
       },
       "goals": [
@@ -628,15 +658,17 @@
       "minute": "",
       "score": "2-2",
       "home": {
-        "name": "Ir Iran",
+        "name": "IR Iran",
         "code": "IRI",
-        "flag": "🏳️",
+        "flag": "🇮🇷",
+        "flagUrl": "assets/flags/iri.svg",
         "score": 2
       },
       "away": {
         "name": "New Zealand",
         "code": "NZL",
         "flag": "🇳🇿",
+        "flagUrl": "assets/flags/nzl.svg",
         "score": 2
       },
       "goals": [
@@ -680,12 +712,14 @@
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg",
         "score": 3
       },
       "away": {
         "name": "Senegal",
         "code": "SEN",
         "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg",
         "score": 1
       },
       "goals": [
@@ -729,12 +763,14 @@
         "name": "Iraq",
         "code": "IRQ",
         "flag": "🇮🇶",
+        "flagUrl": "assets/flags/irq.svg",
         "score": 1
       },
       "away": {
         "name": "Norway",
         "code": "NOR",
         "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg",
         "score": 4
       },
       "goals": [
@@ -784,12 +820,14 @@
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
+        "flagUrl": "assets/flags/arg.svg",
         "score": 3
       },
       "away": {
         "name": "Algeria",
         "code": "ALG",
-        "flag": "🏳️",
+        "flag": "🇩🇿",
+        "flagUrl": "assets/flags/alg.svg",
         "score": 0
       },
       "goals": [
@@ -825,19 +863,21 @@
       "score": "3-1",
       "home": {
         "name": "Austria",
-        "code": "AUS",
-        "flag": "🏳️",
+        "code": "AUT",
+        "flag": "🇦🇹",
+        "flagUrl": "assets/flags/aut.svg",
         "score": 3
       },
       "away": {
         "name": "Jordan",
         "code": "JOR",
-        "flag": "🏳️",
+        "flag": "🇯🇴",
+        "flagUrl": "assets/flags/jor.svg",
         "score": 1
       },
       "goals": [
         {
-          "team": "AUS",
+          "team": "AUT",
           "player": "Romano Schmid",
           "minute": "20'",
           "type": "goal"
@@ -849,7 +889,7 @@
           "type": "goal"
         },
         {
-          "team": "AUS",
+          "team": "AUT",
           "player": "Yazan Alarab",
           "minute": "76'",
           "type": "own_goal"
@@ -870,12 +910,14 @@
         "name": "Portugal",
         "code": "POR",
         "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg",
         "score": 1
       },
       "away": {
-        "name": "Congo Dr",
-        "code": "CON",
+        "name": "DR Congo",
+        "code": "COD",
         "flag": "🇨🇩",
+        "flagUrl": "assets/flags/cod.svg",
         "score": 1
       },
       "goals": [
@@ -886,7 +928,7 @@
           "type": "goal"
         },
         {
-          "team": "CON",
+          "team": "COD",
           "player": "Yoane Wissa",
           "minute": "45'+5'",
           "type": "goal"
@@ -907,12 +949,14 @@
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg",
         "score": 4
       },
       "away": {
         "name": "Croatia",
         "code": "CRO",
         "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg",
         "score": 2
       },
       "goals": [
@@ -962,12 +1006,14 @@
         "name": "Ghana",
         "code": "GHA",
         "flag": "🇬🇭",
+        "flagUrl": "assets/flags/gha.svg",
         "score": 1
       },
       "away": {
         "name": "Panama",
         "code": "PAN",
         "flag": "🇵🇦",
+        "flagUrl": "assets/flags/pan.svg",
         "score": 0
       },
       "goals": [
@@ -992,13 +1038,15 @@
       "home": {
         "name": "Uzbekistan",
         "code": "UZB",
-        "flag": "🏳️",
+        "flag": "🇺🇿",
+        "flagUrl": "assets/flags/uzb.svg",
         "score": 1
       },
       "away": {
         "name": "Colombia",
         "code": "COL",
         "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg",
         "score": 3
       },
       "goals": [
@@ -1042,12 +1090,14 @@
         "name": "Czechia",
         "code": "CZE",
         "flag": "🇨🇿",
+        "flagUrl": "assets/flags/cze.svg",
         "score": 1
       },
       "away": {
         "name": "South Africa",
         "code": "RSA",
         "flag": "🇿🇦",
+        "flagUrl": "assets/flags/rsa.svg",
         "score": 1
       },
       "goals": [
@@ -1073,12 +1123,14 @@
         "name": "Switzerland",
         "code": "SUI",
         "flag": "🇨🇭",
+        "flagUrl": "assets/flags/sui.svg",
         "score": 4
       },
       "away": {
         "name": "Bosnia and Herzegovina",
         "code": "BIH",
         "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg",
         "score": 1
       },
       "goals": [
@@ -1122,12 +1174,14 @@
         "name": "Canada",
         "code": "CAN",
         "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg",
         "score": 6
       },
       "away": {
         "name": "Qatar",
         "code": "QAT",
         "flag": "🇶🇦",
+        "flagUrl": "assets/flags/qat.svg",
         "score": 0
       },
       "goals": [
@@ -1183,12 +1237,14 @@
         "name": "Mexico",
         "code": "MEX",
         "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg",
         "score": 1
       },
       "away": {
         "name": "Korea Republic",
         "code": "KOR",
         "flag": "🇰🇷",
+        "flagUrl": "assets/flags/kor.svg",
         "score": 0
       },
       "goals": [
@@ -1211,15 +1267,17 @@
       "minute": "",
       "score": "2-0",
       "home": {
-        "name": "Usa",
+        "name": "USA",
         "code": "USA",
         "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg",
         "score": 2
       },
       "away": {
         "name": "Australia",
         "code": "AUS",
         "flag": "🇦🇺",
+        "flagUrl": "assets/flags/aus.svg",
         "score": 0
       },
       "goals": [
@@ -1251,12 +1309,14 @@
         "name": "Scotland",
         "code": "SCO",
         "flag": "🏴",
+        "flagUrl": "assets/flags/sco.svg",
         "score": 0
       },
       "away": {
         "name": "Morocco",
         "code": "MAR",
         "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg",
         "score": 1
       },
       "goals": [
@@ -1282,12 +1342,14 @@
         "name": "Brazil",
         "code": "BRA",
         "flag": "🇧🇷",
+        "flagUrl": "assets/flags/bra.svg",
         "score": 3
       },
       "away": {
         "name": "Haiti",
         "code": "HAI",
         "flag": "🇭🇹",
+        "flagUrl": "assets/flags/hai.svg",
         "score": 0
       },
       "goals": [
@@ -1325,12 +1387,14 @@
         "name": "Türkiye",
         "code": "TUR",
         "flag": "🇹🇷",
+        "flagUrl": "assets/flags/tur.svg",
         "score": 0
       },
       "away": {
         "name": "Paraguay",
         "code": "PAR",
         "flag": "🇵🇾",
+        "flagUrl": "assets/flags/par.svg",
         "score": 1
       },
       "goals": [
@@ -1356,12 +1420,14 @@
         "name": "Netherlands",
         "code": "NED",
         "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg",
         "score": 5
       },
       "away": {
         "name": "Sweden",
         "code": "SWE",
         "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg",
         "score": 1
       },
       "goals": [
@@ -1417,12 +1483,14 @@
         "name": "Germany",
         "code": "GER",
         "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg",
         "score": 2
       },
       "away": {
         "name": "Côte d'Ivoire",
         "code": "CIV",
         "flag": "🇨🇮",
+        "flagUrl": "assets/flags/civ.svg",
         "score": 1
       },
       "goals": [
@@ -1460,12 +1528,14 @@
         "name": "Ecuador",
         "code": "ECU",
         "flag": "🇪🇨",
+        "flagUrl": "assets/flags/ecu.svg",
         "score": 0
       },
       "away": {
         "name": "Curaçao",
         "code": "CUW",
         "flag": "🇨🇼",
+        "flagUrl": "assets/flags/cuw.svg",
         "score": 0
       },
       "goals": [],
@@ -1484,12 +1554,14 @@
         "name": "Tunisia",
         "code": "TUN",
         "flag": "🇹🇳",
+        "flagUrl": "assets/flags/tun.svg",
         "score": 0
       },
       "away": {
         "name": "Japan",
         "code": "JPN",
         "flag": "🇯🇵",
+        "flagUrl": "assets/flags/jpn.svg",
         "score": 4
       },
       "goals": [
@@ -1533,12 +1605,14 @@
         "name": "Spain",
         "code": "ESP",
         "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg",
         "score": 4
       },
       "away": {
         "name": "Saudi Arabia",
         "code": "KSA",
         "flag": "🇸🇦",
+        "flagUrl": "assets/flags/ksa.svg",
         "score": 0
       },
       "goals": [
@@ -1582,12 +1656,14 @@
         "name": "Belgium",
         "code": "BEL",
         "flag": "🇧🇪",
+        "flagUrl": "assets/flags/bel.svg",
         "score": 0
       },
       "away": {
-        "name": "Ir Iran",
+        "name": "IR Iran",
         "code": "IRI",
-        "flag": "🏳️",
+        "flag": "🇮🇷",
+        "flagUrl": "assets/flags/iri.svg",
         "score": 0
       },
       "goals": [],
@@ -1606,12 +1682,14 @@
         "name": "Uruguay",
         "code": "URU",
         "flag": "🇺🇾",
+        "flagUrl": "assets/flags/uru.svg",
         "score": 2
       },
       "away": {
         "name": "Cabo Verde",
         "code": "CAB",
         "flag": "🇨🇻",
+        "flagUrl": "assets/flags/cab.svg",
         "score": 2
       },
       "goals": [
@@ -1655,12 +1733,14 @@
         "name": "New Zealand",
         "code": "NZL",
         "flag": "🇳🇿",
+        "flagUrl": "assets/flags/nzl.svg",
         "score": 1
       },
       "away": {
         "name": "Egypt",
         "code": "EGY",
         "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg",
         "score": 3
       },
       "goals": [
@@ -1704,12 +1784,14 @@
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
+        "flagUrl": "assets/flags/arg.svg",
         "score": 2
       },
       "away": {
         "name": "Austria",
-        "code": "AUS",
-        "flag": "🏳️",
+        "code": "AUT",
+        "flag": "🇦🇹",
+        "flagUrl": "assets/flags/aut.svg",
         "score": 0
       },
       "goals": [
@@ -1741,12 +1823,14 @@
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg",
         "score": 3
       },
       "away": {
         "name": "Iraq",
         "code": "IRQ",
         "flag": "🇮🇶",
+        "flagUrl": "assets/flags/irq.svg",
         "score": 0
       },
       "goals": [
@@ -1784,12 +1868,14 @@
         "name": "Norway",
         "code": "NOR",
         "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg",
         "score": 3
       },
       "away": {
         "name": "Senegal",
         "code": "SEN",
         "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg",
         "score": 2
       },
       "goals": [
@@ -1838,13 +1924,15 @@
       "home": {
         "name": "Jordan",
         "code": "JOR",
-        "flag": "🏳️",
+        "flag": "🇯🇴",
+        "flagUrl": "assets/flags/jor.svg",
         "score": 1
       },
       "away": {
         "name": "Algeria",
         "code": "ALG",
-        "flag": "🏳️",
+        "flag": "🇩🇿",
+        "flagUrl": "assets/flags/alg.svg",
         "score": 2
       },
       "goals": [
@@ -1882,12 +1970,14 @@
         "name": "Portugal",
         "code": "POR",
         "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg",
         "score": 5
       },
       "away": {
         "name": "Uzbekistan",
         "code": "UZB",
-        "flag": "🏳️",
+        "flag": "🇺🇿",
+        "flagUrl": "assets/flags/uzb.svg",
         "score": 0
       },
       "goals": [
@@ -1937,12 +2027,14 @@
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg",
         "score": 0
       },
       "away": {
         "name": "Ghana",
         "code": "GHA",
         "flag": "🇬🇭",
+        "flagUrl": "assets/flags/gha.svg",
         "score": 0
       },
       "goals": [],
@@ -1961,12 +2053,14 @@
         "name": "Panama",
         "code": "PAN",
         "flag": "🇵🇦",
+        "flagUrl": "assets/flags/pan.svg",
         "score": 0
       },
       "away": {
         "name": "Croatia",
         "code": "CRO",
         "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg",
         "score": 1
       },
       "goals": [
@@ -1992,12 +2086,14 @@
         "name": "Colombia",
         "code": "COL",
         "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg",
         "score": 1
       },
       "away": {
-        "name": "Congo Dr",
-        "code": "CON",
+        "name": "DR Congo",
+        "code": "COD",
         "flag": "🇨🇩",
+        "flagUrl": "assets/flags/cod.svg",
         "score": 0
       },
       "goals": [
@@ -2023,12 +2119,14 @@
         "name": "Bosnia and Herzegovina",
         "code": "BIH",
         "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg",
         "score": 3
       },
       "away": {
         "name": "Qatar",
         "code": "QAT",
         "flag": "🇶🇦",
+        "flagUrl": "assets/flags/qat.svg",
         "score": 1
       },
       "goals": [
@@ -2072,12 +2170,14 @@
         "name": "Switzerland",
         "code": "SUI",
         "flag": "🇨🇭",
+        "flagUrl": "assets/flags/sui.svg",
         "score": 2
       },
       "away": {
         "name": "Canada",
         "code": "CAN",
         "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg",
         "score": 1
       },
       "goals": [
@@ -2115,12 +2215,14 @@
         "name": "Morocco",
         "code": "MAR",
         "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg",
         "score": 4
       },
       "away": {
         "name": "Haiti",
         "code": "HAI",
         "flag": "🇭🇹",
+        "flagUrl": "assets/flags/hai.svg",
         "score": 2
       },
       "goals": [
@@ -2176,12 +2278,14 @@
         "name": "Scotland",
         "code": "SCO",
         "flag": "🏴",
+        "flagUrl": "assets/flags/sco.svg",
         "score": 0
       },
       "away": {
         "name": "Brazil",
         "code": "BRA",
         "flag": "🇧🇷",
+        "flagUrl": "assets/flags/bra.svg",
         "score": 3
       },
       "goals": [
@@ -2219,12 +2323,14 @@
         "name": "South Africa",
         "code": "RSA",
         "flag": "🇿🇦",
+        "flagUrl": "assets/flags/rsa.svg",
         "score": 1
       },
       "away": {
         "name": "Korea Republic",
         "code": "KOR",
         "flag": "🇰🇷",
+        "flagUrl": "assets/flags/kor.svg",
         "score": 0
       },
       "goals": [
@@ -2250,12 +2356,14 @@
         "name": "Czechia",
         "code": "CZE",
         "flag": "🇨🇿",
+        "flagUrl": "assets/flags/cze.svg",
         "score": 0
       },
       "away": {
         "name": "Mexico",
         "code": "MEX",
         "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg",
         "score": 3
       },
       "goals": [
@@ -2293,13 +2401,15 @@
         "name": "Curaçao",
         "code": "CUW",
         "flag": "🇨🇼",
-        "score": 0
+        "flagUrl": "assets/flags/cuw.svg",
+        "score": null
       },
       "away": {
         "name": "Côte d'Ivoire",
         "code": "CIV",
         "flag": "🇨🇮",
-        "score": 0
+        "flagUrl": "assets/flags/civ.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2317,13 +2427,15 @@
         "name": "Ecuador",
         "code": "ECU",
         "flag": "🇪🇨",
-        "score": 0
+        "flagUrl": "assets/flags/ecu.svg",
+        "score": null
       },
       "away": {
         "name": "Germany",
         "code": "GER",
         "flag": "🇩🇪",
-        "score": 0
+        "flagUrl": "assets/flags/ger.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2341,13 +2453,15 @@
         "name": "Tunisia",
         "code": "TUN",
         "flag": "🇹🇳",
-        "score": 0
+        "flagUrl": "assets/flags/tun.svg",
+        "score": null
       },
       "away": {
         "name": "Netherlands",
         "code": "NED",
         "flag": "🇳🇱",
-        "score": 0
+        "flagUrl": "assets/flags/ned.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2365,13 +2479,15 @@
         "name": "Japan",
         "code": "JPN",
         "flag": "🇯🇵",
-        "score": 0
+        "flagUrl": "assets/flags/jpn.svg",
+        "score": null
       },
       "away": {
         "name": "Sweden",
         "code": "SWE",
         "flag": "🇸🇪",
-        "score": 0
+        "flagUrl": "assets/flags/swe.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2389,13 +2505,15 @@
         "name": "Paraguay",
         "code": "PAR",
         "flag": "🇵🇾",
-        "score": 0
+        "flagUrl": "assets/flags/par.svg",
+        "score": null
       },
       "away": {
         "name": "Australia",
         "code": "AUS",
         "flag": "🇦🇺",
-        "score": 0
+        "flagUrl": "assets/flags/aus.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2413,13 +2531,15 @@
         "name": "Türkiye",
         "code": "TUR",
         "flag": "🇹🇷",
-        "score": 0
+        "flagUrl": "assets/flags/tur.svg",
+        "score": null
       },
       "away": {
-        "name": "Usa",
+        "name": "USA",
         "code": "USA",
         "flag": "🇺🇸",
-        "score": 0
+        "flagUrl": "assets/flags/usa.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2437,13 +2557,15 @@
         "name": "Senegal",
         "code": "SEN",
         "flag": "🇸🇳",
-        "score": 0
+        "flagUrl": "assets/flags/sen.svg",
+        "score": null
       },
       "away": {
         "name": "Iraq",
         "code": "IRQ",
         "flag": "🇮🇶",
-        "score": 0
+        "flagUrl": "assets/flags/irq.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2461,13 +2583,15 @@
         "name": "Norway",
         "code": "NOR",
         "flag": "🇳🇴",
-        "score": 0
+        "flagUrl": "assets/flags/nor.svg",
+        "score": null
       },
       "away": {
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
-        "score": 0
+        "flagUrl": "assets/flags/fra.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2485,13 +2609,15 @@
         "name": "Uruguay",
         "code": "URU",
         "flag": "🇺🇾",
-        "score": 0
+        "flagUrl": "assets/flags/uru.svg",
+        "score": null
       },
       "away": {
         "name": "Spain",
         "code": "ESP",
         "flag": "🇪🇸",
-        "score": 0
+        "flagUrl": "assets/flags/esp.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2509,13 +2635,15 @@
         "name": "Cabo Verde",
         "code": "CAB",
         "flag": "🇨🇻",
-        "score": 0
+        "flagUrl": "assets/flags/cab.svg",
+        "score": null
       },
       "away": {
         "name": "Saudi Arabia",
         "code": "KSA",
         "flag": "🇸🇦",
-        "score": 0
+        "flagUrl": "assets/flags/ksa.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2533,13 +2661,15 @@
         "name": "New Zealand",
         "code": "NZL",
         "flag": "🇳🇿",
-        "score": 0
+        "flagUrl": "assets/flags/nzl.svg",
+        "score": null
       },
       "away": {
         "name": "Belgium",
         "code": "BEL",
         "flag": "🇧🇪",
-        "score": 0
+        "flagUrl": "assets/flags/bel.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2557,13 +2687,15 @@
         "name": "Egypt",
         "code": "EGY",
         "flag": "🇪🇬",
-        "score": 0
+        "flagUrl": "assets/flags/egy.svg",
+        "score": null
       },
       "away": {
-        "name": "Ir Iran",
+        "name": "IR Iran",
         "code": "IRI",
-        "flag": "🏳️",
-        "score": 0
+        "flag": "🇮🇷",
+        "flagUrl": "assets/flags/iri.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2581,13 +2713,15 @@
         "name": "Panama",
         "code": "PAN",
         "flag": "🇵🇦",
-        "score": 0
+        "flagUrl": "assets/flags/pan.svg",
+        "score": null
       },
       "away": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
-        "score": 0
+        "flagUrl": "assets/flags/eng.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2605,13 +2739,15 @@
         "name": "Croatia",
         "code": "CRO",
         "flag": "🇭🇷",
-        "score": 0
+        "flagUrl": "assets/flags/cro.svg",
+        "score": null
       },
       "away": {
         "name": "Ghana",
         "code": "GHA",
         "flag": "🇬🇭",
-        "score": 0
+        "flagUrl": "assets/flags/gha.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2626,16 +2762,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Congo Dr",
-        "code": "CON",
+        "name": "DR Congo",
+        "code": "COD",
         "flag": "🇨🇩",
-        "score": 0
+        "flagUrl": "assets/flags/cod.svg",
+        "score": null
       },
       "away": {
         "name": "Uzbekistan",
         "code": "UZB",
-        "flag": "🏳️",
-        "score": 0
+        "flag": "🇺🇿",
+        "flagUrl": "assets/flags/uzb.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2653,13 +2791,15 @@
         "name": "Colombia",
         "code": "COL",
         "flag": "🇨🇴",
-        "score": 0
+        "flagUrl": "assets/flags/col.svg",
+        "score": null
       },
       "away": {
         "name": "Portugal",
         "code": "POR",
         "flag": "🇵🇹",
-        "score": 0
+        "flagUrl": "assets/flags/por.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2676,14 +2816,16 @@
       "home": {
         "name": "Algeria",
         "code": "ALG",
-        "flag": "🏳️",
-        "score": 0
+        "flag": "🇩🇿",
+        "flagUrl": "assets/flags/alg.svg",
+        "score": null
       },
       "away": {
         "name": "Austria",
-        "code": "AUS",
-        "flag": "🏳️",
-        "score": 0
+        "code": "AUT",
+        "flag": "🇦🇹",
+        "flagUrl": "assets/flags/aut.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2700,14 +2842,16 @@
       "home": {
         "name": "Jordan",
         "code": "JOR",
-        "flag": "🏳️",
-        "score": 0
+        "flag": "🇯🇴",
+        "flagUrl": "assets/flags/jor.svg",
+        "score": null
       },
       "away": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
-        "score": 0
+        "flagUrl": "assets/flags/arg.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2725,13 +2869,15 @@
         "name": "South Africa",
         "code": "RSA",
         "flag": "🇿🇦",
-        "score": 0
+        "flagUrl": "assets/flags/rsa.svg",
+        "score": null
       },
       "away": {
         "name": "Canada",
         "code": "CAN",
         "flag": "🇨🇦",
-        "score": 0
+        "flagUrl": "assets/flags/can.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2749,13 +2895,15 @@
         "name": "Brazil",
         "code": "BRA",
         "flag": "🇧🇷",
-        "score": 0
+        "flagUrl": "assets/flags/bra.svg",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2773,13 +2921,15 @@
         "name": "Germany",
         "code": "GER",
         "flag": "🇩🇪",
-        "score": 0
+        "flagUrl": "assets/flags/ger.svg",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2794,16 +2944,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
         "name": "Morocco",
         "code": "MAR",
         "flag": "🇲🇦",
-        "score": 0
+        "flagUrl": "assets/flags/mar.svg",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2818,16 +2970,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2842,16 +2996,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2869,13 +3025,15 @@
         "name": "Mexico",
         "code": "MEX",
         "flag": "🇲🇽",
-        "score": 0
+        "flagUrl": "assets/flags/mex.svg",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2890,16 +3048,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2914,16 +3074,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2938,16 +3100,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Usa",
+        "name": "USA",
         "code": "USA",
         "flag": "🇺🇸",
-        "score": 0
+        "flagUrl": "assets/flags/usa.svg",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2962,16 +3126,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -2986,16 +3152,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3013,13 +3181,15 @@
         "name": "Switzerland",
         "code": "SUI",
         "flag": "🇨🇭",
-        "score": 0
+        "flagUrl": "assets/flags/sui.svg",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3034,16 +3204,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3061,13 +3233,15 @@
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
-        "score": 0
+        "flagUrl": "assets/flags/arg.svg",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3082,16 +3256,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3106,16 +3282,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3130,16 +3308,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3154,16 +3334,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3178,16 +3360,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3202,16 +3386,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3226,16 +3412,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3250,16 +3438,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3274,16 +3464,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3298,16 +3490,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3322,16 +3516,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3346,16 +3542,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3370,16 +3568,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3394,16 +3594,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3418,16 +3620,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3442,16 +3646,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null
@@ -3466,16 +3672,18 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "away": {
-        "name": "Tbd",
+        "name": "TBD",
         "code": "TBD",
         "flag": "🏳️",
-        "score": 0
+        "flagUrl": "",
+        "score": null
       },
       "goals": [],
       "winner": null

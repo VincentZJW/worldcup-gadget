@@ -126,12 +126,8 @@
       <section class="content-section reveal" id="bracket">
         <div class="section-heading">
           <p class="section-index">03</p>
-          <h2 data-i18n="bracketTitle">全部对阵图</h2>
-          <p data-i18n="bracketBody">从小组赛到淘汰赛，展示世界杯开赛以来和后续赛程的全部对阵。</p>
-        </div>
-        <div class="map-controls">
-          <button type="button" id="mapPrev" aria-label="Previous match column">‹</button>
-          <button type="button" id="mapNext" aria-label="Next match column">›</button>
+          <h2 data-i18n="bracketTitle">关键对阵图</h2>
+          <p data-i18n="bracketBody">保留最新赛果、接下来和淘汰赛路径；完整 104 场比赛放在下方赛程中查看。</p>
         </div>
         <div class="bracket-flow stagger" id="bracketFlow"></div>
       </section>
@@ -149,18 +145,10 @@
       <section class="content-section reveal" id="scorers">
         <div class="section-heading">
           <p class="section-index">05</p>
-          <h2 data-i18n="scorersTitle">球员数据榜</h2>
-          <p data-i18n="scorersBody">统计开赛以来所有球员的总进球数；助攻、点球和出场时间在数据源提供时同步展示。</p>
+          <h2 data-i18n="scorersTitle">进球榜</h2>
+          <p data-i18n="scorersBody">统计开赛以来所有球员的总进球数，并尽量补齐球员头像。</p>
         </div>
         <div class="scorer-controls">
-          <label for="scorerSort" data-i18n="sortByLabel">排序</label>
-          <select id="scorerSort">
-            <option value="goals" data-i18n="sortGoals">进球数</option>
-            <option value="assists" data-i18n="sortAssists">助攻数</option>
-            <option value="penalties" data-i18n="sortPenalties">点球数</option>
-            <option value="minutes" data-i18n="sortMinutes">出场时间</option>
-            <option value="team" data-i18n="sortTeam">球队</option>
-          </select>
           <button type="button" id="toggleScorers" class="small-action" data-i18n="expandAll">展开全部</button>
         </div>
         <div class="scorers-layout">

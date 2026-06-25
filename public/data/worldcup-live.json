@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T09:01:51.551Z",
+  "updatedAt": "2026-06-25T10:00:27.934Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -14,12 +14,14 @@
         "name": "South Africa",
         "code": "RSA",
         "flag": "🇿🇦",
+        "flagUrl": "assets/flags/rsa.svg",
         "score": 1
       },
       "away": {
         "name": "Korea Republic",
         "code": "KOR",
         "flag": "🇰🇷",
+        "flagUrl": "assets/flags/kor.svg",
         "score": 0
       },
       "goals": [
@@ -41,12 +43,14 @@
         "name": "Czechia",
         "code": "CZE",
         "flag": "🇨🇿",
+        "flagUrl": "assets/flags/cze.svg",
         "score": 0
       },
       "away": {
         "name": "Mexico",
         "code": "MEX",
         "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg",
         "score": 3
       },
       "goals": [
@@ -80,12 +84,14 @@
         "name": "Morocco",
         "code": "MAR",
         "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg",
         "score": 4
       },
       "away": {
         "name": "Haiti",
         "code": "HAI",
         "flag": "🇭🇹",
+        "flagUrl": "assets/flags/hai.svg",
         "score": 2
       },
       "goals": [
@@ -137,12 +143,14 @@
         "name": "Scotland",
         "code": "SCO",
         "flag": "🏴",
+        "flagUrl": "assets/flags/sco.svg",
         "score": 0
       },
       "away": {
         "name": "Brazil",
         "code": "BRA",
         "flag": "🇧🇷",
+        "flagUrl": "assets/flags/bra.svg",
         "score": 3
       },
       "goals": [
@@ -176,12 +184,14 @@
         "name": "Bosnia and Herzegovina",
         "code": "BIH",
         "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg",
         "score": 3
       },
       "away": {
         "name": "Qatar",
         "code": "QAT",
         "flag": "🇶🇦",
+        "flagUrl": "assets/flags/qat.svg",
         "score": 1
       },
       "goals": [
@@ -221,12 +231,14 @@
         "name": "Switzerland",
         "code": "SUI",
         "flag": "🇨🇭",
+        "flagUrl": "assets/flags/sui.svg",
         "score": 2
       },
       "away": {
         "name": "Canada",
         "code": "CAN",
         "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg",
         "score": 1
       },
       "goals": [
@@ -260,12 +272,14 @@
         "name": "Colombia",
         "code": "COL",
         "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg",
         "score": 1
       },
       "away": {
-        "name": "Congo Dr",
-        "code": "CON",
+        "name": "DR Congo",
+        "code": "COD",
         "flag": "🇨🇩",
+        "flagUrl": "assets/flags/cod.svg",
         "score": 0
       },
       "goals": [
@@ -287,12 +301,14 @@
         "name": "Panama",
         "code": "PAN",
         "flag": "🇵🇦",
+        "flagUrl": "assets/flags/pan.svg",
         "score": 0
       },
       "away": {
         "name": "Croatia",
         "code": "CRO",
         "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg",
         "score": 1
       },
       "goals": [
@@ -314,12 +330,14 @@
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg",
         "score": 0
       },
       "away": {
         "name": "Ghana",
         "code": "GHA",
         "flag": "🇬🇭",
+        "flagUrl": "assets/flags/gha.svg",
         "score": 0
       },
       "goals": []
@@ -334,12 +352,14 @@
         "name": "Portugal",
         "code": "POR",
         "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg",
         "score": 5
       },
       "away": {
         "name": "Uzbekistan",
         "code": "UZB",
-        "flag": "🏳️",
+        "flag": "🇺🇿",
+        "flagUrl": "assets/flags/uzb.svg",
         "score": 0
       },
       "goals": [

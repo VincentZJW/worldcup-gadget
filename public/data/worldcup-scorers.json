@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T09:01:51.551Z",
+  "updatedAt": "2026-06-25T10:00:27.934Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -9,12 +9,13 @@
       "player": {
         "id": "lionel messi-ARG",
         "name": "Lionel Messi",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/e0i2051750317027.png"
       },
       "team": {
         "name": "Argentina",
         "code": "ARG",
-        "flag": "🇦🇷"
+        "flag": "🇦🇷",
+        "flagUrl": "assets/flags/arg.svg"
       },
       "goals": 5,
       "assists": null,
@@ -26,12 +27,13 @@
       "player": {
         "id": "erling haaland-NOR",
         "name": "Erling Haaland",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/un3jr11769182465.png"
       },
       "team": {
         "name": "Norway",
         "code": "NOR",
-        "flag": "🇳🇴"
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg"
       },
       "goals": 4,
       "assists": null,
@@ -43,12 +45,13 @@
       "player": {
         "id": "kylian mbappe-FRA",
         "name": "Kylian Mbappe",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/h9u9vz1733653583.png"
       },
       "team": {
         "name": "France",
         "code": "FRA",
-        "flag": "🇫🇷"
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg"
       },
       "goals": 4,
       "assists": null,
@@ -60,12 +63,13 @@
       "player": {
         "id": "vinicius junior-BRA",
         "name": "Vinicius Junior",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ejuxsh1750271859.png"
       },
       "team": {
         "name": "Brazil",
         "code": "BRA",
-        "flag": "🇧🇷"
+        "flag": "🇧🇷",
+        "flagUrl": "assets/flags/bra.svg"
       },
       "goals": 4,
       "assists": null,
@@ -77,12 +81,13 @@
       "player": {
         "id": "deniz undav-GER",
         "name": "Deniz Undav",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/hcxx8s1763586492.png"
       },
       "team": {
         "name": "Germany",
         "code": "GER",
-        "flag": "🇩🇪"
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
       },
       "goals": 3,
       "assists": null,
@@ -94,12 +99,13 @@
       "player": {
         "id": "ismael saibari-MAR",
         "name": "Ismael Saibari",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3y277g1764595447.png"
       },
       "team": {
         "name": "Morocco",
         "code": "MAR",
-        "flag": "🇲🇦"
+        "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg"
       },
       "goals": 3,
       "assists": null,
@@ -111,12 +117,13 @@
       "player": {
         "id": "johan manzambi-SUI",
         "name": "Johan Manzambi",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/pg2bjt1763328991.png"
       },
       "team": {
         "name": "Switzerland",
         "code": "SUI",
-        "flag": "🇨🇭"
+        "flag": "🇨🇭",
+        "flagUrl": "assets/flags/sui.svg"
       },
       "goals": 3,
       "assists": null,
@@ -128,12 +135,13 @@
       "player": {
         "id": "jonathan david-CAN",
         "name": "Jonathan David",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/nyd9d91759225738.png"
       },
       "team": {
         "name": "Canada",
         "code": "CAN",
-        "flag": "🇨🇦"
+        "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg"
       },
       "goals": 3,
       "assists": null,
@@ -145,12 +153,13 @@
       "player": {
         "id": "matheus cunha-BRA",
         "name": "Matheus Cunha",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/29x61e1762020281.png"
       },
       "team": {
         "name": "Brazil",
         "code": "BRA",
-        "flag": "🇧🇷"
+        "flag": "🇧🇷",
+        "flagUrl": "assets/flags/bra.svg"
       },
       "goals": 3,
       "assists": null,
@@ -162,12 +171,13 @@
       "player": {
         "id": "ayase ueda-JPN",
         "name": "Ayase Ueda",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/5ezc8v1758188908.png"
       },
       "team": {
         "name": "Japan",
         "code": "JPN",
-        "flag": "🇯🇵"
+        "flag": "🇯🇵",
+        "flagUrl": "assets/flags/jpn.svg"
       },
       "goals": 2,
       "assists": null,
@@ -179,12 +189,13 @@
       "player": {
         "id": "brian brobbey-NED",
         "name": "Brian Brobbey",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/q3qz441762198721.png"
       },
       "team": {
         "name": "Netherlands",
         "code": "NED",
-        "flag": "🇳🇱"
+        "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg"
       },
       "goals": 2,
       "assists": null,
@@ -196,12 +207,13 @@
       "player": {
         "id": "cody gakpo-NED",
         "name": "Cody Gakpo",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/lwkl5n1757088091.png"
       },
       "team": {
         "name": "Netherlands",
         "code": "NED",
-        "flag": "🇳🇱"
+        "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg"
       },
       "goals": 2,
       "assists": null,
@@ -213,12 +225,13 @@
       "player": {
         "id": "cristiano ronaldo-POR",
         "name": "Cristiano Ronaldo",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/a19jje1761592498.png"
       },
       "team": {
         "name": "Portugal",
         "code": "POR",
-        "flag": "🇵🇹"
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg"
       },
       "goals": 2,
       "assists": null,
@@ -230,12 +243,13 @@
       "player": {
         "id": "crysencio summerville-NED",
         "name": "Crysencio Summerville",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/b51rjk1756984653.png"
       },
       "team": {
         "name": "Netherlands",
         "code": "NED",
-        "flag": "🇳🇱"
+        "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg"
       },
       "goals": 2,
       "assists": null,
@@ -247,12 +261,13 @@
       "player": {
         "id": "cyle larin-CAN",
         "name": "Cyle Larin",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/bgse2n1777485421.png"
       },
       "team": {
         "name": "Canada",
         "code": "CAN",
-        "flag": "🇨🇦"
+        "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg"
       },
       "goals": 2,
       "assists": null,
@@ -264,12 +279,13 @@
       "player": {
         "id": "daichi kamada-JPN",
         "name": "Daichi Kamada",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/xajscx1761492482.png"
       },
       "team": {
         "name": "Japan",
         "code": "JPN",
-        "flag": "🇯🇵"
+        "flag": "🇯🇵",
+        "flagUrl": "assets/flags/jpn.svg"
       },
       "goals": 2,
       "assists": null,
@@ -281,12 +297,13 @@
       "player": {
         "id": "daniel munoz-COL",
         "name": "Daniel Munoz",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/qoxqre1761492462.png"
       },
       "team": {
         "name": "Colombia",
         "code": "COL",
-        "flag": "🇨🇴"
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg"
       },
       "goals": 2,
       "assists": null,
@@ -298,12 +315,13 @@
       "player": {
         "id": "elijah just-NZL",
         "name": "Elijah Just",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/gb5m291779220774.png"
       },
       "team": {
         "name": "New Zealand",
         "code": "NZL",
-        "flag": "🇳🇿"
+        "flag": "🇳🇿",
+        "flagUrl": "assets/flags/nzl.svg"
       },
       "goals": 2,
       "assists": null,
@@ -315,12 +333,13 @@
       "player": {
         "id": "ermin mahmic-BIH",
         "name": "Ermin Mahmic",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/tgoi7x1779017253.png"
       },
       "team": {
         "name": "Bosnia and Herzegovina",
         "code": "BIH",
-        "flag": "🇧🇦"
+        "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg"
       },
       "goals": 2,
       "assists": null,
@@ -332,12 +351,13 @@
       "player": {
         "id": "folarin balogun-USA",
         "name": "Folarin Balogun",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ic7kq51781348516.png"
       },
       "team": {
-        "name": "Usa",
+        "name": "USA",
         "code": "USA",
-        "flag": "🇺🇸"
+        "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg"
       },
       "goals": 2,
       "assists": null,
@@ -349,12 +369,13 @@
       "player": {
         "id": "ismaila sarr-SEN",
         "name": "Ismaila Sarr",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/1abo611761492444.png"
       },
       "team": {
         "name": "Senegal",
         "code": "SEN",
-        "flag": "🇸🇳"
+        "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg"
       },
       "goals": 2,
       "assists": null,
@@ -366,12 +387,13 @@
       "player": {
         "id": "julian quinones-MEX",
         "name": "Julian Quinones",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/kwg6ps1781248412.png"
       },
       "team": {
         "name": "Mexico",
         "code": "MEX",
-        "flag": "🇲🇽"
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg"
       },
       "goals": 2,
       "assists": null,
@@ -383,12 +405,13 @@
       "player": {
         "id": "maxi araujo-URU",
         "name": "Maxi Araujo",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3u12tv1762290711.png"
       },
       "team": {
         "name": "Uruguay",
         "code": "URU",
-        "flag": "🇺🇾"
+        "flag": "🇺🇾",
+        "flagUrl": "assets/flags/uru.svg"
       },
       "goals": 2,
       "assists": null,
@@ -400,12 +423,13 @@
       "player": {
         "id": "mikel oyarzabal-ESP",
         "name": "Mikel Oyarzabal",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9apeaz1762709253.png"
       },
       "team": {
         "name": "Spain",
         "code": "ESP",
-        "flag": "🇪🇸"
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg"
       },
       "goals": 2,
       "assists": null,
@@ -417,12 +441,13 @@
       "player": {
         "id": "ruben vargas-SUI",
         "name": "Ruben Vargas",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9jkl9w1762860549.png"
       },
       "team": {
         "name": "Switzerland",
         "code": "SUI",
-        "flag": "🇨🇭"
+        "flag": "🇨🇭",
+        "flagUrl": "assets/flags/sui.svg"
       },
       "goals": 2,
       "assists": null,
@@ -434,12 +459,13 @@
       "player": {
         "id": "yasin ayari-SWE",
         "name": "Yasin Ayari",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/xah7d91756994132.png"
       },
       "team": {
         "name": "Sweden",
         "code": "SWE",
-        "flag": "🇸🇪"
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg"
       },
       "goals": 2,
       "assists": null,
@@ -451,12 +477,13 @@
       "player": {
         "id": "abbosbek fayzullaev-UZB",
         "name": "Abbosbek Fayzullaev",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/0zoijs1781036889.png"
       },
       "team": {
         "name": "Uzbekistan",
         "code": "UZB",
-        "flag": "🏳️"
+        "flag": "🇺🇿",
+        "flagUrl": "assets/flags/uzb.svg"
       },
       "goals": 1,
       "assists": null,
@@ -473,7 +500,8 @@
       "team": {
         "name": "Saudi Arabia",
         "code": "KSA",
-        "flag": "🇸🇦"
+        "flag": "🇸🇦",
+        "flagUrl": "assets/flags/ksa.svg"
       },
       "goals": 1,
       "assists": null,
@@ -485,12 +513,13 @@
       "player": {
         "id": "achraf hakimi-MAR",
         "name": "Achraf Hakimi",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/oqu69c1766335243.png"
       },
       "team": {
         "name": "Morocco",
         "code": "MAR",
-        "flag": "🇲🇦"
+        "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg"
       },
       "goals": 1,
       "assists": null,
@@ -502,12 +531,13 @@
       "player": {
         "id": "agustin canobbio-URU",
         "name": "Agustin Canobbio",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/qgh8yj1767539679.png"
       },
       "team": {
         "name": "Uruguay",
         "code": "URU",
-        "flag": "🇺🇾"
+        "flag": "🇺🇾",
+        "flagUrl": "assets/flags/uru.svg"
       },
       "goals": 1,
       "assists": null,
@@ -522,9 +552,10 @@
         "photo": ""
       },
       "team": {
-        "name": "Usa",
+        "name": "USA",
         "code": "USA",
-        "flag": "🇺🇸"
+        "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg"
       },
       "goals": 1,
       "assists": null,
@@ -541,7 +572,8 @@
       "team": {
         "name": "Sweden",
         "code": "SWE",
-        "flag": "🇸🇪"
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg"
       },
       "goals": 1,
       "assists": null,
@@ -558,7 +590,8 @@
       "team": {
         "name": "Jordan",
         "code": "JOR",
-        "flag": "🏳️"
+        "flag": "🇯🇴",
+        "flagUrl": "assets/flags/jor.svg"
       },
       "goals": 1,
       "assists": null,
@@ -575,7 +608,8 @@
       "team": {
         "name": "Mexico",
         "code": "MEX",
-        "flag": "🇲🇽"
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg"
       },
       "goals": 1,
       "assists": null,
@@ -592,7 +626,8 @@
       "team": {
         "name": "Côte d'Ivoire",
         "code": "CIV",
-        "flag": "🇨🇮"
+        "flag": "🇨🇮",
+        "flagUrl": "assets/flags/civ.svg"
       },
       "goals": 1,
       "assists": null,
@@ -609,7 +644,8 @@
       "team": {
         "name": "Algeria",
         "code": "ALG",
-        "flag": "🏳️"
+        "flag": "🇩🇿",
+        "flagUrl": "assets/flags/alg.svg"
       },
       "goals": 1,
       "assists": null,
@@ -626,7 +662,8 @@
       "team": {
         "name": "Croatia",
         "code": "CRO",
-        "flag": "🇭🇷"
+        "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg"
       },
       "goals": 1,
       "assists": null,
@@ -643,7 +680,8 @@
       "team": {
         "name": "Sweden",
         "code": "SWE",
-        "flag": "🇸🇪"
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg"
       },
       "goals": 1,
       "assists": null,
@@ -660,7 +698,8 @@
       "team": {
         "name": "Iraq",
         "code": "IRQ",
-        "flag": "🇮🇶"
+        "flag": "🇮🇶",
+        "flagUrl": "assets/flags/irq.svg"
       },
       "goals": 1,
       "assists": null,
@@ -677,7 +716,8 @@
       "team": {
         "name": "France",
         "code": "FRA",
-        "flag": "🇫🇷"
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg"
       },
       "goals": 1,
       "assists": null,
@@ -694,7 +734,8 @@
       "team": {
         "name": "Ghana",
         "code": "GHA",
-        "flag": "🇬🇭"
+        "flag": "🇬🇭",
+        "flagUrl": "assets/flags/gha.svg"
       },
       "goals": 1,
       "assists": null,
@@ -711,7 +752,8 @@
       "team": {
         "name": "Australia",
         "code": "AUS",
-        "flag": "🇦🇺"
+        "flag": "🇦🇺",
+        "flagUrl": "assets/flags/aus.svg"
       },
       "goals": 1,
       "assists": null,
@@ -728,7 +770,8 @@
       "team": {
         "name": "Egypt",
         "code": "EGY",
-        "flag": "🇪🇬"
+        "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg"
       },
       "goals": 1,
       "assists": null,
@@ -745,7 +788,8 @@
       "team": {
         "name": "Germany",
         "code": "GER",
-        "flag": "🇩🇪"
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
       },
       "goals": 1,
       "assists": null,
@@ -762,7 +806,8 @@
       "team": {
         "name": "New Zealand",
         "code": "NZL",
-        "flag": "🇳🇿"
+        "flag": "🇳🇿",
+        "flagUrl": "assets/flags/nzl.svg"
       },
       "goals": 1,
       "assists": null,
@@ -779,7 +824,8 @@
       "team": {
         "name": "Côte d'Ivoire",
         "code": "CIV",
-        "flag": "🇨🇮"
+        "flag": "🇨🇮",
+        "flagUrl": "assets/flags/civ.svg"
       },
       "goals": 1,
       "assists": null,
@@ -796,7 +842,8 @@
       "team": {
         "name": "Morocco",
         "code": "MAR",
-        "flag": "🇲🇦"
+        "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg"
       },
       "goals": 1,
       "assists": null,
@@ -811,9 +858,10 @@
         "photo": ""
       },
       "team": {
-        "name": "Usa",
+        "name": "USA",
         "code": "USA",
-        "flag": "🇺🇸"
+        "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg"
       },
       "goals": 1,
       "assists": null,
@@ -830,7 +878,8 @@
       "team": {
         "name": "England",
         "code": "ENG",
-        "flag": "🏴"
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg"
       },
       "goals": 1,
       "assists": null,
@@ -847,7 +896,8 @@
       "team": {
         "name": "Qatar",
         "code": "QAT",
-        "flag": "🇶🇦"
+        "flag": "🇶🇦",
+        "flagUrl": "assets/flags/qat.svg"
       },
       "goals": 1,
       "assists": null,
@@ -864,7 +914,8 @@
       "team": {
         "name": "Cabo Verde",
         "code": "CAB",
-        "flag": "🇨🇻"
+        "flag": "🇨🇻",
+        "flagUrl": "assets/flags/cab.svg"
       },
       "goals": 1,
       "assists": null,
@@ -881,7 +932,8 @@
       "team": {
         "name": "Korea Republic",
         "code": "KOR",
-        "flag": "🇰🇷"
+        "flag": "🇰🇷",
+        "flagUrl": "assets/flags/kor.svg"
       },
       "goals": 1,
       "assists": null,
@@ -898,7 +950,8 @@
       "team": {
         "name": "Senegal",
         "code": "SEN",
-        "flag": "🇸🇳"
+        "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg"
       },
       "goals": 1,
       "assists": null,
@@ -915,7 +968,8 @@
       "team": {
         "name": "Germany",
         "code": "GER",
-        "flag": "🇩🇪"
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
       },
       "goals": 1,
       "assists": null,
@@ -932,7 +986,8 @@
       "team": {
         "name": "Colombia",
         "code": "COL",
-        "flag": "🇨🇴"
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg"
       },
       "goals": 1,
       "assists": null,
@@ -949,7 +1004,8 @@
       "team": {
         "name": "Portugal",
         "code": "POR",
-        "flag": "🇵🇹"
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg"
       },
       "goals": 1,
       "assists": null,
@@ -966,7 +1022,8 @@
       "team": {
         "name": "Scotland",
         "code": "SCO",
-        "flag": "🏴"
+        "flag": "🏴",
+        "flagUrl": "assets/flags/sco.svg"
       },
       "goals": 1,
       "assists": null,
@@ -983,7 +1040,8 @@
       "team": {
         "name": "Bosnia and Herzegovina",
         "code": "BIH",
-        "flag": "🇧🇦"
+        "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1000,7 +1058,8 @@
       "team": {
         "name": "England",
         "code": "ENG",
-        "flag": "🏴"
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1017,7 +1076,8 @@
       "team": {
         "name": "Japan",
         "code": "JPN",
-        "flag": "🇯🇵"
+        "flag": "🇯🇵",
+        "flagUrl": "assets/flags/jpn.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1034,7 +1094,8 @@
       "team": {
         "name": "Germany",
         "code": "GER",
-        "flag": "🇩🇪"
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1051,7 +1112,8 @@
       "team": {
         "name": "Japan",
         "code": "JPN",
-        "flag": "🇯🇵"
+        "flag": "🇯🇵",
+        "flagUrl": "assets/flags/jpn.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1068,7 +1130,8 @@
       "team": {
         "name": "Bosnia and Herzegovina",
         "code": "BIH",
-        "flag": "🇧🇦"
+        "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1085,7 +1148,8 @@
       "team": {
         "name": "Cabo Verde",
         "code": "CAB",
-        "flag": "🇨🇻"
+        "flag": "🇨🇻",
+        "flagUrl": "assets/flags/cab.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1102,7 +1166,8 @@
       "team": {
         "name": "Czechia",
         "code": "CZE",
-        "flag": "🇨🇿"
+        "flag": "🇨🇿",
+        "flagUrl": "assets/flags/cze.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1119,7 +1184,8 @@
       "team": {
         "name": "Spain",
         "code": "ESP",
-        "flag": "🇪🇸"
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1136,7 +1202,8 @@
       "team": {
         "name": "Norway",
         "code": "NOR",
-        "flag": "🇳🇴"
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1153,7 +1220,8 @@
       "team": {
         "name": "Curaçao",
         "code": "CUW",
-        "flag": "🇨🇼"
+        "flag": "🇨🇼",
+        "flagUrl": "assets/flags/cuw.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1170,7 +1238,8 @@
       "team": {
         "name": "Colombia",
         "code": "COL",
-        "flag": "🇨🇴"
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1187,7 +1256,8 @@
       "team": {
         "name": "Mexico",
         "code": "MEX",
-        "flag": "🇲🇽"
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1204,7 +1274,8 @@
       "team": {
         "name": "Norway",
         "code": "NOR",
-        "flag": "🇳🇴"
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1221,7 +1292,8 @@
       "team": {
         "name": "England",
         "code": "ENG",
-        "flag": "🏴"
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1238,7 +1310,8 @@
       "team": {
         "name": "Croatia",
         "code": "CRO",
-        "flag": "🇭🇷"
+        "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1255,7 +1328,8 @@
       "team": {
         "name": "Mexico",
         "code": "MEX",
-        "flag": "🇲🇽"
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1272,7 +1346,8 @@
       "team": {
         "name": "Paraguay",
         "code": "PAR",
-        "flag": "🇵🇾"
+        "flag": "🇵🇾",
+        "flagUrl": "assets/flags/par.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1289,7 +1364,8 @@
       "team": {
         "name": "Sweden",
         "code": "SWE",
-        "flag": "🇸🇪"
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1306,7 +1382,8 @@
       "team": {
         "name": "Paraguay",
         "code": "PAR",
-        "flag": "🇵🇾"
+        "flag": "🇵🇾",
+        "flagUrl": "assets/flags/par.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1323,7 +1400,8 @@
       "team": {
         "name": "Czechia",
         "code": "CZE",
-        "flag": "🇨🇿"
+        "flag": "🇨🇿",
+        "flagUrl": "assets/flags/cze.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1340,7 +1418,8 @@
       "team": {
         "name": "Egypt",
         "code": "EGY",
-        "flag": "🇪🇬"
+        "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1355,9 +1434,10 @@
         "photo": ""
       },
       "team": {
-        "name": "Ir Iran",
+        "name": "IR Iran",
         "code": "IRI",
-        "flag": "🏳️"
+        "flag": "🇮🇷",
+        "flagUrl": "assets/flags/iri.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1374,7 +1454,8 @@
       "team": {
         "name": "Egypt",
         "code": "EGY",
-        "flag": "🇪🇬"
+        "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1391,7 +1472,8 @@
       "team": {
         "name": "Algeria",
         "code": "ALG",
-        "flag": "🏳️"
+        "flag": "🇩🇿",
+        "flagUrl": "assets/flags/alg.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1408,7 +1490,8 @@
       "team": {
         "name": "Canada",
         "code": "CAN",
-        "flag": "🇨🇦"
+        "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1425,7 +1508,8 @@
       "team": {
         "name": "Germany",
         "code": "GER",
-        "flag": "🇩🇪"
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1442,7 +1526,8 @@
       "team": {
         "name": "Australia",
         "code": "AUS",
-        "flag": "🇦🇺"
+        "flag": "🇦🇺",
+        "flagUrl": "assets/flags/aus.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1459,7 +1544,8 @@
       "team": {
         "name": "Germany",
         "code": "GER",
-        "flag": "🇩🇪"
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1476,7 +1562,8 @@
       "team": {
         "name": "Jordan",
         "code": "JOR",
-        "flag": "🏳️"
+        "flag": "🇯🇴",
+        "flagUrl": "assets/flags/jor.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1493,7 +1580,8 @@
       "team": {
         "name": "Portugal",
         "code": "POR",
-        "flag": "🇵🇹"
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1510,7 +1598,8 @@
       "team": {
         "name": "Korea Republic",
         "code": "KOR",
-        "flag": "🇰🇷"
+        "flag": "🇰🇷",
+        "flagUrl": "assets/flags/kor.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1527,7 +1616,8 @@
       "team": {
         "name": "Tunisia",
         "code": "TUN",
-        "flag": "🇹🇳"
+        "flag": "🇹🇳",
+        "flagUrl": "assets/flags/tun.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1544,7 +1634,8 @@
       "team": {
         "name": "France",
         "code": "FRA",
-        "flag": "🇫🇷"
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1561,7 +1652,8 @@
       "team": {
         "name": "Croatia",
         "code": "CRO",
-        "flag": "🇭🇷"
+        "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1578,7 +1670,8 @@
       "team": {
         "name": "Canada",
         "code": "CAN",
-        "flag": "🇨🇦"
+        "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1595,7 +1688,8 @@
       "team": {
         "name": "Portugal",
         "code": "POR",
-        "flag": "🇵🇹"
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1610,9 +1704,10 @@
         "photo": ""
       },
       "team": {
-        "name": "Ir Iran",
+        "name": "IR Iran",
         "code": "IRI",
-        "flag": "🏳️"
+        "flag": "🇮🇷",
+        "flagUrl": "assets/flags/iri.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1629,7 +1724,8 @@
       "team": {
         "name": "Mexico",
         "code": "MEX",
-        "flag": "🇲🇽"
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1639,14 +1735,15 @@
     {
       "rank": 97,
       "player": {
-        "id": "romano schmid-AUS",
+        "id": "romano schmid-AUT",
         "name": "Romano Schmid",
         "photo": ""
       },
       "team": {
         "name": "Austria",
-        "code": "AUS",
-        "flag": "🏳️"
+        "code": "AUT",
+        "flag": "🇦🇹",
+        "flagUrl": "assets/flags/aut.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1663,7 +1760,8 @@
       "team": {
         "name": "Morocco",
         "code": "MAR",
-        "flag": "🇲🇦"
+        "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1680,7 +1778,8 @@
       "team": {
         "name": "South Africa",
         "code": "RSA",
-        "flag": "🇿🇦"
+        "flag": "🇿🇦",
+        "flagUrl": "assets/flags/rsa.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1697,7 +1796,8 @@
       "team": {
         "name": "Egypt",
         "code": "EGY",
-        "flag": "🇪🇬"
+        "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1714,7 +1814,8 @@
       "team": {
         "name": "Sweden",
         "code": "SWE",
-        "flag": "🇸🇪"
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1731,7 +1832,8 @@
       "team": {
         "name": "Netherlands",
         "code": "NED",
-        "flag": "🇳🇱"
+        "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1748,7 +1850,8 @@
       "team": {
         "name": "Haiti",
         "code": "HAI",
-        "flag": "🇭🇹"
+        "flag": "🇭🇹",
+        "flagUrl": "assets/flags/hai.svg"
       },
       "goals": 1,
       "assists": null,
@@ -1758,14 +1861,15 @@
     {
       "rank": 104,
       "player": {
-        "id": "yoane wissa-CON",
+        "id": "yoane wissa-COD",
         "name": "Yoane Wissa",
         "photo": ""
       },
       "team": {
-        "name": "Congo Dr",
-        "code": "CON",
-        "flag": "🇨🇩"
+        "name": "DR Congo",
+        "code": "COD",
+        "flag": "🇨🇩",
+        "flagUrl": "assets/flags/cod.svg"
       },
       "goals": 1,
       "assists": null,

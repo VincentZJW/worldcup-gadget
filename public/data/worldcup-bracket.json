@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T09:01:51.551Z",
+  "updatedAt": "2026-06-25T10:00:27.934Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -17,13 +17,15 @@
             "name": "South Africa",
             "code": "RSA",
             "flag": "🇿🇦",
-            "score": 0
+            "flagUrl": "assets/flags/rsa.svg",
+            "score": null
           },
           "away": {
             "name": "Canada",
             "code": "CAN",
             "flag": "🇨🇦",
-            "score": 0
+            "flagUrl": "assets/flags/can.svg",
+            "score": null
           },
           "winner": null,
           "venue": "Los Angeles Stadium",
@@ -41,13 +43,15 @@
             "name": "Brazil",
             "code": "BRA",
             "flag": "🇧🇷",
-            "score": 0
+            "flagUrl": "assets/flags/bra.svg",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Houston Stadium",
@@ -65,13 +69,15 @@
             "name": "Germany",
             "code": "GER",
             "flag": "🇩🇪",
-            "score": 0
+            "flagUrl": "assets/flags/ger.svg",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Boston Stadium",
@@ -86,16 +92,18 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
             "name": "Morocco",
             "code": "MAR",
             "flag": "🇲🇦",
-            "score": 0
+            "flagUrl": "assets/flags/mar.svg",
+            "score": null
           },
           "winner": null,
           "venue": "Monterrey Stadium",
@@ -110,16 +118,18 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Dallas Stadium",
@@ -134,16 +144,18 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "New York/New Jersey Stadium",
@@ -161,13 +173,15 @@
             "name": "Mexico",
             "code": "MEX",
             "flag": "🇲🇽",
-            "score": 0
+            "flagUrl": "assets/flags/mex.svg",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Mexico City Stadium",
@@ -182,16 +196,18 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Atlanta Stadium",
@@ -206,16 +222,18 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Seattle Stadium",
@@ -230,16 +248,18 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "Usa",
+            "name": "USA",
             "code": "USA",
             "flag": "🇺🇸",
-            "score": 0
+            "flagUrl": "assets/flags/usa.svg",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "San Francisco Bay Area Stadium",
@@ -254,16 +274,18 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Los Angeles Stadium",
@@ -278,16 +300,18 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Toronto Stadium",
@@ -305,13 +329,15 @@
             "name": "Switzerland",
             "code": "SUI",
             "flag": "🇨🇭",
-            "score": 0
+            "flagUrl": "assets/flags/sui.svg",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "BC Place Vancouver",
@@ -326,16 +352,18 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Dallas Stadium",
@@ -353,13 +381,15 @@
             "name": "Argentina",
             "code": "ARG",
             "flag": "🇦🇷",
-            "score": 0
+            "flagUrl": "assets/flags/arg.svg",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Miami Stadium",
@@ -374,16 +404,18 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Kansas City Stadium",
@@ -403,16 +435,18 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Houston Stadium",
@@ -427,16 +461,18 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Philadelphia Stadium",
@@ -451,16 +487,18 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "New York/New Jersey Stadium",
@@ -475,16 +513,18 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Mexico City Stadium",
@@ -499,16 +539,18 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Dallas Stadium",
@@ -523,16 +565,18 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Seattle Stadium",
@@ -547,16 +591,18 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "Atlanta Stadium",
@@ -571,16 +617,18 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "BC Place Vancouver",
@@ -603,12 +651,14 @@
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "winner": null
@@ -623,12 +673,14 @@
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "winner": null
@@ -643,12 +695,14 @@
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "winner": null
@@ -663,12 +717,14 @@
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "winner": null
@@ -688,12 +744,14 @@
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "winner": null
@@ -708,12 +766,14 @@
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "winner": null
@@ -733,12 +793,14 @@
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
             "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "winner": null
@@ -755,16 +817,18 @@
           "stage": "Final",
           "status": "Scheduled",
           "home": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "away": {
-            "name": "Tbd",
+            "name": "TBD",
             "code": "TBD",
             "flag": "🏳️",
-            "score": 0
+            "flagUrl": "",
+            "score": null
           },
           "winner": null,
           "venue": "New York/New Jersey Stadium",

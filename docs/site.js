@@ -10,12 +10,12 @@ const translations = {
     liveBody: "正在进行的比赛会显示 LIVE 标记，最近结束的比赛会保留比分和进球信息。",
     standingsTitle: "小组总积分",
     standingsBody: "开赛以来累计排名、胜平负、净胜球和积分，晋级区高亮显示。",
-    bracketTitle: "全部对阵图",
-    bracketBody: "从小组赛到淘汰赛，展示世界杯开赛以来和后续赛程的全部对阵。",
+    bracketTitle: "关键对阵图",
+    bracketBody: "保留最新赛果、接下来和淘汰赛路径；完整 104 场比赛放在下方赛程中查看。",
     scheduleTitle: "完整赛程 / Tournament Map",
     scheduleBody: "查看小组赛和淘汰赛全部比赛，可按阶段与状态快速筛选。",
-    scorersTitle: "球员数据榜",
-    scorersBody: "统计开赛以来所有球员的总进球数；助攻、点球和出场时间在数据源提供时同步展示。",
+    scorersTitle: "进球榜",
+    scorersBody: "统计开赛以来所有球员的总进球数，并尽量补齐球员头像。",
     productTitle: "Mac 桌面悬浮球",
     productBody: "每天 10 点自动弹出战报，平时安静悬浮在桌面边缘。点击小足球即可展开 dashboard。",
     productAutoTitle: "每日自动展示",
@@ -50,12 +50,11 @@ const translations = {
     today: "今日",
     finished: "已结束",
     upcoming: "未开始",
-    sortByLabel: "排序",
+    recentResults: "最新赛果",
+    nextUp: "接下来",
+    knockoutPath: "淘汰赛路径",
+    emptyMatchMap: "暂无可展示对阵",
     sortGoals: "进球数",
-    sortAssists: "助攻数",
-    sortPenalties: "点球数",
-    sortMinutes: "出场时间",
-    sortTeam: "球队",
     expandAll: "展开全部",
     collapse: "收起"
   },
@@ -70,12 +69,12 @@ const translations = {
     liveBody: "Live matches get a LIVE badge, while recent full-time results keep scores and goal events visible.",
     standingsTitle: "Group Tables",
     standingsBody: "Cumulative group ranking, form, goal difference, and points since the tournament opened.",
-    bracketTitle: "Full Match Map",
-    bracketBody: "Every matchup from group stage through the knockout rounds, including completed results and upcoming fixtures.",
+    bracketTitle: "Key Match Map",
+    bracketBody: "Recent results, next fixtures, and the knockout path stay compact here. The full 104-match list remains below.",
     scheduleTitle: "Full Schedule / Tournament Map",
     scheduleBody: "Browse every group and knockout fixture with stage and status filters.",
-    scorersTitle: "Stat Leaders",
-    scorersBody: "Cumulative player goals since kickoff, with assists, penalties, and minutes shown when the data source provides them.",
+    scorersTitle: "Goal Leaders",
+    scorersBody: "Cumulative tournament goals with player portraits where a public source is available.",
     productTitle: "Mac Desktop Floating Ball",
     productBody: "The report can appear automatically at 10 AM, then stay quiet as a floating ball on your desktop edge.",
     productAutoTitle: "Daily Auto Show",
@@ -110,12 +109,11 @@ const translations = {
     today: "Today",
     finished: "Finished",
     upcoming: "Upcoming",
-    sortByLabel: "Sort",
+    recentResults: "Recent Results",
+    nextUp: "Next Up",
+    knockoutPath: "Knockout Path",
+    emptyMatchMap: "No matchups to show yet",
     sortGoals: "Goals",
-    sortAssists: "Assists",
-    sortPenalties: "Penalties",
-    sortMinutes: "Minutes",
-    sortTeam: "Team",
     expandAll: "Expand All",
     collapse: "Collapse"
   }
@@ -224,7 +222,6 @@ let pageData = inlineFallbackData;
 let activeMatchIndex = 0;
 let activeGroupIndex = 0;
 let scheduleFilter = "all";
-let scorerSort = "goals";
 let showAllScorers = false;
 let countUpStarted = false;
 let revealObserver = null;
@@ -298,31 +295,6 @@ function normalizedGroups() {
   });
 }
 
-function blankBracketMatch(roundName, index) {
-  return {
-    id: `${roundName}-${index + 1}`,
-    stage: roundName,
-    date: "",
-    time: "",
-    status: "TBD",
-    home: { name: "TBD", flag: "🏳️", code: "TBD", score: null },
-    away: { name: "TBD", flag: "🏳️", code: "TBD", score: null },
-    winner: null
-  };
-}
-
-function normalizedBracketRounds() {
-  const rounds = pageData.bracket?.rounds || [];
-  const byRound = new Map(rounds.map((round) => [round.name, round]));
-  return bracketSpecs.map(([name, count]) => ({
-    name,
-    matches: Array.from({ length: count }, (_, index) => ({
-      ...blankBracketMatch(name, index),
-      ...(byRound.get(name)?.matches?.[index] || {})
-    }))
-  }));
-}
-
 function playerName(player) {
   return typeof player?.player === "object" ? player.player.name : player?.player || "Unknown";
 }
@@ -334,6 +306,30 @@ function playerPhoto(player) {
 function playerTeam(player) {
   if (typeof player?.team === "object") return player.team;
   return { name: player?.team || "TBD", flag: player?.flag || "🏳️", code: "" };
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function teamFlagHtml(team = {}) {
+  const flag = escapeHtml(team.flag || "🏳️");
+  if (team.flagUrl) {
+    return `<span class="flag-wrap"><img class="flag-icon" src="${escapeHtml(team.flagUrl)}" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="flag-emoji" hidden>${flag}</span></span>`;
+  }
+  return `<span class="flag-emoji">${flag}</span>`;
+}
+
+function teamLabelHtml(team = {}, options = {}) {
+  const label = escapeHtml(options.code ? team.code || team.name || team.team || "TBD" : team.name || team.team || "TBD");
+  const flag = teamFlagHtml(team);
+  const parts = options.reverse ? [`<span>${label}</span>`, flag] : [flag, `<span>${label}</span>`];
+  return `<span class="team-label">${parts.join("")}</span>`;
 }
 
 function markDynamicVisible(root) {
@@ -431,8 +427,8 @@ function renderNotice() {
 
 function renderPitch() {
   const match = activeMatch();
-  document.getElementById("pitchHome").textContent = `${match.home.flag} ${match.home.name}`;
-  document.getElementById("pitchAway").textContent = `${match.away.name} ${match.away.flag}`;
+  document.getElementById("pitchHome").innerHTML = teamLabelHtml(match.home);
+  document.getElementById("pitchAway").innerHTML = teamLabelHtml(match.away, { reverse: true });
   document.getElementById("pitchScore").textContent = scoreText(match);
   document.getElementById("pitchStage").textContent = matchMeta(match);
   document.getElementById("pitchGoals").textContent = goalsText(match);
@@ -444,9 +440,9 @@ function renderPitch() {
     button.type = "button";
     button.className = `ticker-card${index === activeMatchIndex ? " is-active" : ""}`;
     button.innerHTML = `
-      <span>${item.home.flag} ${item.home.code}</span>
+      ${teamLabelHtml(item.home, { code: true })}
       <strong>${scoreText(item)}</strong>
-      <span>${item.away.code} ${item.away.flag}</span>
+      ${teamLabelHtml(item.away, { code: true, reverse: true })}
     `;
     button.addEventListener("click", () => {
       activeMatchIndex = index;
@@ -469,9 +465,9 @@ function renderLiveMatches() {
         <span class="status-badge ${match.status === "LIVE" ? "live" : ""}">${statusLabel(match.status)}</span>
       </div>
       <div class="match-scoreline">
-        <span>${match.home.flag} ${match.home.name}</span>
+        ${teamLabelHtml(match.home)}
         <strong>${scoreText(match)}</strong>
-        <span>${match.away.name} ${match.away.flag}</span>
+        ${teamLabelHtml(match.away, { reverse: true })}
       </div>
       <p>${goalsText(match)}</p>
     `;
@@ -496,10 +492,10 @@ function renderStandings() {
     const leader = group.rows[0];
     card.innerHTML = `
       <strong>${group.group}</strong>
-      <span>${leader?.flag || "🏳️"} ${leader?.team || "TBD"} · ${leader?.points ?? 0} pts</span>
+      <span>${teamLabelHtml(leader || {})} · ${leader?.points ?? 0} pts</span>
       ${group.rows
         .slice(0, 4)
-        .map((row) => `<em class="${row.rank <= 2 ? "qualifies" : row.rank === 3 ? "third-place" : ""}">${row.rank}. ${row.flag || "🏳️"} ${row.team} · ${row.played}P · ${row.points}</em>`)
+        .map((row) => `<em class="${row.rank <= 2 ? "qualifies" : row.rank === 3 ? "third-place" : ""}">${row.rank}. ${teamLabelHtml(row)} · ${row.played}P · ${row.points}</em>`)
         .join("")}
     `;
     card.addEventListener("click", () => {
@@ -529,7 +525,7 @@ function renderStandings() {
     tr.style.setProperty("--delay", `${index * 45}ms`);
     tr.innerHTML = `
       <td>${row.rank}</td>
-      <td class="team-cell">${row.flag} ${row.team}</td>
+      <td class="team-cell">${teamLabelHtml(row)}</td>
       <td>${row.played}</td>
       <td>${row.won}</td>
       <td>${row.drawn}</td>
@@ -549,32 +545,47 @@ function renderBracket() {
   const flow = document.getElementById("bracketFlow");
   flow.innerHTML = "";
   const matches = pageData.schedule?.matches || [];
-  const grouped = new Map();
-  matches.forEach((match) => {
-    const stage = match.stage || "World Cup";
-    if (!grouped.has(stage)) grouped.set(stage, []);
-    grouped.get(stage).push(match);
-  });
+  const byTimeAsc = (left, right) => String(left.time || left.date || "").localeCompare(String(right.time || right.date || ""));
+  const byTimeDesc = (left, right) => String(right.time || right.date || "").localeCompare(String(left.time || left.date || ""));
+  const hasNamedTeams = (match) => !/^TBD$/i.test(match.home?.name || "") || !/^TBD$/i.test(match.away?.name || "");
+  const finished = matches.filter((match) => match.status === "FT").sort(byTimeDesc).slice(0, 6);
+  const next = matches
+    .filter((match) => match.status === "LIVE" || match.status === "Scheduled")
+    .filter(hasNamedTeams)
+    .sort(byTimeAsc)
+    .slice(0, 6);
+  const knockout = matches
+    .filter((match) => !isGroupStage(match.stage))
+    .sort((left, right) => stageOrder(left.stage) - stageOrder(right.stage) || byTimeAsc(left, right))
+    .slice(0, 8);
 
-  const stages = [...grouped.keys()].sort((left, right) => stageOrder(left) - stageOrder(right) || left.localeCompare(right));
-  stages.forEach((stage, roundIndex) => {
-    const stageMatches = [...(grouped.get(stage) || [])].sort((left, right) =>
-      String(left.time || left.date || "").localeCompare(String(right.time || right.date || ""))
-    );
+  const columns = [
+    [t("recentResults"), finished],
+    [t("nextUp"), next],
+    [t("knockoutPath"), knockout]
+  ].filter(([, stageMatches]) => stageMatches.length);
+
+  if (!columns.length) {
+    flow.innerHTML = `<article class="empty-state">${t("emptyMatchMap")}</article>`;
+    markDynamicVisible(flow);
+    return;
+  }
+
+  columns.forEach(([stage, stageMatches], roundIndex) => {
     const column = document.createElement("div");
     column.className = "bracket-round";
     column.style.setProperty("--delay", `${roundIndex * 100}ms`);
-    column.innerHTML = `<h3>${stage}</h3>`;
+    column.innerHTML = `<h3>${escapeHtml(stage)}</h3>`;
     stageMatches.forEach((match) => {
       const item = document.createElement("article");
       item.className = "bracket-card";
       const homeWins = match.winner === match.home?.code || (match.status === "FT" && Number(match.home?.score) > Number(match.away?.score));
       const awayWins = match.winner === match.away?.code || (match.status === "FT" && Number(match.away?.score) > Number(match.home?.score));
       item.innerHTML = `
-        <small>${match.time || match.date || stage} · ${statusLabel(match.status)}</small>
-        <div class="${homeWins ? "winner" : ""}"><span>${match.home?.flag || "🏳️"} ${match.home?.name || "TBD"}</span><strong>${match.home?.score ?? ""}</strong></div>
+        <small>${escapeHtml(match.stage || "World Cup")} · ${escapeHtml(match.date || "")} · ${statusLabel(match.status)}</small>
+        <div class="${homeWins ? "winner" : ""}">${teamLabelHtml(match.home)}<strong>${match.home?.score ?? ""}</strong></div>
         <b>${match.score || "vs"}</b>
-        <div class="${awayWins ? "winner" : ""}"><span>${match.away?.flag || "🏳️"} ${match.away?.name || "TBD"}</span><strong>${match.away?.score ?? ""}</strong></div>
+        <div class="${awayWins ? "winner" : ""}">${teamLabelHtml(match.away)}<strong>${match.away?.score ?? ""}</strong></div>
       `;
       column.append(item);
     });
@@ -638,8 +649,8 @@ function renderSchedule() {
       item.className = "schedule-item";
       item.innerHTML = `
         <div>
-          <strong>${match.home.flag} ${match.home.name} ${match.score || "vs"} ${match.away.name} ${match.away.flag}</strong>
-          <span>${match.stage || "World Cup"} · ${t("venue")}: ${match.venue || "TBD"}</span>
+          <strong>${teamLabelHtml(match.home)} ${match.score || "vs"} ${teamLabelHtml(match.away, { reverse: true })}</strong>
+          <span>${escapeHtml(match.stage || "World Cup")} · ${t("venue")}: ${escapeHtml(match.venue || "TBD")}</span>
         </div>
         <div>
           <span>${match.time || ""}</span>
@@ -665,21 +676,14 @@ function initials(name) {
 
 function renderScorers() {
   const players = [...(pageData.scorers?.players || [])].sort((a, b) => {
-    if (scorerSort === "team") return playerTeam(a).name.localeCompare(playerTeam(b).name);
-    return Number(b[scorerSort] || 0) - Number(a[scorerSort] || 0) || Number(b.goals || 0) - Number(a.goals || 0);
+    return Number(b.goals || 0) - Number(a.goals || 0) || playerName(a).localeCompare(playerName(b));
   }).map((player, index) => ({ ...player, rank: index + 1 }));
   const podium = document.getElementById("podiumGrid");
   const list = document.getElementById("scorerList");
-  const sortSelect = document.getElementById("scorerSort");
   const toggleButton = document.getElementById("toggleScorers");
   podium.innerHTML = "";
   list.innerHTML = "";
-  sortSelect.value = scorerSort;
   toggleButton.textContent = showAllScorers ? t("collapse") : t("expandAll");
-  sortSelect.onchange = () => {
-    scorerSort = sortSelect.value;
-    renderScorers();
-  };
   toggleButton.onclick = () => {
     showAllScorers = !showAllScorers;
     renderScorers();
@@ -693,11 +697,11 @@ function renderScorers() {
     card.className = "podium-card";
     card.style.setProperty("--delay", `${index * 80}ms`);
     card.innerHTML = `
-      <div class="avatar ${photo ? "has-photo" : ""}">${photo ? `<img src="${photo}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-photo'); this.remove()">` : ""}<span>${initials(name)}</span></div>
-      <span>#${player.rank} ${team.flag} ${team.name}</span>
-      <h3>${name}</h3>
+      <div class="avatar ${photo ? "has-photo" : ""}">${photo ? `<img src="${escapeHtml(photo)}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-photo'); this.remove()">` : ""}<span>${initials(name)}</span></div>
+      <span>#${player.rank} ${teamLabelHtml(team)}</span>
+      <h3>${escapeHtml(name)}</h3>
       <strong data-count="${player.goals}">0</strong>
-      <p>${t("assists")}: ${player.assists ?? "—"} · ${t("penalties")}: ${player.penalties ?? "—"}${player.minutes ? ` · ${player.minutes}′` : ""}</p>
+      <p>${t("sortGoals")}</p>
     `;
     podium.append(card);
   });
@@ -711,10 +715,9 @@ function renderScorers() {
     row.className = "scorer-row";
     row.innerHTML = `
       <span>#${player.rank}</span>
-      <div class="avatar small ${photo ? "has-photo" : ""}">${photo ? `<img src="${photo}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-photo'); this.remove()">` : ""}<span>${initials(name)}</span></div>
-      <strong>${name}</strong>
-      <em>${team.flag} ${team.name}</em>
-      <small>${t("assists")}: ${player.assists ?? "—"} · ${t("penalties")}: ${player.penalties ?? "—"}${player.minutes ? ` · ${player.minutes}′` : ""}</small>
+      <div class="avatar small ${photo ? "has-photo" : ""}">${photo ? `<img src="${escapeHtml(photo)}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-photo'); this.remove()">` : ""}<span>${initials(name)}</span></div>
+      <strong>${escapeHtml(name)}</strong>
+      <em>${teamLabelHtml(team)}</em>
       <b>${player.goals}</b>
     `;
     list.append(row);
@@ -808,20 +811,6 @@ function setupParallax() {
   );
 }
 
-function setupMapControls() {
-  const flow = document.getElementById("bracketFlow");
-  const prev = document.getElementById("mapPrev");
-  const next = document.getElementById("mapNext");
-  if (!flow || !prev || !next) return;
-  const scrollByColumn = (direction) => {
-    const firstColumn = flow.querySelector(".bracket-round");
-    const amount = firstColumn ? firstColumn.getBoundingClientRect().width + 18 : 360;
-    flow.scrollBy({ left: direction * amount, behavior: "smooth" });
-  };
-  prev.addEventListener("click", () => scrollByColumn(-1));
-  next.addEventListener("click", () => scrollByColumn(1));
-}
-
 document.querySelectorAll("[data-lang-toggle]").forEach((button) => {
   button.addEventListener("click", () => {
     applyLanguage(button.dataset.langToggle);
@@ -830,5 +819,4 @@ document.querySelectorAll("[data-lang-toggle]").forEach((button) => {
 
 applyLanguage(getInitialLanguage());
 setupParallax();
-setupMapControls();
 loadData();

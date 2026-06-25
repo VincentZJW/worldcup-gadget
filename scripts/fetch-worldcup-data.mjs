@@ -23,14 +23,18 @@ const userAgent = "worldcup-gadget-pages/1.0 (+https://github.com/VincentZJW/wor
 
 const countryMeta = new Map(
   [
+    ["Algeria", ["ALG", "🇩🇿"]],
     ["Argentina", ["ARG", "🇦🇷"]],
     ["Australia", ["AUS", "🇦🇺"]],
+    ["Austria", ["AUT", "🇦🇹"]],
     ["Belgium", ["BEL", "🇧🇪"]],
     ["Bosnia and Herzegovina", ["BIH", "🇧🇦"]],
     ["Brazil", ["BRA", "🇧🇷"]],
+    ["Cabo Verde", ["CAB", "🇨🇻"]],
     ["Canada", ["CAN", "🇨🇦"]],
     ["Cape Verde", ["CPV", "🇨🇻"]],
     ["Colombia", ["COL", "🇨🇴"]],
+    ["Congo Dr", ["COD", "🇨🇩"]],
     ["Croatia", ["CRO", "🇭🇷"]],
     ["Curaçao", ["CUW", "🇨🇼"]],
     ["Côte d'Ivoire", ["CIV", "🇨🇮"]],
@@ -46,8 +50,11 @@ const countryMeta = new Map(
     ["Germany", ["GER", "🇩🇪"]],
     ["Ghana", ["GHA", "🇬🇭"]],
     ["Haiti", ["HAI", "🇭🇹"]],
+    ["IR Iran", ["IRI", "🇮🇷"]],
+    ["Ir Iran", ["IRI", "🇮🇷"]],
     ["Iraq", ["IRQ", "🇮🇶"]],
     ["Japan", ["JPN", "🇯🇵"]],
+    ["Jordan", ["JOR", "🇯🇴"]],
     ["Korea Republic", ["KOR", "🇰🇷"]],
     ["Mexico", ["MEX", "🇲🇽"]],
     ["Morocco", ["MAR", "🇲🇦"]],
@@ -70,7 +77,63 @@ const countryMeta = new Map(
     ["Türkiye", ["TUR", "🇹🇷"]],
     ["Turkey", ["TUR", "🇹🇷"]],
     ["Uruguay", ["URU", "🇺🇾"]],
-    ["USA", ["USA", "🇺🇸"]]
+    ["USA", ["USA", "🇺🇸"]],
+    ["Usa", ["USA", "🇺🇸"]],
+    ["Uzbekistan", ["UZB", "🇺🇿"]]
+  ]
+);
+
+const flagAssetByCode = new Map(
+  [
+    ["ALG", "alg"],
+    ["ARG", "arg"],
+    ["AUS", "aus"],
+    ["AUT", "aut"],
+    ["BEL", "bel"],
+    ["BIH", "bih"],
+    ["BRA", "bra"],
+    ["CAB", "cab"],
+    ["CPV", "cab"],
+    ["CAN", "can"],
+    ["COL", "col"],
+    ["COD", "cod"],
+    ["CIV", "civ"],
+    ["CRO", "cro"],
+    ["CUW", "cuw"],
+    ["CZE", "cze"],
+    ["ECU", "ecu"],
+    ["EGY", "egy"],
+    ["ENG", "eng"],
+    ["FRA", "fra"],
+    ["GER", "ger"],
+    ["GHA", "gha"],
+    ["HAI", "hai"],
+    ["IRI", "iri"],
+    ["IRQ", "irq"],
+    ["JPN", "jpn"],
+    ["JOR", "jor"],
+    ["KOR", "kor"],
+    ["MEX", "mex"],
+    ["MAR", "mar"],
+    ["NED", "ned"],
+    ["NZL", "nzl"],
+    ["NOR", "nor"],
+    ["PAN", "pan"],
+    ["PAR", "par"],
+    ["POR", "por"],
+    ["QAT", "qat"],
+    ["KSA", "ksa"],
+    ["SCO", "sco"],
+    ["SEN", "sen"],
+    ["RSA", "rsa"],
+    ["ESP", "esp"],
+    ["SWE", "swe"],
+    ["SUI", "sui"],
+    ["TUN", "tun"],
+    ["TUR", "tur"],
+    ["URU", "uru"],
+    ["USA", "usa"],
+    ["UZB", "uzb"]
   ]
 );
 
@@ -107,18 +170,21 @@ function cleanText(value, fallback = "") {
   return typeof value === "string" && value.trim() ? value.trim() : fallback;
 }
 
-function teamMeta(name, fallbackFlag = "") {
+function flagAssetUrl(code) {
+  const assetName = flagAssetByCode.get(String(code || "").toUpperCase());
+  return assetName ? `assets/flags/${assetName}.svg` : "";
+}
+
+function teamMeta(name, fallbackFlag = "", fallbackCode = "") {
   const normalized = cleanText(name, "TBD");
   const meta = countryMeta.get(normalized);
-  if (meta) {
-    return { code: meta[0], flag: fallbackFlag || meta[1] };
-  }
+  if (meta) return { code: meta[0], flag: fallbackFlag || meta[1], flagUrl: flagAssetUrl(meta[0]) };
 
-  const code = normalized
+  const code = (fallbackCode || normalized
     .replace(/[^A-Za-z]/g, "")
     .slice(0, 3)
-    .toUpperCase();
-  return { code: code || "TBD", flag: fallbackFlag || "🏳️" };
+    .toUpperCase()).toUpperCase();
+  return { code: code || "TBD", flag: fallbackFlag || "🏳️", flagUrl: flagAssetUrl(code) };
 }
 
 function makeTeam(team = {}, score = null) {
@@ -128,6 +194,7 @@ function makeTeam(team = {}, score = null) {
     name,
     code: meta.code,
     flag: meta.flag,
+    flagUrl: meta.flagUrl,
     score: Number.isFinite(Number(score ?? team.score)) ? Number(score ?? team.score) : null
   };
 }
@@ -138,6 +205,7 @@ function emptyTeam(name = "TBD", score = null) {
     name,
     code: meta.code,
     flag: meta.flag,
+    flagUrl: meta.flagUrl,
     score
   };
 }
@@ -148,6 +216,7 @@ function emptyStandingRow(team, rank) {
     rank,
     team,
     flag: meta.flag,
+    flagUrl: meta.flagUrl,
     played: 0,
     won: 0,
     drawn: 0,
@@ -227,13 +296,20 @@ function localized(list, fallback = "") {
 function displayNameFromFifa(rawName) {
   if (!rawName) return "";
   const trimmed = String(rawName).trim();
-  return trimmed.replace(/[\p{L}][\p{L}'’-]*/gu, (word) => {
+  const formatted = trimmed.replace(/[\p{L}][\p{L}'’-]*/gu, (word) => {
     const letters = word.replace(/[^\p{L}]/gu, "");
     if (letters.length <= 1 || letters !== letters.toLocaleUpperCase("en")) return word;
     return word
       .toLocaleLowerCase("en")
       .replace(/^\p{L}/u, (match) => match.toLocaleUpperCase("en"));
   });
+  const aliases = new Map([
+    ["Tbd", "TBD"],
+    ["Usa", "USA"],
+    ["Ir Iran", "IR Iran"],
+    ["Congo Dr", "DR Congo"]
+  ]);
+  return aliases.get(formatted) || formatted;
 }
 
 function dateOnly(date) {
@@ -283,17 +359,22 @@ function fifaScoreOf(match, side) {
 function fifaTeamPayload(match, side) {
   const team = side === "home" ? match.Home : match.Away;
   const name = fifaTeamName(team);
-  const meta = teamMeta(name, flagFromFifaTeam(team));
+  const meta = teamMeta(name, flagFromFifaTeam(team), fifaTeamCode(team));
   return {
     name,
     code: meta.code,
     flag: meta.flag,
+    flagUrl: meta.flagUrl,
     score: fifaScoreOf(match, side)
   };
 }
 
+function fifaTeamCode(team) {
+  return cleanText(team?.IdCountry || team?.IdAssociation || team?.Abbreviation, "");
+}
+
 function flagFromFifaTeam(team) {
-  const code = team?.IdCountry || team?.IdAssociation || team?.Abbreviation || "";
+  const code = fifaTeamCode(team);
   if (code === "ENG" || code === "SCO") return "🏴";
   const known = [...countryMeta.values()].find(([iso3]) => iso3 === code);
   if (known) return known[1];
@@ -560,6 +641,10 @@ function fifaMatchToScheduleItem(match, events = [], now = new Date()) {
   const kickoff = new Date(match.Date);
   const goals = fifaGoalsFromEvents(match, events);
   const stage = localized(match.GroupName, localized(match.StageName, "World Cup"));
+  if (status === "Scheduled" || status === "TBD") {
+    home.score = null;
+    away.score = null;
+  }
 
   return {
     id: String(match.IdMatch || ""),
@@ -621,12 +706,13 @@ function fifaStandings(rows) {
   for (const row of rows) {
     const group = localized(row.Group, "Group");
     const name = displayNameFromFifa(localized(row.Team?.Name, row.Team?.ShortClubName || "TBD"));
-    const meta = teamMeta(name, flagFromFifaTeam(row.Team));
+    const meta = teamMeta(name, flagFromFifaTeam(row.Team), fifaTeamCode(row.Team));
     if (!groups.has(group)) groups.set(group, []);
     groups.get(group).push({
       rank: Number(row.Position) || groups.get(group).length + 1,
       team: name,
       flag: meta.flag,
+      flagUrl: meta.flagUrl,
       played: Number(row.Played) || 0,
       won: Number(row.Won) || 0,
       drawn: Number(row.Drawn) || 0,
@@ -675,7 +761,7 @@ function fifaScorers(schedule, photoByPlayer = new Map()) {
           name: goal.player,
           photo: photoByPlayer.get(key) || photoByPlayer.get(normalizedName) || ""
         },
-        team: { name: team.name, code: team.code, flag: team.flag },
+        team: { name: team.name, code: team.code, flag: team.flag, flagUrl: team.flagUrl },
         goals: 0,
         assists: null,
         penalties: 0,
@@ -731,6 +817,82 @@ async function apiFootballPhotoMap() {
   return photos;
 }
 
+function teamNationalityAliases(teamName) {
+  const normalized = normalizePlayerKey(teamName);
+  const aliases = new Map([
+    ["usa", ["usa", "united states", "united states of america"]],
+    ["ir iran", ["iran", "ir iran"]],
+    ["korea republic", ["south korea", "korea republic"]],
+    ["cote d ivoire", ["cote d ivoire", "ivory coast"]],
+    ["congo dr", ["dr congo", "congo dr", "democratic republic of the congo"]],
+    ["cabo verde", ["cabo verde", "cape verde"]],
+    ["cape verde", ["cabo verde", "cape verde"]]
+  ]);
+  return aliases.get(normalized) || [normalized];
+}
+
+async function fetchSportsDbPlayerPhoto(player) {
+  const name = cleanText(player?.player?.name, "");
+  if (!name) return "";
+  const url = new URL("https://www.thesportsdb.com/api/v1/json/3/searchplayers.php");
+  url.searchParams.set("p", name);
+
+  for (let attempt = 1; attempt <= 2; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: {
+          Accept: "application/json",
+          "User-Agent": userAgent
+        }
+      });
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      const payload = await response.json();
+      const candidates = Array.isArray(payload?.player) ? payload.player : [];
+      const teamAliases = teamNationalityAliases(player?.team?.name || "");
+      const exactName = normalizePlayerKey(name);
+      const soccerPlayers = candidates.filter((candidate) => normalizePlayerKey(candidate?.strSport) === "soccer");
+      const selected = soccerPlayers.find((candidate) =>
+        normalizePlayerKey(candidate?.strPlayer) === exactName
+        && teamAliases.includes(normalizePlayerKey(candidate?.strNationality))
+      ) || soccerPlayers.find((candidate) =>
+        normalizePlayerKey(candidate?.strPlayer) === exactName
+      ) || soccerPlayers[0];
+
+      return selected?.strCutout || selected?.strThumb || selected?.strRender || "";
+    } catch {
+      if (attempt < 2) await new Promise((resolve) => setTimeout(resolve, 350));
+    }
+  }
+
+  return "";
+}
+
+async function publicPlayerPhotoMap(players) {
+  const photos = new Map();
+  if (process.env.WORLD_CUP_DISABLE_PUBLIC_PLAYER_PHOTOS === "1") return photos;
+
+  const limit = Number(process.env.WORLD_CUP_PHOTO_LIMIT || 80);
+  const targets = players
+    .filter((player) => player?.player?.name && !player?.player?.photo)
+    .slice(0, Number.isFinite(limit) ? limit : 80);
+  const requestedConcurrency = Number(process.env.WORLD_CUP_PHOTO_CONCURRENCY || 3);
+  const concurrency = Number.isFinite(requestedConcurrency) && requestedConcurrency > 0 ? requestedConcurrency : 3;
+
+  for (let index = 0; index < targets.length; index += concurrency) {
+    const batch = targets.slice(index, index + concurrency);
+    await Promise.all(batch.map(async (player) => {
+      const photo = await fetchSportsDbPlayerPhoto(player);
+      if (!photo) return;
+      const nameKey = normalizePlayerKey(player.player.name);
+      const teamKey = `${nameKey}-${player.team?.code || ""}`;
+      photos.set(nameKey, photo);
+      photos.set(teamKey, photo);
+    }));
+  }
+
+  return photos;
+}
+
 async function buildFifaData() {
   log("Fetching FIFA FDH page data.");
   const now = new Date();
@@ -755,6 +917,11 @@ async function buildFifaData() {
   const source = "fifa-fdh";
   const scheduleMatches = fifaSchedule(fixtures, eventsByMatch, now);
   const photoByPlayer = await apiFootballPhotoMap();
+  const firstPassScorers = fifaScorers(scheduleMatches, photoByPlayer);
+  const publicPhotos = await publicPlayerPhotoMap(firstPassScorers);
+  for (const [key, photo] of publicPhotos) {
+    if (!photoByPlayer.has(key)) photoByPlayer.set(key, photo);
+  }
 
   return {
     live: {
@@ -867,6 +1034,7 @@ function fallbackStandings(seed) {
             rank: index + 1,
             team,
             flag: meta.flag,
+            flagUrl: meta.flagUrl,
             played,
             won,
             drawn,
@@ -990,7 +1158,7 @@ function fallbackScorers(seed) {
         const key = `${scorer.player}-${team.code}`;
         const current = scorerMap.get(key) || {
           player: { id: key, name: scorer.player, photo: "" },
-          team: { name: team.name, code: team.code, flag: team.flag },
+          team: { name: team.name, code: team.code, flag: team.flag, flagUrl: team.flagUrl },
           goals: 0,
           assists: 0,
           penalties: null,
@@ -1035,7 +1203,7 @@ function fallbackScorers(seed) {
     if (!scorerMap.has(key)) {
       scorerMap.set(key, {
         player: { id: key, name, photo: "" },
-        team: { name: team.name, code: team.code, flag: team.flag },
+        team: { name: team.name, code: team.code, flag: team.flag, flagUrl: team.flagUrl },
         goals,
         assists,
         penalties,
@@ -1111,6 +1279,7 @@ function fixtureTeam(apiTeam, score) {
     name: apiTeam?.name || "TBD",
     code: meta.code,
     flag: meta.flag,
+    flagUrl: meta.flagUrl,
     score: Number.isFinite(Number(score)) ? Number(score) : null
   };
 }
@@ -1241,7 +1410,7 @@ function apiScorers(payload) {
         name: entry.player?.name || "Unknown",
         photo: entry.player?.photo || ""
       },
-      team: { name: team.name, code: team.code, flag: team.flag },
+      team: { name: team.name, code: team.code, flag: team.flag, flagUrl: team.flagUrl },
       goals: stats.goals?.total ?? 0,
       assists: stats.goals?.assists ?? 0,
       penalties: stats.penalty?.scored ?? null,
