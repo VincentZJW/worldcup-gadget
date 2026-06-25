@@ -1,14 +1,48 @@
 {
-  "updatedAt": "2026-06-25T20:31:24.821Z",
+  "updatedAt": "2026-06-25T22:20:59.732Z",
   "timezone": "Asia/Shanghai",
-  "source": "fifa-fdh",
-  "isFallback": false,
+  "source": "local-fallback",
+  "isFallback": true,
+  "notice": "数据暂未更新，当前显示示例数据",
   "matches": [
     {
-      "id": "400021468",
+      "id": "seed-8",
       "stage": "Group E",
       "status": "LIVE",
-      "minute": "30'",
+      "minute": "LIVE",
+      "venue": "New York/New Jersey Stadium",
+      "home": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "flag": "🇪🇨",
+        "flagUrl": "assets/flags/ecu.svg",
+        "score": 1
+      },
+      "away": {
+        "name": "Germany",
+        "code": "GER",
+        "flag": "🇩🇪",
+        "flagUrl": "assets/flags/ger.svg",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "ECU",
+          "player": "Nilson Angulo",
+          "minute": "9'"
+        },
+        {
+          "team": "GER",
+          "player": "Leroy Sane",
+          "minute": "2'"
+        }
+      ]
+    },
+    {
+      "id": "seed-7",
+      "stage": "Group E",
+      "status": "LIVE",
+      "minute": "LIVE",
       "venue": "Philadelphia Stadium",
       "home": {
         "name": "Curaçao",
@@ -28,77 +62,12 @@
         {
           "team": "CIV",
           "player": "Nicolas Pepe",
-          "minute": "7'",
-          "type": "goal"
+          "minute": "7'"
         }
       ]
     },
     {
-      "id": "400021466",
-      "stage": "Group E",
-      "status": "LIVE",
-      "minute": "31'",
-      "venue": "New York/New Jersey Stadium",
-      "home": {
-        "name": "Ecuador",
-        "code": "ECU",
-        "flag": "🇪🇨",
-        "flagUrl": "assets/flags/ecu.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Germany",
-        "code": "GER",
-        "flag": "🇩🇪",
-        "flagUrl": "assets/flags/ger.svg",
-        "score": 1
-      },
-      "goals": [
-        {
-          "team": "GER",
-          "player": "Leroy Sane",
-          "minute": "2'",
-          "type": "goal"
-        },
-        {
-          "team": "ECU",
-          "player": "Nilson Angulo",
-          "minute": "9'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021445",
-      "stage": "Group A",
-      "status": "FT",
-      "minute": "",
-      "venue": "Monterrey Stadium",
-      "home": {
-        "name": "South Africa",
-        "code": "RSA",
-        "flag": "🇿🇦",
-        "flagUrl": "assets/flags/rsa.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Korea Republic",
-        "code": "KOR",
-        "flag": "🇰🇷",
-        "flagUrl": "assets/flags/kor.svg",
-        "score": 0
-      },
-      "goals": [
-        {
-          "team": "RSA",
-          "player": "Thapelo Maseko",
-          "minute": "63'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021444",
+      "id": "seed-6",
       "stage": "Group A",
       "status": "FT",
       "minute": "",
@@ -121,84 +90,50 @@
         {
           "team": "MEX",
           "player": "Mateo Chavez",
-          "minute": "55'",
-          "type": "goal"
+          "minute": "55'"
         },
         {
           "team": "MEX",
           "player": "Julian Quinones",
-          "minute": "61'",
-          "type": "goal"
+          "minute": "61'"
         },
         {
           "team": "MEX",
           "player": "Alvaro Fidalgo",
-          "minute": "90'+4'",
-          "type": "goal"
+          "minute": "90'+4'"
         }
       ]
     },
     {
-      "id": "400021452",
-      "stage": "Group C",
+      "id": "seed-5",
+      "stage": "Group A",
       "status": "FT",
       "minute": "",
-      "venue": "Atlanta Stadium",
+      "venue": "Monterrey Stadium",
       "home": {
-        "name": "Morocco",
-        "code": "MAR",
-        "flag": "🇲🇦",
-        "flagUrl": "assets/flags/mar.svg",
-        "score": 4
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦",
+        "flagUrl": "assets/flags/rsa.svg",
+        "score": 1
       },
       "away": {
-        "name": "Haiti",
-        "code": "HAI",
-        "flag": "🇭🇹",
-        "flagUrl": "assets/flags/hai.svg",
-        "score": 2
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "flagUrl": "assets/flags/kor.svg",
+        "score": 0
       },
       "goals": [
         {
-          "team": "HAI",
-          "player": "Yassine Bounou",
-          "minute": "10'",
-          "type": "own_goal"
-        },
-        {
-          "team": "MAR",
-          "player": "Achraf Hakimi",
-          "minute": "39'",
-          "type": "goal"
-        },
-        {
-          "team": "HAI",
-          "player": "Wilson Isidor",
-          "minute": "43'",
-          "type": "goal"
-        },
-        {
-          "team": "MAR",
-          "player": "Ismael Saibari",
-          "minute": "45'+1'",
-          "type": "goal"
-        },
-        {
-          "team": "MAR",
-          "player": "Soufiane Rahimi",
-          "minute": "78'",
-          "type": "goal"
-        },
-        {
-          "team": "MAR",
-          "player": "Gessime Yassine",
-          "minute": "89'",
-          "type": "goal"
+          "team": "RSA",
+          "player": "Thapelo Maseko",
+          "minute": "63'"
         }
       ]
     },
     {
-      "id": "400021455",
+      "id": "seed-4",
       "stage": "Group C",
       "status": "FT",
       "minute": "",
@@ -221,72 +156,70 @@
         {
           "team": "BRA",
           "player": "Vinicius Junior",
-          "minute": "7'",
-          "type": "goal"
+          "minute": "7'"
         },
         {
           "team": "BRA",
           "player": "Vinicius Junior",
-          "minute": "45'+3'",
-          "type": "goal"
+          "minute": "45'+3'"
         },
         {
           "team": "BRA",
           "player": "Matheus Cunha",
-          "minute": "60'",
-          "type": "goal"
+          "minute": "60'"
         }
       ]
     },
     {
-      "id": "400021448",
-      "stage": "Group B",
+      "id": "seed-3",
+      "stage": "Group C",
       "status": "FT",
       "minute": "",
-      "venue": "Seattle Stadium",
+      "venue": "Atlanta Stadium",
       "home": {
-        "name": "Bosnia and Herzegovina",
-        "code": "BIH",
-        "flag": "🇧🇦",
-        "flagUrl": "assets/flags/bih.svg",
-        "score": 3
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg",
+        "score": 4
       },
       "away": {
-        "name": "Qatar",
-        "code": "QAT",
-        "flag": "🇶🇦",
-        "flagUrl": "assets/flags/qat.svg",
-        "score": 1
+        "name": "Haiti",
+        "code": "HAI",
+        "flag": "🇭🇹",
+        "flagUrl": "assets/flags/hai.svg",
+        "score": 2
       },
       "goals": [
         {
-          "team": "BIH",
-          "player": "Kerim Alajbegovic",
-          "minute": "29'",
-          "type": "goal"
+          "team": "MAR",
+          "player": "Achraf Hakimi",
+          "minute": "39'"
         },
         {
-          "team": "BIH",
-          "player": "Mahmoud Abunada",
-          "minute": "34'",
-          "type": "own_goal"
+          "team": "MAR",
+          "player": "Ismael Saibari",
+          "minute": "45'+1'"
         },
         {
-          "team": "QAT",
-          "player": "Hassan Alhaydos",
-          "minute": "42'",
-          "type": "goal"
+          "team": "MAR",
+          "player": "Soufiane Rahimi",
+          "minute": "78'"
         },
         {
-          "team": "BIH",
-          "player": "Ermin Mahmic",
-          "minute": "80'",
-          "type": "goal"
+          "team": "MAR",
+          "player": "Gessime Yassine",
+          "minute": "89'"
+        },
+        {
+          "team": "HAI",
+          "player": "Wilson Isidor",
+          "minute": "43'"
         }
       ]
     },
     {
-      "id": "400021451",
+      "id": "seed-2",
       "stage": "Group B",
       "status": "FT",
       "minute": "",
@@ -309,78 +242,55 @@
         {
           "team": "SUI",
           "player": "Ruben Vargas",
-          "minute": "46'",
-          "type": "goal"
+          "minute": "46'"
         },
         {
           "team": "SUI",
           "player": "Johan Manzambi",
-          "minute": "57'",
-          "type": "goal"
+          "minute": "57'"
         },
         {
           "team": "CAN",
           "player": "Promise David",
-          "minute": "76'",
-          "type": "goal"
+          "minute": "76'"
         }
       ]
     },
     {
-      "id": "400021501",
-      "stage": "Group K",
+      "id": "seed-1",
+      "stage": "Group B",
       "status": "FT",
       "minute": "",
-      "venue": "Guadalajara Stadium",
+      "venue": "Seattle Stadium",
       "home": {
-        "name": "Colombia",
-        "code": "COL",
-        "flag": "🇨🇴",
-        "flagUrl": "assets/flags/col.svg",
-        "score": 1
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg",
+        "score": 3
       },
       "away": {
-        "name": "DR Congo",
-        "code": "COD",
-        "flag": "🇨🇩",
-        "flagUrl": "assets/flags/cod.svg",
-        "score": 0
-      },
-      "goals": [
-        {
-          "team": "COL",
-          "player": "Daniel Munoz",
-          "minute": "76'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021511",
-      "stage": "Group L",
-      "status": "FT",
-      "minute": "",
-      "venue": "Toronto Stadium",
-      "home": {
-        "name": "Panama",
-        "code": "PAN",
-        "flag": "🇵🇦",
-        "flagUrl": "assets/flags/pan.svg",
-        "score": 0
-      },
-      "away": {
-        "name": "Croatia",
-        "code": "CRO",
-        "flag": "🇭🇷",
-        "flagUrl": "assets/flags/cro.svg",
+        "name": "Qatar",
+        "code": "QAT",
+        "flag": "🇶🇦",
+        "flagUrl": "assets/flags/qat.svg",
         "score": 1
       },
       "goals": [
         {
-          "team": "CRO",
-          "player": "Ante Budimir",
-          "minute": "54'",
-          "type": "goal"
+          "team": "BIH",
+          "player": "Kerim Alajbegovic",
+          "minute": "29'"
+        },
+        {
+          "team": "BIH",
+          "player": "Ermin Mahmic",
+          "minute": "80'"
+        },
+        {
+          "team": "QAT",
+          "player": "Hassan Alhaydos",
+          "minute": "42'"
         }
       ]
     }

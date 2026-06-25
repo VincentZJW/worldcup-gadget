@@ -1,49 +1,46 @@
 {
-  "updatedAt": "2026-06-25T20:31:24.821Z",
+  "updatedAt": "北京时间 2026-06-26 04:30",
   "timezone": "Asia/Shanghai",
-  "source": "fifa-fdh",
-  "isFallback": false,
+  "source": "local-fallback",
+  "isFallback": true,
+  "notice": "数据暂未更新，当前显示示例数据",
   "rounds": [
     {
       "name": "Round of 32",
       "matches": [
         {
-          "id": "400021518",
-          "date": "2026-06-29",
-          "time": "北京时间 2026-06-29 03:00",
+          "id": "round-of-32-1",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
-            "name": "South Africa",
-            "code": "RSA",
-            "flag": "🇿🇦",
-            "flagUrl": "assets/flags/rsa.svg",
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
-            "name": "Canada",
-            "code": "CAN",
-            "flag": "🇨🇦",
-            "flagUrl": "assets/flags/can.svg",
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Los Angeles Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021516",
-          "date": "2026-06-30",
-          "time": "北京时间 2026-06-30 01:00",
+          "id": "round-of-32-2",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
-            "name": "Brazil",
-            "code": "BRA",
-            "flag": "🇧🇷",
-            "flagUrl": "assets/flags/bra.svg",
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
@@ -53,23 +50,19 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Houston Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021513",
-          "date": "2026-06-30",
-          "time": "北京时间 2026-06-30 04:30",
+          "id": "round-of-32-3",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
-            "name": "Germany",
-            "code": "GER",
-            "flag": "🇩🇪",
-            "flagUrl": "assets/flags/ger.svg",
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
@@ -79,18 +72,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Boston Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021522",
-          "date": "2026-06-30",
-          "time": "北京时间 2026-06-30 09:00",
+          "id": "round-of-32-4",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -99,24 +88,20 @@
             "score": null
           },
           "away": {
-            "name": "Morocco",
-            "code": "MAR",
-            "flag": "🇲🇦",
-            "flagUrl": "assets/flags/mar.svg",
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Monterrey Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021514",
-          "date": "2026-07-01",
-          "time": "北京时间 2026-07-01 01:00",
+          "id": "round-of-32-5",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -131,18 +116,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Dallas Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021523",
-          "date": "2026-07-01",
-          "time": "北京时间 2026-07-01 05:00",
+          "id": "round-of-32-6",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -157,23 +138,19 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "New York/New Jersey Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021520",
-          "date": "2026-07-01",
-          "time": "北京时间 2026-07-01 09:00",
+          "id": "round-of-32-7",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
-            "name": "Mexico",
-            "code": "MEX",
-            "flag": "🇲🇽",
-            "flagUrl": "assets/flags/mex.svg",
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
@@ -183,18 +160,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Mexico City Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021512",
-          "date": "2026-07-02",
-          "time": "北京时间 2026-07-02 00:00",
+          "id": "round-of-32-8",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -209,18 +182,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Atlanta Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021525",
-          "date": "2026-07-02",
-          "time": "北京时间 2026-07-02 04:00",
+          "id": "round-of-32-9",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -235,23 +204,19 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Seattle Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021524",
-          "date": "2026-07-02",
-          "time": "北京时间 2026-07-02 08:00",
+          "id": "round-of-32-10",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
-            "name": "USA",
-            "code": "USA",
-            "flag": "🇺🇸",
-            "flagUrl": "assets/flags/usa.svg",
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
@@ -261,18 +226,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "San Francisco Bay Area Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021519",
-          "date": "2026-07-03",
-          "time": "北京时间 2026-07-03 03:00",
+          "id": "round-of-32-11",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -287,18 +248,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Los Angeles Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021526",
-          "date": "2026-07-03",
-          "time": "北京时间 2026-07-03 07:00",
+          "id": "round-of-32-12",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -313,23 +270,19 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Toronto Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021527",
-          "date": "2026-07-03",
-          "time": "北京时间 2026-07-03 11:00",
+          "id": "round-of-32-13",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
-            "name": "Switzerland",
-            "code": "SUI",
-            "flag": "🇨🇭",
-            "flagUrl": "assets/flags/sui.svg",
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
@@ -339,18 +292,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "BC Place Vancouver",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021515",
-          "date": "2026-07-04",
-          "time": "北京时间 2026-07-04 02:00",
+          "id": "round-of-32-14",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -365,23 +314,19 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Dallas Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021521",
-          "date": "2026-07-04",
-          "time": "北京时间 2026-07-04 06:00",
+          "id": "round-of-32-15",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
-            "name": "Argentina",
-            "code": "ARG",
-            "flag": "🇦🇷",
-            "flagUrl": "assets/flags/arg.svg",
+            "name": "TBD",
+            "code": "TBD",
+            "flag": "🏳️",
+            "flagUrl": "",
             "score": null
           },
           "away": {
@@ -391,18 +336,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Miami Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021517",
-          "date": "2026-07-04",
-          "time": "北京时间 2026-07-04 09:30",
+          "id": "round-of-32-16",
+          "date": "",
+          "time": "",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -417,11 +358,7 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Kansas City Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         }
       ]
     },
@@ -429,11 +366,11 @@
       "name": "Round of 16",
       "matches": [
         {
-          "id": "400021530",
-          "date": "2026-07-05",
-          "time": "北京时间 2026-07-05 01:00",
+          "id": "round-of-16-1",
+          "date": "",
+          "time": "",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -448,18 +385,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Houston Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021533",
-          "date": "2026-07-05",
-          "time": "北京时间 2026-07-05 05:00",
+          "id": "round-of-16-2",
+          "date": "",
+          "time": "",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -474,18 +407,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Philadelphia Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021532",
-          "date": "2026-07-06",
-          "time": "北京时间 2026-07-06 04:00",
+          "id": "round-of-16-3",
+          "date": "",
+          "time": "",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -500,18 +429,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "New York/New Jersey Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021531",
-          "date": "2026-07-06",
-          "time": "北京时间 2026-07-06 08:00",
+          "id": "round-of-16-4",
+          "date": "",
+          "time": "",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -526,18 +451,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Mexico City Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021529",
-          "date": "2026-07-07",
-          "time": "北京时间 2026-07-07 03:00",
+          "id": "round-of-16-5",
+          "date": "",
+          "time": "",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -552,18 +473,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Dallas Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021534",
-          "date": "2026-07-07",
-          "time": "北京时间 2026-07-07 08:00",
+          "id": "round-of-16-6",
+          "date": "",
+          "time": "",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -578,18 +495,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Seattle Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021528",
-          "date": "2026-07-08",
-          "time": "北京时间 2026-07-08 00:00",
+          "id": "round-of-16-7",
+          "date": "",
+          "time": "",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -604,18 +517,14 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "Atlanta Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         },
         {
-          "id": "400021535",
-          "date": "2026-07-08",
-          "time": "北京时间 2026-07-08 04:00",
+          "id": "round-of-16-8",
+          "date": "",
+          "time": "",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -630,11 +539,7 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "BC Place Vancouver",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         }
       ]
     },
@@ -811,11 +716,11 @@
       "name": "Final",
       "matches": [
         {
-          "id": "400021543",
-          "date": "2026-07-20",
-          "time": "北京时间 2026-07-20 03:00",
+          "id": "final-1",
+          "date": "",
+          "time": "",
           "stage": "Final",
-          "status": "Scheduled",
+          "status": "TBD",
           "home": {
             "name": "TBD",
             "code": "TBD",
@@ -830,11 +735,7 @@
             "flagUrl": "",
             "score": null
           },
-          "winner": null,
-          "venue": "New York/New Jersey Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "winner": null
         }
       ]
     }
