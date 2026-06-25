@@ -1,12 +1,74 @@
 {
-  "updatedAt": "2026-06-25T04:38:47.179Z",
+  "updatedAt": "2026-06-25T07:32:42.886Z",
   "timezone": "Asia/Shanghai",
   "source": "local-fallback",
   "isFallback": true,
   "notice": "数据暂未更新，当前显示示例数据",
   "matches": [
     {
-      "id": "seed-5",
+      "id": "seed-8",
+      "stage": "Group A",
+      "status": "FT",
+      "minute": "",
+      "venue": "Mexico City Stadium",
+      "home": {
+        "name": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿",
+        "score": 0
+      },
+      "away": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "score": 3
+      },
+      "goals": [
+        {
+          "team": "MEX",
+          "player": "Mateo Chavez",
+          "minute": "55'"
+        },
+        {
+          "team": "MEX",
+          "player": "Julian Quinones",
+          "minute": "61'"
+        },
+        {
+          "team": "MEX",
+          "player": "Alvaro Fidalgo",
+          "minute": "90'+4'"
+        }
+      ]
+    },
+    {
+      "id": "seed-7",
+      "stage": "Group A",
+      "status": "FT",
+      "minute": "",
+      "venue": "Monterrey Stadium",
+      "home": {
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦",
+        "score": 1
+      },
+      "away": {
+        "name": "Korea Republic",
+        "code": "KOR",
+        "flag": "🇰🇷",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "RSA",
+          "player": "Thapelo Maseko",
+          "minute": "63'"
+        }
+      ]
+    },
+    {
+      "id": "seed-6",
       "stage": "Group C",
       "status": "FT",
       "minute": "",
@@ -14,7 +76,7 @@
       "home": {
         "name": "Scotland",
         "code": "SCO",
-        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "flag": "🏴",
         "score": 0
       },
       "away": {
@@ -26,12 +88,12 @@
       "goals": [
         {
           "team": "BRA",
-          "player": "Vinícius Júnior",
+          "player": "Vinicius Junior",
           "minute": "7'"
         },
         {
           "team": "BRA",
-          "player": "Vinícius Júnior",
+          "player": "Vinicius Junior",
           "minute": "45'+3'"
         },
         {
@@ -42,7 +104,7 @@
       ]
     },
     {
-      "id": "seed-4",
+      "id": "seed-5",
       "stage": "Group C",
       "status": "FT",
       "minute": "",
@@ -82,18 +144,13 @@
         },
         {
           "team": "HAI",
-          "player": "Lenny Joseph",
-          "minute": "10'"
-        },
-        {
-          "team": "HAI",
           "player": "Wilson Isidor",
           "minute": "43'"
         }
       ]
     },
     {
-      "id": "seed-3",
+      "id": "seed-4",
       "stage": "Group B",
       "status": "FT",
       "minute": "",
@@ -129,7 +186,7 @@
       ]
     },
     {
-      "id": "seed-2",
+      "id": "seed-3",
       "stage": "Group B",
       "status": "FT",
       "minute": "",
@@ -149,23 +206,23 @@
       "goals": [
         {
           "team": "BIH",
-          "player": "Kerim Alajbegović",
+          "player": "Kerim Alajbegovic",
           "minute": "29'"
         },
         {
           "team": "BIH",
-          "player": "Ermin Mahmić",
+          "player": "Ermin Mahmic",
           "minute": "80'"
         },
         {
           "team": "QAT",
-          "player": "Hassan Al-Haydos",
+          "player": "Hassan Alhaydos",
           "minute": "42'"
         }
       ]
     },
     {
-      "id": "seed-1",
+      "id": "seed-2",
       "stage": "Group K",
       "status": "FT",
       "minute": "",
@@ -177,7 +234,7 @@
         "score": 1
       },
       "away": {
-        "name": "DR Congo",
+        "name": "Congo DR",
         "code": "COD",
         "flag": "🇨🇩",
         "score": 0
@@ -185,8 +242,34 @@
       "goals": [
         {
           "team": "COL",
-          "player": "Daniel Muñoz",
+          "player": "Daniel Munoz",
           "minute": "76'"
+        }
+      ]
+    },
+    {
+      "id": "seed-1",
+      "stage": "Group L",
+      "status": "FT",
+      "minute": "",
+      "venue": "Toronto Stadium",
+      "home": {
+        "name": "Panama",
+        "code": "PAN",
+        "flag": "🇵🇦",
+        "score": 0
+      },
+      "away": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "CRO",
+          "player": "Ante Budimir",
+          "minute": "54'"
         }
       ]
     }

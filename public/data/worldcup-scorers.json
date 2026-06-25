@@ -1,5 +1,5 @@
 {
-  "updatedAt": "北京时间 2026-06-25 10:00",
+  "updatedAt": "北京时间 2026-06-25 14:12",
   "timezone": "Asia/Shanghai",
   "source": "local-fallback",
   "isFallback": true,
@@ -52,12 +52,29 @@
         "flag": "🇧🇷"
       },
       "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "minutes": 245
+    },
+    {
+      "rank": 4,
+      "player": {
+        "id": "Vinicius Junior-BRA",
+        "name": "Vinicius Junior",
+        "photo": ""
+      },
+      "team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷"
+      },
+      "goals": 2,
       "assists": 0,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 4,
+      "rank": 5,
       "player": {
         "id": "Raphinha-BRA",
         "name": "Raphinha",
@@ -74,7 +91,7 @@
       "minutes": 230
     },
     {
-      "rank": 5,
+      "rank": 6,
       "player": {
         "id": "Christian Pulisic-USA",
         "name": "Christian Pulisic",
@@ -91,7 +108,7 @@
       "minutes": 240
     },
     {
-      "rank": 6,
+      "rank": 7,
       "player": {
         "id": "Harry Kane-ENG",
         "name": "Harry Kane",
@@ -108,7 +125,7 @@
       "minutes": 250
     },
     {
-      "rank": 7,
+      "rank": 8,
       "player": {
         "id": "Achraf Hakimi-MAR",
         "name": "Achraf Hakimi",
@@ -125,7 +142,41 @@
       "minutes": null
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "player": {
+        "id": "Alvaro Fidalgo-MEX",
+        "name": "Alvaro Fidalgo",
+        "photo": ""
+      },
+      "team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 10,
+      "player": {
+        "id": "Ante Budimir-CRO",
+        "name": "Ante Budimir",
+        "photo": ""
+      },
+      "team": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 11,
       "player": {
         "id": "Cristiano Ronaldo-POR",
         "name": "Cristiano Ronaldo",
@@ -142,10 +193,10 @@
       "minutes": 210
     },
     {
-      "rank": 9,
+      "rank": 12,
       "player": {
-        "id": "Daniel Muñoz-COL",
-        "name": "Daniel Muñoz",
+        "id": "Daniel Munoz-COL",
+        "name": "Daniel Munoz",
         "photo": ""
       },
       "team": {
@@ -159,10 +210,27 @@
       "minutes": null
     },
     {
-      "rank": 10,
+      "rank": 13,
       "player": {
-        "id": "Ermin Mahmić-BIH",
-        "name": "Ermin Mahmić",
+        "id": "Daniel Muñoz-COL",
+        "name": "Daniel Muñoz",
+        "photo": ""
+      },
+      "team": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": 0,
+      "minutes": 180
+    },
+    {
+      "rank": 14,
+      "player": {
+        "id": "Ermin Mahmic-BIH",
+        "name": "Ermin Mahmic",
         "photo": ""
       },
       "team": {
@@ -176,7 +244,24 @@
       "minutes": null
     },
     {
-      "rank": 11,
+      "rank": 15,
+      "player": {
+        "id": "Ermin Mahmić-BIH",
+        "name": "Ermin Mahmić",
+        "photo": ""
+      },
+      "team": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": 0,
+      "minutes": 112
+    },
+    {
+      "rank": 16,
       "player": {
         "id": "Gessime Yassine-MAR",
         "name": "Gessime Yassine",
@@ -193,10 +278,27 @@
       "minutes": null
     },
     {
-      "rank": 12,
+      "rank": 17,
       "player": {
         "id": "Hassan Al-Haydos-QAT",
         "name": "Hassan Al-Haydos",
+        "photo": ""
+      },
+      "team": {
+        "name": "Qatar",
+        "code": "QAT",
+        "flag": "🇶🇦"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": 0,
+      "minutes": 190
+    },
+    {
+      "rank": 18,
+      "player": {
+        "id": "Hassan Alhaydos-QAT",
+        "name": "Hassan Alhaydos",
         "photo": ""
       },
       "team": {
@@ -210,7 +312,7 @@
       "minutes": null
     },
     {
-      "rank": 13,
+      "rank": 19,
       "player": {
         "id": "Ismael Saibari-MAR",
         "name": "Ismael Saibari",
@@ -227,7 +329,7 @@
       "minutes": null
     },
     {
-      "rank": 14,
+      "rank": 20,
       "player": {
         "id": "Jamal Musiala-GER",
         "name": "Jamal Musiala",
@@ -244,7 +346,7 @@
       "minutes": 220
     },
     {
-      "rank": 15,
+      "rank": 21,
       "player": {
         "id": "Johan Manzambi-SUI",
         "name": "Johan Manzambi",
@@ -261,7 +363,7 @@
       "minutes": null
     },
     {
-      "rank": 16,
+      "rank": 22,
       "player": {
         "id": "Jude Bellingham-ENG",
         "name": "Jude Bellingham",
@@ -278,10 +380,27 @@
       "minutes": 240
     },
     {
-      "rank": 17,
+      "rank": 23,
       "player": {
-        "id": "Kerim Alajbegović-BIH",
-        "name": "Kerim Alajbegović",
+        "id": "Julian Quinones-MEX",
+        "name": "Julian Quinones",
+        "photo": ""
+      },
+      "team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 24,
+      "player": {
+        "id": "Kerim Alajbegovic-BIH",
+        "name": "Kerim Alajbegovic",
         "photo": ""
       },
       "team": {
@@ -295,7 +414,24 @@
       "minutes": null
     },
     {
-      "rank": 18,
+      "rank": 25,
+      "player": {
+        "id": "Kerim Alajbegović-BIH",
+        "name": "Kerim Alajbegović",
+        "photo": ""
+      },
+      "team": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": 0,
+      "minutes": 170
+    },
+    {
+      "rank": 26,
       "player": {
         "id": "Lautaro Martínez-ARG",
         "name": "Lautaro Martínez",
@@ -312,7 +448,7 @@
       "minutes": 160
     },
     {
-      "rank": 19,
+      "rank": 27,
       "player": {
         "id": "Lenny Joseph-HAI",
         "name": "Lenny Joseph",
@@ -325,11 +461,28 @@
       },
       "goals": 1,
       "assists": 0,
+      "penalties": 0,
+      "minutes": 210
+    },
+    {
+      "rank": 28,
+      "player": {
+        "id": "Mateo Chavez-MEX",
+        "name": "Mateo Chavez",
+        "photo": ""
+      },
+      "team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽"
+      },
+      "goals": 1,
+      "assists": 0,
       "penalties": null,
       "minutes": null
     },
     {
-      "rank": 20,
+      "rank": 29,
       "player": {
         "id": "Matheus Cunha-BRA",
         "name": "Matheus Cunha",
@@ -346,7 +499,7 @@
       "minutes": null
     },
     {
-      "rank": 21,
+      "rank": 30,
       "player": {
         "id": "Promise David-CAN",
         "name": "Promise David",
@@ -363,7 +516,7 @@
       "minutes": null
     },
     {
-      "rank": 22,
+      "rank": 31,
       "player": {
         "id": "Ruben Vargas-SUI",
         "name": "Ruben Vargas",
@@ -380,7 +533,7 @@
       "minutes": null
     },
     {
-      "rank": 23,
+      "rank": 32,
       "player": {
         "id": "Soufiane Rahimi-MAR",
         "name": "Soufiane Rahimi",
@@ -397,7 +550,24 @@
       "minutes": null
     },
     {
-      "rank": 24,
+      "rank": 33,
+      "player": {
+        "id": "Thapelo Maseko-RSA",
+        "name": "Thapelo Maseko",
+        "photo": ""
+      },
+      "team": {
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦"
+      },
+      "goals": 1,
+      "assists": 0,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 34,
       "player": {
         "id": "Wilson Isidor-HAI",
         "name": "Wilson Isidor",

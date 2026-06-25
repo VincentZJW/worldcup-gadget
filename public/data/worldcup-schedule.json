@@ -1,5 +1,5 @@
 {
-  "updatedAt": "北京时间 2026-06-25 10:00",
+  "updatedAt": "北京时间 2026-06-25 14:12",
   "timezone": "Asia/Shanghai",
   "source": "local-fallback",
   "isFallback": true,
@@ -132,7 +132,7 @@
       }
     },
     {
-      "id": "seed-completed-3",
+      "id": "seed-completed-4",
       "date": "2026-06-25",
       "time": "北京时间 2026-06-25 04:52",
       "stage": "Group B",
@@ -153,7 +153,7 @@
       }
     },
     {
-      "id": "seed-completed-2",
+      "id": "seed-completed-3",
       "date": "2026-06-25",
       "time": "北京时间 2026-06-25 04:52",
       "stage": "Group B",
@@ -321,7 +321,7 @@
       }
     },
     {
-      "id": "seed-completed-4",
+      "id": "seed-completed-5",
       "date": "2026-06-25",
       "time": "北京时间 2026-06-25 07:54",
       "stage": "Group C",
@@ -1308,24 +1308,24 @@
       }
     },
     {
-      "id": "seed-completed-1",
-      "date": "2026-06-24",
-      "time": "北京时间 2026-06-24 11:52",
+      "id": "group-k-3",
+      "date": "2026-06-22",
+      "time": "2026-06-22T18:00:00.000Z",
       "stage": "Group K",
-      "venue": "Guadalajara Stadium",
-      "status": "FT",
-      "score": "1-0",
+      "venue": "TBD",
+      "status": "Scheduled",
+      "score": "",
       "home": {
         "name": "Colombia",
         "code": "COL",
         "flag": "🇨🇴",
-        "score": 1
+        "score": null
       },
       "away": {
         "name": "DR Congo",
         "code": "COD",
         "flag": "🇨🇩",
-        "score": 0
+        "score": null
       }
     },
     {
