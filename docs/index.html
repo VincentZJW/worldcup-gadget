@@ -10,12 +10,18 @@
     >
     <link rel="stylesheet" href="./site.css">
   </head>
-  <body>
+  <body data-lang="zh">
     <header class="hero">
       <nav class="topbar" aria-label="Primary">
         <a class="brand" href="./">WorldCup Gadget</a>
         <div class="nav-actions">
-          <a href="https://github.com/VincentZJW/worldcup-gadget/releases/latest">下载</a>
+          <div class="language-tabs" role="tablist" aria-label="Language">
+            <button type="button" role="tab" data-lang-toggle="zh" aria-selected="true">中文</button>
+            <button type="button" role="tab" data-lang-toggle="en" aria-selected="false">EN</button>
+          </div>
+          <a href="https://github.com/VincentZJW/worldcup-gadget/releases/latest" data-i18n="navDownload">
+            下载
+          </a>
           <a href="https://github.com/VincentZJW/worldcup-gadget">GitHub</a>
         </div>
       </nav>
@@ -24,29 +30,33 @@
         <div class="hero-copy">
           <p class="eyebrow">macOS Beta</p>
           <h1 id="page-title">WorldCup Gadget</h1>
-          <p class="subtitle">
+          <p class="subtitle" data-i18n="heroSubtitle">
             一个世界杯桌面悬浮球。下载 Mac 应用后，悬浮球会显示在桌面上，点击即可展开最新战报。
           </p>
           <div class="hero-actions">
-            <a class="primary-action" href="https://github.com/VincentZJW/worldcup-gadget/releases/latest">
+            <a
+              class="primary-action"
+              href="https://github.com/VincentZJW/worldcup-gadget/releases/latest"
+              data-i18n="downloadLatest"
+            >
               下载最新版
             </a>
-            <span class="release-note">通过 GitHub Releases 免费分发</span>
+            <span class="release-note" data-i18n="releaseNote">通过 GitHub Releases 免费分发</span>
           </div>
         </div>
 
-        <div class="product-preview" aria-label="应用界面预览">
+        <div class="product-preview" data-i18n-aria-label="previewLabel" aria-label="应用界面预览">
           <div class="preview-window">
             <div class="preview-header">
-              <span>本地战报</span>
-              <span>刷新</span>
+              <span data-i18n="previewSource">本地战报</span>
+              <span data-i18n="previewRefresh">刷新</span>
             </div>
-            <div class="preview-title">2026 世界杯战报</div>
-            <div class="preview-status">数据自动更新 · 北京时间</div>
+            <div class="preview-title" data-i18n="previewTitle">2026 世界杯战报</div>
+            <div class="preview-status" data-i18n="previewStatus">数据自动更新 · 北京时间</div>
             <div class="match-row">
-              <span>🇺🇾 乌拉圭</span>
+              <span data-i18n="previewTeamA">🇺🇾 乌拉圭</span>
               <strong>2 - 2</strong>
-              <span>佛得角 🇨🇻</span>
+              <span data-i18n="previewTeamB">佛得角 🇨🇻</span>
             </div>
             <div class="preview-footer">LOCAL JSON · AUTO UPDATE READY</div>
           </div>
@@ -58,39 +68,45 @@
     <main>
       <section class="section">
         <p class="section-index">01</p>
-        <h2>下载后仍然是桌面悬浮球</h2>
-        <p>
+        <h2 data-i18n="desktopTitle">下载后仍然是桌面悬浮球</h2>
+        <p data-i18n="desktopBody">
           GitHub Pages 只是下载页，真正运行的是 GitHub Releases 里的 macOS App。
           用户安装并打开后，悬浮球仍然显示在 Mac 桌面上，而不是只能在网页中查看。
         </p>
       </section>
 
-      <section class="feature-grid" aria-label="核心能力">
+      <section class="feature-grid" data-i18n-aria-label="featureLabel" aria-label="核心能力">
         <article>
-          <h3>悬浮显示</h3>
-          <p>小足球常驻桌面，点击展开或收起战报。</p>
+          <h3 data-i18n="featureFloatingTitle">悬浮显示</h3>
+          <p data-i18n="featureFloatingBody">小足球常驻桌面，点击展开或收起战报。</p>
         </article>
         <article>
-          <h3>自动数据</h3>
-          <p>应用会从远程 feed 更新，再读取本地缓存展示。</p>
+          <h3 data-i18n="featureDataTitle">自动数据</h3>
+          <p data-i18n="featureDataBody">应用会从远程 feed 更新，再读取本地缓存展示。</p>
         </article>
         <article>
-          <h3>免费分发</h3>
-          <p>当前 beta 通过 GitHub Pages 和 Releases 分发。</p>
+          <h3 data-i18n="featureDistributionTitle">免费分发</h3>
+          <p data-i18n="featureDistributionBody">当前 beta 通过 GitHub Pages 和 Releases 分发。</p>
         </article>
       </section>
 
       <section class="section install-section">
         <p class="section-index">02</p>
-        <h2>首次打开</h2>
-        <p>
+        <h2 data-i18n="firstOpenTitle">首次打开</h2>
+        <p data-i18n="firstOpenBody">
           当前版本暂未接入 Apple Developer ID 签名和公证。macOS 第一次打开时可能提示无法验证开发者，
           这是 unsigned beta 的正常限制。下载来源请以本页面链接到的 GitHub Release 为准。
         </p>
-        <a class="secondary-action" href="https://github.com/VincentZJW/worldcup-gadget/releases/latest">
+        <a
+          class="secondary-action"
+          href="https://github.com/VincentZJW/worldcup-gadget/releases/latest"
+          data-i18n="releasePage"
+        >
           前往 Release 页面
         </a>
       </section>
     </main>
+
+    <script src="./site.js"></script>
   </body>
 </html>
