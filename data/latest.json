@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-06-26 04:30",
+  "updated_at": "北京时间 2026-06-26 06:20",
   "date_range": "2026-06-25 to 2026-06-26",
-  "summary": "南非 1-0 击败Korea Republic，墨西哥 3-0 击败Czechia，科特迪瓦 1-0 暂时领先库拉索，厄瓜多尔 1-1 暂平德国。",
+  "summary": "南非 1-0 击败Korea Republic，墨西哥 3-0 击败Czechia，科特迪瓦 2-0 击败库拉索，厄瓜多尔 2-1 击败德国。",
   "matches": [
     {
       "group": "Group B",
@@ -360,11 +360,11 @@
     },
     {
       "group": "Group E",
-      "status": "LIVE",
-      "minute": "30'",
+      "status": "FT",
+      "minute": "",
       "venue": "Philadelphia Stadium",
       "kickoff_at_bj": "北京时间 2026-06-26 04:00",
-      "finished_at_bj": "北京时间 2026-06-26 04:00",
+      "finished_at_bj": "北京时间 2026-06-26 05:52",
       "team_a": {
         "name": "Curaçao",
         "flag": "🇨🇼",
@@ -376,11 +376,16 @@
       "team_b": {
         "name": "Côte d'Ivoire",
         "flag": "🇨🇮",
-        "score": 1,
+        "score": 2,
         "scorers": [
           {
             "player": "Nicolas Pepe",
             "minute": "7'",
+            "type": "goal"
+          },
+          {
+            "player": "Nicolas Pepe",
+            "minute": "64'",
             "type": "goal"
           }
         ],
@@ -390,36 +395,41 @@
       "venue_en": "Philadelphia Stadium",
       "venue_zh": "Philadelphia Stadium",
       "highlights_en": [
-        "Côte d'Ivoire lead Curaçao 1-0 in Group E.",
-        "Nicolas Pepe 7'",
+        "Côte d'Ivoire beat Curaçao 2-0 in Group E.",
+        "Nicolas Pepe 7', Nicolas Pepe 64'",
         "The match was played at Philadelphia Stadium."
       ],
       "highlights_zh": [
-        "科特迪瓦 1-0 暂时领先库拉索，比赛属于 Group E。",
-        "Nicolas Pepe 7'",
+        "科特迪瓦 2-0 击败库拉索，比赛属于 Group E。",
+        "Nicolas Pepe 7', Nicolas Pepe 64'",
         "比赛场地：Philadelphia Stadium。"
       ],
       "highlights": [
-        "科特迪瓦 1-0 暂时领先库拉索，比赛属于 Group E。",
-        "Nicolas Pepe 7'",
+        "科特迪瓦 2-0 击败库拉索，比赛属于 Group E。",
+        "Nicolas Pepe 7', Nicolas Pepe 64'",
         "比赛场地：Philadelphia Stadium。"
       ]
     },
     {
       "group": "Group E",
-      "status": "LIVE",
-      "minute": "29'",
+      "status": "FT",
+      "minute": "",
       "venue": "New York/New Jersey Stadium",
       "kickoff_at_bj": "北京时间 2026-06-26 04:00",
-      "finished_at_bj": "北京时间 2026-06-26 04:00",
+      "finished_at_bj": "北京时间 2026-06-26 05:53",
       "team_a": {
         "name": "Ecuador",
         "flag": "🇪🇨",
-        "score": 1,
+        "score": 2,
         "scorers": [
           {
             "player": "Nilson Angulo",
             "minute": "9'",
+            "type": "goal"
+          },
+          {
+            "player": "Gonzalo Plata",
+            "minute": "77'",
             "type": "goal"
           }
         ],
@@ -443,18 +453,18 @@
       "venue_en": "New York/New Jersey Stadium",
       "venue_zh": "New York/New Jersey Stadium",
       "highlights_en": [
-        "Ecuador and Germany are level 1-1 in Group E.",
-        "Nilson Angulo 9', Leroy Sane 2'",
+        "Ecuador beat Germany 2-1 in Group E.",
+        "Nilson Angulo 9', Gonzalo Plata 77', Leroy Sane 2'",
         "The match was played at New York/New Jersey Stadium."
       ],
       "highlights_zh": [
-        "厄瓜多尔 1-1 暂平德国，比赛属于 Group E。",
-        "Nilson Angulo 9', Leroy Sane 2'",
+        "厄瓜多尔 2-1 击败德国，比赛属于 Group E。",
+        "Nilson Angulo 9', Gonzalo Plata 77', Leroy Sane 2'",
         "比赛场地：New York/New Jersey Stadium。"
       ],
       "highlights": [
-        "厄瓜多尔 1-1 暂平德国，比赛属于 Group E。",
-        "Nilson Angulo 9', Leroy Sane 2'",
+        "厄瓜多尔 2-1 击败德国，比赛属于 Group E。",
+        "Nilson Angulo 9', Gonzalo Plata 77', Leroy Sane 2'",
         "比赛场地：New York/New Jersey Stadium。"
       ]
     }
@@ -463,7 +473,7 @@
     "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。",
     "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
     "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
-    "Group E：德国 以 7 分领跑，科特迪瓦 6 分紧随其后。"
+    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。"
   ],
   "today_fixtures": [
     {
@@ -596,19 +606,19 @@
     }
   ],
   "news": [],
-  "summary_zh": "南非 1-0 击败Korea Republic，墨西哥 3-0 击败Czechia，科特迪瓦 1-0 暂时领先库拉索，厄瓜多尔 1-1 暂平德国。",
-  "summary_en": "South Africa beat Korea Republic 1-0; Mexico beat Czechia 3-0; Côte d'Ivoire lead Curaçao 1-0; Ecuador and Germany are level 1-1.",
+  "summary_zh": "南非 1-0 击败Korea Republic，墨西哥 3-0 击败Czechia，科特迪瓦 2-0 击败库拉索，厄瓜多尔 2-1 击败德国。",
+  "summary_en": "South Africa beat Korea Republic 1-0; Mexico beat Czechia 3-0; Côte d'Ivoire beat Curaçao 2-0; Ecuador beat Germany 2-1.",
   "standings_changes_zh": [
     "Group B：瑞士 以 7 分领跑，加拿大 4 分紧随其后。",
     "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
     "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
-    "Group E：德国 以 7 分领跑，科特迪瓦 6 分紧随其后。"
+    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。"
   ],
   "standings_changes_en": [
     "Group B: Switzerland lead with 7 points, followed by Canada on 4.",
     "Group C: Brazil lead with 7 points, followed by Morocco on 7.",
     "Group A: Mexico lead with 9 points, followed by South Africa on 4.",
-    "Group E: Germany lead with 7 points, followed by Côte d'Ivoire on 6."
+    "Group E: Germany lead with 6 points, followed by Côte d'Ivoire on 6."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -616,6 +626,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-25T20:30:54.212Z"
+    "fetched_at": "2026-06-25T22:20:02.508Z"
   }
 }
