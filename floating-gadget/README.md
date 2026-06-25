@@ -191,7 +191,7 @@ https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.
 
 ## 刷新数据
 
-正常使用时不需要手动修改数据文件。应用启动后会自动更新一次，并按约 5 分钟间隔继续更新；每日自动展示前也会先尝试更新一次。更新失败时会继续使用上一次本地缓存。
+正常使用时不需要手动修改数据文件。应用启动后会自动更新一次，并按约 30 分钟间隔继续更新；每日自动展示前也会先尝试更新一次。更新失败时会继续使用上一次本地缓存。
 
 顶部“刷新”按钮适合普通用户：它会先触发远程更新，再读取本地缓存并刷新 UI。设置页里有两个更细的数据动作：
 
@@ -200,9 +200,9 @@ https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.
 
 远程 JSON feed 由项目根目录的 GitHub Action 自动生成：
 
-- `.github/workflows/update-worldcup-feed.yml` 每 5 分钟运行一次，也支持手动触发；
+- `.github/workflows/update-worldcup-feed.yml` 在北京时间凌晨到中午的比赛高发窗口每 30 分钟运行一次，也支持手动触发；
 - `scripts/generate_worldcup_feed.mjs` 请求 FIFA 官方 FDH API，读取比赛状态、比分、timeline、进球球员和进球时间；
-- workflow 只提交 `data/latest.json`，不会提交本地 roadmap 或其他开发笔记；
+- workflow 只有在 `data/latest.json` 的比分、状态、比赛分钟、进球信息等语义数据发生变化时才提交，不会空提交；
 - workflow 提交 feed 变化后会清理 jsDelivr feed URL 的缓存；gadget 默认读取 GitHub raw feed 来降低 CDN 旧缓存风险；
 - 生成失败时不会覆盖旧 feed，gadget 会继续使用上一次缓存。
 

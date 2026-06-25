@@ -2,7 +2,10 @@ name: Update World Cup Feed
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    # Beijing time 00:00-07:30. GitHub cron runs in UTC.
+    - cron: "*/30 16-23 * * *"
+    # Beijing time 08:00-12:30. Afternoon/evening stays quiet unless manually triggered.
+    - cron: "*/30 0-4 * * *"
   workflow_dispatch:
 
 permissions:

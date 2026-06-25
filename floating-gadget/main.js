@@ -27,7 +27,7 @@ const DEFAULT_WORLD_CUP_FEED_FALLBACK_URLS = [
   "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json",
   "https://fastly.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json"
 ];
-const DATA_UPDATE_INTERVAL_MS = 5 * 60 * 1000;
+const DATA_UPDATE_INTERVAL_MS = 30 * 60 * 1000;
 const DATA_UPDATE_TIMEOUT_MS = 15 * 1000;
 const DATA_UPDATE_MAX_BYTES = 1024 * 1024;
 const SETTINGS_FILE_NAME = "settings.json";
