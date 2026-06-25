@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T18:10:28.466Z",
+  "updatedAt": "2026-06-25T20:31:24.821Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -2394,24 +2394,31 @@
       "time": "北京时间 2026-06-26 04:00",
       "stage": "Group E",
       "venue": "Philadelphia Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "30'",
+      "score": "0-1",
       "home": {
         "name": "Curaçao",
         "code": "CUW",
         "flag": "🇨🇼",
         "flagUrl": "assets/flags/cuw.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Côte d'Ivoire",
         "code": "CIV",
         "flag": "🇨🇮",
         "flagUrl": "assets/flags/civ.svg",
-        "score": null
+        "score": 1
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "CIV",
+          "player": "Nicolas Pepe",
+          "minute": "7'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
@@ -2420,24 +2427,37 @@
       "time": "北京时间 2026-06-26 04:00",
       "stage": "Group E",
       "venue": "New York/New Jersey Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "31'",
+      "score": "1-1",
       "home": {
         "name": "Ecuador",
         "code": "ECU",
         "flag": "🇪🇨",
         "flagUrl": "assets/flags/ecu.svg",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Germany",
         "code": "GER",
         "flag": "🇩🇪",
         "flagUrl": "assets/flags/ger.svg",
-        "score": null
+        "score": 1
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "GER",
+          "player": "Leroy Sane",
+          "minute": "2'",
+          "type": "goal"
+        },
+        {
+          "team": "ECU",
+          "player": "Nilson Angulo",
+          "minute": "9'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
