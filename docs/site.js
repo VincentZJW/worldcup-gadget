@@ -229,7 +229,6 @@ let currentLanguage = "zh";
 let pageData = inlineFallbackData;
 let activeMatchIndex = 0;
 let activeGroupIndex = 0;
-let scheduleFilter = "all";
 let showAllScorers = false;
 let countUpStarted = false;
 let revealObserver = null;
@@ -347,16 +346,6 @@ function markDynamicVisible(root) {
 
 function isGroupStage(stage) {
   return /^Group\s+[A-L]$/i.test(stage || "");
-}
-
-function currentBeijingDateKey() {
-  const formatter = new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Asia/Shanghai",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-  });
-  return formatter.format(new Date());
 }
 
 function stageOrder(stage) {
@@ -567,33 +556,10 @@ function renderLiveMatches() {
 
 function renderStandings() {
   const groups = normalizedGroups();
-  const overview = document.getElementById("groupOverview");
   const tabs = document.getElementById("groupTabs");
   const body = document.getElementById("standingsBody");
-  overview.innerHTML = "";
   tabs.innerHTML = "";
   body.innerHTML = "";
-
-  groups.forEach((group, index) => {
-    const card = document.createElement("button");
-    card.type = "button";
-    card.className = `group-card${index === activeGroupIndex ? " is-active" : ""}`;
-    card.style.setProperty("--delay", `${index * 35}ms`);
-    const leader = group.rows[0];
-    card.innerHTML = `
-      <strong>${group.group}</strong>
-      <span>${teamLabelHtml(leader || {})} · ${leader?.points ?? 0} pts</span>
-      ${group.rows
-        .slice(0, 4)
-        .map((row) => `<em class="${row.rank <= 2 ? "qualifies" : row.rank === 3 ? "third-place" : ""}">${row.rank}. ${teamLabelHtml(row)} · ${row.played}P · ${row.points}</em>`)
-        .join("")}
-    `;
-    card.addEventListener("click", () => {
-      activeGroupIndex = index;
-      renderStandings();
-    });
-    overview.append(card);
-  });
 
   groups.forEach((group, index) => {
     const button = document.createElement("button");
@@ -627,8 +593,6 @@ function renderStandings() {
     `;
     body.append(tr);
   });
-
-  markDynamicVisible(overview);
 }
 
 function renderPreview() {
@@ -690,76 +654,6 @@ function renderPreview() {
     </article>
   `;
   markDynamicVisible(flow);
-}
-
-function renderSchedule() {
-  const list = document.getElementById("scheduleList");
-  const filters = document.getElementById("scheduleFilters");
-  list.innerHTML = "";
-  filters.innerHTML = "";
-  const filterOptions = [
-    ["all", t("allMatches")],
-    ["group", t("groupStage")],
-    ["knockout", t("knockoutStage")],
-    ["today", t("today")],
-    ["finished", t("finished")],
-    ["upcoming", t("upcoming")]
-  ];
-  filterOptions.forEach(([value, label]) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = label;
-    button.setAttribute("aria-selected", String(scheduleFilter === value));
-    button.addEventListener("click", () => {
-      scheduleFilter = value;
-      renderSchedule();
-    });
-    filters.append(button);
-  });
-
-  const todayKey = currentBeijingDateKey();
-  const filteredMatches = (pageData.schedule?.matches || []).filter((match) => {
-    const isGroup = isGroupStage(match.stage);
-    const isFinished = match.status === "FT";
-    const isUpcoming = match.status === "Scheduled" || match.status === "TBD";
-    if (scheduleFilter === "group") return isGroup;
-    if (scheduleFilter === "knockout") return !isGroup;
-    if (scheduleFilter === "today") return match.date === todayKey;
-    if (scheduleFilter === "finished") return isFinished;
-    if (scheduleFilter === "upcoming") return isUpcoming;
-    return true;
-  });
-
-  const grouped = new Map();
-  filteredMatches.forEach((match) => {
-    const key = match.date || match.stage || "TBD";
-    if (!grouped.has(key)) grouped.set(key, []);
-    grouped.get(key).push(match);
-  });
-
-  [...grouped.entries()].forEach(([date, matches], dateIndex) => {
-    const group = document.createElement("div");
-    group.className = "schedule-day";
-    group.style.setProperty("--delay", `${dateIndex * 70}ms`);
-    group.innerHTML = `<h3>${date}</h3>`;
-    matches.forEach((match) => {
-      const item = document.createElement("article");
-      item.className = "schedule-item";
-      item.innerHTML = `
-        <div>
-          <strong>${teamLabelHtml(match.home)} ${match.score || "vs"} ${teamLabelHtml(match.away, { reverse: true })}</strong>
-          <span>${escapeHtml(match.stage || "World Cup")} · ${t("venue")}: ${escapeHtml(match.venue || "TBD")}</span>
-        </div>
-        <div>
-          <span>${match.time || ""}</span>
-          <em>${statusLabel(match.status)}</em>
-        </div>
-      `;
-      group.append(item);
-    });
-    list.append(group);
-  });
-  markDynamicVisible(list);
 }
 
 function initials(name) {
@@ -833,7 +727,6 @@ function renderAll() {
   renderLiveMatches();
   renderStandings();
   renderPreview();
-  renderSchedule();
   renderScorers();
   requestAnimationFrame(setupReveal);
 }

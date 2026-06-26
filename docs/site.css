@@ -458,7 +458,7 @@ main {
 
 .content-section,
 .final-cta {
-  margin: 0 0 96px;
+  margin: 0 0 64px;
 }
 
 .section-heading {
@@ -480,7 +480,6 @@ main {
 }
 
 .match-card-grid,
-.group-overview,
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -490,7 +489,6 @@ main {
 .match-card,
 .product-grid article,
 .standings-panel,
-.schedule-day,
 .podium-card,
 .scorer-list,
 .preview-panel {
@@ -507,7 +505,6 @@ main {
 }
 
 .card-topline,
-.schedule-item,
 .scorer-row {
   display: flex;
   align-items: center;
@@ -558,58 +555,6 @@ main {
 
 .standings-panel {
   padding: 18px;
-}
-
-.group-overview {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  margin-top: 18px;
-}
-
-.group-card {
-  display: grid;
-  gap: 6px;
-  min-height: 132px;
-  padding: 13px;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.045);
-  color: var(--text);
-  cursor: pointer;
-  text-align: left;
-}
-
-.group-card.is-active {
-  border-color: rgba(101, 244, 221, 0.64);
-  box-shadow: 0 0 28px rgba(101, 244, 221, 0.11);
-}
-
-.group-card span {
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.group-card em {
-  display: block;
-  overflow: hidden;
-  border-left: 2px solid transparent;
-  padding-left: 7px;
-  color: var(--muted);
-  font-style: normal;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 12px;
-}
-
-.group-card em.qualifies {
-  border-left-color: var(--cyan);
-  color: var(--text);
-}
-
-.group-card em.third-place {
-  border-left-color: rgba(255, 199, 110, 0.76);
-  color: #ffd99b;
 }
 
 .group-tabs {
@@ -810,16 +755,7 @@ main {
   margin: 0;
 }
 
-.schedule-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: -6px 0 18px;
-}
-
-.schedule-filters button,
-.small-action,
-.scorer-controls select {
+.small-action {
   min-height: 38px;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -828,55 +764,9 @@ main {
   font-weight: 800;
 }
 
-.schedule-filters button,
 .small-action {
   padding: 0 14px;
   cursor: pointer;
-}
-
-.schedule-filters button[aria-selected="true"] {
-  border-color: rgba(101, 244, 221, 0.68);
-  color: var(--cyan);
-}
-
-.schedule-list {
-  display: grid;
-  gap: 14px;
-}
-
-.schedule-day {
-  padding: 18px;
-}
-
-.schedule-day h3 {
-  margin-bottom: 12px;
-}
-
-.schedule-item {
-  padding: 14px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.schedule-item strong,
-.schedule-item span {
-  display: block;
-}
-
-.schedule-item span {
-  color: var(--muted);
-  font-size: 13px;
-}
-
-.schedule-item em {
-  display: inline-flex;
-  margin-top: 6px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 4px 8px;
-  color: var(--cyan);
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 900;
 }
 
 .scorers-layout {
@@ -1109,10 +999,6 @@ main {
     grid-template-columns: 1fr;
   }
 
-  .group-overview {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .preview-grid {
     grid-template-columns: 1fr;
   }
@@ -1169,10 +1055,6 @@ main {
 
   .final-cta {
     padding: 32px 22px;
-  }
-
-  .group-overview {
-    grid-template-columns: 1fr;
   }
 
   .scorer-row {
