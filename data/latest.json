@@ -1,138 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-26 07:52",
+  "updated_at": "北京时间 2026-06-26 10:37",
   "date_range": "2026-06-25 to 2026-06-26",
-  "summary": "科特迪瓦 2-0 击败库拉索，厄瓜多尔 2-1 击败德国，荷兰 2-0 暂时领先突尼斯，日本 0-0 暂平瑞典。",
+  "summary": "荷兰 3-1 击败突尼斯，日本 1-1 战平瑞典，巴拉圭 0-0 暂平澳大利亚，土耳其 2-1 暂时领先美国。",
   "matches": [
-    {
-      "group": "Group C",
-      "status": "FT",
-      "minute": "",
-      "venue": "Atlanta Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-25 06:00",
-      "finished_at_bj": "北京时间 2026-06-25 07:54",
-      "team_a": {
-        "name": "Morocco",
-        "flag": "🇲🇦",
-        "score": 4,
-        "scorers": [
-          {
-            "player": "Achraf Hakimi",
-            "minute": "39'",
-            "type": "goal"
-          },
-          {
-            "player": "Ismael Saibari",
-            "minute": "45'+1'",
-            "type": "goal"
-          },
-          {
-            "player": "Soufiane Rahimi",
-            "minute": "78'",
-            "type": "goal"
-          },
-          {
-            "player": "Gessime Yassine",
-            "minute": "89'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "摩洛哥",
-        "name_en": "Morocco"
-      },
-      "team_b": {
-        "name": "Haiti",
-        "flag": "🇭🇹",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Yassine Bounou",
-            "minute": "10'",
-            "type": "own_goal"
-          },
-          {
-            "player": "Wilson Isidor",
-            "minute": "43'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "海地",
-        "name_en": "Haiti"
-      },
-      "venue_en": "Atlanta Stadium",
-      "venue_zh": "Atlanta Stadium",
-      "highlights_en": [
-        "Morocco beat Haiti 4-2 in Group C.",
-        "Achraf Hakimi 39', Ismael Saibari 45'+1', Soufiane Rahimi 78', Gessime Yassine 89'",
-        "The match was played at Atlanta Stadium."
-      ],
-      "highlights_zh": [
-        "摩洛哥 4-2 击败海地，比赛属于 Group C。",
-        "Achraf Hakimi 39', Ismael Saibari 45'+1', Soufiane Rahimi 78', Gessime Yassine 89'",
-        "比赛场地：Atlanta Stadium。"
-      ],
-      "highlights": [
-        "摩洛哥 4-2 击败海地，比赛属于 Group C。",
-        "Achraf Hakimi 39', Ismael Saibari 45'+1', Soufiane Rahimi 78', Gessime Yassine 89'",
-        "比赛场地：Atlanta Stadium。"
-      ]
-    },
-    {
-      "group": "Group C",
-      "status": "FT",
-      "minute": "",
-      "venue": "Miami Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-25 06:00",
-      "finished_at_bj": "北京时间 2026-06-25 07:52",
-      "team_a": {
-        "name": "Scotland",
-        "flag": "🏴",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "苏格兰",
-        "name_en": "Scotland"
-      },
-      "team_b": {
-        "name": "Brazil",
-        "flag": "🇧🇷",
-        "score": 3,
-        "scorers": [
-          {
-            "player": "Vinicius Junior",
-            "minute": "7'",
-            "type": "goal"
-          },
-          {
-            "player": "Vinicius Junior",
-            "minute": "45'+3'",
-            "type": "goal"
-          },
-          {
-            "player": "Matheus Cunha",
-            "minute": "60'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "巴西",
-        "name_en": "Brazil"
-      },
-      "venue_en": "Miami Stadium",
-      "venue_zh": "Miami Stadium",
-      "highlights_en": [
-        "Brazil beat Scotland 3-0 in Group C.",
-        "Vinicius Junior 7', Vinicius Junior 45'+3', Matheus Cunha 60'",
-        "The match was played at Miami Stadium."
-      ],
-      "highlights_zh": [
-        "巴西 3-0 击败苏格兰，比赛属于 Group C。",
-        "Vinicius Junior 7', Vinicius Junior 45'+3', Matheus Cunha 60'",
-        "比赛场地：Miami Stadium。"
-      ],
-      "highlights": [
-        "巴西 3-0 击败苏格兰，比赛属于 Group C。",
-        "Vinicius Junior 7', Vinicius Junior 45'+3', Matheus Cunha 60'",
-        "比赛场地：Miami Stadium。"
-      ]
-    },
     {
       "group": "Group A",
       "status": "FT",
@@ -349,23 +219,29 @@
     },
     {
       "group": "Group F",
-      "status": "LIVE",
+      "status": "FT",
       "minute": "",
       "venue": "Kansas City Stadium",
       "kickoff_at_bj": "北京时间 2026-06-26 07:00",
-      "finished_at_bj": "北京时间 2026-06-26 07:00",
+      "finished_at_bj": "北京时间 2026-06-26 08:51",
       "team_a": {
         "name": "Tunisia",
         "flag": "🇹🇳",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Hazem Mastouri",
+            "minute": "54'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "突尼斯",
         "name_en": "Tunisia"
       },
       "team_b": {
         "name": "Netherlands",
         "flag": "🇳🇱",
-        "score": 2,
+        "score": 3,
         "scorers": [
           {
             "player": "Ellyes Skhiri",
@@ -376,6 +252,11 @@
             "player": "Brian Brobbey",
             "minute": "7'",
             "type": "goal"
+          },
+          {
+            "player": "Jan Paul Van Hecke",
+            "minute": "62'",
+            "type": "goal"
           }
         ],
         "name_zh": "荷兰",
@@ -384,102 +265,181 @@
       "venue_en": "Kansas City Stadium",
       "venue_zh": "Kansas City Stadium",
       "highlights_en": [
-        "Netherlands lead Tunisia 2-0 in Group F.",
-        "Ellyes Skhiri 3' OG, Brian Brobbey 7'",
+        "Netherlands beat Tunisia 3-1 in Group F.",
+        "Hazem Mastouri 54', Ellyes Skhiri 3' OG, Brian Brobbey 7', Jan Paul Van Hecke 62'",
         "The match was played at Kansas City Stadium."
       ],
       "highlights_zh": [
-        "荷兰 2-0 暂时领先突尼斯，比赛属于 Group F。",
-        "Ellyes Skhiri 3' OG, Brian Brobbey 7'",
+        "荷兰 3-1 击败突尼斯，比赛属于 Group F。",
+        "Hazem Mastouri 54', Ellyes Skhiri 3' OG, Brian Brobbey 7', Jan Paul Van Hecke 62'",
         "比赛场地：Kansas City Stadium。"
       ],
       "highlights": [
-        "荷兰 2-0 暂时领先突尼斯，比赛属于 Group F。",
-        "Ellyes Skhiri 3' OG, Brian Brobbey 7'",
+        "荷兰 3-1 击败突尼斯，比赛属于 Group F。",
+        "Hazem Mastouri 54', Ellyes Skhiri 3' OG, Brian Brobbey 7', Jan Paul Van Hecke 62'",
         "比赛场地：Kansas City Stadium。"
       ]
     },
     {
       "group": "Group F",
-      "status": "LIVE",
+      "status": "FT",
       "minute": "",
       "venue": "Dallas Stadium",
       "kickoff_at_bj": "北京时间 2026-06-26 07:00",
-      "finished_at_bj": "北京时间 2026-06-26 07:00",
+      "finished_at_bj": "北京时间 2026-06-26 08:53",
       "team_a": {
         "name": "Japan",
         "flag": "🇯🇵",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Daizen Maeda",
+            "minute": "56'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "日本",
         "name_en": "Japan"
       },
       "team_b": {
         "name": "Sweden",
         "flag": "🇸🇪",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Anthony Elanga",
+            "minute": "62'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "瑞典",
         "name_en": "Sweden"
       },
       "venue_en": "Dallas Stadium",
       "venue_zh": "Dallas Stadium",
       "highlights_en": [
-        "Japan and Sweden are level 0-0 in Group F.",
-        "Neither side scored.",
+        "Japan drew 1-1 with Sweden in Group F.",
+        "Daizen Maeda 56', Anthony Elanga 62'",
         "The match was played at Dallas Stadium."
       ],
       "highlights_zh": [
-        "日本 0-0 暂平瑞典，比赛属于 Group F。",
-        "双方均未取得进球。",
+        "日本 1-1 战平瑞典，比赛属于 Group F。",
+        "Daizen Maeda 56', Anthony Elanga 62'",
         "比赛场地：Dallas Stadium。"
       ],
       "highlights": [
-        "日本 0-0 暂平瑞典，比赛属于 Group F。",
-        "双方均未取得进球。",
+        "日本 1-1 战平瑞典，比赛属于 Group F。",
+        "Daizen Maeda 56', Anthony Elanga 62'",
         "比赛场地：Dallas Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
-    "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
-    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
-    "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-26 10:00",
+      "group": "Group D",
+      "status": "LIVE",
+      "minute": "37'",
+      "venue": "San Francisco Bay Area Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-26 10:00",
+      "finished_at_bj": "北京时间 2026-06-26 10:00",
       "team_a": {
         "name": "Paraguay",
         "flag": "🇵🇾",
+        "score": 0,
+        "scorers": [],
         "name_zh": "巴拉圭",
         "name_en": "Paraguay"
       },
       "team_b": {
         "name": "Australia",
         "flag": "🇦🇺",
+        "score": 0,
+        "scorers": [],
         "name_zh": "澳大利亚",
         "name_en": "Australia"
       },
-      "group": "Group D"
+      "venue_en": "San Francisco Bay Area Stadium",
+      "venue_zh": "San Francisco Bay Area Stadium",
+      "highlights_en": [
+        "Paraguay and Australia are level 0-0 in Group D.",
+        "Neither side scored.",
+        "The match was played at San Francisco Bay Area Stadium."
+      ],
+      "highlights_zh": [
+        "巴拉圭 0-0 暂平澳大利亚，比赛属于 Group D。",
+        "双方均未取得进球。",
+        "比赛场地：San Francisco Bay Area Stadium。"
+      ],
+      "highlights": [
+        "巴拉圭 0-0 暂平澳大利亚，比赛属于 Group D。",
+        "双方均未取得进球。",
+        "比赛场地：San Francisco Bay Area Stadium。"
+      ]
     },
     {
-      "time_bj": "北京时间 2026-06-26 10:00",
+      "group": "Group D",
+      "status": "LIVE",
+      "minute": "37'",
+      "venue": "Los Angeles Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-26 10:00",
+      "finished_at_bj": "北京时间 2026-06-26 10:00",
       "team_a": {
         "name": "Türkiye",
         "flag": "🇹🇷",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Arda Guler",
+            "minute": "10'",
+            "type": "goal"
+          },
+          {
+            "player": "Orkun Kokcu",
+            "minute": "31'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "土耳其",
         "name_en": "Türkiye"
       },
       "team_b": {
         "name": "USA",
         "flag": "🇺🇸",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Auston Trusty",
+            "minute": "3'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "美国",
         "name_en": "USA"
       },
-      "group": "Group D"
-    },
+      "venue_en": "Los Angeles Stadium",
+      "venue_zh": "Los Angeles Stadium",
+      "highlights_en": [
+        "Türkiye lead USA 2-1 in Group D.",
+        "Arda Guler 10', Orkun Kokcu 31', Auston Trusty 3'",
+        "The match was played at Los Angeles Stadium."
+      ],
+      "highlights_zh": [
+        "土耳其 2-1 暂时领先美国，比赛属于 Group D。",
+        "Arda Guler 10', Orkun Kokcu 31', Auston Trusty 3'",
+        "比赛场地：Los Angeles Stadium。"
+      ],
+      "highlights": [
+        "土耳其 2-1 暂时领先美国，比赛属于 Group D。",
+        "Arda Guler 10', Orkun Kokcu 31', Auston Trusty 3'",
+        "比赛场地：Los Angeles Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
+    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
+    "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。",
+    "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-27 03:00",
       "team_a": {
@@ -575,22 +535,54 @@
         "name_en": "IR Iran"
       },
       "group": "Group G"
+    },
+    {
+      "time_bj": "北京时间 2026-06-28 05:00",
+      "team_a": {
+        "name": "Panama",
+        "flag": "🇵🇦",
+        "name_zh": "巴拿马",
+        "name_en": "Panama"
+      },
+      "team_b": {
+        "name": "England",
+        "flag": "🏴",
+        "name_zh": "英格兰",
+        "name_en": "England"
+      },
+      "group": "Group L"
+    },
+    {
+      "time_bj": "北京时间 2026-06-28 05:00",
+      "team_a": {
+        "name": "Croatia",
+        "flag": "🇭🇷",
+        "name_zh": "克罗地亚",
+        "name_en": "Croatia"
+      },
+      "team_b": {
+        "name": "Ghana",
+        "flag": "🇬🇭",
+        "name_zh": "加纳",
+        "name_en": "Ghana"
+      },
+      "group": "Group L"
     }
   ],
   "news": [],
-  "summary_zh": "科特迪瓦 2-0 击败库拉索，厄瓜多尔 2-1 击败德国，荷兰 2-0 暂时领先突尼斯，日本 0-0 暂平瑞典。",
-  "summary_en": "Côte d'Ivoire beat Curaçao 2-0; Ecuador beat Germany 2-1; Netherlands lead Tunisia 2-0; Japan and Sweden are level 0-0.",
+  "summary_zh": "荷兰 3-1 击败突尼斯，日本 1-1 战平瑞典，巴拉圭 0-0 暂平澳大利亚，土耳其 2-1 暂时领先美国。",
+  "summary_en": "Netherlands beat Tunisia 3-1; Japan drew 1-1 with Sweden; Paraguay and Australia are level 0-0; Türkiye lead USA 2-1.",
   "standings_changes_zh": [
-    "Group C：巴西 以 7 分领跑，摩洛哥 7 分紧随其后。",
     "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
     "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
-    "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。"
+    "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。",
+    "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group C: Brazil lead with 7 points, followed by Morocco on 7.",
     "Group A: Mexico lead with 9 points, followed by South Africa on 4.",
     "Group E: Germany lead with 6 points, followed by Côte d'Ivoire on 6.",
-    "Group F: Netherlands lead with 7 points, followed by Japan on 5."
+    "Group F: Netherlands lead with 7 points, followed by Japan on 5.",
+    "Group D: USA lead with 6 points, followed by Australia on 4."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -598,6 +590,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-25T23:52:07.632Z"
+    "fetched_at": "2026-06-26T02:37:26.460Z"
   }
 }
