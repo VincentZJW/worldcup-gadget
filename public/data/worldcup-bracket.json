@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:52:51.223Z",
+  "updatedAt": "2026-06-26T02:09:03.246Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -47,10 +47,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Japan",
+            "code": "JPN",
+            "flag": "🇯🇵",
+            "flagUrl": "assets/flags/jpn.svg",
             "score": null
           },
           "winner": null,
@@ -92,10 +92,10 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Netherlands",
+            "code": "NED",
+            "flag": "🇳🇱",
+            "flagUrl": "assets/flags/ned.svg",
             "score": null
           },
           "away": {
@@ -255,10 +255,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Bosnia and Herzegovina",
+            "code": "BIH",
+            "flag": "🇧🇦",
+            "flagUrl": "assets/flags/bih.svg",
             "score": null
           },
           "winner": null,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:52:51.223Z",
+  "updatedAt": "2026-06-26T02:09:03.246Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -195,55 +195,55 @@
           "team": "USA",
           "flag": "🇺🇸",
           "flagUrl": "assets/flags/usa.svg",
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "goalsFor": 6,
+          "goalsFor": 7,
           "goalsAgainst": 1,
-          "goalDifference": 5,
-          "points": 6
+          "goalDifference": 6,
+          "points": 9
         },
         {
           "rank": 2,
           "team": "Australia",
           "flag": "🇦🇺",
           "flagUrl": "assets/flags/aus.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "goalsFor": 2,
           "goalsAgainst": 2,
           "goalDifference": 0,
-          "points": 3
+          "points": 4
         },
         {
           "rank": 3,
           "team": "Paraguay",
           "flag": "🇵🇾",
           "flagUrl": "assets/flags/par.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "goalsFor": 2,
           "goalsAgainst": 4,
           "goalDifference": -2,
-          "points": 3
+          "points": 4
         },
         {
           "rank": 4,
           "team": "Türkiye",
           "flag": "🇹🇷",
           "flagUrl": "assets/flags/tur.svg",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "goalsFor": 0,
-          "goalsAgainst": 3,
-          "goalDifference": -3,
+          "goalsAgainst": 4,
+          "goalDifference": -4,
           "points": 0
         }
       ]
@@ -321,8 +321,8 @@
           "won": 2,
           "drawn": 1,
           "lost": 0,
-          "goalsFor": 9,
-          "goalsAgainst": 3,
+          "goalsFor": 10,
+          "goalsAgainst": 4,
           "goalDifference": 6,
           "points": 7
         },
@@ -335,8 +335,8 @@
           "won": 1,
           "drawn": 2,
           "lost": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 2,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
           "goalDifference": 4,
           "points": 5
         },
@@ -349,8 +349,8 @@
           "won": 1,
           "drawn": 1,
           "lost": 1,
-          "goalsFor": 6,
-          "goalsAgainst": 6,
+          "goalsFor": 7,
+          "goalsAgainst": 7,
           "goalDifference": 0,
           "points": 4
         },
@@ -363,8 +363,8 @@
           "won": 0,
           "drawn": 0,
           "lost": 3,
-          "goalsFor": 1,
-          "goalsAgainst": 11,
+          "goalsFor": 2,
+          "goalsAgainst": 12,
           "goalDifference": -10,
           "points": 0
         }
