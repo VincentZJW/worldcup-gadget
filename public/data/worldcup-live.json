@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T02:09:03.246Z",
+  "updatedAt": "2026-06-26T06:33:24.520Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,8 +7,8 @@
     {
       "id": "400021461",
       "stage": "Group D",
-      "status": "LIVE",
-      "minute": "9'",
+      "status": "FT",
+      "minute": "",
       "venue": "San Francisco Bay Area Stadium",
       "home": {
         "name": "Paraguay",
@@ -29,28 +29,52 @@
     {
       "id": "400021459",
       "stage": "Group D",
-      "status": "LIVE",
-      "minute": "9'",
+      "status": "FT",
+      "minute": "",
       "venue": "Los Angeles Stadium",
       "home": {
         "name": "Türkiye",
         "code": "TUR",
         "flag": "🇹🇷",
         "flagUrl": "assets/flags/tur.svg",
-        "score": 0
+        "score": 3
       },
       "away": {
         "name": "USA",
         "code": "USA",
         "flag": "🇺🇸",
         "flagUrl": "assets/flags/usa.svg",
-        "score": 1
+        "score": 2
       },
       "goals": [
         {
           "team": "USA",
           "player": "Auston Trusty",
           "minute": "3'",
+          "type": "goal"
+        },
+        {
+          "team": "TUR",
+          "player": "Arda Guler",
+          "minute": "10'",
+          "type": "goal"
+        },
+        {
+          "team": "TUR",
+          "player": "Baris Alper Yilmaz",
+          "minute": "31'",
+          "type": "goal"
+        },
+        {
+          "team": "USA",
+          "player": "Sebastian Berhalter",
+          "minute": "49'",
+          "type": "goal"
+        },
+        {
+          "team": "TUR",
+          "player": "Kaan Ayhan",
+          "minute": "90'+8'",
           "type": "goal"
         }
       ]
