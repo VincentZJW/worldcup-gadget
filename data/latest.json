@@ -1,112 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-26 14:46",
-  "date_range": "2026-06-25 to 2026-06-26",
-  "summary": "荷兰 3-1 击败突尼斯，日本 1-1 战平瑞典，巴拉圭 0-0 战平澳大利亚，土耳其 3-2 击败美国。",
+  "updated_at": "北京时间 2026-06-27 03:47",
+  "date_range": "2026-06-26 to 2026-06-27",
+  "summary": "巴拉圭 0-0 战平澳大利亚，土耳其 3-2 击败美国，塞内加尔 1-0 暂时领先伊拉克，法国 3-1 暂时领先挪威。",
   "matches": [
-    {
-      "group": "Group A",
-      "status": "FT",
-      "minute": "",
-      "venue": "Monterrey Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-25 09:00",
-      "finished_at_bj": "北京时间 2026-06-25 10:52",
-      "team_a": {
-        "name": "South Africa",
-        "flag": "🇿🇦",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Thapelo Maseko",
-            "minute": "63'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "南非",
-        "name_en": "South Africa"
-      },
-      "team_b": {
-        "name": "Korea Republic",
-        "flag": "🇰🇷",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "Korea Republic",
-        "name_en": "Korea Republic"
-      },
-      "venue_en": "Monterrey Stadium",
-      "venue_zh": "Monterrey Stadium",
-      "highlights_en": [
-        "South Africa beat Korea Republic 1-0 in Group A.",
-        "Thapelo Maseko 63'",
-        "The match was played at Monterrey Stadium."
-      ],
-      "highlights_zh": [
-        "南非 1-0 击败Korea Republic，比赛属于 Group A。",
-        "Thapelo Maseko 63'",
-        "比赛场地：Monterrey Stadium。"
-      ],
-      "highlights": [
-        "南非 1-0 击败Korea Republic，比赛属于 Group A。",
-        "Thapelo Maseko 63'",
-        "比赛场地：Monterrey Stadium。"
-      ]
-    },
-    {
-      "group": "Group A",
-      "status": "FT",
-      "minute": "",
-      "venue": "Mexico City Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-25 09:00",
-      "finished_at_bj": "北京时间 2026-06-25 10:52",
-      "team_a": {
-        "name": "Czechia",
-        "flag": "🇨🇿",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "Czechia",
-        "name_en": "Czechia"
-      },
-      "team_b": {
-        "name": "Mexico",
-        "flag": "🇲🇽",
-        "score": 3,
-        "scorers": [
-          {
-            "player": "Mateo Chavez",
-            "minute": "55'",
-            "type": "goal"
-          },
-          {
-            "player": "Julian Quinones",
-            "minute": "61'",
-            "type": "goal"
-          },
-          {
-            "player": "Alvaro Fidalgo",
-            "minute": "90'+4'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "墨西哥",
-        "name_en": "Mexico"
-      },
-      "venue_en": "Mexico City Stadium",
-      "venue_zh": "Mexico City Stadium",
-      "highlights_en": [
-        "Mexico beat Czechia 3-0 in Group A.",
-        "Mateo Chavez 55', Julian Quinones 61', Alvaro Fidalgo 90'+4'",
-        "The match was played at Mexico City Stadium."
-      ],
-      "highlights_zh": [
-        "墨西哥 3-0 击败Czechia，比赛属于 Group A。",
-        "Mateo Chavez 55', Julian Quinones 61', Alvaro Fidalgo 90'+4'",
-        "比赛场地：Mexico City Stadium。"
-      ],
-      "highlights": [
-        "墨西哥 3-0 击败Czechia，比赛属于 Group A。",
-        "Mateo Chavez 55', Julian Quinones 61', Alvaro Fidalgo 90'+4'",
-        "比赛场地：Mexico City Stadium。"
-      ]
-    },
     {
       "group": "Group E",
       "status": "FT",
@@ -441,47 +337,125 @@
         "Arda Guler 10', Baris Alper Yilmaz 31', Kaan Ayhan 90'+8', Auston Trusty 3'",
         "比赛场地：Los Angeles Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
-    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
-    "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。",
-    "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-27 03:00",
+      "group": "Group I",
+      "status": "LIVE",
+      "minute": "45'",
+      "venue": "Toronto Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-27 03:00",
+      "finished_at_bj": "北京时间 2026-06-27 03:00",
       "team_a": {
         "name": "Senegal",
         "flag": "🇸🇳",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Habib Diarra",
+            "minute": "4'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "塞内加尔",
         "name_en": "Senegal"
       },
       "team_b": {
         "name": "Iraq",
         "flag": "🇮🇶",
+        "score": 0,
+        "scorers": [],
         "name_zh": "伊拉克",
         "name_en": "Iraq"
       },
-      "group": "Group I"
+      "venue_en": "Toronto Stadium",
+      "venue_zh": "Toronto Stadium",
+      "highlights_en": [
+        "Senegal lead Iraq 1-0 in Group I.",
+        "Habib Diarra 4'",
+        "The match was played at Toronto Stadium."
+      ],
+      "highlights_zh": [
+        "塞内加尔 1-0 暂时领先伊拉克，比赛属于 Group I。",
+        "Habib Diarra 4'",
+        "比赛场地：Toronto Stadium。"
+      ],
+      "highlights": [
+        "塞内加尔 1-0 暂时领先伊拉克，比赛属于 Group I。",
+        "Habib Diarra 4'",
+        "比赛场地：Toronto Stadium。"
+      ]
     },
     {
-      "time_bj": "北京时间 2026-06-27 03:00",
+      "group": "Group I",
+      "status": "LIVE",
+      "minute": "45'+1'",
+      "venue": "Boston Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-27 03:00",
+      "finished_at_bj": "北京时间 2026-06-27 03:00",
       "team_a": {
         "name": "Norway",
         "flag": "🇳🇴",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Thelo Aasgaard",
+            "minute": "21'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "挪威",
         "name_en": "Norway"
       },
       "team_b": {
         "name": "France",
         "flag": "🇫🇷",
+        "score": 3,
+        "scorers": [
+          {
+            "player": "Ousmane Dembele",
+            "minute": "7'",
+            "type": "goal"
+          },
+          {
+            "player": "Ousmane Dembele",
+            "minute": "20'",
+            "type": "goal"
+          },
+          {
+            "player": "Ousmane Dembele",
+            "minute": "32'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "法国",
         "name_en": "France"
       },
-      "group": "Group I"
-    },
+      "venue_en": "Boston Stadium",
+      "venue_zh": "Boston Stadium",
+      "highlights_en": [
+        "France lead Norway 3-1 in Group I.",
+        "Thelo Aasgaard 21', Ousmane Dembele 7', Ousmane Dembele 20', Ousmane Dembele 32'",
+        "The match was played at Boston Stadium."
+      ],
+      "highlights_zh": [
+        "法国 3-1 暂时领先挪威，比赛属于 Group I。",
+        "Thelo Aasgaard 21', Ousmane Dembele 7', Ousmane Dembele 20', Ousmane Dembele 32'",
+        "比赛场地：Boston Stadium。"
+      ],
+      "highlights": [
+        "法国 3-1 暂时领先挪威，比赛属于 Group I。",
+        "Thelo Aasgaard 21', Ousmane Dembele 7', Ousmane Dembele 20', Ousmane Dembele 32'",
+        "比赛场地：Boston Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
+    "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。",
+    "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。",
+    "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-27 08:00",
       "team_a": {
@@ -577,22 +551,54 @@
         "name_en": "Ghana"
       },
       "group": "Group L"
+    },
+    {
+      "time_bj": "北京时间 2026-06-28 07:30",
+      "team_a": {
+        "name": "Congo DR",
+        "flag": "🇨🇩",
+        "name_zh": "刚果民主共和国",
+        "name_en": "Congo DR"
+      },
+      "team_b": {
+        "name": "Uzbekistan",
+        "flag": "🇺🇿",
+        "name_zh": "乌兹别克斯坦",
+        "name_en": "Uzbekistan"
+      },
+      "group": "Group K"
+    },
+    {
+      "time_bj": "北京时间 2026-06-28 07:30",
+      "team_a": {
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "name_zh": "哥伦比亚",
+        "name_en": "Colombia"
+      },
+      "team_b": {
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "name_zh": "葡萄牙",
+        "name_en": "Portugal"
+      },
+      "group": "Group K"
     }
   ],
   "news": [],
-  "summary_zh": "荷兰 3-1 击败突尼斯，日本 1-1 战平瑞典，巴拉圭 0-0 战平澳大利亚，土耳其 3-2 击败美国。",
-  "summary_en": "Netherlands beat Tunisia 3-1; Japan drew 1-1 with Sweden; Paraguay drew 0-0 with Australia; Türkiye beat USA 3-2.",
+  "summary_zh": "巴拉圭 0-0 战平澳大利亚，土耳其 3-2 击败美国，塞内加尔 1-0 暂时领先伊拉克，法国 3-1 暂时领先挪威。",
+  "summary_en": "Paraguay drew 0-0 with Australia; Türkiye beat USA 3-2; Senegal lead Iraq 1-0; France lead Norway 3-1.",
   "standings_changes_zh": [
-    "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
     "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
     "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。",
-    "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。"
+    "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。",
+    "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group A: Mexico lead with 9 points, followed by South Africa on 4.",
     "Group E: Germany lead with 6 points, followed by Côte d'Ivoire on 6.",
     "Group F: Netherlands lead with 7 points, followed by Japan on 5.",
-    "Group D: USA lead with 6 points, followed by Australia on 4."
+    "Group D: USA lead with 6 points, followed by Australia on 4.",
+    "Group I: France lead with 9 points, followed by Norway on 6."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -600,6 +606,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-26T06:46:38.118Z"
+    "fetched_at": "2026-06-26T19:47:23.157Z"
   }
 }
