@@ -1,9 +1,85 @@
 {
-  "updatedAt": "2026-06-26T17:48:09.337Z",
+  "updatedAt": "2026-06-26T19:48:03.091Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021493",
+      "stage": "Group I",
+      "status": "LIVE",
+      "minute": "45'",
+      "venue": "Toronto Stadium",
+      "home": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg",
+        "score": 1
+      },
+      "away": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "flag": "🇮🇶",
+        "flagUrl": "assets/flags/irq.svg",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "SEN",
+          "player": "Habib Diarra",
+          "minute": "4'",
+          "type": "goal"
+        }
+      ]
+    },
+    {
+      "id": "400021489",
+      "stage": "Group I",
+      "status": "LIVE",
+      "minute": "45'+1'",
+      "venue": "Boston Stadium",
+      "home": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg",
+        "score": 1
+      },
+      "away": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg",
+        "score": 3
+      },
+      "goals": [
+        {
+          "team": "FRA",
+          "player": "Ousmane Dembele",
+          "minute": "7'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Ousmane Dembele",
+          "minute": "20'",
+          "type": "goal"
+        },
+        {
+          "team": "NOR",
+          "player": "Thelo Aasgaard",
+          "minute": "21'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Ousmane Dembele",
+          "minute": "32'",
+          "type": "goal"
+        }
+      ]
+    },
     {
       "id": "400021461",
       "stage": "Group D",
@@ -303,106 +379,6 @@
           "team": "MEX",
           "player": "Alvaro Fidalgo",
           "minute": "90'+4'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021452",
-      "stage": "Group C",
-      "status": "FT",
-      "minute": "",
-      "venue": "Atlanta Stadium",
-      "home": {
-        "name": "Morocco",
-        "code": "MAR",
-        "flag": "🇲🇦",
-        "flagUrl": "assets/flags/mar.svg",
-        "score": 4
-      },
-      "away": {
-        "name": "Haiti",
-        "code": "HAI",
-        "flag": "🇭🇹",
-        "flagUrl": "assets/flags/hai.svg",
-        "score": 2
-      },
-      "goals": [
-        {
-          "team": "HAI",
-          "player": "Yassine Bounou",
-          "minute": "10'",
-          "type": "own_goal"
-        },
-        {
-          "team": "MAR",
-          "player": "Achraf Hakimi",
-          "minute": "39'",
-          "type": "goal"
-        },
-        {
-          "team": "HAI",
-          "player": "Wilson Isidor",
-          "minute": "43'",
-          "type": "goal"
-        },
-        {
-          "team": "MAR",
-          "player": "Ismael Saibari",
-          "minute": "45'+1'",
-          "type": "goal"
-        },
-        {
-          "team": "MAR",
-          "player": "Soufiane Rahimi",
-          "minute": "78'",
-          "type": "goal"
-        },
-        {
-          "team": "MAR",
-          "player": "Gessime Yassine",
-          "minute": "89'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021455",
-      "stage": "Group C",
-      "status": "FT",
-      "minute": "",
-      "venue": "Miami Stadium",
-      "home": {
-        "name": "Scotland",
-        "code": "SCO",
-        "flag": "🏴",
-        "flagUrl": "assets/flags/sco.svg",
-        "score": 0
-      },
-      "away": {
-        "name": "Brazil",
-        "code": "BRA",
-        "flag": "🇧🇷",
-        "flagUrl": "assets/flags/bra.svg",
-        "score": 3
-      },
-      "goals": [
-        {
-          "team": "BRA",
-          "player": "Vinicius Junior",
-          "minute": "7'",
-          "type": "goal"
-        },
-        {
-          "team": "BRA",
-          "player": "Vinicius Junior",
-          "minute": "45'+3'",
-          "type": "goal"
-        },
-        {
-          "team": "BRA",
-          "player": "Matheus Cunha",
-          "minute": "60'",
           "type": "goal"
         }
       ]

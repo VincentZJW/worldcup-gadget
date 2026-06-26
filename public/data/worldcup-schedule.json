@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T17:48:09.337Z",
+  "updatedAt": "2026-06-26T19:48:03.091Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -2651,24 +2651,31 @@
       "time": "北京时间 2026-06-27 03:00",
       "stage": "Group I",
       "venue": "Toronto Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "45'",
+      "score": "1-0",
       "home": {
         "name": "Senegal",
         "code": "SEN",
         "flag": "🇸🇳",
         "flagUrl": "assets/flags/sen.svg",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Iraq",
         "code": "IRQ",
         "flag": "🇮🇶",
         "flagUrl": "assets/flags/irq.svg",
-        "score": null
+        "score": 0
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "SEN",
+          "player": "Habib Diarra",
+          "minute": "4'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
@@ -2677,24 +2684,49 @@
       "time": "北京时间 2026-06-27 03:00",
       "stage": "Group I",
       "venue": "Boston Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "45'+1'",
+      "score": "1-3",
       "home": {
         "name": "Norway",
         "code": "NOR",
         "flag": "🇳🇴",
         "flagUrl": "assets/flags/nor.svg",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": null
+        "score": 3
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "FRA",
+          "player": "Ousmane Dembele",
+          "minute": "7'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Ousmane Dembele",
+          "minute": "20'",
+          "type": "goal"
+        },
+        {
+          "team": "NOR",
+          "player": "Thelo Aasgaard",
+          "minute": "21'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Ousmane Dembele",
+          "minute": "32'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
