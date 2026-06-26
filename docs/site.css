@@ -493,7 +493,7 @@ main {
 .schedule-day,
 .podium-card,
 .scorer-list,
-.bracket-round {
+.preview-panel {
   border: 1px solid var(--line);
   border-radius: 14px;
   background: var(--panel);
@@ -508,8 +508,7 @@ main {
 
 .card-topline,
 .schedule-item,
-.scorer-row,
-.bracket-card div {
+.scorer-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -704,6 +703,10 @@ main {
   line-height: 1;
 }
 
+.flag-emoji[hidden] {
+  display: none;
+}
+
 .flag-icon {
   display: block;
   width: 24px;
@@ -713,15 +716,14 @@ main {
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14);
 }
 
-.bracket-flow {
+.preview-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
-  padding: 4px 0 8px;
+  align-items: start;
 }
 
-.bracket-round {
-  position: relative;
+.preview-panel {
   padding: 18px;
   border: 1px solid var(--line);
   border-radius: 16px;
@@ -730,61 +732,82 @@ main {
     rgba(255, 255, 255, 0.045);
 }
 
-.bracket-round::after {
-  display: none;
-}
-
-.bracket-round h3 {
+.preview-panel h3 {
   margin-bottom: 14px;
 }
 
-.bracket-card {
+.preview-list {
+  display: grid;
+  gap: 10px;
+}
+
+.preview-match,
+.preview-result {
   display: grid;
   gap: 8px;
-  margin-bottom: 10px;
   padding: 13px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   background: rgba(0, 0, 0, 0.22);
 }
 
-.bracket-card small {
+.preview-match small,
+.preview-result small,
+.preview-match em,
+.preview-result em,
+.preview-focus p,
+.preview-focus li,
+.preview-empty {
   color: var(--muted);
   font-size: 12px;
 }
 
-.bracket-card div {
+.preview-match strong,
+.preview-result strong,
+.focus-scoreline {
   display: flex;
-  justify-content: space-between;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 10px;
   align-items: center;
 }
 
-.bracket-card .team-label {
-  max-width: calc(100% - 42px);
-  font-weight: 850;
+.preview-match .versus,
+.preview-result b,
+.focus-scoreline strong {
+  color: var(--cyan);
+  font-weight: 950;
 }
 
-.bracket-card .winner {
-  color: var(--cyan);
+.preview-match em,
+.preview-result em {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-style: normal;
+}
+
+.preview-focus {
+  min-height: 100%;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(255, 95, 184, 0.16), transparent 36%),
+    linear-gradient(145deg, rgba(101, 244, 221, 0.09), rgba(255, 255, 255, 0.045));
+}
+
+.focus-scoreline {
+  margin: 8px 0 14px;
+  font-size: clamp(20px, 2vw, 28px);
   font-weight: 900;
 }
 
-.bracket-card b {
-  justify-self: center;
-  border: 1px solid rgba(101, 244, 221, 0.26);
-  border-radius: 999px;
-  padding: 2px 9px;
-  color: var(--cyan);
-  font-size: 12px;
+.preview-focus ul {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+  padding-left: 18px;
 }
 
-.empty-state {
-  padding: 28px;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  color: var(--muted);
-  background: rgba(255, 255, 255, 0.045);
+.preview-empty {
+  margin: 0;
 }
 
 .schedule-filters {
@@ -1090,7 +1113,7 @@ main {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .bracket-flow {
+  .preview-grid {
     grid-template-columns: 1fr;
   }
 }

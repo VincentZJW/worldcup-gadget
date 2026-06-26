@@ -10,8 +10,8 @@ const translations = {
     liveBody: "正在进行的比赛会显示 LIVE 标记，最近结束的比赛会保留比分和进球信息。",
     standingsTitle: "小组总积分",
     standingsBody: "开赛以来累计排名、胜平负、净胜球和积分，晋级区高亮显示。",
-    bracketTitle: "关键对阵图",
-    bracketBody: "保留最新赛果、接下来和淘汰赛路径；完整 104 场比赛放在下方赛程中查看。",
+    bracketTitle: "赛程预告与看点",
+    bracketBody: "聚焦接下来值得看的比赛、出线形势和最近赛果；完整赛程仍在下方查看。",
     scheduleTitle: "完整赛程 / Tournament Map",
     scheduleBody: "查看小组赛和淘汰赛全部比赛，可按阶段与状态快速筛选。",
     scorersTitle: "进球榜",
@@ -50,10 +50,14 @@ const translations = {
     today: "今日",
     finished: "已结束",
     upcoming: "未开始",
-    recentResults: "最新赛果",
-    nextUp: "接下来",
-    knockoutPath: "淘汰赛路径",
-    emptyMatchMap: "暂无可展示对阵",
+    previewNextTitle: "接下来比赛",
+    previewFocusTitle: "焦点比赛",
+    previewRecentTitle: "最近赛果",
+    previewWatchTitle: "看点解析",
+    previewEmptyNext: "暂无已确定的后续比赛",
+    previewEmptyRecent: "暂无最近赛果",
+    previewNoFocus: "暂无明确焦点比赛",
+    previewGroupRank: "小组排名",
     sortGoals: "进球数",
     expandAll: "展开全部",
     collapse: "收起"
@@ -69,8 +73,8 @@ const translations = {
     liveBody: "Live matches get a LIVE badge, while recent full-time results keep scores and goal events visible.",
     standingsTitle: "Group Tables",
     standingsBody: "Cumulative group ranking, form, goal difference, and points since the tournament opened.",
-    bracketTitle: "Key Match Map",
-    bracketBody: "Recent results, next fixtures, and the knockout path stay compact here. The full 104-match list remains below.",
+    bracketTitle: "Fixture Preview",
+    bracketBody: "Upcoming matches, qualification stakes, and recent results stay focused here. The full schedule remains below.",
     scheduleTitle: "Full Schedule / Tournament Map",
     scheduleBody: "Browse every group and knockout fixture with stage and status filters.",
     scorersTitle: "Goal Leaders",
@@ -109,10 +113,14 @@ const translations = {
     today: "Today",
     finished: "Finished",
     upcoming: "Upcoming",
-    recentResults: "Recent Results",
-    nextUp: "Next Up",
-    knockoutPath: "Knockout Path",
-    emptyMatchMap: "No matchups to show yet",
+    previewNextTitle: "Next Fixtures",
+    previewFocusTitle: "Featured Match",
+    previewRecentTitle: "Recent Results",
+    previewWatchTitle: "What to Watch",
+    previewEmptyNext: "No confirmed upcoming fixtures yet",
+    previewEmptyRecent: "No recent results yet",
+    previewNoFocus: "No clear featured match yet",
+    previewGroupRank: "Group rank",
     sortGoals: "Goals",
     expandAll: "Expand All",
     collapse: "Collapse"
@@ -359,6 +367,88 @@ function stageOrder(stage) {
   return 200;
 }
 
+function normalizeLookupName(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/gi, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function standingsLookup() {
+  const byName = new Map();
+  (pageData.standings?.groups || []).forEach((group) => {
+    (group.rows || []).forEach((row) => {
+      byName.set(normalizeLookupName(row.team), { group: group.group, ...row });
+    });
+  });
+  return byName;
+}
+
+function standingForTeam(team, lookup = standingsLookup()) {
+  return lookup.get(normalizeLookupName(team?.name)) || null;
+}
+
+function namedTeamMatch(match) {
+  return !/^TBD$/i.test(match?.home?.name || "") && !/^TBD$/i.test(match?.away?.name || "");
+}
+
+function matchTimeLabel(match) {
+  return escapeHtml(match?.time || match?.date || "");
+}
+
+function matchImportance(match, lookup) {
+  const home = standingForTeam(match.home, lookup);
+  const away = standingForTeam(match.away, lookup);
+  const knownTeams = new Set(["Argentina", "Brazil", "France", "Germany", "Spain", "England", "Portugal", "Netherlands", "Uruguay", "Mexico", "USA"]);
+  let score = match.status === "LIVE" ? 100 : 0;
+  if (isGroupStage(match.stage)) score += 20;
+  if (knownTeams.has(match.home?.name)) score += 10;
+  if (knownTeams.has(match.away?.name)) score += 10;
+  if (home && away) {
+    score += Math.max(0, 8 - Math.abs(home.points - away.points));
+    if (home.rank <= 3) score += 8;
+    if (away.rank <= 3) score += 8;
+    if (home.group === away.group) score += 6;
+  }
+  return score;
+}
+
+function previewBullets(match, lookup) {
+  if (!match) return [t("previewNoFocus")];
+  const home = standingForTeam(match.home, lookup);
+  const away = standingForTeam(match.away, lookup);
+  const bullets = [];
+
+  if (home && away) {
+    bullets.push(currentLanguage === "zh"
+      ? `${match.stage}：${match.home.name} 第 ${home.rank} 名/${home.points} 分，${match.away.name} 第 ${away.rank} 名/${away.points} 分。`
+      : `${match.stage}: ${match.home.name} are ${home.rank} with ${home.points} pts; ${match.away.name} are ${away.rank} with ${away.points} pts.`);
+    if (home.rank <= 3 || away.rank <= 3) {
+      bullets.push(currentLanguage === "zh"
+        ? "这场会直接影响小组前列排序，适合作为下一轮重点关注。"
+        : "This directly affects the top of the group and is worth prioritizing.");
+    }
+    if (Math.abs(home.points - away.points) <= 2) {
+      bullets.push(currentLanguage === "zh"
+        ? "两队积分接近，净胜球和直接对话结果都可能改变排名。"
+        : "The points gap is narrow, so goal difference and the head-to-head result can swing the table.");
+    }
+  } else {
+    bullets.push(currentLanguage === "zh"
+      ? `${match.stage || "World Cup"} 的后续赛程已确定，开球时间为 ${match.time || match.date || "TBD"}。`
+      : `${match.stage || "World Cup"} is confirmed with kickoff at ${match.time || match.date || "TBD"}.`);
+  }
+
+  if (bullets.length < 3) {
+    bullets.push(currentLanguage === "zh"
+      ? `比赛地点：${match.venue || "TBD"}。`
+      : `Venue: ${match.venue || "TBD"}.`);
+  }
+  return bullets.slice(0, 3);
+}
+
 async function fetchJson(fileName) {
   const response = await fetch(dataUrl(fileName), { cache: "no-store" });
   if (!response.ok) throw new Error(`${fileName} returned ${response.status}`);
@@ -541,56 +631,64 @@ function renderStandings() {
   markDynamicVisible(overview);
 }
 
-function renderBracket() {
-  const flow = document.getElementById("bracketFlow");
+function renderPreview() {
+  const flow = document.getElementById("previewFlow");
+  if (!flow) return;
   flow.innerHTML = "";
   const matches = pageData.schedule?.matches || [];
   const byTimeAsc = (left, right) => String(left.time || left.date || "").localeCompare(String(right.time || right.date || ""));
   const byTimeDesc = (left, right) => String(right.time || right.date || "").localeCompare(String(left.time || left.date || ""));
-  const hasNamedTeams = (match) => !/^TBD$/i.test(match.home?.name || "") || !/^TBD$/i.test(match.away?.name || "");
-  const finished = matches.filter((match) => match.status === "FT").sort(byTimeDesc).slice(0, 6);
+  const lookup = standingsLookup();
+  const finished = matches.filter((match) => match.status === "FT" && namedTeamMatch(match)).sort(byTimeDesc).slice(0, 4);
   const next = matches
     .filter((match) => match.status === "LIVE" || match.status === "Scheduled")
-    .filter(hasNamedTeams)
+    .filter(namedTeamMatch)
     .sort(byTimeAsc)
-    .slice(0, 6);
-  const knockout = matches
-    .filter((match) => !isGroupStage(match.stage))
-    .sort((left, right) => stageOrder(left.stage) - stageOrder(right.stage) || byTimeAsc(left, right))
-    .slice(0, 8);
+    .slice(0, 5);
+  const focus = [...next].sort((left, right) => matchImportance(right, lookup) - matchImportance(left, lookup))[0] || next[0] || null;
 
-  const columns = [
-    [t("recentResults"), finished],
-    [t("nextUp"), next],
-    [t("knockoutPath"), knockout]
-  ].filter(([, stageMatches]) => stageMatches.length);
+  const nextItems = next.length ? next.map((match) => `
+    <article class="preview-match">
+      <small>${escapeHtml(match.stage || "World Cup")} · ${matchTimeLabel(match)}</small>
+      <strong>${teamLabelHtml(match.home)} <span class="versus">vs</span> ${teamLabelHtml(match.away, { reverse: true })}</strong>
+      <em>${escapeHtml(match.venue || "TBD")}</em>
+    </article>
+  `).join("") : `<p class="preview-empty">${t("previewEmptyNext")}</p>`;
 
-  if (!columns.length) {
-    flow.innerHTML = `<article class="empty-state">${t("emptyMatchMap")}</article>`;
-    markDynamicVisible(flow);
-    return;
-  }
+  const recentItems = finished.length ? finished.map((match) => `
+    <article class="preview-result">
+      <small>${escapeHtml(match.stage || "World Cup")} · ${escapeHtml(match.date || "")}</small>
+      <strong>${teamLabelHtml(match.home)} <b>${match.score || scoreText(match)}</b> ${teamLabelHtml(match.away, { reverse: true })}</strong>
+      <em>${escapeHtml(goalsText(match))}</em>
+    </article>
+  `).join("") : `<p class="preview-empty">${t("previewEmptyRecent")}</p>`;
 
-  columns.forEach(([stage, stageMatches], roundIndex) => {
-    const column = document.createElement("div");
-    column.className = "bracket-round";
-    column.style.setProperty("--delay", `${roundIndex * 100}ms`);
-    column.innerHTML = `<h3>${escapeHtml(stage)}</h3>`;
-    stageMatches.forEach((match) => {
-      const item = document.createElement("article");
-      item.className = "bracket-card";
-      const homeWins = match.winner === match.home?.code || (match.status === "FT" && Number(match.home?.score) > Number(match.away?.score));
-      const awayWins = match.winner === match.away?.code || (match.status === "FT" && Number(match.away?.score) > Number(match.home?.score));
-      item.innerHTML = `
-        <small>${escapeHtml(match.stage || "World Cup")} · ${escapeHtml(match.date || "")} · ${statusLabel(match.status)}</small>
-        <div class="${homeWins ? "winner" : ""}">${teamLabelHtml(match.home)}<strong>${match.home?.score ?? ""}</strong></div>
-        <b>${match.score || "vs"}</b>
-        <div class="${awayWins ? "winner" : ""}">${teamLabelHtml(match.away)}<strong>${match.away?.score ?? ""}</strong></div>
-      `;
-      column.append(item);
-    });
-    flow.append(column);
-  });
+  const focusMarkup = focus ? `
+    <div class="focus-scoreline">
+      ${teamLabelHtml(focus.home)}
+      <strong>vs</strong>
+      ${teamLabelHtml(focus.away, { reverse: true })}
+    </div>
+    <p>${escapeHtml(focus.stage || "World Cup")} · ${matchTimeLabel(focus)}</p>
+    <ul>
+      ${previewBullets(focus, lookup).map((point) => `<li>${escapeHtml(point)}</li>`).join("")}
+    </ul>
+  ` : `<p class="preview-empty">${t("previewNoFocus")}</p>`;
+
+  flow.innerHTML = `
+    <article class="preview-panel">
+      <h3>${t("previewNextTitle")}</h3>
+      <div class="preview-list">${nextItems}</div>
+    </article>
+    <article class="preview-panel preview-focus">
+      <h3>${t("previewFocusTitle")}</h3>
+      ${focusMarkup}
+    </article>
+    <article class="preview-panel">
+      <h3>${t("previewRecentTitle")}</h3>
+      <div class="preview-list">${recentItems}</div>
+    </article>
+  `;
   markDynamicVisible(flow);
 }
 
@@ -734,7 +832,7 @@ function renderAll() {
   renderPitch();
   renderLiveMatches();
   renderStandings();
-  renderBracket();
+  renderPreview();
   renderSchedule();
   renderScorers();
   requestAnimationFrame(setupReveal);
