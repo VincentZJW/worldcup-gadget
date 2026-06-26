@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-06-26 10:37",
+  "updated_at": "北京时间 2026-06-26 14:46",
   "date_range": "2026-06-25 to 2026-06-26",
-  "summary": "荷兰 3-1 击败突尼斯，日本 1-1 战平瑞典，巴拉圭 0-0 暂平澳大利亚，土耳其 2-1 暂时领先美国。",
+  "summary": "荷兰 3-1 击败突尼斯，日本 1-1 战平瑞典，巴拉圭 0-0 战平澳大利亚，土耳其 3-2 击败美国。",
   "matches": [
     {
       "group": "Group A",
@@ -335,11 +335,11 @@
     },
     {
       "group": "Group D",
-      "status": "LIVE",
-      "minute": "37'",
+      "status": "FT",
+      "minute": "",
       "venue": "San Francisco Bay Area Stadium",
       "kickoff_at_bj": "北京时间 2026-06-26 10:00",
-      "finished_at_bj": "北京时间 2026-06-26 10:00",
+      "finished_at_bj": "北京时间 2026-06-26 11:51",
       "team_a": {
         "name": "Paraguay",
         "flag": "🇵🇾",
@@ -359,32 +359,32 @@
       "venue_en": "San Francisco Bay Area Stadium",
       "venue_zh": "San Francisco Bay Area Stadium",
       "highlights_en": [
-        "Paraguay and Australia are level 0-0 in Group D.",
+        "Paraguay drew 0-0 with Australia in Group D.",
         "Neither side scored.",
         "The match was played at San Francisco Bay Area Stadium."
       ],
       "highlights_zh": [
-        "巴拉圭 0-0 暂平澳大利亚，比赛属于 Group D。",
+        "巴拉圭 0-0 战平澳大利亚，比赛属于 Group D。",
         "双方均未取得进球。",
         "比赛场地：San Francisco Bay Area Stadium。"
       ],
       "highlights": [
-        "巴拉圭 0-0 暂平澳大利亚，比赛属于 Group D。",
+        "巴拉圭 0-0 战平澳大利亚，比赛属于 Group D。",
         "双方均未取得进球。",
         "比赛场地：San Francisco Bay Area Stadium。"
       ]
     },
     {
       "group": "Group D",
-      "status": "LIVE",
-      "minute": "37'",
+      "status": "FT",
+      "minute": "",
       "venue": "Los Angeles Stadium",
       "kickoff_at_bj": "北京时间 2026-06-26 10:00",
-      "finished_at_bj": "北京时间 2026-06-26 10:00",
+      "finished_at_bj": "北京时间 2026-06-26 11:54",
       "team_a": {
         "name": "Türkiye",
         "flag": "🇹🇷",
-        "score": 2,
+        "score": 3,
         "scorers": [
           {
             "player": "Arda Guler",
@@ -392,8 +392,13 @@
             "type": "goal"
           },
           {
-            "player": "Orkun Kokcu",
+            "player": "Baris Alper Yilmaz",
             "minute": "31'",
+            "type": "goal"
+          },
+          {
+            "player": "Kaan Ayhan",
+            "minute": "90'+8'",
             "type": "goal"
           }
         ],
@@ -403,11 +408,16 @@
       "team_b": {
         "name": "USA",
         "flag": "🇺🇸",
-        "score": 1,
+        "score": 2,
         "scorers": [
           {
             "player": "Auston Trusty",
             "minute": "3'",
+            "type": "goal"
+          },
+          {
+            "player": "Sebastian Berhalter",
+            "minute": "49'",
             "type": "goal"
           }
         ],
@@ -417,18 +427,18 @@
       "venue_en": "Los Angeles Stadium",
       "venue_zh": "Los Angeles Stadium",
       "highlights_en": [
-        "Türkiye lead USA 2-1 in Group D.",
-        "Arda Guler 10', Orkun Kokcu 31', Auston Trusty 3'",
+        "Türkiye beat USA 3-2 in Group D.",
+        "Arda Guler 10', Baris Alper Yilmaz 31', Kaan Ayhan 90'+8', Auston Trusty 3'",
         "The match was played at Los Angeles Stadium."
       ],
       "highlights_zh": [
-        "土耳其 2-1 暂时领先美国，比赛属于 Group D。",
-        "Arda Guler 10', Orkun Kokcu 31', Auston Trusty 3'",
+        "土耳其 3-2 击败美国，比赛属于 Group D。",
+        "Arda Guler 10', Baris Alper Yilmaz 31', Kaan Ayhan 90'+8', Auston Trusty 3'",
         "比赛场地：Los Angeles Stadium。"
       ],
       "highlights": [
-        "土耳其 2-1 暂时领先美国，比赛属于 Group D。",
-        "Arda Guler 10', Orkun Kokcu 31', Auston Trusty 3'",
+        "土耳其 3-2 击败美国，比赛属于 Group D。",
+        "Arda Guler 10', Baris Alper Yilmaz 31', Kaan Ayhan 90'+8', Auston Trusty 3'",
         "比赛场地：Los Angeles Stadium。"
       ]
     }
@@ -570,8 +580,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "荷兰 3-1 击败突尼斯，日本 1-1 战平瑞典，巴拉圭 0-0 暂平澳大利亚，土耳其 2-1 暂时领先美国。",
-  "summary_en": "Netherlands beat Tunisia 3-1; Japan drew 1-1 with Sweden; Paraguay and Australia are level 0-0; Türkiye lead USA 2-1.",
+  "summary_zh": "荷兰 3-1 击败突尼斯，日本 1-1 战平瑞典，巴拉圭 0-0 战平澳大利亚，土耳其 3-2 击败美国。",
+  "summary_en": "Netherlands beat Tunisia 3-1; Japan drew 1-1 with Sweden; Paraguay drew 0-0 with Australia; Türkiye beat USA 3-2.",
   "standings_changes_zh": [
     "Group A：墨西哥 以 9 分领跑，南非 4 分紧随其后。",
     "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
@@ -590,6 +600,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-26T02:37:26.460Z"
+    "fetched_at": "2026-06-26T06:46:38.118Z"
   }
 }
