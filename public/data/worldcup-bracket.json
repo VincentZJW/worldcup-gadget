@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T19:48:03.091Z",
+  "updatedAt": "2026-06-26T21:19:14.756Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -125,10 +125,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Norway",
+            "code": "NOR",
+            "flag": "🇳🇴",
+            "flagUrl": "assets/flags/nor.svg",
             "score": null
           },
           "winner": null,
@@ -144,10 +144,10 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "France",
+            "code": "FRA",
+            "flag": "🇫🇷",
+            "flagUrl": "assets/flags/fra.svg",
             "score": null
           },
           "away": {

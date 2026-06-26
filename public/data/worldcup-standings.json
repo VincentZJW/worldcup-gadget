@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T19:48:03.091Z",
+  "updatedAt": "2026-06-26T21:19:14.756Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -504,9 +504,9 @@
           "won": 3,
           "drawn": 0,
           "lost": 0,
-          "goalsFor": 9,
+          "goalsFor": 10,
           "goalsAgainst": 2,
-          "goalDifference": 7,
+          "goalDifference": 8,
           "points": 9
         },
         {
@@ -519,8 +519,8 @@
           "drawn": 0,
           "lost": 1,
           "goalsFor": 8,
-          "goalsAgainst": 6,
-          "goalDifference": 2,
+          "goalsAgainst": 7,
+          "goalDifference": 1,
           "points": 6
         },
         {
@@ -532,9 +532,9 @@
           "won": 1,
           "drawn": 0,
           "lost": 2,
-          "goalsFor": 4,
+          "goalsFor": 8,
           "goalsAgainst": 6,
-          "goalDifference": -2,
+          "goalDifference": 2,
           "points": 3
         },
         {
@@ -547,8 +547,8 @@
           "drawn": 0,
           "lost": 3,
           "goalsFor": 1,
-          "goalsAgainst": 8,
-          "goalDifference": -7,
+          "goalsAgainst": 12,
+          "goalDifference": -11,
           "points": 0
         }
       ]

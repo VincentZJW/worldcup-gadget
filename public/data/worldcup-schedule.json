@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T19:48:03.091Z",
+  "updatedAt": "2026-06-26T21:19:14.756Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -2651,15 +2651,15 @@
       "time": "北京时间 2026-06-27 03:00",
       "stage": "Group I",
       "venue": "Toronto Stadium",
-      "status": "LIVE",
-      "minute": "45'",
-      "score": "1-0",
+      "status": "FT",
+      "minute": "",
+      "score": "5-0",
       "home": {
         "name": "Senegal",
         "code": "SEN",
         "flag": "🇸🇳",
         "flagUrl": "assets/flags/sen.svg",
-        "score": 1
+        "score": 5
       },
       "away": {
         "name": "Iraq",
@@ -2674,9 +2674,33 @@
           "player": "Habib Diarra",
           "minute": "4'",
           "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Ismaila Sarr",
+          "minute": "56'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Pape Gueye",
+          "minute": "59'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Pape Gueye",
+          "minute": "71'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Iliman Ndiaye",
+          "minute": "82'",
+          "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43879"
     },
     {
       "id": "400021489",
@@ -2684,9 +2708,9 @@
       "time": "北京时间 2026-06-27 03:00",
       "stage": "Group I",
       "venue": "Boston Stadium",
-      "status": "LIVE",
-      "minute": "45'+1'",
-      "score": "1-3",
+      "status": "FT",
+      "minute": "",
+      "score": "1-4",
       "home": {
         "name": "Norway",
         "code": "NOR",
@@ -2699,7 +2723,7 @@
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": 3
+        "score": 4
       },
       "goals": [
         {
@@ -2725,9 +2749,15 @@
           "player": "Ousmane Dembele",
           "minute": "32'",
           "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Desire Doue",
+          "minute": "90'+4'",
+          "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43946"
     },
     {
       "id": "400021484",
@@ -3110,10 +3140,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg",
         "score": null
       },
       "goals": [],
@@ -3129,10 +3159,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg",
         "score": null
       },
       "away": {

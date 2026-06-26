@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T19:48:03.091Z",
+  "updatedAt": "2026-06-26T21:19:14.756Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -151,6 +151,24 @@
     {
       "rank": 9,
       "player": {
+        "id": "ismaila sarr-SEN",
+        "name": "Ismaila Sarr",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/1abo611761492444.png"
+      },
+      "team": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg"
+      },
+      "goals": 3,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 10,
+      "player": {
         "id": "johan manzambi-SUI",
         "name": "Johan Manzambi",
         "photo": "https://r2.thesportsdb.com/images/media/player/cutout/pg2bjt1763328991.png"
@@ -167,7 +185,7 @@
       "minutes": null
     },
     {
-      "rank": 10,
+      "rank": 11,
       "player": {
         "id": "jonathan david-CAN",
         "name": "Jonathan David",
@@ -185,7 +203,7 @@
       "minutes": null
     },
     {
-      "rank": 11,
+      "rank": 12,
       "player": {
         "id": "matheus cunha-BRA",
         "name": "Matheus Cunha",
@@ -203,7 +221,7 @@
       "minutes": null
     },
     {
-      "rank": 12,
+      "rank": 13,
       "player": {
         "id": "anthony elanga-SWE",
         "name": "Anthony Elanga",
@@ -221,7 +239,7 @@
       "minutes": null
     },
     {
-      "rank": 13,
+      "rank": 14,
       "player": {
         "id": "ayase ueda-JPN",
         "name": "Ayase Ueda",
@@ -239,7 +257,7 @@
       "minutes": null
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player": {
         "id": "cody gakpo-NED",
         "name": "Cody Gakpo",
@@ -257,7 +275,7 @@
       "minutes": null
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player": {
         "id": "cristiano ronaldo-POR",
         "name": "Cristiano Ronaldo",
@@ -275,7 +293,7 @@
       "minutes": null
     },
     {
-      "rank": 16,
+      "rank": 17,
       "player": {
         "id": "crysencio summerville-NED",
         "name": "Crysencio Summerville",
@@ -293,7 +311,7 @@
       "minutes": null
     },
     {
-      "rank": 17,
+      "rank": 18,
       "player": {
         "id": "cyle larin-CAN",
         "name": "Cyle Larin",
@@ -311,7 +329,7 @@
       "minutes": null
     },
     {
-      "rank": 18,
+      "rank": 19,
       "player": {
         "id": "daichi kamada-JPN",
         "name": "Daichi Kamada",
@@ -329,7 +347,7 @@
       "minutes": null
     },
     {
-      "rank": 19,
+      "rank": 20,
       "player": {
         "id": "daniel munoz-COL",
         "name": "Daniel Munoz",
@@ -347,7 +365,7 @@
       "minutes": null
     },
     {
-      "rank": 20,
+      "rank": 21,
       "player": {
         "id": "elijah just-NZL",
         "name": "Elijah Just",
@@ -365,7 +383,7 @@
       "minutes": null
     },
     {
-      "rank": 21,
+      "rank": 22,
       "player": {
         "id": "ermin mahmic-BIH",
         "name": "Ermin Mahmic",
@@ -383,7 +401,7 @@
       "minutes": null
     },
     {
-      "rank": 22,
+      "rank": 23,
       "player": {
         "id": "folarin balogun-USA",
         "name": "Folarin Balogun",
@@ -394,24 +412,6 @@
         "code": "USA",
         "flag": "🇺🇸",
         "flagUrl": "assets/flags/usa.svg"
-      },
-      "goals": 2,
-      "assists": null,
-      "penalties": null,
-      "minutes": null
-    },
-    {
-      "rank": 23,
-      "player": {
-        "id": "ismaila sarr-SEN",
-        "name": "Ismaila Sarr",
-        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/1abo611761492444.png"
-      },
-      "team": {
-        "name": "Senegal",
-        "code": "SEN",
-        "flag": "🇸🇳",
-        "flagUrl": "assets/flags/sen.svg"
       },
       "goals": 2,
       "assists": null,
@@ -493,6 +493,24 @@
     {
       "rank": 28,
       "player": {
+        "id": "pape gueye-SEN",
+        "name": "Pape Gueye",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9e7ql31762888843.png"
+      },
+      "team": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg"
+      },
+      "goals": 2,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 29,
+      "player": {
         "id": "ruben vargas-SUI",
         "name": "Ruben Vargas",
         "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9jkl9w1762860549.png"
@@ -509,7 +527,7 @@
       "minutes": null
     },
     {
-      "rank": 29,
+      "rank": 30,
       "player": {
         "id": "yasin ayari-SWE",
         "name": "Yasin Ayari",
@@ -527,7 +545,7 @@
       "minutes": null
     },
     {
-      "rank": 30,
+      "rank": 31,
       "player": {
         "id": "abbosbek fayzullaev-UZB",
         "name": "Abbosbek Fayzullaev",
@@ -545,7 +563,7 @@
       "minutes": null
     },
     {
-      "rank": 31,
+      "rank": 32,
       "player": {
         "id": "abdulelah alamri-KSA",
         "name": "Abdulelah Alamri",
@@ -563,11 +581,11 @@
       "minutes": null
     },
     {
-      "rank": 32,
+      "rank": 33,
       "player": {
         "id": "achraf hakimi-MAR",
         "name": "Achraf Hakimi",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/oqu69c1766335243.png"
       },
       "team": {
         "name": "Morocco",
@@ -581,11 +599,11 @@
       "minutes": null
     },
     {
-      "rank": 33,
+      "rank": 34,
       "player": {
         "id": "agustin canobbio-URU",
         "name": "Agustin Canobbio",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/qgh8yj1767539679.png"
       },
       "team": {
         "name": "Uruguay",
@@ -599,11 +617,11 @@
       "minutes": null
     },
     {
-      "rank": 34,
+      "rank": 35,
       "player": {
         "id": "alex freeman-USA",
         "name": "Alex Freeman",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9ik1yx1766511635.png"
       },
       "team": {
         "name": "USA",
@@ -617,11 +635,11 @@
       "minutes": null
     },
     {
-      "rank": 35,
+      "rank": 36,
       "player": {
         "id": "alexander isak-SWE",
         "name": "Alexander Isak",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3qj7z41757088281.png"
       },
       "team": {
         "name": "Sweden",
@@ -635,11 +653,11 @@
       "minutes": null
     },
     {
-      "rank": 36,
+      "rank": 37,
       "player": {
         "id": "ali olwan-JOR",
         "name": "Ali Olwan",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ifvtit1781097232.png"
       },
       "team": {
         "name": "Jordan",
@@ -653,11 +671,11 @@
       "minutes": null
     },
     {
-      "rank": 37,
+      "rank": 38,
       "player": {
         "id": "alvaro fidalgo-MEX",
         "name": "Alvaro Fidalgo",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/hcx8an1750328188.png"
       },
       "team": {
         "name": "Mexico",
@@ -671,11 +689,11 @@
       "minutes": null
     },
     {
-      "rank": 38,
+      "rank": 39,
       "player": {
         "id": "amad diallo-CIV",
         "name": "Amad Diallo",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/8p6wbg1766826668.png"
       },
       "team": {
         "name": "Côte d'Ivoire",
@@ -689,11 +707,11 @@
       "minutes": null
     },
     {
-      "rank": 39,
+      "rank": 40,
       "player": {
         "id": "amine gouiri-ALG",
         "name": "Amine Gouiri",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/74eam91766152411.png"
       },
       "team": {
         "name": "Algeria",
@@ -707,11 +725,11 @@
       "minutes": null
     },
     {
-      "rank": 40,
+      "rank": 41,
       "player": {
         "id": "ante budimir-CRO",
         "name": "Ante Budimir",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/8v3s2w1762531932.png"
       },
       "team": {
         "name": "Croatia",
@@ -725,11 +743,11 @@
       "minutes": null
     },
     {
-      "rank": 41,
+      "rank": 42,
       "player": {
         "id": "arda guler-TUR",
         "name": "Arda Guler",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/lwnog21768499165.png"
       },
       "team": {
         "name": "Türkiye",
@@ -743,11 +761,11 @@
       "minutes": null
     },
     {
-      "rank": 42,
+      "rank": 43,
       "player": {
         "id": "auston trusty-USA",
         "name": "Auston Trusty",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/lqsh901777019751.png"
       },
       "team": {
         "name": "USA",
@@ -761,11 +779,11 @@
       "minutes": null
     },
     {
-      "rank": 43,
+      "rank": 44,
       "player": {
         "id": "aymen hussein-IRQ",
         "name": "Aymen Hussein",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/n741p41780581152.png"
       },
       "team": {
         "name": "Iraq",
@@ -779,7 +797,7 @@
       "minutes": null
     },
     {
-      "rank": 44,
+      "rank": 45,
       "player": {
         "id": "baris alper yilmaz-TUR",
         "name": "Baris Alper Yilmaz",
@@ -797,7 +815,7 @@
       "minutes": null
     },
     {
-      "rank": 45,
+      "rank": 46,
       "player": {
         "id": "bradley barcola-FRA",
         "name": "Bradley Barcola",
@@ -815,7 +833,7 @@
       "minutes": null
     },
     {
-      "rank": 46,
+      "rank": 47,
       "player": {
         "id": "caleb yirenkyi-GHA",
         "name": "Caleb Yirenkyi",
@@ -833,11 +851,11 @@
       "minutes": null
     },
     {
-      "rank": 47,
+      "rank": 48,
       "player": {
         "id": "connor metcalfe-AUS",
         "name": "Connor Metcalfe",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/8xb0sq1756311214.png"
       },
       "team": {
         "name": "Australia",
@@ -851,7 +869,7 @@
       "minutes": null
     },
     {
-      "rank": 48,
+      "rank": 49,
       "player": {
         "id": "daizen maeda-JPN",
         "name": "Daizen Maeda",
@@ -869,11 +887,29 @@
       "minutes": null
     },
     {
-      "rank": 49,
+      "rank": 50,
+      "player": {
+        "id": "desire doue-FRA",
+        "name": "Desire Doue",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/5m0p4g1766335194.png"
+      },
+      "team": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 51,
       "player": {
         "id": "emam ashour-EGY",
         "name": "Emam Ashour",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/jk038w1750398132.png"
       },
       "team": {
         "name": "Egypt",
@@ -887,7 +923,7 @@
       "minutes": null
     },
     {
-      "rank": 50,
+      "rank": 52,
       "player": {
         "id": "felix nmecha-GER",
         "name": "Felix Nmecha",
@@ -905,11 +941,11 @@
       "minutes": null
     },
     {
-      "rank": 51,
+      "rank": 53,
       "player": {
         "id": "finn surman-NZL",
         "name": "Finn Surman",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/qmadd81766760097.png"
       },
       "team": {
         "name": "New Zealand",
@@ -923,11 +959,11 @@
       "minutes": null
     },
     {
-      "rank": 52,
+      "rank": 54,
       "player": {
         "id": "franck kessie-CIV",
         "name": "Franck Kessie",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/wcmpma1771663848.png"
       },
       "team": {
         "name": "Côte d'Ivoire",
@@ -941,7 +977,7 @@
       "minutes": null
     },
     {
-      "rank": 53,
+      "rank": 55,
       "player": {
         "id": "gessime yassine-MAR",
         "name": "Gessime Yassine",
@@ -959,11 +995,11 @@
       "minutes": null
     },
     {
-      "rank": 54,
+      "rank": 56,
       "player": {
         "id": "giovanni reyna-USA",
         "name": "Giovanni Reyna",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/cwatcj1781348049.png"
       },
       "team": {
         "name": "USA",
@@ -977,11 +1013,11 @@
       "minutes": null
     },
     {
-      "rank": 55,
+      "rank": 57,
       "player": {
         "id": "gonzalo plata-ECU",
         "name": "Gonzalo Plata",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/sdclx01751003063.png"
       },
       "team": {
         "name": "Ecuador",
@@ -995,7 +1031,7 @@
       "minutes": null
     },
     {
-      "rank": 56,
+      "rank": 58,
       "player": {
         "id": "habib diarra-SEN",
         "name": "Habib Diarra",
@@ -1013,11 +1049,11 @@
       "minutes": null
     },
     {
-      "rank": 57,
+      "rank": 59,
       "player": {
         "id": "harry kane-ENG",
         "name": "Harry Kane",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/j4ouvd1756408895.png"
       },
       "team": {
         "name": "England",
@@ -1031,7 +1067,7 @@
       "minutes": null
     },
     {
-      "rank": 58,
+      "rank": 60,
       "player": {
         "id": "hassan alhaydos-QAT",
         "name": "Hassan Alhaydos",
@@ -1049,7 +1085,7 @@
       "minutes": null
     },
     {
-      "rank": 59,
+      "rank": 61,
       "player": {
         "id": "hazem mastouri-TUN",
         "name": "Hazem Mastouri",
@@ -1067,11 +1103,11 @@
       "minutes": null
     },
     {
-      "rank": 60,
+      "rank": 62,
       "player": {
         "id": "helio varela-CAB",
         "name": "Helio Varela",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/znj0qi1767870998.png"
       },
       "team": {
         "name": "Cabo Verde",
@@ -1085,7 +1121,7 @@
       "minutes": null
     },
     {
-      "rank": 61,
+      "rank": 63,
       "player": {
         "id": "hwang inbeom-KOR",
         "name": "Hwang Inbeom",
@@ -1103,7 +1139,7 @@
       "minutes": null
     },
     {
-      "rank": 62,
+      "rank": 64,
       "player": {
         "id": "ibrahim mbaye-SEN",
         "name": "Ibrahim Mbaye",
@@ -1121,11 +1157,29 @@
       "minutes": null
     },
     {
-      "rank": 63,
+      "rank": 65,
+      "player": {
+        "id": "iliman ndiaye-SEN",
+        "name": "Iliman Ndiaye",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/rten2t1756977078.png"
+      },
+      "team": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 66,
       "player": {
         "id": "jamal musiala-GER",
         "name": "Jamal Musiala",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/vbkv611756416067.png"
       },
       "team": {
         "name": "Germany",
@@ -1139,7 +1193,7 @@
       "minutes": null
     },
     {
-      "rank": 64,
+      "rank": 67,
       "player": {
         "id": "jaminton campaz-COL",
         "name": "Jaminton Campaz",
@@ -1157,11 +1211,11 @@
       "minutes": null
     },
     {
-      "rank": 65,
+      "rank": 68,
       "player": {
         "id": "jan paul van hecke-NED",
         "name": "Jan Paul Van Hecke",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/37rw1u1756994375.png"
       },
       "team": {
         "name": "Netherlands",
@@ -1175,11 +1229,11 @@
       "minutes": null
     },
     {
-      "rank": 66,
+      "rank": 69,
       "player": {
         "id": "joao neves-POR",
         "name": "Joao Neves",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/2q9ahn1766335473.png"
       },
       "team": {
         "name": "Portugal",
@@ -1193,7 +1247,7 @@
       "minutes": null
     },
     {
-      "rank": 67,
+      "rank": 70,
       "player": {
         "id": "john mcginn-SCO",
         "name": "John McGINN",
@@ -1211,7 +1265,7 @@
       "minutes": null
     },
     {
-      "rank": 68,
+      "rank": 71,
       "player": {
         "id": "jovo lukic-BIH",
         "name": "Jovo Lukic",
@@ -1229,7 +1283,7 @@
       "minutes": null
     },
     {
-      "rank": 69,
+      "rank": 72,
       "player": {
         "id": "jude bellingham-ENG",
         "name": "Jude Bellingham",
@@ -1247,7 +1301,7 @@
       "minutes": null
     },
     {
-      "rank": 70,
+      "rank": 73,
       "player": {
         "id": "junya ito-JPN",
         "name": "Junya Ito",
@@ -1265,7 +1319,7 @@
       "minutes": null
     },
     {
-      "rank": 71,
+      "rank": 74,
       "player": {
         "id": "kaan ayhan-TUR",
         "name": "Kaan Ayhan",
@@ -1283,7 +1337,7 @@
       "minutes": null
     },
     {
-      "rank": 72,
+      "rank": 75,
       "player": {
         "id": "kai havertz-GER",
         "name": "Kai Havertz",
@@ -1301,7 +1355,7 @@
       "minutes": null
     },
     {
-      "rank": 73,
+      "rank": 76,
       "player": {
         "id": "keito nakamura-JPN",
         "name": "Keito Nakamura",
@@ -1319,7 +1373,7 @@
       "minutes": null
     },
     {
-      "rank": 74,
+      "rank": 77,
       "player": {
         "id": "kerim alajbegovic-BIH",
         "name": "Kerim Alajbegovic",
@@ -1337,7 +1391,7 @@
       "minutes": null
     },
     {
-      "rank": 75,
+      "rank": 78,
       "player": {
         "id": "kevin pina-CAB",
         "name": "Kevin Pina",
@@ -1355,7 +1409,7 @@
       "minutes": null
     },
     {
-      "rank": 76,
+      "rank": 79,
       "player": {
         "id": "ladislav krejci-CZE",
         "name": "Ladislav Krejci",
@@ -1373,7 +1427,7 @@
       "minutes": null
     },
     {
-      "rank": 77,
+      "rank": 80,
       "player": {
         "id": "lamine yamal-ESP",
         "name": "Lamine Yamal",
@@ -1391,7 +1445,7 @@
       "minutes": null
     },
     {
-      "rank": 78,
+      "rank": 81,
       "player": {
         "id": "leo ostigard-NOR",
         "name": "Leo Ostigard",
@@ -1409,7 +1463,7 @@
       "minutes": null
     },
     {
-      "rank": 79,
+      "rank": 82,
       "player": {
         "id": "leroy sane-GER",
         "name": "Leroy Sane",
@@ -1427,7 +1481,7 @@
       "minutes": null
     },
     {
-      "rank": 80,
+      "rank": 83,
       "player": {
         "id": "livano comenencia-CUW",
         "name": "Livano Comenencia",
@@ -1445,7 +1499,7 @@
       "minutes": null
     },
     {
-      "rank": 81,
+      "rank": 84,
       "player": {
         "id": "luis diaz-COL",
         "name": "Luis Diaz",
@@ -1463,7 +1517,7 @@
       "minutes": null
     },
     {
-      "rank": 82,
+      "rank": 85,
       "player": {
         "id": "luis romo-MEX",
         "name": "Luis Romo",
@@ -1481,7 +1535,7 @@
       "minutes": null
     },
     {
-      "rank": 83,
+      "rank": 86,
       "player": {
         "id": "marcus holmgren pedersen-NOR",
         "name": "Marcus Holmgren Pedersen",
@@ -1499,7 +1553,7 @@
       "minutes": null
     },
     {
-      "rank": 84,
+      "rank": 87,
       "player": {
         "id": "marcus rashford-ENG",
         "name": "Marcus Rashford",
@@ -1517,7 +1571,7 @@
       "minutes": null
     },
     {
-      "rank": 85,
+      "rank": 88,
       "player": {
         "id": "martin baturina-CRO",
         "name": "Martin Baturina",
@@ -1535,7 +1589,7 @@
       "minutes": null
     },
     {
-      "rank": 86,
+      "rank": 89,
       "player": {
         "id": "mateo chavez-MEX",
         "name": "Mateo Chavez",
@@ -1553,7 +1607,7 @@
       "minutes": null
     },
     {
-      "rank": 87,
+      "rank": 90,
       "player": {
         "id": "matias galarza-PAR",
         "name": "Matias Galarza",
@@ -1571,7 +1625,7 @@
       "minutes": null
     },
     {
-      "rank": 88,
+      "rank": 91,
       "player": {
         "id": "mattias svanberg-SWE",
         "name": "Mattias Svanberg",
@@ -1589,7 +1643,7 @@
       "minutes": null
     },
     {
-      "rank": 89,
+      "rank": 92,
       "player": {
         "id": "mauricio-PAR",
         "name": "Mauricio",
@@ -1607,7 +1661,7 @@
       "minutes": null
     },
     {
-      "rank": 90,
+      "rank": 93,
       "player": {
         "id": "michal sadilek-CZE",
         "name": "Michal Sadilek",
@@ -1625,7 +1679,7 @@
       "minutes": null
     },
     {
-      "rank": 91,
+      "rank": 94,
       "player": {
         "id": "mohamed salah-EGY",
         "name": "Mohamed Salah",
@@ -1643,7 +1697,7 @@
       "minutes": null
     },
     {
-      "rank": 92,
+      "rank": 95,
       "player": {
         "id": "mohammad mohebbi-IRI",
         "name": "Mohammad Mohebbi",
@@ -1661,7 +1715,7 @@
       "minutes": null
     },
     {
-      "rank": 93,
+      "rank": 96,
       "player": {
         "id": "mostafa zico-EGY",
         "name": "Mostafa Zico",
@@ -1679,7 +1733,7 @@
       "minutes": null
     },
     {
-      "rank": 94,
+      "rank": 97,
       "player": {
         "id": "nadhir benbouali-ALG",
         "name": "Nadhir Benbouali",
@@ -1697,7 +1751,7 @@
       "minutes": null
     },
     {
-      "rank": 95,
+      "rank": 98,
       "player": {
         "id": "nathan saliba-CAN",
         "name": "Nathan Saliba",
@@ -1715,7 +1769,7 @@
       "minutes": null
     },
     {
-      "rank": 96,
+      "rank": 99,
       "player": {
         "id": "nathaniel brown-GER",
         "name": "Nathaniel Brown",
@@ -1733,7 +1787,7 @@
       "minutes": null
     },
     {
-      "rank": 97,
+      "rank": 100,
       "player": {
         "id": "nestory irankunda-AUS",
         "name": "Nestory Irankunda",
@@ -1751,7 +1805,7 @@
       "minutes": null
     },
     {
-      "rank": 98,
+      "rank": 101,
       "player": {
         "id": "nico schlotterbeck-GER",
         "name": "Nico Schlotterbeck",
@@ -1769,7 +1823,7 @@
       "minutes": null
     },
     {
-      "rank": 99,
+      "rank": 102,
       "player": {
         "id": "nilson angulo-ECU",
         "name": "Nilson Angulo",
@@ -1787,7 +1841,7 @@
       "minutes": null
     },
     {
-      "rank": 100,
+      "rank": 103,
       "player": {
         "id": "nizar alrashdan-JOR",
         "name": "Nizar Alrashdan",
@@ -1805,7 +1859,7 @@
       "minutes": null
     },
     {
-      "rank": 101,
+      "rank": 104,
       "player": {
         "id": "nuno mendes-POR",
         "name": "Nuno Mendes",
@@ -1823,7 +1877,7 @@
       "minutes": null
     },
     {
-      "rank": 102,
+      "rank": 105,
       "player": {
         "id": "oh hyeongyu-KOR",
         "name": "Oh Hyeongyu",
@@ -1841,7 +1895,7 @@
       "minutes": null
     },
     {
-      "rank": 103,
+      "rank": 106,
       "player": {
         "id": "omar rekik-TUN",
         "name": "Omar Rekik",
@@ -1859,7 +1913,7 @@
       "minutes": null
     },
     {
-      "rank": 104,
+      "rank": 107,
       "player": {
         "id": "petar musa-CRO",
         "name": "Petar Musa",
@@ -1877,7 +1931,7 @@
       "minutes": null
     },
     {
-      "rank": 105,
+      "rank": 108,
       "player": {
         "id": "promise david-CAN",
         "name": "Promise David",
@@ -1895,7 +1949,7 @@
       "minutes": null
     },
     {
-      "rank": 106,
+      "rank": 109,
       "player": {
         "id": "rafael leao-POR",
         "name": "Rafael Leao",
@@ -1913,7 +1967,7 @@
       "minutes": null
     },
     {
-      "rank": 107,
+      "rank": 110,
       "player": {
         "id": "ramin rezaeian-IRI",
         "name": "Ramin Rezaeian",
@@ -1931,7 +1985,7 @@
       "minutes": null
     },
     {
-      "rank": 108,
+      "rank": 111,
       "player": {
         "id": "raul jimenez-MEX",
         "name": "Raul Jimenez",
@@ -1949,7 +2003,7 @@
       "minutes": null
     },
     {
-      "rank": 109,
+      "rank": 112,
       "player": {
         "id": "romano schmid-AUT",
         "name": "Romano Schmid",
@@ -1967,7 +2021,7 @@
       "minutes": null
     },
     {
-      "rank": 110,
+      "rank": 113,
       "player": {
         "id": "sebastian berhalter-USA",
         "name": "Sebastian Berhalter",
@@ -1985,7 +2039,7 @@
       "minutes": null
     },
     {
-      "rank": 111,
+      "rank": 114,
       "player": {
         "id": "soufiane rahimi-MAR",
         "name": "Soufiane Rahimi",
@@ -2003,7 +2057,7 @@
       "minutes": null
     },
     {
-      "rank": 112,
+      "rank": 115,
       "player": {
         "id": "thapelo maseko-RSA",
         "name": "Thapelo Maseko",
@@ -2021,7 +2075,7 @@
       "minutes": null
     },
     {
-      "rank": 113,
+      "rank": 116,
       "player": {
         "id": "thelo aasgaard-NOR",
         "name": "Thelo Aasgaard",
@@ -2039,7 +2093,7 @@
       "minutes": null
     },
     {
-      "rank": 114,
+      "rank": 117,
       "player": {
         "id": "trezeguet-EGY",
         "name": "Trezeguet",
@@ -2057,7 +2111,7 @@
       "minutes": null
     },
     {
-      "rank": 115,
+      "rank": 118,
       "player": {
         "id": "viktor gyokeres-SWE",
         "name": "Viktor Gyokeres",
@@ -2075,7 +2129,7 @@
       "minutes": null
     },
     {
-      "rank": 116,
+      "rank": 119,
       "player": {
         "id": "virgil van dijk-NED",
         "name": "Virgil Van Dijk",
@@ -2093,7 +2147,7 @@
       "minutes": null
     },
     {
-      "rank": 117,
+      "rank": 120,
       "player": {
         "id": "wilson isidor-HAI",
         "name": "Wilson Isidor",
@@ -2111,7 +2165,7 @@
       "minutes": null
     },
     {
-      "rank": 118,
+      "rank": 121,
       "player": {
         "id": "yoane wissa-COD",
         "name": "Yoane Wissa",

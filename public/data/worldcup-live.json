@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T19:48:03.091Z",
+  "updatedAt": "2026-06-26T21:19:14.756Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,15 +7,15 @@
     {
       "id": "400021493",
       "stage": "Group I",
-      "status": "LIVE",
-      "minute": "45'",
+      "status": "FT",
+      "minute": "",
       "venue": "Toronto Stadium",
       "home": {
         "name": "Senegal",
         "code": "SEN",
         "flag": "🇸🇳",
         "flagUrl": "assets/flags/sen.svg",
-        "score": 1
+        "score": 5
       },
       "away": {
         "name": "Iraq",
@@ -30,14 +30,38 @@
           "player": "Habib Diarra",
           "minute": "4'",
           "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Ismaila Sarr",
+          "minute": "56'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Pape Gueye",
+          "minute": "59'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Pape Gueye",
+          "minute": "71'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Iliman Ndiaye",
+          "minute": "82'",
+          "type": "goal"
         }
       ]
     },
     {
       "id": "400021489",
       "stage": "Group I",
-      "status": "LIVE",
-      "minute": "45'+1'",
+      "status": "FT",
+      "minute": "",
       "venue": "Boston Stadium",
       "home": {
         "name": "Norway",
@@ -51,7 +75,7 @@
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": 3
+        "score": 4
       },
       "goals": [
         {
@@ -76,6 +100,12 @@
           "team": "FRA",
           "player": "Ousmane Dembele",
           "minute": "32'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Desire Doue",
+          "minute": "90'+4'",
           "type": "goal"
         }
       ]
