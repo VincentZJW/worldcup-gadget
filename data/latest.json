@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-06-27 08:05",
+  "updated_at": "北京时间 2026-06-27 10:30",
   "date_range": "2026-06-26 to 2026-06-27",
-  "summary": "塞内加尔 5-0 击败伊拉克，法国 4-1 击败挪威，乌拉圭 0-0 暂平西班牙，Cabo Verde 0-0 暂平沙特阿拉伯。",
+  "summary": "塞内加尔 5-0 击败伊拉克，法国 4-1 击败挪威，西班牙 1-0 击败乌拉圭，Cabo Verde 0-0 战平沙特阿拉伯。",
   "matches": [
     {
       "group": "Group F",
@@ -365,11 +365,11 @@
     },
     {
       "group": "Group H",
-      "status": "LIVE",
-      "minute": "4'",
+      "status": "FT",
+      "minute": "",
       "venue": "Guadalajara Stadium",
       "kickoff_at_bj": "北京时间 2026-06-27 08:00",
-      "finished_at_bj": "北京时间 2026-06-27 08:00",
+      "finished_at_bj": "北京时间 2026-06-27 09:52",
       "team_a": {
         "name": "Uruguay",
         "flag": "🇺🇾",
@@ -381,36 +381,42 @@
       "team_b": {
         "name": "Spain",
         "flag": "🇪🇸",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Alex Baena",
+            "minute": "42'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "西班牙",
         "name_en": "Spain"
       },
       "venue_en": "Guadalajara Stadium",
       "venue_zh": "Guadalajara Stadium",
       "highlights_en": [
-        "Uruguay and Spain are level 0-0 in Group H.",
-        "Neither side scored.",
+        "Spain beat Uruguay 1-0 in Group H.",
+        "Alex Baena 42'",
         "The match was played at Guadalajara Stadium."
       ],
       "highlights_zh": [
-        "乌拉圭 0-0 暂平西班牙，比赛属于 Group H。",
-        "双方均未取得进球。",
+        "西班牙 1-0 击败乌拉圭，比赛属于 Group H。",
+        "Alex Baena 42'",
         "比赛场地：Guadalajara Stadium。"
       ],
       "highlights": [
-        "乌拉圭 0-0 暂平西班牙，比赛属于 Group H。",
-        "双方均未取得进球。",
+        "西班牙 1-0 击败乌拉圭，比赛属于 Group H。",
+        "Alex Baena 42'",
         "比赛场地：Guadalajara Stadium。"
       ]
     },
     {
       "group": "Group H",
-      "status": "LIVE",
-      "minute": "4'",
+      "status": "FT",
+      "minute": "",
       "venue": "Houston Stadium",
       "kickoff_at_bj": "北京时间 2026-06-27 08:00",
-      "finished_at_bj": "北京时间 2026-06-27 08:00",
+      "finished_at_bj": "北京时间 2026-06-27 09:51",
       "team_a": {
         "name": "Cabo Verde",
         "flag": "🇨🇻",
@@ -430,17 +436,17 @@
       "venue_en": "Houston Stadium",
       "venue_zh": "Houston Stadium",
       "highlights_en": [
-        "Cabo Verde and Saudi Arabia are level 0-0 in Group H.",
+        "Cabo Verde drew 0-0 with Saudi Arabia in Group H.",
         "Neither side scored.",
         "The match was played at Houston Stadium."
       ],
       "highlights_zh": [
-        "Cabo Verde 0-0 暂平沙特阿拉伯，比赛属于 Group H。",
+        "Cabo Verde 0-0 战平沙特阿拉伯，比赛属于 Group H。",
         "双方均未取得进球。",
         "比赛场地：Houston Stadium。"
       ],
       "highlights": [
-        "Cabo Verde 0-0 暂平沙特阿拉伯，比赛属于 Group H。",
+        "Cabo Verde 0-0 战平沙特阿拉伯，比赛属于 Group H。",
         "双方均未取得进球。",
         "比赛场地：Houston Stadium。"
       ]
@@ -450,7 +456,7 @@
     "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。",
     "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。",
     "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。",
-    "Group H：西班牙 以 4 分领跑，乌拉圭 2 分紧随其后。"
+    "Group H：西班牙 以 7 分领跑，Cabo Verde 3 分紧随其后。"
   ],
   "today_fixtures": [
     {
@@ -583,19 +589,19 @@
     }
   ],
   "news": [],
-  "summary_zh": "塞内加尔 5-0 击败伊拉克，法国 4-1 击败挪威，乌拉圭 0-0 暂平西班牙，Cabo Verde 0-0 暂平沙特阿拉伯。",
-  "summary_en": "Senegal beat Iraq 5-0; France beat Norway 4-1; Uruguay and Spain are level 0-0; Cabo Verde and Saudi Arabia are level 0-0.",
+  "summary_zh": "塞内加尔 5-0 击败伊拉克，法国 4-1 击败挪威，西班牙 1-0 击败乌拉圭，Cabo Verde 0-0 战平沙特阿拉伯。",
+  "summary_en": "Senegal beat Iraq 5-0; France beat Norway 4-1; Spain beat Uruguay 1-0; Cabo Verde drew 0-0 with Saudi Arabia.",
   "standings_changes_zh": [
     "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。",
     "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。",
     "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。",
-    "Group H：西班牙 以 4 分领跑，乌拉圭 2 分紧随其后。"
+    "Group H：西班牙 以 7 分领跑，Cabo Verde 3 分紧随其后。"
   ],
   "standings_changes_en": [
     "Group F: Netherlands lead with 7 points, followed by Japan on 5.",
     "Group D: USA lead with 6 points, followed by Australia on 4.",
     "Group I: France lead with 9 points, followed by Norway on 6.",
-    "Group H: Spain lead with 4 points, followed by Uruguay on 2."
+    "Group H: Spain lead with 7 points, followed by Cabo Verde on 3."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -603,6 +609,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-27T00:05:41.194Z"
+    "fetched_at": "2026-06-27T02:30:08.931Z"
   }
 }
