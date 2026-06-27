@@ -1,9 +1,103 @@
 {
-  "updatedAt": "2026-06-27T02:04:10.943Z",
+  "updatedAt": "2026-06-27T06:06:27.184Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021481",
+      "stage": "Group G",
+      "status": "FT",
+      "minute": "",
+      "venue": "BC Place Vancouver",
+      "home": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "flag": "🇳🇿",
+        "flagUrl": "assets/flags/nzl.svg",
+        "score": 1
+      },
+      "away": {
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "flagUrl": "assets/flags/bel.svg",
+        "score": 5
+      },
+      "goals": [
+        {
+          "team": "BEL",
+          "player": "Leandro Trossard",
+          "minute": "28'",
+          "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Leandro Trossard",
+          "minute": "50'",
+          "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Kevin De Bruyne",
+          "minute": "66'",
+          "type": "goal"
+        },
+        {
+          "team": "NZL",
+          "player": "Elijah Just",
+          "minute": "84'",
+          "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Romelu Lukaku",
+          "minute": "86'",
+          "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Alexis Saelemaekers",
+          "minute": "90'+4'",
+          "type": "goal"
+        }
+      ]
+    },
+    {
+      "id": "400021479",
+      "stage": "Group G",
+      "status": "FT",
+      "minute": "",
+      "venue": "Seattle Stadium",
+      "home": {
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg",
+        "score": 1
+      },
+      "away": {
+        "name": "IR Iran",
+        "code": "IRI",
+        "flag": "🇮🇷",
+        "flagUrl": "assets/flags/iri.svg",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "EGY",
+          "player": "Mahmoud Saber",
+          "minute": "5'",
+          "type": "goal"
+        },
+        {
+          "team": "IRI",
+          "player": "Ramin Rezaeian",
+          "minute": "14'",
+          "type": "goal"
+        }
+      ]
+    },
     {
       "id": "400021484",
       "stage": "Group H",
@@ -314,82 +408,6 @@
           "team": "SWE",
           "player": "Anthony Elanga",
           "minute": "62'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021468",
-      "stage": "Group E",
-      "status": "FT",
-      "minute": "",
-      "venue": "Philadelphia Stadium",
-      "home": {
-        "name": "Curaçao",
-        "code": "CUW",
-        "flag": "🇨🇼",
-        "flagUrl": "assets/flags/cuw.svg",
-        "score": 0
-      },
-      "away": {
-        "name": "Côte d'Ivoire",
-        "code": "CIV",
-        "flag": "🇨🇮",
-        "flagUrl": "assets/flags/civ.svg",
-        "score": 2
-      },
-      "goals": [
-        {
-          "team": "CIV",
-          "player": "Nicolas Pepe",
-          "minute": "7'",
-          "type": "goal"
-        },
-        {
-          "team": "CIV",
-          "player": "Nicolas Pepe",
-          "minute": "64'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021466",
-      "stage": "Group E",
-      "status": "FT",
-      "minute": "",
-      "venue": "New York/New Jersey Stadium",
-      "home": {
-        "name": "Ecuador",
-        "code": "ECU",
-        "flag": "🇪🇨",
-        "flagUrl": "assets/flags/ecu.svg",
-        "score": 2
-      },
-      "away": {
-        "name": "Germany",
-        "code": "GER",
-        "flag": "🇩🇪",
-        "flagUrl": "assets/flags/ger.svg",
-        "score": 1
-      },
-      "goals": [
-        {
-          "team": "GER",
-          "player": "Leroy Sane",
-          "minute": "2'",
-          "type": "goal"
-        },
-        {
-          "team": "ECU",
-          "player": "Nilson Angulo",
-          "minute": "9'",
-          "type": "goal"
-        },
-        {
-          "team": "ECU",
-          "player": "Gonzalo Plata",
-          "minute": "77'",
           "type": "goal"
         }
       ]
