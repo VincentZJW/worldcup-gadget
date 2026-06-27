@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T21:38:26.491Z",
+  "updatedAt": "2026-06-27T23:02:47.882Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,8 +7,8 @@
     {
       "id": "400021508",
       "stage": "Group L",
-      "status": "LIVE",
-      "minute": "37'",
+      "status": "FT",
+      "minute": "",
       "venue": "New York/New Jersey Stadium",
       "home": {
         "name": "Panama",
@@ -22,35 +22,60 @@
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": 0
+        "score": 2
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "ENG",
+          "player": "Jude Bellingham",
+          "minute": "62'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Harry Kane",
+          "minute": "67'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021509",
       "stage": "Group L",
-      "status": "LIVE",
-      "minute": "37'",
+      "status": "FT",
+      "minute": "",
       "venue": "Philadelphia Stadium",
       "home": {
         "name": "Croatia",
         "code": "CRO",
         "flag": "🇭🇷",
         "flagUrl": "assets/flags/cro.svg",
-        "score": 1
+        "score": 2
       },
       "away": {
         "name": "Ghana",
         "code": "GHA",
         "flag": "🇬🇭",
         "flagUrl": "assets/flags/gha.svg",
-        "score": 0
+        "score": 1
       },
       "goals": [
         {
           "team": "CRO",
           "player": "Petar Sucic",
           "minute": "31'",
+          "type": "goal"
+        },
+        {
+          "team": "GHA",
+          "player": "Derrick Luckassen",
+          "minute": "73'",
+          "type": "goal"
+        },
+        {
+          "team": "CRO",
+          "player": "Nikola Vlasic",
+          "minute": "83'",
           "type": "goal"
         }
       ]

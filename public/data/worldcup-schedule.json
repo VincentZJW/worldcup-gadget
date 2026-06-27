@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T21:38:26.491Z",
+  "updatedAt": "2026-06-27T23:02:47.882Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -2926,9 +2926,9 @@
       "time": "北京时间 2026-06-28 05:00",
       "stage": "Group L",
       "venue": "New York/New Jersey Stadium",
-      "status": "LIVE",
-      "minute": "37'",
-      "score": "0-0",
+      "status": "FT",
+      "minute": "",
+      "score": "0-2",
       "home": {
         "name": "Panama",
         "code": "PAN",
@@ -2941,10 +2941,23 @@
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": 0
+        "score": 2
       },
-      "goals": [],
-      "winner": null
+      "goals": [
+        {
+          "team": "ENG",
+          "player": "Jude Bellingham",
+          "minute": "62'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Harry Kane",
+          "minute": "67'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43942"
     },
     {
       "id": "400021509",
@@ -2952,22 +2965,22 @@
       "time": "北京时间 2026-06-28 05:00",
       "stage": "Group L",
       "venue": "Philadelphia Stadium",
-      "status": "LIVE",
-      "minute": "37'",
-      "score": "1-0",
+      "status": "FT",
+      "minute": "",
+      "score": "2-1",
       "home": {
         "name": "Croatia",
         "code": "CRO",
         "flag": "🇭🇷",
         "flagUrl": "assets/flags/cro.svg",
-        "score": 1
+        "score": 2
       },
       "away": {
         "name": "Ghana",
         "code": "GHA",
         "flag": "🇬🇭",
         "flagUrl": "assets/flags/gha.svg",
-        "score": 0
+        "score": 1
       },
       "goals": [
         {
@@ -2975,9 +2988,21 @@
           "player": "Petar Sucic",
           "minute": "31'",
           "type": "goal"
+        },
+        {
+          "team": "GHA",
+          "player": "Derrick Luckassen",
+          "minute": "73'",
+          "type": "goal"
+        },
+        {
+          "team": "CRO",
+          "player": "Nikola Vlasic",
+          "minute": "83'",
+          "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43938"
     },
     {
       "id": "400021500",
@@ -3256,10 +3281,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Ecuador",
+        "code": "ECU",
+        "flag": "🇪🇨",
+        "flagUrl": "assets/flags/ecu.svg",
         "score": null
       },
       "goals": [],
@@ -3275,10 +3300,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg",
         "score": null
       },
       "away": {
@@ -3386,10 +3411,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg",
         "score": null
       },
       "goals": [],
@@ -3490,10 +3515,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Ghana",
+        "code": "GHA",
+        "flag": "🇬🇭",
+        "flagUrl": "assets/flags/gha.svg",
         "score": null
       },
       "goals": [],

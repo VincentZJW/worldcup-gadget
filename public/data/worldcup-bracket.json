@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T21:38:26.491Z",
+  "updatedAt": "2026-06-27T23:02:47.882Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -177,10 +177,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Ecuador",
+            "code": "ECU",
+            "flag": "🇪🇨",
+            "flagUrl": "assets/flags/ecu.svg",
             "score": null
           },
           "winner": null,
@@ -196,10 +196,10 @@
           "stage": "Round of 32",
           "status": "Scheduled",
           "home": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "England",
+            "code": "ENG",
+            "flag": "🏴",
+            "flagUrl": "assets/flags/eng.svg",
             "score": null
           },
           "away": {
@@ -307,10 +307,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Croatia",
+            "code": "CRO",
+            "flag": "🇭🇷",
+            "flagUrl": "assets/flags/cro.svg",
             "score": null
           },
           "winner": null,
@@ -411,10 +411,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Ghana",
+            "code": "GHA",
+            "flag": "🇬🇭",
+            "flagUrl": "assets/flags/gha.svg",
             "score": null
           },
           "winner": null,
