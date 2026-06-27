@@ -1,117 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-27 14:08",
-  "date_range": "2026-06-26 to 2026-06-27",
-  "summary": "西班牙 1-0 击败乌拉圭，Cabo Verde 0-0 战平沙特阿拉伯，比利时 5-1 击败新西兰，埃及 1-1 战平IR Iran。",
+  "updated_at": "北京时间 2026-06-28 05:37",
+  "date_range": "2026-06-27 to 2026-06-28",
+  "summary": "比利时 5-1 击败新西兰，埃及 1-1 战平IR Iran，巴拿马 0-0 暂平英格兰，克罗地亚 1-0 暂时领先加纳。",
   "matches": [
-    {
-      "group": "Group D",
-      "status": "FT",
-      "minute": "",
-      "venue": "San Francisco Bay Area Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-26 10:00",
-      "finished_at_bj": "北京时间 2026-06-26 11:51",
-      "team_a": {
-        "name": "Paraguay",
-        "flag": "🇵🇾",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "巴拉圭",
-        "name_en": "Paraguay"
-      },
-      "team_b": {
-        "name": "Australia",
-        "flag": "🇦🇺",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "澳大利亚",
-        "name_en": "Australia"
-      },
-      "venue_en": "San Francisco Bay Area Stadium",
-      "venue_zh": "San Francisco Bay Area Stadium",
-      "highlights_en": [
-        "Paraguay drew 0-0 with Australia in Group D.",
-        "Neither side scored.",
-        "The match was played at San Francisco Bay Area Stadium."
-      ],
-      "highlights_zh": [
-        "巴拉圭 0-0 战平澳大利亚，比赛属于 Group D。",
-        "双方均未取得进球。",
-        "比赛场地：San Francisco Bay Area Stadium。"
-      ],
-      "highlights": [
-        "巴拉圭 0-0 战平澳大利亚，比赛属于 Group D。",
-        "双方均未取得进球。",
-        "比赛场地：San Francisco Bay Area Stadium。"
-      ]
-    },
-    {
-      "group": "Group D",
-      "status": "FT",
-      "minute": "",
-      "venue": "Los Angeles Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-26 10:00",
-      "finished_at_bj": "北京时间 2026-06-26 11:54",
-      "team_a": {
-        "name": "Türkiye",
-        "flag": "🇹🇷",
-        "score": 3,
-        "scorers": [
-          {
-            "player": "Arda Guler",
-            "minute": "10'",
-            "type": "goal"
-          },
-          {
-            "player": "Baris Alper Yilmaz",
-            "minute": "31'",
-            "type": "goal"
-          },
-          {
-            "player": "Kaan Ayhan",
-            "minute": "90'+8'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "土耳其",
-        "name_en": "Türkiye"
-      },
-      "team_b": {
-        "name": "USA",
-        "flag": "🇺🇸",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Auston Trusty",
-            "minute": "3'",
-            "type": "goal"
-          },
-          {
-            "player": "Sebastian Berhalter",
-            "minute": "49'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "美国",
-        "name_en": "USA"
-      },
-      "venue_en": "Los Angeles Stadium",
-      "venue_zh": "Los Angeles Stadium",
-      "highlights_en": [
-        "Türkiye beat USA 3-2 in Group D.",
-        "Arda Guler 10', Baris Alper Yilmaz 31', Kaan Ayhan 90'+8', Auston Trusty 3'",
-        "The match was played at Los Angeles Stadium."
-      ],
-      "highlights_zh": [
-        "土耳其 3-2 击败美国，比赛属于 Group D。",
-        "Arda Guler 10', Baris Alper Yilmaz 31', Kaan Ayhan 90'+8', Auston Trusty 3'",
-        "比赛场地：Los Angeles Stadium。"
-      ],
-      "highlights": [
-        "土耳其 3-2 击败美国，比赛属于 Group D。",
-        "Arda Guler 10', Baris Alper Yilmaz 31', Kaan Ayhan 90'+8', Auston Trusty 3'",
-        "比赛场地：Los Angeles Stadium。"
-      ]
-    },
     {
       "group": "Group I",
       "status": "FT",
@@ -460,47 +351,103 @@
         "Mahmoud Saber 5', Ramin Rezaeian 14'",
         "比赛场地：Seattle Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。",
-    "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。",
-    "Group H：西班牙 以 7 分领跑，Cabo Verde 3 分紧随其后。",
-    "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-28 05:00",
+      "group": "Group L",
+      "status": "LIVE",
+      "minute": "36'",
+      "venue": "New York/New Jersey Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-28 05:00",
+      "finished_at_bj": "北京时间 2026-06-28 05:00",
       "team_a": {
         "name": "Panama",
         "flag": "🇵🇦",
+        "score": 0,
+        "scorers": [],
         "name_zh": "巴拿马",
         "name_en": "Panama"
       },
       "team_b": {
         "name": "England",
         "flag": "🏴",
+        "score": 0,
+        "scorers": [],
         "name_zh": "英格兰",
         "name_en": "England"
       },
-      "group": "Group L"
+      "venue_en": "New York/New Jersey Stadium",
+      "venue_zh": "New York/New Jersey Stadium",
+      "highlights_en": [
+        "Panama and England are level 0-0 in Group L.",
+        "Neither side scored.",
+        "The match was played at New York/New Jersey Stadium."
+      ],
+      "highlights_zh": [
+        "巴拿马 0-0 暂平英格兰，比赛属于 Group L。",
+        "双方均未取得进球。",
+        "比赛场地：New York/New Jersey Stadium。"
+      ],
+      "highlights": [
+        "巴拿马 0-0 暂平英格兰，比赛属于 Group L。",
+        "双方均未取得进球。",
+        "比赛场地：New York/New Jersey Stadium。"
+      ]
     },
     {
-      "time_bj": "北京时间 2026-06-28 05:00",
+      "group": "Group L",
+      "status": "LIVE",
+      "minute": "36'",
+      "venue": "Philadelphia Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-28 05:00",
+      "finished_at_bj": "北京时间 2026-06-28 05:00",
       "team_a": {
         "name": "Croatia",
         "flag": "🇭🇷",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Petar Sucic",
+            "minute": "31'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "克罗地亚",
         "name_en": "Croatia"
       },
       "team_b": {
         "name": "Ghana",
         "flag": "🇬🇭",
+        "score": 0,
+        "scorers": [],
         "name_zh": "加纳",
         "name_en": "Ghana"
       },
-      "group": "Group L"
-    },
+      "venue_en": "Philadelphia Stadium",
+      "venue_zh": "Philadelphia Stadium",
+      "highlights_en": [
+        "Croatia lead Ghana 1-0 in Group L.",
+        "Petar Sucic 31'",
+        "The match was played at Philadelphia Stadium."
+      ],
+      "highlights_zh": [
+        "克罗地亚 1-0 暂时领先加纳，比赛属于 Group L。",
+        "Petar Sucic 31'",
+        "比赛场地：Philadelphia Stadium。"
+      ],
+      "highlights": [
+        "克罗地亚 1-0 暂时领先加纳，比赛属于 Group L。",
+        "Petar Sucic 31'",
+        "比赛场地：Philadelphia Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。",
+    "Group H：西班牙 以 7 分领跑，Cabo Verde 3 分紧随其后。",
+    "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
+    "Group L：克罗地亚 以 6 分领跑，英格兰 5 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-28 07:30",
       "team_a": {
@@ -596,22 +543,38 @@
         "name_en": "Japan"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-06-30 04:30",
+      "team_a": {
+        "name": "Germany",
+        "flag": "🇩🇪",
+        "name_zh": "德国",
+        "name_en": "Germany"
+      },
+      "team_b": {
+        "name": "Paraguay",
+        "flag": "🇵🇾",
+        "name_zh": "巴拉圭",
+        "name_en": "Paraguay"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
-  "summary_zh": "西班牙 1-0 击败乌拉圭，Cabo Verde 0-0 战平沙特阿拉伯，比利时 5-1 击败新西兰，埃及 1-1 战平IR Iran。",
-  "summary_en": "Spain beat Uruguay 1-0; Cabo Verde drew 0-0 with Saudi Arabia; Belgium beat New Zealand 5-1; Egypt drew 1-1 with IR Iran.",
+  "summary_zh": "比利时 5-1 击败新西兰，埃及 1-1 战平IR Iran，巴拿马 0-0 暂平英格兰，克罗地亚 1-0 暂时领先加纳。",
+  "summary_en": "Belgium beat New Zealand 5-1; Egypt drew 1-1 with IR Iran; Panama and England are level 0-0; Croatia lead Ghana 1-0.",
   "standings_changes_zh": [
-    "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。",
     "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。",
     "Group H：西班牙 以 7 分领跑，Cabo Verde 3 分紧随其后。",
-    "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。"
+    "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
+    "Group L：克罗地亚 以 6 分领跑，英格兰 5 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group D: USA lead with 6 points, followed by Australia on 4.",
     "Group I: France lead with 9 points, followed by Norway on 6.",
     "Group H: Spain lead with 7 points, followed by Cabo Verde on 3.",
-    "Group G: Belgium lead with 5 points, followed by Egypt on 5."
+    "Group G: Belgium lead with 5 points, followed by Egypt on 5.",
+    "Group L: Croatia lead with 6 points, followed by England on 5."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -619,6 +582,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-27T06:08:35.746Z"
+    "fetched_at": "2026-06-27T21:37:07.381Z"
   }
 }
