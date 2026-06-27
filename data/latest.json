@@ -1,118 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-27 05:16",
+  "updated_at": "北京时间 2026-06-27 08:05",
   "date_range": "2026-06-26 to 2026-06-27",
-  "summary": "巴拉圭 0-0 战平澳大利亚，土耳其 3-2 击败美国，塞内加尔 5-0 击败伊拉克，法国 4-1 击败挪威。",
+  "summary": "塞内加尔 5-0 击败伊拉克，法国 4-1 击败挪威，乌拉圭 0-0 暂平西班牙，Cabo Verde 0-0 暂平沙特阿拉伯。",
   "matches": [
-    {
-      "group": "Group E",
-      "status": "FT",
-      "minute": "",
-      "venue": "Philadelphia Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-26 04:00",
-      "finished_at_bj": "北京时间 2026-06-26 05:52",
-      "team_a": {
-        "name": "Curaçao",
-        "flag": "🇨🇼",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "库拉索",
-        "name_en": "Curaçao"
-      },
-      "team_b": {
-        "name": "Côte d'Ivoire",
-        "flag": "🇨🇮",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Nicolas Pepe",
-            "minute": "7'",
-            "type": "goal"
-          },
-          {
-            "player": "Nicolas Pepe",
-            "minute": "64'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "科特迪瓦",
-        "name_en": "Côte d'Ivoire"
-      },
-      "venue_en": "Philadelphia Stadium",
-      "venue_zh": "Philadelphia Stadium",
-      "highlights_en": [
-        "Côte d'Ivoire beat Curaçao 2-0 in Group E.",
-        "Nicolas Pepe 7', Nicolas Pepe 64'",
-        "The match was played at Philadelphia Stadium."
-      ],
-      "highlights_zh": [
-        "科特迪瓦 2-0 击败库拉索，比赛属于 Group E。",
-        "Nicolas Pepe 7', Nicolas Pepe 64'",
-        "比赛场地：Philadelphia Stadium。"
-      ],
-      "highlights": [
-        "科特迪瓦 2-0 击败库拉索，比赛属于 Group E。",
-        "Nicolas Pepe 7', Nicolas Pepe 64'",
-        "比赛场地：Philadelphia Stadium。"
-      ]
-    },
-    {
-      "group": "Group E",
-      "status": "FT",
-      "minute": "",
-      "venue": "New York/New Jersey Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-26 04:00",
-      "finished_at_bj": "北京时间 2026-06-26 05:53",
-      "team_a": {
-        "name": "Ecuador",
-        "flag": "🇪🇨",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Nilson Angulo",
-            "minute": "9'",
-            "type": "goal"
-          },
-          {
-            "player": "Gonzalo Plata",
-            "minute": "77'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "厄瓜多尔",
-        "name_en": "Ecuador"
-      },
-      "team_b": {
-        "name": "Germany",
-        "flag": "🇩🇪",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Leroy Sane",
-            "minute": "2'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "德国",
-        "name_en": "Germany"
-      },
-      "venue_en": "New York/New Jersey Stadium",
-      "venue_zh": "New York/New Jersey Stadium",
-      "highlights_en": [
-        "Ecuador beat Germany 2-1 in Group E.",
-        "Nilson Angulo 9', Gonzalo Plata 77', Leroy Sane 2'",
-        "The match was played at New York/New Jersey Stadium."
-      ],
-      "highlights_zh": [
-        "厄瓜多尔 2-1 击败德国，比赛属于 Group E。",
-        "Nilson Angulo 9', Gonzalo Plata 77', Leroy Sane 2'",
-        "比赛场地：New York/New Jersey Stadium。"
-      ],
-      "highlights": [
-        "厄瓜多尔 2-1 击败德国，比赛属于 Group E。",
-        "Nilson Angulo 9', Gonzalo Plata 77', Leroy Sane 2'",
-        "比赛场地：New York/New Jersey Stadium。"
-      ]
-    },
     {
       "group": "Group F",
       "status": "FT",
@@ -472,47 +362,97 @@
         "Thelo Aasgaard 21', Ousmane Dembele 7', Ousmane Dembele 20', Ousmane Dembele 32'",
         "比赛场地：Boston Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
-    "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。",
-    "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。",
-    "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-27 08:00",
+      "group": "Group H",
+      "status": "LIVE",
+      "minute": "4'",
+      "venue": "Guadalajara Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-27 08:00",
+      "finished_at_bj": "北京时间 2026-06-27 08:00",
       "team_a": {
         "name": "Uruguay",
         "flag": "🇺🇾",
+        "score": 0,
+        "scorers": [],
         "name_zh": "乌拉圭",
         "name_en": "Uruguay"
       },
       "team_b": {
         "name": "Spain",
         "flag": "🇪🇸",
+        "score": 0,
+        "scorers": [],
         "name_zh": "西班牙",
         "name_en": "Spain"
       },
-      "group": "Group H"
+      "venue_en": "Guadalajara Stadium",
+      "venue_zh": "Guadalajara Stadium",
+      "highlights_en": [
+        "Uruguay and Spain are level 0-0 in Group H.",
+        "Neither side scored.",
+        "The match was played at Guadalajara Stadium."
+      ],
+      "highlights_zh": [
+        "乌拉圭 0-0 暂平西班牙，比赛属于 Group H。",
+        "双方均未取得进球。",
+        "比赛场地：Guadalajara Stadium。"
+      ],
+      "highlights": [
+        "乌拉圭 0-0 暂平西班牙，比赛属于 Group H。",
+        "双方均未取得进球。",
+        "比赛场地：Guadalajara Stadium。"
+      ]
     },
     {
-      "time_bj": "北京时间 2026-06-27 08:00",
+      "group": "Group H",
+      "status": "LIVE",
+      "minute": "4'",
+      "venue": "Houston Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-27 08:00",
+      "finished_at_bj": "北京时间 2026-06-27 08:00",
       "team_a": {
         "name": "Cabo Verde",
         "flag": "🇨🇻",
+        "score": 0,
+        "scorers": [],
         "name_zh": "Cabo Verde",
         "name_en": "Cabo Verde"
       },
       "team_b": {
         "name": "Saudi Arabia",
         "flag": "🇸🇦",
+        "score": 0,
+        "scorers": [],
         "name_zh": "沙特阿拉伯",
         "name_en": "Saudi Arabia"
       },
-      "group": "Group H"
-    },
+      "venue_en": "Houston Stadium",
+      "venue_zh": "Houston Stadium",
+      "highlights_en": [
+        "Cabo Verde and Saudi Arabia are level 0-0 in Group H.",
+        "Neither side scored.",
+        "The match was played at Houston Stadium."
+      ],
+      "highlights_zh": [
+        "Cabo Verde 0-0 暂平沙特阿拉伯，比赛属于 Group H。",
+        "双方均未取得进球。",
+        "比赛场地：Houston Stadium。"
+      ],
+      "highlights": [
+        "Cabo Verde 0-0 暂平沙特阿拉伯，比赛属于 Group H。",
+        "双方均未取得进球。",
+        "比赛场地：Houston Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。",
+    "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。",
+    "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。",
+    "Group H：西班牙 以 4 分领跑，乌拉圭 2 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-27 11:00",
       "team_a": {
@@ -608,22 +548,54 @@
         "name_en": "Portugal"
       },
       "group": "Group K"
+    },
+    {
+      "time_bj": "北京时间 2026-06-28 10:00",
+      "team_a": {
+        "name": "Algeria",
+        "flag": "🇩🇿",
+        "name_zh": "阿尔及利亚",
+        "name_en": "Algeria"
+      },
+      "team_b": {
+        "name": "Austria",
+        "flag": "🇦🇹",
+        "name_zh": "奥地利",
+        "name_en": "Austria"
+      },
+      "group": "Group J"
+    },
+    {
+      "time_bj": "北京时间 2026-06-28 10:00",
+      "team_a": {
+        "name": "Jordan",
+        "flag": "🇯🇴",
+        "name_zh": "约旦",
+        "name_en": "Jordan"
+      },
+      "team_b": {
+        "name": "Argentina",
+        "flag": "🇦🇷",
+        "name_zh": "阿根廷",
+        "name_en": "Argentina"
+      },
+      "group": "Group J"
     }
   ],
   "news": [],
-  "summary_zh": "巴拉圭 0-0 战平澳大利亚，土耳其 3-2 击败美国，塞内加尔 5-0 击败伊拉克，法国 4-1 击败挪威。",
-  "summary_en": "Paraguay drew 0-0 with Australia; Türkiye beat USA 3-2; Senegal beat Iraq 5-0; France beat Norway 4-1.",
+  "summary_zh": "塞内加尔 5-0 击败伊拉克，法国 4-1 击败挪威，乌拉圭 0-0 暂平西班牙，Cabo Verde 0-0 暂平沙特阿拉伯。",
+  "summary_en": "Senegal beat Iraq 5-0; France beat Norway 4-1; Uruguay and Spain are level 0-0; Cabo Verde and Saudi Arabia are level 0-0.",
   "standings_changes_zh": [
-    "Group E：德国 以 6 分领跑，科特迪瓦 6 分紧随其后。",
     "Group F：荷兰 以 7 分领跑，日本 5 分紧随其后。",
     "Group D：美国 以 6 分领跑，澳大利亚 4 分紧随其后。",
-    "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。"
+    "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。",
+    "Group H：西班牙 以 4 分领跑，乌拉圭 2 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group E: Germany lead with 6 points, followed by Côte d'Ivoire on 6.",
     "Group F: Netherlands lead with 7 points, followed by Japan on 5.",
     "Group D: USA lead with 6 points, followed by Australia on 4.",
-    "Group I: France lead with 9 points, followed by Norway on 6."
+    "Group I: France lead with 9 points, followed by Norway on 6.",
+    "Group H: Spain lead with 4 points, followed by Uruguay on 2."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -631,6 +603,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-26T21:16:43.059Z"
+    "fetched_at": "2026-06-27T00:05:41.194Z"
   }
 }
