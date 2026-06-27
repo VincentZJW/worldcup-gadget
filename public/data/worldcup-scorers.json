@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T20:08:02.604Z",
+  "updatedAt": "2026-06-27T21:38:26.491Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -2041,6 +2041,24 @@
     {
       "rank": 114,
       "player": {
+        "id": "petar sucic-CRO",
+        "name": "Petar Sucic",
+        "photo": ""
+      },
+      "team": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg"
+      },
+      "goals": 1,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 115,
+      "player": {
         "id": "promise david-CAN",
         "name": "Promise David",
         "photo": ""
@@ -2057,7 +2075,7 @@
       "minutes": null
     },
     {
-      "rank": 115,
+      "rank": 116,
       "player": {
         "id": "rafael leao-POR",
         "name": "Rafael Leao",
@@ -2075,7 +2093,7 @@
       "minutes": null
     },
     {
-      "rank": 116,
+      "rank": 117,
       "player": {
         "id": "raul jimenez-MEX",
         "name": "Raul Jimenez",
@@ -2093,7 +2111,7 @@
       "minutes": null
     },
     {
-      "rank": 117,
+      "rank": 118,
       "player": {
         "id": "romano schmid-AUT",
         "name": "Romano Schmid",
@@ -2111,7 +2129,7 @@
       "minutes": null
     },
     {
-      "rank": 118,
+      "rank": 119,
       "player": {
         "id": "romelu lukaku-BEL",
         "name": "Romelu Lukaku",
@@ -2129,7 +2147,7 @@
       "minutes": null
     },
     {
-      "rank": 119,
+      "rank": 120,
       "player": {
         "id": "sebastian berhalter-USA",
         "name": "Sebastian Berhalter",
@@ -2147,7 +2165,7 @@
       "minutes": null
     },
     {
-      "rank": 120,
+      "rank": 121,
       "player": {
         "id": "soufiane rahimi-MAR",
         "name": "Soufiane Rahimi",
@@ -2165,7 +2183,7 @@
       "minutes": null
     },
     {
-      "rank": 121,
+      "rank": 122,
       "player": {
         "id": "thapelo maseko-RSA",
         "name": "Thapelo Maseko",
@@ -2183,7 +2201,7 @@
       "minutes": null
     },
     {
-      "rank": 122,
+      "rank": 123,
       "player": {
         "id": "thelo aasgaard-NOR",
         "name": "Thelo Aasgaard",
@@ -2201,7 +2219,7 @@
       "minutes": null
     },
     {
-      "rank": 123,
+      "rank": 124,
       "player": {
         "id": "trezeguet-EGY",
         "name": "Trezeguet",
@@ -2219,7 +2237,7 @@
       "minutes": null
     },
     {
-      "rank": 124,
+      "rank": 125,
       "player": {
         "id": "viktor gyokeres-SWE",
         "name": "Viktor Gyokeres",
@@ -2237,7 +2255,7 @@
       "minutes": null
     },
     {
-      "rank": 125,
+      "rank": 126,
       "player": {
         "id": "virgil van dijk-NED",
         "name": "Virgil Van Dijk",
@@ -2255,7 +2273,7 @@
       "minutes": null
     },
     {
-      "rank": 126,
+      "rank": 127,
       "player": {
         "id": "wilson isidor-HAI",
         "name": "Wilson Isidor",
@@ -2273,7 +2291,7 @@
       "minutes": null
     },
     {
-      "rank": 127,
+      "rank": 128,
       "player": {
         "id": "yoane wissa-COD",
         "name": "Yoane Wissa",

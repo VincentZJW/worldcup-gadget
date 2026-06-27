@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T20:08:02.604Z",
+  "updatedAt": "2026-06-27T21:38:26.491Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -680,59 +680,59 @@
       "rows": [
         {
           "rank": 1,
+          "team": "Croatia",
+          "flag": "🇭🇷",
+          "flagUrl": "assets/flags/cro.svg",
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 4,
+          "goalsAgainst": 4,
+          "goalDifference": 0,
+          "points": 6
+        },
+        {
+          "rank": 2,
           "team": "England",
           "flag": "🏴",
           "flagUrl": "assets/flags/eng.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
           "goalsFor": 4,
           "goalsAgainst": 2,
           "goalDifference": 2,
-          "points": 4
-        },
-        {
-          "rank": 2,
-          "team": "Ghana",
-          "flag": "🇬🇭",
-          "flagUrl": "assets/flags/gha.svg",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 0,
-          "goalDifference": 1,
-          "points": 4
+          "points": 5
         },
         {
           "rank": 3,
-          "team": "Croatia",
-          "flag": "🇭🇷",
-          "flagUrl": "assets/flags/cro.svg",
-          "played": 2,
+          "team": "Ghana",
+          "flag": "🇬🇭",
+          "flagUrl": "assets/flags/gha.svg",
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "goalsFor": 3,
-          "goalsAgainst": 4,
-          "goalDifference": -1,
-          "points": 3
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 4
         },
         {
           "rank": 4,
           "team": "Panama",
           "flag": "🇵🇦",
           "flagUrl": "assets/flags/pan.svg",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 2,
           "goalsFor": 0,
           "goalsAgainst": 2,
           "goalDifference": -2,
-          "points": 0
+          "points": 1
         }
       ]
     }

@@ -1,9 +1,60 @@
 {
-  "updatedAt": "2026-06-27T20:08:02.604Z",
+  "updatedAt": "2026-06-27T21:38:26.491Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021508",
+      "stage": "Group L",
+      "status": "LIVE",
+      "minute": "37'",
+      "venue": "New York/New Jersey Stadium",
+      "home": {
+        "name": "Panama",
+        "code": "PAN",
+        "flag": "🇵🇦",
+        "flagUrl": "assets/flags/pan.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg",
+        "score": 0
+      },
+      "goals": []
+    },
+    {
+      "id": "400021509",
+      "stage": "Group L",
+      "status": "LIVE",
+      "minute": "37'",
+      "venue": "Philadelphia Stadium",
+      "home": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg",
+        "score": 1
+      },
+      "away": {
+        "name": "Ghana",
+        "code": "GHA",
+        "flag": "🇬🇭",
+        "flagUrl": "assets/flags/gha.svg",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "CRO",
+          "player": "Petar Sucic",
+          "minute": "31'",
+          "type": "goal"
+        }
+      ]
+    },
     {
       "id": "400021481",
       "stage": "Group G",
@@ -326,88 +377,6 @@
           "team": "TUR",
           "player": "Kaan Ayhan",
           "minute": "90'+8'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021473",
-      "stage": "Group F",
-      "status": "FT",
-      "minute": "",
-      "venue": "Kansas City Stadium",
-      "home": {
-        "name": "Tunisia",
-        "code": "TUN",
-        "flag": "🇹🇳",
-        "flagUrl": "assets/flags/tun.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Netherlands",
-        "code": "NED",
-        "flag": "🇳🇱",
-        "flagUrl": "assets/flags/ned.svg",
-        "score": 3
-      },
-      "goals": [
-        {
-          "team": "NED",
-          "player": "Ellyes Skhiri",
-          "minute": "3'",
-          "type": "own_goal"
-        },
-        {
-          "team": "NED",
-          "player": "Brian Brobbey",
-          "minute": "7'",
-          "type": "goal"
-        },
-        {
-          "team": "TUN",
-          "player": "Hazem Mastouri",
-          "minute": "54'",
-          "type": "goal"
-        },
-        {
-          "team": "NED",
-          "player": "Jan Paul Van Hecke",
-          "minute": "62'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021471",
-      "stage": "Group F",
-      "status": "FT",
-      "minute": "",
-      "venue": "Dallas Stadium",
-      "home": {
-        "name": "Japan",
-        "code": "JPN",
-        "flag": "🇯🇵",
-        "flagUrl": "assets/flags/jpn.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Sweden",
-        "code": "SWE",
-        "flag": "🇸🇪",
-        "flagUrl": "assets/flags/swe.svg",
-        "score": 1
-      },
-      "goals": [
-        {
-          "team": "JPN",
-          "player": "Daizen Maeda",
-          "minute": "56'",
-          "type": "goal"
-        },
-        {
-          "team": "SWE",
-          "player": "Anthony Elanga",
-          "minute": "62'",
           "type": "goal"
         }
       ]

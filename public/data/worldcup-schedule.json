@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T20:08:02.604Z",
+  "updatedAt": "2026-06-27T21:38:26.491Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -2926,22 +2926,22 @@
       "time": "北京时间 2026-06-28 05:00",
       "stage": "Group L",
       "venue": "New York/New Jersey Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "37'",
+      "score": "0-0",
       "home": {
         "name": "Panama",
         "code": "PAN",
         "flag": "🇵🇦",
         "flagUrl": "assets/flags/pan.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
@@ -2952,24 +2952,31 @@
       "time": "北京时间 2026-06-28 05:00",
       "stage": "Group L",
       "venue": "Philadelphia Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "37'",
+      "score": "1-0",
       "home": {
         "name": "Croatia",
         "code": "CRO",
         "flag": "🇭🇷",
         "flagUrl": "assets/flags/cro.svg",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Ghana",
         "code": "GHA",
         "flag": "🇬🇭",
         "flagUrl": "assets/flags/gha.svg",
-        "score": null
+        "score": 0
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "CRO",
+          "player": "Petar Sucic",
+          "minute": "31'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
