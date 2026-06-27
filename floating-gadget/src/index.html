@@ -281,7 +281,7 @@
           <section class="settings-section" aria-labelledby="settings-auto-update-heading">
             <div class="settings-section__copy">
               <h2 id="settings-auto-update-heading">数据自动更新</h2>
-              <p id="settings-auto-update-description">自动从远程数据源更新战报，失败时使用本地缓存。</p>
+              <p id="settings-auto-update-description">优先从 FIFA 实时数据更新战报，失败时使用 GitHub feed 或本地缓存。</p>
               <p class="settings-inline-status settings-inline-status--pending" id="settings-auto-update-status">准备更新</p>
             </div>
             <div class="settings-control-stack">
@@ -292,6 +292,14 @@
               </label>
               <button id="settings-auto-update-button" class="settings-action-button" type="button">立即更新</button>
             </div>
+          </section>
+
+          <section class="settings-section" aria-labelledby="settings-website-heading">
+            <div class="settings-section__copy">
+              <h2 id="settings-website-heading">网页接口</h2>
+              <p id="settings-website-description">打开 GitHub Pages 下载页，查看最新版和发布说明。</p>
+            </div>
+            <button id="settings-website-button" class="settings-action-button" type="button">打开网页</button>
           </section>
 
           <section class="settings-section" aria-labelledby="settings-data-heading">

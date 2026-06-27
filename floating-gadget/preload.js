@@ -19,6 +19,7 @@ const CHANNELS = Object.freeze({
   dragStart: "window:drag-start",
   dragMove: "window:drag-move",
   dragEnd: "window:drag-end",
+  openDownloadPage: "app:open-download-page",
   quitApp: "app:quit",
   reportChanged: "report:changed",
   shortcutShowBall: "shortcut:show-ball"
@@ -41,6 +42,7 @@ const gadgetAPI = Object.freeze({
   startWindowDrag: (point) => ipcRenderer.invoke(CHANNELS.dragStart, point),
   moveWindowDrag: (point) => ipcRenderer.send(CHANNELS.dragMove, point),
   endWindowDrag: () => ipcRenderer.invoke(CHANNELS.dragEnd),
+  openDownloadPage: () => ipcRenderer.invoke(CHANNELS.openDownloadPage),
   quitApp: () => ipcRenderer.invoke(CHANNELS.quitApp),
   onReportChanged: (handler) => {
     if (typeof handler !== "function") return () => {};

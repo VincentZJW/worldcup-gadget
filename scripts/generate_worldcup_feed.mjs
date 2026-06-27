@@ -2,6 +2,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 const DEFAULT_API_BASE_URL = "https://api.fifa.com/api/v3";
 const DEFAULT_COMPETITION_ID = "17";
@@ -792,40 +793,63 @@ async function buildReport(config) {
   return report;
 }
 
-async function main() {
-  const args = parseArgs(process.argv.slice(2));
-  const now = new Date(args.now || process.env.WORLD_CUP_NOW || Date.now());
+export async function generateWorldCupFeed(options = {}) {
+  const now = new Date(options.now || process.env.WORLD_CUP_NOW || Date.now());
   if (!Number.isFinite(now.getTime())) throw new Error("Invalid --now / WORLD_CUP_NOW value.");
 
-  const force = Boolean(args.force || process.env.WORLD_CUP_FORCE === "1");
+  const force = Boolean(options.force || process.env.WORLD_CUP_FORCE === "1");
   const tournamentStart = addDays(new Date(TOURNAMENT_START_ISO), -2);
   const tournamentEnd = addDays(new Date(TOURNAMENT_END_ISO), 2);
   if (!force && (now < tournamentStart || now > tournamentEnd)) {
     console.log(`Outside tournament window at ${now.toISOString()}; no feed update needed.`);
-    return;
+    return { skipped: true, changed: false, report: null, outputPath: null };
   }
 
-  const outputPath = path.resolve(args.output || process.env.WORLD_CUP_OUTPUT || "data/latest.json");
+  const outputPath = path.resolve(options.output || process.env.WORLD_CUP_OUTPUT || "data/latest.json");
   const config = {
-    apiBaseUrl: args.apiBaseUrl || process.env.WORLD_CUP_API_BASE_URL || DEFAULT_API_BASE_URL,
-    competitionId: String(args.competitionId || process.env.WORLD_CUP_COMPETITION_ID || DEFAULT_COMPETITION_ID),
-    seasonId: String(args.seasonId || process.env.WORLD_CUP_SEASON_ID || DEFAULT_SEASON_ID),
-    stageId: String(args.stageId || process.env.WORLD_CUP_STAGE_ID || DEFAULT_STAGE_ID),
-    locale: String(args.locale || process.env.WORLD_CUP_LOCALE || DEFAULT_LOCALE),
-    lookbackDays: numberOption(args.lookbackDays || process.env.WORLD_CUP_LOOKBACK_DAYS, DEFAULT_LOOKBACK_DAYS),
-    lookaheadDays: numberOption(args.lookaheadDays || process.env.WORLD_CUP_LOOKAHEAD_DAYS, DEFAULT_LOOKAHEAD_DAYS),
+    apiBaseUrl: options.apiBaseUrl || process.env.WORLD_CUP_API_BASE_URL || DEFAULT_API_BASE_URL,
+    competitionId: String(options.competitionId || process.env.WORLD_CUP_COMPETITION_ID || DEFAULT_COMPETITION_ID),
+    seasonId: String(options.seasonId || process.env.WORLD_CUP_SEASON_ID || DEFAULT_SEASON_ID),
+    stageId: String(options.stageId || process.env.WORLD_CUP_STAGE_ID || DEFAULT_STAGE_ID),
+    locale: String(options.locale || process.env.WORLD_CUP_LOCALE || DEFAULT_LOCALE),
+    lookbackDays: numberOption(options.lookbackDays || process.env.WORLD_CUP_LOOKBACK_DAYS, DEFAULT_LOOKBACK_DAYS),
+    lookaheadDays: numberOption(options.lookaheadDays || process.env.WORLD_CUP_LOOKAHEAD_DAYS, DEFAULT_LOOKAHEAD_DAYS),
     now
   };
 
   const report = await buildReport(config);
-  if (args.stdout) {
-    process.stdout.write(`${JSON.stringify(report, null, 2)}\n`);
-    return;
+  if (options.stdout) {
+    return { skipped: false, changed: false, report, outputPath };
   }
-  writeJsonIfChanged(outputPath, report);
+
+  const changed = writeJsonIfChanged(outputPath, report);
+  return { skipped: false, changed, report, outputPath };
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+async function main() {
+  const args = parseArgs(process.argv.slice(2));
+  const result = await generateWorldCupFeed({
+    now: args.now,
+    force: args.force,
+    output: args.output,
+    apiBaseUrl: args.apiBaseUrl,
+    competitionId: args.competitionId,
+    seasonId: args.seasonId,
+    stageId: args.stageId,
+    locale: args.locale,
+    lookbackDays: args.lookbackDays,
+    lookaheadDays: args.lookaheadDays,
+    stdout: args.stdout
+  });
+
+  if (args.stdout && result.report) {
+    process.stdout.write(`${JSON.stringify(result.report, null, 2)}\n`);
+  }
+}
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}

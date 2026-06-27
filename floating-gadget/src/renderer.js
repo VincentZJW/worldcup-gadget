@@ -81,13 +81,13 @@
       panelTitle: "2026 世界杯战报",
       readingReport: "正在读取本地战报…",
       refresh: "刷新",
-      refreshFallback: "远程数据更新失败，已重新读取本地缓存。",
-      refreshSuccess: "已从远程数据源更新并重新载入战报",
-      refreshTitle: "更新远程数据并刷新战报",
+      refreshFallback: "实时数据更新失败，已重新读取本地缓存。",
+      refreshSuccess: "已更新实时数据并重新载入战报",
+      refreshTitle: "更新实时数据并刷新战报",
       reportUnavailable: "本地战报不可用",
       settings: "设置",
       settingsAutoUpdateButton: "立即更新",
-      settingsAutoUpdateDescription: "自动从远程数据源更新战报，失败时使用本地缓存。",
+      settingsAutoUpdateDescription: "优先从 FIFA 实时数据更新战报，失败时使用 GitHub feed 或本地缓存。",
       settingsAutoUpdateHeading: "数据自动更新",
       settingsAutoUpdateStatusDisabled: "已关闭",
       settingsAutoUpdateStatusEnabled: "已开启 · 等待首次更新",
@@ -97,10 +97,15 @@
       settingsAutoUpdateStatusUpdating: "正在更新…",
       settingsAutoUpdateToggleLabel: "开启",
       settingsAutoUpdateUpdated: "数据自动更新设置已更新。",
-      settingsAutoUpdateRunSuccess: "远程数据已更新并写入本地缓存。",
-      settingsAutoUpdateRunError: "远程数据更新失败，继续使用本地缓存。",
+      settingsAutoUpdateRunSuccess: "实时数据已更新并写入本地缓存。",
+      settingsAutoUpdateRunError: "实时数据更新失败，继续使用本地缓存。",
       settingsBack: "返回",
       settingsBackTitle: "返回战报",
+      settingsWebsiteButton: "打开网页",
+      settingsWebsiteDescription: "打开 GitHub Pages 下载页，查看最新版和发布说明。",
+      settingsWebsiteHeading: "网页接口",
+      settingsWebsiteStatusError: "下载页打开失败。",
+      settingsWebsiteStatusSuccess: "已在浏览器打开下载页。",
       settingsDataButton: "重新读取",
       settingsDataDescription: "重新读取 latest.json，不请求网络接口。",
       settingsDataHeading: "本地数据",
@@ -221,13 +226,13 @@
       panelTitle: "2026 World Cup Brief",
       readingReport: "Reading local report…",
       refresh: "Refresh",
-      refreshFallback: "Remote data update failed. Reloaded the local cache instead.",
-      refreshSuccess: "Remote data updated and the brief has been reloaded",
-      refreshTitle: "Update remote data and refresh the brief",
+      refreshFallback: "Live data update failed. Reloaded the local cache instead.",
+      refreshSuccess: "Live data updated and the brief has been reloaded",
+      refreshTitle: "Update live data and refresh the brief",
       reportUnavailable: "Local report unavailable",
       settings: "Settings",
       settingsAutoUpdateButton: "Update Now",
-      settingsAutoUpdateDescription: "Automatically update reports from the remote feed. Uses local cache if it fails.",
+      settingsAutoUpdateDescription: "Use FIFA live data first. Falls back to the GitHub feed or local cache if it fails.",
       settingsAutoUpdateHeading: "Data Auto-Update",
       settingsAutoUpdateStatusDisabled: "Disabled",
       settingsAutoUpdateStatusEnabled: "Enabled · waiting for first update",
@@ -237,10 +242,15 @@
       settingsAutoUpdateStatusUpdating: "Updating…",
       settingsAutoUpdateToggleLabel: "Enable",
       settingsAutoUpdateUpdated: "Data auto-update setting updated.",
-      settingsAutoUpdateRunSuccess: "Remote data updated and saved to local cache.",
-      settingsAutoUpdateRunError: "Remote data update failed. Continuing with local cache.",
+      settingsAutoUpdateRunSuccess: "Live data updated and saved to local cache.",
+      settingsAutoUpdateRunError: "Live data update failed. Continuing with local cache.",
       settingsBack: "Back",
       settingsBackTitle: "Back to brief",
+      settingsWebsiteButton: "Open Page",
+      settingsWebsiteDescription: "Open the GitHub Pages download page for the latest release notes.",
+      settingsWebsiteHeading: "Web Link",
+      settingsWebsiteStatusError: "The download page could not be opened.",
+      settingsWebsiteStatusSuccess: "Opened the download page in your browser.",
       settingsDataButton: "Reload",
       settingsDataDescription: "Reload latest.json without calling network APIs.",
       settingsDataHeading: "Local Data",
@@ -381,6 +391,9 @@
   const settingsAutoUpdateToggleLabel = document.getElementById("settings-auto-update-toggle-label");
   const settingsAutoUpdateStatus = document.getElementById("settings-auto-update-status");
   const settingsAutoUpdateButton = document.getElementById("settings-auto-update-button");
+  const settingsWebsiteHeading = document.getElementById("settings-website-heading");
+  const settingsWebsiteDescription = document.getElementById("settings-website-description");
+  const settingsWebsiteButton = document.getElementById("settings-website-button");
   const settingsDataHeading = document.getElementById("settings-data-heading");
   const settingsDataDescription = document.getElementById("settings-data-description");
   const settingsDataHealthStatus = document.getElementById("settings-data-health-status");
@@ -423,6 +436,7 @@
     lastAttemptIso: null,
     lastSuccessIso: null,
     lastError: null,
+    lastSource: null,
     nextRunIso: null
   };
 
@@ -735,6 +749,7 @@
         lastAttemptIso: result.lastAttemptIso || null,
         lastSuccessIso: result.lastSuccessIso || null,
         lastError: result.lastError || null,
+        lastSource: result.lastSource || null,
         nextRunIso: result.nextRunIso || null
       };
     }
@@ -1146,6 +1161,9 @@
     settingsPositionDescription.textContent = t("settingsPositionDescription");
     settingsPositionButton.textContent = t("settingsPositionButton");
     updateDataUpdateUI();
+    settingsWebsiteHeading.textContent = t("settingsWebsiteHeading");
+    settingsWebsiteDescription.textContent = t("settingsWebsiteDescription");
+    settingsWebsiteButton.textContent = settingsWebsiteButton.disabled ? t("loading") : t("settingsWebsiteButton");
     settingsDataHeading.textContent = t("settingsDataHeading");
     settingsDataDescription.textContent = t("settingsDataDescription");
     dataHealthTitle.textContent = t("dataHealthTitle");
@@ -1762,6 +1780,24 @@
     }
   }
 
+  async function openDownloadPageFromSettings() {
+    settingsWebsiteButton.disabled = true;
+    settingsWebsiteButton.textContent = t("loading");
+
+    try {
+      const result = await window.gadgetAPI.openDownloadPage();
+      showSettingsStatus(
+        result && result.ok ? t("settingsWebsiteStatusSuccess") : t("settingsWebsiteStatusError"),
+        result && result.ok ? "success" : "error"
+      );
+    } catch (_error) {
+      showSettingsStatus(t("settingsWebsiteStatusError"), "error");
+    } finally {
+      settingsWebsiteButton.disabled = false;
+      settingsWebsiteButton.textContent = t("settingsWebsiteButton");
+    }
+  }
+
   function diagnosticsValue(value) {
     if (value === null || value === undefined || value === "") return "unknown";
     if (typeof value === "object") return JSON.stringify(value);
@@ -1804,6 +1840,7 @@
       `dataAutoUpdate.lastAttemptIso=${diagnosticsValue(dataUpdateState.lastAttemptIso || baseDiagnostics?.dataUpdate?.lastAttemptIso)}`,
       `dataAutoUpdate.lastSuccessIso=${diagnosticsValue(dataUpdateState.lastSuccessIso || baseDiagnostics?.dataUpdate?.lastSuccessIso)}`,
       `dataAutoUpdate.lastError=${diagnosticsValue(dataUpdateState.lastError || baseDiagnostics?.dataUpdate?.lastError)}`,
+      `dataAutoUpdate.lastSource=${diagnosticsValue(dataUpdateState.lastSource || baseDiagnostics?.dataUpdate?.lastSource)}`,
       `dataAutoUpdate.nextRunIso=${diagnosticsValue(dataUpdateState.nextRunIso || baseDiagnostics?.dataUpdate?.nextRunIso)}`,
       `launchAtLogin.status=${launchAtLoginStatus}`,
       `launchAtLogin.systemOpenAtLogin=${diagnosticsValue(baseDiagnostics?.loginItem?.openAtLogin)}`,
@@ -1932,6 +1969,9 @@
   });
   settingsAutoUpdateButton.addEventListener("click", () => {
     runDataUpdateFromSettings().catch(() => {});
+  });
+  settingsWebsiteButton.addEventListener("click", () => {
+    openDownloadPageFromSettings().catch(() => {});
   });
   settingsDataButton.addEventListener("click", () => {
     reloadDataFromSettings().catch(() => {});

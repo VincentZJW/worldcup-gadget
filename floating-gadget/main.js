@@ -1,12 +1,13 @@
 "use strict";
 
-const { app, BrowserWindow, clipboard, globalShortcut, ipcMain, screen } = require("electron");
+const { app, BrowserWindow, clipboard, globalShortcut, ipcMain, screen, shell } = require("electron");
 const fs = require("node:fs/promises");
 const fsSync = require("node:fs");
 const http = require("node:http");
 const https = require("node:https");
 const os = require("node:os");
 const path = require("node:path");
+const { pathToFileURL } = require("node:url");
 
 const BALL_SIZE = 64;
 const PANEL_WIDTH = 420;
@@ -22,6 +23,7 @@ const LEGACY_WORLD_CUP_FEED_URLS = new Set([
 ]);
 const DEFAULT_WORLD_CUP_FEED_URL =
   "https://raw.githubusercontent.com/VincentZJW/worldcup-gadget/master/data/latest.json";
+const DOWNLOAD_PAGE_URL = "https://vincentzjw.github.io/worldcup-gadget/";
 const DEFAULT_WORLD_CUP_FEED_FALLBACK_URLS = [
   "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget@master/data/latest.json",
   "https://cdn.jsdelivr.net/gh/VincentZJW/worldcup-gadget/data/latest.json",
@@ -49,6 +51,7 @@ let dataUpdateStatus = {
   lastAttemptIso: null,
   lastSuccessIso: null,
   lastError: null,
+  lastSource: null,
   nextRunIso: null
 };
 
@@ -74,6 +77,13 @@ function latestReportPath() {
 
 function latestReportDirectory() {
   return path.dirname(latestReportPath());
+}
+
+function worldCupFeedGeneratorPath() {
+  if (app.isPackaged) {
+    return path.join(process.resourcesPath, "scripts", "generate_worldcup_feed.mjs");
+  }
+  return path.resolve(__dirname, "..", "scripts", "generate_worldcup_feed.mjs");
 }
 
 function clamp(value, min, max) {
@@ -457,6 +467,28 @@ async function fetchRemoteReport(feedUrl) {
   throw lastError || new Error("UPDATE_FAILED");
 }
 
+async function generateLiveReportFromFifa() {
+  const generatorPath = worldCupFeedGeneratorPath();
+  const generatorModule = await import(pathToFileURL(generatorPath).href);
+  if (typeof generatorModule.generateWorldCupFeed !== "function") {
+    throw new Error("FIFA_GENERATOR_UNAVAILABLE");
+  }
+
+  const result = await generatorModule.generateWorldCupFeed({
+    output: latestReportPath(),
+    force: true,
+    lookbackDays: 3,
+    lookaheadDays: 2,
+    now: new Date()
+  });
+
+  if (!result || !reportDataLooksValid(result.report)) {
+    throw new Error("INVALID_FIFA_REPORT");
+  }
+
+  return result.report;
+}
+
 async function writeReportCache(data) {
   const targetPath = latestReportPath();
   const tempPath = `${targetPath}.tmp`;
@@ -516,8 +548,15 @@ async function runDataUpdate(reason = "manual") {
 
   dataUpdateInFlight = (async () => {
     try {
-      const data = await fetchRemoteReport(dataUpdateStatus.feedUrl);
-      await writeReportCache(data);
+      try {
+        await generateLiveReportFromFifa();
+        dataUpdateStatus.lastSource = "fifa";
+      } catch (fifaError) {
+        console.warn(`WorldCup FIFA live update failed (${reason}); falling back to remote feed:`, fifaError);
+        const data = await fetchRemoteReport(dataUpdateStatus.feedUrl);
+        await writeReportCache(data);
+        dataUpdateStatus.lastSource = "remote-feed";
+      }
       dataUpdateStatus.lastSuccessIso = new Date().toISOString();
       dataUpdateStatus.lastError = null;
       return getDataUpdateStatus();
@@ -825,6 +864,16 @@ function writeClipboardText(text) {
   return { ok: true };
 }
 
+async function openDownloadPage() {
+  try {
+    await shell.openExternal(DOWNLOAD_PAGE_URL);
+    return { ok: true, url: DOWNLOAD_PAGE_URL };
+  } catch (error) {
+    console.warn("Unable to open download page:", error);
+    return { ok: false, error: "OPEN_DOWNLOAD_PAGE_FAILED" };
+  }
+}
+
 function registerIpcHandlers() {
   ipcMain.handle("report:read", async (event) => {
     assertTrustedSender(event);
@@ -884,6 +933,11 @@ function registerIpcHandlers() {
   ipcMain.handle("app:quit", (event) => {
     assertTrustedSender(event);
     return quitGadget();
+  });
+
+  ipcMain.handle("app:open-download-page", async (event) => {
+    assertTrustedSender(event);
+    return openDownloadPage();
   });
 
   ipcMain.handle("diagnostics:read", (event) => {
