@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T22:45:18.684Z",
+  "updatedAt": "2026-06-27T00:07:13.194Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -2765,22 +2765,22 @@
       "time": "北京时间 2026-06-27 08:00",
       "stage": "Group H",
       "venue": "Guadalajara Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "6'",
+      "score": "0-0",
       "home": {
         "name": "Uruguay",
         "code": "URU",
         "flag": "🇺🇾",
         "flagUrl": "assets/flags/uru.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Spain",
         "code": "ESP",
         "flag": "🇪🇸",
         "flagUrl": "assets/flags/esp.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
@@ -2791,22 +2791,22 @@
       "time": "北京时间 2026-06-27 08:00",
       "stage": "Group H",
       "venue": "Houston Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "5'",
+      "score": "0-0",
       "home": {
         "name": "Cabo Verde",
         "code": "CAB",
         "flag": "🇨🇻",
         "flagUrl": "assets/flags/cab.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Saudi Arabia",
         "code": "KSA",
         "flag": "🇸🇦",
         "flagUrl": "assets/flags/ksa.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null

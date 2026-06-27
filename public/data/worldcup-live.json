@@ -1,9 +1,53 @@
 {
-  "updatedAt": "2026-06-26T22:45:18.684Z",
+  "updatedAt": "2026-06-27T00:07:13.194Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021484",
+      "stage": "Group H",
+      "status": "LIVE",
+      "minute": "6'",
+      "venue": "Guadalajara Stadium",
+      "home": {
+        "name": "Uruguay",
+        "code": "URU",
+        "flag": "🇺🇾",
+        "flagUrl": "assets/flags/uru.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg",
+        "score": 0
+      },
+      "goals": []
+    },
+    {
+      "id": "400021485",
+      "stage": "Group H",
+      "status": "LIVE",
+      "minute": "5'",
+      "venue": "Houston Stadium",
+      "home": {
+        "name": "Cabo Verde",
+        "code": "CAB",
+        "flag": "🇨🇻",
+        "flagUrl": "assets/flags/cab.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "flag": "🇸🇦",
+        "flagUrl": "assets/flags/ksa.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021493",
       "stage": "Group I",
@@ -339,76 +383,6 @@
           "team": "ECU",
           "player": "Gonzalo Plata",
           "minute": "77'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021445",
-      "stage": "Group A",
-      "status": "FT",
-      "minute": "",
-      "venue": "Monterrey Stadium",
-      "home": {
-        "name": "South Africa",
-        "code": "RSA",
-        "flag": "🇿🇦",
-        "flagUrl": "assets/flags/rsa.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Korea Republic",
-        "code": "KOR",
-        "flag": "🇰🇷",
-        "flagUrl": "assets/flags/kor.svg",
-        "score": 0
-      },
-      "goals": [
-        {
-          "team": "RSA",
-          "player": "Thapelo Maseko",
-          "minute": "63'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021444",
-      "stage": "Group A",
-      "status": "FT",
-      "minute": "",
-      "venue": "Mexico City Stadium",
-      "home": {
-        "name": "Czechia",
-        "code": "CZE",
-        "flag": "🇨🇿",
-        "flagUrl": "assets/flags/cze.svg",
-        "score": 0
-      },
-      "away": {
-        "name": "Mexico",
-        "code": "MEX",
-        "flag": "🇲🇽",
-        "flagUrl": "assets/flags/mex.svg",
-        "score": 3
-      },
-      "goals": [
-        {
-          "team": "MEX",
-          "player": "Mateo Chavez",
-          "minute": "55'",
-          "type": "goal"
-        },
-        {
-          "team": "MEX",
-          "player": "Julian Quinones",
-          "minute": "61'",
-          "type": "goal"
-        },
-        {
-          "team": "MEX",
-          "player": "Alvaro Fidalgo",
-          "minute": "90'+4'",
           "type": "goal"
         }
       ]
