@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T00:07:13.194Z",
+  "updatedAt": "2026-06-27T02:04:10.943Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,8 +7,8 @@
     {
       "id": "400021484",
       "stage": "Group H",
-      "status": "LIVE",
-      "minute": "6'",
+      "status": "FT",
+      "minute": "",
       "venue": "Guadalajara Stadium",
       "home": {
         "name": "Uruguay",
@@ -22,15 +22,22 @@
         "code": "ESP",
         "flag": "🇪🇸",
         "flagUrl": "assets/flags/esp.svg",
-        "score": 0
+        "score": 1
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "ESP",
+          "player": "Alex Baena",
+          "minute": "42'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021485",
       "stage": "Group H",
-      "status": "LIVE",
-      "minute": "5'",
+      "status": "FT",
+      "minute": "",
       "venue": "Houston Stadium",
       "home": {
         "name": "Cabo Verde",
