@@ -1,96 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-28 09:33",
+  "updated_at": "北京时间 2026-06-28 10:42",
   "date_range": "2026-06-27 to 2026-06-28",
-  "summary": "英格兰 2-0 击败巴拿马，克罗地亚 2-1 击败加纳，刚果民主共和国 3-1 击败乌兹别克斯坦，哥伦比亚 0-0 战平葡萄牙。",
+  "summary": "刚果民主共和国 3-1 击败乌兹别克斯坦，哥伦比亚 0-0 战平葡萄牙，奥地利 1-0 暂时领先阿尔及利亚，阿根廷 2-0 暂时领先约旦。",
   "matches": [
-    {
-      "group": "Group H",
-      "status": "FT",
-      "minute": "",
-      "venue": "Guadalajara Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-27 08:00",
-      "finished_at_bj": "北京时间 2026-06-27 09:52",
-      "team_a": {
-        "name": "Uruguay",
-        "flag": "🇺🇾",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "乌拉圭",
-        "name_en": "Uruguay"
-      },
-      "team_b": {
-        "name": "Spain",
-        "flag": "🇪🇸",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Alex Baena",
-            "minute": "42'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "西班牙",
-        "name_en": "Spain"
-      },
-      "venue_en": "Guadalajara Stadium",
-      "venue_zh": "Guadalajara Stadium",
-      "highlights_en": [
-        "Spain beat Uruguay 1-0 in Group H.",
-        "Alex Baena 42'",
-        "The match was played at Guadalajara Stadium."
-      ],
-      "highlights_zh": [
-        "西班牙 1-0 击败乌拉圭，比赛属于 Group H。",
-        "Alex Baena 42'",
-        "比赛场地：Guadalajara Stadium。"
-      ],
-      "highlights": [
-        "西班牙 1-0 击败乌拉圭，比赛属于 Group H。",
-        "Alex Baena 42'",
-        "比赛场地：Guadalajara Stadium。"
-      ]
-    },
-    {
-      "group": "Group H",
-      "status": "FT",
-      "minute": "",
-      "venue": "Houston Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-27 08:00",
-      "finished_at_bj": "北京时间 2026-06-27 09:51",
-      "team_a": {
-        "name": "Cabo Verde",
-        "flag": "🇨🇻",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "Cabo Verde",
-        "name_en": "Cabo Verde"
-      },
-      "team_b": {
-        "name": "Saudi Arabia",
-        "flag": "🇸🇦",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "沙特阿拉伯",
-        "name_en": "Saudi Arabia"
-      },
-      "venue_en": "Houston Stadium",
-      "venue_zh": "Houston Stadium",
-      "highlights_en": [
-        "Cabo Verde drew 0-0 with Saudi Arabia in Group H.",
-        "Neither side scored.",
-        "The match was played at Houston Stadium."
-      ],
-      "highlights_zh": [
-        "Cabo Verde 0-0 战平沙特阿拉伯，比赛属于 Group H。",
-        "双方均未取得进球。",
-        "比赛场地：Houston Stadium。"
-      ],
-      "highlights": [
-        "Cabo Verde 0-0 战平沙特阿拉伯，比赛属于 Group H。",
-        "双方均未取得进球。",
-        "比赛场地：Houston Stadium。"
-      ]
-    },
     {
       "group": "Group G",
       "status": "FT",
@@ -333,7 +245,7 @@
       "minute": "",
       "venue": "Atlanta Stadium",
       "kickoff_at_bj": "北京时间 2026-06-28 07:30",
-      "finished_at_bj": "北京时间 2026-06-28 09:15",
+      "finished_at_bj": "北京时间 2026-06-28 09:24",
       "team_a": {
         "name": "Congo DR",
         "flag": "🇨🇩",
@@ -425,47 +337,109 @@
         "双方均未取得进球。",
         "比赛场地：Miami Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group H：西班牙 以 7 分领跑，Cabo Verde 3 分紧随其后。",
-    "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
-    "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
-    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-28 10:00",
+      "group": "Group J",
+      "status": "LIVE",
+      "minute": "42'",
+      "venue": "Kansas City Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-28 10:00",
+      "finished_at_bj": "北京时间 2026-06-28 10:00",
       "team_a": {
         "name": "Algeria",
         "flag": "🇩🇿",
+        "score": 0,
+        "scorers": [],
         "name_zh": "阿尔及利亚",
         "name_en": "Algeria"
       },
       "team_b": {
         "name": "Austria",
         "flag": "🇦🇹",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Marko Arnautovic",
+            "minute": "28'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "奥地利",
         "name_en": "Austria"
       },
-      "group": "Group J"
+      "venue_en": "Kansas City Stadium",
+      "venue_zh": "Kansas City Stadium",
+      "highlights_en": [
+        "Austria lead Algeria 1-0 in Group J.",
+        "Marko Arnautovic 28'",
+        "The match was played at Kansas City Stadium."
+      ],
+      "highlights_zh": [
+        "奥地利 1-0 暂时领先阿尔及利亚，比赛属于 Group J。",
+        "Marko Arnautovic 28'",
+        "比赛场地：Kansas City Stadium。"
+      ],
+      "highlights": [
+        "奥地利 1-0 暂时领先阿尔及利亚，比赛属于 Group J。",
+        "Marko Arnautovic 28'",
+        "比赛场地：Kansas City Stadium。"
+      ]
     },
     {
-      "time_bj": "北京时间 2026-06-28 10:00",
+      "group": "Group J",
+      "status": "LIVE",
+      "minute": "43'",
+      "venue": "Dallas Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-28 10:00",
+      "finished_at_bj": "北京时间 2026-06-28 10:00",
       "team_a": {
         "name": "Jordan",
         "flag": "🇯🇴",
+        "score": 0,
+        "scorers": [],
         "name_zh": "约旦",
         "name_en": "Jordan"
       },
       "team_b": {
         "name": "Argentina",
         "flag": "🇦🇷",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Giovani Lo Celso",
+            "minute": "19'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "阿根廷",
         "name_en": "Argentina"
       },
-      "group": "Group J"
-    },
+      "venue_en": "Dallas Stadium",
+      "venue_zh": "Dallas Stadium",
+      "highlights_en": [
+        "Argentina lead Jordan 2-0 in Group J.",
+        "Giovani Lo Celso 19'",
+        "The match was played at Dallas Stadium."
+      ],
+      "highlights_zh": [
+        "阿根廷 2-0 暂时领先约旦，比赛属于 Group J。",
+        "Giovani Lo Celso 19'",
+        "比赛场地：Dallas Stadium。"
+      ],
+      "highlights": [
+        "阿根廷 2-0 暂时领先约旦，比赛属于 Group J。",
+        "Giovani Lo Celso 19'",
+        "比赛场地：Dallas Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
+    "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
+    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
+    "Group J：阿根廷 以 9 分领跑，奥地利 6 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-29 03:00",
       "team_a": {
@@ -564,19 +538,19 @@
     }
   ],
   "news": [],
-  "summary_zh": "英格兰 2-0 击败巴拿马，克罗地亚 2-1 击败加纳，刚果民主共和国 3-1 击败乌兹别克斯坦，哥伦比亚 0-0 战平葡萄牙。",
-  "summary_en": "England beat Panama 2-0; Croatia beat Ghana 2-1; Congo DR beat Uzbekistan 3-1; Colombia drew 0-0 with Portugal.",
+  "summary_zh": "刚果民主共和国 3-1 击败乌兹别克斯坦，哥伦比亚 0-0 战平葡萄牙，奥地利 1-0 暂时领先阿尔及利亚，阿根廷 2-0 暂时领先约旦。",
+  "summary_en": "Congo DR beat Uzbekistan 3-1; Colombia drew 0-0 with Portugal; Austria lead Algeria 1-0; Argentina lead Jordan 2-0.",
   "standings_changes_zh": [
-    "Group H：西班牙 以 7 分领跑，Cabo Verde 3 分紧随其后。",
     "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
     "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
-    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。"
+    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
+    "Group J：阿根廷 以 9 分领跑，奥地利 6 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group H: Spain lead with 7 points, followed by Cabo Verde on 3.",
     "Group G: Belgium lead with 5 points, followed by Egypt on 5.",
     "Group L: England lead with 7 points, followed by Croatia on 6.",
-    "Group K: Colombia lead with 7 points, followed by Portugal on 5."
+    "Group K: Colombia lead with 7 points, followed by Portugal on 5.",
+    "Group J: Argentina lead with 9 points, followed by Austria on 6."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -584,6 +558,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-28T01:33:36.090Z"
+    "fetched_at": "2026-06-28T02:42:58.569Z"
   }
 }
