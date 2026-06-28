@@ -1,81 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-28 14:57",
-  "date_range": "2026-06-27 to 2026-06-28",
-  "summary": "刚果民主共和国 3-1 击败乌兹别克斯坦，哥伦比亚 0-0 战平葡萄牙，阿尔及利亚 3-3 战平奥地利，阿根廷 3-1 击败约旦。",
+  "updated_at": "北京时间 2026-06-29 04:11",
+  "date_range": "2026-06-27 to 2026-06-29",
+  "summary": "哥伦比亚 0-0 战平葡萄牙，阿尔及利亚 3-3 战平奥地利，阿根廷 3-1 击败约旦，南非 0-0 暂平加拿大。",
   "matches": [
-    {
-      "group": "Group G",
-      "status": "FT",
-      "minute": "",
-      "venue": "BC Place Vancouver",
-      "kickoff_at_bj": "北京时间 2026-06-27 11:00",
-      "finished_at_bj": "北京时间 2026-06-27 12:51",
-      "team_a": {
-        "name": "New Zealand",
-        "flag": "🇳🇿",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Elijah Just",
-            "minute": "84'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "新西兰",
-        "name_en": "New Zealand"
-      },
-      "team_b": {
-        "name": "Belgium",
-        "flag": "🇧🇪",
-        "score": 5,
-        "scorers": [
-          {
-            "player": "Leandro Trossard",
-            "minute": "28'",
-            "type": "goal"
-          },
-          {
-            "player": "Leandro Trossard",
-            "minute": "50'",
-            "type": "goal"
-          },
-          {
-            "player": "Kevin De Bruyne",
-            "minute": "66'",
-            "type": "goal"
-          },
-          {
-            "player": "Romelu Lukaku",
-            "minute": "86'",
-            "type": "goal"
-          },
-          {
-            "player": "Alexis Saelemaekers",
-            "minute": "90'+4'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "比利时",
-        "name_en": "Belgium"
-      },
-      "venue_en": "BC Place Vancouver",
-      "venue_zh": "BC Place Vancouver",
-      "highlights_en": [
-        "Belgium beat New Zealand 5-1 in Group G.",
-        "Elijah Just 84', Leandro Trossard 28', Leandro Trossard 50', Kevin De Bruyne 66'",
-        "The match was played at BC Place Vancouver."
-      ],
-      "highlights_zh": [
-        "比利时 5-1 击败新西兰，比赛属于 Group G。",
-        "Elijah Just 84', Leandro Trossard 28', Leandro Trossard 50', Kevin De Bruyne 66'",
-        "比赛场地：BC Place Vancouver。"
-      ],
-      "highlights": [
-        "比利时 5-1 击败新西兰，比赛属于 Group G。",
-        "Elijah Just 84', Leandro Trossard 28', Leandro Trossard 50', Kevin De Bruyne 66'",
-        "比赛场地：BC Place Vancouver。"
-      ]
-    },
     {
       "group": "Group G",
       "status": "FT",
@@ -468,6 +395,47 @@
         "Mousa Altamari 55', Giovani Lo Celso 19', Lionel Messi 80'",
         "比赛场地：Dallas Stadium。"
       ]
+    },
+    {
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "51'",
+      "venue": "Los Angeles Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-29 03:00",
+      "finished_at_bj": "北京时间 2026-06-29 03:00",
+      "team_a": {
+        "name": "South Africa",
+        "flag": "🇿🇦",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "南非",
+        "name_en": "South Africa"
+      },
+      "team_b": {
+        "name": "Canada",
+        "flag": "🇨🇦",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "加拿大",
+        "name_en": "Canada"
+      },
+      "venue_en": "Los Angeles Stadium",
+      "venue_zh": "Los Angeles Stadium",
+      "highlights_en": [
+        "South Africa and Canada are level 0-0 in Group.",
+        "Neither side scored.",
+        "The match was played at Los Angeles Stadium."
+      ],
+      "highlights_zh": [
+        "南非 0-0 暂平加拿大，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Los Angeles Stadium。"
+      ],
+      "highlights": [
+        "南非 0-0 暂平加拿大，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Los Angeles Stadium。"
+      ]
     }
   ],
   "standings_changes": [
@@ -477,22 +445,6 @@
     "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
   ],
   "today_fixtures": [
-    {
-      "time_bj": "北京时间 2026-06-29 03:00",
-      "team_a": {
-        "name": "South Africa",
-        "flag": "🇿🇦",
-        "name_zh": "南非",
-        "name_en": "South Africa"
-      },
-      "team_b": {
-        "name": "Canada",
-        "flag": "🇨🇦",
-        "name_zh": "加拿大",
-        "name_en": "Canada"
-      },
-      "group": "Group"
-    },
     {
       "time_bj": "北京时间 2026-06-30 01:00",
       "team_a": {
@@ -575,8 +527,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "刚果民主共和国 3-1 击败乌兹别克斯坦，哥伦比亚 0-0 战平葡萄牙，阿尔及利亚 3-3 战平奥地利，阿根廷 3-1 击败约旦。",
-  "summary_en": "Congo DR beat Uzbekistan 3-1; Colombia drew 0-0 with Portugal; Algeria drew 3-3 with Austria; Argentina beat Jordan 3-1.",
+  "summary_zh": "哥伦比亚 0-0 战平葡萄牙，阿尔及利亚 3-3 战平奥地利，阿根廷 3-1 击败约旦，南非 0-0 暂平加拿大。",
+  "summary_en": "Colombia drew 0-0 with Portugal; Algeria drew 3-3 with Austria; Argentina beat Jordan 3-1; South Africa and Canada are level 0-0.",
   "standings_changes_zh": [
     "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
     "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
@@ -595,6 +547,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-28T06:57:10.735Z"
+    "fetched_at": "2026-06-28T20:11:59.668Z"
   }
 }
