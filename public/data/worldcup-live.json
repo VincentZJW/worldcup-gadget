@@ -1,9 +1,72 @@
 {
-  "updatedAt": "2026-06-27T23:02:47.882Z",
+  "updatedAt": "2026-06-28T01:34:08.425Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021500",
+      "stage": "Group K",
+      "status": "FT",
+      "minute": "",
+      "venue": "Atlanta Stadium",
+      "home": {
+        "name": "DR Congo",
+        "code": "COD",
+        "flag": "🇨🇩",
+        "flagUrl": "assets/flags/cod.svg",
+        "score": 3
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "flag": "🇺🇿",
+        "flagUrl": "assets/flags/uzb.svg",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "UZB",
+          "player": "Eldor Shomurodov",
+          "minute": "10'",
+          "type": "goal"
+        },
+        {
+          "team": "COD",
+          "player": "Fiston Mayele",
+          "minute": "78'",
+          "type": "goal"
+        },
+        {
+          "team": "COD",
+          "player": "Yoane Wissa",
+          "minute": "90'+1'",
+          "type": "goal"
+        }
+      ]
+    },
+    {
+      "id": "400021505",
+      "stage": "Group K",
+      "status": "FT",
+      "minute": "",
+      "venue": "Miami Stadium",
+      "home": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021508",
       "stage": "Group L",
@@ -327,81 +390,6 @@
           "team": "FRA",
           "player": "Desire Doue",
           "minute": "90'+4'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021461",
-      "stage": "Group D",
-      "status": "FT",
-      "minute": "",
-      "venue": "San Francisco Bay Area Stadium",
-      "home": {
-        "name": "Paraguay",
-        "code": "PAR",
-        "flag": "🇵🇾",
-        "flagUrl": "assets/flags/par.svg",
-        "score": 0
-      },
-      "away": {
-        "name": "Australia",
-        "code": "AUS",
-        "flag": "🇦🇺",
-        "flagUrl": "assets/flags/aus.svg",
-        "score": 0
-      },
-      "goals": []
-    },
-    {
-      "id": "400021459",
-      "stage": "Group D",
-      "status": "FT",
-      "minute": "",
-      "venue": "Los Angeles Stadium",
-      "home": {
-        "name": "Türkiye",
-        "code": "TUR",
-        "flag": "🇹🇷",
-        "flagUrl": "assets/flags/tur.svg",
-        "score": 3
-      },
-      "away": {
-        "name": "USA",
-        "code": "USA",
-        "flag": "🇺🇸",
-        "flagUrl": "assets/flags/usa.svg",
-        "score": 2
-      },
-      "goals": [
-        {
-          "team": "USA",
-          "player": "Auston Trusty",
-          "minute": "3'",
-          "type": "goal"
-        },
-        {
-          "team": "TUR",
-          "player": "Arda Guler",
-          "minute": "10'",
-          "type": "goal"
-        },
-        {
-          "team": "TUR",
-          "player": "Baris Alper Yilmaz",
-          "minute": "31'",
-          "type": "goal"
-        },
-        {
-          "team": "USA",
-          "player": "Sebastian Berhalter",
-          "minute": "49'",
-          "type": "goal"
-        },
-        {
-          "team": "TUR",
-          "player": "Kaan Ayhan",
-          "minute": "90'+8'",
           "type": "goal"
         }
       ]

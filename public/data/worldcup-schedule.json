@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T23:02:47.882Z",
+  "updatedAt": "2026-06-28T01:34:08.425Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3010,25 +3010,44 @@
       "time": "北京时间 2026-06-28 07:30",
       "stage": "Group K",
       "venue": "Atlanta Stadium",
-      "status": "Scheduled",
+      "status": "FT",
       "minute": "",
-      "score": "",
+      "score": "3-1",
       "home": {
         "name": "DR Congo",
         "code": "COD",
         "flag": "🇨🇩",
         "flagUrl": "assets/flags/cod.svg",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Uzbekistan",
         "code": "UZB",
         "flag": "🇺🇿",
         "flagUrl": "assets/flags/uzb.svg",
-        "score": null
+        "score": 1
       },
-      "goals": [],
-      "winner": null
+      "goals": [
+        {
+          "team": "UZB",
+          "player": "Eldor Shomurodov",
+          "minute": "10'",
+          "type": "goal"
+        },
+        {
+          "team": "COD",
+          "player": "Fiston Mayele",
+          "minute": "78'",
+          "type": "goal"
+        },
+        {
+          "team": "COD",
+          "player": "Yoane Wissa",
+          "minute": "90'+1'",
+          "type": "goal"
+        }
+      ],
+      "winner": "20014"
     },
     {
       "id": "400021505",
@@ -3036,22 +3055,22 @@
       "time": "北京时间 2026-06-28 07:30",
       "stage": "Group K",
       "venue": "Miami Stadium",
-      "status": "Scheduled",
+      "status": "FT",
       "minute": "",
-      "score": "",
+      "score": "0-0",
       "home": {
         "name": "Colombia",
         "code": "COL",
         "flag": "🇨🇴",
         "flagUrl": "assets/flags/col.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Portugal",
         "code": "POR",
         "flag": "🇵🇹",
         "flagUrl": "assets/flags/por.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
@@ -3307,10 +3326,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "DR Congo",
+        "code": "COD",
+        "flag": "🇨🇩",
+        "flagUrl": "assets/flags/cod.svg",
         "score": null
       },
       "goals": [],
@@ -3333,10 +3352,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg",
         "score": null
       },
       "goals": [],
@@ -3404,10 +3423,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg",
         "score": null
       },
       "away": {
@@ -3508,10 +3527,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg",
         "score": null
       },
       "away": {
