@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T01:34:08.425Z",
+  "updatedAt": "2026-06-28T02:14:54.381Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -561,56 +561,56 @@
           "team": "Argentina",
           "flag": "🇦🇷",
           "flagUrl": "assets/flags/arg.svg",
-          "played": 2,
+          "played": 3,
           "won": 2,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "goalsFor": 5,
           "goalsAgainst": 0,
           "goalDifference": 5,
-          "points": 6
+          "points": 7
         },
         {
           "rank": 2,
           "team": "Austria",
           "flag": "🇦🇹",
           "flagUrl": "assets/flags/aut.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "goalsFor": 3,
           "goalsAgainst": 3,
           "goalDifference": 0,
-          "points": 3
+          "points": 4
         },
         {
           "rank": 3,
           "team": "Algeria",
           "flag": "🇩🇿",
           "flagUrl": "assets/flags/alg.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "goalsFor": 2,
           "goalsAgainst": 4,
           "goalDifference": -2,
-          "points": 3
+          "points": 4
         },
         {
           "rank": 4,
           "team": "Jordan",
           "flag": "🇯🇴",
           "flagUrl": "assets/flags/jor.svg",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 2,
           "goalsFor": 2,
           "goalsAgainst": 5,
           "goalDifference": -3,
-          "points": 0
+          "points": 1
         }
       ]
     },

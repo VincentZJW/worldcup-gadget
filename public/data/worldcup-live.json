@@ -1,9 +1,53 @@
 {
-  "updatedAt": "2026-06-28T01:34:08.425Z",
+  "updatedAt": "2026-06-28T02:14:54.381Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021497",
+      "stage": "Group J",
+      "status": "LIVE",
+      "minute": "14'",
+      "venue": "Kansas City Stadium",
+      "home": {
+        "name": "Algeria",
+        "code": "ALG",
+        "flag": "🇩🇿",
+        "flagUrl": "assets/flags/alg.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Austria",
+        "code": "AUT",
+        "flag": "🇦🇹",
+        "flagUrl": "assets/flags/aut.svg",
+        "score": 0
+      },
+      "goals": []
+    },
+    {
+      "id": "400021495",
+      "stage": "Group J",
+      "status": "LIVE",
+      "minute": "14'",
+      "venue": "Dallas Stadium",
+      "home": {
+        "name": "Jordan",
+        "code": "JOR",
+        "flag": "🇯🇴",
+        "flagUrl": "assets/flags/jor.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "flagUrl": "assets/flags/arg.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021500",
       "stage": "Group K",
@@ -287,112 +331,6 @@
         "score": 0
       },
       "goals": []
-    },
-    {
-      "id": "400021493",
-      "stage": "Group I",
-      "status": "FT",
-      "minute": "",
-      "venue": "Toronto Stadium",
-      "home": {
-        "name": "Senegal",
-        "code": "SEN",
-        "flag": "🇸🇳",
-        "flagUrl": "assets/flags/sen.svg",
-        "score": 5
-      },
-      "away": {
-        "name": "Iraq",
-        "code": "IRQ",
-        "flag": "🇮🇶",
-        "flagUrl": "assets/flags/irq.svg",
-        "score": 0
-      },
-      "goals": [
-        {
-          "team": "SEN",
-          "player": "Habib Diarra",
-          "minute": "4'",
-          "type": "goal"
-        },
-        {
-          "team": "SEN",
-          "player": "Ismaila Sarr",
-          "minute": "56'",
-          "type": "goal"
-        },
-        {
-          "team": "SEN",
-          "player": "Pape Gueye",
-          "minute": "59'",
-          "type": "goal"
-        },
-        {
-          "team": "SEN",
-          "player": "Pape Gueye",
-          "minute": "71'",
-          "type": "goal"
-        },
-        {
-          "team": "SEN",
-          "player": "Iliman Ndiaye",
-          "minute": "82'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021489",
-      "stage": "Group I",
-      "status": "FT",
-      "minute": "",
-      "venue": "Boston Stadium",
-      "home": {
-        "name": "Norway",
-        "code": "NOR",
-        "flag": "🇳🇴",
-        "flagUrl": "assets/flags/nor.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "France",
-        "code": "FRA",
-        "flag": "🇫🇷",
-        "flagUrl": "assets/flags/fra.svg",
-        "score": 4
-      },
-      "goals": [
-        {
-          "team": "FRA",
-          "player": "Ousmane Dembele",
-          "minute": "7'",
-          "type": "goal"
-        },
-        {
-          "team": "FRA",
-          "player": "Ousmane Dembele",
-          "minute": "20'",
-          "type": "goal"
-        },
-        {
-          "team": "NOR",
-          "player": "Thelo Aasgaard",
-          "minute": "21'",
-          "type": "goal"
-        },
-        {
-          "team": "FRA",
-          "player": "Ousmane Dembele",
-          "minute": "32'",
-          "type": "goal"
-        },
-        {
-          "team": "FRA",
-          "player": "Desire Doue",
-          "minute": "90'+4'",
-          "type": "goal"
-        }
-      ]
     }
   ]
 }

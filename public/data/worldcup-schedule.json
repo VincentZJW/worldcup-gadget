@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T01:34:08.425Z",
+  "updatedAt": "2026-06-28T02:14:54.381Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3081,22 +3081,22 @@
       "time": "北京时间 2026-06-28 10:00",
       "stage": "Group J",
       "venue": "Kansas City Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "14'",
+      "score": "0-0",
       "home": {
         "name": "Algeria",
         "code": "ALG",
         "flag": "🇩🇿",
         "flagUrl": "assets/flags/alg.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Austria",
         "code": "AUT",
         "flag": "🇦🇹",
         "flagUrl": "assets/flags/aut.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
@@ -3107,22 +3107,22 @@
       "time": "北京时间 2026-06-28 10:00",
       "stage": "Group J",
       "venue": "Dallas Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "14'",
+      "score": "0-0",
       "home": {
         "name": "Jordan",
         "code": "JOR",
         "flag": "🇯🇴",
         "flagUrl": "assets/flags/jor.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
