@@ -1,143 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-28 07:00",
+  "updated_at": "北京时间 2026-06-28 09:33",
   "date_range": "2026-06-27 to 2026-06-28",
-  "summary": "比利时 5-1 击败新西兰，埃及 1-1 战平IR Iran，英格兰 2-0 击败巴拿马，克罗地亚 2-1 击败加纳。",
+  "summary": "英格兰 2-0 击败巴拿马，克罗地亚 2-1 击败加纳，刚果民主共和国 3-1 击败乌兹别克斯坦，哥伦比亚 0-0 战平葡萄牙。",
   "matches": [
-    {
-      "group": "Group I",
-      "status": "FT",
-      "minute": "",
-      "venue": "Toronto Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-27 03:00",
-      "finished_at_bj": "北京时间 2026-06-27 04:52",
-      "team_a": {
-        "name": "Senegal",
-        "flag": "🇸🇳",
-        "score": 5,
-        "scorers": [
-          {
-            "player": "Habib Diarra",
-            "minute": "4'",
-            "type": "goal"
-          },
-          {
-            "player": "Ismaila Sarr",
-            "minute": "56'",
-            "type": "goal"
-          },
-          {
-            "player": "Pape Gueye",
-            "minute": "59'",
-            "type": "goal"
-          },
-          {
-            "player": "Pape Gueye",
-            "minute": "71'",
-            "type": "goal"
-          },
-          {
-            "player": "Iliman Ndiaye",
-            "minute": "82'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "塞内加尔",
-        "name_en": "Senegal"
-      },
-      "team_b": {
-        "name": "Iraq",
-        "flag": "🇮🇶",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "伊拉克",
-        "name_en": "Iraq"
-      },
-      "venue_en": "Toronto Stadium",
-      "venue_zh": "Toronto Stadium",
-      "highlights_en": [
-        "Senegal beat Iraq 5-0 in Group I.",
-        "Habib Diarra 4', Ismaila Sarr 56', Pape Gueye 59', Pape Gueye 71'",
-        "The match was played at Toronto Stadium."
-      ],
-      "highlights_zh": [
-        "塞内加尔 5-0 击败伊拉克，比赛属于 Group I。",
-        "Habib Diarra 4', Ismaila Sarr 56', Pape Gueye 59', Pape Gueye 71'",
-        "比赛场地：Toronto Stadium。"
-      ],
-      "highlights": [
-        "塞内加尔 5-0 击败伊拉克，比赛属于 Group I。",
-        "Habib Diarra 4', Ismaila Sarr 56', Pape Gueye 59', Pape Gueye 71'",
-        "比赛场地：Toronto Stadium。"
-      ]
-    },
-    {
-      "group": "Group I",
-      "status": "FT",
-      "minute": "",
-      "venue": "Boston Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-27 03:00",
-      "finished_at_bj": "北京时间 2026-06-27 04:51",
-      "team_a": {
-        "name": "Norway",
-        "flag": "🇳🇴",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Thelo Aasgaard",
-            "minute": "21'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "挪威",
-        "name_en": "Norway"
-      },
-      "team_b": {
-        "name": "France",
-        "flag": "🇫🇷",
-        "score": 4,
-        "scorers": [
-          {
-            "player": "Ousmane Dembele",
-            "minute": "7'",
-            "type": "goal"
-          },
-          {
-            "player": "Ousmane Dembele",
-            "minute": "20'",
-            "type": "goal"
-          },
-          {
-            "player": "Ousmane Dembele",
-            "minute": "32'",
-            "type": "goal"
-          },
-          {
-            "player": "Desire Doue",
-            "minute": "90'+4'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "法国",
-        "name_en": "France"
-      },
-      "venue_en": "Boston Stadium",
-      "venue_zh": "Boston Stadium",
-      "highlights_en": [
-        "France beat Norway 4-1 in Group I.",
-        "Thelo Aasgaard 21', Ousmane Dembele 7', Ousmane Dembele 20', Ousmane Dembele 32'",
-        "The match was played at Boston Stadium."
-      ],
-      "highlights_zh": [
-        "法国 4-1 击败挪威，比赛属于 Group I。",
-        "Thelo Aasgaard 21', Ousmane Dembele 7', Ousmane Dembele 20', Ousmane Dembele 32'",
-        "比赛场地：Boston Stadium。"
-      ],
-      "highlights": [
-        "法国 4-1 击败挪威，比赛属于 Group I。",
-        "Thelo Aasgaard 21', Ousmane Dembele 7', Ousmane Dembele 20', Ousmane Dembele 32'",
-        "比赛场地：Boston Stadium。"
-      ]
-    },
     {
       "group": "Group H",
       "status": "FT",
@@ -461,47 +326,114 @@
         "Petar Sucic 31', Nikola Vlasic 83', Derrick Luckassen 73'",
         "比赛场地：Philadelphia Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。",
-    "Group H：西班牙 以 7 分领跑，Cabo Verde 3 分紧随其后。",
-    "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
-    "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-28 07:30",
+      "group": "Group K",
+      "status": "FT",
+      "minute": "",
+      "venue": "Atlanta Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-28 07:30",
+      "finished_at_bj": "北京时间 2026-06-28 09:15",
       "team_a": {
         "name": "Congo DR",
         "flag": "🇨🇩",
+        "score": 3,
+        "scorers": [
+          {
+            "player": "Fiston Mayele",
+            "minute": "78'",
+            "type": "goal"
+          },
+          {
+            "player": "Yoane Wissa",
+            "minute": "90'+1'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "刚果民主共和国",
         "name_en": "Congo DR"
       },
       "team_b": {
         "name": "Uzbekistan",
         "flag": "🇺🇿",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Eldor Shomurodov",
+            "minute": "10'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "乌兹别克斯坦",
         "name_en": "Uzbekistan"
       },
-      "group": "Group K"
+      "venue_en": "Atlanta Stadium",
+      "venue_zh": "Atlanta Stadium",
+      "highlights_en": [
+        "Congo DR beat Uzbekistan 3-1 in Group K.",
+        "Fiston Mayele 78', Yoane Wissa 90'+1', Eldor Shomurodov 10'",
+        "The match was played at Atlanta Stadium."
+      ],
+      "highlights_zh": [
+        "刚果民主共和国 3-1 击败乌兹别克斯坦，比赛属于 Group K。",
+        "Fiston Mayele 78', Yoane Wissa 90'+1', Eldor Shomurodov 10'",
+        "比赛场地：Atlanta Stadium。"
+      ],
+      "highlights": [
+        "刚果民主共和国 3-1 击败乌兹别克斯坦，比赛属于 Group K。",
+        "Fiston Mayele 78', Yoane Wissa 90'+1', Eldor Shomurodov 10'",
+        "比赛场地：Atlanta Stadium。"
+      ]
     },
     {
-      "time_bj": "北京时间 2026-06-28 07:30",
+      "group": "Group K",
+      "status": "FT",
+      "minute": "",
+      "venue": "Miami Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-28 07:30",
+      "finished_at_bj": "北京时间 2026-06-28 09:21",
       "team_a": {
         "name": "Colombia",
         "flag": "🇨🇴",
+        "score": 0,
+        "scorers": [],
         "name_zh": "哥伦比亚",
         "name_en": "Colombia"
       },
       "team_b": {
         "name": "Portugal",
         "flag": "🇵🇹",
+        "score": 0,
+        "scorers": [],
         "name_zh": "葡萄牙",
         "name_en": "Portugal"
       },
-      "group": "Group K"
-    },
+      "venue_en": "Miami Stadium",
+      "venue_zh": "Miami Stadium",
+      "highlights_en": [
+        "Colombia drew 0-0 with Portugal in Group K.",
+        "Neither side scored.",
+        "The match was played at Miami Stadium."
+      ],
+      "highlights_zh": [
+        "哥伦比亚 0-0 战平葡萄牙，比赛属于 Group K。",
+        "双方均未取得进球。",
+        "比赛场地：Miami Stadium。"
+      ],
+      "highlights": [
+        "哥伦比亚 0-0 战平葡萄牙，比赛属于 Group K。",
+        "双方均未取得进球。",
+        "比赛场地：Miami Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group H：西班牙 以 7 分领跑，Cabo Verde 3 分紧随其后。",
+    "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
+    "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
+    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-28 10:00",
       "team_a": {
@@ -581,22 +513,70 @@
         "name_en": "Paraguay"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-06-30 09:00",
+      "team_a": {
+        "name": "Netherlands",
+        "flag": "🇳🇱",
+        "name_zh": "荷兰",
+        "name_en": "Netherlands"
+      },
+      "team_b": {
+        "name": "Morocco",
+        "flag": "🇲🇦",
+        "name_zh": "摩洛哥",
+        "name_en": "Morocco"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-01 01:00",
+      "team_a": {
+        "name": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "name_zh": "科特迪瓦",
+        "name_en": "Côte d'Ivoire"
+      },
+      "team_b": {
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "name_zh": "挪威",
+        "name_en": "Norway"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-01 05:00",
+      "team_a": {
+        "name": "France",
+        "flag": "🇫🇷",
+        "name_zh": "法国",
+        "name_en": "France"
+      },
+      "team_b": {
+        "name": "Sweden",
+        "flag": "🇸🇪",
+        "name_zh": "瑞典",
+        "name_en": "Sweden"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
-  "summary_zh": "比利时 5-1 击败新西兰，埃及 1-1 战平IR Iran，英格兰 2-0 击败巴拿马，克罗地亚 2-1 击败加纳。",
-  "summary_en": "Belgium beat New Zealand 5-1; Egypt drew 1-1 with IR Iran; England beat Panama 2-0; Croatia beat Ghana 2-1.",
+  "summary_zh": "英格兰 2-0 击败巴拿马，克罗地亚 2-1 击败加纳，刚果民主共和国 3-1 击败乌兹别克斯坦，哥伦比亚 0-0 战平葡萄牙。",
+  "summary_en": "England beat Panama 2-0; Croatia beat Ghana 2-1; Congo DR beat Uzbekistan 3-1; Colombia drew 0-0 with Portugal.",
   "standings_changes_zh": [
-    "Group I：法国 以 9 分领跑，挪威 6 分紧随其后。",
     "Group H：西班牙 以 7 分领跑，Cabo Verde 3 分紧随其后。",
     "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
-    "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。"
+    "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
+    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group I: France lead with 9 points, followed by Norway on 6.",
     "Group H: Spain lead with 7 points, followed by Cabo Verde on 3.",
     "Group G: Belgium lead with 5 points, followed by Egypt on 5.",
-    "Group L: England lead with 7 points, followed by Croatia on 6."
+    "Group L: England lead with 7 points, followed by Croatia on 6.",
+    "Group K: Colombia lead with 7 points, followed by Portugal on 5."
   ],
   "source": {
     "provider": "FIFA FDH API",
@@ -604,6 +584,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-27T23:00:24.691Z"
+    "fetched_at": "2026-06-28T01:33:36.090Z"
   }
 }
