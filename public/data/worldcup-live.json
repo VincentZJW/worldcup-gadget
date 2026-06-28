@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T20:13:51.918Z",
+  "updatedAt": "2026-06-28T21:38:43.375Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,8 +7,8 @@
     {
       "id": "400021518",
       "stage": "Round of 32",
-      "status": "LIVE",
-      "minute": "53'",
+      "status": "FT",
+      "minute": "",
       "venue": "Los Angeles Stadium",
       "home": {
         "name": "South Africa",
@@ -22,9 +22,16 @@
         "code": "CAN",
         "flag": "🇨🇦",
         "flagUrl": "assets/flags/can.svg",
-        "score": 0
+        "score": 1
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "CAN",
+          "player": "Stephen Eustaquio",
+          "minute": "90'+2'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021497",

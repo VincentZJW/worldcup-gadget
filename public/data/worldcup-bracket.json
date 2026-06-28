@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T20:13:51.918Z",
+  "updatedAt": "2026-06-28T21:38:43.375Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -12,7 +12,7 @@
           "date": "2026-06-29",
           "time": "北京时间 2026-06-29 03:00",
           "stage": "Round of 32",
-          "status": "LIVE",
+          "status": "FT",
           "home": {
             "name": "South Africa",
             "code": "RSA",
@@ -25,13 +25,20 @@
             "code": "CAN",
             "flag": "🇨🇦",
             "flagUrl": "assets/flags/can.svg",
-            "score": 0
+            "score": 1
           },
-          "winner": null,
+          "winner": "43899",
           "venue": "Los Angeles Stadium",
-          "minute": "53'",
-          "score": "0-0",
-          "goals": []
+          "minute": "",
+          "score": "0-1",
+          "goals": [
+            {
+              "team": "CAN",
+              "player": "Stephen Eustaquio",
+              "minute": "90'+2'",
+              "type": "goal"
+            }
+          ]
         },
         {
           "id": "400021516",
@@ -435,10 +442,10 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Canada",
+            "code": "CAN",
+            "flag": "🇨🇦",
+            "flagUrl": "assets/flags/can.svg",
             "score": null
           },
           "away": {
