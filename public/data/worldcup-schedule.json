@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T18:44:46.844Z",
+  "updatedAt": "2026-06-28T20:13:51.918Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3189,22 +3189,22 @@
       "time": "北京时间 2026-06-29 03:00",
       "stage": "Round of 32",
       "venue": "Los Angeles Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "53'",
+      "score": "0-0",
       "home": {
         "name": "South Africa",
         "code": "RSA",
         "flag": "🇿🇦",
         "flagUrl": "assets/flags/rsa.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Canada",
         "code": "CAN",
         "flag": "🇨🇦",
         "flagUrl": "assets/flags/can.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null

@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-06-28T18:44:46.844Z",
+  "updatedAt": "2026-06-28T20:13:51.918Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021518",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "53'",
+      "venue": "Los Angeles Stadium",
+      "home": {
+        "name": "South Africa",
+        "code": "RSA",
+        "flag": "🇿🇦",
+        "flagUrl": "assets/flags/rsa.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021497",
       "stage": "Group J",
@@ -365,28 +387,6 @@
           "type": "goal"
         }
       ]
-    },
-    {
-      "id": "400021485",
-      "stage": "Group H",
-      "status": "FT",
-      "minute": "",
-      "venue": "Houston Stadium",
-      "home": {
-        "name": "Cabo Verde",
-        "code": "CAB",
-        "flag": "🇨🇻",
-        "flagUrl": "assets/flags/cab.svg",
-        "score": 0
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "code": "KSA",
-        "flag": "🇸🇦",
-        "flagUrl": "assets/flags/ksa.svg",
-        "score": 0
-      },
-      "goals": []
     }
   ]
 }
