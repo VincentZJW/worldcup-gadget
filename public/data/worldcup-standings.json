@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T02:14:54.381Z",
+  "updatedAt": "2026-06-28T06:40:57.111Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -562,13 +562,13 @@
           "flag": "🇦🇷",
           "flagUrl": "assets/flags/arg.svg",
           "played": 3,
-          "won": 2,
-          "drawn": 1,
+          "won": 3,
+          "drawn": 0,
           "lost": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 0,
-          "goalDifference": 5,
-          "points": 7
+          "goalsFor": 8,
+          "goalsAgainst": 1,
+          "goalDifference": 7,
+          "points": 9
         },
         {
           "rank": 2,
@@ -579,8 +579,8 @@
           "won": 1,
           "drawn": 1,
           "lost": 1,
-          "goalsFor": 3,
-          "goalsAgainst": 3,
+          "goalsFor": 6,
+          "goalsAgainst": 6,
           "goalDifference": 0,
           "points": 4
         },
@@ -593,8 +593,8 @@
           "won": 1,
           "drawn": 1,
           "lost": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 4,
+          "goalsFor": 5,
+          "goalsAgainst": 7,
           "goalDifference": -2,
           "points": 4
         },
@@ -605,12 +605,12 @@
           "flagUrl": "assets/flags/jor.svg",
           "played": 3,
           "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3,
-          "points": 1
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 8,
+          "goalDifference": -5,
+          "points": 0
         }
       ]
     },

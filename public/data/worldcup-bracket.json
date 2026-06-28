@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T02:14:54.381Z",
+  "updatedAt": "2026-06-28T06:40:57.111Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -281,10 +281,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Austria",
+            "code": "AUT",
+            "flag": "🇦🇹",
+            "flagUrl": "assets/flags/aut.svg",
             "score": null
           },
           "winner": null,
@@ -333,10 +333,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Algeria",
+            "code": "ALG",
+            "flag": "🇩🇿",
+            "flagUrl": "assets/flags/alg.svg",
             "score": null
           },
           "winner": null,

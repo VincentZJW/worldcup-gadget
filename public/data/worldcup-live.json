@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T02:14:54.381Z",
+  "updatedAt": "2026-06-28T06:40:57.111Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,46 +7,102 @@
     {
       "id": "400021497",
       "stage": "Group J",
-      "status": "LIVE",
-      "minute": "14'",
+      "status": "FT",
+      "minute": "",
       "venue": "Kansas City Stadium",
       "home": {
         "name": "Algeria",
         "code": "ALG",
         "flag": "🇩🇿",
         "flagUrl": "assets/flags/alg.svg",
-        "score": 0
+        "score": 3
       },
       "away": {
         "name": "Austria",
         "code": "AUT",
         "flag": "🇦🇹",
         "flagUrl": "assets/flags/aut.svg",
-        "score": 0
+        "score": 3
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "AUT",
+          "player": "Marko Arnautovic",
+          "minute": "28'",
+          "type": "goal"
+        },
+        {
+          "team": "ALG",
+          "player": "Rafik Belghali",
+          "minute": "45'",
+          "type": "goal"
+        },
+        {
+          "team": "AUT",
+          "player": "Marcel Sabitzer",
+          "minute": "55'",
+          "type": "goal"
+        },
+        {
+          "team": "ALG",
+          "player": "Riyad Mahrez",
+          "minute": "60'",
+          "type": "goal"
+        },
+        {
+          "team": "ALG",
+          "player": "Riyad Mahrez",
+          "minute": "90'+3'",
+          "type": "goal"
+        },
+        {
+          "team": "AUT",
+          "player": "Sasa Kalajdzic",
+          "minute": "90'+6'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021495",
       "stage": "Group J",
-      "status": "LIVE",
-      "minute": "14'",
+      "status": "FT",
+      "minute": "",
       "venue": "Dallas Stadium",
       "home": {
         "name": "Jordan",
         "code": "JOR",
         "flag": "🇯🇴",
         "flagUrl": "assets/flags/jor.svg",
-        "score": 0
+        "score": 1
       },
       "away": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": 0
+        "score": 3
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "ARG",
+          "player": "Giovani Lo Celso",
+          "minute": "19'",
+          "type": "goal"
+        },
+        {
+          "team": "JOR",
+          "player": "Mousa Altamari",
+          "minute": "55'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lionel Messi",
+          "minute": "80'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021500",
