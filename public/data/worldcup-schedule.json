@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T07:10:58.428Z",
+  "updatedAt": "2026-06-29T18:12:20.166Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3222,24 +3222,31 @@
       "time": "北京时间 2026-06-30 01:00",
       "stage": "Round of 32",
       "venue": "Houston Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "50'",
+      "score": "0-1",
       "home": {
         "name": "Brazil",
         "code": "BRA",
         "flag": "🇧🇷",
         "flagUrl": "assets/flags/bra.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Japan",
         "code": "JPN",
         "flag": "🇯🇵",
         "flagUrl": "assets/flags/jpn.svg",
-        "score": null
+        "score": 1
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "JPN",
+          "player": "Kaishu Sano",
+          "minute": "29'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
