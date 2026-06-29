@@ -1,5 +1,5 @@
 {
-  "updated_at": "北京时间 2026-06-29 05:37",
+  "updated_at": "北京时间 2026-06-29 09:36",
   "date_range": "2026-06-27 to 2026-06-29",
   "summary": "哥伦比亚 0-0 战平葡萄牙，阿尔及利亚 3-3 战平奥地利，阿根廷 3-1 击败约旦，加拿大 1-0 击败南非。",
   "matches": [
@@ -530,6 +530,54 @@
         "name_en": "Sweden"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-01 09:00",
+      "team_a": {
+        "name": "Mexico",
+        "flag": "🇲🇽",
+        "name_zh": "墨西哥",
+        "name_en": "Mexico"
+      },
+      "team_b": {
+        "name": "Ecuador",
+        "flag": "🇪🇨",
+        "name_zh": "厄瓜多尔",
+        "name_en": "Ecuador"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-02 00:00",
+      "team_a": {
+        "name": "England",
+        "flag": "🏴",
+        "name_zh": "英格兰",
+        "name_en": "England"
+      },
+      "team_b": {
+        "name": "Congo DR",
+        "flag": "🇨🇩",
+        "name_zh": "刚果民主共和国",
+        "name_en": "Congo DR"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-02 04:00",
+      "team_a": {
+        "name": "Belgium",
+        "flag": "🇧🇪",
+        "name_zh": "比利时",
+        "name_en": "Belgium"
+      },
+      "team_b": {
+        "name": "Senegal",
+        "flag": "🇸🇳",
+        "name_zh": "塞内加尔",
+        "name_en": "Senegal"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
@@ -553,6 +601,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-28T21:37:28.442Z"
+    "fetched_at": "2026-06-29T01:36:05.119Z"
   }
 }
