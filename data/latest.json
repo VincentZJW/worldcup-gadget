@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-06-30 05:51",
+  "updated_at": "北京时间 2026-06-30 06:54",
   "date_range": "2026-06-28 to 2026-06-30",
-  "summary": "阿根廷 3-1 击败约旦，加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 暂平巴拉圭。",
+  "summary": "阿根廷 3-1 击败约旦，加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭。",
   "matches": [
     {
       "group": "Group L",
@@ -398,11 +398,11 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "58'",
+      "status": "FT",
+      "minute": "",
       "venue": "Boston Stadium",
       "kickoff_at_bj": "北京时间 2026-06-30 04:30",
-      "finished_at_bj": "北京时间 2026-06-30 04:30",
+      "finished_at_bj": "北京时间 2026-06-30 06:30",
       "team_a": {
         "name": "Germany",
         "flag": "🇩🇪",
@@ -434,17 +434,17 @@
       "venue_en": "Boston Stadium",
       "venue_zh": "Boston Stadium",
       "highlights_en": [
-        "Germany and Paraguay are level 1-1 in Group.",
+        "Germany drew 1-1 with Paraguay in Group.",
         "Kai Havertz 54', Julio Enciso 42'",
         "The match was played at Boston Stadium."
       ],
       "highlights_zh": [
-        "德国 1-1 暂平巴拉圭，比赛属于 Group。",
+        "德国 1-1 战平巴拉圭，比赛属于 Group。",
         "Kai Havertz 54', Julio Enciso 42'",
         "比赛场地：Boston Stadium。"
       ],
       "highlights": [
-        "德国 1-1 暂平巴拉圭，比赛属于 Group。",
+        "德国 1-1 战平巴拉圭，比赛属于 Group。",
         "Kai Havertz 54', Julio Enciso 42'",
         "比赛场地：Boston Stadium。"
       ]
@@ -554,8 +554,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "阿根廷 3-1 击败约旦，加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 暂平巴拉圭。",
-  "summary_en": "Argentina beat Jordan 3-1; Canada beat South Africa 1-0; Brazil beat Japan 2-1; Germany and Paraguay are level 1-1.",
+  "summary_zh": "阿根廷 3-1 击败约旦，加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭。",
+  "summary_en": "Argentina beat Jordan 3-1; Canada beat South Africa 1-0; Brazil beat Japan 2-1; Germany drew 1-1 with Paraguay.",
   "standings_changes_zh": [
     "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
     "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
@@ -572,6 +572,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-29T21:51:11.631Z"
+    "fetched_at": "2026-06-29T22:54:56.305Z"
   }
 }
