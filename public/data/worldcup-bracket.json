@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T21:51:52.133Z",
+  "updatedAt": "2026-06-29T22:57:40.292Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -90,7 +90,7 @@
           "date": "2026-06-30",
           "time": "北京时间 2026-06-30 04:30",
           "stage": "Round of 32",
-          "status": "LIVE",
+          "status": "FT",
           "home": {
             "name": "Germany",
             "code": "GER",
@@ -107,7 +107,7 @@
           },
           "winner": null,
           "venue": "Boston Stadium",
-          "minute": "58'",
+          "minute": "",
           "score": "1-1",
           "goals": [
             {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T21:51:52.133Z",
+  "updatedAt": "2026-06-29T22:57:40.292Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,8 +7,8 @@
     {
       "id": "400021513",
       "stage": "Round of 32",
-      "status": "LIVE",
-      "minute": "58'",
+      "status": "FT",
+      "minute": "",
       "venue": "Boston Stadium",
       "home": {
         "name": "Germany",
