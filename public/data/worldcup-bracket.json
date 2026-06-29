@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T18:12:20.166Z",
+  "updatedAt": "2026-06-29T20:24:21.925Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -45,13 +45,13 @@
           "date": "2026-06-30",
           "time": "北京时间 2026-06-30 01:00",
           "stage": "Round of 32",
-          "status": "LIVE",
+          "status": "FT",
           "home": {
             "name": "Brazil",
             "code": "BRA",
             "flag": "🇧🇷",
             "flagUrl": "assets/flags/bra.svg",
-            "score": 0
+            "score": 2
           },
           "away": {
             "name": "Japan",
@@ -60,15 +60,27 @@
             "flagUrl": "assets/flags/jpn.svg",
             "score": 1
           },
-          "winner": null,
+          "winner": "43924",
           "venue": "Houston Stadium",
-          "minute": "50'",
-          "score": "0-1",
+          "minute": "",
+          "score": "2-1",
           "goals": [
             {
               "team": "JPN",
               "player": "Kaishu Sano",
               "minute": "29'",
+              "type": "goal"
+            },
+            {
+              "team": "BRA",
+              "player": "Casemiro",
+              "minute": "56'",
+              "type": "goal"
+            },
+            {
+              "team": "BRA",
+              "player": "Gabriel Martinelli",
+              "minute": "90'+5'",
               "type": "goal"
             }
           ]
@@ -501,10 +513,10 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Brazil",
+            "code": "BRA",
+            "flag": "🇧🇷",
+            "flagUrl": "assets/flags/bra.svg",
             "score": null
           },
           "away": {

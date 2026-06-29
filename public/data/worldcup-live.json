@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T18:12:20.166Z",
+  "updatedAt": "2026-06-29T20:24:21.925Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,15 +7,15 @@
     {
       "id": "400021516",
       "stage": "Round of 32",
-      "status": "LIVE",
-      "minute": "50'",
+      "status": "FT",
+      "minute": "",
       "venue": "Houston Stadium",
       "home": {
         "name": "Brazil",
         "code": "BRA",
         "flag": "🇧🇷",
         "flagUrl": "assets/flags/bra.svg",
-        "score": 0
+        "score": 2
       },
       "away": {
         "name": "Japan",
@@ -29,6 +29,18 @@
           "team": "JPN",
           "player": "Kaishu Sano",
           "minute": "29'",
+          "type": "goal"
+        },
+        {
+          "team": "BRA",
+          "player": "Casemiro",
+          "minute": "56'",
+          "type": "goal"
+        },
+        {
+          "team": "BRA",
+          "player": "Gabriel Martinelli",
+          "minute": "90'+5'",
           "type": "goal"
         }
       ]
