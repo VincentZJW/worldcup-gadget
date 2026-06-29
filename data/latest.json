@@ -1,61 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-29 09:36",
-  "date_range": "2026-06-27 to 2026-06-29",
-  "summary": "哥伦比亚 0-0 战平葡萄牙，阿尔及利亚 3-3 战平奥地利，阿根廷 3-1 击败约旦，加拿大 1-0 击败南非。",
+  "updated_at": "北京时间 2026-06-30 02:07",
+  "date_range": "2026-06-28 to 2026-06-30",
+  "summary": "阿尔及利亚 3-3 战平奥地利，阿根廷 3-1 击败约旦，加拿大 1-0 击败南非，日本 1-0 暂时领先巴西。",
   "matches": [
-    {
-      "group": "Group G",
-      "status": "FT",
-      "minute": "",
-      "venue": "Seattle Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-27 11:00",
-      "finished_at_bj": "北京时间 2026-06-27 12:54",
-      "team_a": {
-        "name": "Egypt",
-        "flag": "🇪🇬",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Mahmoud Saber",
-            "minute": "5'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "埃及",
-        "name_en": "Egypt"
-      },
-      "team_b": {
-        "name": "IR Iran",
-        "flag": "🇮🇷",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Ramin Rezaeian",
-            "minute": "14'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "IR Iran",
-        "name_en": "IR Iran"
-      },
-      "venue_en": "Seattle Stadium",
-      "venue_zh": "Seattle Stadium",
-      "highlights_en": [
-        "Egypt drew 1-1 with IR Iran in Group G.",
-        "Mahmoud Saber 5', Ramin Rezaeian 14'",
-        "The match was played at Seattle Stadium."
-      ],
-      "highlights_zh": [
-        "埃及 1-1 战平IR Iran，比赛属于 Group G。",
-        "Mahmoud Saber 5', Ramin Rezaeian 14'",
-        "比赛场地：Seattle Stadium。"
-      ],
-      "highlights": [
-        "埃及 1-1 战平IR Iran，比赛属于 Group G。",
-        "Mahmoud Saber 5', Ramin Rezaeian 14'",
-        "比赛场地：Seattle Stadium。"
-      ]
-    },
     {
       "group": "Group L",
       "status": "FT",
@@ -442,31 +389,61 @@
         "Stephen Eustaquio 90'+2'",
         "比赛场地：Los Angeles Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
-    "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
-    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
-    "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-30 01:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "46'",
+      "venue": "Houston Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-30 01:00",
+      "finished_at_bj": "北京时间 2026-06-30 01:00",
       "team_a": {
         "name": "Brazil",
         "flag": "🇧🇷",
+        "score": 0,
+        "scorers": [],
         "name_zh": "巴西",
         "name_en": "Brazil"
       },
       "team_b": {
         "name": "Japan",
         "flag": "🇯🇵",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Kaishu Sano",
+            "minute": "29'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "日本",
         "name_en": "Japan"
       },
-      "group": "Group"
-    },
+      "venue_en": "Houston Stadium",
+      "venue_zh": "Houston Stadium",
+      "highlights_en": [
+        "Japan lead Brazil 1-0 in Group.",
+        "Kaishu Sano 29'",
+        "The match was played at Houston Stadium."
+      ],
+      "highlights_zh": [
+        "日本 1-0 暂时领先巴西，比赛属于 Group。",
+        "Kaishu Sano 29'",
+        "比赛场地：Houston Stadium。"
+      ],
+      "highlights": [
+        "日本 1-0 暂时领先巴西，比赛属于 Group。",
+        "Kaishu Sano 29'",
+        "比赛场地：Houston Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
+    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
+    "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-06-30 04:30",
       "team_a": {
@@ -581,16 +558,14 @@
     }
   ],
   "news": [],
-  "summary_zh": "哥伦比亚 0-0 战平葡萄牙，阿尔及利亚 3-3 战平奥地利，阿根廷 3-1 击败约旦，加拿大 1-0 击败南非。",
-  "summary_en": "Colombia drew 0-0 with Portugal; Algeria drew 3-3 with Austria; Argentina beat Jordan 3-1; Canada beat South Africa 1-0.",
+  "summary_zh": "阿尔及利亚 3-3 战平奥地利，阿根廷 3-1 击败约旦，加拿大 1-0 击败南非，日本 1-0 暂时领先巴西。",
+  "summary_en": "Algeria drew 3-3 with Austria; Argentina beat Jordan 3-1; Canada beat South Africa 1-0; Japan lead Brazil 1-0.",
   "standings_changes_zh": [
-    "Group G：比利时 以 5 分领跑，埃及 5 分紧随其后。",
     "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
     "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
     "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group G: Belgium lead with 5 points, followed by Egypt on 5.",
     "Group L: England lead with 7 points, followed by Croatia on 6.",
     "Group K: Colombia lead with 7 points, followed by Portugal on 5.",
     "Group J: Argentina lead with 9 points, followed by Austria on 4."
@@ -601,6 +576,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-29T01:36:05.119Z"
+    "fetched_at": "2026-06-29T18:07:48.360Z"
   }
 }
