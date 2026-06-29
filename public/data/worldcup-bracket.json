@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T20:24:21.925Z",
+  "updatedAt": "2026-06-29T21:51:52.133Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -90,26 +90,39 @@
           "date": "2026-06-30",
           "time": "北京时间 2026-06-30 04:30",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "LIVE",
           "home": {
             "name": "Germany",
             "code": "GER",
             "flag": "🇩🇪",
             "flagUrl": "assets/flags/ger.svg",
-            "score": null
+            "score": 1
           },
           "away": {
             "name": "Paraguay",
             "code": "PAR",
             "flag": "🇵🇾",
             "flagUrl": "assets/flags/par.svg",
-            "score": null
+            "score": 1
           },
           "winner": null,
           "venue": "Boston Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "minute": "58'",
+          "score": "1-1",
+          "goals": [
+            {
+              "team": "PAR",
+              "player": "Julio Enciso",
+              "minute": "42'",
+              "type": "goal"
+            },
+            {
+              "team": "GER",
+              "player": "Kai Havertz",
+              "minute": "54'",
+              "type": "goal"
+            }
+          ]
         },
         {
           "id": "400021522",
