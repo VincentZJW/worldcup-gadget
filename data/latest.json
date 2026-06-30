@@ -1,5 +1,5 @@
 {
-  "updated_at": "北京时间 2026-06-30 06:54",
+  "updated_at": "北京时间 2026-06-30 08:02",
   "date_range": "2026-06-28 to 2026-06-30",
   "summary": "阿根廷 3-1 击败约旦，加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭。",
   "matches": [
@@ -402,7 +402,7 @@
       "minute": "",
       "venue": "Boston Stadium",
       "kickoff_at_bj": "北京时间 2026-06-30 04:30",
-      "finished_at_bj": "北京时间 2026-06-30 06:30",
+      "finished_at_bj": "北京时间 2026-06-30 06:57",
       "team_a": {
         "name": "Germany",
         "flag": "🇩🇪",
@@ -551,6 +551,38 @@
         "name_en": "Senegal"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-02 08:00",
+      "team_a": {
+        "name": "USA",
+        "flag": "🇺🇸",
+        "name_zh": "美国",
+        "name_en": "USA"
+      },
+      "team_b": {
+        "name": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "name_zh": "波黑",
+        "name_en": "Bosnia and Herzegovina"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-03 03:00",
+      "team_a": {
+        "name": "Spain",
+        "flag": "🇪🇸",
+        "name_zh": "西班牙",
+        "name_en": "Spain"
+      },
+      "team_b": {
+        "name": "Austria",
+        "flag": "🇦🇹",
+        "name_zh": "奥地利",
+        "name_en": "Austria"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
@@ -572,6 +604,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-29T22:54:56.305Z"
+    "fetched_at": "2026-06-30T00:02:36.233Z"
   }
 }
