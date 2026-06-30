@@ -1,66 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-30 08:02",
+  "updated_at": "北京时间 2026-06-30 10:37",
   "date_range": "2026-06-28 to 2026-06-30",
-  "summary": "阿根廷 3-1 击败约旦，加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭。",
+  "summary": "加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-0 暂时领先摩洛哥。",
   "matches": [
-    {
-      "group": "Group L",
-      "status": "FT",
-      "minute": "",
-      "venue": "Philadelphia Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-28 05:00",
-      "finished_at_bj": "北京时间 2026-06-28 06:53",
-      "team_a": {
-        "name": "Croatia",
-        "flag": "🇭🇷",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Petar Sucic",
-            "minute": "31'",
-            "type": "goal"
-          },
-          {
-            "player": "Nikola Vlasic",
-            "minute": "83'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "克罗地亚",
-        "name_en": "Croatia"
-      },
-      "team_b": {
-        "name": "Ghana",
-        "flag": "🇬🇭",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Derrick Luckassen",
-            "minute": "73'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "加纳",
-        "name_en": "Ghana"
-      },
-      "venue_en": "Philadelphia Stadium",
-      "venue_zh": "Philadelphia Stadium",
-      "highlights_en": [
-        "Croatia beat Ghana 2-1 in Group L.",
-        "Petar Sucic 31', Nikola Vlasic 83', Derrick Luckassen 73'",
-        "The match was played at Philadelphia Stadium."
-      ],
-      "highlights_zh": [
-        "克罗地亚 2-1 击败加纳，比赛属于 Group L。",
-        "Petar Sucic 31', Nikola Vlasic 83', Derrick Luckassen 73'",
-        "比赛场地：Philadelphia Stadium。"
-      ],
-      "highlights": [
-        "克罗地亚 2-1 击败加纳，比赛属于 Group L。",
-        "Petar Sucic 31', Nikola Vlasic 83', Derrick Luckassen 73'",
-        "比赛场地：Philadelphia Stadium。"
-      ]
-    },
     {
       "group": "Group K",
       "status": "FT",
@@ -448,30 +390,60 @@
         "Kai Havertz 54', Julio Enciso 42'",
         "比赛场地：Boston Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
-    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
-    "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-06-30 09:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "76'",
+      "venue": "Monterrey Stadium",
+      "kickoff_at_bj": "北京时间 2026-06-30 09:00",
+      "finished_at_bj": "北京时间 2026-06-30 09:00",
       "team_a": {
         "name": "Netherlands",
         "flag": "🇳🇱",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Cody Gakpo",
+            "minute": "72'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "荷兰",
         "name_en": "Netherlands"
       },
       "team_b": {
         "name": "Morocco",
         "flag": "🇲🇦",
+        "score": 0,
+        "scorers": [],
         "name_zh": "摩洛哥",
         "name_en": "Morocco"
       },
-      "group": "Group"
-    },
+      "venue_en": "Monterrey Stadium",
+      "venue_zh": "Monterrey Stadium",
+      "highlights_en": [
+        "Netherlands lead Morocco 1-0 in Group.",
+        "Cody Gakpo 72'",
+        "The match was played at Monterrey Stadium."
+      ],
+      "highlights_zh": [
+        "荷兰 1-0 暂时领先摩洛哥，比赛属于 Group。",
+        "Cody Gakpo 72'",
+        "比赛场地：Monterrey Stadium。"
+      ],
+      "highlights": [
+        "荷兰 1-0 暂时领先摩洛哥，比赛属于 Group。",
+        "Cody Gakpo 72'",
+        "比赛场地：Monterrey Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
+    "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-01 01:00",
       "team_a": {
@@ -583,18 +555,32 @@
         "name_en": "Austria"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-03 07:00",
+      "team_a": {
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "name_zh": "葡萄牙",
+        "name_en": "Portugal"
+      },
+      "team_b": {
+        "name": "Croatia",
+        "flag": "🇭🇷",
+        "name_zh": "克罗地亚",
+        "name_en": "Croatia"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
-  "summary_zh": "阿根廷 3-1 击败约旦，加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭。",
-  "summary_en": "Argentina beat Jordan 3-1; Canada beat South Africa 1-0; Brazil beat Japan 2-1; Germany drew 1-1 with Paraguay.",
+  "summary_zh": "加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-0 暂时领先摩洛哥。",
+  "summary_en": "Canada beat South Africa 1-0; Brazil beat Japan 2-1; Germany drew 1-1 with Paraguay; Netherlands lead Morocco 1-0.",
   "standings_changes_zh": [
-    "Group L：英格兰 以 7 分领跑，克罗地亚 6 分紧随其后。",
     "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
     "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group L: England lead with 7 points, followed by Croatia on 6.",
     "Group K: Colombia lead with 7 points, followed by Portugal on 5.",
     "Group J: Argentina lead with 9 points, followed by Austria on 4."
   ],
@@ -604,6 +590,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-30T00:02:36.233Z"
+    "fetched_at": "2026-06-30T02:37:52.201Z"
   }
 }
