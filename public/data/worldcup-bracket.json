@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T02:09:29.621Z",
+  "updatedAt": "2026-06-30T06:37:07.817Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -129,26 +129,39 @@
           "date": "2026-06-30",
           "time": "北京时间 2026-06-30 09:00",
           "stage": "Round of 32",
-          "status": "LIVE",
+          "status": "FT",
           "home": {
             "name": "Netherlands",
             "code": "NED",
             "flag": "🇳🇱",
             "flagUrl": "assets/flags/ned.svg",
-            "score": 0
+            "score": 1
           },
           "away": {
             "name": "Morocco",
             "code": "MAR",
             "flag": "🇲🇦",
             "flagUrl": "assets/flags/mar.svg",
-            "score": 0
+            "score": 1
           },
-          "winner": null,
+          "winner": "43872",
           "venue": "Monterrey Stadium",
-          "minute": "47'",
-          "score": "0-0",
-          "goals": []
+          "minute": "",
+          "score": "1-1",
+          "goals": [
+            {
+              "team": "NED",
+              "player": "Cody Gakpo",
+              "minute": "72'",
+              "type": "goal"
+            },
+            {
+              "team": "MAR",
+              "player": "Issa Diop",
+              "minute": "90'+1'",
+              "type": "goal"
+            }
+          ]
         },
         {
           "id": "400021514",
@@ -481,10 +494,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Morocco",
+            "code": "MAR",
+            "flag": "🇲🇦",
+            "flagUrl": "assets/flags/mar.svg",
             "score": null
           },
           "winner": null,
