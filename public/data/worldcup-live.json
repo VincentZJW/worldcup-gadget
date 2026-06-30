@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T21:43:33.813Z",
+  "updatedAt": "2026-06-30T23:12:53.692Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,15 +7,15 @@
     {
       "id": "400021523",
       "stage": "Round of 32",
-      "status": "LIVE",
-      "minute": "43'",
+      "status": "FT",
+      "minute": "",
       "venue": "New York/New Jersey Stadium",
       "home": {
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": 0
+        "score": 3
       },
       "away": {
         "name": "Sweden",
@@ -24,7 +24,26 @@
         "flagUrl": "assets/flags/swe.svg",
         "score": 0
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "FRA",
+          "player": "Kylian Mbappe",
+          "minute": "45'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Bradley Barcola",
+          "minute": "53'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Kylian Mbappe",
+          "minute": "74'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021514",

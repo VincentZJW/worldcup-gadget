@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T21:43:33.813Z",
+  "updatedAt": "2026-06-30T23:12:53.692Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -213,13 +213,13 @@
           "date": "2026-07-01",
           "time": "北京时间 2026-07-01 05:00",
           "stage": "Round of 32",
-          "status": "LIVE",
+          "status": "FT",
           "home": {
             "name": "France",
             "code": "FRA",
             "flag": "🇫🇷",
             "flagUrl": "assets/flags/fra.svg",
-            "score": 0
+            "score": 3
           },
           "away": {
             "name": "Sweden",
@@ -228,11 +228,30 @@
             "flagUrl": "assets/flags/swe.svg",
             "score": 0
           },
-          "winner": null,
+          "winner": "43946",
           "venue": "New York/New Jersey Stadium",
-          "minute": "43'",
-          "score": "0-0",
-          "goals": []
+          "minute": "",
+          "score": "3-0",
+          "goals": [
+            {
+              "team": "FRA",
+              "player": "Kylian Mbappe",
+              "minute": "45'",
+              "type": "goal"
+            },
+            {
+              "team": "FRA",
+              "player": "Bradley Barcola",
+              "minute": "53'",
+              "type": "goal"
+            },
+            {
+              "team": "FRA",
+              "player": "Kylian Mbappe",
+              "minute": "74'",
+              "type": "goal"
+            }
+          ]
         },
         {
           "id": "400021520",
@@ -539,10 +558,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "France",
+            "code": "FRA",
+            "flag": "🇫🇷",
+            "flagUrl": "assets/flags/fra.svg",
             "score": null
           },
           "winner": null,
