@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-06-30 10:37",
+  "updated_at": "北京时间 2026-06-30 14:50",
   "date_range": "2026-06-28 to 2026-06-30",
-  "summary": "加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-0 暂时领先摩洛哥。",
+  "summary": "加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥。",
   "matches": [
     {
       "group": "Group K",
@@ -393,11 +393,11 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "76'",
+      "status": "FT",
+      "minute": "",
       "venue": "Monterrey Stadium",
       "kickoff_at_bj": "北京时间 2026-06-30 09:00",
-      "finished_at_bj": "北京时间 2026-06-30 09:00",
+      "finished_at_bj": "北京时间 2026-06-30 11:25",
       "team_a": {
         "name": "Netherlands",
         "flag": "🇳🇱",
@@ -415,26 +415,32 @@
       "team_b": {
         "name": "Morocco",
         "flag": "🇲🇦",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Issa Diop",
+            "minute": "90'+1'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "摩洛哥",
         "name_en": "Morocco"
       },
       "venue_en": "Monterrey Stadium",
       "venue_zh": "Monterrey Stadium",
       "highlights_en": [
-        "Netherlands lead Morocco 1-0 in Group.",
-        "Cody Gakpo 72'",
+        "Netherlands drew 1-1 with Morocco in Group.",
+        "Cody Gakpo 72', Issa Diop 90'+1'",
         "The match was played at Monterrey Stadium."
       ],
       "highlights_zh": [
-        "荷兰 1-0 暂时领先摩洛哥，比赛属于 Group。",
-        "Cody Gakpo 72'",
+        "荷兰 1-1 战平摩洛哥，比赛属于 Group。",
+        "Cody Gakpo 72', Issa Diop 90'+1'",
         "比赛场地：Monterrey Stadium。"
       ],
       "highlights": [
-        "荷兰 1-0 暂时领先摩洛哥，比赛属于 Group。",
-        "Cody Gakpo 72'",
+        "荷兰 1-1 战平摩洛哥，比赛属于 Group。",
+        "Cody Gakpo 72', Issa Diop 90'+1'",
         "比赛场地：Monterrey Stadium。"
       ]
     }
@@ -574,8 +580,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-0 暂时领先摩洛哥。",
-  "summary_en": "Canada beat South Africa 1-0; Brazil beat Japan 2-1; Germany drew 1-1 with Paraguay; Netherlands lead Morocco 1-0.",
+  "summary_zh": "加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥。",
+  "summary_en": "Canada beat South Africa 1-0; Brazil beat Japan 2-1; Germany drew 1-1 with Paraguay; Netherlands drew 1-1 with Morocco.",
   "standings_changes_zh": [
     "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
     "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
@@ -590,6 +596,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-30T02:37:52.201Z"
+    "fetched_at": "2026-06-30T06:50:41.077Z"
   }
 }
