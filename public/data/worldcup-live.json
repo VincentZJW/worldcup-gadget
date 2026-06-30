@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-06-30T00:12:11.796Z",
+  "updatedAt": "2026-06-30T02:09:29.621Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021522",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "47'",
+      "venue": "Monterrey Stadium",
+      "home": {
+        "name": "Netherlands",
+        "code": "NED",
+        "flag": "🇳🇱",
+        "flagUrl": "assets/flags/ned.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021513",
       "stage": "Round of 32",
@@ -344,65 +366,6 @@
           "team": "CRO",
           "player": "Nikola Vlasic",
           "minute": "83'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021481",
-      "stage": "Group G",
-      "status": "FT",
-      "minute": "",
-      "venue": "BC Place Vancouver",
-      "home": {
-        "name": "New Zealand",
-        "code": "NZL",
-        "flag": "🇳🇿",
-        "flagUrl": "assets/flags/nzl.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Belgium",
-        "code": "BEL",
-        "flag": "🇧🇪",
-        "flagUrl": "assets/flags/bel.svg",
-        "score": 5
-      },
-      "goals": [
-        {
-          "team": "BEL",
-          "player": "Leandro Trossard",
-          "minute": "28'",
-          "type": "goal"
-        },
-        {
-          "team": "BEL",
-          "player": "Leandro Trossard",
-          "minute": "50'",
-          "type": "goal"
-        },
-        {
-          "team": "BEL",
-          "player": "Kevin De Bruyne",
-          "minute": "66'",
-          "type": "goal"
-        },
-        {
-          "team": "NZL",
-          "player": "Elijah Just",
-          "minute": "84'",
-          "type": "goal"
-        },
-        {
-          "team": "BEL",
-          "player": "Romelu Lukaku",
-          "minute": "86'",
-          "type": "goal"
-        },
-        {
-          "team": "BEL",
-          "player": "Alexis Saelemaekers",
-          "minute": "90'+4'",
           "type": "goal"
         }
       ]
