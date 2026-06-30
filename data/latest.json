@@ -1,49 +1,8 @@
 {
-  "updated_at": "北京时间 2026-07-01 03:53",
+  "updated_at": "北京时间 2026-07-01 05:26",
   "date_range": "2026-06-28 to 2026-07-01",
-  "summary": "巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦。",
+  "summary": "德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 0-0 暂平瑞典。",
   "matches": [
-    {
-      "group": "Group K",
-      "status": "FT",
-      "minute": "",
-      "venue": "Miami Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-28 07:30",
-      "finished_at_bj": "北京时间 2026-06-28 09:21",
-      "team_a": {
-        "name": "Colombia",
-        "flag": "🇨🇴",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "哥伦比亚",
-        "name_en": "Colombia"
-      },
-      "team_b": {
-        "name": "Portugal",
-        "flag": "🇵🇹",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "葡萄牙",
-        "name_en": "Portugal"
-      },
-      "venue_en": "Miami Stadium",
-      "venue_zh": "Miami Stadium",
-      "highlights_en": [
-        "Colombia drew 0-0 with Portugal in Group K.",
-        "Neither side scored.",
-        "The match was played at Miami Stadium."
-      ],
-      "highlights_zh": [
-        "哥伦比亚 0-0 战平葡萄牙，比赛属于 Group K。",
-        "双方均未取得进球。",
-        "比赛场地：Miami Stadium。"
-      ],
-      "highlights": [
-        "哥伦比亚 0-0 战平葡萄牙，比赛属于 Group K。",
-        "双方均未取得进球。",
-        "比赛场地：Miami Stadium。"
-      ]
-    },
     {
       "group": "Group J",
       "status": "FT",
@@ -443,29 +402,53 @@
         "Amad Diallo 74', Antonio Nusa 39', Erling Haaland 86'",
         "比赛场地：Dallas Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [
-    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
-    "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
-  ],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-01 05:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "27'",
+      "venue": "New York/New Jersey Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-01 05:00",
+      "finished_at_bj": "北京时间 2026-07-01 05:00",
       "team_a": {
         "name": "France",
         "flag": "🇫🇷",
+        "score": 0,
+        "scorers": [],
         "name_zh": "法国",
         "name_en": "France"
       },
       "team_b": {
         "name": "Sweden",
         "flag": "🇸🇪",
+        "score": 0,
+        "scorers": [],
         "name_zh": "瑞典",
         "name_en": "Sweden"
       },
-      "group": "Group"
-    },
+      "venue_en": "New York/New Jersey Stadium",
+      "venue_zh": "New York/New Jersey Stadium",
+      "highlights_en": [
+        "France and Sweden are level 0-0 in Group.",
+        "Neither side scored.",
+        "The match was played at New York/New Jersey Stadium."
+      ],
+      "highlights_zh": [
+        "法国 0-0 暂平瑞典，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：New York/New Jersey Stadium。"
+      ],
+      "highlights": [
+        "法国 0-0 暂平瑞典，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：New York/New Jersey Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [
+    "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
+  ],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-01 09:00",
       "team_a": {
@@ -564,14 +547,12 @@
     }
   ],
   "news": [],
-  "summary_zh": "巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦。",
-  "summary_en": "Brazil beat Japan 2-1; Germany drew 1-1 with Paraguay; Netherlands drew 1-1 with Morocco; Norway beat Côte d'Ivoire 2-1.",
+  "summary_zh": "德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 0-0 暂平瑞典。",
+  "summary_en": "Germany drew 1-1 with Paraguay; Netherlands drew 1-1 with Morocco; Norway beat Côte d'Ivoire 2-1; France and Sweden are level 0-0.",
   "standings_changes_zh": [
-    "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
     "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
   ],
   "standings_changes_en": [
-    "Group K: Colombia lead with 7 points, followed by Portugal on 5.",
     "Group J: Argentina lead with 9 points, followed by Austria on 4."
   ],
   "source": {
@@ -580,6 +561,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-30T19:53:03.561Z"
+    "fetched_at": "2026-06-30T21:26:48.166Z"
   }
 }
