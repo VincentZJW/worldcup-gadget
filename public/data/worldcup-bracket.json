@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T06:37:07.817Z",
+  "updatedAt": "2026-06-30T17:53:54.075Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -168,26 +168,33 @@
           "date": "2026-07-01",
           "time": "北京时间 2026-07-01 01:00",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "LIVE",
           "home": {
             "name": "Côte d'Ivoire",
             "code": "CIV",
             "flag": "🇨🇮",
             "flagUrl": "assets/flags/civ.svg",
-            "score": null
+            "score": 0
           },
           "away": {
             "name": "Norway",
             "code": "NOR",
             "flag": "🇳🇴",
             "flagUrl": "assets/flags/nor.svg",
-            "score": null
+            "score": 1
           },
           "winner": null,
           "venue": "Dallas Stadium",
           "minute": "",
-          "score": "",
-          "goals": []
+          "score": "0-1",
+          "goals": [
+            {
+              "team": "NOR",
+              "player": "Antonio Nusa",
+              "minute": "39'",
+              "type": "goal"
+            }
+          ]
         },
         {
           "id": "400021523",

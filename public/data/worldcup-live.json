@@ -1,9 +1,38 @@
 {
-  "updatedAt": "2026-06-30T06:37:07.817Z",
+  "updatedAt": "2026-06-30T17:53:54.075Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021514",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "",
+      "venue": "Dallas Stadium",
+      "home": {
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "flag": "🇨🇮",
+        "flagUrl": "assets/flags/civ.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg",
+        "score": 1
+      },
+      "goals": [
+        {
+          "team": "NOR",
+          "player": "Antonio Nusa",
+          "minute": "39'",
+          "type": "goal"
+        }
+      ]
+    },
     {
       "id": "400021522",
       "stage": "Round of 32",
@@ -338,47 +367,6 @@
           "team": "ENG",
           "player": "Harry Kane",
           "minute": "67'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021509",
-      "stage": "Group L",
-      "status": "FT",
-      "minute": "",
-      "venue": "Philadelphia Stadium",
-      "home": {
-        "name": "Croatia",
-        "code": "CRO",
-        "flag": "🇭🇷",
-        "flagUrl": "assets/flags/cro.svg",
-        "score": 2
-      },
-      "away": {
-        "name": "Ghana",
-        "code": "GHA",
-        "flag": "🇬🇭",
-        "flagUrl": "assets/flags/gha.svg",
-        "score": 1
-      },
-      "goals": [
-        {
-          "team": "CRO",
-          "player": "Petar Sucic",
-          "minute": "31'",
-          "type": "goal"
-        },
-        {
-          "team": "GHA",
-          "player": "Derrick Luckassen",
-          "minute": "73'",
-          "type": "goal"
-        },
-        {
-          "team": "CRO",
-          "player": "Nikola Vlasic",
-          "minute": "83'",
           "type": "goal"
         }
       ]
