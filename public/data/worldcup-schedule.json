@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T19:58:24.786Z",
+  "updatedAt": "2026-06-30T21:43:33.813Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3390,22 +3390,22 @@
       "time": "北京时间 2026-07-01 05:00",
       "stage": "Round of 32",
       "venue": "New York/New Jersey Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "43'",
+      "score": "0-0",
       "home": {
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Sweden",
         "code": "SWE",
         "flag": "🇸🇪",
         "flagUrl": "assets/flags/swe.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null

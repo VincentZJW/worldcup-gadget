@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-06-30T19:58:24.786Z",
+  "updatedAt": "2026-06-30T21:43:33.813Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021523",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "43'",
+      "venue": "New York/New Jersey Stadium",
+      "home": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Sweden",
+        "code": "SWE",
+        "flag": "🇸🇪",
+        "flagUrl": "assets/flags/swe.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021514",
       "stage": "Round of 32",
@@ -347,41 +369,6 @@
         "score": 0
       },
       "goals": []
-    },
-    {
-      "id": "400021508",
-      "stage": "Group L",
-      "status": "FT",
-      "minute": "",
-      "venue": "New York/New Jersey Stadium",
-      "home": {
-        "name": "Panama",
-        "code": "PAN",
-        "flag": "🇵🇦",
-        "flagUrl": "assets/flags/pan.svg",
-        "score": 0
-      },
-      "away": {
-        "name": "England",
-        "code": "ENG",
-        "flag": "🏴",
-        "flagUrl": "assets/flags/eng.svg",
-        "score": 2
-      },
-      "goals": [
-        {
-          "team": "ENG",
-          "player": "Jude Bellingham",
-          "minute": "62'",
-          "type": "goal"
-        },
-        {
-          "team": "ENG",
-          "player": "Harry Kane",
-          "minute": "67'",
-          "type": "goal"
-        }
-      ]
     }
   ]
 }
