@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T17:53:54.075Z",
+  "updatedAt": "2026-06-30T19:58:24.786Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3345,22 +3345,22 @@
       "time": "北京时间 2026-07-01 01:00",
       "stage": "Round of 32",
       "venue": "Dallas Stadium",
-      "status": "LIVE",
+      "status": "FT",
       "minute": "",
-      "score": "0-1",
+      "score": "1-2",
       "home": {
         "name": "Côte d'Ivoire",
         "code": "CIV",
         "flag": "🇨🇮",
         "flagUrl": "assets/flags/civ.svg",
-        "score": 0
+        "score": 1
       },
       "away": {
         "name": "Norway",
         "code": "NOR",
         "flag": "🇳🇴",
         "flagUrl": "assets/flags/nor.svg",
-        "score": 1
+        "score": 2
       },
       "goals": [
         {
@@ -3368,9 +3368,21 @@
           "player": "Antonio Nusa",
           "minute": "39'",
           "type": "goal"
+        },
+        {
+          "team": "CIV",
+          "player": "Amad Diallo",
+          "minute": "74'",
+          "type": "goal"
+        },
+        {
+          "team": "NOR",
+          "player": "Erling Haaland",
+          "minute": "86'",
+          "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43961"
     },
     {
       "id": "400021523",
@@ -3727,10 +3739,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg",
         "score": null
       },
       "goals": [],
