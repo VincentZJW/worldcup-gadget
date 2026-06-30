@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-01 05:26",
+  "updated_at": "北京时间 2026-07-01 06:50",
   "date_range": "2026-06-28 to 2026-07-01",
-  "summary": "德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 0-0 暂平瑞典。",
+  "summary": "德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 3-0 击败瑞典。",
   "matches": [
     {
       "group": "Group J",
@@ -405,16 +405,32 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "27'",
+      "status": "FT",
+      "minute": "",
       "venue": "New York/New Jersey Stadium",
       "kickoff_at_bj": "北京时间 2026-07-01 05:00",
-      "finished_at_bj": "北京时间 2026-07-01 05:00",
+      "finished_at_bj": "北京时间 2026-07-01 06:45",
       "team_a": {
         "name": "France",
         "flag": "🇫🇷",
-        "score": 0,
-        "scorers": [],
+        "score": 3,
+        "scorers": [
+          {
+            "player": "Kylian Mbappe",
+            "minute": "45'",
+            "type": "goal"
+          },
+          {
+            "player": "Bradley Barcola",
+            "minute": "53'",
+            "type": "goal"
+          },
+          {
+            "player": "Kylian Mbappe",
+            "minute": "74'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "法国",
         "name_en": "France"
       },
@@ -429,18 +445,18 @@
       "venue_en": "New York/New Jersey Stadium",
       "venue_zh": "New York/New Jersey Stadium",
       "highlights_en": [
-        "France and Sweden are level 0-0 in Group.",
-        "Neither side scored.",
+        "France beat Sweden 3-0 in Group.",
+        "Kylian Mbappe 45', Bradley Barcola 53', Kylian Mbappe 74'",
         "The match was played at New York/New Jersey Stadium."
       ],
       "highlights_zh": [
-        "法国 0-0 暂平瑞典，比赛属于 Group。",
-        "双方均未取得进球。",
+        "法国 3-0 击败瑞典，比赛属于 Group。",
+        "Kylian Mbappe 45', Bradley Barcola 53', Kylian Mbappe 74'",
         "比赛场地：New York/New Jersey Stadium。"
       ],
       "highlights": [
-        "法国 0-0 暂平瑞典，比赛属于 Group。",
-        "双方均未取得进球。",
+        "法国 3-0 击败瑞典，比赛属于 Group。",
+        "Kylian Mbappe 45', Bradley Barcola 53', Kylian Mbappe 74'",
         "比赛场地：New York/New Jersey Stadium。"
       ]
     }
@@ -547,8 +563,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 0-0 暂平瑞典。",
-  "summary_en": "Germany drew 1-1 with Paraguay; Netherlands drew 1-1 with Morocco; Norway beat Côte d'Ivoire 2-1; France and Sweden are level 0-0.",
+  "summary_zh": "德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 3-0 击败瑞典。",
+  "summary_en": "Germany drew 1-1 with Paraguay; Netherlands drew 1-1 with Morocco; Norway beat Côte d'Ivoire 2-1; France beat Sweden 3-0.",
   "standings_changes_zh": [
     "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
   ],
@@ -561,6 +577,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-30T21:26:48.166Z"
+    "fetched_at": "2026-06-30T22:50:58.573Z"
   }
 }
