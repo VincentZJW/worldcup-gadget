@@ -1,66 +1,8 @@
 {
-  "updated_at": "北京时间 2026-06-30 14:50",
-  "date_range": "2026-06-28 to 2026-06-30",
-  "summary": "加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥。",
+  "updated_at": "北京时间 2026-07-01 01:51",
+  "date_range": "2026-06-28 to 2026-07-01",
+  "summary": "巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 1-0 暂时领先科特迪瓦。",
   "matches": [
-    {
-      "group": "Group K",
-      "status": "FT",
-      "minute": "",
-      "venue": "Atlanta Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-28 07:30",
-      "finished_at_bj": "北京时间 2026-06-28 09:24",
-      "team_a": {
-        "name": "Congo DR",
-        "flag": "🇨🇩",
-        "score": 3,
-        "scorers": [
-          {
-            "player": "Fiston Mayele",
-            "minute": "78'",
-            "type": "goal"
-          },
-          {
-            "player": "Yoane Wissa",
-            "minute": "90'+1'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "刚果民主共和国",
-        "name_en": "Congo DR"
-      },
-      "team_b": {
-        "name": "Uzbekistan",
-        "flag": "🇺🇿",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Eldor Shomurodov",
-            "minute": "10'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "乌兹别克斯坦",
-        "name_en": "Uzbekistan"
-      },
-      "venue_en": "Atlanta Stadium",
-      "venue_zh": "Atlanta Stadium",
-      "highlights_en": [
-        "Congo DR beat Uzbekistan 3-1 in Group K.",
-        "Fiston Mayele 78', Yoane Wissa 90'+1', Eldor Shomurodov 10'",
-        "The match was played at Atlanta Stadium."
-      ],
-      "highlights_zh": [
-        "刚果民主共和国 3-1 击败乌兹别克斯坦，比赛属于 Group K。",
-        "Fiston Mayele 78', Yoane Wissa 90'+1', Eldor Shomurodov 10'",
-        "比赛场地：Atlanta Stadium。"
-      ],
-      "highlights": [
-        "刚果民主共和国 3-1 击败乌兹别克斯坦，比赛属于 Group K。",
-        "Fiston Mayele 78', Yoane Wissa 90'+1', Eldor Shomurodov 10'",
-        "比赛场地：Atlanta Stadium。"
-      ]
-    },
     {
       "group": "Group K",
       "status": "FT",
@@ -443,6 +385,53 @@
         "Cody Gakpo 72', Issa Diop 90'+1'",
         "比赛场地：Monterrey Stadium。"
       ]
+    },
+    {
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "",
+      "venue": "Dallas Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-01 01:00",
+      "finished_at_bj": "北京时间 2026-07-01 01:00",
+      "team_a": {
+        "name": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "score": 0,
+        "scorers": [],
+        "name_zh": "科特迪瓦",
+        "name_en": "Côte d'Ivoire"
+      },
+      "team_b": {
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Antonio Nusa",
+            "minute": "39'",
+            "type": "goal"
+          }
+        ],
+        "name_zh": "挪威",
+        "name_en": "Norway"
+      },
+      "venue_en": "Dallas Stadium",
+      "venue_zh": "Dallas Stadium",
+      "highlights_en": [
+        "Norway lead Côte d'Ivoire 1-0 in Group.",
+        "Antonio Nusa 39'",
+        "The match was played at Dallas Stadium."
+      ],
+      "highlights_zh": [
+        "挪威 1-0 暂时领先科特迪瓦，比赛属于 Group。",
+        "Antonio Nusa 39'",
+        "比赛场地：Dallas Stadium。"
+      ],
+      "highlights": [
+        "挪威 1-0 暂时领先科特迪瓦，比赛属于 Group。",
+        "Antonio Nusa 39'",
+        "比赛场地：Dallas Stadium。"
+      ]
     }
   ],
   "standings_changes": [
@@ -450,22 +439,6 @@
     "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
   ],
   "today_fixtures": [
-    {
-      "time_bj": "北京时间 2026-07-01 01:00",
-      "team_a": {
-        "name": "Côte d'Ivoire",
-        "flag": "🇨🇮",
-        "name_zh": "科特迪瓦",
-        "name_en": "Côte d'Ivoire"
-      },
-      "team_b": {
-        "name": "Norway",
-        "flag": "🇳🇴",
-        "name_zh": "挪威",
-        "name_en": "Norway"
-      },
-      "group": "Group"
-    },
     {
       "time_bj": "北京时间 2026-07-01 05:00",
       "team_a": {
@@ -580,8 +553,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "加拿大 1-0 击败南非，巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥。",
-  "summary_en": "Canada beat South Africa 1-0; Brazil beat Japan 2-1; Germany drew 1-1 with Paraguay; Netherlands drew 1-1 with Morocco.",
+  "summary_zh": "巴西 2-1 击败日本，德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 1-0 暂时领先科特迪瓦。",
+  "summary_en": "Brazil beat Japan 2-1; Germany drew 1-1 with Paraguay; Netherlands drew 1-1 with Morocco; Norway lead Côte d'Ivoire 1-0.",
   "standings_changes_zh": [
     "Group K：哥伦比亚 以 7 分领跑，葡萄牙 5 分紧随其后。",
     "Group J：阿根廷 以 9 分领跑，奥地利 4 分紧随其后。"
@@ -596,6 +569,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-30T06:50:41.077Z"
+    "fetched_at": "2026-06-30T17:51:30.454Z"
   }
 }
