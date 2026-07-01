@@ -1,9 +1,44 @@
 {
-  "updatedAt": "2026-07-01T19:56:52.511Z",
+  "updatedAt": "2026-07-01T21:39:54.752Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021525",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "77'",
+      "venue": "Seattle Stadium",
+      "home": {
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "flagUrl": "assets/flags/bel.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Senegal",
+        "code": "SEN",
+        "flag": "🇸🇳",
+        "flagUrl": "assets/flags/sen.svg",
+        "score": 2
+      },
+      "goals": [
+        {
+          "team": "SEN",
+          "player": "Habib Diarra",
+          "minute": "24'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Ismaila Sarr",
+          "minute": "51'",
+          "type": "goal"
+        }
+      ]
+    },
     {
       "id": "400021512",
       "stage": "Round of 32",
@@ -357,47 +392,6 @@
           "team": "AUT",
           "player": "Sasa Kalajdzic",
           "minute": "90'+6'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021495",
-      "stage": "Group J",
-      "status": "FT",
-      "minute": "",
-      "venue": "Dallas Stadium",
-      "home": {
-        "name": "Jordan",
-        "code": "JOR",
-        "flag": "🇯🇴",
-        "flagUrl": "assets/flags/jor.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Argentina",
-        "code": "ARG",
-        "flag": "🇦🇷",
-        "flagUrl": "assets/flags/arg.svg",
-        "score": 3
-      },
-      "goals": [
-        {
-          "team": "ARG",
-          "player": "Giovani Lo Celso",
-          "minute": "19'",
-          "type": "goal"
-        },
-        {
-          "team": "JOR",
-          "player": "Mousa Altamari",
-          "minute": "55'",
-          "type": "goal"
-        },
-        {
-          "team": "ARG",
-          "player": "Lionel Messi",
-          "minute": "80'",
           "type": "goal"
         }
       ]

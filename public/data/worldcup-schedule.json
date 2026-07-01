@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T19:56:52.511Z",
+  "updatedAt": "2026-07-01T21:39:54.752Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3519,24 +3519,37 @@
       "time": "北京时间 2026-07-02 04:00",
       "stage": "Round of 32",
       "venue": "Seattle Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "77'",
+      "score": "0-2",
       "home": {
         "name": "Belgium",
         "code": "BEL",
         "flag": "🇧🇪",
         "flagUrl": "assets/flags/bel.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Senegal",
         "code": "SEN",
         "flag": "🇸🇳",
         "flagUrl": "assets/flags/sen.svg",
-        "score": null
+        "score": 2
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "SEN",
+          "player": "Habib Diarra",
+          "minute": "24'",
+          "type": "goal"
+        },
+        {
+          "team": "SEN",
+          "player": "Ismaila Sarr",
+          "minute": "51'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
