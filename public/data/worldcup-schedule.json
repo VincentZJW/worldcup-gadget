@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T06:49:36.183Z",
+  "updatedAt": "2026-07-01T17:55:38.756Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3474,24 +3474,43 @@
       "time": "北京时间 2026-07-02 00:00",
       "stage": "Round of 32",
       "venue": "Atlanta Stadium",
-      "status": "Scheduled",
+      "status": "FT",
       "minute": "",
-      "score": "",
+      "score": "2-1",
       "home": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": null
+        "score": 2
       },
       "away": {
         "name": "DR Congo",
         "code": "COD",
         "flag": "🇨🇩",
         "flagUrl": "assets/flags/cod.svg",
-        "score": null
+        "score": 1
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "COD",
+          "player": "Brian Cipenga",
+          "minute": "7'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Harry Kane",
+          "minute": "75'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Harry Kane",
+          "minute": "86'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
