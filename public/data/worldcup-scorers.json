@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T23:12:53.692Z",
+  "updatedAt": "2026-07-01T01:40:11.495Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -1179,7 +1179,7 @@
       "player": {
         "id": "finn surman-NZL",
         "name": "Finn Surman",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/qmadd81766760097.png"
       },
       "team": {
         "name": "New Zealand",
