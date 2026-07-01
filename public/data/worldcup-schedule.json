@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T02:13:42.397Z",
+  "updatedAt": "2026-07-01T06:49:36.183Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3435,15 +3435,15 @@
       "time": "北京时间 2026-07-01 10:00",
       "stage": "Round of 32",
       "venue": "Mexico City Stadium",
-      "status": "LIVE",
-      "minute": "13'",
-      "score": "0-0",
+      "status": "FT",
+      "minute": "",
+      "score": "2-0",
       "home": {
         "name": "Mexico",
         "code": "MEX",
         "flag": "🇲🇽",
         "flagUrl": "assets/flags/mex.svg",
-        "score": 0
+        "score": 2
       },
       "away": {
         "name": "Ecuador",
@@ -3452,8 +3452,21 @@
         "flagUrl": "assets/flags/ecu.svg",
         "score": 0
       },
-      "goals": [],
-      "winner": null
+      "goals": [
+        {
+          "team": "MEX",
+          "player": "Julian Quinones",
+          "minute": "22'",
+          "type": "goal"
+        },
+        {
+          "team": "MEX",
+          "player": "Raul Jimenez",
+          "minute": "31'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43911"
     },
     {
       "id": "400021512",
@@ -3777,10 +3790,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg",
         "score": null
       },
       "away": {

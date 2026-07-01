@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T02:13:42.397Z",
+  "updatedAt": "2026-07-01T06:49:36.183Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,15 +7,15 @@
     {
       "id": "400021520",
       "stage": "Round of 32",
-      "status": "LIVE",
-      "minute": "13'",
+      "status": "FT",
+      "minute": "",
       "venue": "Mexico City Stadium",
       "home": {
         "name": "Mexico",
         "code": "MEX",
         "flag": "🇲🇽",
         "flagUrl": "assets/flags/mex.svg",
-        "score": 0
+        "score": 2
       },
       "away": {
         "name": "Ecuador",
@@ -24,7 +24,20 @@
         "flagUrl": "assets/flags/ecu.svg",
         "score": 0
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "MEX",
+          "player": "Julian Quinones",
+          "minute": "22'",
+          "type": "goal"
+        },
+        {
+          "team": "MEX",
+          "player": "Raul Jimenez",
+          "minute": "31'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021523",
