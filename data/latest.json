@@ -1,5 +1,5 @@
 {
-  "updated_at": "北京时间 2026-07-01 06:50",
+  "updated_at": "北京时间 2026-07-01 08:04",
   "date_range": "2026-06-28 to 2026-07-01",
   "summary": "德国 1-1 战平巴拉圭，荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 3-0 击败瑞典。",
   "matches": [
@@ -409,7 +409,7 @@
       "minute": "",
       "venue": "New York/New Jersey Stadium",
       "kickoff_at_bj": "北京时间 2026-07-01 05:00",
-      "finished_at_bj": "北京时间 2026-07-01 06:45",
+      "finished_at_bj": "北京时间 2026-07-01 06:50",
       "team_a": {
         "name": "France",
         "flag": "🇫🇷",
@@ -560,6 +560,38 @@
         "name_en": "Croatia"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-03 11:00",
+      "team_a": {
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "name_zh": "瑞士",
+        "name_en": "Switzerland"
+      },
+      "team_b": {
+        "name": "Algeria",
+        "flag": "🇩🇿",
+        "name_zh": "阿尔及利亚",
+        "name_en": "Algeria"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-04 02:00",
+      "team_a": {
+        "name": "Australia",
+        "flag": "🇦🇺",
+        "name_zh": "澳大利亚",
+        "name_en": "Australia"
+      },
+      "team_b": {
+        "name": "Egypt",
+        "flag": "🇪🇬",
+        "name_zh": "埃及",
+        "name_en": "Egypt"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
@@ -577,6 +609,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-06-30T22:50:58.573Z"
+    "fetched_at": "2026-07-01T00:04:23.872Z"
   }
 }
