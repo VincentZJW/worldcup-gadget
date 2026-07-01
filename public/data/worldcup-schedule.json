@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T21:39:54.752Z",
+  "updatedAt": "2026-07-01T23:15:34.155Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3519,15 +3519,15 @@
       "time": "北京时间 2026-07-02 04:00",
       "stage": "Round of 32",
       "venue": "Seattle Stadium",
-      "status": "LIVE",
-      "minute": "77'",
-      "score": "0-2",
+      "status": "FT",
+      "minute": "",
+      "score": "3-2",
       "home": {
         "name": "Belgium",
         "code": "BEL",
         "flag": "🇧🇪",
         "flagUrl": "assets/flags/bel.svg",
-        "score": 0
+        "score": 3
       },
       "away": {
         "name": "Senegal",
@@ -3548,9 +3548,21 @@
           "player": "Ismaila Sarr",
           "minute": "51'",
           "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Romelu Lukaku",
+          "minute": "86'",
+          "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Youri Tielemans",
+          "minute": "89'",
+          "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43935"
     },
     {
       "id": "400021524",
@@ -3881,10 +3893,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "flagUrl": "assets/flags/bel.svg",
         "score": null
       },
       "goals": [],
