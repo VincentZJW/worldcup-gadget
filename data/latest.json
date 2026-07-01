@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-01 10:43",
+  "updated_at": "北京时间 2026-07-01 15:05",
   "date_range": "2026-06-28 to 2026-07-01",
-  "summary": "荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 3-0 击败瑞典，墨西哥 2-0 暂时领先厄瓜多尔。",
+  "summary": "荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 3-0 击败瑞典，墨西哥 2-0 击败厄瓜多尔。",
   "matches": [
     {
       "group": "Group J",
@@ -389,11 +389,11 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "43'",
+      "status": "FT",
+      "minute": "",
       "venue": "Mexico City Stadium",
       "kickoff_at_bj": "北京时间 2026-07-01 10:00",
-      "finished_at_bj": "北京时间 2026-07-01 10:00",
+      "finished_at_bj": "北京时间 2026-07-01 11:54",
       "team_a": {
         "name": "Mexico",
         "flag": "🇲🇽",
@@ -424,17 +424,17 @@
       "venue_en": "Mexico City Stadium",
       "venue_zh": "Mexico City Stadium",
       "highlights_en": [
-        "Mexico lead Ecuador 2-0 in Group.",
+        "Mexico beat Ecuador 2-0 in Group.",
         "Julian Quinones 22', Raul Jimenez 31'",
         "The match was played at Mexico City Stadium."
       ],
       "highlights_zh": [
-        "墨西哥 2-0 暂时领先厄瓜多尔，比赛属于 Group。",
+        "墨西哥 2-0 击败厄瓜多尔，比赛属于 Group。",
         "Julian Quinones 22', Raul Jimenez 31'",
         "比赛场地：Mexico City Stadium。"
       ],
       "highlights": [
-        "墨西哥 2-0 暂时领先厄瓜多尔，比赛属于 Group。",
+        "墨西哥 2-0 击败厄瓜多尔，比赛属于 Group。",
         "Julian Quinones 22', Raul Jimenez 31'",
         "比赛场地：Mexico City Stadium。"
       ]
@@ -572,8 +572,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 3-0 击败瑞典，墨西哥 2-0 暂时领先厄瓜多尔。",
-  "summary_en": "Netherlands drew 1-1 with Morocco; Norway beat Côte d'Ivoire 2-1; France beat Sweden 3-0; Mexico lead Ecuador 2-0.",
+  "summary_zh": "荷兰 1-1 战平摩洛哥，挪威 2-1 击败科特迪瓦，法国 3-0 击败瑞典，墨西哥 2-0 击败厄瓜多尔。",
+  "summary_en": "Netherlands drew 1-1 with Morocco; Norway beat Côte d'Ivoire 2-1; France beat Sweden 3-0; Mexico beat Ecuador 2-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -582,6 +582,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-01T02:43:45.160Z"
+    "fetched_at": "2026-07-01T07:05:55.150Z"
   }
 }
