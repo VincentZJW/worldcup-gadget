@@ -1,5 +1,5 @@
 {
-  "updated_at": "北京时间 2026-07-02 01:53",
+  "updated_at": "北京时间 2026-07-02 03:51",
   "date_range": "2026-06-29 to 2026-07-02",
   "summary": "挪威 2-1 击败科特迪瓦，法国 3-0 击败瑞典，墨西哥 2-0 击败厄瓜多尔，英格兰 2-1 击败刚果民主共和国。",
   "matches": [
@@ -387,7 +387,7 @@
       "minute": "",
       "venue": "Atlanta Stadium",
       "kickoff_at_bj": "北京时间 2026-07-02 00:00",
-      "finished_at_bj": "北京时间 2026-07-02 01:45",
+      "finished_at_bj": "北京时间 2026-07-02 01:52",
       "team_a": {
         "name": "England",
         "flag": "🏴",
@@ -566,6 +566,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-01T17:53:04.570Z"
+    "fetched_at": "2026-07-01T19:51:38.046Z"
   }
 }
