@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-01T01:40:11.495Z",
+  "updatedAt": "2026-07-01T02:13:42.397Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021520",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "13'",
+      "venue": "Mexico City Stadium",
+      "home": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "flag": "🇪🇨",
+        "flagUrl": "assets/flags/ecu.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021523",
       "stage": "Round of 32",
@@ -366,28 +388,6 @@
           "type": "goal"
         }
       ]
-    },
-    {
-      "id": "400021505",
-      "stage": "Group K",
-      "status": "FT",
-      "minute": "",
-      "venue": "Miami Stadium",
-      "home": {
-        "name": "Colombia",
-        "code": "COL",
-        "flag": "🇨🇴",
-        "flagUrl": "assets/flags/col.svg",
-        "score": 0
-      },
-      "away": {
-        "name": "Portugal",
-        "code": "POR",
-        "flag": "🇵🇹",
-        "flagUrl": "assets/flags/por.svg",
-        "score": 0
-      },
-      "goals": []
     }
   ]
 }

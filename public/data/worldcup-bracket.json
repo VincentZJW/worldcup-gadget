@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T01:40:11.495Z",
+  "updatedAt": "2026-07-01T02:13:42.397Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -258,25 +258,25 @@
           "date": "2026-07-01",
           "time": "北京时间 2026-07-01 10:00",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "LIVE",
           "home": {
             "name": "Mexico",
             "code": "MEX",
             "flag": "🇲🇽",
             "flagUrl": "assets/flags/mex.svg",
-            "score": null
+            "score": 0
           },
           "away": {
             "name": "Ecuador",
             "code": "ECU",
             "flag": "🇪🇨",
             "flagUrl": "assets/flags/ecu.svg",
-            "score": null
+            "score": 0
           },
           "winner": null,
           "venue": "Mexico City Stadium",
-          "minute": "",
-          "score": "",
+          "minute": "13'",
+          "score": "0-0",
           "goals": []
         },
         {
