@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-02 05:26",
+  "updated_at": "北京时间 2026-07-02 06:47",
   "date_range": "2026-06-30 to 2026-07-02",
-  "summary": "法国 3-0 击败瑞典，墨西哥 2-0 击败厄瓜多尔，英格兰 2-1 击败刚果民主共和国，塞内加尔 2-0 暂时领先比利时。",
+  "summary": "法国 3-0 击败瑞典，墨西哥 2-0 击败厄瓜多尔，英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔。",
   "matches": [
     {
       "group": "Group",
@@ -394,16 +394,27 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "64'",
+      "status": "FT",
+      "minute": "",
       "venue": "Seattle Stadium",
       "kickoff_at_bj": "北京时间 2026-07-02 04:00",
-      "finished_at_bj": "北京时间 2026-07-02 04:00",
+      "finished_at_bj": "北京时间 2026-07-02 06:15",
       "team_a": {
         "name": "Belgium",
         "flag": "🇧🇪",
-        "score": 0,
-        "scorers": [],
+        "score": 3,
+        "scorers": [
+          {
+            "player": "Romelu Lukaku",
+            "minute": "86'",
+            "type": "goal"
+          },
+          {
+            "player": "Youri Tielemans",
+            "minute": "89'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "比利时",
         "name_en": "Belgium"
       },
@@ -429,18 +440,18 @@
       "venue_en": "Seattle Stadium",
       "venue_zh": "Seattle Stadium",
       "highlights_en": [
-        "Senegal lead Belgium 2-0 in Group.",
-        "Habib Diarra 24', Ismaila Sarr 51'",
+        "Belgium beat Senegal 3-2 in Group.",
+        "Romelu Lukaku 86', Youri Tielemans 89', Habib Diarra 24', Ismaila Sarr 51'",
         "The match was played at Seattle Stadium."
       ],
       "highlights_zh": [
-        "塞内加尔 2-0 暂时领先比利时，比赛属于 Group。",
-        "Habib Diarra 24', Ismaila Sarr 51'",
+        "比利时 3-2 击败塞内加尔，比赛属于 Group。",
+        "Romelu Lukaku 86', Youri Tielemans 89', Habib Diarra 24', Ismaila Sarr 51'",
         "比赛场地：Seattle Stadium。"
       ],
       "highlights": [
-        "塞内加尔 2-0 暂时领先比利时，比赛属于 Group。",
-        "Habib Diarra 24', Ismaila Sarr 51'",
+        "比利时 3-2 击败塞内加尔，比赛属于 Group。",
+        "Romelu Lukaku 86', Youri Tielemans 89', Habib Diarra 24', Ismaila Sarr 51'",
         "比赛场地：Seattle Stadium。"
       ]
     }
@@ -545,8 +556,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "法国 3-0 击败瑞典，墨西哥 2-0 击败厄瓜多尔，英格兰 2-1 击败刚果民主共和国，塞内加尔 2-0 暂时领先比利时。",
-  "summary_en": "France beat Sweden 3-0; Mexico beat Ecuador 2-0; England beat Congo DR 2-1; Senegal lead Belgium 2-0.",
+  "summary_zh": "法国 3-0 击败瑞典，墨西哥 2-0 击败厄瓜多尔，英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔。",
+  "summary_en": "France beat Sweden 3-0; Mexico beat Ecuador 2-0; England beat Congo DR 2-1; Belgium beat Senegal 3-2.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -555,6 +566,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-01T21:26:22.067Z"
+    "fetched_at": "2026-07-01T22:47:10.299Z"
   }
 }
