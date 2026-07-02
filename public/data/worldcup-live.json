@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T20:41:16.484Z",
+  "updatedAt": "2026-07-02T22:05:59.432Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,15 +7,15 @@
     {
       "id": "400021519",
       "stage": "Round of 32",
-      "status": "LIVE",
-      "minute": "79'",
+      "status": "FT",
+      "minute": "",
       "venue": "Los Angeles Stadium",
       "home": {
         "name": "Spain",
         "code": "ESP",
         "flag": "🇪🇸",
         "flagUrl": "assets/flags/esp.svg",
-        "score": 2
+        "score": 3
       },
       "away": {
         "name": "Austria",
@@ -35,6 +35,12 @@
           "team": "ESP",
           "player": "Pedro Porro",
           "minute": "66'",
+          "type": "goal"
+        },
+        {
+          "team": "ESP",
+          "player": "Mikel Oyarzabal",
+          "minute": "89'",
           "type": "goal"
         }
       ]

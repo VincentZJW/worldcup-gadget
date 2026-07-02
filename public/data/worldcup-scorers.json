@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T20:41:16.484Z",
+  "updatedAt": "2026-07-02T22:05:59.432Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -97,6 +97,24 @@
     {
       "rank": 6,
       "player": {
+        "id": "mikel oyarzabal-ESP",
+        "name": "Mikel Oyarzabal",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9apeaz1762709253.png"
+      },
+      "team": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg"
+      },
+      "goals": 4,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 7,
+      "player": {
         "id": "ousmane dembele-FRA",
         "name": "Ousmane Dembele",
         "photo": "https://r2.thesportsdb.com/images/media/player/cutout/pstgy21766335175.png"
@@ -113,7 +131,7 @@
       "minutes": null
     },
     {
-      "rank": 7,
+      "rank": 8,
       "player": {
         "id": "vinicius junior-BRA",
         "name": "Vinicius Junior",
@@ -131,7 +149,7 @@
       "minutes": null
     },
     {
-      "rank": 8,
+      "rank": 9,
       "player": {
         "id": "brian brobbey-NED",
         "name": "Brian Brobbey",
@@ -149,7 +167,7 @@
       "minutes": null
     },
     {
-      "rank": 9,
+      "rank": 10,
       "player": {
         "id": "cody gakpo-NED",
         "name": "Cody Gakpo",
@@ -167,7 +185,7 @@
       "minutes": null
     },
     {
-      "rank": 10,
+      "rank": 11,
       "player": {
         "id": "deniz undav-GER",
         "name": "Deniz Undav",
@@ -185,7 +203,7 @@
       "minutes": null
     },
     {
-      "rank": 11,
+      "rank": 12,
       "player": {
         "id": "elijah just-NZL",
         "name": "Elijah Just",
@@ -203,7 +221,7 @@
       "minutes": null
     },
     {
-      "rank": 12,
+      "rank": 13,
       "player": {
         "id": "folarin balogun-USA",
         "name": "Folarin Balogun",
@@ -221,7 +239,7 @@
       "minutes": null
     },
     {
-      "rank": 13,
+      "rank": 14,
       "player": {
         "id": "ismael saibari-MAR",
         "name": "Ismael Saibari",
@@ -239,7 +257,7 @@
       "minutes": null
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player": {
         "id": "johan manzambi-SUI",
         "name": "Johan Manzambi",
@@ -257,7 +275,7 @@
       "minutes": null
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player": {
         "id": "jonathan david-CAN",
         "name": "Jonathan David",
@@ -275,7 +293,7 @@
       "minutes": null
     },
     {
-      "rank": 16,
+      "rank": 17,
       "player": {
         "id": "julian quinones-MEX",
         "name": "Julian Quinones",
@@ -293,7 +311,7 @@
       "minutes": null
     },
     {
-      "rank": 17,
+      "rank": 18,
       "player": {
         "id": "matheus cunha-BRA",
         "name": "Matheus Cunha",
@@ -304,24 +322,6 @@
         "code": "BRA",
         "flag": "🇧🇷",
         "flagUrl": "assets/flags/bra.svg"
-      },
-      "goals": 3,
-      "assists": null,
-      "penalties": null,
-      "minutes": null
-    },
-    {
-      "rank": 18,
-      "player": {
-        "id": "mikel oyarzabal-ESP",
-        "name": "Mikel Oyarzabal",
-        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9apeaz1762709253.png"
-      },
-      "team": {
-        "name": "Spain",
-        "code": "ESP",
-        "flag": "🇪🇸",
-        "flagUrl": "assets/flags/esp.svg"
       },
       "goals": 3,
       "assists": null,
