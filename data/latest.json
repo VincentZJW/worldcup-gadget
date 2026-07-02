@@ -1,61 +1,8 @@
 {
-  "updated_at": "北京时间 2026-07-03 06:04",
-  "date_range": "2026-06-30 to 2026-07-03",
-  "summary": "英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利。",
+  "updated_at": "北京时间 2026-07-03 07:36",
+  "date_range": "2026-07-01 to 2026-07-03",
+  "summary": "比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利，葡萄牙 0-0 暂平克罗地亚。",
   "matches": [
-    {
-      "group": "Group",
-      "status": "FT",
-      "minute": "",
-      "venue": "Monterrey Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-30 09:00",
-      "finished_at_bj": "北京时间 2026-06-30 11:25",
-      "team_a": {
-        "name": "Netherlands",
-        "flag": "🇳🇱",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Cody Gakpo",
-            "minute": "72'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "荷兰",
-        "name_en": "Netherlands"
-      },
-      "team_b": {
-        "name": "Morocco",
-        "flag": "🇲🇦",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Issa Diop",
-            "minute": "90'+1'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "摩洛哥",
-        "name_en": "Morocco"
-      },
-      "venue_en": "Monterrey Stadium",
-      "venue_zh": "Monterrey Stadium",
-      "highlights_en": [
-        "Netherlands drew 1-1 with Morocco in Group.",
-        "Cody Gakpo 72', Issa Diop 90'+1'",
-        "The match was played at Monterrey Stadium."
-      ],
-      "highlights_zh": [
-        "荷兰 1-1 战平摩洛哥，比赛属于 Group。",
-        "Cody Gakpo 72', Issa Diop 90'+1'",
-        "比赛场地：Monterrey Stadium。"
-      ],
-      "highlights": [
-        "荷兰 1-1 战平摩洛哥，比赛属于 Group。",
-        "Cody Gakpo 72', Issa Diop 90'+1'",
-        "比赛场地：Monterrey Stadium。"
-      ]
-    },
     {
       "group": "Group",
       "status": "FT",
@@ -452,26 +399,51 @@
         "Mikel Oyarzabal 36', Pedro Porro 66', Mikel Oyarzabal 89'",
         "比赛场地：Los Angeles Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-03 07:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "36'",
+      "venue": "Toronto Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-03 07:00",
+      "finished_at_bj": "北京时间 2026-07-03 07:00",
       "team_a": {
         "name": "Portugal",
         "flag": "🇵🇹",
+        "score": 0,
+        "scorers": [],
         "name_zh": "葡萄牙",
         "name_en": "Portugal"
       },
       "team_b": {
         "name": "Croatia",
         "flag": "🇭🇷",
+        "score": 0,
+        "scorers": [],
         "name_zh": "克罗地亚",
         "name_en": "Croatia"
       },
-      "group": "Group"
-    },
+      "venue_en": "Toronto Stadium",
+      "venue_zh": "Toronto Stadium",
+      "highlights_en": [
+        "Portugal and Croatia are level 0-0 in Group.",
+        "Neither side scored.",
+        "The match was played at Toronto Stadium."
+      ],
+      "highlights_zh": [
+        "葡萄牙 0-0 暂平克罗地亚，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Toronto Stadium。"
+      ],
+      "highlights": [
+        "葡萄牙 0-0 暂平克罗地亚，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Toronto Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-03 11:00",
       "team_a": {
@@ -570,8 +542,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利。",
-  "summary_en": "England beat Congo DR 2-1; Belgium beat Senegal 3-2; USA beat Bosnia and Herzegovina 2-0; Spain beat Austria 3-0.",
+  "summary_zh": "比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利，葡萄牙 0-0 暂平克罗地亚。",
+  "summary_en": "Belgium beat Senegal 3-2; USA beat Bosnia and Herzegovina 2-0; Spain beat Austria 3-0; Portugal and Croatia are level 0-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -580,6 +552,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-02T22:04:52.403Z"
+    "fetched_at": "2026-07-02T23:36:17.648Z"
   }
 }
