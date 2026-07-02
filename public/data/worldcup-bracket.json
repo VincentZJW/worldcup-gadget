@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T19:24:09.881Z",
+  "updatedAt": "2026-07-02T20:41:16.484Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -438,7 +438,7 @@
             "code": "ESP",
             "flag": "🇪🇸",
             "flagUrl": "assets/flags/esp.svg",
-            "score": 0
+            "score": 2
           },
           "away": {
             "name": "Austria",
@@ -449,9 +449,22 @@
           },
           "winner": null,
           "venue": "Los Angeles Stadium",
-          "minute": "24'",
-          "score": "0-0",
-          "goals": []
+          "minute": "79'",
+          "score": "2-0",
+          "goals": [
+            {
+              "team": "ESP",
+              "player": "Mikel Oyarzabal",
+              "minute": "36'",
+              "type": "goal"
+            },
+            {
+              "team": "ESP",
+              "player": "Pedro Porro",
+              "minute": "66'",
+              "type": "goal"
+            }
+          ]
         },
         {
           "id": "400021526",
