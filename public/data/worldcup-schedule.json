@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T02:06:02.449Z",
+  "updatedAt": "2026-07-02T06:13:34.659Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3601,7 +3601,7 @@
           "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43921"
     },
     {
       "id": "400021519",
@@ -3899,10 +3899,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg",
         "score": null
       },
       "away": {
