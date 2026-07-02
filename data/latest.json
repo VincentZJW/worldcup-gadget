@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-03 03:21",
+  "updated_at": "北京时间 2026-07-03 04:40",
   "date_range": "2026-06-30 to 2026-07-03",
-  "summary": "英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 0-0 暂平奥地利。",
+  "summary": "英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 2-0 暂时领先奥地利。",
   "matches": [
     {
       "group": "Group",
@@ -399,15 +399,26 @@
     {
       "group": "Group",
       "status": "LIVE",
-      "minute": "21'",
+      "minute": "78'",
       "venue": "Los Angeles Stadium",
       "kickoff_at_bj": "北京时间 2026-07-03 03:00",
       "finished_at_bj": "北京时间 2026-07-03 03:00",
       "team_a": {
         "name": "Spain",
         "flag": "🇪🇸",
-        "score": 0,
-        "scorers": [],
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Mikel Oyarzabal",
+            "minute": "36'",
+            "type": "goal"
+          },
+          {
+            "player": "Pedro Porro",
+            "minute": "66'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "西班牙",
         "name_en": "Spain"
       },
@@ -422,18 +433,18 @@
       "venue_en": "Los Angeles Stadium",
       "venue_zh": "Los Angeles Stadium",
       "highlights_en": [
-        "Spain and Austria are level 0-0 in Group.",
-        "Neither side scored.",
+        "Spain lead Austria 2-0 in Group.",
+        "Mikel Oyarzabal 36', Pedro Porro 66'",
         "The match was played at Los Angeles Stadium."
       ],
       "highlights_zh": [
-        "西班牙 0-0 暂平奥地利，比赛属于 Group。",
-        "双方均未取得进球。",
+        "西班牙 2-0 暂时领先奥地利，比赛属于 Group。",
+        "Mikel Oyarzabal 36', Pedro Porro 66'",
         "比赛场地：Los Angeles Stadium。"
       ],
       "highlights": [
-        "西班牙 0-0 暂平奥地利，比赛属于 Group。",
-        "双方均未取得进球。",
+        "西班牙 2-0 暂时领先奥地利，比赛属于 Group。",
+        "Mikel Oyarzabal 36', Pedro Porro 66'",
         "比赛场地：Los Angeles Stadium。"
       ]
     }
@@ -554,8 +565,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 0-0 暂平奥地利。",
-  "summary_en": "England beat Congo DR 2-1; Belgium beat Senegal 3-2; USA beat Bosnia and Herzegovina 2-0; Spain and Austria are level 0-0.",
+  "summary_zh": "英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 2-0 暂时领先奥地利。",
+  "summary_en": "England beat Congo DR 2-1; Belgium beat Senegal 3-2; USA beat Bosnia and Herzegovina 2-0; Spain lead Austria 2-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -564,6 +575,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-02T19:21:32.964Z"
+    "fetched_at": "2026-07-02T20:40:50.599Z"
   }
 }
