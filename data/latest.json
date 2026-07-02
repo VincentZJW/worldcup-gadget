@@ -1,66 +1,8 @@
 {
-  "updated_at": "北京时间 2026-07-02 06:47",
+  "updated_at": "北京时间 2026-07-02 08:05",
   "date_range": "2026-06-30 to 2026-07-02",
-  "summary": "法国 3-0 击败瑞典，墨西哥 2-0 击败厄瓜多尔，英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔。",
+  "summary": "墨西哥 2-0 击败厄瓜多尔，英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 0-0 暂平波黑。",
   "matches": [
-    {
-      "group": "Group",
-      "status": "FT",
-      "minute": "",
-      "venue": "Houston Stadium",
-      "kickoff_at_bj": "北京时间 2026-06-30 01:00",
-      "finished_at_bj": "北京时间 2026-06-30 02:56",
-      "team_a": {
-        "name": "Brazil",
-        "flag": "🇧🇷",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Casemiro",
-            "minute": "56'",
-            "type": "goal"
-          },
-          {
-            "player": "Gabriel Martinelli",
-            "minute": "90'+5'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "巴西",
-        "name_en": "Brazil"
-      },
-      "team_b": {
-        "name": "Japan",
-        "flag": "🇯🇵",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Kaishu Sano",
-            "minute": "29'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "日本",
-        "name_en": "Japan"
-      },
-      "venue_en": "Houston Stadium",
-      "venue_zh": "Houston Stadium",
-      "highlights_en": [
-        "Brazil beat Japan 2-1 in Group.",
-        "Casemiro 56', Gabriel Martinelli 90'+5', Kaishu Sano 29'",
-        "The match was played at Houston Stadium."
-      ],
-      "highlights_zh": [
-        "巴西 2-1 击败日本，比赛属于 Group。",
-        "Casemiro 56', Gabriel Martinelli 90'+5', Kaishu Sano 29'",
-        "比赛场地：Houston Stadium。"
-      ],
-      "highlights": [
-        "巴西 2-1 击败日本，比赛属于 Group。",
-        "Casemiro 56', Gabriel Martinelli 90'+5', Kaishu Sano 29'",
-        "比赛场地：Houston Stadium。"
-      ]
-    },
     {
       "group": "Group",
       "status": "FT",
@@ -398,7 +340,7 @@
       "minute": "",
       "venue": "Seattle Stadium",
       "kickoff_at_bj": "北京时间 2026-07-02 04:00",
-      "finished_at_bj": "北京时间 2026-07-02 06:15",
+      "finished_at_bj": "北京时间 2026-07-02 06:27",
       "team_a": {
         "name": "Belgium",
         "flag": "🇧🇪",
@@ -454,26 +396,51 @@
         "Romelu Lukaku 86', Youri Tielemans 89', Habib Diarra 24', Ismaila Sarr 51'",
         "比赛场地：Seattle Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-02 08:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "5'",
+      "venue": "San Francisco Bay Area Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-02 08:00",
+      "finished_at_bj": "北京时间 2026-07-02 08:00",
       "team_a": {
         "name": "USA",
         "flag": "🇺🇸",
+        "score": 0,
+        "scorers": [],
         "name_zh": "美国",
         "name_en": "USA"
       },
       "team_b": {
         "name": "Bosnia and Herzegovina",
         "flag": "🇧🇦",
+        "score": 0,
+        "scorers": [],
         "name_zh": "波黑",
         "name_en": "Bosnia and Herzegovina"
       },
-      "group": "Group"
-    },
+      "venue_en": "San Francisco Bay Area Stadium",
+      "venue_zh": "San Francisco Bay Area Stadium",
+      "highlights_en": [
+        "USA and Bosnia and Herzegovina are level 0-0 in Group.",
+        "Neither side scored.",
+        "The match was played at San Francisco Bay Area Stadium."
+      ],
+      "highlights_zh": [
+        "美国 0-0 暂平波黑，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：San Francisco Bay Area Stadium。"
+      ],
+      "highlights": [
+        "美国 0-0 暂平波黑，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：San Francisco Bay Area Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-03 03:00",
       "team_a": {
@@ -553,11 +520,59 @@
         "name_en": "Cabo Verde"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-04 09:30",
+      "team_a": {
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "name_zh": "哥伦比亚",
+        "name_en": "Colombia"
+      },
+      "team_b": {
+        "name": "Ghana",
+        "flag": "🇬🇭",
+        "name_zh": "加纳",
+        "name_en": "Ghana"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-05 01:00",
+      "team_a": {
+        "name": "Canada",
+        "flag": "🇨🇦",
+        "name_zh": "加拿大",
+        "name_en": "Canada"
+      },
+      "team_b": {
+        "name": "Morocco",
+        "flag": "🇲🇦",
+        "name_zh": "摩洛哥",
+        "name_en": "Morocco"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-05 05:00",
+      "team_a": {
+        "name": "Paraguay",
+        "flag": "🇵🇾",
+        "name_zh": "巴拉圭",
+        "name_en": "Paraguay"
+      },
+      "team_b": {
+        "name": "France",
+        "flag": "🇫🇷",
+        "name_zh": "法国",
+        "name_en": "France"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
-  "summary_zh": "法国 3-0 击败瑞典，墨西哥 2-0 击败厄瓜多尔，英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔。",
-  "summary_en": "France beat Sweden 3-0; Mexico beat Ecuador 2-0; England beat Congo DR 2-1; Belgium beat Senegal 3-2.",
+  "summary_zh": "墨西哥 2-0 击败厄瓜多尔，英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 0-0 暂平波黑。",
+  "summary_en": "Mexico beat Ecuador 2-0; England beat Congo DR 2-1; Belgium beat Senegal 3-2; USA and Bosnia and Herzegovina are level 0-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -566,6 +581,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-01T22:47:10.299Z"
+    "fetched_at": "2026-07-02T00:05:32.151Z"
   }
 }
