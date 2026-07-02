@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-03 04:40",
+  "updated_at": "北京时间 2026-07-03 06:04",
   "date_range": "2026-06-30 to 2026-07-03",
-  "summary": "英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 2-0 暂时领先奥地利。",
+  "summary": "英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利。",
   "matches": [
     {
       "group": "Group",
@@ -398,15 +398,15 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "78'",
+      "status": "FT",
+      "minute": "",
       "venue": "Los Angeles Stadium",
       "kickoff_at_bj": "北京时间 2026-07-03 03:00",
-      "finished_at_bj": "北京时间 2026-07-03 03:00",
+      "finished_at_bj": "北京时间 2026-07-03 04:52",
       "team_a": {
         "name": "Spain",
         "flag": "🇪🇸",
-        "score": 2,
+        "score": 3,
         "scorers": [
           {
             "player": "Mikel Oyarzabal",
@@ -416,6 +416,11 @@
           {
             "player": "Pedro Porro",
             "minute": "66'",
+            "type": "goal"
+          },
+          {
+            "player": "Mikel Oyarzabal",
+            "minute": "89'",
             "type": "goal"
           }
         ],
@@ -433,18 +438,18 @@
       "venue_en": "Los Angeles Stadium",
       "venue_zh": "Los Angeles Stadium",
       "highlights_en": [
-        "Spain lead Austria 2-0 in Group.",
-        "Mikel Oyarzabal 36', Pedro Porro 66'",
+        "Spain beat Austria 3-0 in Group.",
+        "Mikel Oyarzabal 36', Pedro Porro 66', Mikel Oyarzabal 89'",
         "The match was played at Los Angeles Stadium."
       ],
       "highlights_zh": [
-        "西班牙 2-0 暂时领先奥地利，比赛属于 Group。",
-        "Mikel Oyarzabal 36', Pedro Porro 66'",
+        "西班牙 3-0 击败奥地利，比赛属于 Group。",
+        "Mikel Oyarzabal 36', Pedro Porro 66', Mikel Oyarzabal 89'",
         "比赛场地：Los Angeles Stadium。"
       ],
       "highlights": [
-        "西班牙 2-0 暂时领先奥地利，比赛属于 Group。",
-        "Mikel Oyarzabal 36', Pedro Porro 66'",
+        "西班牙 3-0 击败奥地利，比赛属于 Group。",
+        "Mikel Oyarzabal 36', Pedro Porro 66', Mikel Oyarzabal 89'",
         "比赛场地：Los Angeles Stadium。"
       ]
     }
@@ -565,8 +570,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 2-0 暂时领先奥地利。",
-  "summary_en": "England beat Congo DR 2-1; Belgium beat Senegal 3-2; USA beat Bosnia and Herzegovina 2-0; Spain lead Austria 2-0.",
+  "summary_zh": "英格兰 2-1 击败刚果民主共和国，比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利。",
+  "summary_en": "England beat Congo DR 2-1; Belgium beat Senegal 3-2; USA beat Bosnia and Herzegovina 2-0; Spain beat Austria 3-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -575,6 +580,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-02T20:40:50.599Z"
+    "fetched_at": "2026-07-02T22:04:52.403Z"
   }
 }
