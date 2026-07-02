@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T23:15:34.155Z",
+  "updatedAt": "2026-07-02T01:33:12.934Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -205,6 +205,24 @@
     {
       "rank": 12,
       "player": {
+        "id": "folarin balogun-USA",
+        "name": "Folarin Balogun",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ic7kq51781348516.png"
+      },
+      "team": {
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg"
+      },
+      "goals": 3,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 13,
+      "player": {
         "id": "ismael saibari-MAR",
         "name": "Ismael Saibari",
         "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3y277g1764595447.png"
@@ -221,7 +239,7 @@
       "minutes": null
     },
     {
-      "rank": 13,
+      "rank": 14,
       "player": {
         "id": "johan manzambi-SUI",
         "name": "Johan Manzambi",
@@ -239,7 +257,7 @@
       "minutes": null
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player": {
         "id": "jonathan david-CAN",
         "name": "Jonathan David",
@@ -257,7 +275,7 @@
       "minutes": null
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player": {
         "id": "julian quinones-MEX",
         "name": "Julian Quinones",
@@ -275,7 +293,7 @@
       "minutes": null
     },
     {
-      "rank": 16,
+      "rank": 17,
       "player": {
         "id": "matheus cunha-BRA",
         "name": "Matheus Cunha",
@@ -293,7 +311,7 @@
       "minutes": null
     },
     {
-      "rank": 17,
+      "rank": 18,
       "player": {
         "id": "amad diallo-CIV",
         "name": "Amad Diallo",
@@ -311,7 +329,7 @@
       "minutes": null
     },
     {
-      "rank": 18,
+      "rank": 19,
       "player": {
         "id": "anthony elanga-SWE",
         "name": "Anthony Elanga",
@@ -329,7 +347,7 @@
       "minutes": null
     },
     {
-      "rank": 19,
+      "rank": 20,
       "player": {
         "id": "ayase ueda-JPN",
         "name": "Ayase Ueda",
@@ -347,7 +365,7 @@
       "minutes": null
     },
     {
-      "rank": 20,
+      "rank": 21,
       "player": {
         "id": "bradley barcola-FRA",
         "name": "Bradley Barcola",
@@ -365,7 +383,7 @@
       "minutes": null
     },
     {
-      "rank": 21,
+      "rank": 22,
       "player": {
         "id": "cristiano ronaldo-POR",
         "name": "Cristiano Ronaldo",
@@ -383,7 +401,7 @@
       "minutes": null
     },
     {
-      "rank": 22,
+      "rank": 23,
       "player": {
         "id": "crysencio summerville-NED",
         "name": "Crysencio Summerville",
@@ -401,7 +419,7 @@
       "minutes": null
     },
     {
-      "rank": 23,
+      "rank": 24,
       "player": {
         "id": "cyle larin-CAN",
         "name": "Cyle Larin",
@@ -419,7 +437,7 @@
       "minutes": null
     },
     {
-      "rank": 24,
+      "rank": 25,
       "player": {
         "id": "daichi kamada-JPN",
         "name": "Daichi Kamada",
@@ -437,7 +455,7 @@
       "minutes": null
     },
     {
-      "rank": 25,
+      "rank": 26,
       "player": {
         "id": "daniel munoz-COL",
         "name": "Daniel Munoz",
@@ -455,7 +473,7 @@
       "minutes": null
     },
     {
-      "rank": 26,
+      "rank": 27,
       "player": {
         "id": "ermin mahmic-BIH",
         "name": "Ermin Mahmic",
@@ -466,24 +484,6 @@
         "code": "BIH",
         "flag": "🇧🇦",
         "flagUrl": "assets/flags/bih.svg"
-      },
-      "goals": 2,
-      "assists": null,
-      "penalties": null,
-      "minutes": null
-    },
-    {
-      "rank": 27,
-      "player": {
-        "id": "folarin balogun-USA",
-        "name": "Folarin Balogun",
-        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ic7kq51781348516.png"
-      },
-      "team": {
-        "name": "USA",
-        "code": "USA",
-        "flag": "🇺🇸",
-        "flagUrl": "assets/flags/usa.svg"
       },
       "goals": 2,
       "assists": null,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T23:15:34.155Z",
+  "updatedAt": "2026-07-02T01:33:12.934Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -393,26 +393,33 @@
           "date": "2026-07-02",
           "time": "北京时间 2026-07-02 08:00",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "LIVE",
           "home": {
             "name": "USA",
             "code": "USA",
             "flag": "🇺🇸",
             "flagUrl": "assets/flags/usa.svg",
-            "score": null
+            "score": 1
           },
           "away": {
             "name": "Bosnia and Herzegovina",
             "code": "BIH",
             "flag": "🇧🇦",
             "flagUrl": "assets/flags/bih.svg",
-            "score": null
+            "score": 0
           },
           "winner": null,
           "venue": "San Francisco Bay Area Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "minute": "67'",
+          "score": "1-0",
+          "goals": [
+            {
+              "team": "USA",
+              "player": "Folarin Balogun",
+              "minute": "45'",
+              "type": "goal"
+            }
+          ]
         },
         {
           "id": "400021519",

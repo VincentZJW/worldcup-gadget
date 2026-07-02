@@ -1,9 +1,38 @@
 {
-  "updatedAt": "2026-07-01T23:15:34.155Z",
+  "updatedAt": "2026-07-02T01:33:12.934Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021524",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "67'",
+      "venue": "San Francisco Bay Area Stadium",
+      "home": {
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg",
+        "score": 1
+      },
+      "away": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "flag": "🇧🇦",
+        "flagUrl": "assets/flags/bih.svg",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "USA",
+          "player": "Folarin Balogun",
+          "minute": "45'",
+          "type": "goal"
+        }
+      ]
+    },
     {
       "id": "400021525",
       "stage": "Round of 32",
@@ -345,65 +374,6 @@
           "team": "CAN",
           "player": "Stephen Eustaquio",
           "minute": "90'+2'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021497",
-      "stage": "Group J",
-      "status": "FT",
-      "minute": "",
-      "venue": "Kansas City Stadium",
-      "home": {
-        "name": "Algeria",
-        "code": "ALG",
-        "flag": "🇩🇿",
-        "flagUrl": "assets/flags/alg.svg",
-        "score": 3
-      },
-      "away": {
-        "name": "Austria",
-        "code": "AUT",
-        "flag": "🇦🇹",
-        "flagUrl": "assets/flags/aut.svg",
-        "score": 3
-      },
-      "goals": [
-        {
-          "team": "AUT",
-          "player": "Marko Arnautovic",
-          "minute": "28'",
-          "type": "goal"
-        },
-        {
-          "team": "ALG",
-          "player": "Rafik Belghali",
-          "minute": "45'",
-          "type": "goal"
-        },
-        {
-          "team": "AUT",
-          "player": "Marcel Sabitzer",
-          "minute": "55'",
-          "type": "goal"
-        },
-        {
-          "team": "ALG",
-          "player": "Riyad Mahrez",
-          "minute": "60'",
-          "type": "goal"
-        },
-        {
-          "team": "ALG",
-          "player": "Riyad Mahrez",
-          "minute": "90'+3'",
-          "type": "goal"
-        },
-        {
-          "team": "AUT",
-          "player": "Sasa Kalajdzic",
-          "minute": "90'+6'",
           "type": "goal"
         }
       ]
