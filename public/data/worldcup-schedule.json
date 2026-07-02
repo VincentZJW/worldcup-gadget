@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T22:05:59.432Z",
+  "updatedAt": "2026-07-02T23:37:02.767Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3654,22 +3654,22 @@
       "time": "北京时间 2026-07-03 07:00",
       "stage": "Round of 32",
       "venue": "Toronto Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "37'",
+      "score": "0-0",
       "home": {
         "name": "Portugal",
         "code": "POR",
         "flag": "🇵🇹",
         "flagUrl": "assets/flags/por.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Croatia",
         "code": "CRO",
         "flag": "🇭🇷",
         "flagUrl": "assets/flags/cro.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null

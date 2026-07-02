@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-02T22:05:59.432Z",
+  "updatedAt": "2026-07-02T23:37:02.767Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021526",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "37'",
+      "venue": "Toronto Stadium",
+      "home": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Croatia",
+        "code": "CRO",
+        "flag": "🇭🇷",
+        "flagUrl": "assets/flags/cro.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021519",
       "stage": "Round of 32",
@@ -351,47 +373,6 @@
           "team": "GER",
           "player": "Kai Havertz",
           "minute": "54'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021516",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "Houston Stadium",
-      "home": {
-        "name": "Brazil",
-        "code": "BRA",
-        "flag": "🇧🇷",
-        "flagUrl": "assets/flags/bra.svg",
-        "score": 2
-      },
-      "away": {
-        "name": "Japan",
-        "code": "JPN",
-        "flag": "🇯🇵",
-        "flagUrl": "assets/flags/jpn.svg",
-        "score": 1
-      },
-      "goals": [
-        {
-          "team": "JPN",
-          "player": "Kaishu Sano",
-          "minute": "29'",
-          "type": "goal"
-        },
-        {
-          "team": "BRA",
-          "player": "Casemiro",
-          "minute": "56'",
-          "type": "goal"
-        },
-        {
-          "team": "BRA",
-          "player": "Gabriel Martinelli",
-          "minute": "90'+5'",
           "type": "goal"
         }
       ]
