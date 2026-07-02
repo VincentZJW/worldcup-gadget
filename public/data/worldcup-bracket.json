@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T17:47:29.590Z",
+  "updatedAt": "2026-07-02T19:24:09.881Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -432,25 +432,25 @@
           "date": "2026-07-03",
           "time": "北京时间 2026-07-03 03:00",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "LIVE",
           "home": {
             "name": "Spain",
             "code": "ESP",
             "flag": "🇪🇸",
             "flagUrl": "assets/flags/esp.svg",
-            "score": null
+            "score": 0
           },
           "away": {
             "name": "Austria",
             "code": "AUT",
             "flag": "🇦🇹",
             "flagUrl": "assets/flags/aut.svg",
-            "score": null
+            "score": 0
           },
           "winner": null,
           "venue": "Los Angeles Stadium",
-          "minute": "",
-          "score": "",
+          "minute": "24'",
+          "score": "0-0",
           "goals": []
         },
         {

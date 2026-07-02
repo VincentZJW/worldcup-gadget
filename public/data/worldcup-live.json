@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-02T17:47:29.590Z",
+  "updatedAt": "2026-07-02T19:24:09.881Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021519",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "24'",
+      "venue": "Los Angeles Stadium",
+      "home": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Austria",
+        "code": "AUT",
+        "flag": "🇦🇹",
+        "flagUrl": "assets/flags/aut.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021524",
       "stage": "Round of 32",
@@ -351,35 +373,6 @@
           "team": "BRA",
           "player": "Gabriel Martinelli",
           "minute": "90'+5'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021518",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "Los Angeles Stadium",
-      "home": {
-        "name": "South Africa",
-        "code": "RSA",
-        "flag": "🇿🇦",
-        "flagUrl": "assets/flags/rsa.svg",
-        "score": 0
-      },
-      "away": {
-        "name": "Canada",
-        "code": "CAN",
-        "flag": "🇨🇦",
-        "flagUrl": "assets/flags/can.svg",
-        "score": 1
-      },
-      "goals": [
-        {
-          "team": "CAN",
-          "player": "Stephen Eustaquio",
-          "minute": "90'+2'",
           "type": "goal"
         }
       ]
