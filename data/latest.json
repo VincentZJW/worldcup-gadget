@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-03 07:36",
+  "updated_at": "北京时间 2026-07-03 10:08",
   "date_range": "2026-07-01 to 2026-07-03",
-  "summary": "比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利，葡萄牙 0-0 暂平克罗地亚。",
+  "summary": "比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚。",
   "matches": [
     {
       "group": "Group",
@@ -402,42 +402,54 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "36'",
+      "status": "FT",
+      "minute": "",
       "venue": "Toronto Stadium",
       "kickoff_at_bj": "北京时间 2026-07-03 07:00",
-      "finished_at_bj": "北京时间 2026-07-03 07:00",
+      "finished_at_bj": "北京时间 2026-07-03 09:04",
       "team_a": {
         "name": "Portugal",
         "flag": "🇵🇹",
-        "score": 0,
-        "scorers": [],
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Goncalo Ramos",
+            "minute": "90'+4'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "葡萄牙",
         "name_en": "Portugal"
       },
       "team_b": {
         "name": "Croatia",
         "flag": "🇭🇷",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Ivan Perisic",
+            "minute": "53'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "克罗地亚",
         "name_en": "Croatia"
       },
       "venue_en": "Toronto Stadium",
       "venue_zh": "Toronto Stadium",
       "highlights_en": [
-        "Portugal and Croatia are level 0-0 in Group.",
-        "Neither side scored.",
+        "Portugal beat Croatia 2-1 in Group.",
+        "Goncalo Ramos 90'+4', Ivan Perisic 53'",
         "The match was played at Toronto Stadium."
       ],
       "highlights_zh": [
-        "葡萄牙 0-0 暂平克罗地亚，比赛属于 Group。",
-        "双方均未取得进球。",
+        "葡萄牙 2-1 击败克罗地亚，比赛属于 Group。",
+        "Goncalo Ramos 90'+4', Ivan Perisic 53'",
         "比赛场地：Toronto Stadium。"
       ],
       "highlights": [
-        "葡萄牙 0-0 暂平克罗地亚，比赛属于 Group。",
-        "双方均未取得进球。",
+        "葡萄牙 2-1 击败克罗地亚，比赛属于 Group。",
+        "Goncalo Ramos 90'+4', Ivan Perisic 53'",
         "比赛场地：Toronto Stadium。"
       ]
     }
@@ -539,11 +551,27 @@
         "name_en": "France"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-06 04:00",
+      "team_a": {
+        "name": "Brazil",
+        "flag": "🇧🇷",
+        "name_zh": "巴西",
+        "name_en": "Brazil"
+      },
+      "team_b": {
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "name_zh": "挪威",
+        "name_en": "Norway"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
-  "summary_zh": "比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利，葡萄牙 0-0 暂平克罗地亚。",
-  "summary_en": "Belgium beat Senegal 3-2; USA beat Bosnia and Herzegovina 2-0; Spain beat Austria 3-0; Portugal and Croatia are level 0-0.",
+  "summary_zh": "比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚。",
+  "summary_en": "Belgium beat Senegal 3-2; USA beat Bosnia and Herzegovina 2-0; Spain beat Austria 3-0; Portugal beat Croatia 2-1.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -552,6 +580,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-02T23:36:17.648Z"
+    "fetched_at": "2026-07-03T02:08:38.539Z"
   }
 }
