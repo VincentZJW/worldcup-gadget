@@ -1,29 +1,11 @@
 {
-  "updatedAt": "2026-07-03T21:40:26.061Z",
+  "updatedAt": "2026-07-03T23:03:22.408Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "players": [
     {
       "rank": 1,
-      "player": {
-        "id": "kylian mbappe-FRA",
-        "name": "Kylian Mbappe",
-        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/h9u9vz1733653583.png"
-      },
-      "team": {
-        "name": "France",
-        "code": "FRA",
-        "flag": "🇫🇷",
-        "flagUrl": "assets/flags/fra.svg"
-      },
-      "goals": 6,
-      "assists": null,
-      "penalties": null,
-      "minutes": null
-    },
-    {
-      "rank": 2,
       "player": {
         "id": "lionel messi-ARG",
         "name": "Lionel Messi",
@@ -34,6 +16,24 @@
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg"
+      },
+      "goals": 7,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 2,
+      "player": {
+        "id": "kylian mbappe-FRA",
+        "name": "Kylian Mbappe",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/h9u9vz1733653583.png"
+      },
+      "team": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg"
       },
       "goals": 6,
       "assists": null,

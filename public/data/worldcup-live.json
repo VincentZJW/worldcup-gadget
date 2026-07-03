@@ -1,9 +1,38 @@
 {
-  "updatedAt": "2026-07-03T21:40:26.061Z",
+  "updatedAt": "2026-07-03T23:03:22.408Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021521",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "",
+      "venue": "Miami Stadium",
+      "home": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "flagUrl": "assets/flags/arg.svg",
+        "score": 1
+      },
+      "away": {
+        "name": "Cabo Verde",
+        "code": "CAB",
+        "flag": "🇨🇻",
+        "flagUrl": "assets/flags/cab.svg",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "ARG",
+          "player": "Lionel Messi",
+          "minute": "29'",
+          "type": "goal"
+        }
+      ]
+    },
     {
       "id": "400021515",
       "stage": "Round of 32",
@@ -345,47 +374,6 @@
           "team": "FRA",
           "player": "Kylian Mbappe",
           "minute": "74'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021514",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "Dallas Stadium",
-      "home": {
-        "name": "Côte d'Ivoire",
-        "code": "CIV",
-        "flag": "🇨🇮",
-        "flagUrl": "assets/flags/civ.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Norway",
-        "code": "NOR",
-        "flag": "🇳🇴",
-        "flagUrl": "assets/flags/nor.svg",
-        "score": 2
-      },
-      "goals": [
-        {
-          "team": "NOR",
-          "player": "Antonio Nusa",
-          "minute": "39'",
-          "type": "goal"
-        },
-        {
-          "team": "CIV",
-          "player": "Amad Diallo",
-          "minute": "74'",
-          "type": "goal"
-        },
-        {
-          "team": "NOR",
-          "player": "Erling Haaland",
-          "minute": "86'",
           "type": "goal"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T21:40:26.061Z",
+  "updatedAt": "2026-07-03T23:03:22.408Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3771,24 +3771,31 @@
       "time": "北京时间 2026-07-04 06:00",
       "stage": "Round of 32",
       "venue": "Miami Stadium",
-      "status": "Scheduled",
+      "status": "LIVE",
       "minute": "",
-      "score": "",
+      "score": "1-0",
       "home": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Cabo Verde",
         "code": "CAB",
         "flag": "🇨🇻",
         "flagUrl": "assets/flags/cab.svg",
-        "score": null
+        "score": 0
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "ARG",
+          "player": "Lionel Messi",
+          "minute": "29'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
