@@ -1,66 +1,8 @@
 {
-  "updated_at": "北京时间 2026-07-03 10:08",
+  "updated_at": "北京时间 2026-07-03 14:07",
   "date_range": "2026-07-01 to 2026-07-03",
-  "summary": "比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚。",
+  "summary": "美国 2-0 击败波黑，西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚。",
   "matches": [
-    {
-      "group": "Group",
-      "status": "FT",
-      "minute": "",
-      "venue": "Dallas Stadium",
-      "kickoff_at_bj": "北京时间 2026-07-01 01:00",
-      "finished_at_bj": "北京时间 2026-07-01 02:53",
-      "team_a": {
-        "name": "Côte d'Ivoire",
-        "flag": "🇨🇮",
-        "score": 1,
-        "scorers": [
-          {
-            "player": "Amad Diallo",
-            "minute": "74'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "科特迪瓦",
-        "name_en": "Côte d'Ivoire"
-      },
-      "team_b": {
-        "name": "Norway",
-        "flag": "🇳🇴",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Antonio Nusa",
-            "minute": "39'",
-            "type": "goal"
-          },
-          {
-            "player": "Erling Haaland",
-            "minute": "86'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "挪威",
-        "name_en": "Norway"
-      },
-      "venue_en": "Dallas Stadium",
-      "venue_zh": "Dallas Stadium",
-      "highlights_en": [
-        "Norway beat Côte d'Ivoire 2-1 in Group.",
-        "Amad Diallo 74', Antonio Nusa 39', Erling Haaland 86'",
-        "The match was played at Dallas Stadium."
-      ],
-      "highlights_zh": [
-        "挪威 2-1 击败科特迪瓦，比赛属于 Group。",
-        "Amad Diallo 74', Antonio Nusa 39', Erling Haaland 86'",
-        "比赛场地：Dallas Stadium。"
-      ],
-      "highlights": [
-        "挪威 2-1 击败科特迪瓦，比赛属于 Group。",
-        "Amad Diallo 74', Antonio Nusa 39', Erling Haaland 86'",
-        "比赛场地：Dallas Stadium。"
-      ]
-    },
     {
       "group": "Group",
       "status": "FT",
@@ -452,26 +394,62 @@
         "Goncalo Ramos 90'+4', Ivan Perisic 53'",
         "比赛场地：Toronto Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-03 11:00",
+      "group": "Group",
+      "status": "FT",
+      "minute": "",
+      "venue": "BC Place Vancouver",
+      "kickoff_at_bj": "北京时间 2026-07-03 11:00",
+      "finished_at_bj": "北京时间 2026-07-03 12:52",
       "team_a": {
         "name": "Switzerland",
         "flag": "🇨🇭",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Breel Embolo",
+            "minute": "10'",
+            "type": "goal"
+          },
+          {
+            "player": "Dan Ndoye",
+            "minute": "46'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "瑞士",
         "name_en": "Switzerland"
       },
       "team_b": {
         "name": "Algeria",
         "flag": "🇩🇿",
+        "score": 0,
+        "scorers": [],
         "name_zh": "阿尔及利亚",
         "name_en": "Algeria"
       },
-      "group": "Group"
-    },
+      "venue_en": "BC Place Vancouver",
+      "venue_zh": "BC Place Vancouver",
+      "highlights_en": [
+        "Switzerland beat Algeria 2-0 in Group.",
+        "Breel Embolo 10', Dan Ndoye 46'",
+        "The match was played at BC Place Vancouver."
+      ],
+      "highlights_zh": [
+        "瑞士 2-0 击败阿尔及利亚，比赛属于 Group。",
+        "Breel Embolo 10', Dan Ndoye 46'",
+        "比赛场地：BC Place Vancouver。"
+      ],
+      "highlights": [
+        "瑞士 2-0 击败阿尔及利亚，比赛属于 Group。",
+        "Breel Embolo 10', Dan Ndoye 46'",
+        "比赛场地：BC Place Vancouver。"
+      ]
+    }
+  ],
+  "standings_changes": [],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-04 02:00",
       "team_a": {
@@ -570,8 +548,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "比利时 3-2 击败塞内加尔，美国 2-0 击败波黑，西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚。",
-  "summary_en": "Belgium beat Senegal 3-2; USA beat Bosnia and Herzegovina 2-0; Spain beat Austria 3-0; Portugal beat Croatia 2-1.",
+  "summary_zh": "美国 2-0 击败波黑，西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚。",
+  "summary_en": "USA beat Bosnia and Herzegovina 2-0; Spain beat Austria 3-0; Portugal beat Croatia 2-1; Switzerland beat Algeria 2-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -580,6 +558,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-03T02:08:38.539Z"
+    "fetched_at": "2026-07-03T06:07:11.818Z"
   }
 }
