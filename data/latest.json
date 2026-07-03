@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-04 02:46",
+  "updated_at": "北京时间 2026-07-04 04:13",
   "date_range": "2026-07-01 to 2026-07-04",
-  "summary": "西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，埃及 1-0 暂时领先澳大利亚。",
+  "summary": "西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，澳大利亚 1-1 战平埃及。",
   "matches": [
     {
       "group": "Group",
@@ -392,16 +392,22 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "45'+2'",
+      "status": "FT",
+      "minute": "",
       "venue": "Dallas Stadium",
       "kickoff_at_bj": "北京时间 2026-07-04 02:00",
-      "finished_at_bj": "北京时间 2026-07-04 02:00",
+      "finished_at_bj": "北京时间 2026-07-04 03:55",
       "team_a": {
         "name": "Australia",
         "flag": "🇦🇺",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Mohamed Hany",
+            "minute": "55'",
+            "type": "own_goal"
+          }
+        ],
         "name_zh": "澳大利亚",
         "name_en": "Australia"
       },
@@ -422,18 +428,18 @@
       "venue_en": "Dallas Stadium",
       "venue_zh": "Dallas Stadium",
       "highlights_en": [
-        "Egypt lead Australia 1-0 in Group.",
-        "Emam Ashour 13'",
+        "Australia drew 1-1 with Egypt in Group.",
+        "Mohamed Hany 55' OG, Emam Ashour 13'",
         "The match was played at Dallas Stadium."
       ],
       "highlights_zh": [
-        "埃及 1-0 暂时领先澳大利亚，比赛属于 Group。",
-        "Emam Ashour 13'",
+        "澳大利亚 1-1 战平埃及，比赛属于 Group。",
+        "Mohamed Hany 55' OG, Emam Ashour 13'",
         "比赛场地：Dallas Stadium。"
       ],
       "highlights": [
-        "埃及 1-0 暂时领先澳大利亚，比赛属于 Group。",
-        "Emam Ashour 13'",
+        "澳大利亚 1-1 战平埃及，比赛属于 Group。",
+        "Mohamed Hany 55' OG, Emam Ashour 13'",
         "比赛场地：Dallas Stadium。"
       ]
     }
@@ -522,8 +528,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，埃及 1-0 暂时领先澳大利亚。",
-  "summary_en": "Spain beat Austria 3-0; Portugal beat Croatia 2-1; Switzerland beat Algeria 2-0; Egypt lead Australia 1-0.",
+  "summary_zh": "西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，澳大利亚 1-1 战平埃及。",
+  "summary_en": "Spain beat Austria 3-0; Portugal beat Croatia 2-1; Switzerland beat Algeria 2-0; Australia drew 1-1 with Egypt.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -532,6 +538,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-03T18:46:31.595Z"
+    "fetched_at": "2026-07-03T20:13:11.798Z"
   }
 }
