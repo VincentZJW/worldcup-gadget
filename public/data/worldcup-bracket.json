@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T01:50:17.952Z",
+  "updatedAt": "2026-07-03T05:42:32.107Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -516,26 +516,39 @@
           "date": "2026-07-03",
           "time": "北京时间 2026-07-03 11:00",
           "stage": "Round of 32",
-          "status": "Scheduled",
+          "status": "FT",
           "home": {
             "name": "Switzerland",
             "code": "SUI",
             "flag": "🇨🇭",
             "flagUrl": "assets/flags/sui.svg",
-            "score": null
+            "score": 2
           },
           "away": {
             "name": "Algeria",
             "code": "ALG",
             "flag": "🇩🇿",
             "flagUrl": "assets/flags/alg.svg",
-            "score": null
+            "score": 0
           },
-          "winner": null,
+          "winner": "43971",
           "venue": "BC Place Vancouver",
           "minute": "",
-          "score": "",
-          "goals": []
+          "score": "2-0",
+          "goals": [
+            {
+              "team": "SUI",
+              "player": "Breel Embolo",
+              "minute": "10'",
+              "type": "goal"
+            },
+            {
+              "team": "SUI",
+              "player": "Dan Ndoye",
+              "minute": "46'",
+              "type": "goal"
+            }
+          ]
         },
         {
           "id": "400021515",
@@ -809,10 +822,10 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Switzerland",
+            "code": "SUI",
+            "flag": "🇨🇭",
+            "flagUrl": "assets/flags/sui.svg",
             "score": null
           },
           "away": {
