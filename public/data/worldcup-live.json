@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T18:46:46.933Z",
+  "updatedAt": "2026-07-03T20:13:57.058Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,15 +7,15 @@
     {
       "id": "400021515",
       "stage": "Round of 32",
-      "status": "LIVE",
-      "minute": "45'+2'",
+      "status": "FT",
+      "minute": "",
       "venue": "Dallas Stadium",
       "home": {
         "name": "Australia",
         "code": "AUS",
         "flag": "🇦🇺",
         "flagUrl": "assets/flags/aus.svg",
-        "score": 0
+        "score": 1
       },
       "away": {
         "name": "Egypt",
@@ -30,6 +30,12 @@
           "player": "Emam Ashour",
           "minute": "13'",
           "type": "goal"
+        },
+        {
+          "team": "AUS",
+          "player": "Mohamed Hany",
+          "minute": "55'",
+          "type": "own_goal"
         }
       ]
     },
