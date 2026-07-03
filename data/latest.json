@@ -1,60 +1,8 @@
 {
-  "updated_at": "北京时间 2026-07-04 05:39",
-  "date_range": "2026-07-01 to 2026-07-04",
-  "summary": "西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，澳大利亚 1-1 战平埃及。",
+  "updated_at": "北京时间 2026-07-04 07:01",
+  "date_range": "2026-07-02 to 2026-07-04",
+  "summary": "葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，澳大利亚 1-1 战平埃及，阿根廷 1-0 暂时领先Cabo Verde。",
   "matches": [
-    {
-      "group": "Group",
-      "status": "FT",
-      "minute": "",
-      "venue": "Mexico City Stadium",
-      "kickoff_at_bj": "北京时间 2026-07-01 10:00",
-      "finished_at_bj": "北京时间 2026-07-01 11:54",
-      "team_a": {
-        "name": "Mexico",
-        "flag": "🇲🇽",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Julian Quinones",
-            "minute": "22'",
-            "type": "goal"
-          },
-          {
-            "player": "Raul Jimenez",
-            "minute": "31'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "墨西哥",
-        "name_en": "Mexico"
-      },
-      "team_b": {
-        "name": "Ecuador",
-        "flag": "🇪🇨",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "厄瓜多尔",
-        "name_en": "Ecuador"
-      },
-      "venue_en": "Mexico City Stadium",
-      "venue_zh": "Mexico City Stadium",
-      "highlights_en": [
-        "Mexico beat Ecuador 2-0 in Group.",
-        "Julian Quinones 22', Raul Jimenez 31'",
-        "The match was played at Mexico City Stadium."
-      ],
-      "highlights_zh": [
-        "墨西哥 2-0 击败厄瓜多尔，比赛属于 Group。",
-        "Julian Quinones 22', Raul Jimenez 31'",
-        "比赛场地：Mexico City Stadium。"
-      ],
-      "highlights": [
-        "墨西哥 2-0 击败厄瓜多尔，比赛属于 Group。",
-        "Julian Quinones 22', Raul Jimenez 31'",
-        "比赛场地：Mexico City Stadium。"
-      ]
-    },
     {
       "group": "Group",
       "status": "FT",
@@ -442,26 +390,57 @@
         "Mohamed Hany 55' OG, Emam Ashour 13'",
         "比赛场地：Dallas Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-04 06:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "",
+      "venue": "Miami Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-04 06:00",
+      "finished_at_bj": "北京时间 2026-07-04 06:00",
       "team_a": {
         "name": "Argentina",
         "flag": "🇦🇷",
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Lionel Messi",
+            "minute": "29'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "阿根廷",
         "name_en": "Argentina"
       },
       "team_b": {
         "name": "Cabo Verde",
         "flag": "🇨🇻",
+        "score": 0,
+        "scorers": [],
         "name_zh": "Cabo Verde",
         "name_en": "Cabo Verde"
       },
-      "group": "Group"
-    },
+      "venue_en": "Miami Stadium",
+      "venue_zh": "Miami Stadium",
+      "highlights_en": [
+        "Argentina lead Cabo Verde 1-0 in Group.",
+        "Lionel Messi 29'",
+        "The match was played at Miami Stadium."
+      ],
+      "highlights_zh": [
+        "阿根廷 1-0 暂时领先Cabo Verde，比赛属于 Group。",
+        "Lionel Messi 29'",
+        "比赛场地：Miami Stadium。"
+      ],
+      "highlights": [
+        "阿根廷 1-0 暂时领先Cabo Verde，比赛属于 Group。",
+        "Lionel Messi 29'",
+        "比赛场地：Miami Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-04 09:30",
       "team_a": {
@@ -528,8 +507,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "西班牙 3-0 击败奥地利，葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，澳大利亚 1-1 战平埃及。",
-  "summary_en": "Spain beat Austria 3-0; Portugal beat Croatia 2-1; Switzerland beat Algeria 2-0; Australia drew 1-1 with Egypt.",
+  "summary_zh": "葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，澳大利亚 1-1 战平埃及，阿根廷 1-0 暂时领先Cabo Verde。",
+  "summary_en": "Portugal beat Croatia 2-1; Switzerland beat Algeria 2-0; Australia drew 1-1 with Egypt; Argentina lead Cabo Verde 1-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -538,6 +517,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-03T21:39:53.938Z"
+    "fetched_at": "2026-07-03T23:01:08.522Z"
   }
 }
