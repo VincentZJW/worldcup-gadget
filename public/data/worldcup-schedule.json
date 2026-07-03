@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T20:13:57.058Z",
+  "updatedAt": "2026-07-03T21:40:26.061Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3763,7 +3763,7 @@
           "type": "own_goal"
         }
       ],
-      "winner": null
+      "winner": "43855"
     },
     {
       "id": "400021521",
@@ -3990,10 +3990,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Egypt",
+        "code": "EGY",
+        "flag": "🇪🇬",
+        "flagUrl": "assets/flags/egy.svg",
         "score": null
       },
       "goals": [],
