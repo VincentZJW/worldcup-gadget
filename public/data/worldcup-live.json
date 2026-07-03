@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T23:37:02.767Z",
+  "updatedAt": "2026-07-03T01:50:17.952Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,24 +7,37 @@
     {
       "id": "400021526",
       "stage": "Round of 32",
-      "status": "LIVE",
-      "minute": "37'",
+      "status": "FT",
+      "minute": "",
       "venue": "Toronto Stadium",
       "home": {
         "name": "Portugal",
         "code": "POR",
         "flag": "🇵🇹",
         "flagUrl": "assets/flags/por.svg",
-        "score": 0
+        "score": 2
       },
       "away": {
         "name": "Croatia",
         "code": "CRO",
         "flag": "🇭🇷",
         "flagUrl": "assets/flags/cro.svg",
-        "score": 0
+        "score": 1
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "CRO",
+          "player": "Ivan Perisic",
+          "minute": "53'",
+          "type": "goal"
+        },
+        {
+          "team": "POR",
+          "player": "Goncalo Ramos",
+          "minute": "90'+4'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021519",

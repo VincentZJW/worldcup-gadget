@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T23:37:02.767Z",
+  "updatedAt": "2026-07-03T01:50:17.952Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3654,25 +3654,38 @@
       "time": "北京时间 2026-07-03 07:00",
       "stage": "Round of 32",
       "venue": "Toronto Stadium",
-      "status": "LIVE",
-      "minute": "37'",
-      "score": "0-0",
+      "status": "FT",
+      "minute": "",
+      "score": "2-1",
       "home": {
         "name": "Portugal",
         "code": "POR",
         "flag": "🇵🇹",
         "flagUrl": "assets/flags/por.svg",
-        "score": 0
+        "score": 2
       },
       "away": {
         "name": "Croatia",
         "code": "CRO",
         "flag": "🇭🇷",
         "flagUrl": "assets/flags/cro.svg",
-        "score": 0
+        "score": 1
       },
-      "goals": [],
-      "winner": null
+      "goals": [
+        {
+          "team": "CRO",
+          "player": "Ivan Perisic",
+          "minute": "53'",
+          "type": "goal"
+        },
+        {
+          "team": "POR",
+          "player": "Goncalo Ramos",
+          "minute": "90'+4'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43963"
     },
     {
       "id": "400021527",
@@ -3892,10 +3905,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg",
         "score": null
       },
       "away": {
