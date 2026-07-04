@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T17:05:31.460Z",
+  "updatedAt": "2026-07-04T18:32:17.541Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3862,8 +3862,8 @@
       "stage": "Round of 16",
       "venue": "Houston Stadium",
       "status": "LIVE",
-      "minute": "4'",
-      "score": "0-0",
+      "minute": "68'",
+      "score": "0-1",
       "home": {
         "name": "Canada",
         "code": "CAN",
@@ -3876,9 +3876,16 @@
         "code": "MAR",
         "flag": "🇲🇦",
         "flagUrl": "assets/flags/mar.svg",
-        "score": 0
+        "score": 1
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "MAR",
+          "player": "Azzedine Ounahi",
+          "minute": "50'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
