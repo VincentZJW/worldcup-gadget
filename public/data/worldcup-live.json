@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T23:03:22.408Z",
+  "updatedAt": "2026-07-04T01:08:26.466Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,7 +7,7 @@
     {
       "id": "400021521",
       "stage": "Round of 32",
-      "status": "LIVE",
+      "status": "FT",
       "minute": "",
       "venue": "Miami Stadium",
       "home": {
@@ -15,14 +15,14 @@
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": 1
+        "score": 3
       },
       "away": {
         "name": "Cabo Verde",
         "code": "CAB",
         "flag": "🇨🇻",
         "flagUrl": "assets/flags/cab.svg",
-        "score": 0
+        "score": 2
       },
       "goals": [
         {
@@ -30,6 +30,30 @@
           "player": "Lionel Messi",
           "minute": "29'",
           "type": "goal"
+        },
+        {
+          "team": "CAB",
+          "player": "Deroy Duarte",
+          "minute": "59'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lisandro Martinez",
+          "minute": "92'",
+          "type": "goal"
+        },
+        {
+          "team": "CAB",
+          "player": "Sidny Lopes Cabral",
+          "minute": "103'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Diney Borges",
+          "minute": "111'",
+          "type": "own_goal"
         }
       ]
     },

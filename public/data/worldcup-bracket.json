@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T23:03:22.408Z",
+  "updatedAt": "2026-07-04T01:08:26.466Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -594,31 +594,55 @@
           "date": "2026-07-04",
           "time": "北京时间 2026-07-04 06:00",
           "stage": "Round of 32",
-          "status": "LIVE",
+          "status": "FT",
           "home": {
             "name": "Argentina",
             "code": "ARG",
             "flag": "🇦🇷",
             "flagUrl": "assets/flags/arg.svg",
-            "score": 1
+            "score": 3
           },
           "away": {
             "name": "Cabo Verde",
             "code": "CAB",
             "flag": "🇨🇻",
             "flagUrl": "assets/flags/cab.svg",
-            "score": 0
+            "score": 2
           },
-          "winner": null,
+          "winner": "43922",
           "venue": "Miami Stadium",
           "minute": "",
-          "score": "1-0",
+          "score": "3-2",
           "goals": [
             {
               "team": "ARG",
               "player": "Lionel Messi",
               "minute": "29'",
               "type": "goal"
+            },
+            {
+              "team": "CAB",
+              "player": "Deroy Duarte",
+              "minute": "59'",
+              "type": "goal"
+            },
+            {
+              "team": "ARG",
+              "player": "Lisandro Martinez",
+              "minute": "92'",
+              "type": "goal"
+            },
+            {
+              "team": "CAB",
+              "player": "Sidny Lopes Cabral",
+              "minute": "103'",
+              "type": "goal"
+            },
+            {
+              "team": "ARG",
+              "player": "Diney Borges",
+              "minute": "111'",
+              "type": "own_goal"
             }
           ]
         },
@@ -816,10 +840,10 @@
           "stage": "Round of 16",
           "status": "Scheduled",
           "home": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Argentina",
+            "code": "ARG",
+            "flag": "🇦🇷",
+            "flagUrl": "assets/flags/arg.svg",
             "score": null
           },
           "away": {

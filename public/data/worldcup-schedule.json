@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T23:03:22.408Z",
+  "updatedAt": "2026-07-04T01:08:26.466Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3771,22 +3771,22 @@
       "time": "北京时间 2026-07-04 06:00",
       "stage": "Round of 32",
       "venue": "Miami Stadium",
-      "status": "LIVE",
+      "status": "FT",
       "minute": "",
-      "score": "1-0",
+      "score": "3-2",
       "home": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": 1
+        "score": 3
       },
       "away": {
         "name": "Cabo Verde",
         "code": "CAB",
         "flag": "🇨🇻",
         "flagUrl": "assets/flags/cab.svg",
-        "score": 0
+        "score": 2
       },
       "goals": [
         {
@@ -3794,9 +3794,33 @@
           "player": "Lionel Messi",
           "minute": "29'",
           "type": "goal"
+        },
+        {
+          "team": "CAB",
+          "player": "Deroy Duarte",
+          "minute": "59'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lisandro Martinez",
+          "minute": "92'",
+          "type": "goal"
+        },
+        {
+          "team": "CAB",
+          "player": "Sidny Lopes Cabral",
+          "minute": "103'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Diney Borges",
+          "minute": "111'",
+          "type": "own_goal"
         }
       ],
-      "winner": null
+      "winner": "43922"
     },
     {
       "id": "400021517",
@@ -3990,10 +4014,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "flagUrl": "assets/flags/arg.svg",
         "score": null
       },
       "away": {
