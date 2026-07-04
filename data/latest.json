@@ -1,5 +1,5 @@
 {
-  "updated_at": "北京时间 2026-07-05 05:27",
+  "updated_at": "北京时间 2026-07-05 06:29",
   "date_range": "2026-07-03 to 2026-07-05",
   "summary": "阿根廷 3-2 击败Cabo Verde，哥伦比亚 1-0 击败加纳，摩洛哥 3-0 击败加拿大，巴拉圭 0-0 暂平法国。",
   "matches": [
@@ -393,7 +393,7 @@
     {
       "group": "Group",
       "status": "LIVE",
-      "minute": "23'",
+      "minute": "65'",
       "venue": "Philadelphia Stadium",
       "kickoff_at_bj": "北京时间 2026-07-05 05:00",
       "finished_at_bj": "北京时间 2026-07-05 05:00",
@@ -494,6 +494,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-04T21:27:25.509Z"
+    "fetched_at": "2026-07-04T22:29:05.988Z"
   }
 }
