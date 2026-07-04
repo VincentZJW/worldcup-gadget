@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T21:28:06.408Z",
+  "updatedAt": "2026-07-04T22:31:02.979Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -8,7 +8,7 @@
       "id": "400021533",
       "stage": "Round of 16",
       "status": "LIVE",
-      "minute": "23'",
+      "minute": "67'",
       "venue": "Philadelphia Stadium",
       "home": {
         "name": "Paraguay",
