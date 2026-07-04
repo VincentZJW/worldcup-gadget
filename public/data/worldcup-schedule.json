@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T01:08:26.466Z",
+  "updatedAt": "2026-07-04T01:50:06.795Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3828,24 +3828,31 @@
       "time": "北京时间 2026-07-04 09:30",
       "stage": "Round of 32",
       "venue": "Kansas City Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "20'",
+      "score": "1-0",
       "home": {
         "name": "Colombia",
         "code": "COL",
         "flag": "🇨🇴",
         "flagUrl": "assets/flags/col.svg",
-        "score": null
+        "score": 1
       },
       "away": {
         "name": "Ghana",
         "code": "GHA",
         "flag": "🇬🇭",
         "flagUrl": "assets/flags/gha.svg",
-        "score": null
+        "score": 0
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "COL",
+          "player": "Jhon Arias",
+          "minute": "14'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {

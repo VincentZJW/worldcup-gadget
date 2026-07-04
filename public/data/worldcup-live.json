@@ -1,9 +1,38 @@
 {
-  "updatedAt": "2026-07-04T01:08:26.466Z",
+  "updatedAt": "2026-07-04T01:50:06.795Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021517",
+      "stage": "Round of 32",
+      "status": "LIVE",
+      "minute": "20'",
+      "venue": "Kansas City Stadium",
+      "home": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg",
+        "score": 1
+      },
+      "away": {
+        "name": "Ghana",
+        "code": "GHA",
+        "flag": "🇬🇭",
+        "flagUrl": "assets/flags/gha.svg",
+        "score": 0
+      },
+      "goals": [
+        {
+          "team": "COL",
+          "player": "Jhon Arias",
+          "minute": "14'",
+          "type": "goal"
+        }
+      ]
+    },
     {
       "id": "400021521",
       "stage": "Round of 32",
@@ -357,47 +386,6 @@
           "team": "MEX",
           "player": "Raul Jimenez",
           "minute": "31'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021523",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "New York/New Jersey Stadium",
-      "home": {
-        "name": "France",
-        "code": "FRA",
-        "flag": "🇫🇷",
-        "flagUrl": "assets/flags/fra.svg",
-        "score": 3
-      },
-      "away": {
-        "name": "Sweden",
-        "code": "SWE",
-        "flag": "🇸🇪",
-        "flagUrl": "assets/flags/swe.svg",
-        "score": 0
-      },
-      "goals": [
-        {
-          "team": "FRA",
-          "player": "Kylian Mbappe",
-          "minute": "45'",
-          "type": "goal"
-        },
-        {
-          "team": "FRA",
-          "player": "Bradley Barcola",
-          "minute": "53'",
-          "type": "goal"
-        },
-        {
-          "team": "FRA",
-          "player": "Kylian Mbappe",
-          "minute": "74'",
           "type": "goal"
         }
       ]
