@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-04 07:01",
+  "updated_at": "北京时间 2026-07-04 09:07",
   "date_range": "2026-07-02 to 2026-07-04",
-  "summary": "葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，澳大利亚 1-1 战平埃及，阿根廷 1-0 暂时领先Cabo Verde。",
+  "summary": "葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，澳大利亚 1-1 战平埃及，阿根廷 3-2 击败Cabo Verde。",
   "matches": [
     {
       "group": "Group",
@@ -393,20 +393,30 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
+      "status": "FT",
       "minute": "",
       "venue": "Miami Stadium",
       "kickoff_at_bj": "北京时间 2026-07-04 06:00",
-      "finished_at_bj": "北京时间 2026-07-04 06:00",
+      "finished_at_bj": "北京时间 2026-07-04 08:19",
       "team_a": {
         "name": "Argentina",
         "flag": "🇦🇷",
-        "score": 1,
+        "score": 3,
         "scorers": [
           {
             "player": "Lionel Messi",
             "minute": "29'",
             "type": "goal"
+          },
+          {
+            "player": "Lisandro Martinez",
+            "minute": "92'",
+            "type": "goal"
+          },
+          {
+            "player": "Diney Borges",
+            "minute": "111'",
+            "type": "own_goal"
           }
         ],
         "name_zh": "阿根廷",
@@ -415,26 +425,37 @@
       "team_b": {
         "name": "Cabo Verde",
         "flag": "🇨🇻",
-        "score": 0,
-        "scorers": [],
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Deroy Duarte",
+            "minute": "59'",
+            "type": "goal"
+          },
+          {
+            "player": "Sidny Lopes Cabral",
+            "minute": "103'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "Cabo Verde",
         "name_en": "Cabo Verde"
       },
       "venue_en": "Miami Stadium",
       "venue_zh": "Miami Stadium",
       "highlights_en": [
-        "Argentina lead Cabo Verde 1-0 in Group.",
-        "Lionel Messi 29'",
+        "Argentina beat Cabo Verde 3-2 in Group.",
+        "Lionel Messi 29', Lisandro Martinez 92', Diney Borges 111' OG, Deroy Duarte 59'",
         "The match was played at Miami Stadium."
       ],
       "highlights_zh": [
-        "阿根廷 1-0 暂时领先Cabo Verde，比赛属于 Group。",
-        "Lionel Messi 29'",
+        "阿根廷 3-2 击败Cabo Verde，比赛属于 Group。",
+        "Lionel Messi 29', Lisandro Martinez 92', Diney Borges 111' OG, Deroy Duarte 59'",
         "比赛场地：Miami Stadium。"
       ],
       "highlights": [
-        "阿根廷 1-0 暂时领先Cabo Verde，比赛属于 Group。",
-        "Lionel Messi 29'",
+        "阿根廷 3-2 击败Cabo Verde，比赛属于 Group。",
+        "Lionel Messi 29', Lisandro Martinez 92', Diney Borges 111' OG, Deroy Duarte 59'",
         "比赛场地：Miami Stadium。"
       ]
     }
@@ -504,11 +525,43 @@
         "name_en": "Norway"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-06 08:00",
+      "team_a": {
+        "name": "Mexico",
+        "flag": "🇲🇽",
+        "name_zh": "墨西哥",
+        "name_en": "Mexico"
+      },
+      "team_b": {
+        "name": "England",
+        "flag": "🏴",
+        "name_zh": "英格兰",
+        "name_en": "England"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-07 03:00",
+      "team_a": {
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "name_zh": "葡萄牙",
+        "name_en": "Portugal"
+      },
+      "team_b": {
+        "name": "Spain",
+        "flag": "🇪🇸",
+        "name_zh": "西班牙",
+        "name_en": "Spain"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
-  "summary_zh": "葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，澳大利亚 1-1 战平埃及，阿根廷 1-0 暂时领先Cabo Verde。",
-  "summary_en": "Portugal beat Croatia 2-1; Switzerland beat Algeria 2-0; Australia drew 1-1 with Egypt; Argentina lead Cabo Verde 1-0.",
+  "summary_zh": "葡萄牙 2-1 击败克罗地亚，瑞士 2-0 击败阿尔及利亚，澳大利亚 1-1 战平埃及，阿根廷 3-2 击败Cabo Verde。",
+  "summary_en": "Portugal beat Croatia 2-1; Switzerland beat Algeria 2-0; Australia drew 1-1 with Egypt; Argentina beat Cabo Verde 3-2.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -517,6 +570,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-03T23:01:08.522Z"
+    "fetched_at": "2026-07-04T01:07:54.752Z"
   }
 }
