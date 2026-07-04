@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T05:36:34.288Z",
+  "updatedAt": "2026-07-04T17:05:31.460Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -689,25 +689,25 @@
           "date": "2026-07-05",
           "time": "北京时间 2026-07-05 01:00",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "LIVE",
           "home": {
             "name": "Canada",
             "code": "CAN",
             "flag": "🇨🇦",
             "flagUrl": "assets/flags/can.svg",
-            "score": null
+            "score": 0
           },
           "away": {
             "name": "Morocco",
             "code": "MAR",
             "flag": "🇲🇦",
             "flagUrl": "assets/flags/mar.svg",
-            "score": null
+            "score": 0
           },
           "winner": null,
           "venue": "Houston Stadium",
-          "minute": "",
-          "score": "",
+          "minute": "4'",
+          "score": "0-0",
           "goals": []
         },
         {

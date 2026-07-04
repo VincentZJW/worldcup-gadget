@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-04T05:36:34.288Z",
+  "updatedAt": "2026-07-04T17:05:31.460Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021530",
+      "stage": "Round of 16",
+      "status": "LIVE",
+      "minute": "4'",
+      "venue": "Houston Stadium",
+      "home": {
+        "name": "Canada",
+        "code": "CAN",
+        "flag": "🇨🇦",
+        "flagUrl": "assets/flags/can.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021517",
       "stage": "Round of 32",
@@ -351,41 +373,6 @@
           "team": "ENG",
           "player": "Harry Kane",
           "minute": "86'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021520",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "Mexico City Stadium",
-      "home": {
-        "name": "Mexico",
-        "code": "MEX",
-        "flag": "🇲🇽",
-        "flagUrl": "assets/flags/mex.svg",
-        "score": 2
-      },
-      "away": {
-        "name": "Ecuador",
-        "code": "ECU",
-        "flag": "🇪🇨",
-        "flagUrl": "assets/flags/ecu.svg",
-        "score": 0
-      },
-      "goals": [
-        {
-          "team": "MEX",
-          "player": "Julian Quinones",
-          "minute": "22'",
-          "type": "goal"
-        },
-        {
-          "team": "MEX",
-          "player": "Raul Jimenez",
-          "minute": "31'",
           "type": "goal"
         }
       ]
