@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T01:50:06.795Z",
+  "updatedAt": "2026-07-04T05:36:34.288Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3828,8 +3828,8 @@
       "time": "北京时间 2026-07-04 09:30",
       "stage": "Round of 32",
       "venue": "Kansas City Stadium",
-      "status": "LIVE",
-      "minute": "20'",
+      "status": "FT",
+      "minute": "",
       "score": "1-0",
       "home": {
         "name": "Colombia",
@@ -3853,7 +3853,7 @@
           "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43926"
     },
     {
       "id": "400021530",
@@ -4054,10 +4054,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg",
         "score": null
       },
       "goals": [],
