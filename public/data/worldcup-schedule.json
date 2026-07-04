@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T18:32:17.541Z",
+  "updatedAt": "2026-07-04T20:08:39.141Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3861,9 +3861,9 @@
       "time": "北京时间 2026-07-05 01:00",
       "stage": "Round of 16",
       "venue": "Houston Stadium",
-      "status": "LIVE",
-      "minute": "68'",
-      "score": "0-1",
+      "status": "FT",
+      "minute": "",
+      "score": "0-3",
       "home": {
         "name": "Canada",
         "code": "CAN",
@@ -3876,7 +3876,7 @@
         "code": "MAR",
         "flag": "🇲🇦",
         "flagUrl": "assets/flags/mar.svg",
-        "score": 1
+        "score": 3
       },
       "goals": [
         {
@@ -3884,9 +3884,21 @@
           "player": "Azzedine Ounahi",
           "minute": "50'",
           "type": "goal"
+        },
+        {
+          "team": "MAR",
+          "player": "Azzedine Ounahi",
+          "minute": "82'",
+          "type": "goal"
+        },
+        {
+          "team": "MAR",
+          "player": "Soufiane Rahimi",
+          "minute": "90'+8'",
+          "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43872"
     },
     {
       "id": "400021533",
@@ -4087,10 +4099,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg",
         "score": null
       },
       "goals": [],
