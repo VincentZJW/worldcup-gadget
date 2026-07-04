@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-05 06:29",
+  "updated_at": "北京时间 2026-07-05 07:34",
   "date_range": "2026-07-03 to 2026-07-05",
-  "summary": "阿根廷 3-2 击败Cabo Verde，哥伦比亚 1-0 击败加纳，摩洛哥 3-0 击败加拿大，巴拉圭 0-0 暂平法国。",
+  "summary": "阿根廷 3-2 击败Cabo Verde，哥伦比亚 1-0 击败加纳，摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭。",
   "matches": [
     {
       "group": "Group",
@@ -392,11 +392,11 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "65'",
+      "status": "FT",
+      "minute": "",
       "venue": "Philadelphia Stadium",
       "kickoff_at_bj": "北京时间 2026-07-05 05:00",
-      "finished_at_bj": "北京时间 2026-07-05 05:00",
+      "finished_at_bj": "北京时间 2026-07-05 06:56",
       "team_a": {
         "name": "Paraguay",
         "flag": "🇵🇾",
@@ -408,7 +408,7 @@
       "team_b": {
         "name": "France",
         "flag": "🇫🇷",
-        "score": 0,
+        "score": 1,
         "scorers": [],
         "name_zh": "法国",
         "name_en": "France"
@@ -416,17 +416,17 @@
       "venue_en": "Philadelphia Stadium",
       "venue_zh": "Philadelphia Stadium",
       "highlights_en": [
-        "Paraguay and France are level 0-0 in Group.",
+        "France beat Paraguay 1-0 in Group.",
         "Neither side scored.",
         "The match was played at Philadelphia Stadium."
       ],
       "highlights_zh": [
-        "巴拉圭 0-0 暂平法国，比赛属于 Group。",
+        "法国 1-0 击败巴拉圭，比赛属于 Group。",
         "双方均未取得进球。",
         "比赛场地：Philadelphia Stadium。"
       ],
       "highlights": [
-        "巴拉圭 0-0 暂平法国，比赛属于 Group。",
+        "法国 1-0 击败巴拉圭，比赛属于 Group。",
         "双方均未取得进球。",
         "比赛场地：Philadelphia Stadium。"
       ]
@@ -484,8 +484,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "阿根廷 3-2 击败Cabo Verde，哥伦比亚 1-0 击败加纳，摩洛哥 3-0 击败加拿大，巴拉圭 0-0 暂平法国。",
-  "summary_en": "Argentina beat Cabo Verde 3-2; Colombia beat Ghana 1-0; Morocco beat Canada 3-0; Paraguay and France are level 0-0.",
+  "summary_zh": "阿根廷 3-2 击败Cabo Verde，哥伦比亚 1-0 击败加纳，摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭。",
+  "summary_en": "Argentina beat Cabo Verde 3-2; Colombia beat Ghana 1-0; Morocco beat Canada 3-0; France beat Paraguay 1-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -494,6 +494,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-04T22:29:05.988Z"
+    "fetched_at": "2026-07-04T23:34:24.630Z"
   }
 }
