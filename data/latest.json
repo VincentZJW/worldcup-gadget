@@ -1,65 +1,8 @@
 {
-  "updated_at": "北京时间 2026-07-05 10:22",
-  "date_range": "2026-07-03 to 2026-07-05",
-  "summary": "阿根廷 3-2 击败Cabo Verde，哥伦比亚 1-0 击败加纳，摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭。",
+  "updated_at": "北京时间 2026-07-06 04:12",
+  "date_range": "2026-07-03 to 2026-07-06",
+  "summary": "哥伦比亚 1-0 击败加纳，摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭，巴西 0-0 暂平挪威。",
   "matches": [
-    {
-      "group": "Group",
-      "status": "FT",
-      "minute": "",
-      "venue": "Los Angeles Stadium",
-      "kickoff_at_bj": "北京时间 2026-07-03 03:00",
-      "finished_at_bj": "北京时间 2026-07-03 04:52",
-      "team_a": {
-        "name": "Spain",
-        "flag": "🇪🇸",
-        "score": 3,
-        "scorers": [
-          {
-            "player": "Mikel Oyarzabal",
-            "minute": "36'",
-            "type": "goal"
-          },
-          {
-            "player": "Pedro Porro",
-            "minute": "66'",
-            "type": "goal"
-          },
-          {
-            "player": "Mikel Oyarzabal",
-            "minute": "89'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "西班牙",
-        "name_en": "Spain"
-      },
-      "team_b": {
-        "name": "Austria",
-        "flag": "🇦🇹",
-        "score": 0,
-        "scorers": [],
-        "name_zh": "奥地利",
-        "name_en": "Austria"
-      },
-      "venue_en": "Los Angeles Stadium",
-      "venue_zh": "Los Angeles Stadium",
-      "highlights_en": [
-        "Spain beat Austria 3-0 in Group.",
-        "Mikel Oyarzabal 36', Pedro Porro 66', Mikel Oyarzabal 89'",
-        "The match was played at Los Angeles Stadium."
-      ],
-      "highlights_zh": [
-        "西班牙 3-0 击败奥地利，比赛属于 Group。",
-        "Mikel Oyarzabal 36', Pedro Porro 66', Mikel Oyarzabal 89'",
-        "比赛场地：Los Angeles Stadium。"
-      ],
-      "highlights": [
-        "西班牙 3-0 击败奥地利，比赛属于 Group。",
-        "Mikel Oyarzabal 36', Pedro Porro 66', Mikel Oyarzabal 89'",
-        "比赛场地：Los Angeles Stadium。"
-      ]
-    },
     {
       "group": "Group",
       "status": "FT",
@@ -430,26 +373,51 @@
         "双方均未取得进球。",
         "比赛场地：Philadelphia Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-06 04:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "12'",
+      "venue": "New York/New Jersey Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-06 04:00",
+      "finished_at_bj": "北京时间 2026-07-06 04:00",
       "team_a": {
         "name": "Brazil",
         "flag": "🇧🇷",
+        "score": 0,
+        "scorers": [],
         "name_zh": "巴西",
         "name_en": "Brazil"
       },
       "team_b": {
         "name": "Norway",
         "flag": "🇳🇴",
+        "score": 0,
+        "scorers": [],
         "name_zh": "挪威",
         "name_en": "Norway"
       },
-      "group": "Group"
-    },
+      "venue_en": "New York/New Jersey Stadium",
+      "venue_zh": "New York/New Jersey Stadium",
+      "highlights_en": [
+        "Brazil and Norway are level 0-0 in Group.",
+        "Neither side scored.",
+        "The match was played at New York/New Jersey Stadium."
+      ],
+      "highlights_zh": [
+        "巴西 0-0 暂平挪威，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：New York/New Jersey Stadium。"
+      ],
+      "highlights": [
+        "巴西 0-0 暂平挪威，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：New York/New Jersey Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-06 08:00",
       "team_a": {
@@ -532,8 +500,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "阿根廷 3-2 击败Cabo Verde，哥伦比亚 1-0 击败加纳，摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭。",
-  "summary_en": "Argentina beat Cabo Verde 3-2; Colombia beat Ghana 1-0; Morocco beat Canada 3-0; France beat Paraguay 1-0.",
+  "summary_zh": "哥伦比亚 1-0 击败加纳，摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭，巴西 0-0 暂平挪威。",
+  "summary_en": "Colombia beat Ghana 1-0; Morocco beat Canada 3-0; France beat Paraguay 1-0; Brazil and Norway are level 0-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -542,6 +510,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-05T02:22:22.834Z"
+    "fetched_at": "2026-07-05T20:12:06.591Z"
   }
 }
