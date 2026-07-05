@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T22:31:02.979Z",
+  "updatedAt": "2026-07-05T00:01:06.097Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -734,7 +734,7 @@
           "date": "2026-07-05",
           "time": "北京时间 2026-07-05 05:00",
           "stage": "Round of 16",
-          "status": "LIVE",
+          "status": "FT",
           "home": {
             "name": "Paraguay",
             "code": "PAR",
@@ -747,12 +747,12 @@
             "code": "FRA",
             "flag": "🇫🇷",
             "flagUrl": "assets/flags/fra.svg",
-            "score": 0
+            "score": 1
           },
-          "winner": null,
+          "winner": "43946",
           "venue": "Philadelphia Stadium",
-          "minute": "67'",
-          "score": "0-0",
+          "minute": "",
+          "score": "0-1",
           "goals": []
         },
         {
