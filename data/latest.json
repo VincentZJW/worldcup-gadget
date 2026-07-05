@@ -1,5 +1,5 @@
 {
-  "updated_at": "北京时间 2026-07-05 07:34",
+  "updated_at": "北京时间 2026-07-05 10:22",
   "date_range": "2026-07-03 to 2026-07-05",
   "summary": "阿根廷 3-2 击败Cabo Verde，哥伦比亚 1-0 击败加纳，摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭。",
   "matches": [
@@ -481,6 +481,54 @@
         "name_en": "Spain"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-07 08:00",
+      "team_a": {
+        "name": "USA",
+        "flag": "🇺🇸",
+        "name_zh": "美国",
+        "name_en": "USA"
+      },
+      "team_b": {
+        "name": "Belgium",
+        "flag": "🇧🇪",
+        "name_zh": "比利时",
+        "name_en": "Belgium"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-08 00:00",
+      "team_a": {
+        "name": "Argentina",
+        "flag": "🇦🇷",
+        "name_zh": "阿根廷",
+        "name_en": "Argentina"
+      },
+      "team_b": {
+        "name": "Egypt",
+        "flag": "🇪🇬",
+        "name_zh": "埃及",
+        "name_en": "Egypt"
+      },
+      "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-08 04:00",
+      "team_a": {
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "name_zh": "瑞士",
+        "name_en": "Switzerland"
+      },
+      "team_b": {
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "name_zh": "哥伦比亚",
+        "name_en": "Colombia"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
@@ -494,6 +542,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-04T23:34:24.630Z"
+    "fetched_at": "2026-07-05T02:22:22.834Z"
   }
 }
