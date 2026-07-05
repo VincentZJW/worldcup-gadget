@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-05T18:36:48.565Z",
+  "updatedAt": "2026-07-05T20:13:40.266Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021532",
+      "stage": "Round of 16",
+      "status": "LIVE",
+      "minute": "13'",
+      "venue": "New York/New Jersey Stadium",
+      "home": {
+        "name": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷",
+        "flagUrl": "assets/flags/bra.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021533",
       "stage": "Round of 16",
@@ -326,53 +348,6 @@
           "team": "USA",
           "player": "Malik Tillman",
           "minute": "82'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021525",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "Seattle Stadium",
-      "home": {
-        "name": "Belgium",
-        "code": "BEL",
-        "flag": "🇧🇪",
-        "flagUrl": "assets/flags/bel.svg",
-        "score": 3
-      },
-      "away": {
-        "name": "Senegal",
-        "code": "SEN",
-        "flag": "🇸🇳",
-        "flagUrl": "assets/flags/sen.svg",
-        "score": 2
-      },
-      "goals": [
-        {
-          "team": "SEN",
-          "player": "Habib Diarra",
-          "minute": "24'",
-          "type": "goal"
-        },
-        {
-          "team": "SEN",
-          "player": "Ismaila Sarr",
-          "minute": "51'",
-          "type": "goal"
-        },
-        {
-          "team": "BEL",
-          "player": "Romelu Lukaku",
-          "minute": "86'",
-          "type": "goal"
-        },
-        {
-          "team": "BEL",
-          "player": "Youri Tielemans",
-          "minute": "89'",
           "type": "goal"
         }
       ]
