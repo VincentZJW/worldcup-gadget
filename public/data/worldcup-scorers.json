@@ -1,11 +1,29 @@
 {
-  "updatedAt": "2026-07-05T21:34:18.364Z",
+  "updatedAt": "2026-07-05T23:00:38.684Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "players": [
     {
       "rank": 1,
+      "player": {
+        "id": "erling haaland-NOR",
+        "name": "Erling Haaland",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/un3jr11769182465.png"
+      },
+      "team": {
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg"
+      },
+      "goals": 7,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 2,
       "player": {
         "id": "lionel messi-ARG",
         "name": "Lionel Messi",
@@ -23,7 +41,7 @@
       "minutes": null
     },
     {
-      "rank": 2,
+      "rank": 3,
       "player": {
         "id": "kylian mbappe-FRA",
         "name": "Kylian Mbappe",
@@ -36,24 +54,6 @@
         "flagUrl": "assets/flags/fra.svg"
       },
       "goals": 6,
-      "assists": null,
-      "penalties": null,
-      "minutes": null
-    },
-    {
-      "rank": 3,
-      "player": {
-        "id": "erling haaland-NOR",
-        "name": "Erling Haaland",
-        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/un3jr11769182465.png"
-      },
-      "team": {
-        "name": "Norway",
-        "code": "NOR",
-        "flag": "🇳🇴",
-        "flagUrl": "assets/flags/nor.svg"
-      },
-      "goals": 5,
       "assists": null,
       "penalties": null,
       "minutes": null

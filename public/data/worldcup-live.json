@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T21:34:18.364Z",
+  "updatedAt": "2026-07-05T23:00:38.684Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,24 +7,37 @@
     {
       "id": "400021532",
       "stage": "Round of 16",
-      "status": "LIVE",
-      "minute": "71'",
+      "status": "FT",
+      "minute": "",
       "venue": "New York/New Jersey Stadium",
       "home": {
         "name": "Brazil",
         "code": "BRA",
         "flag": "🇧🇷",
         "flagUrl": "assets/flags/bra.svg",
-        "score": 0
+        "score": 1
       },
       "away": {
         "name": "Norway",
         "code": "NOR",
         "flag": "🇳🇴",
         "flagUrl": "assets/flags/nor.svg",
-        "score": 0
+        "score": 2
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "NOR",
+          "player": "Erling Haaland",
+          "minute": "79'",
+          "type": "goal"
+        },
+        {
+          "team": "NOR",
+          "player": "Erling Haaland",
+          "minute": "90'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021533",

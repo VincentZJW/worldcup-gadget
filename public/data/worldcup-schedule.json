@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T21:34:18.364Z",
+  "updatedAt": "2026-07-05T23:00:38.684Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3932,25 +3932,38 @@
       "time": "北京时间 2026-07-06 04:00",
       "stage": "Round of 16",
       "venue": "New York/New Jersey Stadium",
-      "status": "LIVE",
-      "minute": "71'",
-      "score": "0-0",
+      "status": "FT",
+      "minute": "",
+      "score": "1-2",
       "home": {
         "name": "Brazil",
         "code": "BRA",
         "flag": "🇧🇷",
         "flagUrl": "assets/flags/bra.svg",
-        "score": 0
+        "score": 1
       },
       "away": {
         "name": "Norway",
         "code": "NOR",
         "flag": "🇳🇴",
         "flagUrl": "assets/flags/nor.svg",
-        "score": 0
+        "score": 2
       },
-      "goals": [],
-      "winner": null
+      "goals": [
+        {
+          "team": "NOR",
+          "player": "Erling Haaland",
+          "minute": "79'",
+          "type": "goal"
+        },
+        {
+          "team": "NOR",
+          "player": "Erling Haaland",
+          "minute": "90'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43961"
     },
     {
       "id": "400021531",
@@ -4144,10 +4157,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Norway",
+        "code": "NOR",
+        "flag": "🇳🇴",
+        "flagUrl": "assets/flags/nor.svg",
         "score": null
       },
       "away": {
