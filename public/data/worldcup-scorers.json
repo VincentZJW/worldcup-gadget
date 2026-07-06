@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T06:49:59.113Z",
+  "updatedAt": "2026-07-06T18:11:10.927Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -549,7 +549,7 @@
       "player": {
         "id": "ermin mahmic-BIH",
         "name": "Ermin Mahmic",
-        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/tgoi7x1779017253.png"
+        "photo": ""
       },
       "team": {
         "name": "Bosnia and Herzegovina",
@@ -567,7 +567,7 @@
       "player": {
         "id": "habib diarra-SEN",
         "name": "Habib Diarra",
-        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/fbklgi1756903777.png"
+        "photo": ""
       },
       "team": {
         "name": "Senegal",
@@ -585,7 +585,7 @@
       "player": {
         "id": "kai havertz-GER",
         "name": "Kai Havertz",
-        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/hem4r91694204364.png"
+        "photo": ""
       },
       "team": {
         "name": "Germany",
