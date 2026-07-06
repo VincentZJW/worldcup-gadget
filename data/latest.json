@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-07 04:23",
+  "updated_at": "北京时间 2026-07-07 05:54",
   "date_range": "2026-07-04 to 2026-07-07",
-  "summary": "法国 1-0 击败巴拉圭，挪威 2-1 击败巴西，英格兰 3-2 击败墨西哥，葡萄牙 0-0 暂平西班牙。",
+  "summary": "法国 1-0 击败巴拉圭，挪威 2-1 击败巴西，英格兰 3-2 击败墨西哥，西班牙 1-0 击败葡萄牙。",
   "matches": [
     {
       "group": "Group",
@@ -381,11 +381,11 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "61'",
+      "status": "FT",
+      "minute": "",
       "venue": "Dallas Stadium",
       "kickoff_at_bj": "北京时间 2026-07-07 03:00",
-      "finished_at_bj": "北京时间 2026-07-07 03:00",
+      "finished_at_bj": "北京时间 2026-07-07 04:54",
       "team_a": {
         "name": "Portugal",
         "flag": "🇵🇹",
@@ -397,26 +397,32 @@
       "team_b": {
         "name": "Spain",
         "flag": "🇪🇸",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Mikel Merino",
+            "minute": "90'+1'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "西班牙",
         "name_en": "Spain"
       },
       "venue_en": "Dallas Stadium",
       "venue_zh": "Dallas Stadium",
       "highlights_en": [
-        "Portugal and Spain are level 0-0 in Group.",
-        "Neither side scored.",
+        "Spain beat Portugal 1-0 in Group.",
+        "Mikel Merino 90'+1'",
         "The match was played at Dallas Stadium."
       ],
       "highlights_zh": [
-        "葡萄牙 0-0 暂平西班牙，比赛属于 Group。",
-        "双方均未取得进球。",
+        "西班牙 1-0 击败葡萄牙，比赛属于 Group。",
+        "Mikel Merino 90'+1'",
         "比赛场地：Dallas Stadium。"
       ],
       "highlights": [
-        "葡萄牙 0-0 暂平西班牙，比赛属于 Group。",
-        "双方均未取得进球。",
+        "西班牙 1-0 击败葡萄牙，比赛属于 Group。",
+        "Mikel Merino 90'+1'",
         "比赛场地：Dallas Stadium。"
       ]
     }
@@ -473,8 +479,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "法国 1-0 击败巴拉圭，挪威 2-1 击败巴西，英格兰 3-2 击败墨西哥，葡萄牙 0-0 暂平西班牙。",
-  "summary_en": "France beat Paraguay 1-0; Norway beat Brazil 2-1; England beat Mexico 3-2; Portugal and Spain are level 0-0.",
+  "summary_zh": "法国 1-0 击败巴拉圭，挪威 2-1 击败巴西，英格兰 3-2 击败墨西哥，西班牙 1-0 击败葡萄牙。",
+  "summary_en": "France beat Paraguay 1-0; Norway beat Brazil 2-1; England beat Mexico 3-2; Spain beat Portugal 1-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -483,6 +489,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-06T20:23:34.189Z"
+    "fetched_at": "2026-07-06T21:54:53.976Z"
   }
 }
