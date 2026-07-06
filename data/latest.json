@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-06 10:27",
+  "updated_at": "北京时间 2026-07-06 14:51",
   "date_range": "2026-07-03 to 2026-07-06",
-  "summary": "摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭，挪威 2-1 击败巴西，英格兰 3-1 暂时领先墨西哥。",
+  "summary": "摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭，挪威 2-1 击败巴西，英格兰 3-2 击败墨西哥。",
   "matches": [
     {
       "group": "Group",
@@ -375,15 +375,15 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "64'",
+      "status": "FT",
+      "minute": "",
       "venue": "Mexico City Stadium",
       "kickoff_at_bj": "北京时间 2026-07-06 09:00",
-      "finished_at_bj": "北京时间 2026-07-06 09:00",
+      "finished_at_bj": "北京时间 2026-07-06 10:58",
       "team_a": {
         "name": "Mexico",
         "flag": "🇲🇽",
-        "score": 1,
+        "score": 2,
         "scorers": [
           {
             "player": "Julian Quinones",
@@ -416,17 +416,17 @@
       "venue_en": "Mexico City Stadium",
       "venue_zh": "Mexico City Stadium",
       "highlights_en": [
-        "England lead Mexico 3-1 in Group.",
+        "England beat Mexico 3-2 in Group.",
         "Julian Quinones 42', Jude Bellingham 36', Jude Bellingham 38'",
         "The match was played at Mexico City Stadium."
       ],
       "highlights_zh": [
-        "英格兰 3-1 暂时领先墨西哥，比赛属于 Group。",
+        "英格兰 3-2 击败墨西哥，比赛属于 Group。",
         "Julian Quinones 42', Jude Bellingham 36', Jude Bellingham 38'",
         "比赛场地：Mexico City Stadium。"
       ],
       "highlights": [
-        "英格兰 3-1 暂时领先墨西哥，比赛属于 Group。",
+        "英格兰 3-2 击败墨西哥，比赛属于 Group。",
         "Julian Quinones 42', Jude Bellingham 36', Jude Bellingham 38'",
         "比赛场地：Mexico City Stadium。"
       ]
@@ -500,8 +500,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭，挪威 2-1 击败巴西，英格兰 3-1 暂时领先墨西哥。",
-  "summary_en": "Morocco beat Canada 3-0; France beat Paraguay 1-0; Norway beat Brazil 2-1; England lead Mexico 3-1.",
+  "summary_zh": "摩洛哥 3-0 击败加拿大，法国 1-0 击败巴拉圭，挪威 2-1 击败巴西，英格兰 3-2 击败墨西哥。",
+  "summary_en": "Morocco beat Canada 3-0; France beat Paraguay 1-0; Norway beat Brazil 2-1; England beat Mexico 3-2.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -510,6 +510,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-06T02:27:07.873Z"
+    "fetched_at": "2026-07-06T06:51:21.131Z"
   }
 }
