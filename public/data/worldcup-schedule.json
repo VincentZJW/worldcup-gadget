@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T23:00:38.684Z",
+  "updatedAt": "2026-07-06T01:15:41.619Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -3968,25 +3968,25 @@
     {
       "id": "400021531",
       "date": "2026-07-06",
-      "time": "北京时间 2026-07-06 08:00",
+      "time": "北京时间 2026-07-06 09:00",
       "stage": "Round of 16",
       "venue": "Mexico City Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "15'",
+      "score": "0-0",
       "home": {
         "name": "Mexico",
         "code": "MEX",
         "flag": "🇲🇽",
         "flagUrl": "assets/flags/mex.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null

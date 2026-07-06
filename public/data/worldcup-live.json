@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-05T23:00:38.684Z",
+  "updatedAt": "2026-07-06T01:15:41.619Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021531",
+      "stage": "Round of 16",
+      "status": "LIVE",
+      "minute": "15'",
+      "venue": "Mexico City Stadium",
+      "home": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021532",
       "stage": "Round of 16",
@@ -326,41 +348,6 @@
           "team": "ESP",
           "player": "Mikel Oyarzabal",
           "minute": "89'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021524",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "San Francisco Bay Area Stadium",
-      "home": {
-        "name": "USA",
-        "code": "USA",
-        "flag": "🇺🇸",
-        "flagUrl": "assets/flags/usa.svg",
-        "score": 2
-      },
-      "away": {
-        "name": "Bosnia and Herzegovina",
-        "code": "BIH",
-        "flag": "🇧🇦",
-        "flagUrl": "assets/flags/bih.svg",
-        "score": 0
-      },
-      "goals": [
-        {
-          "team": "USA",
-          "player": "Folarin Balogun",
-          "minute": "45'",
-          "type": "goal"
-        },
-        {
-          "team": "USA",
-          "player": "Malik Tillman",
-          "minute": "82'",
           "type": "goal"
         }
       ]
