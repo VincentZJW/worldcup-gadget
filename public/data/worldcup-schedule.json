@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T18:11:10.927Z",
+  "updatedAt": "2026-07-06T20:24:30.390Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4016,22 +4016,22 @@
       "time": "北京时间 2026-07-07 03:00",
       "stage": "Round of 16",
       "venue": "Dallas Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "62'",
+      "score": "0-0",
       "home": {
         "name": "Portugal",
         "code": "POR",
         "flag": "🇵🇹",
         "flagUrl": "assets/flags/por.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Spain",
         "code": "ESP",
         "flag": "🇪🇸",
         "flagUrl": "assets/flags/esp.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null

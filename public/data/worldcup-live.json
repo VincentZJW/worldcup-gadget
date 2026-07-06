@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-06T18:11:10.927Z",
+  "updatedAt": "2026-07-06T20:24:30.390Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021529",
+      "stage": "Round of 16",
+      "status": "LIVE",
+      "minute": "62'",
+      "venue": "Dallas Stadium",
+      "home": {
+        "name": "Portugal",
+        "code": "POR",
+        "flag": "🇵🇹",
+        "flagUrl": "assets/flags/por.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021531",
       "stage": "Round of 16",
@@ -326,47 +348,6 @@
           "team": "POR",
           "player": "Goncalo Ramos",
           "minute": "90'+4'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021519",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "Los Angeles Stadium",
-      "home": {
-        "name": "Spain",
-        "code": "ESP",
-        "flag": "🇪🇸",
-        "flagUrl": "assets/flags/esp.svg",
-        "score": 3
-      },
-      "away": {
-        "name": "Austria",
-        "code": "AUT",
-        "flag": "🇦🇹",
-        "flagUrl": "assets/flags/aut.svg",
-        "score": 0
-      },
-      "goals": [
-        {
-          "team": "ESP",
-          "player": "Mikel Oyarzabal",
-          "minute": "36'",
-          "type": "goal"
-        },
-        {
-          "team": "ESP",
-          "player": "Pedro Porro",
-          "minute": "66'",
-          "type": "goal"
-        },
-        {
-          "team": "ESP",
-          "player": "Mikel Oyarzabal",
-          "minute": "89'",
           "type": "goal"
         }
       ]
