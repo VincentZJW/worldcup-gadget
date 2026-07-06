@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T01:15:41.619Z",
+  "updatedAt": "2026-07-06T02:02:32.523Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -8,23 +8,42 @@
       "id": "400021531",
       "stage": "Round of 16",
       "status": "LIVE",
-      "minute": "15'",
+      "minute": "",
       "venue": "Mexico City Stadium",
       "home": {
         "name": "Mexico",
         "code": "MEX",
         "flag": "🇲🇽",
         "flagUrl": "assets/flags/mex.svg",
-        "score": 0
+        "score": 1
       },
       "away": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": 0
+        "score": 2
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "ENG",
+          "player": "Jude Bellingham",
+          "minute": "36'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Jude Bellingham",
+          "minute": "38'",
+          "type": "goal"
+        },
+        {
+          "team": "MEX",
+          "player": "Julian Quinones",
+          "minute": "42'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021532",

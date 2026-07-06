@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T01:15:41.619Z",
+  "updatedAt": "2026-07-06T02:02:32.523Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -97,6 +97,42 @@
     {
       "rank": 6,
       "player": {
+        "id": "jude bellingham-ENG",
+        "name": "Jude Bellingham",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/trk5271750271712.png"
+      },
+      "team": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg"
+      },
+      "goals": 4,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 7,
+      "player": {
+        "id": "julian quinones-MEX",
+        "name": "Julian Quinones",
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/kwg6ps1781248412.png"
+      },
+      "team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "flag": "🇲🇽",
+        "flagUrl": "assets/flags/mex.svg"
+      },
+      "goals": 4,
+      "assists": null,
+      "penalties": null,
+      "minutes": null
+    },
+    {
+      "rank": 8,
+      "player": {
         "id": "mikel oyarzabal-ESP",
         "name": "Mikel Oyarzabal",
         "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9apeaz1762709253.png"
@@ -113,7 +149,7 @@
       "minutes": null
     },
     {
-      "rank": 7,
+      "rank": 9,
       "player": {
         "id": "ousmane dembele-FRA",
         "name": "Ousmane Dembele",
@@ -131,7 +167,7 @@
       "minutes": null
     },
     {
-      "rank": 8,
+      "rank": 10,
       "player": {
         "id": "vinicius junior-BRA",
         "name": "Vinicius Junior",
@@ -149,7 +185,7 @@
       "minutes": null
     },
     {
-      "rank": 9,
+      "rank": 11,
       "player": {
         "id": "brian brobbey-NED",
         "name": "Brian Brobbey",
@@ -167,7 +203,7 @@
       "minutes": null
     },
     {
-      "rank": 10,
+      "rank": 12,
       "player": {
         "id": "cody gakpo-NED",
         "name": "Cody Gakpo",
@@ -185,7 +221,7 @@
       "minutes": null
     },
     {
-      "rank": 11,
+      "rank": 13,
       "player": {
         "id": "deniz undav-GER",
         "name": "Deniz Undav",
@@ -203,7 +239,7 @@
       "minutes": null
     },
     {
-      "rank": 12,
+      "rank": 14,
       "player": {
         "id": "elijah just-NZL",
         "name": "Elijah Just",
@@ -221,7 +257,7 @@
       "minutes": null
     },
     {
-      "rank": 13,
+      "rank": 15,
       "player": {
         "id": "folarin balogun-USA",
         "name": "Folarin Balogun",
@@ -239,7 +275,7 @@
       "minutes": null
     },
     {
-      "rank": 14,
+      "rank": 16,
       "player": {
         "id": "ismael saibari-MAR",
         "name": "Ismael Saibari",
@@ -257,7 +293,7 @@
       "minutes": null
     },
     {
-      "rank": 15,
+      "rank": 17,
       "player": {
         "id": "johan manzambi-SUI",
         "name": "Johan Manzambi",
@@ -275,7 +311,7 @@
       "minutes": null
     },
     {
-      "rank": 16,
+      "rank": 18,
       "player": {
         "id": "jonathan david-CAN",
         "name": "Jonathan David",
@@ -293,25 +329,7 @@
       "minutes": null
     },
     {
-      "rank": 17,
-      "player": {
-        "id": "julian quinones-MEX",
-        "name": "Julian Quinones",
-        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/kwg6ps1781248412.png"
-      },
-      "team": {
-        "name": "Mexico",
-        "code": "MEX",
-        "flag": "🇲🇽",
-        "flagUrl": "assets/flags/mex.svg"
-      },
-      "goals": 3,
-      "assists": null,
-      "penalties": null,
-      "minutes": null
-    },
-    {
-      "rank": 18,
+      "rank": 19,
       "player": {
         "id": "matheus cunha-BRA",
         "name": "Matheus Cunha",
@@ -329,7 +347,7 @@
       "minutes": null
     },
     {
-      "rank": 19,
+      "rank": 20,
       "player": {
         "id": "amad diallo-CIV",
         "name": "Amad Diallo",
@@ -347,7 +365,7 @@
       "minutes": null
     },
     {
-      "rank": 20,
+      "rank": 21,
       "player": {
         "id": "anthony elanga-SWE",
         "name": "Anthony Elanga",
@@ -365,7 +383,7 @@
       "minutes": null
     },
     {
-      "rank": 21,
+      "rank": 22,
       "player": {
         "id": "ayase ueda-JPN",
         "name": "Ayase Ueda",
@@ -383,7 +401,7 @@
       "minutes": null
     },
     {
-      "rank": 22,
+      "rank": 23,
       "player": {
         "id": "azzedine ounahi-MAR",
         "name": "Azzedine Ounahi",
@@ -401,7 +419,7 @@
       "minutes": null
     },
     {
-      "rank": 23,
+      "rank": 24,
       "player": {
         "id": "bradley barcola-FRA",
         "name": "Bradley Barcola",
@@ -419,7 +437,7 @@
       "minutes": null
     },
     {
-      "rank": 24,
+      "rank": 25,
       "player": {
         "id": "cristiano ronaldo-POR",
         "name": "Cristiano Ronaldo",
@@ -437,7 +455,7 @@
       "minutes": null
     },
     {
-      "rank": 25,
+      "rank": 26,
       "player": {
         "id": "crysencio summerville-NED",
         "name": "Crysencio Summerville",
@@ -455,7 +473,7 @@
       "minutes": null
     },
     {
-      "rank": 26,
+      "rank": 27,
       "player": {
         "id": "cyle larin-CAN",
         "name": "Cyle Larin",
@@ -473,7 +491,7 @@
       "minutes": null
     },
     {
-      "rank": 27,
+      "rank": 28,
       "player": {
         "id": "daichi kamada-JPN",
         "name": "Daichi Kamada",
@@ -491,7 +509,7 @@
       "minutes": null
     },
     {
-      "rank": 28,
+      "rank": 29,
       "player": {
         "id": "daniel munoz-COL",
         "name": "Daniel Munoz",
@@ -509,7 +527,7 @@
       "minutes": null
     },
     {
-      "rank": 29,
+      "rank": 30,
       "player": {
         "id": "emam ashour-EGY",
         "name": "Emam Ashour",
@@ -527,11 +545,11 @@
       "minutes": null
     },
     {
-      "rank": 30,
+      "rank": 31,
       "player": {
         "id": "ermin mahmic-BIH",
         "name": "Ermin Mahmic",
-        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/tgoi7x1779017253.png"
+        "photo": ""
       },
       "team": {
         "name": "Bosnia and Herzegovina",
@@ -545,7 +563,7 @@
       "minutes": null
     },
     {
-      "rank": 31,
+      "rank": 32,
       "player": {
         "id": "habib diarra-SEN",
         "name": "Habib Diarra",
@@ -556,24 +574,6 @@
         "code": "SEN",
         "flag": "🇸🇳",
         "flagUrl": "assets/flags/sen.svg"
-      },
-      "goals": 2,
-      "assists": null,
-      "penalties": null,
-      "minutes": null
-    },
-    {
-      "rank": 32,
-      "player": {
-        "id": "jude bellingham-ENG",
-        "name": "Jude Bellingham",
-        "photo": ""
-      },
-      "team": {
-        "name": "England",
-        "code": "ENG",
-        "flag": "🏴",
-        "flagUrl": "assets/flags/eng.svg"
       },
       "goals": 2,
       "assists": null,
