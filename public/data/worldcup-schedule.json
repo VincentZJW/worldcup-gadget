@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T06:04:37.686Z",
+  "updatedAt": "2026-07-07T17:59:07.611Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4070,7 +4070,7 @@
         {
           "team": "BEL",
           "player": "Charles De Ketelaere",
-          "minute": "9'",
+          "minute": "0'",
           "type": "goal"
         },
         {
@@ -4106,24 +4106,55 @@
       "time": "北京时间 2026-07-08 00:00",
       "stage": "Round of 16",
       "venue": "Atlanta Stadium",
-      "status": "Scheduled",
+      "status": "FT",
       "minute": "",
-      "score": "",
+      "score": "3-2",
       "home": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": null
+        "score": 3
       },
       "away": {
         "name": "Egypt",
         "code": "EGY",
         "flag": "🇪🇬",
         "flagUrl": "assets/flags/egy.svg",
-        "score": null
+        "score": 2
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "EGY",
+          "player": "Yasser Ibrahim",
+          "minute": "15'",
+          "type": "goal"
+        },
+        {
+          "team": "EGY",
+          "player": "Mostafa Zico",
+          "minute": "67'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Cristian Romero",
+          "minute": "79'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lionel Messi",
+          "minute": "83'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Enzo Fernandez",
+          "minute": "90'+2'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {
