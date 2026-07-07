@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T21:53:20.730Z",
+  "updatedAt": "2026-07-07T23:01:34.619Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -963,7 +963,7 @@
       "player": {
         "id": "alex freeman-USA",
         "name": "Alex Freeman",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9ik1yx1766511635.png"
       },
       "team": {
         "name": "USA",

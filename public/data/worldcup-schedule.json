@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T21:53:20.730Z",
+  "updatedAt": "2026-07-07T23:01:34.619Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4181,7 +4181,7 @@
         "score": 0
       },
       "goals": [],
-      "winner": null
+      "winner": "43971"
     },
     {
       "id": "400021536",
@@ -4278,10 +4278,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "flagUrl": "assets/flags/sui.svg",
         "score": null
       },
       "goals": [],

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T21:53:20.730Z",
+  "updatedAt": "2026-07-07T23:01:34.619Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -1006,7 +1006,7 @@
             "flagUrl": "assets/flags/col.svg",
             "score": 0
           },
-          "winner": null,
+          "winner": "43971",
           "venue": "BC Place Vancouver",
           "minute": "",
           "score": "0-0",
