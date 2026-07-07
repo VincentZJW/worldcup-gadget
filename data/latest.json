@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-08 04:03",
+  "updated_at": "北京时间 2026-07-08 05:52",
   "date_range": "2026-07-05 to 2026-07-08",
-  "summary": "西班牙 1-0 击败葡萄牙，比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 暂平哥伦比亚。",
+  "summary": "西班牙 1-0 击败葡萄牙，比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚。",
   "matches": [
     {
       "group": "Group",
@@ -396,11 +396,11 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "3'",
+      "status": "FT",
+      "minute": "",
       "venue": "BC Place Vancouver",
       "kickoff_at_bj": "北京时间 2026-07-08 04:00",
-      "finished_at_bj": "北京时间 2026-07-08 04:00",
+      "finished_at_bj": "北京时间 2026-07-08 05:45",
       "team_a": {
         "name": "Switzerland",
         "flag": "🇨🇭",
@@ -420,17 +420,17 @@
       "venue_en": "BC Place Vancouver",
       "venue_zh": "BC Place Vancouver",
       "highlights_en": [
-        "Switzerland and Colombia are level 0-0 in Group.",
+        "Switzerland drew 0-0 with Colombia in Group.",
         "Neither side scored.",
         "The match was played at BC Place Vancouver."
       ],
       "highlights_zh": [
-        "瑞士 0-0 暂平哥伦比亚，比赛属于 Group。",
+        "瑞士 0-0 战平哥伦比亚，比赛属于 Group。",
         "双方均未取得进球。",
         "比赛场地：BC Place Vancouver。"
       ],
       "highlights": [
-        "瑞士 0-0 暂平哥伦比亚，比赛属于 Group。",
+        "瑞士 0-0 战平哥伦比亚，比赛属于 Group。",
         "双方均未取得进球。",
         "比赛场地：BC Place Vancouver。"
       ]
@@ -456,8 +456,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "西班牙 1-0 击败葡萄牙，比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 暂平哥伦比亚。",
-  "summary_en": "Spain beat Portugal 1-0; Belgium beat USA 4-1; Argentina beat Egypt 3-2; Switzerland and Colombia are level 0-0.",
+  "summary_zh": "西班牙 1-0 击败葡萄牙，比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚。",
+  "summary_en": "Spain beat Portugal 1-0; Belgium beat USA 4-1; Argentina beat Egypt 3-2; Switzerland drew 0-0 with Colombia.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -466,6 +466,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-07T20:03:07.601Z"
+    "fetched_at": "2026-07-07T21:52:45.286Z"
   }
 }
