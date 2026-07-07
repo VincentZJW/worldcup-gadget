@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T20:08:22.473Z",
+  "updatedAt": "2026-07-07T21:53:20.730Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -880,12 +880,6 @@
           "team": "AUT",
           "player": "Romano Schmid",
           "minute": "20'",
-          "type": "goal"
-        },
-        {
-          "team": "JOR",
-          "player": "Ali Olwan",
-          "minute": "0'",
           "type": "goal"
         },
         {
@@ -4169,8 +4163,8 @@
       "time": "北京时间 2026-07-08 04:00",
       "stage": "Round of 16",
       "venue": "BC Place Vancouver",
-      "status": "LIVE",
-      "minute": "8'",
+      "status": "FT",
+      "minute": "",
       "score": "0-0",
       "home": {
         "name": "Switzerland",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T20:08:22.473Z",
+  "updatedAt": "2026-07-07T21:53:20.730Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -991,7 +991,7 @@
           "date": "2026-07-08",
           "time": "北京时间 2026-07-08 04:00",
           "stage": "Round of 16",
-          "status": "LIVE",
+          "status": "FT",
           "home": {
             "name": "Switzerland",
             "code": "SUI",
@@ -1008,7 +1008,7 @@
           },
           "winner": null,
           "venue": "BC Place Vancouver",
-          "minute": "8'",
+          "minute": "",
           "score": "0-0",
           "goals": []
         }
