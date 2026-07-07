@@ -1,9 +1,50 @@
 {
-  "updatedAt": "2026-07-06T23:07:32.994Z",
+  "updatedAt": "2026-07-07T01:16:50.728Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021534",
+      "stage": "Round of 16",
+      "status": "LIVE",
+      "minute": "52'",
+      "venue": "Seattle Stadium",
+      "home": {
+        "name": "USA",
+        "code": "USA",
+        "flag": "🇺🇸",
+        "flagUrl": "assets/flags/usa.svg",
+        "score": 1
+      },
+      "away": {
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "flagUrl": "assets/flags/bel.svg",
+        "score": 2
+      },
+      "goals": [
+        {
+          "team": "BEL",
+          "player": "Charles De Ketelaere",
+          "minute": "9'",
+          "type": "goal"
+        },
+        {
+          "team": "USA",
+          "player": "Malik Tillman",
+          "minute": "31'",
+          "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Charles De Ketelaere",
+          "minute": "33'",
+          "type": "goal"
+        }
+      ]
+    },
     {
       "id": "400021529",
       "stage": "Round of 16",
@@ -320,41 +361,6 @@
           "team": "SUI",
           "player": "Dan Ndoye",
           "minute": "46'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021526",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "Toronto Stadium",
-      "home": {
-        "name": "Portugal",
-        "code": "POR",
-        "flag": "🇵🇹",
-        "flagUrl": "assets/flags/por.svg",
-        "score": 2
-      },
-      "away": {
-        "name": "Croatia",
-        "code": "CRO",
-        "flag": "🇭🇷",
-        "flagUrl": "assets/flags/cro.svg",
-        "score": 1
-      },
-      "goals": [
-        {
-          "team": "CRO",
-          "player": "Ivan Perisic",
-          "minute": "53'",
-          "type": "goal"
-        },
-        {
-          "team": "POR",
-          "player": "Goncalo Ramos",
-          "minute": "90'+4'",
           "type": "goal"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T23:07:32.994Z",
+  "updatedAt": "2026-07-07T01:16:50.728Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -877,26 +877,45 @@
           "date": "2026-07-07",
           "time": "北京时间 2026-07-07 08:00",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "LIVE",
           "home": {
             "name": "USA",
             "code": "USA",
             "flag": "🇺🇸",
             "flagUrl": "assets/flags/usa.svg",
-            "score": null
+            "score": 1
           },
           "away": {
             "name": "Belgium",
             "code": "BEL",
             "flag": "🇧🇪",
             "flagUrl": "assets/flags/bel.svg",
-            "score": null
+            "score": 2
           },
           "winner": null,
           "venue": "Seattle Stadium",
-          "minute": "",
-          "score": "",
-          "goals": []
+          "minute": "52'",
+          "score": "1-2",
+          "goals": [
+            {
+              "team": "BEL",
+              "player": "Charles De Ketelaere",
+              "minute": "9'",
+              "type": "goal"
+            },
+            {
+              "team": "USA",
+              "player": "Malik Tillman",
+              "minute": "31'",
+              "type": "goal"
+            },
+            {
+              "team": "BEL",
+              "player": "Charles De Ketelaere",
+              "minute": "33'",
+              "type": "goal"
+            }
+          ]
         },
         {
           "id": "400021528",
