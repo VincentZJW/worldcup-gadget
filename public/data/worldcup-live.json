@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-07T17:59:07.611Z",
+  "updatedAt": "2026-07-07T20:08:22.473Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021535",
+      "stage": "Round of 16",
+      "status": "LIVE",
+      "minute": "8'",
+      "venue": "BC Place Vancouver",
+      "home": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "flag": "🇨🇭",
+        "flagUrl": "assets/flags/sui.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Colombia",
+        "code": "COL",
+        "flag": "🇨🇴",
+        "flagUrl": "assets/flags/col.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021528",
       "stage": "Round of 16",
@@ -356,41 +378,6 @@
           "team": "ARG",
           "player": "Diney Borges",
           "minute": "111'",
-          "type": "own_goal"
-        }
-      ]
-    },
-    {
-      "id": "400021515",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "Dallas Stadium",
-      "home": {
-        "name": "Australia",
-        "code": "AUS",
-        "flag": "🇦🇺",
-        "flagUrl": "assets/flags/aus.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Egypt",
-        "code": "EGY",
-        "flag": "🇪🇬",
-        "flagUrl": "assets/flags/egy.svg",
-        "score": 1
-      },
-      "goals": [
-        {
-          "team": "EGY",
-          "player": "Emam Ashour",
-          "minute": "13'",
-          "type": "goal"
-        },
-        {
-          "team": "AUS",
-          "player": "Mohamed Hany",
-          "minute": "55'",
           "type": "own_goal"
         }
       ]

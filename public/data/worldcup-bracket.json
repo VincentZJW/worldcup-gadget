@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T17:59:07.611Z",
+  "updatedAt": "2026-07-07T20:08:22.473Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -949,7 +949,7 @@
             "flagUrl": "assets/flags/egy.svg",
             "score": 2
           },
-          "winner": null,
+          "winner": "43922",
           "venue": "Atlanta Stadium",
           "minute": "",
           "score": "3-2",
@@ -991,25 +991,25 @@
           "date": "2026-07-08",
           "time": "北京时间 2026-07-08 04:00",
           "stage": "Round of 16",
-          "status": "Scheduled",
+          "status": "LIVE",
           "home": {
             "name": "Switzerland",
             "code": "SUI",
             "flag": "🇨🇭",
             "flagUrl": "assets/flags/sui.svg",
-            "score": null
+            "score": 0
           },
           "away": {
             "name": "Colombia",
             "code": "COL",
             "flag": "🇨🇴",
             "flagUrl": "assets/flags/col.svg",
-            "score": null
+            "score": 0
           },
           "winner": null,
           "venue": "BC Place Vancouver",
-          "minute": "",
-          "score": "",
+          "minute": "8'",
+          "score": "0-0",
           "goals": []
         }
       ]

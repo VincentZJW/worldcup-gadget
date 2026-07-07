@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T17:59:07.611Z",
+  "updatedAt": "2026-07-07T20:08:22.473Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -880,6 +880,12 @@
           "team": "AUT",
           "player": "Romano Schmid",
           "minute": "20'",
+          "type": "goal"
+        },
+        {
+          "team": "JOR",
+          "player": "Ali Olwan",
+          "minute": "0'",
           "type": "goal"
         },
         {
@@ -4155,7 +4161,7 @@
           "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43922"
     },
     {
       "id": "400021535",
@@ -4163,22 +4169,22 @@
       "time": "北京时间 2026-07-08 04:00",
       "stage": "Round of 16",
       "venue": "BC Place Vancouver",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "8'",
+      "score": "0-0",
       "home": {
         "name": "Switzerland",
         "code": "SUI",
         "flag": "🇨🇭",
         "flagUrl": "assets/flags/sui.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Colombia",
         "code": "COL",
         "flag": "🇨🇴",
         "flagUrl": "assets/flags/col.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
@@ -4271,10 +4277,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "flagUrl": "assets/flags/arg.svg",
         "score": null
       },
       "away": {
