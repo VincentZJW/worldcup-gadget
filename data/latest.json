@@ -1,5 +1,5 @@
 {
-  "updated_at": "北京时间 2026-07-08 05:52",
+  "updated_at": "北京时间 2026-07-08 06:59",
   "date_range": "2026-07-05 to 2026-07-08",
   "summary": "西班牙 1-0 击败葡萄牙，比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚。",
   "matches": [
@@ -400,7 +400,7 @@
       "minute": "",
       "venue": "BC Place Vancouver",
       "kickoff_at_bj": "北京时间 2026-07-08 04:00",
-      "finished_at_bj": "北京时间 2026-07-08 05:45",
+      "finished_at_bj": "北京时间 2026-07-08 06:25",
       "team_a": {
         "name": "Switzerland",
         "flag": "🇨🇭",
@@ -466,6 +466,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-07T21:52:45.286Z"
+    "fetched_at": "2026-07-07T22:59:48.234Z"
   }
 }
