@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T01:16:50.728Z",
+  "updatedAt": "2026-07-07T01:57:59.905Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4049,9 +4049,9 @@
       "time": "北京时间 2026-07-07 08:00",
       "stage": "Round of 16",
       "venue": "Seattle Stadium",
-      "status": "LIVE",
-      "minute": "52'",
-      "score": "1-2",
+      "status": "FT",
+      "minute": "",
+      "score": "1-4",
       "home": {
         "name": "USA",
         "code": "USA",
@@ -4064,7 +4064,7 @@
         "code": "BEL",
         "flag": "🇧🇪",
         "flagUrl": "assets/flags/bel.svg",
-        "score": 2
+        "score": 4
       },
       "goals": [
         {
@@ -4083,6 +4083,18 @@
           "team": "BEL",
           "player": "Charles De Ketelaere",
           "minute": "33'",
+          "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Hans Vanaken",
+          "minute": "57'",
+          "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Romelu Lukaku",
+          "minute": "90'+3'",
           "type": "goal"
         }
       ],
