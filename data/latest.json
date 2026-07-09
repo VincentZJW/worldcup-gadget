@@ -1,60 +1,8 @@
 {
-  "updated_at": "北京时间 2026-07-08 08:07",
+  "updated_at": "北京时间 2026-07-09 09:09",
   "date_range": "2026-07-06 to 2026-07-08",
   "summary": "西班牙 1-0 击败葡萄牙，比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚。",
   "matches": [
-    {
-      "group": "Group",
-      "status": "FT",
-      "minute": "",
-      "venue": "New York/New Jersey Stadium",
-      "kickoff_at_bj": "北京时间 2026-07-06 04:00",
-      "finished_at_bj": "北京时间 2026-07-06 05:57",
-      "team_a": {
-        "name": "Brazil",
-        "flag": "🇧🇷",
-        "score": 1,
-        "scorers": [],
-        "name_zh": "巴西",
-        "name_en": "Brazil"
-      },
-      "team_b": {
-        "name": "Norway",
-        "flag": "🇳🇴",
-        "score": 2,
-        "scorers": [
-          {
-            "player": "Erling Haaland",
-            "minute": "79'",
-            "type": "goal"
-          },
-          {
-            "player": "Erling Haaland",
-            "minute": "90'",
-            "type": "goal"
-          }
-        ],
-        "name_zh": "挪威",
-        "name_en": "Norway"
-      },
-      "venue_en": "New York/New Jersey Stadium",
-      "venue_zh": "New York/New Jersey Stadium",
-      "highlights_en": [
-        "Norway beat Brazil 2-1 in Group.",
-        "Erling Haaland 79', Erling Haaland 90'",
-        "The match was played at New York/New Jersey Stadium."
-      ],
-      "highlights_zh": [
-        "挪威 2-1 击败巴西，比赛属于 Group。",
-        "Erling Haaland 79', Erling Haaland 90'",
-        "比赛场地：New York/New Jersey Stadium。"
-      ],
-      "highlights": [
-        "挪威 2-1 击败巴西，比赛属于 Group。",
-        "Erling Haaland 79', Erling Haaland 90'",
-        "比赛场地：New York/New Jersey Stadium。"
-      ]
-    },
     {
       "group": "Group",
       "status": "FT",
@@ -371,6 +319,22 @@
         "name_en": "Belgium"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-12 05:00",
+      "team_a": {
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "name_zh": "挪威",
+        "name_en": "Norway"
+      },
+      "team_b": {
+        "name": "England",
+        "flag": "🏴",
+        "name_zh": "英格兰",
+        "name_en": "England"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
@@ -384,6 +348,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-08T00:07:13.309Z"
+    "fetched_at": "2026-07-09T01:09:27.971Z"
   }
 }
