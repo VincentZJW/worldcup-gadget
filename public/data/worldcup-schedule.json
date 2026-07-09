@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T21:23:18.688Z",
+  "updatedAt": "2026-07-09T22:50:11.950Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4189,15 +4189,15 @@
       "time": "北京时间 2026-07-10 04:00",
       "stage": "Quarter-final",
       "venue": "Boston Stadium",
-      "status": "LIVE",
-      "minute": "59'",
-      "score": "0-0",
+      "status": "FT",
+      "minute": "",
+      "score": "2-0",
       "home": {
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": 0
+        "score": 2
       },
       "away": {
         "name": "Morocco",
@@ -4206,8 +4206,21 @@
         "flagUrl": "assets/flags/mar.svg",
         "score": 0
       },
-      "goals": [],
-      "winner": null
+      "goals": [
+        {
+          "team": "FRA",
+          "player": "Kylian Mbappe",
+          "minute": "60'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Ousmane Dembele",
+          "minute": "66'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43946"
     },
     {
       "id": "400021538",
@@ -4297,10 +4310,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg",
         "score": null
       },
       "away": {
