@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T19:48:09.112Z",
+  "updatedAt": "2026-07-09T21:23:18.688Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -549,7 +549,7 @@
       "player": {
         "id": "daniel munoz-COL",
         "name": "Daniel Munoz",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/qoxqre1761492462.png"
       },
       "team": {
         "name": "Colombia",
@@ -567,7 +567,7 @@
       "player": {
         "id": "emam ashour-EGY",
         "name": "Emam Ashour",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/jk038w1750398132.png"
       },
       "team": {
         "name": "Egypt",
@@ -585,7 +585,7 @@
       "player": {
         "id": "ermin mahmic-BIH",
         "name": "Ermin Mahmic",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/tgoi7x1779017253.png"
       },
       "team": {
         "name": "Bosnia and Herzegovina",
@@ -603,7 +603,7 @@
       "player": {
         "id": "habib diarra-SEN",
         "name": "Habib Diarra",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/fbklgi1756903777.png"
       },
       "team": {
         "name": "Senegal",
@@ -621,7 +621,7 @@
       "player": {
         "id": "kai havertz-GER",
         "name": "Kai Havertz",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/hem4r91694204364.png"
       },
       "team": {
         "name": "Germany",
@@ -639,7 +639,7 @@
       "player": {
         "id": "leandro trossard-BEL",
         "name": "Leandro Trossard",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/07fzpg1769331977.png"
       },
       "team": {
         "name": "Belgium",
@@ -657,7 +657,7 @@
       "player": {
         "id": "malik tillman-USA",
         "name": "Malik Tillman",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/8d8h2y1756316767.png"
       },
       "team": {
         "name": "USA",
@@ -675,7 +675,7 @@
       "player": {
         "id": "maxi araujo-URU",
         "name": "Maxi Araujo",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3u12tv1762290711.png"
       },
       "team": {
         "name": "Uruguay",
@@ -711,7 +711,7 @@
       "player": {
         "id": "nicolas pepe-CIV",
         "name": "Nicolas Pepe",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/xeui221762889301.png"
       },
       "team": {
         "name": "Côte d'Ivoire",
@@ -729,7 +729,7 @@
       "player": {
         "id": "pape gueye-SEN",
         "name": "Pape Gueye",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9e7ql31762888843.png"
       },
       "team": {
         "name": "Senegal",
@@ -747,7 +747,7 @@
       "player": {
         "id": "ramin rezaeian-IRI",
         "name": "Ramin Rezaeian",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/yiz0x31668787055.png"
       },
       "team": {
         "name": "IR Iran",
@@ -765,7 +765,7 @@
       "player": {
         "id": "raul jimenez-MEX",
         "name": "Raul Jimenez",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/xjepmh1781348889.png"
       },
       "team": {
         "name": "Mexico",
@@ -783,7 +783,7 @@
       "player": {
         "id": "riyad mahrez-ALG",
         "name": "Riyad Mahrez",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/g0ay2p1771662753.png"
       },
       "team": {
         "name": "Algeria",
@@ -801,7 +801,7 @@
       "player": {
         "id": "ruben vargas-SUI",
         "name": "Ruben Vargas",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9jkl9w1762860549.png"
       },
       "team": {
         "name": "Switzerland",
@@ -837,7 +837,7 @@
       "player": {
         "id": "yasin ayari-SWE",
         "name": "Yasin Ayari",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/xah7d91756994132.png"
       },
       "team": {
         "name": "Sweden",
@@ -855,7 +855,7 @@
       "player": {
         "id": "yoane wissa-COD",
         "name": "Yoane Wissa",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ye9inj1766824633.png"
       },
       "team": {
         "name": "DR Congo",
@@ -909,7 +909,7 @@
       "player": {
         "id": "achraf hakimi-MAR",
         "name": "Achraf Hakimi",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/oqu69c1766335243.png"
       },
       "team": {
         "name": "Morocco",
@@ -945,7 +945,7 @@
       "player": {
         "id": "alex baena-ESP",
         "name": "Alex Baena",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/04ntmp1762890059.png"
       },
       "team": {
         "name": "Spain",
@@ -963,7 +963,7 @@
       "player": {
         "id": "alex freeman-USA",
         "name": "Alex Freeman",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9ik1yx1766511635.png"
       },
       "team": {
         "name": "USA",
@@ -999,7 +999,7 @@
       "player": {
         "id": "alexis saelemaekers-BEL",
         "name": "Alexis Saelemaekers",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/li7qc71758893296.png"
       },
       "team": {
         "name": "Belgium",
@@ -1017,7 +1017,7 @@
       "player": {
         "id": "ali olwan-JOR",
         "name": "Ali Olwan",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ifvtit1781097232.png"
       },
       "team": {
         "name": "Jordan",
@@ -1053,7 +1053,7 @@
       "player": {
         "id": "amine gouiri-ALG",
         "name": "Amine Gouiri",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/74eam91766152411.png"
       },
       "team": {
         "name": "Algeria",
@@ -1071,7 +1071,7 @@
       "player": {
         "id": "ante budimir-CRO",
         "name": "Ante Budimir",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/8v3s2w1762531932.png"
       },
       "team": {
         "name": "Croatia",
@@ -1089,7 +1089,7 @@
       "player": {
         "id": "antonio nusa-NOR",
         "name": "Antonio Nusa",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/yo19551763561296.png"
       },
       "team": {
         "name": "Norway",
@@ -1107,7 +1107,7 @@
       "player": {
         "id": "arda guler-TUR",
         "name": "Arda Guler",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/lwnog21768499165.png"
       },
       "team": {
         "name": "Türkiye",
@@ -1179,7 +1179,7 @@
       "player": {
         "id": "breel embolo-SUI",
         "name": "Breel Embolo",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/k5xqvx1766136320.png"
       },
       "team": {
         "name": "Switzerland",
@@ -1215,7 +1215,7 @@
       "player": {
         "id": "caleb yirenkyi-GHA",
         "name": "Caleb Yirenkyi",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/dqki3p1765402684.png"
       },
       "team": {
         "name": "Ghana",

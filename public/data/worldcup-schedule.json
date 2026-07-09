@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T19:48:09.112Z",
+  "updatedAt": "2026-07-09T21:23:18.688Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4189,22 +4189,22 @@
       "time": "北京时间 2026-07-10 04:00",
       "stage": "Quarter-final",
       "venue": "Boston Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "59'",
+      "score": "0-0",
       "home": {
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Morocco",
         "code": "MAR",
         "flag": "🇲🇦",
         "flagUrl": "assets/flags/mar.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null

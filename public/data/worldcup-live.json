@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-09T19:48:09.112Z",
+  "updatedAt": "2026-07-09T21:23:18.688Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021536",
+      "stage": "Quarter-final",
+      "status": "LIVE",
+      "minute": "59'",
+      "venue": "Boston Stadium",
+      "home": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Morocco",
+        "code": "MAR",
+        "flag": "🇲🇦",
+        "flagUrl": "assets/flags/mar.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021535",
       "stage": "Round of 16",
@@ -326,59 +348,6 @@
           "player": "Jhon Arias",
           "minute": "14'",
           "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021521",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "Miami Stadium",
-      "home": {
-        "name": "Argentina",
-        "code": "ARG",
-        "flag": "🇦🇷",
-        "flagUrl": "assets/flags/arg.svg",
-        "score": 3
-      },
-      "away": {
-        "name": "Cabo Verde",
-        "code": "CAB",
-        "flag": "🇨🇻",
-        "flagUrl": "assets/flags/cab.svg",
-        "score": 2
-      },
-      "goals": [
-        {
-          "team": "ARG",
-          "player": "Lionel Messi",
-          "minute": "29'",
-          "type": "goal"
-        },
-        {
-          "team": "CAB",
-          "player": "Deroy Duarte",
-          "minute": "59'",
-          "type": "goal"
-        },
-        {
-          "team": "ARG",
-          "player": "Lisandro Martinez",
-          "minute": "92'",
-          "type": "goal"
-        },
-        {
-          "team": "CAB",
-          "player": "Sidny Lopes Cabral",
-          "minute": "103'",
-          "type": "goal"
-        },
-        {
-          "team": "ARG",
-          "player": "Diney Borges",
-          "minute": "111'",
-          "type": "own_goal"
         }
       ]
     }
