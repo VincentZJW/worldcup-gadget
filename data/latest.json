@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-09 09:09",
-  "date_range": "2026-07-06 to 2026-07-08",
-  "summary": "西班牙 1-0 击败葡萄牙，比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚。",
+  "updated_at": "北京时间 2026-07-10 05:21",
+  "date_range": "2026-07-06 to 2026-07-10",
+  "summary": "比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚，法国 0-0 暂平摩洛哥。",
   "matches": [
     {
       "group": "Group",
@@ -284,26 +284,51 @@
         "双方均未取得进球。",
         "比赛场地：BC Place Vancouver。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-10 04:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "57'",
+      "venue": "Boston Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-10 04:00",
+      "finished_at_bj": "北京时间 2026-07-10 04:00",
       "team_a": {
         "name": "France",
         "flag": "🇫🇷",
+        "score": 0,
+        "scorers": [],
         "name_zh": "法国",
         "name_en": "France"
       },
       "team_b": {
         "name": "Morocco",
         "flag": "🇲🇦",
+        "score": 0,
+        "scorers": [],
         "name_zh": "摩洛哥",
         "name_en": "Morocco"
       },
-      "group": "Group"
-    },
+      "venue_en": "Boston Stadium",
+      "venue_zh": "Boston Stadium",
+      "highlights_en": [
+        "France and Morocco are level 0-0 in Group.",
+        "Neither side scored.",
+        "The match was played at Boston Stadium."
+      ],
+      "highlights_zh": [
+        "法国 0-0 暂平摩洛哥，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Boston Stadium。"
+      ],
+      "highlights": [
+        "法国 0-0 暂平摩洛哥，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Boston Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-11 03:00",
       "team_a": {
@@ -338,8 +363,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "西班牙 1-0 击败葡萄牙，比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚。",
-  "summary_en": "Spain beat Portugal 1-0; Belgium beat USA 4-1; Argentina beat Egypt 3-2; Switzerland drew 0-0 with Colombia.",
+  "summary_zh": "比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚，法国 0-0 暂平摩洛哥。",
+  "summary_en": "Belgium beat USA 4-1; Argentina beat Egypt 3-2; Switzerland drew 0-0 with Colombia; France and Morocco are level 0-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -348,6 +373,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-09T01:09:27.971Z"
+    "fetched_at": "2026-07-09T21:21:26.801Z"
   }
 }
