@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T19:26:53.336Z",
+  "updatedAt": "2026-07-10T20:50:39.090Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,24 +7,43 @@
     {
       "id": "400021538",
       "stage": "Quarter-final",
-      "status": "LIVE",
-      "minute": "26'",
+      "status": "FT",
+      "minute": "",
       "venue": "Los Angeles Stadium",
       "home": {
         "name": "Spain",
         "code": "ESP",
         "flag": "🇪🇸",
         "flagUrl": "assets/flags/esp.svg",
-        "score": 0
+        "score": 2
       },
       "away": {
         "name": "Belgium",
         "code": "BEL",
         "flag": "🇧🇪",
         "flagUrl": "assets/flags/bel.svg",
-        "score": 0
+        "score": 1
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "ESP",
+          "player": "Fabian Ruiz",
+          "minute": "30'",
+          "type": "goal"
+        },
+        {
+          "team": "BEL",
+          "player": "Charles De Ketelaere",
+          "minute": "41'",
+          "type": "goal"
+        },
+        {
+          "team": "ESP",
+          "player": "Mikel Merino",
+          "minute": "88'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021536",
