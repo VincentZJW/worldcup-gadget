@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-11 04:48",
+  "updated_at": "北京时间 2026-07-11 06:00",
   "date_range": "2026-07-07 to 2026-07-11",
-  "summary": "阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚，法国 2-0 击败摩洛哥，西班牙 1-1 战平比利时。",
+  "summary": "阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚，法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时。",
   "matches": [
     {
       "group": "Group",
@@ -238,15 +238,20 @@
       "minute": "",
       "venue": "Los Angeles Stadium",
       "kickoff_at_bj": "北京时间 2026-07-11 03:00",
-      "finished_at_bj": "北京时间 2026-07-11 04:45",
+      "finished_at_bj": "北京时间 2026-07-11 04:53",
       "team_a": {
         "name": "Spain",
         "flag": "🇪🇸",
-        "score": 1,
+        "score": 2,
         "scorers": [
           {
             "player": "Fabian Ruiz",
             "minute": "30'",
+            "type": "goal"
+          },
+          {
+            "player": "Mikel Merino",
+            "minute": "88'",
             "type": "goal"
           }
         ],
@@ -270,18 +275,18 @@
       "venue_en": "Los Angeles Stadium",
       "venue_zh": "Los Angeles Stadium",
       "highlights_en": [
-        "Spain drew 1-1 with Belgium in Group.",
-        "Fabian Ruiz 30', Charles De Ketelaere 41'",
+        "Spain beat Belgium 2-1 in Group.",
+        "Fabian Ruiz 30', Mikel Merino 88', Charles De Ketelaere 41'",
         "The match was played at Los Angeles Stadium."
       ],
       "highlights_zh": [
-        "西班牙 1-1 战平比利时，比赛属于 Group。",
-        "Fabian Ruiz 30', Charles De Ketelaere 41'",
+        "西班牙 2-1 击败比利时，比赛属于 Group。",
+        "Fabian Ruiz 30', Mikel Merino 88', Charles De Ketelaere 41'",
         "比赛场地：Los Angeles Stadium。"
       ],
       "highlights": [
-        "西班牙 1-1 战平比利时，比赛属于 Group。",
-        "Fabian Ruiz 30', Charles De Ketelaere 41'",
+        "西班牙 2-1 击败比利时，比赛属于 Group。",
+        "Fabian Ruiz 30', Mikel Merino 88', Charles De Ketelaere 41'",
         "比赛场地：Los Angeles Stadium。"
       ]
     }
@@ -322,8 +327,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚，法国 2-0 击败摩洛哥，西班牙 1-1 战平比利时。",
-  "summary_en": "Argentina beat Egypt 3-2; Switzerland drew 0-0 with Colombia; France beat Morocco 2-0; Spain drew 1-1 with Belgium.",
+  "summary_zh": "阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚，法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时。",
+  "summary_en": "Argentina beat Egypt 3-2; Switzerland drew 0-0 with Colombia; France beat Morocco 2-0; Spain beat Belgium 2-1.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -332,6 +337,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-10T20:48:54.714Z"
+    "fetched_at": "2026-07-10T22:00:03.592Z"
   }
 }
