@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-10T17:47:30.970Z",
+  "updatedAt": "2026-07-10T19:26:53.336Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021538",
+      "stage": "Quarter-final",
+      "status": "LIVE",
+      "minute": "26'",
+      "venue": "Los Angeles Stadium",
+      "home": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Belgium",
+        "code": "BEL",
+        "flag": "🇧🇪",
+        "flagUrl": "assets/flags/bel.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021536",
       "stage": "Quarter-final",
@@ -331,35 +353,6 @@
           "team": "MAR",
           "player": "Soufiane Rahimi",
           "minute": "90'+8'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021517",
-      "stage": "Round of 32",
-      "status": "FT",
-      "minute": "",
-      "venue": "Kansas City Stadium",
-      "home": {
-        "name": "Colombia",
-        "code": "COL",
-        "flag": "🇨🇴",
-        "flagUrl": "assets/flags/col.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Ghana",
-        "code": "GHA",
-        "flag": "🇬🇭",
-        "flagUrl": "assets/flags/gha.svg",
-        "score": 0
-      },
-      "goals": [
-        {
-          "team": "COL",
-          "player": "Jhon Arias",
-          "minute": "14'",
           "type": "goal"
         }
       ]

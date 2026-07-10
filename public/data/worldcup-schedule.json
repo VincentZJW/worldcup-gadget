@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T17:47:30.970Z",
+  "updatedAt": "2026-07-10T19:26:53.336Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4228,22 +4228,22 @@
       "time": "北京时间 2026-07-11 03:00",
       "stage": "Quarter-final",
       "venue": "Los Angeles Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "26'",
+      "score": "0-0",
       "home": {
         "name": "Spain",
         "code": "ESP",
         "flag": "🇪🇸",
         "flagUrl": "assets/flags/esp.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Belgium",
         "code": "BEL",
         "flag": "🇧🇪",
         "flagUrl": "assets/flags/bel.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
