@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-10 08:02",
-  "date_range": "2026-07-07 to 2026-07-10",
-  "summary": "比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚，法国 2-0 击败摩洛哥。",
+  "updated_at": "北京时间 2026-07-11 03:24",
+  "date_range": "2026-07-07 to 2026-07-11",
+  "summary": "阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚，法国 2-0 击败摩洛哥，西班牙 0-0 暂平比利时。",
   "matches": [
     {
       "group": "Group",
@@ -231,26 +231,51 @@
         "Kylian Mbappe 60', Ousmane Dembele 66'",
         "比赛场地：Boston Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-11 03:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "23'",
+      "venue": "Los Angeles Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-11 03:00",
+      "finished_at_bj": "北京时间 2026-07-11 03:00",
       "team_a": {
         "name": "Spain",
         "flag": "🇪🇸",
+        "score": 0,
+        "scorers": [],
         "name_zh": "西班牙",
         "name_en": "Spain"
       },
       "team_b": {
         "name": "Belgium",
         "flag": "🇧🇪",
+        "score": 0,
+        "scorers": [],
         "name_zh": "比利时",
         "name_en": "Belgium"
       },
-      "group": "Group"
-    },
+      "venue_en": "Los Angeles Stadium",
+      "venue_zh": "Los Angeles Stadium",
+      "highlights_en": [
+        "Spain and Belgium are level 0-0 in Group.",
+        "Neither side scored.",
+        "The match was played at Los Angeles Stadium."
+      ],
+      "highlights_zh": [
+        "西班牙 0-0 暂平比利时，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Los Angeles Stadium。"
+      ],
+      "highlights": [
+        "西班牙 0-0 暂平比利时，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Los Angeles Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-12 05:00",
       "team_a": {
@@ -285,8 +310,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "比利时 4-1 击败美国，阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚，法国 2-0 击败摩洛哥。",
-  "summary_en": "Belgium beat USA 4-1; Argentina beat Egypt 3-2; Switzerland drew 0-0 with Colombia; France beat Morocco 2-0.",
+  "summary_zh": "阿根廷 3-2 击败埃及，瑞士 0-0 战平哥伦比亚，法国 2-0 击败摩洛哥，西班牙 0-0 暂平比利时。",
+  "summary_en": "Argentina beat Egypt 3-2; Switzerland drew 0-0 with Colombia; France beat Morocco 2-0; Spain and Belgium are level 0-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -295,6 +320,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-10T00:02:58.950Z"
+    "fetched_at": "2026-07-10T19:24:22.728Z"
   }
 }
