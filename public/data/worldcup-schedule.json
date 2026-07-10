@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T20:50:39.090Z",
+  "updatedAt": "2026-07-10T22:02:24.300Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4265,7 +4265,7 @@
           "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43969"
     },
     {
       "id": "400021539",
@@ -4336,10 +4336,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg",
         "score": null
       },
       "goals": [],
