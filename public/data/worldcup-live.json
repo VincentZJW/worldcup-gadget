@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T22:21:34.188Z",
+  "updatedAt": "2026-07-11T23:26:50.769Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,8 +7,8 @@
     {
       "id": "400021539",
       "stage": "Quarter-final",
-      "status": "LIVE",
-      "minute": "59'",
+      "status": "FT",
+      "minute": "",
       "venue": "Miami Stadium",
       "home": {
         "name": "Norway",
@@ -22,7 +22,7 @@
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": 1
+        "score": 2
       },
       "goals": [
         {
@@ -35,6 +35,12 @@
           "team": "ENG",
           "player": "Jude Bellingham",
           "minute": "45'+2'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Jude Bellingham",
+          "minute": "93'",
           "type": "goal"
         }
       ]
