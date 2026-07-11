@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-12 06:13",
+  "updated_at": "北京时间 2026-07-12 07:25",
   "date_range": "2026-07-10 to 2026-07-12",
-  "summary": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，挪威 1-1 暂平英格兰。",
+  "summary": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，英格兰 2-1 击败挪威。",
   "matches": [
     {
       "group": "Group",
@@ -115,11 +115,11 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "51'",
+      "status": "FT",
+      "minute": "",
       "venue": "Miami Stadium",
       "kickoff_at_bj": "北京时间 2026-07-12 05:00",
-      "finished_at_bj": "北京时间 2026-07-12 05:00",
+      "finished_at_bj": "北京时间 2026-07-12 07:00",
       "team_a": {
         "name": "Norway",
         "flag": "🇳🇴",
@@ -137,11 +137,16 @@
       "team_b": {
         "name": "England",
         "flag": "🏴",
-        "score": 1,
+        "score": 2,
         "scorers": [
           {
             "player": "Jude Bellingham",
             "minute": "45'+2'",
+            "type": "goal"
+          },
+          {
+            "player": "Jude Bellingham",
+            "minute": "93'",
             "type": "goal"
           }
         ],
@@ -151,18 +156,18 @@
       "venue_en": "Miami Stadium",
       "venue_zh": "Miami Stadium",
       "highlights_en": [
-        "Norway and England are level 1-1 in Group.",
-        "Andreas Schjelderup 36', Jude Bellingham 45'+2'",
+        "England beat Norway 2-1 in Group.",
+        "Andreas Schjelderup 36', Jude Bellingham 45'+2', Jude Bellingham 93'",
         "The match was played at Miami Stadium."
       ],
       "highlights_zh": [
-        "挪威 1-1 暂平英格兰，比赛属于 Group。",
-        "Andreas Schjelderup 36', Jude Bellingham 45'+2'",
+        "英格兰 2-1 击败挪威，比赛属于 Group。",
+        "Andreas Schjelderup 36', Jude Bellingham 45'+2', Jude Bellingham 93'",
         "比赛场地：Miami Stadium。"
       ],
       "highlights": [
-        "挪威 1-1 暂平英格兰，比赛属于 Group。",
-        "Andreas Schjelderup 36', Jude Bellingham 45'+2'",
+        "英格兰 2-1 击败挪威，比赛属于 Group。",
+        "Andreas Schjelderup 36', Jude Bellingham 45'+2', Jude Bellingham 93'",
         "比赛场地：Miami Stadium。"
       ]
     }
@@ -187,8 +192,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，挪威 1-1 暂平英格兰。",
-  "summary_en": "France beat Morocco 2-0; Spain beat Belgium 2-1; Norway and England are level 1-1.",
+  "summary_zh": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，英格兰 2-1 击败挪威。",
+  "summary_en": "France beat Morocco 2-0; Spain beat Belgium 2-1; England beat Norway 2-1.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -197,6 +202,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-11T22:13:32.248Z"
+    "fetched_at": "2026-07-11T23:25:52.201Z"
   }
 }
