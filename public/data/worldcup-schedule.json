@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T20:23:13.218Z",
+  "updatedAt": "2026-07-11T21:22:39.045Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4273,22 +4273,22 @@
       "time": "北京时间 2026-07-12 05:00",
       "stage": "Quarter-final",
       "venue": "Miami Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "21'",
+      "score": "0-0",
       "home": {
         "name": "Norway",
         "code": "NOR",
         "flag": "🇳🇴",
         "flagUrl": "assets/flags/nor.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
