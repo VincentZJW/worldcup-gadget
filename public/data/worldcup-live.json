@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T21:22:39.045Z",
+  "updatedAt": "2026-07-11T22:21:34.188Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -8,23 +8,36 @@
       "id": "400021539",
       "stage": "Quarter-final",
       "status": "LIVE",
-      "minute": "21'",
+      "minute": "59'",
       "venue": "Miami Stadium",
       "home": {
         "name": "Norway",
         "code": "NOR",
         "flag": "🇳🇴",
         "flagUrl": "assets/flags/nor.svg",
-        "score": 0
+        "score": 1
       },
       "away": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": 0
+        "score": 1
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "NOR",
+          "player": "Andreas Schjelderup",
+          "minute": "36'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Jude Bellingham",
+          "minute": "45'+2'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021538",
