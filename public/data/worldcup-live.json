@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T01:06:12.495Z",
+  "updatedAt": "2026-07-12T01:29:10.532Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -8,14 +8,14 @@
       "id": "400021537",
       "stage": "Quarter-final",
       "status": "LIVE",
-      "minute": "5'",
+      "minute": "28'",
       "venue": "Kansas City Stadium",
       "home": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": 0
+        "score": 1
       },
       "away": {
         "name": "Switzerland",
@@ -24,7 +24,14 @@
         "flagUrl": "assets/flags/sui.svg",
         "score": 0
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "ARG",
+          "player": "Alexis Mac Allister",
+          "minute": "10'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021539",
