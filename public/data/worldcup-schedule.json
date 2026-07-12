@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T23:26:50.769Z",
+  "updatedAt": "2026-07-12T01:06:12.495Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4310,7 +4310,7 @@
           "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43942"
     },
     {
       "id": "400021537",
@@ -4318,22 +4318,22 @@
       "time": "北京时间 2026-07-12 09:00",
       "stage": "Quarter-final",
       "venue": "Kansas City Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "5'",
+      "score": "0-0",
       "home": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Switzerland",
         "code": "SUI",
         "flag": "🇨🇭",
         "flagUrl": "assets/flags/sui.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
@@ -4374,10 +4374,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg",
         "score": null
       },
       "away": {
