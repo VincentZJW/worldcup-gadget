@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-12 07:25",
+  "updated_at": "北京时间 2026-07-12 09:03",
   "date_range": "2026-07-10 to 2026-07-12",
-  "summary": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，英格兰 2-1 击败挪威。",
+  "summary": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，英格兰 2-1 击败挪威，阿根廷 0-0 暂平瑞士。",
   "matches": [
     {
       "group": "Group",
@@ -119,7 +119,7 @@
       "minute": "",
       "venue": "Miami Stadium",
       "kickoff_at_bj": "北京时间 2026-07-12 05:00",
-      "finished_at_bj": "北京时间 2026-07-12 07:00",
+      "finished_at_bj": "北京时间 2026-07-12 07:18",
       "team_a": {
         "name": "Norway",
         "flag": "🇳🇴",
@@ -170,30 +170,71 @@
         "Andreas Schjelderup 36', Jude Bellingham 45'+2', Jude Bellingham 93'",
         "比赛场地：Miami Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-12 09:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "3'",
+      "venue": "Kansas City Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-12 09:00",
+      "finished_at_bj": "北京时间 2026-07-12 09:00",
       "team_a": {
         "name": "Argentina",
         "flag": "🇦🇷",
+        "score": 0,
+        "scorers": [],
         "name_zh": "阿根廷",
         "name_en": "Argentina"
       },
       "team_b": {
         "name": "Switzerland",
         "flag": "🇨🇭",
+        "score": 0,
+        "scorers": [],
         "name_zh": "瑞士",
         "name_en": "Switzerland"
+      },
+      "venue_en": "Kansas City Stadium",
+      "venue_zh": "Kansas City Stadium",
+      "highlights_en": [
+        "Argentina and Switzerland are level 0-0 in Group.",
+        "Neither side scored.",
+        "The match was played at Kansas City Stadium."
+      ],
+      "highlights_zh": [
+        "阿根廷 0-0 暂平瑞士，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Kansas City Stadium。"
+      ],
+      "highlights": [
+        "阿根廷 0-0 暂平瑞士，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Kansas City Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [],
+  "today_fixtures": [
+    {
+      "time_bj": "北京时间 2026-07-15 03:00",
+      "team_a": {
+        "name": "France",
+        "flag": "🇫🇷",
+        "name_zh": "法国",
+        "name_en": "France"
+      },
+      "team_b": {
+        "name": "Spain",
+        "flag": "🇪🇸",
+        "name_zh": "西班牙",
+        "name_en": "Spain"
       },
       "group": "Group"
     }
   ],
   "news": [],
-  "summary_zh": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，英格兰 2-1 击败挪威。",
-  "summary_en": "France beat Morocco 2-0; Spain beat Belgium 2-1; England beat Norway 2-1.",
+  "summary_zh": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，英格兰 2-1 击败挪威，阿根廷 0-0 暂平瑞士。",
+  "summary_en": "France beat Morocco 2-0; Spain beat Belgium 2-1; England beat Norway 2-1; Argentina and Switzerland are level 0-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -202,6 +243,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-11T23:25:52.201Z"
+    "fetched_at": "2026-07-12T01:03:50.631Z"
   }
 }
