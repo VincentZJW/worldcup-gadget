@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T01:29:10.532Z",
+  "updatedAt": "2026-07-12T04:52:06.583Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,28 +7,46 @@
     {
       "id": "400021537",
       "stage": "Quarter-final",
-      "status": "LIVE",
-      "minute": "28'",
+      "status": "FT",
+      "minute": "",
       "venue": "Kansas City Stadium",
       "home": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": 1
+        "score": 3
       },
       "away": {
         "name": "Switzerland",
         "code": "SUI",
         "flag": "🇨🇭",
         "flagUrl": "assets/flags/sui.svg",
-        "score": 0
+        "score": 1
       },
       "goals": [
         {
           "team": "ARG",
           "player": "Alexis Mac Allister",
           "minute": "10'",
+          "type": "goal"
+        },
+        {
+          "team": "SUI",
+          "player": "Dan Ndoye",
+          "minute": "67'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Julian Alvarez",
+          "minute": "112'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lautaro Martinez",
+          "minute": "120'+1'",
           "type": "goal"
         }
       ]

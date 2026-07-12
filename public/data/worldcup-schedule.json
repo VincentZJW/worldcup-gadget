@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T01:29:10.532Z",
+  "updatedAt": "2026-07-12T04:52:06.583Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4318,22 +4318,22 @@
       "time": "北京时间 2026-07-12 09:00",
       "stage": "Quarter-final",
       "venue": "Kansas City Stadium",
-      "status": "LIVE",
-      "minute": "28'",
-      "score": "1-0",
+      "status": "FT",
+      "minute": "",
+      "score": "3-1",
       "home": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": 1
+        "score": 3
       },
       "away": {
         "name": "Switzerland",
         "code": "SUI",
         "flag": "🇨🇭",
         "flagUrl": "assets/flags/sui.svg",
-        "score": 0
+        "score": 1
       },
       "goals": [
         {
@@ -4341,9 +4341,27 @@
           "player": "Alexis Mac Allister",
           "minute": "10'",
           "type": "goal"
+        },
+        {
+          "team": "SUI",
+          "player": "Dan Ndoye",
+          "minute": "67'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Julian Alvarez",
+          "minute": "112'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lautaro Martinez",
+          "minute": "120'+1'",
+          "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43922"
     },
     {
       "id": "400021541",
@@ -4388,10 +4406,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "flagUrl": "assets/flags/arg.svg",
         "score": null
       },
       "goals": [],
