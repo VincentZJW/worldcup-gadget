@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-12 09:57",
+  "updated_at": "北京时间 2026-07-12 13:27",
   "date_range": "2026-07-10 to 2026-07-12",
-  "summary": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，英格兰 2-1 击败挪威，阿根廷 1-0 暂时领先瑞士。",
+  "summary": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，英格兰 2-1 击败挪威，阿根廷 3-1 击败瑞士。",
   "matches": [
     {
       "group": "Group",
@@ -173,19 +173,29 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
+      "status": "FT",
       "minute": "",
       "venue": "Kansas City Stadium",
       "kickoff_at_bj": "北京时间 2026-07-12 09:00",
-      "finished_at_bj": "北京时间 2026-07-12 09:00",
+      "finished_at_bj": "北京时间 2026-07-12 11:20",
       "team_a": {
         "name": "Argentina",
         "flag": "🇦🇷",
-        "score": 1,
+        "score": 3,
         "scorers": [
           {
             "player": "Alexis Mac Allister",
             "minute": "10'",
+            "type": "goal"
+          },
+          {
+            "player": "Julian Alvarez",
+            "minute": "112'",
+            "type": "goal"
+          },
+          {
+            "player": "Lautaro Martinez",
+            "minute": "120'+1'",
             "type": "goal"
           }
         ],
@@ -195,26 +205,32 @@
       "team_b": {
         "name": "Switzerland",
         "flag": "🇨🇭",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Dan Ndoye",
+            "minute": "67'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "瑞士",
         "name_en": "Switzerland"
       },
       "venue_en": "Kansas City Stadium",
       "venue_zh": "Kansas City Stadium",
       "highlights_en": [
-        "Argentina lead Switzerland 1-0 in Group.",
-        "Alexis Mac Allister 10'",
+        "Argentina beat Switzerland 3-1 in Group.",
+        "Alexis Mac Allister 10', Julian Alvarez 112', Lautaro Martinez 120'+1', Dan Ndoye 67'",
         "The match was played at Kansas City Stadium."
       ],
       "highlights_zh": [
-        "阿根廷 1-0 暂时领先瑞士，比赛属于 Group。",
-        "Alexis Mac Allister 10'",
+        "阿根廷 3-1 击败瑞士，比赛属于 Group。",
+        "Alexis Mac Allister 10', Julian Alvarez 112', Lautaro Martinez 120'+1', Dan Ndoye 67'",
         "比赛场地：Kansas City Stadium。"
       ],
       "highlights": [
-        "阿根廷 1-0 暂时领先瑞士，比赛属于 Group。",
-        "Alexis Mac Allister 10'",
+        "阿根廷 3-1 击败瑞士，比赛属于 Group。",
+        "Alexis Mac Allister 10', Julian Alvarez 112', Lautaro Martinez 120'+1', Dan Ndoye 67'",
         "比赛场地：Kansas City Stadium。"
       ]
     }
@@ -239,8 +255,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，英格兰 2-1 击败挪威，阿根廷 1-0 暂时领先瑞士。",
-  "summary_en": "France beat Morocco 2-0; Spain beat Belgium 2-1; England beat Norway 2-1; Argentina lead Switzerland 1-0.",
+  "summary_zh": "法国 2-0 击败摩洛哥，西班牙 2-1 击败比利时，英格兰 2-1 击败挪威，阿根廷 3-1 击败瑞士。",
+  "summary_en": "France beat Morocco 2-0; Spain beat Belgium 2-1; England beat Norway 2-1; Argentina beat Switzerland 3-1.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -249,6 +265,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-12T01:57:40.960Z"
+    "fetched_at": "2026-07-12T05:27:52.857Z"
   }
 }
