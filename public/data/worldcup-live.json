@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-14T18:39:05.551Z",
+  "updatedAt": "2026-07-14T20:11:44.465Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021541",
+      "stage": "Semi-final",
+      "status": "LIVE",
+      "minute": "49'",
+      "venue": "Dallas Stadium",
+      "home": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg",
+        "score": 1
+      },
+      "goals": []
+    },
     {
       "id": "400021537",
       "stage": "Quarter-final",
@@ -362,41 +384,6 @@
           "team": "MEX",
           "player": "Julian Quinones",
           "minute": "42'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021532",
-      "stage": "Round of 16",
-      "status": "FT",
-      "minute": "",
-      "venue": "New York/New Jersey Stadium",
-      "home": {
-        "name": "Brazil",
-        "code": "BRA",
-        "flag": "🇧🇷",
-        "flagUrl": "assets/flags/bra.svg",
-        "score": 1
-      },
-      "away": {
-        "name": "Norway",
-        "code": "NOR",
-        "flag": "🇳🇴",
-        "flagUrl": "assets/flags/nor.svg",
-        "score": 2
-      },
-      "goals": [
-        {
-          "team": "NOR",
-          "player": "Erling Haaland",
-          "minute": "79'",
-          "type": "goal"
-        },
-        {
-          "team": "NOR",
-          "player": "Erling Haaland",
-          "minute": "90'",
           "type": "goal"
         }
       ]

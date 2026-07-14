@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T18:39:05.551Z",
+  "updatedAt": "2026-07-14T20:11:44.465Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4369,22 +4369,22 @@
       "time": "北京时间 2026-07-15 03:00",
       "stage": "Semi-final",
       "venue": "Dallas Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "49'",
+      "score": "0-1",
       "home": {
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Spain",
         "code": "ESP",
         "flag": "🇪🇸",
         "flagUrl": "assets/flags/esp.svg",
-        "score": null
+        "score": 1
       },
       "goals": [],
       "winner": null
@@ -4419,7 +4419,7 @@
       "id": "400021542",
       "date": "2026-07-19",
       "time": "北京时间 2026-07-19 05:00",
-      "stage": "Play-off for third place",
+      "stage": "Bronze final",
       "venue": "Miami Stadium",
       "status": "Scheduled",
       "minute": "",
