@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-14 09:46",
-  "date_range": "2026-07-12",
-  "summary": "英格兰 2-1 击败挪威，阿根廷 3-1 击败瑞士。",
+  "updated_at": "北京时间 2026-07-15 04:09",
+  "date_range": "2026-07-12 to 2026-07-15",
+  "summary": "英格兰 2-1 击败挪威，阿根廷 3-1 击败瑞士，西班牙 1-0 暂时领先法国。",
   "matches": [
     {
       "group": "Group",
@@ -123,26 +123,51 @@
         "Alexis Mac Allister 10', Julian Alvarez 112', Lautaro Martinez 120'+1', Dan Ndoye 67'",
         "比赛场地：Kansas City Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-15 03:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "47'",
+      "venue": "Dallas Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-15 03:00",
+      "finished_at_bj": "北京时间 2026-07-15 03:00",
       "team_a": {
         "name": "France",
         "flag": "🇫🇷",
+        "score": 0,
+        "scorers": [],
         "name_zh": "法国",
         "name_en": "France"
       },
       "team_b": {
         "name": "Spain",
         "flag": "🇪🇸",
+        "score": 1,
+        "scorers": [],
         "name_zh": "西班牙",
         "name_en": "Spain"
       },
-      "group": "Group"
-    },
+      "venue_en": "Dallas Stadium",
+      "venue_zh": "Dallas Stadium",
+      "highlights_en": [
+        "Spain lead France 1-0 in Group.",
+        "Neither side scored.",
+        "The match was played at Dallas Stadium."
+      ],
+      "highlights_zh": [
+        "西班牙 1-0 暂时领先法国，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Dallas Stadium。"
+      ],
+      "highlights": [
+        "西班牙 1-0 暂时领先法国，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Dallas Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-16 03:00",
       "team_a": {
@@ -161,8 +186,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "英格兰 2-1 击败挪威，阿根廷 3-1 击败瑞士。",
-  "summary_en": "England beat Norway 2-1; Argentina beat Switzerland 3-1.",
+  "summary_zh": "英格兰 2-1 击败挪威，阿根廷 3-1 击败瑞士，西班牙 1-0 暂时领先法国。",
+  "summary_en": "England beat Norway 2-1; Argentina beat Switzerland 3-1; Spain lead France 1-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -171,6 +196,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-14T01:46:31.544Z"
+    "fetched_at": "2026-07-14T20:09:03.740Z"
   }
 }
