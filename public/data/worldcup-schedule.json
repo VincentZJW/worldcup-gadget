@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T20:11:44.465Z",
+  "updatedAt": "2026-07-14T21:30:33.121Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4369,9 +4369,9 @@
       "time": "北京时间 2026-07-15 03:00",
       "stage": "Semi-final",
       "venue": "Dallas Stadium",
-      "status": "LIVE",
-      "minute": "49'",
-      "score": "0-1",
+      "status": "FT",
+      "minute": "",
+      "score": "0-2",
       "home": {
         "name": "France",
         "code": "FRA",
@@ -4384,10 +4384,17 @@
         "code": "ESP",
         "flag": "🇪🇸",
         "flagUrl": "assets/flags/esp.svg",
-        "score": 1
+        "score": 2
       },
-      "goals": [],
-      "winner": null
+      "goals": [
+        {
+          "team": "ESP",
+          "player": "Pedro Porro",
+          "minute": "58'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43969"
     },
     {
       "id": "400021540",
@@ -4425,10 +4432,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg",
         "score": null
       },
       "away": {
@@ -4451,10 +4458,10 @@
       "minute": "",
       "score": "",
       "home": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Spain",
+        "code": "ESP",
+        "flag": "🇪🇸",
+        "flagUrl": "assets/flags/esp.svg",
         "score": null
       },
       "away": {

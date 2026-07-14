@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T20:11:44.465Z",
+  "updatedAt": "2026-07-14T21:30:33.121Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -1193,10 +1193,10 @@
           "stage": "Final",
           "status": "Scheduled",
           "home": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Spain",
+            "code": "ESP",
+            "flag": "🇪🇸",
+            "flagUrl": "assets/flags/esp.svg",
             "score": null
           },
           "away": {

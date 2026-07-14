@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T20:11:44.465Z",
+  "updatedAt": "2026-07-14T21:30:33.121Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,8 +7,8 @@
     {
       "id": "400021541",
       "stage": "Semi-final",
-      "status": "LIVE",
-      "minute": "49'",
+      "status": "FT",
+      "minute": "",
       "venue": "Dallas Stadium",
       "home": {
         "name": "France",
@@ -22,9 +22,16 @@
         "code": "ESP",
         "flag": "🇪🇸",
         "flagUrl": "assets/flags/esp.svg",
-        "score": 1
+        "score": 2
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "ESP",
+          "player": "Pedro Porro",
+          "minute": "58'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021537",
