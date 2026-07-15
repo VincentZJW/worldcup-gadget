@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:08:20.405Z",
+  "updatedAt": "2026-07-15T21:29:51.408Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4402,25 +4402,44 @@
       "time": "北京时间 2026-07-16 03:00",
       "stage": "Semi-final",
       "venue": "Atlanta Stadium",
-      "status": "LIVE",
-      "minute": "47'",
-      "score": "0-0",
+      "status": "FT",
+      "minute": "",
+      "score": "1-2",
       "home": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": 0
+        "score": 1
       },
       "away": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": 0
+        "score": 2
       },
-      "goals": [],
-      "winner": null
+      "goals": [
+        {
+          "team": "ENG",
+          "player": "Anthony Gordon",
+          "minute": "55'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Enzo Fernandez",
+          "minute": "85'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lautaro Martinez",
+          "minute": "90'+2'",
+          "type": "goal"
+        }
+      ],
+      "winner": "43922"
     },
     {
       "id": "400021542",
@@ -4439,10 +4458,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg",
         "score": null
       },
       "goals": [],
@@ -4465,10 +4484,10 @@
         "score": null
       },
       "away": {
-        "name": "TBD",
-        "code": "TBD",
-        "flag": "🏳️",
-        "flagUrl": "",
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "flagUrl": "assets/flags/arg.svg",
         "score": null
       },
       "goals": [],

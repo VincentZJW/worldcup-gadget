@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:08:20.405Z",
+  "updatedAt": "2026-07-15T21:29:51.408Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,24 +7,43 @@
     {
       "id": "400021540",
       "stage": "Semi-final",
-      "status": "LIVE",
-      "minute": "47'",
+      "status": "FT",
+      "minute": "",
       "venue": "Atlanta Stadium",
       "home": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": 0
+        "score": 1
       },
       "away": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": 0
+        "score": 2
       },
-      "goals": []
+      "goals": [
+        {
+          "team": "ENG",
+          "player": "Anthony Gordon",
+          "minute": "55'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Enzo Fernandez",
+          "minute": "85'",
+          "type": "goal"
+        },
+        {
+          "team": "ARG",
+          "player": "Lautaro Martinez",
+          "minute": "90'+2'",
+          "type": "goal"
+        }
+      ]
     },
     {
       "id": "400021541",

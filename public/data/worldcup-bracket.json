@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:08:20.405Z",
+  "updatedAt": "2026-07-15T21:29:51.408Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -1200,10 +1200,10 @@
             "score": null
           },
           "away": {
-            "name": "TBD",
-            "code": "TBD",
-            "flag": "🏳️",
-            "flagUrl": "",
+            "name": "Argentina",
+            "code": "ARG",
+            "flag": "🇦🇷",
+            "flagUrl": "assets/flags/arg.svg",
             "score": null
           },
           "winner": null,
