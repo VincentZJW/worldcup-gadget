@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-16 04:06",
+  "updated_at": "北京时间 2026-07-16 05:29",
   "date_range": "2026-07-12 to 2026-07-16",
-  "summary": "阿根廷 3-1 击败瑞士，西班牙 2-0 击败法国，英格兰 0-0 暂平阿根廷。",
+  "summary": "阿根廷 3-1 击败瑞士，西班牙 2-0 击败法国，阿根廷 2-1 击败英格兰。",
   "matches": [
     {
       "group": "Group",
@@ -115,42 +115,59 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "45'",
+      "status": "FT",
+      "minute": "",
       "venue": "Atlanta Stadium",
       "kickoff_at_bj": "北京时间 2026-07-16 03:00",
-      "finished_at_bj": "北京时间 2026-07-16 03:00",
+      "finished_at_bj": "北京时间 2026-07-16 04:57",
       "team_a": {
         "name": "England",
         "flag": "🏴",
-        "score": 0,
-        "scorers": [],
+        "score": 1,
+        "scorers": [
+          {
+            "player": "Anthony Gordon",
+            "minute": "55'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "英格兰",
         "name_en": "England"
       },
       "team_b": {
         "name": "Argentina",
         "flag": "🇦🇷",
-        "score": 0,
-        "scorers": [],
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Enzo Fernandez",
+            "minute": "85'",
+            "type": "goal"
+          },
+          {
+            "player": "Lautaro Martinez",
+            "minute": "90'+2'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "阿根廷",
         "name_en": "Argentina"
       },
       "venue_en": "Atlanta Stadium",
       "venue_zh": "Atlanta Stadium",
       "highlights_en": [
-        "England and Argentina are level 0-0 in Group.",
-        "Neither side scored.",
+        "Argentina beat England 2-1 in Group.",
+        "Anthony Gordon 55', Enzo Fernandez 85', Lautaro Martinez 90'+2'",
         "The match was played at Atlanta Stadium."
       ],
       "highlights_zh": [
-        "英格兰 0-0 暂平阿根廷，比赛属于 Group。",
-        "双方均未取得进球。",
+        "阿根廷 2-1 击败英格兰，比赛属于 Group。",
+        "Anthony Gordon 55', Enzo Fernandez 85', Lautaro Martinez 90'+2'",
         "比赛场地：Atlanta Stadium。"
       ],
       "highlights": [
-        "英格兰 0-0 暂平阿根廷，比赛属于 Group。",
-        "双方均未取得进球。",
+        "阿根廷 2-1 击败英格兰，比赛属于 Group。",
+        "Anthony Gordon 55', Enzo Fernandez 85', Lautaro Martinez 90'+2'",
         "比赛场地：Atlanta Stadium。"
       ]
     }
@@ -158,8 +175,8 @@
   "standings_changes": [],
   "today_fixtures": [],
   "news": [],
-  "summary_zh": "阿根廷 3-1 击败瑞士，西班牙 2-0 击败法国，英格兰 0-0 暂平阿根廷。",
-  "summary_en": "Argentina beat Switzerland 3-1; Spain beat France 2-0; England and Argentina are level 0-0.",
+  "summary_zh": "阿根廷 3-1 击败瑞士，西班牙 2-0 击败法国，阿根廷 2-1 击败英格兰。",
+  "summary_en": "Argentina beat Switzerland 3-1; Spain beat France 2-0; Argentina beat England 2-1.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -168,6 +185,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-15T20:06:43.172Z"
+    "fetched_at": "2026-07-15T21:29:05.011Z"
   }
 }
