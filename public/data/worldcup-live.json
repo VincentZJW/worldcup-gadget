@@ -1,9 +1,31 @@
 {
-  "updatedAt": "2026-07-15T18:37:45.786Z",
+  "updatedAt": "2026-07-15T20:08:20.405Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021540",
+      "stage": "Semi-final",
+      "status": "LIVE",
+      "minute": "47'",
+      "venue": "Atlanta Stadium",
+      "home": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "Argentina",
+        "code": "ARG",
+        "flag": "🇦🇷",
+        "flagUrl": "assets/flags/arg.svg",
+        "score": 0
+      },
+      "goals": []
+    },
     {
       "id": "400021541",
       "stage": "Semi-final",
@@ -350,47 +372,6 @@
           "team": "ESP",
           "player": "Mikel Merino",
           "minute": "90'+1'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021531",
-      "stage": "Round of 16",
-      "status": "FT",
-      "minute": "",
-      "venue": "Mexico City Stadium",
-      "home": {
-        "name": "Mexico",
-        "code": "MEX",
-        "flag": "🇲🇽",
-        "flagUrl": "assets/flags/mex.svg",
-        "score": 2
-      },
-      "away": {
-        "name": "England",
-        "code": "ENG",
-        "flag": "🏴",
-        "flagUrl": "assets/flags/eng.svg",
-        "score": 3
-      },
-      "goals": [
-        {
-          "team": "ENG",
-          "player": "Jude Bellingham",
-          "minute": "36'",
-          "type": "goal"
-        },
-        {
-          "team": "ENG",
-          "player": "Jude Bellingham",
-          "minute": "38'",
-          "type": "goal"
-        },
-        {
-          "team": "MEX",
-          "player": "Julian Quinones",
-          "minute": "42'",
           "type": "goal"
         }
       ]

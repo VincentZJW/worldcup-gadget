@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T18:37:45.786Z",
+  "updatedAt": "2026-07-15T20:08:20.405Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4402,22 +4402,22 @@
       "time": "北京时间 2026-07-16 03:00",
       "stage": "Semi-final",
       "venue": "Atlanta Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "47'",
+      "score": "0-0",
       "home": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
