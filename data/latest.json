@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-15 09:42",
-  "date_range": "2026-07-12 to 2026-07-15",
-  "summary": "阿根廷 3-1 击败瑞士，西班牙 2-0 击败法国。",
+  "updated_at": "北京时间 2026-07-16 04:06",
+  "date_range": "2026-07-12 to 2026-07-16",
+  "summary": "阿根廷 3-1 击败瑞士，西班牙 2-0 击败法国，英格兰 0-0 暂平阿根廷。",
   "matches": [
     {
       "group": "Group",
@@ -112,30 +112,54 @@
         "Pedro Porro 58'",
         "比赛场地：Dallas Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-16 03:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "45'",
+      "venue": "Atlanta Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-16 03:00",
+      "finished_at_bj": "北京时间 2026-07-16 03:00",
       "team_a": {
         "name": "England",
         "flag": "🏴",
+        "score": 0,
+        "scorers": [],
         "name_zh": "英格兰",
         "name_en": "England"
       },
       "team_b": {
         "name": "Argentina",
         "flag": "🇦🇷",
+        "score": 0,
+        "scorers": [],
         "name_zh": "阿根廷",
         "name_en": "Argentina"
       },
-      "group": "Group"
+      "venue_en": "Atlanta Stadium",
+      "venue_zh": "Atlanta Stadium",
+      "highlights_en": [
+        "England and Argentina are level 0-0 in Group.",
+        "Neither side scored.",
+        "The match was played at Atlanta Stadium."
+      ],
+      "highlights_zh": [
+        "英格兰 0-0 暂平阿根廷，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Atlanta Stadium。"
+      ],
+      "highlights": [
+        "英格兰 0-0 暂平阿根廷，比赛属于 Group。",
+        "双方均未取得进球。",
+        "比赛场地：Atlanta Stadium。"
+      ]
     }
   ],
+  "standings_changes": [],
+  "today_fixtures": [],
   "news": [],
-  "summary_zh": "阿根廷 3-1 击败瑞士，西班牙 2-0 击败法国。",
-  "summary_en": "Argentina beat Switzerland 3-1; Spain beat France 2-0.",
+  "summary_zh": "阿根廷 3-1 击败瑞士，西班牙 2-0 击败法国，英格兰 0-0 暂平阿根廷。",
+  "summary_en": "Argentina beat Switzerland 3-1; Spain beat France 2-0; England and Argentina are level 0-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -144,6 +168,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-15T01:42:59.256Z"
+    "fetched_at": "2026-07-15T20:06:43.172Z"
   }
 }
