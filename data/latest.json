@@ -1,5 +1,5 @@
 {
-  "updated_at": "北京时间 2026-07-16 09:52",
+  "updated_at": "北京时间 2026-07-17 09:56",
   "date_range": "2026-07-15 to 2026-07-16",
   "summary": "西班牙 2-0 击败法国，阿根廷 2-1 击败英格兰。",
   "matches": [
@@ -126,6 +126,22 @@
         "name_en": "England"
       },
       "group": "Group"
+    },
+    {
+      "time_bj": "北京时间 2026-07-20 03:00",
+      "team_a": {
+        "name": "Spain",
+        "flag": "🇪🇸",
+        "name_zh": "西班牙",
+        "name_en": "Spain"
+      },
+      "team_b": {
+        "name": "Argentina",
+        "flag": "🇦🇷",
+        "name_zh": "阿根廷",
+        "name_en": "Argentina"
+      },
+      "group": "Group"
     }
   ],
   "news": [],
@@ -139,6 +155,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-16T01:52:26.518Z"
+    "fetched_at": "2026-07-17T01:56:41.223Z"
   }
 }
