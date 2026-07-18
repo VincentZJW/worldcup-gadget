@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T21:51:20.195Z",
+  "updatedAt": "2026-07-18T22:49:57.867Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -7,7 +7,7 @@
     {
       "id": "400021542",
       "stage": "Bronze final",
-      "status": "LIVE",
+      "status": "FT",
       "minute": "",
       "venue": "Miami Stadium",
       "home": {
@@ -15,7 +15,7 @@
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": 0
+        "score": 3
       },
       "away": {
         "name": "England",
@@ -47,6 +47,30 @@
           "team": "ENG",
           "player": "Bukayo Saka",
           "minute": "45'+1'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Kylian Mbappe",
+          "minute": "48'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Bradley Barcola",
+          "minute": "54'",
+          "type": "goal"
+        },
+        {
+          "team": "FRA",
+          "player": "Kylian Mbappe",
+          "minute": "66'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "England score!",
+          "minute": "87'",
           "type": "goal"
         }
       ]
