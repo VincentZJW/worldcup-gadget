@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T22:49:57.867Z",
+  "updatedAt": "2026-07-18T23:53:34.016Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4449,20 +4449,20 @@
       "venue": "Miami Stadium",
       "status": "FT",
       "minute": "",
-      "score": "3-4",
+      "score": "4-6",
       "home": {
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": 3
+        "score": 4
       },
       "away": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": 4
+        "score": 6
       },
       "goals": [
         {
@@ -4508,13 +4508,19 @@
           "type": "goal"
         },
         {
+          "team": "FRA",
+          "player": "Ousmane Dembele",
+          "minute": "90'+6'",
+          "type": "goal"
+        },
+        {
           "team": "ENG",
-          "player": "England score!",
-          "minute": "87'",
+          "player": "Jude Bellingham",
+          "minute": "90'+8'",
           "type": "goal"
         }
       ],
-      "winner": null
+      "winner": "43942"
     },
     {
       "id": "400021543",
