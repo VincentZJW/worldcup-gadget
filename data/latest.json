@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-18 08:54",
-  "date_range": "2026-07-16",
-  "summary": "阿根廷 2-1 击败英格兰。",
+  "updated_at": "北京时间 2026-07-19 05:22",
+  "date_range": "2026-07-16 to 2026-07-19",
+  "summary": "阿根廷 2-1 击败英格兰，英格兰 2-0 暂时领先法国。",
   "matches": [
     {
       "group": "Group",
@@ -60,26 +60,62 @@
         "Anthony Gordon 55', Enzo Fernandez 85', Lautaro Martinez 90'+2'",
         "比赛场地：Atlanta Stadium。"
       ]
-    }
-  ],
-  "standings_changes": [],
-  "today_fixtures": [
+    },
     {
-      "time_bj": "北京时间 2026-07-19 05:00",
+      "group": "Group",
+      "status": "LIVE",
+      "minute": "22'",
+      "venue": "Miami Stadium",
+      "kickoff_at_bj": "北京时间 2026-07-19 05:00",
+      "finished_at_bj": "北京时间 2026-07-19 05:00",
       "team_a": {
         "name": "France",
         "flag": "🇫🇷",
+        "score": 0,
+        "scorers": [],
         "name_zh": "法国",
         "name_en": "France"
       },
       "team_b": {
         "name": "England",
         "flag": "🏴",
+        "score": 2,
+        "scorers": [
+          {
+            "player": "Declan Rice",
+            "minute": "3'",
+            "type": "goal"
+          },
+          {
+            "player": "Ezri Konsa",
+            "minute": "18'",
+            "type": "goal"
+          }
+        ],
         "name_zh": "英格兰",
         "name_en": "England"
       },
-      "group": "Group"
-    },
+      "venue_en": "Miami Stadium",
+      "venue_zh": "Miami Stadium",
+      "highlights_en": [
+        "England lead France 2-0 in Group.",
+        "Declan Rice 3', Ezri Konsa 18'",
+        "The match was played at Miami Stadium."
+      ],
+      "highlights_zh": [
+        "英格兰 2-0 暂时领先法国，比赛属于 Group。",
+        "Declan Rice 3', Ezri Konsa 18'",
+        "比赛场地：Miami Stadium。"
+      ],
+      "highlights": [
+        "英格兰 2-0 暂时领先法国，比赛属于 Group。",
+        "Declan Rice 3', Ezri Konsa 18'",
+        "比赛场地：Miami Stadium。"
+      ]
+    }
+  ],
+  "standings_changes": [],
+  "today_fixtures": [
     {
       "time_bj": "北京时间 2026-07-20 03:00",
       "team_a": {
@@ -98,8 +134,8 @@
     }
   ],
   "news": [],
-  "summary_zh": "阿根廷 2-1 击败英格兰。",
-  "summary_en": "Argentina beat England 2-1.",
+  "summary_zh": "阿根廷 2-1 击败英格兰，英格兰 2-0 暂时领先法国。",
+  "summary_en": "Argentina beat England 2-1; England lead France 2-0.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -108,6 +144,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-18T00:54:18.251Z"
+    "fetched_at": "2026-07-18T21:22:12.791Z"
   }
 }
