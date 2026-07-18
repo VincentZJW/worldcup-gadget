@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T19:41:41.045Z",
+  "updatedAt": "2026-07-18T20:46:53.041Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -549,7 +549,7 @@
       "player": {
         "id": "dan ndoye-SUI",
         "name": "Dan Ndoye",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/yr9p371757163162.png"
       },
       "team": {
         "name": "Switzerland",
@@ -585,7 +585,7 @@
       "player": {
         "id": "emam ashour-EGY",
         "name": "Emam Ashour",
-        "photo": ""
+        "photo": "https://r2.thesportsdb.com/images/media/player/cutout/jk038w1750398132.png"
       },
       "team": {
         "name": "Egypt",
