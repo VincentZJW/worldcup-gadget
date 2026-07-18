@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T20:46:53.041Z",
+  "updatedAt": "2026-07-18T21:51:20.195Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4447,24 +4447,49 @@
       "time": "北京时间 2026-07-19 05:00",
       "stage": "Bronze final",
       "venue": "Miami Stadium",
-      "status": "Scheduled",
+      "status": "LIVE",
       "minute": "",
-      "score": "",
+      "score": "0-4",
       "home": {
         "name": "France",
         "code": "FRA",
         "flag": "🇫🇷",
         "flagUrl": "assets/flags/fra.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "England",
         "code": "ENG",
         "flag": "🏴",
         "flagUrl": "assets/flags/eng.svg",
-        "score": null
+        "score": 4
       },
-      "goals": [],
+      "goals": [
+        {
+          "team": "ENG",
+          "player": "Declan Rice",
+          "minute": "3'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Ezri Konsa",
+          "minute": "18'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Bukayo Saka",
+          "minute": "37'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Bukayo Saka",
+          "minute": "45'+1'",
+          "type": "goal"
+        }
+      ],
       "winner": null
     },
     {

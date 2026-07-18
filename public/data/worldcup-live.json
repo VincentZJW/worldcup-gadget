@@ -1,9 +1,56 @@
 {
-  "updatedAt": "2026-07-18T20:46:53.041Z",
+  "updatedAt": "2026-07-18T21:51:20.195Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
   "matches": [
+    {
+      "id": "400021542",
+      "stage": "Bronze final",
+      "status": "LIVE",
+      "minute": "",
+      "venue": "Miami Stadium",
+      "home": {
+        "name": "France",
+        "code": "FRA",
+        "flag": "🇫🇷",
+        "flagUrl": "assets/flags/fra.svg",
+        "score": 0
+      },
+      "away": {
+        "name": "England",
+        "code": "ENG",
+        "flag": "🏴",
+        "flagUrl": "assets/flags/eng.svg",
+        "score": 4
+      },
+      "goals": [
+        {
+          "team": "ENG",
+          "player": "Declan Rice",
+          "minute": "3'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Ezri Konsa",
+          "minute": "18'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Bukayo Saka",
+          "minute": "37'",
+          "type": "goal"
+        },
+        {
+          "team": "ENG",
+          "player": "Bukayo Saka",
+          "minute": "45'+1'",
+          "type": "goal"
+        }
+      ]
+    },
     {
       "id": "400021540",
       "stage": "Semi-final",
@@ -362,35 +409,6 @@
           "team": "BEL",
           "player": "Romelu Lukaku",
           "minute": "90'+3'",
-          "type": "goal"
-        }
-      ]
-    },
-    {
-      "id": "400021529",
-      "stage": "Round of 16",
-      "status": "FT",
-      "minute": "",
-      "venue": "Dallas Stadium",
-      "home": {
-        "name": "Portugal",
-        "code": "POR",
-        "flag": "🇵🇹",
-        "flagUrl": "assets/flags/por.svg",
-        "score": 0
-      },
-      "away": {
-        "name": "Spain",
-        "code": "ESP",
-        "flag": "🇪🇸",
-        "flagUrl": "assets/flags/esp.svg",
-        "score": 1
-      },
-      "goals": [
-        {
-          "team": "ESP",
-          "player": "Mikel Merino",
-          "minute": "90'+1'",
           "type": "goal"
         }
       ]
