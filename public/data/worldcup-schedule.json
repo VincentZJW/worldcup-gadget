@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T18:01:49.636Z",
+  "updatedAt": "2026-07-19T19:40:55.380Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4528,22 +4528,22 @@
       "time": "北京时间 2026-07-20 03:00",
       "stage": "Final",
       "venue": "New York/New Jersey Stadium",
-      "status": "Scheduled",
-      "minute": "",
-      "score": "",
+      "status": "LIVE",
+      "minute": "35'",
+      "score": "0-0",
       "home": {
         "name": "Spain",
         "code": "ESP",
         "flag": "🇪🇸",
         "flagUrl": "assets/flags/esp.svg",
-        "score": null
+        "score": 0
       },
       "away": {
         "name": "Argentina",
         "code": "ARG",
         "flag": "🇦🇷",
         "flagUrl": "assets/flags/arg.svg",
-        "score": null
+        "score": 0
       },
       "goals": [],
       "winner": null
