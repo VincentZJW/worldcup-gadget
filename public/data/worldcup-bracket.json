@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T19:40:55.380Z",
+  "updatedAt": "2026-07-19T20:47:28.655Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -1191,7 +1191,7 @@
           "date": "2026-07-20",
           "time": "北京时间 2026-07-20 03:00",
           "stage": "Final",
-          "status": "LIVE",
+          "status": "FT",
           "home": {
             "name": "Spain",
             "code": "ESP",
@@ -1208,7 +1208,7 @@
           },
           "winner": null,
           "venue": "New York/New Jersey Stadium",
-          "minute": "35'",
+          "minute": "",
           "score": "0-0",
           "goals": []
         }

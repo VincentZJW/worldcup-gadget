@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T19:40:55.380Z",
+  "updatedAt": "2026-07-19T20:47:28.655Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -4528,8 +4528,8 @@
       "time": "北京时间 2026-07-20 03:00",
       "stage": "Final",
       "venue": "New York/New Jersey Stadium",
-      "status": "LIVE",
-      "minute": "35'",
+      "status": "FT",
+      "minute": "",
       "score": "0-0",
       "home": {
         "name": "Spain",
