@@ -1,7 +1,7 @@
 {
-  "updated_at": "北京时间 2026-07-20 04:23",
+  "updated_at": "北京时间 2026-07-20 05:23",
   "date_range": "2026-07-19 to 2026-07-20",
-  "summary": "英格兰 6-4 击败法国，西班牙 0-0 暂平阿根廷。",
+  "summary": "英格兰 6-4 击败法国，西班牙 0-0 战平阿根廷。",
   "matches": [
     {
       "group": "Group",
@@ -93,11 +93,11 @@
     },
     {
       "group": "Group",
-      "status": "LIVE",
-      "minute": "46'",
+      "status": "FT",
+      "minute": "",
       "venue": "New York/New Jersey Stadium",
       "kickoff_at_bj": "北京时间 2026-07-20 03:00",
-      "finished_at_bj": "北京时间 2026-07-20 03:00",
+      "finished_at_bj": "北京时间 2026-07-20 04:47",
       "team_a": {
         "name": "Spain",
         "flag": "🇪🇸",
@@ -117,17 +117,17 @@
       "venue_en": "New York/New Jersey Stadium",
       "venue_zh": "New York/New Jersey Stadium",
       "highlights_en": [
-        "Spain and Argentina are level 0-0 in Group.",
+        "Spain drew 0-0 with Argentina in Group.",
         "Neither side scored.",
         "The match was played at New York/New Jersey Stadium."
       ],
       "highlights_zh": [
-        "西班牙 0-0 暂平阿根廷，比赛属于 Group。",
+        "西班牙 0-0 战平阿根廷，比赛属于 Group。",
         "双方均未取得进球。",
         "比赛场地：New York/New Jersey Stadium。"
       ],
       "highlights": [
-        "西班牙 0-0 暂平阿根廷，比赛属于 Group。",
+        "西班牙 0-0 战平阿根廷，比赛属于 Group。",
         "双方均未取得进球。",
         "比赛场地：New York/New Jersey Stadium。"
       ]
@@ -136,8 +136,8 @@
   "standings_changes": [],
   "today_fixtures": [],
   "news": [],
-  "summary_zh": "英格兰 6-4 击败法国，西班牙 0-0 暂平阿根廷。",
-  "summary_en": "England beat France 6-4; Spain and Argentina are level 0-0.",
+  "summary_zh": "英格兰 6-4 击败法国，西班牙 0-0 战平阿根廷。",
+  "summary_en": "England beat France 6-4; Spain drew 0-0 with Argentina.",
   "standings_changes_zh": [],
   "standings_changes_en": [],
   "source": {
@@ -146,6 +146,6 @@
     "idCompetition": "17",
     "idSeason": "285023",
     "idStage": "289273",
-    "fetched_at": "2026-07-19T20:23:07.173Z"
+    "fetched_at": "2026-07-19T21:23:24.594Z"
   }
 }
