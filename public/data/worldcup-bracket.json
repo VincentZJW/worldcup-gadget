@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T20:47:28.655Z",
+  "updatedAt": "2026-07-19T21:52:14.265Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -1197,7 +1197,7 @@
             "code": "ESP",
             "flag": "🇪🇸",
             "flagUrl": "assets/flags/esp.svg",
-            "score": 0
+            "score": 1
           },
           "away": {
             "name": "Argentina",
@@ -1209,8 +1209,15 @@
           "winner": null,
           "venue": "New York/New Jersey Stadium",
           "minute": "",
-          "score": "0-0",
-          "goals": []
+          "score": "1-0",
+          "goals": [
+            {
+              "team": "ESP",
+              "player": "Ferran Torres",
+              "minute": "106'",
+              "type": "goal"
+            }
+          ]
         }
       ]
     }
