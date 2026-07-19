@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T21:52:14.265Z",
+  "updatedAt": "2026-07-19T22:51:38.545Z",
   "timezone": "Asia/Shanghai",
   "source": "fifa-fdh",
   "isFallback": false,
@@ -1206,7 +1206,7 @@
             "flagUrl": "assets/flags/arg.svg",
             "score": 0
           },
-          "winner": null,
+          "winner": "43969",
           "venue": "New York/New Jersey Stadium",
           "minute": "",
           "score": "1-0",
